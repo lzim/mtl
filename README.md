@@ -1,5 +1,9 @@
 # mtl
 ## Modeling to Learn by Team PSD
+
+<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingtoLearn_logo_testdontguess.png"
+     height = "200" width = "500">  
+
 ### There are three versions of Modeling to Learn (MTL)
 1. MTL Live 
 2. MTL Video 
