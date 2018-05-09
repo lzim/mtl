@@ -6,7 +6,7 @@
 
 ### Modeling to Learn (MTL) Links
 1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
-2.  www.mtl.how/data - Team Data User Interface - Internal for VHA Providers
+2.  www.mtl.how/data - Team Data User Interface - **Internal for VHA Providers Only
 3.  www.mtl.how/sim - Simulation User Interface for Team of VHA Providers
 4.  www.mtl.how/menu - Modeling to Learn Menu - RedCap Survey of Team Needs/Priorities
 5.  www.mtl.how/facilitate - MTL Facilitator Dashboard at Forio Epicenter
