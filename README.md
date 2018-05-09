@@ -5,18 +5,18 @@
      height = "200" width = "700">  
 
 ### Modeling to Learn (MTL) Links
-1.  mtl.how/live - Modeling to Learn Live - Adobe Connect Room
-2.  mtl.how/data - Team Data User Interface - Internal for VHA Providers
-3.  mtl.how/sim - Simulation User Interface for Team of VHA Providers
-4.  mtl.how/menu - Modeling to Learn Menu - RedCap Survey of Team Needs/Priorities
-5.  mtl.how/facilitate - MTL Facilitator Dashboard at Forio Epicenter
-6.  mtl.how/github - This page - MTL GitHub Repository of Resources
-7.  mtl.how/video - MTL "How To" videos at YouTube
-8.  mtl.how/team - Team Participatory System Dynamics - The MTL Research & Development Team
-9.  mtl.how/lzim - MTL and Team PSD Lead - Lindsey Zimmerman, PhD
-10. mtl.how/tms - MTL Video - Accredited Self-directed MTL training
-11. mtl.how/refs - MTL References 
-12. mtl.how/pubs - Publications & Presentations on MTL by Team PSD
+1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
+2.  www.mtl.how/data - Team Data User Interface - Internal for VHA Providers
+3.  www.mtl.how/sim - Simulation User Interface for Team of VHA Providers
+4.  www.mtl.how/menu - Modeling to Learn Menu - RedCap Survey of Team Needs/Priorities
+5.  www.mtl.how/facilitate - MTL Facilitator Dashboard at Forio Epicenter
+6.  www.mtl.how/github - This page - MTL GitHub Repository of Resources
+7.  www.mtl.how/video - MTL "How To" videos at YouTube
+8.  www.mtl.how/team - Team Participatory System Dynamics - The MTL Research & Development Team
+9.  www.mtl.how/lzim - MTL and Team PSD Lead - Lindsey Zimmerman, PhD
+10. www.mtl.how/tms - MTL Video - Accredited Self-directed MTL training
+11. www.mtl.how/refs - MTL References 
+12. www.mtl.how/pubs - Publications & Presentations on MTL by Team PSD
 
 ### There are three versions of Modeling to Learn (MTL)
 1.  MTL Live 
