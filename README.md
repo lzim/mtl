@@ -1,7 +1,7 @@
 # mtl
 ## Modeling to Learn by Team PSD
 
-<img src = "https://rawgit.com/lzim/teampsd/teampsd_style/ModelingtoLearn_logo_testdontguess.png"
+<img src = "https://github.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "200" width = "500">  
 
 ### Modeling to Learn Links
