@@ -1,10 +1,10 @@
 # mtl
 ## Modeling to Learn by Team PSD
 
-<img src = "https://github.com/lzim/teampsd/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "200" width = "500">  
+<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+     height = "200" width = "700">  
 
-### Modeling to Learn Links
+### Modeling to Learn (MTL) Links
 1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
 2.  www.mtl.how/data - Team Data User Interface - Internal for VHA Providers
 3.  www.mtl.how/sim - Simulation User Interface for Team of VHA Providers
