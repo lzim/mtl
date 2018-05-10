@@ -2,7 +2,7 @@
 ## Modeling to Learn by Team PSD
 
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "200" width = "700">  
+     height = "175" width = "650">  
 
 ### Modeling to Learn (MTL) Links
 1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
