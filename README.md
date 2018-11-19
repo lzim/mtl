@@ -56,7 +56,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
 5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 01
 6.  FILE: Facilitator pre/post checklist for session 01
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 01 (.html and .md)
 
 #### session 02. *Modeling to Learn* how to check our **patient data** and **team trends.**
 
@@ -66,10 +66,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/data
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 02 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.html)
 5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 02
 6.  FILE: Facilitator pre/post checklist for session 01
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 02 (.html and .md)
 8.  FILE: SQL query code
 
 #### session 03. *Modeling to Learn* how to produce **team data** for simulation.
@@ -80,10 +80,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/data
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 03 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+6.  FOLDER: Learner cheatsheets for mtl.how/data (with Gifs) (.html)
 5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 03
 6.  FILE: Facilitator pre/post checklist for session 03
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 03 (.html and .md)
 8.  FILE: Code for team data tables and team trend visualizations (.Rmd)
 
 #### session 04. *Modeling to Learn* how to prioritize **team needs**.
@@ -94,11 +94,11 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/menu
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 04 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+6.  FOLDER: Learner cheatsheets for mtl.how/data (with Gifs) (.html)
 5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 04
 6.  FILE: Facilitator pre/post checklist for session 04
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
-8. FOLDER: Team Time Report #1 (tt1)
+7.  FOLDER: Pre/post emails for session 04 (.html and .md)
+8.  FOLDER: Team Time Report #1 (tt1)
 
 #### session 05. *Modeling to Learn* how to log-in to our **team world**.
 
@@ -108,10 +108,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 01 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 05
 7.  FILE: Facilitator pre/post checklist for session 05
-8.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+8.  FOLDER: Pre/post emails for session 05 (.html and .md)
 
 #### session 06. *Modeling to Learn* how to tell a **systems story**.
 
@@ -121,10 +121,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 06 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 06
 7.  FILE: Facilitator pre/post checklist for session 06
-8.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+8.  FOLDER: Pre/post emails for session 06 (.html and .md)
 
 #### session 07. *Modeling to Learn* how to evaluate our **base case** of no new decisions.
 
@@ -134,10 +134,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 07 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 07
 7.  FILE: Facilitator pre/post checklist for session 07
-8.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+8.  FOLDER: Pre/post emails for session 07 (.html and .md)
 
 
 #### session 08. *Modeling to Learn* how to test a **dynamic hypothesis**.
@@ -148,11 +148,11 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 08 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 08
 7.  FILE: Facilitator pre/post checklist for session 08
-8.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
-9. FOLDER: Team Time Report #2 (tt2)
+8.  FOLDER: Pre/post emails for session 08 (.html and .md)
+9.  FOLDER: Team Time Report #2 (tt2)
 
 #### session 09. *Modeling to Learn* how to **compare alternatives**.
 
@@ -162,10 +162,10 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 09 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 09
 7.  FILE: Facilitator pre/post checklist for session 09
-8.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+8.  FOLDER: Pre/post emails for session 09 (.html and .md)
 
 #### session 10. *Modeling to Learn* how to use **systems thinking**.
 
@@ -175,9 +175,9 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 10 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 10
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 10 (.html and .md)
 8.  FILE: FILE: Facilitator pre/post checklist for session 10
 
 #### session 11. *Modeling to Learn* how to make future **team decisions**.
@@ -188,9 +188,9 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/sim
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 01 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+6.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 11
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 11 (.html and .md)
 8.  FILE: FILE: Facilitator pre/post checklist for session 11
 
 #### session 12. *Modeling to Learn* how to turn **team learning** into a **team plan**.
@@ -200,8 +200,8 @@ This module shows the effects of measurement based stepped care on patients' sym
   + mtl.how/live
 3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 12 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+5.  FOLDER: Learner cheatsheets (with Gifs) (.html)
 6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 12
-7.  FOLDER: Learner (provider) pre/post emails for module's sessions (.html and .md)
+7.  FOLDER: Pre/post emails for session 12 (.html and .md)
 8.  FILE: Facilitator pre/post checklist for session 12
-9. FOLDER: Team Time Report #3 (tt3)
+9.  FOLDER: Team Time Report #3 (tt3)
