@@ -122,34 +122,34 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 05. *Modeling to Learn* how to log-in to our **team world**.
 
-1.  **session05.md** 
+1.  [**session05.md**](https://github.com/lzim/mtl/tree/master/session05) 
   + (part 1): Session 05 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 05 
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s05_learner:** 
+2.  [**s05_learner:**](https://github.com/lzim/mtl/tree/master/session05/s05_learner) 
   + Learner SEE Guide - Learning objectives and exercises for session 01 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s05_facilitator:**  
+3.  [**s05_facilitator:**](https://github.com/lzim/mtl/tree/master/session05/s05_facilitator)  
   + Facilitator SAY Guide - Learning objectives and exercises for session 05
   + Facilitator pre/post checklist for session 05
   + Pre/post emails for session 05 (.html and .md)
 
 #### session 06. *Modeling to Learn* how to tell a **systems story**.
 
-1.  **session06.md** 
+1.  [**session06.md**](https://github.com/lzim/mtl/tree/master/session06) 
   + (part 1): Session 06 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 06
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s06_learner:** 
+2.  [**s06_learner:**](https://github.com/lzim/mtl/tree/master/session06/s06_learner) 
   + Learner SEE Guide - Learning objectives and exercises for session 06 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s06_facilitator:**  
+3.  [**s06_facilitator:**](https://github.com/lzim/mtl/tree/master/session06/s06_facilitator)  
   + Facilitator SAY Guide - Learning objectives and exercises for session 06
   + Facilitator pre/post checklist for session 06
   + Pre/post emails for session 06 (.html and .md)
