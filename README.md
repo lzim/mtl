@@ -54,11 +54,11 @@ This module shows the effects of measurement based stepped care on patients' sym
   + (part 2): List of links for *MTL* resources used in session 01
       + mtl.how/live
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s01_learner_folder:** 
+2.  **s01_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 01 
       + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
-3.  **s01_facilitator_folder:** 
+3.  **s01_facilitator:** 
   + Facilitator SAY Guide - Learning objectives and exercises for session 01
   + Facilitator pre/post checklist for session 01
   + Pre/post emails for session 01 (.html and .md)
@@ -71,15 +71,15 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/data
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s02_learner_folder:** 
+2.  **s02_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 02 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.html)
-3.  **s02_facilitator_folder:** 
+3.  **s02_facilitator:** 
   + Facilitator SAY Guide - Learning objectives and exercises for session 02
   + Facilitator pre/post checklist for session 02
   + Pre/post emails for session 02 (.html and .md)
-4.  **s02_resources_folder:** 
+4.  **s02_resources:** 
   + SQL query code
 
 #### session 03. *Modeling to Learn* how to produce **team data** for simulation.
@@ -90,15 +90,15 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/data
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s03_learner_folder:** 
+2.  **s03_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 03 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/data (with Gifs) (.html)
-3.  **s03_facilitator_folder:**  
+3.  **s03_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 03 
   + Facilitator pre/post checklist for session 03
   + Pre/post emails for session 03 (.html and .md)
-4.  **s03_resources_folder:** 
+4.  **s03_resources:** 
   + Code for team data tables and team trend visualizations (.Rmd)
 
 #### session 04. *Modeling to Learn* how to prioritize **team needs**.
@@ -109,15 +109,15 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/menu
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s04_learner_folder:** 
+2.  **s04_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 04 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/data (with Gifs) (.html)
-3.  **s04_facilitator_folder:**  
+3.  **s04_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 04
   + Facilitator pre/post checklist for session 04
   + Pre/post emails for session 04 (.html and .md)
-4.  **s04_resources_folder:** 
+4.  **s04_resources:** 
   + Team Time Report #1 (tt1)
 
 #### session 05. *Modeling to Learn* how to log-in to our **team world**.
@@ -128,11 +128,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s05_learner_folder:** 
+2.  **s05_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 01 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s05_facilitator_folder:**  
+3.  **s05_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 05
   + Facilitator pre/post checklist for session 05
   + Pre/post emails for session 05 (.html and .md)
@@ -145,11 +145,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s06_learner_folder:** 
+2.  **s06_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 06 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s06_facilitator_folder:**  
+3.  **s06_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 06
   + Facilitator pre/post checklist for session 06
   + Pre/post emails for session 06 (.html and .md)
@@ -162,11 +162,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s07_learner_folder:** 
+2.  **s07_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 07 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s07_facilitator_folder:**  
+3.  **s07_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 07
   + Facilitator pre/post checklist for session 07
   + Pre/post emails for session 07 (.html and .md)
@@ -179,15 +179,15 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s08_learner_folder:** 
+2.  **s08_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 08 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s08_facilitator_folder:**  
+3.  **s08_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 08
   + Facilitator pre/post checklist for session 08
   + Pre/post emails for session 08 (.html and .md)
-4.  **s08_resources_folder:** 
+4.  **s08_resources:** 
   + Team Time Report #2 (tt2)
 
 #### session 09. *Modeling to Learn* how to **compare alternatives**.
@@ -198,11 +198,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s09_learner_folder:** 
+2.  **s09_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 09 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s09_facilitator_folder:**  
+3.  **s09_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 09
   + Facilitator pre/post checklist for session 09
   + Pre/post emails for session 09 (.html and .md)
@@ -215,11 +215,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s10_learner_folder:** 
+2.  **s10_learner:** 
    + Learner SEE Guide - Learning objectives and exercises for session 10 
      + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
    Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s10_facilitator_folder:**  
+3.  **s10_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 10
   + Pre/post emails for session 10 (.html and .md)
   + Facilitator pre/post checklist for session 10
@@ -232,11 +232,11 @@ This module shows the effects of measurement based stepped care on patients' sym
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s11_learner_folder:** 
+2.  **s11_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 11 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s11_facilitator_folder:**  
+3.  **s11_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 11
   + re/post emails for session 11 (.html and .md)
   + Facilitator pre/post checklist for session 11
@@ -248,13 +248,13 @@ This module shows the effects of measurement based stepped care on patients' sym
   + (part 2): List of links for *MTL* resources used in that session 
     + mtl.how/live
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s12_learner_folder:** 
+2.  **s12_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 12 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets (with Gifs) (.html)
-3.  **s12_facilitator_folder:**  
+3.  **s12_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 12
   + Pre/post emails for session 12 (.html and .md)
   + Facilitator pre/post checklist for session 12
-4.  **s12_resources_folder:** 
+4.  **s12_resources:** 
   + Team Time Report #3 (tt3)
