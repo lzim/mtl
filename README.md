@@ -49,159 +49,212 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 01. *Modeling to Learn* how to align our **team vision**. 
 
-1.  in this Readme.Rmd FILE (part 1): Session 01 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 01
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 01 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
-5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 01
-6.  FILE: Facilitator pre/post checklist for session 01
-7.  FOLDER: Pre/post emails for session 01 (.html and .md)
+1.  **session01.md** 
+  + (part 1): Session 01 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 01
+      + mtl.how/live
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s01_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 01 
+      + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
+3.  **s01_facilitator_folder:** 
+  + Facilitator SAY Guide - Learning objectives and exercises for session 01
+  + Facilitator pre/post checklist for session 01
+  + Pre/post emails for session 01 (.html and .md)
 
 #### session 02. *Modeling to Learn* how to check our **patient data** and **team trends.**
 
-1.  in this Readme.Rmd FILE (part 1): Session 02 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 02
-  + mtl.how/live
-  + mtl.how/data
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 02 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.html)
-5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 02
-6.  FILE: Facilitator pre/post checklist for session 01
-7.  FOLDER: Pre/post emails for session 02 (.html and .md)
-8.  FILE: SQL query code
+1.  **session02.md** 
+  + (part 1): Session 02 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 02
+    + mtl.how/live
+    + mtl.how/data
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s02_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 02 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.html)
+3.  **s02_facilitator_folder:** 
+  + Facilitator SAY Guide - Learning objectives and exercises for session 02
+  + Facilitator pre/post checklist for session 02
+  + Pre/post emails for session 02 (.html and .md)
+4.  **s02_resources_folder:** 
+  + SQL query code
 
 #### session 03. *Modeling to Learn* how to produce **team data** for simulation.
 
-1.  in this Readme.Rmd FILE (part 1): Session 03 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 03 
-  + mtl.how/live
-  + mtl.how/data
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 03 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/data (with Gifs) (.html)
-5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 03
-6.  FILE: Facilitator pre/post checklist for session 03
-7.  FOLDER: Pre/post emails for session 03 (.html and .md)
-8.  FILE: Code for team data tables and team trend visualizations (.Rmd)
+1.  **session03.md** 
+  + (part 1): Session 03 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 03 
+    + mtl.how/live
+    + mtl.how/data
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s03_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 03 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/data (with Gifs) (.html)
+3.  **s03_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 03 
+  + Facilitator pre/post checklist for session 03
+  + Pre/post emails for session 03 (.html and .md)
+4.  **s03_resources_folder:** 
+  + Code for team data tables and team trend visualizations (.Rmd)
 
 #### session 04. *Modeling to Learn* how to prioritize **team needs**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 04 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 04
-  + mtl.how/live
-  + mtl.how/menu
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 04 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/data (with Gifs) (.html)
-5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 04
-6.  FILE: Facilitator pre/post checklist for session 04
-7.  FOLDER: Pre/post emails for session 04 (.html and .md)
-8.  FOLDER: Team Time Report #1 (tt1)
+1.  **session04.md** 
+  + (part 1): Session 04 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 04
+    + mtl.how/live
+    + mtl.how/menu
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s04_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 04 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/data (with Gifs) (.html)
+3.  **s04_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 04
+  + Facilitator pre/post checklist for session 04
+  + Pre/post emails for session 04 (.html and .md)
+4.  **s04_resources_folder:** 
+  + Team Time Report #1 (tt1)
 
 #### session 05. *Modeling to Learn* how to log-in to our **team world**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 05 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 05 
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 01 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 05
-7.  FILE: Facilitator pre/post checklist for session 05
-8.  FOLDER: Pre/post emails for session 05 (.html and .md)
+1.  **session05.md** 
+  + (part 1): Session 05 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 05 
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s05_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 01 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s05_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 05
+  + Facilitator pre/post checklist for session 05
+  + Pre/post emails for session 05 (.html and .md)
 
 #### session 06. *Modeling to Learn* how to tell a **systems story**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 06 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 06
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 06 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 06
-7.  FILE: Facilitator pre/post checklist for session 06
-8.  FOLDER: Pre/post emails for session 06 (.html and .md)
+1.  **session06.md** 
+  + (part 1): Session 06 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 06
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s06_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 06 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s06_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 06
+  + Facilitator pre/post checklist for session 06
+  + Pre/post emails for session 06 (.html and .md)
 
 #### session 07. *Modeling to Learn* how to evaluate our **base case** of no new decisions.
 
-1.  in this Readme.Rmd FILE (part 1): Session 07 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in session 07
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 07 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 07
-7.  FILE: Facilitator pre/post checklist for session 07
-8.  FOLDER: Pre/post emails for session 07 (.html and .md)
-
+1.  **session07.md** 
+  + (part 1): Session 07 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in session 07
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s07_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 07 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s07_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 07
+  + Facilitator pre/post checklist for session 07
+  + Pre/post emails for session 07 (.html and .md)
 
 #### session 08. *Modeling to Learn* how to test a **dynamic hypothesis**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 08 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in that session 
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 08 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 08
-7.  FILE: Facilitator pre/post checklist for session 08
-8.  FOLDER: Pre/post emails for session 08 (.html and .md)
-9.  FOLDER: Team Time Report #2 (tt2)
+1.  **session08.md** 
+  + (part 1): Session 08 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in that session 
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s08_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 08 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s08_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 08
+  + Facilitator pre/post checklist for session 08
+  + Pre/post emails for session 08 (.html and .md)
+4.  **s08_resources_folder:** 
+  + Team Time Report #2 (tt2)
 
 #### session 09. *Modeling to Learn* how to **compare alternatives**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 09 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in that session 
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 09 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 09
-7.  FILE: Facilitator pre/post checklist for session 09
-8.  FOLDER: Pre/post emails for session 09 (.html and .md)
+1.  **session09.md** 
+  + (part 1): Session 09 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in that session 
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s09_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 09 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s09_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 09
+  + Facilitator pre/post checklist for session 09
+  + Pre/post emails for session 09 (.html and .md)
 
 #### session 10. *Modeling to Learn* how to use **systems thinking**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 10 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources use in session 10
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 10 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 10
-7.  FOLDER: Pre/post emails for session 10 (.html and .md)
-8.  FILE: FILE: Facilitator pre/post checklist for session 10
+1.  **session10.md** 
+  + (part 1): Session 10 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources use in session 10
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s10_learner_folder:** 
+   + Learner SEE Guide - Learning objectives and exercises for session 10 
+     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+   Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s10_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 10
+  + Pre/post emails for session 10 (.html and .md)
+  + Facilitator pre/post checklist for session 10
 
 #### session 11. *Modeling to Learn* how to make future **team decisions**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 11 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in that session 
-  + mtl.how/live
-  + mtl.how/sim
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 01 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-6.  FOLDER: Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-5.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 11
-7.  FOLDER: Pre/post emails for session 11 (.html and .md)
-8.  FILE: FILE: Facilitator pre/post checklist for session 11
+1.  **session11.md** 
+  + (part 1): Session 11 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in that session 
+    + mtl.how/live
+    + mtl.how/sim
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s11_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 11 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+3.  **s11_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 11
+  + re/post emails for session 11 (.html and .md)
+  + Facilitator pre/post checklist for session 11
 
 #### session 12. *Modeling to Learn* how to turn **team learning** into a **team plan**.
 
-1.  in this Readme.Rmd FILE (part 1): Session 12 fidelity checklist components:
-2.  in this Readme.Rmd FILE (part 2): List of links for *MTL* resources used in that session 
-  + mtl.how/live
-3.  in this Readme.Rmd FILE (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-4.  FILE: Learner SEE Guide - Learning objectives and exercises for session 12 .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-5.  FOLDER: Learner cheatsheets (with Gifs) (.html)
-6.  FILE: Facilitator SAY Guide - Learning objectives and exercises for session 12
-7.  FOLDER: Pre/post emails for session 12 (.html and .md)
-8.  FILE: Facilitator pre/post checklist for session 12
-9.  FOLDER: Team Time Report #3 (tt3)
+1.  **session12.md** 
+  + (part 1): Session 12 fidelity checklist components:
+  + (part 2): List of links for *MTL* resources used in that session 
+    + mtl.how/live
+  + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
+2.  **s12_learner_folder:** 
+  + Learner SEE Guide - Learning objectives and exercises for session 12 
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+  + Learner cheatsheets (with Gifs) (.html)
+3.  **s12_facilitator_folder:**  
+  + Facilitator SAY Guide - Learning objectives and exercises for session 12
+  + Pre/post emails for session 12 (.html and .md)
+  + Facilitator pre/post checklist for session 12
+4.  **s12_resources_folder:** 
+  + Team Time Report #3 (tt3)
