@@ -65,7 +65,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 02. *Modeling to Learn* how to check our **patient data** and **team trends.**
 
-1.  [**session02.md**](https://github.com/lzim/mtl/tree/master/session02)
+1.  [**session02**](https://github.com/lzim/mtl/tree/master/session02)
   + (part 1): Session 02 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 02
     + mtl.how/live
@@ -84,7 +84,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 03. *Modeling to Learn* how to produce **team data** for simulation.
 
-1.  [**session03.md**](https://github.com/lzim/mtl/tree/master/session03) 
+1.  [**session03**](https://github.com/lzim/mtl/tree/master/session03) 
   + (part 1): Session 03 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 03 
     + mtl.how/live
@@ -103,7 +103,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 04. *Modeling to Learn* how to prioritize **team needs**.
 
-1.  [**session04.md**](https://github.com/lzim/mtl/tree/master/session04)
+1.  [**session04**](https://github.com/lzim/mtl/tree/master/session04)
   + (part 1): Session 04 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 04
     + mtl.how/live
@@ -122,7 +122,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 05. *Modeling to Learn* how to log-in to our **team world**.
 
-1.  [**session05.md**](https://github.com/lzim/mtl/tree/master/session05) 
+1.  [**session05**](https://github.com/lzim/mtl/tree/master/session05) 
   + (part 1): Session 05 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 05 
     + mtl.how/live
@@ -139,7 +139,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 06. *Modeling to Learn* how to tell a **systems story**.
 
-1.  [**session06.md**](https://github.com/lzim/mtl/tree/master/session06) 
+1.  [**session06**](https://github.com/lzim/mtl/tree/master/session06) 
   + (part 1): Session 06 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 06
     + mtl.how/live
@@ -156,7 +156,7 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 07. *Modeling to Learn* how to evaluate our **base case** of no new decisions.
 
-1.  [**session07.md**](https://github.com/lzim/mtl/tree/master/session07) 
+1.  [**session07**](https://github.com/lzim/mtl/tree/master/session07) 
   + (part 1): Session 07 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in session 07
     + mtl.how/live
@@ -173,88 +173,88 @@ This module shows the effects of measurement based stepped care on patients' sym
 
 #### session 08. *Modeling to Learn* how to test a **dynamic hypothesis**.
 
-1.  **session08.md** 
+1.  [**session08**]( 
   + (part 1): Session 08 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in that session 
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s08_learner:** 
+2.  [**s08_learner:**]( 
   + Learner SEE Guide - Learning objectives and exercises for session 08 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s08_facilitator:**  
+3.  [**s08_facilitator:**](  
   + Facilitator SAY Guide - Learning objectives and exercises for session 08
   + Facilitator pre/post checklist for session 08
   + Pre/post emails for session 08 (.html and .md)
-4.  **s08_resources:** 
+4.  [**s08_resources:**]( 
   + Team Time Report #2 (tt2)
 
 #### session 09. *Modeling to Learn* how to **compare alternatives**.
 
-1.  **session09.md** 
+1.  [**session09**]( 
   + (part 1): Session 09 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in that session 
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s09_learner:** 
+2.  [**s09_learner:**]( 
   + Learner SEE Guide - Learning objectives and exercises for session 09 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s09_facilitator:**  
+3.  [**s09_facilitator:**](  
   + Facilitator SAY Guide - Learning objectives and exercises for session 09
   + Facilitator pre/post checklist for session 09
   + Pre/post emails for session 09 (.html and .md)
 
 #### session 10. *Modeling to Learn* how to use **systems thinking**.
 
-1.  **session10.md** 
+1.  [**session10**]( 
   + (part 1): Session 10 fidelity checklist components:
   + (part 2): List of links for *MTL* resources use in session 10
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s10_learner:** 
+2.  [**s10_learner:**]( 
    + Learner SEE Guide - Learning objectives and exercises for session 10 
      + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
    Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s10_facilitator:**  
+3.  [**s10_facilitator:**](  
   + Facilitator SAY Guide - Learning objectives and exercises for session 10
   + Pre/post emails for session 10 (.html and .md)
   + Facilitator pre/post checklist for session 10
 
 #### session 11. *Modeling to Learn* how to make future **team decisions**.
 
-1.  **session11.md** 
+1.  [**session11**]( 
   + (part 1): Session 11 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in that session 
     + mtl.how/live
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s11_learner:** 
+2.  [**s11_learner:**]( 
   + Learner SEE Guide - Learning objectives and exercises for session 11 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
-3.  **s11_facilitator:**  
+3.  [**s11_facilitator:**](   
   + Facilitator SAY Guide - Learning objectives and exercises for session 11
   + re/post emails for session 11 (.html and .md)
   + Facilitator pre/post checklist for session 11
 
 #### session 12. *Modeling to Learn* how to turn **team learning** into a **team plan**.
 
-1.  **session12.md** 
+1.  [**session12**]( 
   + (part 1): Session 12 fidelity checklist components:
   + (part 2): List of links for *MTL* resources used in that session 
     + mtl.how/live
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s12_learner:** 
+2.  [**s12_learner:**]( 
   + Learner SEE Guide - Learning objectives and exercises for session 12 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets (with Gifs) (.html)
-3.  **s12_facilitator:**  
+3.  [**s12_facilitator:**](  
   + Facilitator SAY Guide - Learning objectives and exercises for session 12
   + Pre/post emails for session 12 (.html and .md)
   + Facilitator pre/post checklist for session 12
-4.  **s12_resources:** 
+4.  [**s12_resources:**]( 
   + Team Time Report #3 (tt3)
