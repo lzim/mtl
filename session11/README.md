@@ -12,9 +12,9 @@
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 2.  **s11_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 11 
-    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-  + Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
+  + Learner cheatsheets for mtl.how/sim (with Gifs) (.md)
 3.  **s11_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 11
-  + re/post emails for session 11 (.html and .md)
+  + re/post emails for session 11 (.md)
   + Facilitator pre/post checklist for session 11
