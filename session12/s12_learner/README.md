@@ -6,5 +6,5 @@
      
 **s12_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 12 
-    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-  + Learner cheatsheets (with Gifs) (.html)
+    + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
+  + Learner cheatsheets (with Gifs) (.md)
