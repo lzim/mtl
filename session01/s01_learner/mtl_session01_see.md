@@ -100,6 +100,6 @@ d. …empower you to realize ongoing improvements in team quality of care and te
 <!-- Done/Do Tables -->
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) Select a Team Lead and email TeamPSD to set up our standing team meeting time. |
+| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:lindsey.zimmerman@va.gov;stacey.park2@va.gov) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Email Team PSD at mtl.help@va.gov to clarify the standing team meeting time and ask any questions you have. |
 
 
