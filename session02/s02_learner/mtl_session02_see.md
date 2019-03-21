@@ -55,11 +55,11 @@ output:
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
-- You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
-- Or, if your team as designated provider clinics, you can select by provider name.
+- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
+- Or, if your team has designated provider clinics, you can select by provider name.
 - Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, you can double-click on clinics to add them to column A or you can highlight the clincis and click the gray "add all" button to add them to column A. 
+- After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 ### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in-session today.
 - **You have already fresh data UI file to work with already in your team data folder.** 
