@@ -74,7 +74,7 @@ output:
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 - What stands out to you?
 - What is most important to you to check out first?
-- what is most surprising?
+- What is most surprising?
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
 
