@@ -5,16 +5,17 @@
      height = "175" width = "650">  
 
 ### *Modeling to Learn* Links
-1.  www.mtl.how/live - Modeling to Learn Live - Adobe Connect Room
+1.  www.mtl.how/live - _Modeling to Learn_ Live Sessions - Adobe Connect Room
 2.  www.mtl.how/data - Team Data User Interface - **Internal for VHA Providers Only
-3.  www.mtl.how/sim - Simulation User Interface for Team of VHA Providers
-4.  www.mtl.how/menu - Modeling to Learn Menu - RedCap Survey of Team Needs/Priorities
+3.  www.mtl.how/demo - Simulation Demonstration Self-Registration
+3.  www.mtl.how/sim - Simulation User Interface for Teams in _MTL Live_
+4.  www.mtl.how/menu - _Modeling to Learn_ Menu - RedCap Survey of Team Needs/Priorities
 5.  www.mtl.how/facilitate - MTL Facilitator Dashboard at Forio Epicenter
 6.  www.mtl.how/github - This page - MTL GitHub Repository of Resources
 7.  www.mtl.how/video - MTL "How To" videos at YouTube
 8.  www.mtl.how/team - Team Participatory System Dynamics - The MTL Research & Development Team
 9.  www.mtl.how/lzim - MTL and Team PSD Lead - Lindsey Zimmerman, PhD
-10. www.mtl.how/tms - MTL Video - Accredited Self-directed MTL training
+10. www.mtl.how/tms - VA TMS 2.0 Learning System for Accreditation
 11. www.mtl.how/refs - MTL References 
 12. www.mtl.how/pubs - Publications & Presentations on MTL by Team PSD
 
