@@ -23,7 +23,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page. [<img src = https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif>]  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)|  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -40,9 +40,11 @@ output:
 ## *MTL* on BISL
 
 ### 1. Go to mtl.how/data First select your VISN and then select your facility.
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)  
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)  
 
 ### 2. Explore the information available in the BISL sharepoint splash page
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)
+- Click on the View dropdown. How many View options are there?
 - How many scroll bars are there?  Where are they? 
 - Where are the tabs? What can you see by selecting the tabs?
 - What filtering options are available? 
@@ -50,7 +52,7 @@ output:
 
 ## Your Team Data Folder
 
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your team data ui in Excel.
+### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 - Select your station using the control tab. If you have any issues with permissions, Team PSD can help you.
 - Click "Get Clinic List" and it will pull in clinics for your facility.
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
