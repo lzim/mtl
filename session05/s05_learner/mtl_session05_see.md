@@ -45,7 +45,7 @@ output:
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder
 
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_3.gif)
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)
 
 ## Log in to the sim UI in Chrome
 
