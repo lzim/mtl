@@ -40,11 +40,11 @@ output:
 ### When you click the "Get Team Data Table for Sim UI" button, it produces a table of descriptive team data.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
-- Care Coordination (CC)
-- Medication Management (MM)
-- Psychotherapy (PSY)
-- Aggregate team services (AGG)
-- Measurement-based stepped care for suicide prevention (SP)
+  - Care Coordination (CC)
+  - Medication Management (MM)
+  - Psychotherapy (PSY)
+  - Aggregate team services (AGG)
+  - Measurement-based stepped care for suicide prevention (SP)
 
 ### 1. Select a service for review
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
