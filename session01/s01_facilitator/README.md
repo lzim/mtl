@@ -1,5 +1,5 @@
-# Modeling to Learn Session 01
-## *Modeling to Learn* how to align our **team vision**. 
+# mtl 1.8
+## *Modeling to Learn* by TeamPSD - Release 1.8. 
 
 <img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
      height = "175" width = "650">  
