@@ -46,13 +46,13 @@ output:
   - Aggregate team services (AGG)
   - Measurement-based stepped care for suicide prevention (SP)
 
-### 1. Select a service for review
+### 1. Select a module for review
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
 - Where can you find even more detailed information about your team data?
-- Check out columns C and D. What is the difference between these two columns?
+- Check out the last two columns. What is the difference between these two columns?
 
-### 2. Select a second service for review
-- Check out columns C and D. What is the difference between these two columns?
+### 2. Select a second module for review 
+- Check out the last two columns. 
 - Find a variable that is important to you team. How is it estimated in this table? What are it's units?
 - Where can you find even more detailed information about your team data?
 
@@ -60,7 +60,7 @@ output:
 - If so, which ones? Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
-- If so, what is it surprising? Does the estimation definition help you to interpret the variable value?
+- If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
