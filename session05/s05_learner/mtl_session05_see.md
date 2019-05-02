@@ -73,10 +73,9 @@ output:
 + Select the team data you want to use.
 
 + * For CC & MM, you need to select your Learning Mode before hitting Play.  
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/learning_mode.gif)
 
 + Click Play.
-
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
 
 7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
 
