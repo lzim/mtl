@@ -65,11 +65,11 @@ output:
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
 
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
-- You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
-- Or, if your team as designated provider clinics, you can select by provider name.
+- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
+- Or, if your team has designated provider clinics, you can select by provider name.
 - Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, you can double-click on clinics to add them to column A or you can highlight the clinics and click the gray "add all" button to add them to column A. 
+- After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with already in your team data folder.** 
@@ -84,12 +84,12 @@ output:
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 - What stands out to you?
 - What is most important to you to check out first?
-- what is most surprising?
+- What is most surprising?
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
-- Patients who have requested restricted access to their information have asterisks *******
+- Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
 - Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 - Providers can filter to find specific patients, or produce reports. 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
