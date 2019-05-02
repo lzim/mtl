@@ -39,7 +39,7 @@ output:
 
 ## *MTL* on BISL
 
-### 1. Go to mtl.how/data First select your VISN and then select your facility.
+### 1. Go to mtl.how/data. First select your VISN and then select your facility.
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)  
 
 ### 2. Explore the information available in the BISL sharepoint splash page
@@ -67,16 +67,16 @@ output:
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 - You can sort by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
 - Or, if your team as designated provider clinics, you can select by provider name.
-- Note that this will pull all clinics used in the last two years (including de-activated clinics). You can see the de-activated clinics in column I.
+- Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 - Follow the instructions in **Box A2.** 
-- After filtering, you can double-click on clinics to add them to column A or you can highlight the clincis and click the gray "add all" button to add them to column A. 
+- After filtering, you can double-click on clinics to add them to column A or you can highlight the clinics and click the gray "add all" button to add them to column A. 
 
-### 5. To view your team patient data and your team trends. You click on "Get-Patient-level Data." We will not do this in-session today.
-- **You have already fresh data UI file to work with already in your team data folder.** 
+### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.
+- **You already have a fresh data UI file to work with already in your team data folder.** 
 - We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your today.
+- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)
 
@@ -92,9 +92,9 @@ output:
 - Patients who have requested restricted access to their information have asterisks *******
 - Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 - Providers can filter to find specific patients, or produce reports. 
-- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.
+- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** tab would you use to see what the most common service encounters or visits are?
-- Are there services that have been increasing over time? Are there services that  have been descreasing over time?
+- Are there services that have been increasing over time? Are there services that have been descreasing over time?
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
