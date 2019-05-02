@@ -5,6 +5,8 @@
      height = "175" width = "650">  
      
 ### In this folder are the five simulation modules of *Modeling to Learn.* 
+The version 1.8 release encompasses changes explicitly requested by users (i.e., adding experiments, like the ability to implement an Intensive Outpatient Program in psychotherapy) and updates necessary to improve the user interface (under the hood changes to enable new features, like experimenting quarter by quarter). While these changes improve the usability of the models through Forio, some of them make the models harder to understand in Vensim (removing all subscripts to accomodate Gaming variables). If you want to delve into the models in Vensim, then we suggest first exploring v1.7 before opening the most recent version.
+
 -  **Care Coordination (CC)** 
 This module shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
     - [*MTL 1.8* release of the CC Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl1.8_models/cc_v36_2019_02_20.mdl)
