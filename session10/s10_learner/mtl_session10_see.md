@@ -38,6 +38,17 @@ output:
 
 # In-session Exercise (30 minutes)
 
+**We've been _Modeling to Learn_ how to improve our use of systems thinking when making care decisions in our team.**
+
+Systems Thinking | Definition
+-- | -- 
+Complex | **Forest   not trees.**    Relationships among two or more   variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
+Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
+System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
+Time | **Short   and   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
+
+**We'll work to apply these skills as we review our combined experiment today.**
+
 1. Log in to mtl.how/sim and join the current session.
 2. From the experiment tile, pull up the prior experiment and click the red "Go" button.
 3. Check the box to include the text from that experiment and click "Go" again.
