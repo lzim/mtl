@@ -11,7 +11,7 @@
 3.  www.mtl.how/sim - Simulation User Interface for Teams in _MTL Live_
 4.  www.mtl.how/menu - _Modeling to Learn_ Menu - RedCap Survey of Team Needs/Priorities
 5.  www.mtl.how/facilitate - MTL Facilitator Dashboard at Forio Epicenter
-6.  www.mtl.how/github - The Team PSD "Works in Progress" Repository for all Workgroups
+6.  www.mtl.how/teampsd - The Team PSD "Works in Progress" Repository for all Workgroups
 7.  www.mtl.how/video - MTL "How To" videos at YouTube
 8.  www.mtl.how/team - Team Participatory System Dynamics - The MTL Research & Development Team
 9.  www.mtl.how/lzim - MTL and Team PSD Lead - Lindsey Zimmerman, PhD
