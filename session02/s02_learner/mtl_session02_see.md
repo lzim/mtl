@@ -19,7 +19,7 @@ output:
 
 # Today we're modeling to learn how to check our patient data and team trends.
 
-## Done and Do (15 minutes)
+## Done and Do (10 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |  
@@ -35,41 +35,39 @@ output:
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 # In-session Exercise (30 minutes)
+
+## Participatory Learning from Simulation
+This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right place and the right time to meet their needs using participatory learning from simulation. We look back at the last two years of data to see *what is* in our team now. Then, the sim UI is used to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.  
+
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-## *MTL* on BISL
+## *MTL* on BISL  
 
-### 1. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Using Internet Explorer, go to mtl.how/data. First select your VISN and then select your facility.
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)  
 
 ### 2. Explore the information available in the BISL sharepoint splash page
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)
 
 - Click on the View dropdown. What View options are there and what do they mean?
-  - Count: Aggregate Data for Viz trends
-  - Data: Sortable report of data
-  - Diag: Diagnostic data 
-  - Enc: Encounter types of visits
-  - HF: Health Factors data related to visits
-  - Meas: Measures or flag names
-  - Viz: Visualization of trends  
+  + Count: Aggregate Data for Viz trends for Diagnostic data, Encounter types of visits, Health Factors data related to visits, and Measures or flag names  
+  + Data: Sortable report of data for Diagnostic data, Health Factors data related to visits, and Measures or flag names  
+  + Viz: Visualization of trends for Diagnostic data, Encounter types of visits, Health Factors data related to visits, and Measures or flag names  
 
-- What filtering options are available? 
-  - Filter to your clinic or division to see trends for the last two years.
+- What filtering options are available?  
+  - Filter to your clinic or division to see trends for the last two years.  
 
-## Your Team Data Folder
-
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-- Select your station using the control tab. If you have any issues with permissions, Team PSD can help you.
-- Click "Get Clinic List" and it will pull in clinics for your facility.
+### 3. Your Team Data Folder: Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.  
+- Select your station using the control tab. If you have any issues with permissions, Team PSD can help you.  
+- Click "Get Clinic List" and it will pull in clinics for your facility.  
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_1.gif)  
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
-- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.
-- Or, if your team has designated provider clinics, you can select by provider name.
-- Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
-- Follow the instructions in **Box A2.** 
-- After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.  
+- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary and Secondary Stopcode.  
+- Or, if your team has designated provider clinics, you can select by provider name.  
+- Note: This will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.  
+- Follow the instructions in **Box A2.**  
+- After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).  
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with already in your team data folder.** 
