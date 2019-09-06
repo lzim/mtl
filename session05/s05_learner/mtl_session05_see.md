@@ -43,7 +43,7 @@ output:
 ## Check the name of your team data file in Explorer
 1. In session 3, we used our team data UI and clicked "Get Team Data Table for Sim UI" to produce our team data for simulation. 
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim folder
+3. The team data file for simulation is in our team folder, in the team_data_sim folder. Copy the name of the team data file.
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_login.gif)
 
@@ -61,7 +61,7 @@ output:
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_login.gif)
 
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
+5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). Open the Team Data Menu Maintenance section and click Add. Paste the name of your team data file into the box and click Save. 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_exp_maint.gif)
 
 ![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_team_data_menu_maint.gif)
@@ -77,27 +77,17 @@ output:
 
 + Click Play.
 
-7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 tiles with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Experiments).
+7. Orient yourself to the Main Page of the Sim UI (same information and buttons at top; 3 sections with blue headers - one showing the module and team data selected in its header; the others headed Outputs and Text and Experiments).
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_sections.gif)
 
-8. Expand the Experiments tile by clicking on the white down arrow in the right corner of the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
+8. Drag or minimize the Text section and expand the Experiments section by clicking in the blue bar. Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
 
 + What types of decisions does the team make that affect these variables?
 
 + How do the values in this table strike you? Do they line up with how you think things really are?
 
-9. Find the Team Data Table variables in the system diagram at the left.
-
-+ True Missed Appointments %
-
-+ Appointment Supply
-
-+ Return Visit Interval
-
-+ Engagement Duration	
-
-+ New Patient Start Rate (AGG)
+9. Look for some of the Team Data table variables in the system diagram at the left.
 
 10. Log out of the Sim UI
 
@@ -105,4 +95,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Tile. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_pop_ups.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data to the sim UI, and reviewed our team data in the Experiments Section. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI model diagram and Experiments section. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/sim_ui_pop_ups.gif)| 
