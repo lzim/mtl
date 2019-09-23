@@ -39,7 +39,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] On **Main Page** team lead navigate to **Experiment Section** to **pull up previous experiment values & text** for **Session 07** about the basecase.
 
 ## Pull up **q/h/f/d** from session07 and ask **team lead** to review **team-specific** rationale for the **base case** findings
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team-specific **caual system story for findings** __________________
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20** - Team-specific **caual system story for findings** __________________
 - [ ] <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150"> Provide rationale for **always comparing simulation experiments against the base case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
