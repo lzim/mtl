@@ -67,7 +67,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 ## Have Team Lead pull up the session 08 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Done: We ran experiment 1 and compared results against the bc, and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
-- [ ] Do: Log into mtl.how/sim and Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2.
-- [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
+- [ ] Done: We **ran experiment 1** and **compared results against the bc,** and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
+- [ ] Do: Log into mtl.how/sim and Explore the bc and experiment 1, and draft a dynamic hypothesis to **prepare for experiment 2.**
+- [ ] Demo for team how to **reload team's prior Question, Hypothesis, Findings and Decision text.** 
 - [ ] Reminder to click "Save" and log out. 
