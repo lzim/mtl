@@ -52,7 +52,7 @@ output:
 
 5.	To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields as demonstrated below. Review those text fields.
 
-![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_compare_alt.gif)
+![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/sim_ui_previous_exp.gif)
 
 6.	Study the system diagram and team data. Decide together what change you want to experiment with that might give the team the desired result.
 
