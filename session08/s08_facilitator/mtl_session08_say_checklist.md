@@ -47,7 +47,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 - [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
-- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiement 1]**?"
+- [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 1]**?"
 
 ## Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:35  - Team Priority**__________________
