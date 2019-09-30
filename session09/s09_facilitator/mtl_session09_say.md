@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 9 - Facilitator Say"
 author: "Team PSD"
-date: ""September 30, 2019 - edited by LZ"
+date: "September 30, 2019 - edited by LZ"
 output: 
   github_document: default
   html_document: default
