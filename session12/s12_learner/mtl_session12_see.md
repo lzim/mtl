@@ -46,7 +46,7 @@ output:
 
     - *MTL* data UI 
     
-    - *MTL* sim UI (which module would be most appropriate to our further need and questions)
+    - *MTL* sim UI (Which module would be most appropriate to our further need and questions?)
 
 5. Lead person(s) and time frame for the above actions 
 
@@ -59,4 +59,3 @@ output:
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80"> **Done** | <img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how for ongoing release updates and assistance using _MTL_ resources. | 
-
