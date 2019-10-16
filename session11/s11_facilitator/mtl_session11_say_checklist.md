@@ -66,7 +66,7 @@ Systems Thinking | Definition
 
 - ___________________ [exp 3]
    
-## Discuss **new individual and team practice decisions** use **C.F.B.T. systems thinking** rationale for **why** a practice decision would lead to desired outcomes over time.
+## Discuss **new individual and team practice decisions** using **C.F.B.T. systems thinking** rationale for **why** a practice decision would lead to desired outcomes over time.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:50**  
    + What insights we will keep in mind as we make future team decisions?
    + What new decisions, approaches, or targets do we want to adopt in our team?  
