@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 12 - Learner See"
 author: "Team PSD"
-date: "October 2018"
+date: "Edited 10/16/2019 by LZ"
 output: 
   github_document: default
   html_document: default
@@ -23,24 +23,24 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We reflected on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps. | Reflect together on our team's vision and _MTL_ experience and make a team plan for next steps. | 
+| We discussed the **new practice decisions** we are prioritizing across our team. | Reflect on our _MTL_ **participatory learning** and finalize our team plan for next steps. | 
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 ## Learning Objectives
 
-1. Describe what your team has learned and prioritzed throughout the *MTL* 12-session program.
-2. Test how your team's plan aligns with your team's shared vision.
-3. Apply decisions that your team has prioritized to implement in the clinic.
+1. Describe what your team has learned throughout the *MTL* 12-session program.
+2. Test out with each other how your new practice decisions based on systems thinking align with your team's shared vision.
+3. Apply the new decisions that your team has prioritized.
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
 1. We completed _Modeling to Learn_! Let's review and plan!
 
-2.  What has the team learned throughout the *Modeling to Learn* 12-session program?
+2. What has the team learned throughout the *Modeling to Learn* 12-session program?
 
-3. How will we coordinate our efforts going forward based on our learning?
+3. How will we align our new practice decisions with systems thinking going forward based on our learning?
 
 4. What *MTL* resources will the team use or revisit in the future?
 
@@ -48,7 +48,7 @@ output:
     
     - *MTL* sim UI (Which module would be most appropriate to our further need and questions?)
 
-5. Lead person(s) and time frame for the above actions 
+5. Lead person(s) and time frame for the above actions: _______________ 
 
 6. Celebrate completion of *Modeling to Learn*!
 
