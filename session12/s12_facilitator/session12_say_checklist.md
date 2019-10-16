@@ -30,24 +30,22 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 ## Emphasize team priority with the learning objectives on the screen
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> 
-**Learning Objectives for Session 11**
+**Learning Objectives for Session 12**
 
 1.	Describe what your team has prioritized as decisions to implement in your clinic. 
 2.	Test your team’s plan against your individual and shared, team vision.
 3.	Apply your team’s plan in clinical decisions using C.F.B.T. systems thinking.
 
-## Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been _Modeling to Learn_ how to use systems thinking when making care decisions in our team.
-_Prepare your script to model and reflect team decisions using C.F.B.T. systems thinking_
+## 1. We completed _Modeling to Learn_! 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:30** 
 
-1. We completed _Modeling to Learn_! 
-
-- [ ] 2. _MTL Co-Facilitators_ prepare a brief summary of themes to highlight with the team ____________________
+- [ ] 2. Brief summary of themes to highlight with the team ____________________
 
 3. How will we align our new practice decisions with systems thinking going forward based on our learning?
 
-- [ ] _MTL Co-Facilitators_ prepare concise review of **causal system story of team problem** ____________________
+- [ ] Concise review of **causal system story of team problem** ____________________
 
-- [ ] _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________
+- [ ] Concise review of **feasible practice decisions to prioritize** ____________________
 
 4. What *MTL* resources will the team use or revisit in the future?
 
@@ -57,5 +55,5 @@ _Prepare your script to model and reflect team decisions using C.F.B.T. systems 
 
 5. Lead person(s) and time frame for the above actions: _______________ 
 
-6. Celebrate completion of *Modeling to Learn*!
-
+## 6. Celebrate completion of *Modeling to Learn*!
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:50** 
