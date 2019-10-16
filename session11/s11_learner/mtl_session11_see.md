@@ -56,4 +56,4 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and new individual and team practice decisions that apply C.F.B.T. systems thinking skills. | Reflect on our team's vision for _MTL_ and our _MTL_ participatory learning experience to prepare next steps and wrap-up _MTL_.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and new individual and team practice decisions that **apply C.F.B.T. systems thinking** skills. | Reflect on our team's vision for _MTL_ and our _MTL_ **participatory learning** experience to prepare next steps and wrap-up _MTL_.| 
