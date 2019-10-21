@@ -99,7 +99,7 @@ Answer: Options to Reveal Complexity are found under the *Experiment Timeline* i
 
 Answer: Red means read in from team data. 
 
-# In-Session Exercise - Part 1
+# In-Session Exercise - Part 2
 ## Introducing stocks/flows and polarities among key variables related to the team's priority
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:40  - Team Priority**__________________
 
