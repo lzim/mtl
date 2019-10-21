@@ -37,7 +37,7 @@ output:
 - [ ] A Systems Story is a description of the causal connections that create the problem your team is prioritizing _________________.  
 
 ## Team lead shares Chrome and logs in to the Team world at **mtl.how/sim**
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20 - Team's Session 06 Question** __________________
 - [ ] **Re-size** your screen to get more or less of the diagram
 - [ ] Select to continue with the **same module** 
 - [ ] Navigate to the **experiment section** to pull up the **question** on the team need from last time.
