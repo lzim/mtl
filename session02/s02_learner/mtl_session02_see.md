@@ -31,7 +31,7 @@ output:
 ## Learning Objectives
 
 1. Describe the decisions your team made in producing your team data table.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2. Test out your expectations about team historical trends using the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 # In-session Exercise (30 minutes)
@@ -45,7 +45,7 @@ output:
 ### 2. Explore the information available in the BISL sharepoint splash page
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/data_ui_splashpage.gif)
 
-- Click on the View dropdown. What View options are there and what do they mean?
+- Click on the View dropdown. What View options are there and what do they mean? Hints:
   - Count: Aggregate Data for Viz trends
   - Data: Sortable report of data
   - Diag: Diagnostic data 
@@ -72,7 +72,7 @@ output:
 - After filtering, click add all. Fine tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
 ### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." We will not do this in-session today.
-- **You already have a fresh data UI file to work with already in your team data folder.** 
+- **You already have a fresh data UI file to work with in your team data folder.** 
 - We will learn about the "Create Team Data Table for Sim UI" button in our next team meeting.
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
@@ -90,7 +90,7 @@ output:
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
-- Patient information correponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
+- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 - Providers can filter to find specific patients, or produce reports. 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** tab would you use to see what the most common service encounters or visits are?
@@ -102,6 +102,6 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data. ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_2.gif)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/session2_data_ui_4_viz_diag.gif)| 
 
 
