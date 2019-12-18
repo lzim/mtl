@@ -5,8 +5,8 @@ _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to i
 ## Teams please select _MTL Red_ or _MTL Blue_ to access your learner folders and resources.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
-     height = "175" width = "300">  <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
-     height = "175" width = "300">  
+     height = "175" width = "300">  ![<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
+     height = "175" width = "300">](https://github.com/lzim/mtl) 
 
 ### *Modeling to Learn* Links
 1.  www.mtl.how/live - _Modeling to Learn_ Live Sessions - Adobe Connect Room
