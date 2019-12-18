@@ -4,7 +4,7 @@ _Modeling to Learn_ (MTL) Red resources.
 
 ## _MTL Red_ folders and resources.
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "300">](https://github.com/lzim/mtl) 
 
 ### *Modeling to Learn* Links
