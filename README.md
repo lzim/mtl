@@ -1,8 +1,9 @@
 # mtl 1.7 and 1.8
 ## Modeling to Learn by Team PSD - Release 1.7 and 1.8
 
-<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
-     height = "175" width = "650">  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
+     height = "175" width = "300">  <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
+     height = "175" width = "300">  
 
 ### *Modeling to Learn* Links
 1.  www.mtl.how/live - _Modeling to Learn_ Live Sessions - Adobe Connect Room
