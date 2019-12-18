@@ -2,15 +2,9 @@
 
 _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. Some teams are learning with _MTL_ "red" resources and some teams are learning with _MTL_ "blue" resources.
 
-##  _MTL Red_ teams click here:
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
-     height = "175" width = "300"> 
-
-##  _MTL Blue_ teams click here:
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
-     height = "175" width = "300">](https://github.com/lzim/mtl) 
+ _MTL Red_ teams click here: | _MTL Blue_ teams click here:
+-- | --
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300"> | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl) |
 
 
 ### *Modeling to Learn* Links
