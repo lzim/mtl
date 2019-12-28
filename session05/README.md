@@ -13,7 +13,7 @@
     + mtl.how/sim
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
 2.  **s05_learner:** 
-  + Learner SEE Guide - Learning objectives and exercises for session 01 
+  + Learner SEE Guide - Learning objectives and exercises for session 05 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
   + Learner cheatsheets for mtl.how/sim (with Gifs) (.md)
 3.  **s05_facilitator:**  
