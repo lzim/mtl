@@ -4,7 +4,7 @@ _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to i
 
  _MTL Red_ teams click here: | _MTL Blue_ teams click here:
 -- | --
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300"> | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl) |
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/red) | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/blue) |
 
 
 ### *Modeling to Learn* Links
