@@ -1,4 +1,4 @@
-# Modeling to Learn by Team PSD - Release 1.8
+# _Modeling to Learn_ by Team PSD - Release 1.8
 
 _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. Some teams are learning with _MTL_ "red" resources and some teams are learning with _MTL_ "blue" resources.
 
