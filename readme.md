@@ -9,7 +9,7 @@ _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to i
 
 ### *Modeling to Learn* Links
 1. www.mtl.how/live - _Modeling to Learn_ Live Sessions - Adobe Connect Room
-2. www.mtl.how/team - Team Participatory System Dynamics - The MTL Research & Development Team
+2. www.mtl.how/team - Team Participatory System Dynamics - The _MTL_ Research & Development Team
 3. www.mtl.how/tms - VA TMS 2.0 Learning System for Accreditation
-4. www.mtl.how/refs - MTL References 
+4. www.mtl.how/refs - _MTL_ References 
 
