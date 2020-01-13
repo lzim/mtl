@@ -1,4 +1,4 @@
-# _Modeling to Learn_ (MTL) Red resources.
+# _Modeling to Learn_ Red
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "300">](https://github.com/lzim/mtl) 
