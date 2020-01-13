@@ -1,13 +1,11 @@
-# Modeling to Learn Blue - Release 1.8
-
-_Modeling to Learn_ (MTL) Blue resources.
+# _Modeling to Learn_ Blue 
 
 ## _MTL Blue_ folders and resources.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png"
      height = "175" width = "300">](https://github.com/lzim/mtl) 
 
-### *Modeling to Learn* Links
+## *Modeling to Learn* Links
 1.  www.mtl.how/live - _Modeling to Learn_ Live Sessions - Adobe Connect Room
 2.  www.mtl.how/data - Team Data User Interface - **Internal for VHA Providers Only
 3.  www.mtl.how/sim - Simulation User Interface for Teams in _MTL Live_
@@ -16,3 +14,6 @@ _Modeling to Learn_ (MTL) Blue resources.
 6. www.mtl.how/tms - VA TMS 2.0 Learning System for Accreditation
 7. www.mtl.how/refs - MTL References 
 
+## _MTL_ - Release 1.8
+
+_Modeling to Learn_ (MTL) Blue resources.
