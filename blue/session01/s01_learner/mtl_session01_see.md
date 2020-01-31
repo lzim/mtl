@@ -15,7 +15,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl_session01_see.md)  
 
-# [MTL Live Session 01](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session01_see.md "MTL Live Session 01")
+# [MTL Live Session 01](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl_session01_see.md)
 
 ## Today we're modeling to learn how to align our team vision.
 
