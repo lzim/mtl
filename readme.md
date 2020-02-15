@@ -6,9 +6,9 @@
 
 ## *Modeling to Learn* Links
 1. [mtl.how/live](https://www.mtl.how/live) - _Modeling to Learn_ Live Sessions - Adobe Connect Room
-2. www.mtl.how/team - Team Participatory System Dynamics - The _MTL_ Research & Development Team
-3. www.mtl.how/tms - VA TMS 2.0 Learning System for Accreditation
-4. www.mtl.how/refs - _MTL_ References 
+2. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team
+3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation
+4. [mtl.how/refs](https://www.mtl.how/refs) - _MTL_ References 
 
 ## _Modeling to Learn_ by Team PSD - Release 1.8
 
