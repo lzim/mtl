@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.  [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/session_2_data_ui_3.gif" height="200px" width="350px" />](#.)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/session2_data_ui_2.gif" height="200px" width='400px'/>](#.)|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the splash page.  [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/session2_data_ui_3.gif" height="200px" width="350px" />](#.)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/session2_data_ui_2.gif" height="200px" width='400px'/>](#.)|  
  
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.) 
@@ -45,7 +45,7 @@ output:
 
 ### 2. Explore the information available in the BISL sharepoint splash page
 
-- Click on the View dropdown. What View options are there and what do they mean?
+- Click on the tabs at the bottom of the Spreadsheet. What options are there and what do they mean?
   - Count: Aggregate Data for Viz trends
   - Data: Sortable report of data
   - Diag: Diagnostic data 
