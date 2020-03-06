@@ -12,14 +12,14 @@
     + mtl.how/live
     + mtl.how/data
   + (part 3): .bibtex file for references; link to public Zotero library for *MTL* 
-2.  **s02_learner:** 
+2.  **part1_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for part 1
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
   + Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.html)
-3.  **s02_facilitator:** 
+3.  **part1_facilitator:** 
   + Facilitator SAY Guide - Learning objectives and exercises for part 1
   + Facilitator pre/post checklist for part 1
   + Pre/post emails for part 1 (.html and .md)
-4.  **s02_resources:** 
+4.  **part1_resources:** 
   + SQL query code
 
