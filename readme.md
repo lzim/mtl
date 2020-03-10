@@ -5,7 +5,8 @@
 **_Modeling to Learn_ (MTL) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
 
-- Use the map to select the [_MTL_ "blue" guides](https://mtl.how/blue) or [_MTL_ "red" guides](https://mtl.how/red) in the two folders above.
+- _Modeling to Learn_ [blue guides](https://mtl.how/blue) and _Modeling to Learn_ [red guides](https://mtl.how/red) are in the two folders at the top of this page.
+- **Use the map below to decide which guides you should use.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://github.com/lzim/mtl/tree/master/red)
 
@@ -13,7 +14,9 @@
 -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/blue) | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/red) |
 
-## _Modeling to Learn 1.7_ Videos
+## _Modeling to Learn Video
+#### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
+_MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
 - **mtl Session 1** https://bcove.video/2PBJxli
 - **mtl Session 2** https://bcove.video/2PGS6vo
