@@ -14,7 +14,7 @@
 -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/blue) | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/red) |
 
-## _Modeling to Learn Video
+## _Modeling to Learn_ Video
 #### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
 _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
