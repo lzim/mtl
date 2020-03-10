@@ -8,7 +8,7 @@
 - _Modeling to Learn_ [blue guides](https://mtl.how/blue) and _Modeling to Learn_ [red guides](https://mtl.how/red) are in the two folders at the top of this page.
 - **Use the map below to decide which guides you should use.**
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://mtl.how)
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">
 
  _MTL Blue_ click here: | _MTL Red_ click here:
 -- | --
