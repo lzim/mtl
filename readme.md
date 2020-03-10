@@ -5,7 +5,7 @@
 **_Modeling to Learn_ (MTL) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
 
-- Use the map to select either _MTL_ "blue" guides or _MTL_ "red" guides.
+- Use the map to select the [_MTL_ "blue" guides](https://mtl.how/blue) or [_MTL_ "red" guides](https://mtl.how/red) in the two folders above.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://github.com/lzim/mtl/tree/master/red)
 
