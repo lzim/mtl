@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 11 - Faciliator Say"
 author: "Team PSD"
-date: "October 16, 2019 Edited by LZ"
+date: "October 16, 2019 Edited by LZ ed Mar 2020 JB"
 output: 
   github_document: default
   html_document: default
@@ -77,5 +77,5 @@ Systems Thinking | Definition
 
 ## Have Team Lead pull up the session 09 SEE guide Done/Do review.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
-- [ ] Done: We ran exp 3 and discussed the results using **C.F.B.T. systems thinking skills.**
+- [ ] Done: We discussed the team's learning and new individual and team practice decisions that apply **C.F.B.T. systems thinking skills** in prioritized ways to implement it in our clinical care.
 - [ ] Reflect on our team's vision for MTL and our **MTL participatory learning experience** to prepare next steps and wrap-up MTL.
