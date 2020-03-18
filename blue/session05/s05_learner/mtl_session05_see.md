@@ -71,6 +71,7 @@ output:
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**
 
 #### New for _MTL_ 2.0
+- You can use several browsers outside of Chrome that are not Explorer. As the warning states on the login page of the sim UI "The _Modeling to Learn_ simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile."
 
 - If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
 
