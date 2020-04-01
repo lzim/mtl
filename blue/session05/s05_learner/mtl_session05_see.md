@@ -80,7 +80,7 @@ output:
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
 
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, tiles with blue headers).
+5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, sections with blue headers).
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_home.gif)](#DontLink)
 
