@@ -1,7 +1,7 @@
 # mtl 2.0
 ## Modeling to Learn by Team PSD - Release 2.0
 
-[<img src = "https://github.com/lzim/teampsd/blob/teampsd_style/mtl_logo/mtl_testdontguess_sm.png"
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png"
      height = "175" width = "650">](https://github.com/lzim/mtl/tree/master/blue/session01)
 
 #### session 01. *Modeling to Learn* how to align our **team vision**. 
