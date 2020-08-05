@@ -29,7 +29,7 @@ jobs:
     - name: Create Branch
       uses: peterjgrainger/action-create-branch@v2.0.0
       env:
-        GITHUB_TOKEN: '24b6223cc2c95d8e7abe75375c454ef48690771e' #${{ secrets.TEST_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} #${{ secrets.TEST_TOKEN }}
       with:
         # The branch to create
         branch: 'Feature' # optional, default is release-candidate
@@ -60,7 +60,7 @@ jobs:
         # Create PR even if no changes
         #pr_allow_empty: # optional
         # GitHub token secret
-        github_token: '24b6223cc2c95d8e7abe75375c454ef48690771e' #${{ secrets.TEST_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }} #${{ secrets.TEST_TOKEN }}
         
         
         
