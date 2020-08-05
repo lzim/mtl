@@ -40,6 +40,7 @@ jobs:
         #suffix: # optional
           
     - name: Create Branch
+      if: always()  
       uses: peterjgrainger/action-create-branch@v2.0.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} #${{ secrets.TEST_TOKEN }}
@@ -48,6 +49,7 @@ jobs:
         branch: 'Feature' # optional, default is release-candidate
           
     - name: GitHub Pull Request Action
+      if: always()  
       uses: repo-sync/pull-request@v2.3
       with:
         # Branch name to pull from, default is triggered branch
