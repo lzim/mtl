@@ -24,7 +24,20 @@ jobs:
     
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-          
+   
+    - name: ''
+      uses: dawidd6/action-delete-branch@v3.0.2
+      with:
+        # GitHub token
+        #github_token: # optional, default is ${{github.token}}
+        # Branches to delete (comma separated)
+        branches: 'Feature' # optional
+        # PR numbers whose head branches should be deleted (comma separated)
+        #numbers: # optional
+        # Additional prefix to append to every branch name
+        #prefix: # optional
+        # Additional suffix to append to every branch name
+        #suffix: # optional
           
     - name: Create Branch
       uses: peterjgrainger/action-create-branch@v2.0.0
