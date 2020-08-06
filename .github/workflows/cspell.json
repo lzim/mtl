@@ -17,6 +17,11 @@
     // This is useful for offensive words and common spelling errors.
     // For example "hte" should be "the"
     "flagWords": [
-        "hte"
-    ]
+        
+    ],
+    "minWordLength": "2",
+    "dictionaries": ["customd"],
+    "dictionaryDefinitions": [
+    { "name": "customd", "path": "./cspellcdict.txt"}
+    ],
 }
