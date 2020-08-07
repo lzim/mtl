@@ -16,6 +16,10 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png"
      height = "175" width = "420">](#DontLink)  
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
+
+Jenn 8/7 Direct Commit - Test
+Spell test - signifcant basecase
+
 # MTL Live Session 04
 
 # Today we're modeling to learn how to prioritize team needs.
