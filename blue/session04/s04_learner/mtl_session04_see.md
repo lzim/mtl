@@ -19,6 +19,7 @@ output:
 
 Jenn 8/7 Direct Commit - Test
 Spell test - signifcant basecase
+Jenn 8/10 Direct Commit - Testing
 
 # MTL Live Session 04
 
