@@ -63,9 +63,9 @@ jobs:
     - name: Markdown Linter
       if: always()  
       uses: ruzickap/action-my-markdown-linter@v0.0.1
-      #with:
+      with:
         # markdownlint config file
-        #config_file: # optional
+        config_file: .github/workflows/markdownlint.json # optional
         # Debug mode
         #debug: # optional
         # Exclude files or directories
