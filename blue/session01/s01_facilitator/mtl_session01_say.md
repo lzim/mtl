@@ -18,6 +18,8 @@ output:
 
 ## Today we're modeling to learn how to align our team vision.
 
+Thiz is a schpelling error.
+
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
 Throughout *Modeling to Learn*, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using. 
