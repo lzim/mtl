@@ -107,7 +107,7 @@ jobs:
         # Pull request template
         #pr_template: # optional
         # Pull request reviewers, comma-separated list (no spaces)
-        pr_reviewer: 'hirenp-waferwire,jamesmrollins,PANilesh' # optional
+        pr_reviewer: 'lijenn,branscombj,dlkibbe' # optional
         # Pull request assignees, comma-separated list (no spaces)
         #pr_assignee: # optional
         # Pull request labels, comma-separated list (no spaces)
