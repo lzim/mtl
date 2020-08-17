@@ -97,7 +97,7 @@ jobs:
       uses: repo-sync/pull-request@v2.3
       with:
         # Branch name to pull from, default is triggered branch
-        source_branch: 'Feature' # optional
+        #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
         destination_branch: 'QA' # optional, default is master
         # Pull request title
