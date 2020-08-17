@@ -6,7 +6,8 @@ name: Test
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: #[ master ]
+      - "Feature*" 
     paths:
     - '**.md'
   pull_request:
@@ -24,29 +25,72 @@ jobs:
     
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-   
-    - name: ''
-      uses: dawidd6/action-delete-branch@v3.0.2
       with:
-        # GitHub token
-        #github_token: # optional, default is ${{github.token}}
-        # Branches to delete (comma separated)
-        branches: 'Feature' # optional
-        # PR numbers whose head branches should be deleted (comma separated)
-        #numbers: # optional
-        # Additional prefix to append to every branch name
-        #prefix: # optional
-        # Additional suffix to append to every branch name
-        #suffix: # optional
-          
-    - name: Create Branch
+        fetch-depth: "0"
+    
+    - name: '' #get changed files
+      id: getfile
+      run: |
+        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} | xargs)"
+    
+    - name: '' #get changed files
+      id: getDirName
+      run: |
+        echo "::set-output name=dirs::$(dirname ${{ steps.getfile.outputs.files }})"
+    
+    #- name: echo output
+      #run: |
+        #echo ${{ steps.getfile.outputs.files }}
+        #echo ${{ steps.getDirName.outputs.dirs }}
+    
+    - name: Spell Checker
       if: always()  
-      uses: peterjgrainger/action-create-branch@v2.0.0
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} #${{ secrets.TEST_TOKEN }}
+      uses: zwaldowski/cspell-action@1.0.0
       with:
-        # The branch to create
-        branch: 'Feature' # optional, default is release-candidate
+        # Glob pattern of files to check
+        paths: ${{ steps.getfile.outputs.files }}
+        config: .github/workflows/cspell.json
+        # Configuration file to use. By default cspell looks for cspell.json in the current directory.
+        #config: # optional
+        # Exclude files matching the glob pattern
+        #exclude: # optional
+        # Only output the first instance of a word not found in the dictionaries.
+        #unique: # optional
+      
+    - name: Markdown Link Checker
+      if: always()  
+      uses: ruzickap/action-my-markdown-link-checker@v1.0.0
+      with:
+        # markdown-link-check config file
+        #config_file: # optional
+        # Debug mode
+        #debug: # optional
+        # Exclude files or directories
+        #exclude: # optional
+        # Command line parameters for fd command. "exclude" and "search_paths" parameters are ignored if this is set
+        #fd_cmd_params: # optional
+        # Quiet mode for markdown-link-check
+        #quiet: # optional
+        # Set paths which should be recursively scanned for markdown files (*.md) and linted. By default all "*.md" files are checked
+        search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
+        # Verbose mode for markdown-link-check
+        #verbose: # optional
+                
+    - name: Markdown Linter
+      if: always()  
+      uses: ruzickap/action-my-markdown-linter@v0.0.1
+      with:
+        # markdownlint config file
+        config_file: .github/workflows/markdownlint.json # optional
+        # Debug mode
+        #debug: # optional
+        # Exclude files or directories
+        #exclude: # optional
+        # Command line parameters for fd command. "exclude" and "search_paths" parameters are ignored if this is set
+        #fd_cmd_params: # optional
+        # Set paths which should be recursively scanned for markdown files (*.md) and linted. By default all "*.md" files are checked
+        search_paths: ${{ steps.getDirName.outputs.dirs }} # optional
+   
           
     - name: GitHub Pull Request Action
       if: always()  
@@ -75,7 +119,7 @@ jobs:
         # Create PR even if no changes
         #pr_allow_empty: # optional
         # GitHub token secret
-        github_token: ${{ secrets.GITHUB_TOKEN }} #${{ secrets.TEST_TOKEN }}
+        github_token: ${{ secrets.GITHUB_TOKEN }} 
         
         
         
