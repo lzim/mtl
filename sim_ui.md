@@ -13,6 +13,7 @@ The team can choose from 5 modules: Care Coordination, Medication Management, Ps
 Using their VA email, clinicians can login to two types of environments on the simulation user-interface, or sim UI: team world and individual world. There is one team world per team which includes all members of the care team as well as the co-facilitators for making team decisions to run experiments together. There is one individual world per team member for running extra experiments on their own.
 
 The sim UI also includes the following navigation icons & features:
+
 **Icons**
 - Team: Click on this to chat with your team or co-facilitator live during the session
 - More Info: Click on this to read more info about the different modules and functions of the simulation user-interface
@@ -30,11 +31,11 @@ The sim UI also includes the following navigation icons & features:
 ## [Forio Epicenter Admin (mtl.how/facilitate)](https://mtl.how/facilitate)
 All co-facilitators and HQ support team members will create an Epicenter login and be added to the TeamPSD project on Epicenter. From here, co-facilitators will be able to see and have access to the Development (Dev), Test, and Production (Prod) environments of all TeamPSD tools hosted on Epicenter (mtl.how/sim, mtl.how/team, and mtl.how/demo). This platform also gives access to the underlying model files that run the simulation user-interface. However, these **are not to be changed or accessed by anyone, except the model workgroup**.
 
-Dev – This instance is for the exclusive use of the Development Team (A.K.A. “DEV”). Dev develops each sprint in this instance until they are satisfied it is ready for user testing. When iterations are completed, the sprint is promoted to PROD.
+**Dev** – This instance is for the exclusive use of the Development Team (A.K.A. “DEV”). Dev develops each sprint in this instance until they are satisfied it is ready for user testing. When iterations are completed, the sprint is promoted to PROD.
 
-Test – This instance is for the Workgroup Leads and others to conduct user testing of the current sprint. When the testing and resulting development iterations are completed, the sprint is promoted to PROD.
+**Test** – This instance is for the Workgroup Leads and others to conduct user testing of the current sprint. When the testing and resulting development iterations are completed, the sprint is promoted to PROD.
 
-Prod – This is the Production instance that is available for the *Modeling to Learn* learners to use.
+**Prod** – This is the Production instance that is available for the *Modeling to Learn* learners to use.
 (include explanation of dev, test, prod) - The underlying model files responsible for running the simulation user-interface 
 
 Through the Epicenter backend platform, users can:
@@ -44,7 +45,7 @@ Through the Epicenter backend platform, users can:
 - Manage, create, and troubleshoot team groups, worlds, and roles 
 
 
-By changing roles to a facilitator instead of a learner, you can also access the Facilitator Dashboard which includes:
+By changing roles to a facilitator instead of a learner, users can also access the Facilitator Dashboard which includes:
 - Dashboards: Click here to see a quick overview on progress of each experiment for the team, team roster, and statistics on each team experiment (i.e. time taken, attendance, etc.)
 - Community (THIS SAYS PLDR CAN WE CHANGE): Click here to see which users have contributed to the Community of Practice as well as the corresponding issue number for GitHub. Users can also manage text for the Community button, News, and Alerts. 
 - Chat: Click here to chat back with the team during a live session
