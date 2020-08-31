@@ -1,4 +1,4 @@
-# **REDCap Project Review Checklist**
+# VA REDCap Project Review Checklist
 
 Team PSD is using REDCap for the following *Modeling to Learn* survey/REDCap projects:
 - *Modeling to Learn* Fidelity ratings to be completed by the Facilitators to are measure how well they have delivered the 12 sessions according to the theory of change.
@@ -40,7 +40,7 @@ I do not have an account:
 - [ ] Use the [REDCap Map](hyperlink this from gh-pages when location finalized) for additional information and guidance on how to attain an account.
 
 ### Team PSD RedCap Training
-- [ ] If you are new to REDCap, click here to review a [training guide](https://github.com/lzim/teampsd/blob/master/resources/training_guides/redcap/va_redcap.md) designed for TeamPSD Members.
+- [ ] If you are new to REDCap, click here to review a [training guide](https://github.com/lzim/mtl/blob/gh-pages/mtl_how_redcap_training_guide.md) designed for TeamPSD Members.
 
 ### REDCap Project Review
 
