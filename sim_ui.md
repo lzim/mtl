@@ -1,18 +1,18 @@
 # *Modeling to Learn* Simulation User-Interface and Forio Epicenter Backend Management
 
 ### Relevant Shortlinks
-1. [mtl.how/sim](https://mtl.how/sim)
-2. [mtl.how/facilitate](https://mtl.how/facilitate)
+1. [mtl.how/sim](https://mtl.how/sim) - Simulation User-Interface
+2. [mtl.how/facilitate](https://mtl.how/facilitate) - Epicenter Backend Management
 
 ## Background
-The *Modeling to Learn* simulation user-interface is used in *Modeling to Learn Blue* Sessions 5-10 to run simulation experiments of the frontline team's operations and coordination. The co-facilitators helps each team decide on a module during Session 4 using the *Modeling to Learn* Menu based on the team's needs and highest priorities. 
+The *Modeling to Learn* simulation user-interface (sim UI) is used in *Modeling to Learn Blue* Sessions 5-10 to run simulation experiments of the frontline team's operations and coordination. Co-facilitators help each team select one of 5 simulation modules during Sessions 1-4 based on the team's vision, needs and priorities. 
 
-The team can choose from 5 modules: Care Coordination, Medication Management, Psychotherapy, Aggregate Mix of Services, and Measurement Based Care and Suicide Prevention. Over the course of *MTL*, the team runs 4 scenarios relevant to their care team's operations - basecase of no new decisions, experiment 1, experiment 2, and experiment 3.
+The 5 modules are Care Coordination, Medication Management, Psychotherapy, Aggregate Mix of Services, and Measurement Based Care and Suicide Prevention. Each team runs 4 simulation experiments in their selected module: their basecase of no new decisions; experiment 1 testing the team's first hypothesis for addressing their priority need; experiment 2 testing their second hypothesis; and experiment 3, combining multiple new decisions the team could implement.
 
 ## [Simulation User-Interface (mtl.how/sim)](https://mtl.how/sim)
-Using their VA email, clinicians can login to two types of environments on the simulation user-interface, or sim UI: team world and individual world. There is one team world per team which includes all members of the care team as well as the co-facilitators for making team decisions to run experiments together. There is one individual world per team member for running extra experiments on their own.
+Using their VA email, clinicians can login to one of two types of environments, or "worlds", in the sim UI: the Team world or the Individual world. The team world allows access to all team members so they can combine their thinking and run experiments together. The individual world is a unique environment where each team member can run experiments on their own and explore beyond the collective work of the team. Co-facilitators can "map" themselves to team and individual worlds in various ways for different purposes, as described further under Forio Epicenter backend management.
 
-The sim UI also includes the following navigation icons & features:
+The sim UI includes the following navigation icons & features:
 
 **Icons**
 - Team: Click on this to chat with your team or co-facilitator live during the session
