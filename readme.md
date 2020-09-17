@@ -19,7 +19,7 @@
 #### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
 _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
-To recieve **CEU credit** through VA TMS, please select the **TMS** link.
+To register for **CEU credit** through VA TMS, please select the **TMS** link.
 
 - **Session 1:** [Team Vision](https://bcove.video/2PBJxli) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41387%26componentTypeID%3dVA%26revisionDate%3d1585238760000%26fromSF%3dY&company=VAHCM03))
 - **Session 2:** [Data Interface](https://bcove.video/2PGS6vo) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41544%26componentTypeID%3dVA%26revisionDate%3d1586807640000%26fromSF%3dY&company=VAHCM03))
