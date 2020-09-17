@@ -19,42 +19,18 @@
 #### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
 _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
-- **mtl Session 1** https://bcove.video/2PBJxli
-- **mtl Session 2** https://bcove.video/2PGS6vo
-- **mtl Session 3** https://bcove.video/38Buyk2
-- **mtl Session 4** https://bcove.video/36E0XF7
-- **mtl Session 5** Aggregate https://bcove.video/36xbi5t
-- **mtl Session 5** Care Coordination https://bcove.video/34fw7AR
-- **mtl Session 5** Med Management https://bcove.video/2snBuko
-- **mtl Session 5** Psychotherapy https://bcove.video/34gfrJG
-- **mtl Session 5** Suicide Prevention https://bcove.video/2PgYXN5
-- **mtl Session 6** Aggregate https://bcove.video/35lRbaf
-- **mtl Session 6** Care Coordination https://bcove.video/2POCoP0
-- **mtl Session 6** Med Management https://bcove.video/2YNtPYt
-- **mtl Session 6** Psychotherapy https://bcove.video/2YMyOsC
-- **mtl Session 6** Suicide Prevention https://bcove.video/2PGWGKa
-- **mtl Session 7** Aggregate https://bcove.video/2PGqKWd
-- **mtl Session 7** Care Coordination https://bcove.video/2PJxPVP
-- **mtl Session 7** Med Management https://bcove.video/2qNGRsw
-- **mtl Session 7** Psychotherapy https://bcove.video/2YN5nH2
-- **mtl Session 7** Suicide Prevention https://bcove.video/2RVNQuu
-- **mtl Session 8** Aggregate https://bcove.video/35ks9bC
-- **mtl Session 8** Care Coordination https://bcove.video/2RMmCql
-- **mtl Session 8** Med Management  https://bcove.video/35kBzUy
-- **mtl Session 8** Psychotherapy https://bcove.video/2smgSJc
-- **mtl Session 8** Suicide Prevention https://bcove.video/2RQGDMk
-- **mtl Session 9** Aggregate https://bcove.video/2t8cRs7
-- **mtl Session 9** Care Coordination https://bcove.video/38B9Pgw
-- **mtl Session 9** Med Management https://bcove.video/36AoaaS
-- **mtl Session 9** Psychotherapy https://bcove.video/2PgADLb
-- **mtl Session 9** Suicide Prevention https://bcove.video/34oXQiQ
-- **mtl Session 10** Aggregate Module https://bcove.video/2RVMiB3
-- **mtl Session 10** Care Coordination https://bcove.video/2YIcHUe
-- **mtl Session 10** Med Management https://bcove.video/2EbU0ii
-- **mtl Session 10** Psychoteherapy https://bcove.video/2thMmRh
-- **mtl Session 10** Suicide Prevention https://bcove.video/2PEAFLU
-- **mtl Session 11** https://bcove.video/2EhzInn
-- **mtl Session 12** https://bcove.video/38xrxBz
+To recieve CEU credit through VA TMS, please select the TMS link.
+
+- **Session 1:** [Team Vision](https://bcove.video/2PBJxli) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41387%26componentTypeID%3dVA%26revisionDate%3d1585238760000%26fromSF%3dY&company=VAHCM03))
+- **Session 2:** [Data Interface](https://bcove.video/2PGS6vo) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41544%26componentTypeID%3dVA%26revisionDate%3d1586807640000%26fromSF%3dY&company=VAHCM03))
+- **Session 3:** [Team Data](https://bcove.video/38Buyk2) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41433%26componentTypeID%3dVA%26revisionDate%3d1585580220000%26fromSF%3dY&company=VAHCM03))
+- **Session 4:** [Team Needs](https://bcove.video/36E0XF7) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41434%26componentTypeID%3dVA%26revisionDate%3d1585580820000%26fromSF%3dY&company=VAHCM03))
+- **Session 5:** Team World
+   - [Aggregate](https://bcove.video/36xbi5t) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41435%26componentTypeID%3dVA%26revisionDate%3d1585581000000%26fromSF%3dY&company=VAHCM03))
+   - [Care Coordination](https://bcove.video/34fw7AR) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41574%26componentTypeID%3dVA%26revisionDate%3d1586956380000%26fromSF%3dY&company=VAHCM03))
+   - [Med Management](https://bcove.video/2snBuko) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41575%26componentTypeID%3dVA%26revisionDate%3d1586956560000%26fromSF%3dY&company=VAHCM03))
+   - [Psychotherapy](https://bcove.video/34gfrJG) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41576%26componentTypeID%3dVA%26revisionDate%3d1586956680000%26fromSF%3dY&company=VAHCM03))
+   - [Suicide Prevention](https://bcove.video/2PgYXN5) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41577%26componentTypeID%3dVA%26revisionDate%3d1586956920000%26fromSF%3dY&company=VAHCM03))
 
 ## *Modeling to Learn* Links
 1. [mtl.how/live](https://www.mtl.how/live) - _Modeling to Learn_ Live Sessions - Adobe Connect Room
