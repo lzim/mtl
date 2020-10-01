@@ -26,11 +26,13 @@ To register for **CEU credit** through VA TMS, please select the **TMS** link.
 - **Session 3:** [Team Data](https://bcove.video/38Buyk2) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41433%26componentTypeID%3dVA%26revisionDate%3d1585580220000%26fromSF%3dY&company=VAHCM03))
 - **Session 4:** [Team Needs](https://bcove.video/36E0XF7) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41434%26componentTypeID%3dVA%26revisionDate%3d1585580820000%26fromSF%3dY&company=VAHCM03))
 - **Session 5:** Team World
-   - [Aggregate](https://bcove.video/36xbi5t) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41435%26componentTypeID%3dVA%26revisionDate%3d1585581000000%26fromSF%3dY&company=VAHCM03))
-   - [Care Coordination](https://bcove.video/34fw7AR) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41574%26componentTypeID%3dVA%26revisionDate%3d1586956380000%26fromSF%3dY&company=VAHCM03))
-   - [Med Management](https://bcove.video/2snBuko) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41575%26componentTypeID%3dVA%26revisionDate%3d1586956560000%26fromSF%3dY&company=VAHCM03))
-   - [Psychotherapy](https://bcove.video/34gfrJG) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41576%26componentTypeID%3dVA%26revisionDate%3d1586956680000%26fromSF%3dY&company=VAHCM03))
-   - [Suicide Prevention](https://bcove.video/2PgYXN5) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41577%26componentTypeID%3dVA%26revisionDate%3d1586956920000%26fromSF%3dY&company=VAHCM03))
+
+Videos based on each module:
+
+Care Coordination | SP | MM | Psych | Agg |
+-- | -- | -- | -- | --
+[brightcove link](test) [(TMS)](test)| [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test) | [brightcove link](test) [(TMS)](test)
+
 
 ## *Modeling to Learn* Links
 1. [mtl.how/live](https://www.mtl.how/live) - _Modeling to Learn_ Live Sessions - Adobe Connect Room
