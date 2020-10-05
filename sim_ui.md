@@ -1,4 +1,4 @@
-## Simulation User-Interface and Forio Epicenter Backend Management
+## Sim UI & Epicenter
 
 ##### Relevant Shortlinks
 1. [mtl.how/sim](https://mtl.how/sim) - Simulation User-Interface
