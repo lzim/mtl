@@ -62,4 +62,3 @@ _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are availa
 3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation
 4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References 
 
-
