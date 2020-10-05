@@ -15,6 +15,7 @@ Using their VA email, clinicians can login to one of two types of environments, 
 The sim UI includes the following navigation icons & features:
 
 **Icons**
+
 - Team: Click on this to chat with your team or co-facilitator live during the session
 - More Info: Click on this to read more info about the different modules and functions of the simulation user-interface
 - News: Click on this to quickly read the current news flashes on Community of Practice discussion items. This icon includes a red notification button alerting you to the number of unread messages, similar to the notification system on your phone!
@@ -23,6 +24,7 @@ The sim UI includes the following navigation icons & features:
 - Community: Click on this floating button to contribute ideas, like something, or ask a question on the online Community of Practice. You can also further search the Community of Practice for previously answered questions or to get involved in any discussions. No PII/PHI here please!
 
 **Features**
+
 - Quick Tips: Anytime you're waiting for a new screen to load, a quick tip and related icon will pop-up to remind you of different functions.
 - Alerts: If we need to alert users of any urgent or sensitive news, a pop-up will flash once logged in with details.
 
@@ -37,6 +39,7 @@ All co-facilitators and HQ support team members will create an Epicenter login a
 (include explanation of dev, test, prod) - The underlying model files responsible for running the simulation user-interface 
 
 Through the Epicenter backend platform, users can:
+
 - Manage team data files
 - Manage permissions and add new end users
 - Add new learners and facilitators
@@ -44,6 +47,7 @@ Through the Epicenter backend platform, users can:
 
 
 By changing roles to a facilitator instead of a learner, users can also access the Facilitator Dashboard which includes:
+
 - Dashboards: Click here to see a quick overview on progress of each experiment for the team, team roster, and statistics on each team experiment (i.e. time taken, attendance, etc.)
 - Community (THIS SAYS PLDR CAN WE CHANGE): Click here to see which users have contributed to the Community of Practice as well as the corresponding issue number for GitHub. Users can also manage text for the Community button, News, and Alerts. 
 - Chat: Click here to chat back with the team during a live session
@@ -52,6 +56,7 @@ By changing roles to a facilitator instead of a learner, users can also access t
 - Tips: Click here to add or edit text & icons displayed in the Quick Tips pop-ups.
 
 ### Maps
+
 - [Run a new experiment](add link)
 - [Add your avatar](add link)
 - [Upload a fresh team data file ](add link)
