@@ -9,6 +9,7 @@ The *Modeling to Learn* Data User Interface and Splash Pages are used in both *M
 ### Splash Page
 
 **Features**
+
 - Filter to your clinic or division to see trends for the last two years.
 - Click on the View dropdown in the top right corner, the following options will be available:
   - Count: Aggregate Data for Viz trends
@@ -23,6 +24,7 @@ The *Modeling to Learn* Data User Interface and Splash Pages are used in both *M
 ### Data User Interface
 
 **Features**
+
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - View the "viz" tab to show team trends.
 - Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
