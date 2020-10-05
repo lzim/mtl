@@ -50,7 +50,7 @@ output:
 
 
 ### 2. Explore the facility data.
-- To **view facility data** click on the [...] next to the file **"640_facility.xlsb"** and click **"Edit"** to open in Excel.
+- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
