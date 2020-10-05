@@ -1,4 +1,4 @@
-## Sim UI & Epicenter
+## Sim UI and Epicenter
 
 ##### Relevant Shortlinks
 1. [mtl.how/sim](https://mtl.how/sim) - Simulation User-Interface
