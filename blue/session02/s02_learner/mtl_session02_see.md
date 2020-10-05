@@ -58,13 +58,13 @@ output:
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 - Click through the tabs on the bottom of the Excel sheet. What options are there and what do they mean? Hints:
-  - Count: Aggregate Data table in Viz tab
   - Data: Sortable report of data
   - Diag: Diagnostic data 
   - Enc: Encounter types of visits
   - HF: Health Factors data related to visits
   - Meas: Measures or flag names
   - Viz: Visualization of trends  
+     - Count: Aggregate Data table in Viz tabs
 
 - What filtering options are available? 
   - Filter to your clinic or division to see trends for the last two years.
