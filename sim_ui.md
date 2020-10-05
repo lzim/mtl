@@ -1,15 +1,15 @@
-# *Modeling to Learn* Simulation User-Interface and Forio Epicenter Backend Management
+## Simulation User-Interface and Forio Epicenter Backend Management
 
-### Relevant Shortlinks
+##### Relevant Shortlinks
 1. [mtl.how/sim](https://mtl.how/sim) - Simulation User-Interface
 2. [mtl.how/facilitate](https://mtl.how/facilitate) - Epicenter Backend Management
 
-## Background
+### Background
 The *Modeling to Learn* simulation user-interface (sim UI) is used in *Modeling to Learn Blue* Sessions 5-10 to run simulation experiments of the frontline team's operations and coordination. Co-facilitators help each team select one of 5 simulation modules during Sessions 1-4 based on the team's vision, needs and priorities. 
 
 The 5 modules are Care Coordination, Medication Management, Psychotherapy, Aggregate Mix of Services, and Measurement Based Care and Suicide Prevention. Each team runs 4 simulation experiments in their selected module: their basecase of no new decisions; experiment 1 testing the team's first hypothesis for addressing their priority need; experiment 2 testing their second hypothesis; and experiment 3, combining multiple new decisions the team could implement.
 
-## [Simulation User-Interface (mtl.how/sim)](https://mtl.how/sim)
+### [Simulation User-Interface (mtl.how/sim)](https://mtl.how/sim)
 Using their VA email, clinicians can login to one of two types of environments, or "worlds", in the sim UI: the Team world or the Individual world. The team world allows access to all team members so they can combine their thinking and run experiments together. The individual world is a unique environment where each team member can run experiments on their own and explore beyond the collective work of the team. Co-facilitators can "map" themselves to team and individual worlds in various ways for different purposes, as described further under Forio Epicenter backend management.
 
 The sim UI includes the following navigation icons & features:
@@ -26,9 +26,7 @@ The sim UI includes the following navigation icons & features:
 - Quick Tips: Anytime you're waiting for a new screen to load, a quick tip and related icon will pop-up to remind you of different functions.
 - Alerts: If we need to alert users of any urgent or sensitive news, a pop-up will flash once logged in with details.
 
-
-
-## [Forio Epicenter Admin (mtl.how/facilitate)](https://mtl.how/facilitate)
+### [Forio Epicenter Admin (mtl.how/facilitate)](https://mtl.how/facilitate)
 All co-facilitators and HQ support team members will create an Epicenter login and be added to the TeamPSD project on Epicenter. From here, co-facilitators will be able to see and have access to the Development (Dev), Test, and Production (Prod) environments of all TeamPSD tools hosted on Epicenter (mtl.how/sim, mtl.how/team, and mtl.how/demo). This platform also gives access to the underlying model files that run the simulation user-interface. However, these **are not to be changed or accessed by anyone, except the model workgroup**.
 
 **Dev** – This instance is for the exclusive use of the Development Team (A.K.A. “DEV”). Dev develops each sprint in this instance until they are satisfied it is ready for user testing. When iterations are completed, the sprint is promoted to PROD.
@@ -53,7 +51,7 @@ By changing roles to a facilitator instead of a learner, users can also access t
 - Tutor: Click here to add or edit text & links displayed in the Tutor pop-ups.
 - Tips: Click here to add or edit text & icons displayed in the Quick Tips pop-ups.
 
-## Maps
+### Maps
 - [Run a new experiment](add link)
 - [Add your avatar](add link)
 - [Upload a fresh team data file ](add link)
@@ -66,8 +64,8 @@ By changing roles to a facilitator instead of a learner, users can also access t
 - [View team progress using the facilitator dashboard](add link)
 - [Add a new end user](insert link)
 
-## Cheatsheets
+### Cheatsheets
 - [Simulation user-interface or sim UI cheatsheet](insert link)
 
-## Checklists
+### Checklists
 - [Pre-session review checklist](insert link)
