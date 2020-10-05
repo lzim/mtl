@@ -58,7 +58,7 @@ output:
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 - Click through the tabs on the bottom of the Excel sheet. What options are there and what do they mean? Hints:
-  - Count: Aggregate Data for Viz trends
+  - Count: Aggregate Data table in Viz tab
   - Data: Sortable report of data
   - Diag: Diagnostic data 
   - Enc: Encounter types of visits
