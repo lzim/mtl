@@ -1,12 +1,12 @@
-# *Modeling to Learn* Splash Page and Data User Interface
+## Splash Page and Data User Interface
 
-## Relevant Shortlinks
+#### Relevant Shortlinks
 1. [mtl.how/data](https://mtl.how/data)
 
-## Background
+### Background
 The *Modeling to Learn* Splash Pages and Data User Interface are used in both *Modeling to Learn* Red and Blue to view
 
-## Splash Page
+### Splash Page
 
 **Features**
 - Filter to your clinic or division to see trends for the last two years.
@@ -20,7 +20,7 @@ The *Modeling to Learn* Splash Pages and Data User Interface are used in both *M
   - Viz: Visualization of trends
 
 
-## Data User Interface
+### Data User Interface
 
 **Features**
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
@@ -28,6 +28,6 @@ The *Modeling to Learn* Splash Pages and Data User Interface are used in both *M
 - Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
 - Click to view the "data" tab, to show your team's individual patient information.
 
-## Cheatsheets
+### Cheatsheets
 - [Splash Page & Data UI Cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf)
 
