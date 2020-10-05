@@ -44,19 +44,20 @@ output:
 ## *MTL* on BISL
 
 ### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
-+ For best results, please use Internet Explorer or Edge. SharePoint is a Microsoft platform and works best with Microsoft web browsers.
-
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) 
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 
-### 2. Explore the information available in the BISL SharePoint splash page.
+### 2. Explore the facility data.
+- To **view facility data** click on the [...] next to the file **"640_facility.xlsb"** and click **"Edit"** to open in Excel.
+- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
+
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
-- Click on the View dropdown in the top right corner. What View options are there and what do they mean? Hints:
+- Click through the tabs on the bottom of the Excel sheet. What options are there and what do they mean? Hints:
   - Count: Aggregate Data for Viz trends
   - Data: Sortable report of data
   - Diag: Diagnostic data 
@@ -67,15 +68,13 @@ output:
 
 - What filtering options are available? 
   - Filter to your clinic or division to see trends for the last two years.
-  
-#### New for _MTL_ 2.0
-- You can now switch between View and filtering options via the dropdown menu in the top-right corner and grey buttons, instead of through the tabs on the Excel spreadsheet. We are no longer directly showing an Excel sheet on the splash page.
 
-- There is no need to use the "Data > Refresh Connections" button anymore and it will not respond as the data pull and refresh workflow has changed. 
+#### New for _MTL_ 2.0
+- View facility data via the "facility.xlsb" Excel sheet instead of the Splashpage.
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
 
-- Patient SSID is no longer asterisked out in the splash page. It has been completely removed. Please go to the data UI to see Patient SSID information.
+- Patient SSID is no longer asterisked out in the facility data. It has been completely removed. Please go to the data UI to see Patient SSID information.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
 
@@ -84,9 +83,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 ## Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+- Click on the data_ui file. This will show a preview in your browser window.
 - Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
-
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
