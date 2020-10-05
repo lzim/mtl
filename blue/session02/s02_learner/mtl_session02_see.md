@@ -101,8 +101,6 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 #### New for _MTL_ 2.0
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
-[![](https://github.com/lzim/teampsd/raw/master/resources/gifs/mtl_2.0/previous_clinic_list.gif)](#DontLink)
-
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
