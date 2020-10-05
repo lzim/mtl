@@ -1,10 +1,10 @@
-## Splash Page and Data User Interface
+## Data UI and Splash Page
 
 #### Relevant Shortlinks
 1. [mtl.how/data](https://mtl.how/data)
 
 ### Background
-The *Modeling to Learn* Splash Pages and Data User Interface are used in both *Modeling to Learn* Red and Blue to view
+The *Modeling to Learn* Data User Interface and Splash Pages are used in both *Modeling to Learn* Red and Blue to view
 
 ### Splash Page
 
