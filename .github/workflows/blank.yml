@@ -7,7 +7,7 @@ name: Test
 on:
   push:
     branches: #[ master ]
-      - "Feature*" 
+      - "[Ff]eature*" 
     paths:
     - '**.md'
   pull_request:
