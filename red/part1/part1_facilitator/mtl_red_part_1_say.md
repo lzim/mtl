@@ -25,7 +25,7 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the facility data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
  
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -58,20 +58,23 @@ Hello! I'm __________ and I'm __________.
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2.  Explore the information available in the BISL Sharepoint splash page.
+### 2.  Explore the facility data.
 
-- This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
+- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 
+- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
 
-#### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
+- The facility data is designed to show trends relevant to your team vision of __________________________ for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
+
+#### There are two types of View options at the bottom of the spreadsheet. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
 View | Displays 
 -- | --
-Count | Count tables that match the viz graphs
+Count (in Viz tabs) | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the splash page:
+#### There are four main data sets in the facility data:
 [During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
 
 Rank | Data | Displays 
@@ -150,7 +153,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 6. Click to view the "viz" tabs, which show team trends.  
 
-- Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
@@ -218,7 +221,7 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.  
 
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the SharePoint-based splashpage:
+While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the facility data Excel spreadsheet:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
   + You can create parameters that represent averages or medians for the team over the past two years.
