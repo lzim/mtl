@@ -81,8 +81,8 @@ output:
 ## Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-- Click on the data_ui file. This will show a preview in your browser window.
-- Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
+- Click on the 3 dots [...] next to the data_ui file.
+- Click on "Edit" to open in Excel, then click "Edit in Excel" at the top of the sheet. 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
