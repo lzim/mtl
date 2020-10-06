@@ -65,8 +65,6 @@ output:
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
 
-- What filtering options are available? 
-  - Filter to your clinic or division using the grey buttons to see trends for the last two years.
 
 ## Your Team Data Folder
 
