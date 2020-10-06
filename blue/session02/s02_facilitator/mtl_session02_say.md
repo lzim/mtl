@@ -64,31 +64,33 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
 
-- We recommend using Explorer or Edge as your browser for this resource because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
+- We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
-    + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2.  Explore the information available in the BISL Sharepoint splash page.
+### 2.  Explore the facility data.
 
-- This splash page is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
+- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
+- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
+
+- The facility data is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the facility data Excel spreadsheet:  
 
 
-#### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
+#### There are two types of View options at the bottom of the spreadsheet. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
 View | Displays 
 -- | --
-Count | Count tables that match the viz graphs
+Count (in Viz tabs) | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the splash page:
+#### There are four main data sets in the facility data:
 [During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
 
 Rank | Data | Displays 
@@ -99,7 +101,7 @@ ___ | HF | Health Factors data related to visits, including evidence-based psych
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
 #### To sum up, there are three ways to view each set of data:  
-1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
+1. **Counts per month (within the associated Viz tab):** vizDiag, vizEnc, vizHF, and vizMeas;  
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
      
@@ -133,7 +135,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 
-- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+- Click on the data_ui file. This will show a preview in your internet browser window.
 
 - Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
    
@@ -235,7 +237,7 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.  
 
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the SharePoint-based splash page:
+While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
   + You can create the team data table parameters used by the simulation user interface.
