@@ -43,7 +43,7 @@ output:
 
 ## *MTL* on BISL
 
-### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) 
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
@@ -57,14 +57,13 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
-- Click through the tabs on the bottom of the Excel sheet. What options are there and what do they mean? Hints:
+- Click through the tabs on the bottom of the Excel spreadsheet. What options are there and what do they mean? Hints:
   - Data: Sortable report of data
   - Diag: Diagnostic data 
   - Enc: Encounter types of visits
   - HF: Health Factors data related to visits
   - Meas: Measures or flag names
   - Viz: Visualization of trends  
-     - Count: Aggregate Data table in Viz tabs
 
 - What filtering options are available? 
   - Filter to your clinic or division to see trends for the last two years.
