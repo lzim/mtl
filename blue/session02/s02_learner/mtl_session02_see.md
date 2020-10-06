@@ -69,6 +69,8 @@ output:
   - Filter to your clinic or division to see trends for the last two years.
 
 #### New for _MTL_ 2.0
+- You no longer need to use only Internet Explorer or Edge to open mtl.how/data. You can use any browser window.
+
 - View facility data via the "facility.xlsb" Excel sheet instead of the Splashpage.
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD. 
