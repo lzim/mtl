@@ -75,9 +75,6 @@ output:
 
 - Patient SSID is no longer asterisked out in the facility data. It has been completely removed. Please go to the data UI to see Patient SSID information.
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
-
-For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
 ## Your Team Data Folder
 
