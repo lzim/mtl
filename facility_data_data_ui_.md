@@ -54,4 +54,4 @@ Using the permissions on their PIV, clincians can query two types of data using 
 
 ### Cheatsheets
 - [mtl.how/data cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf)
-- [SharePoint User Guide]() **only accessible within the VA**
+- [SharePoint User Guide](https://spsites.cdw.va.gov/sites/PTSD_OMHO/Pages/user_guide.aspx) **only accessible within the VA**
