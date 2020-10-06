@@ -49,11 +49,9 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
-
-- We recommend using Explorer or Edge as your browser for this resource because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
