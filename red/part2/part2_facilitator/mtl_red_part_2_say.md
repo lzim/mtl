@@ -47,7 +47,6 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 ### Navigate to the data UI at mtl.how/data. 
-- Remember that this is on the VA's secure SharePoint site, so it works best with Internet Explorer or Edge.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.  
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file. 
