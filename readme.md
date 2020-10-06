@@ -1,6 +1,6 @@
 # _Modeling to Learn_ 
 
-## Exciting new release from Team PSD: _Modeling to Learn 2.0_
+## Exciting new release from Team PSD: _Modeling to Learn 2.0_ 
 
 **_Modeling to Learn_ (MTL) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
