@@ -116,9 +116,9 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 
-- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+- Click on the 3 dots [...] next to the data_ui file.
 
-- Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
+- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
