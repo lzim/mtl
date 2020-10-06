@@ -140,6 +140,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
 ## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA.
+   To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet. 
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   

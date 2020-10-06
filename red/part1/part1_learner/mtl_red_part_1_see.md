@@ -84,6 +84,11 @@ output:
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 - **You already have a fresh data UI file to work with in your team data_ui folder.** 
 - We will learn about the "Create Team Data Table" button in our next team meeting.
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet only).
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA.
+   To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet only). 
 
 
 ### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse. 
