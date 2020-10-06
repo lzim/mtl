@@ -40,7 +40,7 @@ output:
 # In-session Exercise (30 minutes)
 
 ### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
-- We will not do this in-session today. You already have a fresh Team Data Table to work with in your team team_data_table folder.
+- We will not do this in-session today. You already have a fresh Team Data Table to work with in your team_data_table folder.
 
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*
 - There are team data produced for each module of *Modeling to Learn*
