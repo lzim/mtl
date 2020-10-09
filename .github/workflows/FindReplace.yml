@@ -7,11 +7,14 @@ name: FindReplace
 on:
   push:
     branches: #[ master ]
-      - "[fF][nN][rR]-*" 
+      - "[fF][nN][rR]-*"
+    paths-ignore:
+    - '**.yml' 
     #paths:
     #- '**.md'
-  pull_request:
-    branches: [ master ]
+  #pull_request:
+    #branches: #[ master ]
+      #- "[fF][nN][rR]-*"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -44,23 +47,34 @@ jobs:
         #echo ${{ steps.getDirName.outputs.dirs }}
         
     - name: Find and Replace
-      #id: hellodemo
+      id: fn
       uses: shitiomatic/str-replace@master
       with:
-        find: "aggregate"
-        replace: "team"
-        include: ${{ steps.getfile.outputs.files }} #${{ steps.getDirName.outputs.dirs }} #"test/"
+        find: "hello"
+        replace: "world"
+        
+        # search returns only committed file by user 
+        include: ${{ steps.getfile.outputs.files }} 
+        
+        # only searching such directory's files and subdirectory's files which is committed by the user
+        #include: ${{ steps.getDirName.outputs.dirs }} 
+       
+        # always searching directory or file by its name which is available with double quotes i.e "test", "test/xyx.txt", "xyx.txt"
+        #include: ""
+        
+        
    
-    #- name: Test
-    # run: echo ${{ steps.hellodemo.outputs.modifiedFiles }}
+    - name: Modified Files
+      run: echo ${{ steps.fn.outputs.modifiedFiles }}
           
     - name: Check outputs and modified files
+      if: ${{ steps.fn.outputs.modifiedFiles > 0 }} 
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
         git commit -m "Find and Replace Commit"
-        git push 
+        git push   
              
            
         
