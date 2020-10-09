@@ -50,11 +50,11 @@ jobs:
       id: fn
       uses: shitiomatic/str-replace@master
       with:
-        find: "hello"
-        replace: "world"
+        find: "Session 1"
+        replace: "Session X"
         
         # search returns only committed file by user 
-        include: ${{ steps.getfile.outputs.files }} 
+        #include: ${{ steps.getfile.outputs.files }} 
         
         # only searching such directory's files and subdirectory's files which is committed by the user
         #include: ${{ steps.getDirName.outputs.dirs }} 
