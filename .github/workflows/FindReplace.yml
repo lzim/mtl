@@ -47,8 +47,8 @@ jobs:
       #id: hellodemo
       uses: shitiomatic/str-replace@master
       with:
-        find: "hello"
-        replace: "world"
+        find: "aggregate"
+        replace: "team"
         include: ${{ steps.getfile.outputs.files }} #${{ steps.getDirName.outputs.dirs }} #"test/"
    
     #- name: Test
