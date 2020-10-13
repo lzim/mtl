@@ -8,13 +8,13 @@ on:
   push:
     branches: #[ master ]
       - "[fF][nN][rR]-*"
-    paths-ignore:
-    - '**.yml' 
+    #paths-ignore:
+    #- '**.yml' 
     #paths:
     #- '**.md'
-  pull_request:
-    branches: #[ master ]
-      - "[fF][nN][rR]-*"
+  #pull_request:
+    #branches: #[ master ]
+      #- "[fF][nN][rR]-*"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
