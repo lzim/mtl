@@ -18,8 +18,6 @@ output:
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-THIS IS A TEST EDIT
-
 # MTL Live Session 01
 
 ## Today we're modeling to learn how to align our team vision.

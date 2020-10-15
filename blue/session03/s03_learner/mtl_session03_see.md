@@ -12,7 +12,6 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-TEST EDIT
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
       height = "175" width = "420">](#DontLink)      
