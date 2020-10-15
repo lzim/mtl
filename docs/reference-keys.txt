@@ -1,0 +1,17 @@
+mtl-manual
+platforms
+sim-ui-and-epicenter
+relevant-shortlinks
+background
+simulation-user-interface-mtl.howsim
+forio-epicenter-admin-mtl.howfacilitate
+maps
+cheatsheets
+checklists
+bisl-sharepoint-and-data-ui
+relevant-shortlinks-1
+background-1
+bisl-sharepoint
+facility-data
+data-user-interface
+cheatsheets-1
