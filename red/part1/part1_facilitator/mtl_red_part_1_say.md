@@ -25,7 +25,7 @@ Hello! I'm __________ and I'm __________.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |  
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the splash page. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the facility data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|  
  
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -49,31 +49,32 @@ Hello! I'm __________ and I'm __________.
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
 
-### 1. Open Internet Explorer. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
-
-- We recommend using Explorer or Edge as your browser for this resource because it's on a SharePoint platform. Microsoft products "play best" with each other and we'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
     + A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2.  Explore the information available in the BISL Sharepoint splash page.
+### 2.  Explore the facility data.
 
-- This splashpage is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the BISL Sharepoint splash page:  
+- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 
+- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
 
-#### There are three types View options in the upper right menu. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
+- The facility data is designed to show trends relevant to your team vision of __________________________ for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
+
+#### There are two types of View options at the bottom of the spreadsheet. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
 View | Displays 
 -- | --
-Count | Count tables that match the viz graphs
+Count (in Viz tabs) | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the splash page:
+#### There are four main data sets in the facility data:
 [During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
 
 Rank | Data | Displays 
@@ -118,9 +119,9 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 
-- Click on the data_ui file. This will show a preview in your Explorer or Edge browser window.
+- Click on the 3 dots [...] next to the data_ui file.
 
-- Click on "Edit Workbook" dropdown at the top and then, "Edit in Excel."
+- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
    
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team. 
 
@@ -139,6 +140,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
 ## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA.
+   To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet. 
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.  
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
   
@@ -152,7 +158,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 6. Click to view the "viz" tabs, which show team trends.  
 
-- Just like the splashpage, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
@@ -220,7 +226,7 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.  
 
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the SharePoint-based splashpage:
+While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI over the facility data Excel spreadsheet:
   + You can select a set of clinics (grids) that exactly represent your individual team.
   + All the patient-level data are identified with patient names.
   + You can create parameters that represent averages or medians for the team over the past two years.

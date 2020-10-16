@@ -18,13 +18,11 @@ output:
 
 ## Today we're modeling to learn how to align our team vision.
 
-Thiz is a schpelling error.
-
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
 Throughout *Modeling to Learn*, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using. 
 
-In the Session 1 Done/Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. MTL.HOW is your home base for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.  Thiz iz a schpelling chek.
+In the Session 1 Done/Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. MTL.HOW is your home base for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
 
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
@@ -89,7 +87,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 + Think about your Personal Vision for your team:  
 
-  a. What is team communication like?  Thiz iz a schpelling chek.
+  a. What is team communication like?  
   b. How do team members relate to one another?  
   c. How is VA data used?  
   d. How are decisions, plans and changes made?  
@@ -149,7 +147,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
  + Having strong relationships with fellow team members;
 
- + Being organized; Thiz iz a schpelling chek.
+ + Being organized;
 
  + Having basic computer knowledge (some Excel experience is good);
 
