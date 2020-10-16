@@ -186,9 +186,6 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
    + What types of decisions does the team make that affect these variables?
 
    + How do the values in this table strike you? Do they line up with how you think things really are?
-   
- #### New for _MTL_ 2.0
- NEED TO ADD 648 EDITS HERE.
 
 9. Find the Team Data Table variables in the system diagram at the left.
 
