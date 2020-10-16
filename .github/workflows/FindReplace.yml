@@ -50,8 +50,8 @@ jobs:
       id: fn
       uses: shitiomatic/str-replace@master
       with:
-        find: "Session 1"
-        replace: "Session X"
+        find: ""
+        replace: ""
         
         # search returns only committed file by user 
         #include: ${{ steps.getfile.outputs.files }} 
