@@ -77,7 +77,7 @@ output:
 
 - If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
 
-- Upon clicking buttons like "Play" or "Run" icon, a quick tip will appear on the loading screen to give you tricks on using the sim UI.
+- Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/s5_quick_tips.gif)](#DontLink) 
 
 
