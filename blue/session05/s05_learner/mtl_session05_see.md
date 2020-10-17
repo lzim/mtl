@@ -77,6 +77,10 @@ output:
 
 - If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve. Once you dismiss this alert once, it will not reappear. 
 
+- Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/s5_quick_tips.gif)](#DontLink) 
+
+
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
 
@@ -137,15 +141,13 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email.**
   - To include screenshots in the "Community" button, you can:
-    - Copy & paste from Snipping Tool
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/snip_tool_community.gif)](#DontLink) 
-    - Drag & drop a screenshot file
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/drag_drop_community.gif)](#DontLink) 
     - Upload your screenshot file
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/upload_files_community.gif)](#DontLink) 
+    - Drag & drop a screenshot file
+    - Copy & paste from Snipping Tool
+    - **Same screenshot functions as the Report Bug Icon above
+
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
-
 
 6. Start a New Session
 
@@ -186,6 +188,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
    + What types of decisions does the team make that affect these variables?
 
    + How do the values in this table strike you? Do they line up with how you think things really are?
+   
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/s5_i_information.gif)](#DontLink) 
 
 9. Find the Team Data Table variables in the system diagram at the left.
 
