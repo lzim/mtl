@@ -141,9 +141,11 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email.**
   - To include screenshots in the "Community" button, you can:
-    - Copy & paste from Snipping Tool
-    - Drag & drop a screenshot file
     - Upload your screenshot file
+    - Drag & drop a screenshot file
+    - Copy & paste from Snipping Tool
+    - **Same screenshot functions as the Report Bug Icon above
+
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
