@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmile version="1.0" xmlns="http://docs.oasis-open.org/xmile/ns/XMILE/v1.0">
+	<header>
+		<product version="1.0" lang="en">Vensim</product>
+		<vendor>Ventana Systems, Inc.</vendor>
+		<created>
+		</created>
+		<modified>
+		</modified>
+		<name>
+		</name>
+		<caption>
+		</caption>
+	</header>
+	<sim_specs method="RK4" time_units="wk">
+		<start>-13</start>
+		<stop>104</stop>
+		<dt>0.0625</dt>
+	</sim_specs>
+	<dimensions>
+		<dim name="">
+		</dim>
+	</dimensions>
+	<model>
+		<variables>
+			<stock name="#AUD Perceived Wait Time>SMOOTH#">
+				<units>wk</units>
+				<doc></doc>
+				<eqn>INTEG( ( AUD New Patient Wait Time 
+                  - #AUD Perceived Wait Time>SMOOTH# ) 
+                  / AUD Time to Perceive Wait Time , 
+             AUD New Patient Wait Time )</eqn>
+			</aux>
+			<stock name="#DEP Perceived Wait Time>SMOOTH#">
+				<units>wk</units>
+				<doc></doc>
+				<eqn>INTEG( ( DEP New Patient Wait Time 
+                  - #DEP Perceived Wait Time>SMOOTH# ) 
+                  / DEP Time to Perceive Wait Time , 
+             DEP New Patient Wait Time )</eqn>
+			</aux>
+			<stock name="#Effect of "Other MM Tasks Time" on Missed Appointments>SMOOTHI#">
+				<units>1</units>
+				<doc></doc>
+				<eqn>INTEG( ( ( Measured versus Actual Time 
+                  ^ - Sensitivity of Changes in Other MM Tasks Time on Missed Appointments ) 
+                  - #Effect of "Other MM Tasks Time" on Missed Appointments>SMOOTHI# ) 
+                  / Overbook Downside Onset Time , 
+             Measured versus Actual Time )</eqn>
+			</aux>
+			<stock name="#OtherNeeds Perceived Wait Time>SMOOTH#">
+				<units>wk</units>
+				<doc></doc>
+				<eqn>INTEG( ( OtherNeeds New Patient Wait Time 
+                  - #OtherNeeds Perceived Wait Time>SMOOTH# ) 
+                  / OtherNeeds Time to Perceive Wait Time , 
+             OtherNeeds New Patient Wait Time )</eqn>
+			</aux>
+			<stock name="#OUD Perceived Wait Time>SMOOTH#">
+				<units>wk</units>
+				<doc></doc>
+				<eqn>INTEG( ( OUD New Patient Wait Time 
+                  - #OUD Perceived Wait Time>SMOOTH# ) 
+                  / OUD Time to Perceive Wait Time , 
+             OUD New Patient Wait Time )</eqn>
+			</aux>
+			<stock name="AUD Appointments in MM">
+				<units>appt</units>
+				<doc>The total number of medication management appointments on the calendar. (appts)</doc>
+				<eqn>INTEG (
+	AUD Booking Rate+AUD Rescheduling Rate-AUD Completing Rate,
+		AUD Initial Appointments)</eqn>
+			</aux>
+			<stock name="AUD Appointments to Reschedule">
+				<units>appt</units>
+				<doc>The number of appointments to be rescheduled. This assumes that all missed appointments are eventually rescheduled. (appts)</doc>
+				<eqn>INTEG (
+	AUD True Missed Appointment Rate-AUD Rescheduling Rate,
+		AUD True Missed Appointment Rate*AUD Time to Reschedule)</eqn>
+			</aux>
+			<stock name="AUD Patients in MM">
+				<units>pts</units>
+				<doc>The total number of patients in medication management.  (pts)</doc>
+				<eqn>INTEG (
+	AUD Starting Rate-AUD Ending Rate,
+		AUD Initial Patients)</eqn>
+			</aux>
+			<stock name="AUD RVI used when Completing">
+				<units>wks</units>
+				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+				<eqn>DELAY FIXED(AUD RVI used when Booking, AUD RVI used when Booking, AUD RVI used when Booking)</eqn>
+			</aux>
+			<stock name="AUD Waiting to Start">
+				<units>pts</units>
+				<doc>The total number of patients waiting to start medication management.  (pts)</doc>
+				<eqn>INTEG (
+	AUD Referral Rate-AUD Starting Rate,
+		AUD Initial Patients Waiting to Start)</eqn>
+			</aux>
+			<stock name="DEP Appointments in MM">
+				<units>appt</units>
+				<doc>The total number of medication management appointments on the calendar. (appts)</doc>
+				<eqn>INTEG (
+	DEP Booking Rate+DEP Rescheduling Rate-DEP Completing Rate,
+		DEP Initial Appointments)</eqn>
+			</aux>
+			<stock name="DEP Appointments to Reschedule">
+				<units>appt</units>
+				<doc>The number of appointments to be rescheduled. This assumes that all missed appointments are eventually rescheduled. (appts)</doc>
+				<eqn>INTEG (
+	DEP True Missed Appointment Rate-DEP Rescheduling Rate,
+		DEP True Missed Appointment Rate*DEP Time to Reschedule)</eqn>
+			</aux>
+			<stock name="DEP Patients in MM">
+				<units>pts</units>
+				<doc>The total number of patients in medication management.  (pts)</doc>
+				<eqn>INTEG (
+	DEP Starting Rate-DEP Ending Rate,
+		DEP Initial Patients)</eqn>
+			</aux>
+			<stock name="DEP RVI used when Completing">
+				<units>wks</units>
+				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+				<eqn>DELAY FIXED(DEP RVI used when Booking, DEP RVI used when Booking, DEP RVI used when Booking)</eqn>
+			</aux>
+			<stock name="DEP Waiting to Start">
+				<units>pts</units>
+				<doc>The total number of patients waiting to start medication management.  (pts)</doc>
+				<eqn>INTEG (
+	DEP Referral Rate-DEP Starting Rate,
+		DEP Initial Patients Waiting to Start)</eqn>
+			</aux>
+			<stock name="OtherNeeds Appointments in MM">
+				<units>appt</units>
+				<doc>The total number of medication management appointments on the calendar. (appts)</doc>
+				<eqn>INTEG (
+	OtherNeeds Booking Rate+OtherNeeds Rescheduling Rate-OtherNeeds Completing Rate,
+		OtherNeeds Initial Appointments)</eqn>
+			</aux>
+			<stock name="OtherNeeds Appointments to Reschedule">
+				<units>appt</units>
+				<doc>The number of appointments to be rescheduled. This assumes that all missed appointments are eventually rescheduled. (appts)</doc>
+				<eqn>INTEG (
+	OtherNeeds True Missed Appointment Rate-OtherNeeds Rescheduling Rate,
+		OtherNeeds True Missed Appointment Rate*OtherNeeds Time to Reschedule)</eqn>
+			</aux>
+			<stock name="OtherNeeds Patients in MM">
+				<units>pts</units>
+				<doc>The total number of patients in medication management.  (pts)</doc>
+				<eqn>INTEG (
+	OtherNeeds Starting Rate-OtherNeeds Ending Rate,
+		OtherNeeds Initial Patients)</eqn>
+			</aux>
+			<stock name="OtherNeeds RVI used when Completing">
+				<units>wks</units>
+				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+				<eqn>DELAY FIXED(OtherNeeds RVI used when Booking, OtherNeeds RVI used when Booking, OtherNeeds RVI used when Booking)</eqn>
+			</aux>
+			<stock name="OtherNeeds Waiting to Start">
+				<units>pts</units>
+				<doc>The total number of patients waiting to start medication management.  (pts)</doc>
+				<eqn>INTEG (
+	OtherNeeds Referral Rate-OtherNeeds Starting Rate,
+		OtherNeeds Initial Patients Waiting to Start)</eqn>
+			</aux>
+			<stock name="OUD Appointments in MM">
+				<units>appt</units>
+				<doc>The total number of medication management appointments on the calendar. (appts)</doc>
+				<eqn>INTEG (
+	OUD Booking Rate+OUD Rescheduling Rate-OUD Completing Rate,
+		OUD Initial Appointments)</eqn>
+			</aux>
+			<stock name="OUD Appointments to Reschedule">
+				<units>appt</units>
+				<doc>The number of appointments to be rescheduled. This assumes that all missed appointments are eventually rescheduled. (appts)</doc>
+				<eqn>INTEG (
+	OUD True Missed Appointment Rate-OUD Rescheduling Rate,
+		OUD True Missed Appointment Rate*OUD Time to Reschedule)</eqn>
+			</aux>
+			<stock name="OUD Patients in MM">
+				<units>pts</units>
+				<doc>The total number of patients in medication management.  (pts)</doc>
+				<eqn>INTEG (
+	OUD Starting Rate-OUD Ending Rate,
+		OUD Initial Patients)</eqn>
+			</aux>
+			<stock name="OUD RVI used when Completing">
+				<units>wks</units>
+				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any
