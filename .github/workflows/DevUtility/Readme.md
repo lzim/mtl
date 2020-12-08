@@ -4,7 +4,7 @@ This folder contains application development utilities that support the automati
 
 ## Automatic Generation and Deployment Actions Supported
 
-By using the "feature-dev_" in the branch naming structure, actions will execute to support the tasks in the list below.
+By using the standing Dev and Test branches, actions will execute to support the tasks in the list below.
 
 - Vensim binary file generation and deployment to the appropriate Epicenter project.
 - (Pending Vensim update to support XMILE) Standard XMILE model file generation and deployment to the lzim/mtl model folder.
