@@ -98,7 +98,7 @@ jobs:
 
 #This portion of code will execute if a single markdown file within a folder is changed.  If no markdown file is changed, or more than one file is changed, then the entire directory will be checked.
     - name: Markdown Linter for Changed File Scan 
-      if: ${{ always() && steps.getfileCount.outputs.filesCount == 1}}   
+      if: ${{ always()}} #&& steps.getfileCount.outputs.filesCount == 1  
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
@@ -114,7 +114,7 @@ jobs:
     
 #This portion of code will execute if no markdown files, or more than one markdown file is changed and will check the entire directory.
     - name: Markdown Linter for Directory Level Scan
-      if: ${{ always() && steps.getfileCount.outputs.filesCount != 1}}   
+      if: ${{ always()}} #&& steps.getfileCount.outputs.filesCount != 1   
       uses: ruzickap/action-my-markdown-linter@v0.0.1
       with:
         # markdownlint config file
