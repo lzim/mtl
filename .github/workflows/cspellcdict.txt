@@ -65,6 +65,7 @@ academic
 accept
 access
 accident
+accommodate
 accompany
 accomplish
 according
@@ -1997,6 +1998,9 @@ personnel
 perspective
 persuade
 pet
+pharma
+pharmacotherapy
+pharmacotherapies
 phase
 phenomenon
 philosophy
