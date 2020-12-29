@@ -9,20 +9,20 @@ The version 2.0 release encompasses changes explicitly requested by users (i.e.,
 
 -  **Care Coordination (CC)** 
 This module shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
-    - [*MTL 2.0* release of the CC Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl2.0_models/cc_v36_2019_09_06.mdl)
+    - [*MTL 2.0* release of the CC Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
 
 -  **Medication Management (MM)**
 This module enables you to experiment with how team decisions about referrals, time allocation and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies.
-    - [*MTL 2.0* release of the MM Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl2.0_models/mm_v36_2019_09_06-v2.mdl)
+    - [*MTL 2.0* release of the MM Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
 
 -  **Psychotherapy (PSY)**
 This module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
-    - [*MTL 2.0* release of the PSY Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl2.0_models/psy_v21_2019_11_04.mdl)
+    - [*MTL 2.0* release of the PSY Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
 
 -  **Aggregate (AGG)**
 This module shows the interactions between all services offered by your team. It allows you to explore the impacts of how you allocate time across services and change within team referrals after patient review. It is also possible to experiment with your team's willingness to use overtime as a solution to a large backlog of appointments, and how sensitive your team's morale, quality of care provided and burnout are to working long hours.
-    - [*MTL 2.0* release of the AGG Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl2.0_models/agg_v15_2019_06_14.mdl)
+    - [*MTL 2.0* release of the AGG Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
 
 -  **Measurement-based Stepped Care for Suicide Prevention (SP)**
 This module shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
-    - [*MTL 2.0* release of the SP Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/mtl2.0_models/sp_v3_2020_06_12.mdl)
+    - [*MTL 2.0* release of the SP Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
