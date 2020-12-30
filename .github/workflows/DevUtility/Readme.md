@@ -6,5 +6,7 @@ This folder contains application development utilities that support the automati
 
 By using the standing Dev and Test branches, actions will execute to support the tasks in the list below.
 
-- When .vmfx, .mdl and .xmile model files are pushed to the Dev branch, the actions will distribute these files to the appropriate locations in Epicenter. 
+- When .vmfx, .mdl and .xmile model files are pushed to the Dev branch, the actions will distribute these files to the Forio Epicenter, VA Sim UI-DEV project.
+- When the Dev branch is merged with the Test branch, the models will be deployed to Forio Epicenter, VA Sim UI-TEST-slow project.
+- When Test branch is merged with Master branch, models will be deployed to the Forio Epicenter, VA Sim UI-PROD project.
 - The action will produce an SDM-doc file and move it to the appropriate folder on lzim/mtl and Forio Epicenter.
