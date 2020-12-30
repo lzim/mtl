@@ -1,6 +1,5 @@
 {
   "default": true,
-  "markdownlint-disable MD033",
   "MD004": { "style": "consistent" },
   "MD007": { "indent": 2 },
   "MD009": { "br_spaces": 2 },
