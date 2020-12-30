@@ -99,28 +99,7 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
-      
-       
-    - name: Generating Vensim input file
-      if: always()  
-      run: |
-        echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
-        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileNameList.outputs.outputFileName }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
-        echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
-   
-     
-    - name: Convert .mdl to .VFM and .mdl to .xmile
-      if: always()  
-      run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
-    
-    - name: Commit XMile File
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
-        git commit -m'Model Xmile Commit' -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
-        git push
-   
+ 
     - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
       if: always()   
       run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
@@ -129,4 +108,4 @@ jobs:
     #- name: Run a one-line script
      # run: | 
       #  git status
-      #  type  .github/workflows/DevUtility/vensimInput.cmd
+      #  type  .github/workflows/DevUtility/vensimInput.cmd    
