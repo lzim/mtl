@@ -13,29 +13,30 @@ output:
   powerpoint_presentation: default
 ---
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
-     height = "175" width = "420">](#DontLink)  
+     height = "175" width = "420">](#DontLink)
+     
+## MTL Live Session 02
 
-# MTL Live Session 02
+## Today we're modeling to learn how to check our patient data and team trends.
 
-Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that 
-### Today we're modeling to learn how to check our patient data and team trends.
+Hello! I'm < faciltator's name > and I'm < co-facilitator's name >. Navigating to the Learner See Guide for Session 2 at mtl.how, we see that
 
-## Done and Do
+## Do and Done
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data to look at the facility data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of <team vision>; selected our Team Lead <team lead's name>; and set a standing team meeting time at <meeting time>. We logged in to mtl.how/data to look at the facility data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
 
-<!-- Learning Objectives Icon --> 
+<!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 ## Learning Objectives
-### After this session, you will be able to:
 
 1. Describe the decisions your team made in producing your team data table.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
+2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
 
@@ -44,6 +45,7 @@ Hello! I'm __________ and I'm __________. Navigating to the Learner See Guide fo
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:15___
 
 ## Participatory Learning from Simulation
+
 This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - We use the data user interface (UI) to look back at team trends over the past two years.
 - We review the last two years of data to see *what is* in our team now. 
@@ -54,33 +56,29 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 - Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 
-
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) 
 
-## Let's get started! 
+## Let's get started!
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility
 
-### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
+- This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
 
-- This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.  
-
-- We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.  
+- We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
-- On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.  
+- On the landing page, select your VISN. On the next page, select your team's facility.
 
 ### 2.  Explore the facility data.
 
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
-
-- The facility data is designed to show trends relevant to your team vision of **__________________________** for the last two years.  Let's explore the information available in the facility data Excel spreadsheet:  
-
+- The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
 #### There are two types of View options at the bottom of the spreadsheet. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
 
