@@ -1228,6 +1228,7 @@ get
 ghost
 giant
 gif
+gifs
 gift
 gifted
 girl
