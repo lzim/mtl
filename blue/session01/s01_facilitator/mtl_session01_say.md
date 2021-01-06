@@ -157,14 +157,14 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
     - Attention to detail; and
 
-    - Committment to process improvement and the use of data to improve care.
+    - Commitment to process improvement and the use of data to improve care.
 
 3. Some considerations for choosing a standing meeting time are
 
     - Whether the team works at a central location or is geographically dispersed;
-    
+
     - Clinic schedules; and
-    
+
     - Clinicians' availability.
 
 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
