@@ -18,15 +18,15 @@ output:
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 01
+## MTL Live Session 01
 
-## Today we're modeling to learn how to align our team vision.
+## Today we're modeling to learn how to align our team vision
 
 ## Done and Do (15 minutes)
 <!-- Done/Do Tables -->
-| [done logo][<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
 | --- | --- |
-|[mtl how logo][<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_live.gif)](#Done-and-Do)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. [![navigate to mtl live screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_live.gif)](#Done-and-Do)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#DontLink)
@@ -41,7 +41,7 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-### 1. Prior Team Learning Prompt (5 minutes) 
+### 1. Prior Team Learning Prompt (5 minutes)
 
 a. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.
 
@@ -95,7 +95,7 @@ a. Are meaningful for you and align your learning goals with your team's.
 
 b. Develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
 
-c. Make VA data, initiatives and standards transparent to you. 
+c. Make VA data, initiatives and standards transparent to you.
 
 d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
@@ -104,7 +104,8 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 ### 6. Select the Team Vision
 
 ## Done and Do (15 minutes)
+
 <!-- Done/Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
+| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
