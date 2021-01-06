@@ -22,7 +22,7 @@ output:
 
 ## Today we're modeling to learn how to align our team vision
 
-## Done and Do (15 minutes)
+## Do and Done (15 minutes)
 <!-- Done/Do Tables -->
 |[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
 | --- | --- |
@@ -103,7 +103,7 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
 ### 6. Select the Team Vision
 
-## Done and Do (15 minutes)
+## Done/Do (15 minutes)
 
 <!-- Done/Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
