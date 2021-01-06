@@ -18,7 +18,7 @@ output:
 
 ## Today we're modeling to learn how to align our team vision.
 
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
+Hello! I'm < faciltator's name > and I'm < co-facilitator's name >. Today we're modeling to learn how to align our team vision.
 
 Throughout *Modeling to Learn*, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using. 
 
@@ -44,8 +44,6 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
 
 3. Identify a shared team vision for learning from *Modeling to Learn*.
-
-
 
 ### Let's get started!
 
