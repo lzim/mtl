@@ -18,7 +18,7 @@
 #### s02_learner
 
 - Learner SEE Guide - Learning objectives and exercises for session 02
-- Screencasts (.gif) demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+- .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
 - Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with .gif) (.html)
 
 #### s02_facilitator
