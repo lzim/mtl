@@ -156,7 +156,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
     - Having basic computer knowledge (some Excel experience is good);
 
     - Attention to detail; and
- 
+
     - Committment to process improvement and the use of data to improve care.
 
 3. Some considerations for choosing a standing meeting time are
@@ -166,7 +166,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
     - Clinic schedules; and
     
     - Clinicians' availability.
-    
+
 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 ## Until next time, thank you for _Modeling to Learn_!
