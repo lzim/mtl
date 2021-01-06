@@ -27,12 +27,11 @@ In the Session 1 Done/Do table, you can see that for today, we logged in to mtl.
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
 ## Do and Done (15 minutes)
+
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. | 
-
-### By the end of this session you will be able to:
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -63,17 +62,17 @@ a. First, we want to set ground rules for our learning sessions. Think of a good
 
 b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list.
 
-+ *Most likely the following are true:*  
-      • The learning was hands-on and experiential.  
-      • The learning connected to the real world.  
-      • The learning experience was personally relevant, interesting, useful, or meaningful to the learner.  
-      • The learner had choices, shared authority, control, and responsibility.  
-      • The learner learned from and taught others.  
-      • The learner had the support he or she needed.   
-      • The learning was individualized. If there were standards for the work, the learner could meet them in his or her own way.  
-      • It was fun or left the learner feeling good.  
-      • The experience helped the learner understand him- or herself.  
-      • The learner experienced success and accomplishment with challenging work.  
+- *Most likely the following are true:*
+  - The learning was hands-on and experiential.
+  - The learning connected to the real world.
+  - The learning experience was personally relevant, interesting, useful, or meaningful to the learner.
+  - The learner had choices, shared authority, control, and responsibility.
+  - The learner learned from and taught others.
+  - The learner had the support he or she needed.
+  - The learning was individualized. If there were standards for the work, the learner could meet them in his or her own way.
+  - It was fun or left the learner feeling good.
+  - The experience helped the learner understand him- or herself.
+  - The learner experienced success and accomplishment with challenging work.
 
 ### 2. Best Case Scenario (5 minutes)
 
@@ -113,17 +112,15 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ### 6. Select the Team Vision  
 
+- To wrap up, let's home in on our Team Vision
 
-+ To wrap up, let's home in on our Team Vision  
+  a. You can further word-smith the Team Vision after the session if you want.
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
 
-  a. You can further word-smith the Team Vision after the session if you want.  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.  
+### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.
 
+## Done/Do (15 minutes)
 
-### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
-
-
-## Done/Do (15 minutes)  
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
@@ -139,7 +136,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
  + become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
 
- + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+ + provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.
 
 2. Ideal characteristics of the Team Lead include
 
@@ -155,12 +152,12 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 3. Some considerations for choosing a standing meeting time are
 
- + Whether the team works at a central location or is geographically dispersed; 
+ + Whether the team works at a central location or is geographically dispersed;
  
  + Clinic schedules; and
  
  + Clinicians' availability.
  
-4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
+4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.
 
 ## Until next time, thank you for _Modeling to Learn_!
