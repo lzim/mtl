@@ -18,7 +18,7 @@ output:
 
 ## Today we're modeling to learn how to align our team vision
 
-Hello! I'm__________ and I'm__________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
+Hello! I'm <facilitator's name> and I'm <co-facilitator's name> [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
 
 Throughout *Modeling to Learn*, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
 
@@ -52,7 +52,7 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 - We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with *Modeling to Learn*. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
 - Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in *Modeling to Learn*. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
 - Team learning is all about ‘alignment’ and getting people working in sync with one another to meet the needs of our Veteran patients. We will explore “what is” (retrospective data) and vision forward to “what we would like it to be” (future-oriented).
-- The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations. 
+- The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations.
 
 ### 1. Prior Team Learning Prompt (5 minutes)
 
@@ -158,15 +158,15 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
     - Attention to detail; and
  
     - Committment to process improvement and the use of data to improve care.
- 
+
 3. Some considerations for choosing a standing meeting time are
 
-    - Whether the team works at a central location or is geographically dispersed; 
- 
+    - Whether the team works at a central location or is geographically dispersed;
+    
     - Clinic schedules; and
- 
+    
     - Clinicians' availability.
- 
+    
 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 ## Until next time, thank you for _Modeling to Learn_!
