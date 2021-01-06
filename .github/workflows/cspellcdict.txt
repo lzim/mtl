@@ -1484,6 +1484,7 @@ invite
 involve
 involved
 involvement
+ioslides
 Iraqi
 Irish
 iron
@@ -2521,6 +2522,7 @@ slave
 sleep
 slice
 slide
+slidy
 slight
 slightly
 slip
@@ -3166,3 +3168,5 @@ Gmail
 vmf
 mdl
 html
+VANTS
+Dont
