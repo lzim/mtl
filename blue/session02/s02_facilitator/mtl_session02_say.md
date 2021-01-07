@@ -116,21 +116,21 @@ ___
 
 ### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data
 
-#### 1. Last meeting \________________________ \(team members' names\) mentioned concerns with \__________________________ \(themes from session 1 team vision\).
+#### 1. Last meeting \________________________ \(team members' names\) mentioned concerns with \__________________________ \(themes from session 1 team vision\)
 
 Time Stamp | Team Learning Priorities | Script for Session 2
 -- | -- | --
-**What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |   
+**What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
 
 #### 2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
-   
+
 Rank | viz Options |  |
--- | -- | -- | 
+-- | -- | -- |
 ___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient.)*
 ___ | *vizEnc* | See trends in what services the facility/team is spending their time providing.*
 ___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis, this is a very long list.)
-___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*   
+___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*
 ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code to see more detail on what happens in any one diagnosis type*
 ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
 ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
@@ -206,8 +206,8 @@ ___
     \(Prepare in advance, but ask this as an open-ended question\)?  
 
 - **What is most surprising?**  
-    \(Prepare in advance, but ask this as an open-ended question\)? 
-    
+    \(Prepare in advance, but ask this as an open-ended question\)?
+
 ___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 ___
@@ -259,15 +259,15 @@ Time Stamp | Team Learning Priorities | Script
 
 3. While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
 
-  - You can select a set of clinics \(grids\) that exactly represent your individual team.
-  - All the patient-level data are identified with patient names.
-  - You can create the team data table parameters used by the simulation user interface.
+> - You can select a set of clinics \(grids\) that exactly represent your individual team.
+> - All the patient-level data are identified with patient names.
+> - You can create the team data table parameters used by the simulation user interface.
 
 4. Review your individual patient data and identify team trends:
 
-  - Health Factors \(HF\)
-  - Diagnoses \(Diag\)
-  - Encounters \(Enc\), and
-  - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+> - Health Factors \(HF\)
+> - Diagnoses \(Diag\)
+> - Encounters \(Enc\), and
+> - Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
 ## Until next time, thank you for *Modeling to Learn*!
