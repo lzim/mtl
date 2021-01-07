@@ -135,7 +135,7 @@ ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code t
 ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
 ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
-**To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.**
+*To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.*
 
 #### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
 
