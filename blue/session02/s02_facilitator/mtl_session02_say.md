@@ -253,11 +253,11 @@ Time Stamp | Team Learning Priorities | Script
 
 ### DO demo
 
-1. We encourage you to look around in your team data before next time.
+#### 1. We encourage you to look around in your team data before next time
 
-2. Go to mtl.how/data and open the team data in Excel.
+#### 2. Go to mtl.how/data and open the team data in Excel
 
-3. While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
+#### 3. While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet
 
 - You can select a set of clinics \(grids\) that exactly represent your individual team.
 
@@ -265,7 +265,7 @@ Time Stamp | Team Learning Priorities | Script
 
 - You can create the team data table parameters used by the simulation user interface.
 
-4. Review your individual patient data and identify team trends:
+#### 4. Review your individual patient data and identify team trends
 
 - Health Factors \(HF\)
 
