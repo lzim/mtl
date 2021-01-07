@@ -259,15 +259,20 @@ Time Stamp | Team Learning Priorities | Script
 
 3. While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
 
-> - You can select a set of clinics \(grids\) that exactly represent your individual team.
-> - All the patient-level data are identified with patient names.
-> - You can create the team data table parameters used by the simulation user interface.
+- You can select a set of clinics \(grids\) that exactly represent your individual team.
+
+- All the patient-level data are identified with patient names.
+
+- You can create the team data table parameters used by the simulation user interface.
 
 4. Review your individual patient data and identify team trends:
 
-> - Health Factors \(HF\)
-> - Diagnoses \(Diag\)
-> - Encounters \(Enc\), and
-> - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+- Health Factors \(HF\)
+
+- Diagnoses \(Diag\)
+
+- Encounters \(Enc\), and
+
+- Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
 ## Until next time, thank you for *Modeling to Learn*!
