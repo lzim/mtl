@@ -14,12 +14,13 @@ output:
 ---
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
      height = "175" width = "420">](#DontLink)
-     
+
 ## MTL Live Session 02
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
 
 ## Do and Done
+
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
@@ -79,7 +80,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
 - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
-#### There are two types of View options at the bottom of the spreadsheet. __________________ [Team Lead's name] Will you please click through them, so we can see what each displays?
+**There are two types of View options at the bottom of the spreadsheet. \__________________ \[Team Lead's name\] Will you please click through them, so we can see what each displays?**
 
 View | Displays
 -- | --
@@ -87,8 +88,8 @@ Count (in Viz tabs) | Count tables that match the viz graphs
 Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
-#### There are four main data sets in the facility data:
-[During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
+**There are four main data sets in the facility data:**
+\[During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.\]
 
 Rank | Data | Displays 
 -- | -- | --
@@ -97,7 +98,7 @@ ___ | Enc| Encounter or visits types, such as medication management, psychothera
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
-#### To sum up, there are three ways to view each set of data:
+**To sum up, there are three ways to view each set of data:**
 
 1. **Counts per month (within the associated Viz tab):** vizDiag, vizEnc, vizHF, and vizMeas;
 
@@ -105,19 +106,21 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas.
 
+___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
+___
 
 #### All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data. 
 
-1. Last meeting (________________________) (team members' names) mentioned concerns with **(__________________________) (themes from session 1 team vision).** 
+*** 1. Last meeting \________________________ \(team members' names\) mentioned concerns with **\__________________________ \(themes from session 1 team vision\).** 
 
 Time Stamp | Team Learning Priorities | Script for Session 2
 -- | -- | --
 **What filtering options are available?** |  |  |   
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
-Keep an eye on time |  |  |   
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
+|  |  |   
 
-2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]
+### 2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
    
 Rank | viz Options |  |  
 -- | -- | -- | 
@@ -129,7 +132,7 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
  ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
  ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
+**To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.**
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
@@ -137,36 +140,37 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 - Click on the 3 dots [...] next to the data_ui file.
 
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
-   
+
 ### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team
 
 - This data_ui file has already been specified for your facility/station.
 
 - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-  
+ 
 - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
 
 - Follow the instructions in **Box A2**.
-  
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.  
- 
-- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
+
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
+
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
 
 ### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today
 
-## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
+## You already have a fresh data UI file to work with in your data_ui folder. With your team lead \_______________ \(Team Lead's name\), we selected the following clinics to represent your team.
+
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
-  1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-  2. Your network username recorded in VistA.
-  3. To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet. 
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.  
+  - CPRS access/permissions at your station (i.e COR tab access for CPRS).
+  - Your network username recorded in VistA.
+  - To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet.
+- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-- **Prior to today's session, \__________________ \[Team Lead's name\] worked with us to build an initial team dataset.
+- **Prior to today's session, \__________________ \(Team Lead's name\) worked with us to build an initial team dataset.
 
-- **\__________________ \[Team Lead's name\], which column did we find most helpful for creating this team's dataset?**
+- **\__________________ \(Team Lead's name\), which column did we find most helpful for creating this team's dataset?**
 
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
@@ -174,11 +178,11 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 ### 6. Click to view the "viz" tabs, which show team trends.
 
-- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.
+- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
 
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
-- The viz tabs will also always return to default selections everytime the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.
+- The viz tabs will also always return to default selections every time the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.
 
 - Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together.
 
@@ -186,50 +190,54 @@ ___ | *vizMeas* | See trends in what standard measures the facility is using on 
 
 - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
-- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combintations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
-
+- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
+___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
-- **What stands out to you about ________________________________**[fill-in team vision]**?
+___
 
-- **What is most important to you to check out first related to \________________________________**\[fill-in team vision]\?
-    \[Prepare in advance, but ask this as an open-ended question]\?  
+- **What stands out to you about \________________________________**\(fill-in team vision\)?
+
+- **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
+    \(Prepare in advance, but ask this as an open-ended question\)?  
 
 - **What is most surprising?**  
-    \[Prepare in advance, but ask this as an open-ended question\]?  
-
+    \(Prepare in advance, but ask this as an open-ended question\)?  
+___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
+___
 
 ### 7. Click to view the "data" tabs, which show your team's individual patient information.
 
-- Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
+- Patients who have requested restricted access to their information have asterisks \(\*\*\*\*\) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
 
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
 
 - Providers can filter to find specific patients, or produce reports.
-
+___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
+___
 
-\[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]
+\(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 **[Prioritize which questions you will use given this team's guiding vision.** |  |  |   
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-Keep an eye on time |  |  | 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+|  |  | 
 
-- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.
+- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
 
 - What **viz** tab would you use to see what the most common service encounters or visits are?
 
 - Are there services that have been **increasing over time?**
-  
+
 - Are there services that have been **decreasing over time?**
 
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review
 
-## Done and Do (15 minutes)
+## Done and Do \(15 minutes\)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
@@ -242,17 +250,17 @@ Keep an eye on time |  |  |
 
 2. Go to mtl.how/data and open the team data in Excel.
 
-While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
+3. While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet:
 
-- You can select a set of clinics (grids) that exactly represent your individual team.
+- You can select a set of clinics \(grids\) that exactly represent your individual team.
 - All the patient-level data are identified with patient names.
 - You can create the team data table parameters used by the simulation user interface.
 
-3. Review your individual patient data and identify team trends:
+4. Review your individual patient data and identify team trends:
 
-- Health Factors (HF)  
-- Diagnoses (Diag)  
-- Encounters (Enc), and   
-- Measurement Based Stepped Care and Suicide Prevention (SP)  
+- Health Factors \(HF\)
+- Diagnoses \(Diag\)
+- Encounters \(Enc\), and
+- Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
 ## Until next time, thank you for *Modeling to Learn*!
