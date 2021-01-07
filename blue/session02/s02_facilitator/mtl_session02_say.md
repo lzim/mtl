@@ -29,7 +29,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
-###Learning Objectives
+### Learning Objectives
 
 1. Describe the decisions your team made in producing your team data table.
 
