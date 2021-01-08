@@ -72,16 +72,16 @@ ___
 
 1. **Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
 
-    - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
-    - We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
-    - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-    - On the landing page, select your VISN. On the next page, select your team's facility.
+  - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+  - We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
+  - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
+  - On the landing page, select your VISN. On the next page, select your team's facility.
 
 2. **Explore the facility data.**
 
-    - To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-    - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
-    - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
+  - To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
+  - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
+  - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
 **There are two types of View options at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
 
@@ -115,7 +115,8 @@ ___
 
 1. **Last meeting \________________________ \(team members' names\) mentioned concerns with \__________________________ \(themes from session 1 team vision\).**
 
-Time Stamp | Team Learning Priorities | Script for Session 2 -- | -- | --
+Time Stamp | Team Learning Priorities | Script for Session 2
+-- | -- | --
 **What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
 
@@ -134,17 +135,17 @@ Time Stamp | Team Learning Priorities | Script for Session 2 -- | -- | --
 *To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.*
 
 3. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
-  - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
-  - Click on the 3 dots [...] next to the data_ui file.
-  - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
+- If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
+- Click on the 3 dots [...] next to the data_ui file.
+- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 4. **Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
-  - This data_ui file has already been specified for your facility/station.
-  - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-  - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
-  - Follow the instructions in **Box A2**.
-  - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
-  - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
+- This data_ui file has already been specified for your facility/station.
+- You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
+- Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
+- Follow the instructions in **Box A2**.
+- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
 
 5. **To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.**
 
@@ -226,14 +227,14 @@ Time Stamp | Team Learning Priorities | Script
 2. **Go to mtl.how/data and open the team data in Excel.**
 
 3. **While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet.**
-    - You can select a set of clinics \(grids\) that exactly represent your individual team.
-    - All the patient-level data are identified with patient names.
-    - You can create the team data table parameters used by the simulation user interface.
+- You can select a set of clinics \(grids\) that exactly represent your individual team.
+- All the patient-level data are identified with patient names.
+- You can create the team data table parameters used by the simulation user interface.
 
 4. **Review your individual patient data and identify team trends.**
-    - Health Factors \(HF\)
-    - Diagnoses \(Diag\)
-    - Encounters \(Enc\), and
-    - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+- Health Factors \(HF\)
+- Diagnoses \(Diag\)
+- Encounters \(Enc\), and
+- Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
 ## Until next time, thank you for *Modeling to Learn*!
