@@ -37,7 +37,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
 
 ## In-Session Exercise
 
@@ -60,9 +60,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ### Let's get started!
 
-___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
-___
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
@@ -100,9 +98,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas
 3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas.
 
-___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
-___
 
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
