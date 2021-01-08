@@ -71,17 +71,14 @@ ___
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
 1. **Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
-
-  - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
-  - We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
-  - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-  - On the landing page, select your VISN. On the next page, select your team's facility.
-
+- This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+- We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
+- We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
+- On the landing page, select your VISN. On the next page, select your team's facility.
 2. **Explore the facility data.**
-
-  - To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-  - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
-  - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
+- To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
+- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
+- The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
 **There are two types of View options at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
 
