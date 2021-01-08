@@ -142,10 +142,7 @@ Rank | viz Options |  |
     - Follow the instructions in **Box A2**.
     - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
     - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
-5. **To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.**
-
-**You already have a fresh data UI file to work with in your data_ui folder. With your team lead \_______________ \(Team Lead's name\), we selected the following clinics to represent your team.**
-
+5. **To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today. You already have a fresh data UI file to work with in your data_ui folder. With your team lead \_______________ \(Team Lead's name\), we selected the following clinics to represent your team.**
     - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse
     - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
     - **If you don't have access to facilities that you believe you should, please verify:**
@@ -170,10 +167,10 @@ ___
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 ___
 
-    - **What stands out to you about \________________________________**\(fill-in team vision\)?
-    - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
+   - **What stands out to you about \________________________________**\(fill-in team vision\)?
+   - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
     \(Prepare in advance, but ask this as an open-ended question\)?  
-    - **What is most surprising?**  
+   - **What is most surprising?**  
     \(Prepare in advance, but ask this as an open-ended question\)?
 
 ___
@@ -197,11 +194,11 @@ Time Stamp | Team Learning Priorities | Script
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 |  |  |
 
-    - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
-    - What **viz** tab would you use to see what the most common service encounters or visits are?
-    - Are there services that have been **increasing over time?**
-    - Are there services that have been **decreasing over time?**
-    - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+   - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
+   - What **viz** tab would you use to see what the most common service encounters or visits are?
+   - Are there services that have been **increasing over time?**
+   - Are there services that have been **decreasing over time?**
+   - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
