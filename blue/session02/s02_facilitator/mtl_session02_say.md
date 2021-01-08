@@ -159,7 +159,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
     \(Prepare in advance, but ask this as an open-ended question\)?  
    - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
- 
+
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 
 7. **Click to view the "data" tabs, which show your team's individual patient information.**
@@ -169,7 +169,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
-\(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
+   \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
    Time Stamp | Team Learning Priorities | Script
    -- | -- | --
