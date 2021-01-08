@@ -126,6 +126,7 @@ Rank | viz Options |  |
   ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code to see more detail on what happens in any one diagnosis type*
   ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
   ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
+  
    *To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.*
 3. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
     - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
@@ -158,29 +159,18 @@ Rank | viz Options |  |
     - You can also right click on the line in a trend visualization and filter to hide a selected item or keep only the selected item.
     - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
     - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
-
-___
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
-___
-
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
    - **What stands out to you about \________________________________**\(fill-in team vision\)?
    - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
     \(Prepare in advance, but ask this as an open-ended question\)?  
    - **What is most surprising?**  
     \(Prepare in advance, but ask this as an open-ended question\)?
-
-___
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
-___
-
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 7. **Click to view the "data" tabs, which show your team's individual patient information.**
-    - Patients who have requested restricted access to their information have asterisks \(\*\*\*\*\) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
-    - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
-    - Providers can filter to find specific patients, or produce reports.
-
-___
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
-___
+   - Patients who have requested restricted access to their information have asterisks \(\*\*\*\*\) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
+   - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
+   - Providers can filter to find specific patients, or produce reports.
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
 \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
