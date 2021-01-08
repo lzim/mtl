@@ -156,30 +156,30 @@ ___
     - You can also right click on the line in a trend visualization and filter to hide a selected item or keep only the selected item.
     - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
     - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
-    
+
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
-   
+
    - **What stands out to you about \________________________________**\(fill-in team vision\)?
    - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
     \(Prepare in advance, but ask this as an open-ended question\)?  
    - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
-   
+ 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
-   
+
 7. **Click to view the "data" tabs, which show your team's individual patient information.**
    - Patients who have requested restricted access to their information have asterisks \(\*\*\*\*\) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
    - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
    - Providers can filter to find specific patients, or produce reports.
-   
+
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
 \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
-Time Stamp | Team Learning Priorities | Script
--- | -- | --
-**Prioritize which questions you will use given this team's guiding vision.** |  |  |
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-|  |  |
+   Time Stamp | Team Learning Priorities | Script
+   -- | -- | --
+   **Prioritize which questions you will use given this team's guiding vision.** |  |  |
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+   |  |  |
 
    - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
    - What **viz** tab would you use to see what the most common service encounters or visits are?
@@ -199,18 +199,15 @@ Time Stamp | Team Learning Priorities | Script
 ## DO demo
 
 1. **We encourage you to look around in your team data before next time.**
-
 2. **Go to mtl.how/data and open the team data in Excel.**
-
 3. **While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet.**
-- You can select a set of clinics \(grids\) that exactly represent your individual team.
-- All the patient-level data are identified with patient names.
-- You can create the team data table parameters used by the simulation user interface.
-
+   - You can select a set of clinics \(grids\) that exactly represent your individual team.
+   - All the patient-level data are identified with patient names.
+   - You can create the team data table parameters used by the simulation user interface.
 4. **Review your individual patient data and identify team trends.**
-- Health Factors \(HF\)
-- Diagnoses \(Diag\)
-- Encounters \(Enc\), and
-- Measurement Based Stepped Care and Suicide Prevention\(SP\)
+   - Health Factors \(HF\)
+   - Diagnoses \(Diag\)
+   - Encounters \(Enc\), and
+   - Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
 ## Until next time, thank you for *Modeling to Learn*!
