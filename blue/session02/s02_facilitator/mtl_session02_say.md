@@ -126,9 +126,7 @@ Rank | viz Options |  |
   ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code to see more detail on what happens in any one diagnosis type*
   ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
   ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
-
-*To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.*
-
+   *To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.*
 3. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
     - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
     - Click on the 3 dots [...] next to the data_ui file.
