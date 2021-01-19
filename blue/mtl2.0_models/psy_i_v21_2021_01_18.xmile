@@ -425,7 +425,7 @@
 			<aux name="Actual_Initiators_who_Complete__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_¿È:ÌZ")					</eqn>
+					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_‡∂ıáq")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Complete_">
 				<units>Dmnl</units>
@@ -439,7 +439,7 @@
 			<aux name="Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_¿È:ÌZ")					</eqn>
+					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_‡∂ıáq")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Quit_Early_">
 				<units>Dmnl</units>
@@ -453,7 +453,7 @@
 			<aux name="Actual_Starters_who_Initiate__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_¿È:ÌZ")					</eqn>
+					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_‡∂ıáq")					</eqn>
 			</aux>
 			<aux name="Actual_Starters_Who_Initiate_">
 				<units>Dmnl</units>
@@ -810,7 +810,7 @@
 			<aux name="Effect_of_Implement_IOP_on_Completer_">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero, delayed by the average time it takes to get to completion (now, with IOP is 6 weeks, instead of the usual 12 weeks).</doc>
-					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_¿È:ÌZ"),0),Time_for_IOP_to_affect_Duration)					</eqn>
+					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_‡∂ıáq"),0),Time_for_IOP_to_affect_Duration)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implement_IOP_on_Durations">
 				<units>Dmnl</units>
@@ -819,10 +819,10 @@
 	SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Durations),0),Time_for_IOP_to_affect_Duration)
 	)					</eqn>
 			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Initiator_¿&ÌZ">
+			<aux name="Effect_of_Implement_IOP_on_Initiator_¿Êáq">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero.</doc>
-					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_¿È:ÌZ"),0)					</eqn>
+					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_‡∂ıáq"),0)					</eqn>
 			</aux>
 			<aux name="Ending_After_8_or_More_Visits_Rate">
 				<units>pts/wk</units>
@@ -1230,11 +1230,9 @@
 					<eqn>Ending_who_can_Initiate*"Actual_Starters_who_Initiate__including_any_IOP_Effect"*"Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect"					</eqn>
 			</aux>
 			<aux name="Initiators_Continue_Treatment_Rate_after_3_Months">
-				<units></units>
+				<units>pts/wk</units>
 				<doc>The number of patients who continue treatment after completing two to seven psythotherapy visits within their first three months.  (pts/wk)</doc>
-					<eqn>A FUNCTION OF(Initiators_Continue_Treatment_Rate_after_3_Months,Effect_of_Implement_IOP_on_Durations,"ET_-_Initiators_Who_Return",Initiators_who_will_Return)					</eqn>
-					<eqn>
-	MAX(Initiators_who_will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations),0)					</eqn>
+					<eqn>MAX(Initiators_who_will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations),0)					</eqn>
 			</aux>
 			<aux name="Initiators_Patients_in_Visits_2_to_7">
 				<units>pts</units>
@@ -1449,11 +1447,9 @@
 					<eqn>ZIDZ(Starting_Psychotherapy,Team_Data_on_New_Patients_Starts)					</eqn>
 			</aux>
 			<aux name="Starters_Continue_Treatment_Rate_after_3_Months">
-				<units></units>
+				<units>pts/wk</units>
 				<doc>The number of patients who continue treatment after completing only one psythotherapy visit within their first three months.  (pts/wk)</doc>
-					<eqn>A FUNCTION OF(Starters_Continue_Treatment_Rate_after_3_Months,"Actual_Starters_Who_Return_Later_",Ending_who_can_Initiate)					</eqn>
-					<eqn>
-	*"Actual_Starters_Who_Return_Later_"					</eqn>
+					<eqn>Ending_who_can_Initiate*"Actual_Starters_Who_Return_Later_"					</eqn>
 			</aux>
 			<aux name="Starters_who_Quit_">
 				<units>Dmnl</units>
@@ -1746,7 +1742,7 @@
 				<doc>The time when user changes to experiment parameters take effect.</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Max_Effect_of_IOP_on_¿&ÌZ">
+			<aux name="Max_Effect_of_IOP_on_¿Êáq">
 				<units>Dmnl</units>
 				<doc>The relative change in the size of the gap between the current state and the desired state for the percentages governing the number of patients following care pathways after they initiate care caused by implementing an Intensive Outpatient Program.</doc>
 					<eqn>0.3					</eqn>
@@ -1758,7 +1754,7 @@
 			</aux>
 			<aux name="Max_Effect_of_IOP_on_Frequency">
 				<units>Dmnl</units>
-				<doc>Where 1 is a 100-1286719920ncrease in the frequency (i.e., patients come twice as often as before).</doc>
+				<doc>Where 1 is a 100-2127808944ncrease in the frequency (i.e., patients come twice as often as before).</doc>
 					<eqn>1					</eqn>
 			</aux>
 			<aux name="Median_Time_in_Visit_1">
