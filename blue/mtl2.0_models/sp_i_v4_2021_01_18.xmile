@@ -950,7 +950,7 @@
 			<aux name="Adjusted_Data_GMH_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Data_GMH_Start_Rate_(mean)_-_filtered"=0,0, 
+					<eqn>IF_THEN_ELSE ("Data_GMH_Start_Rate_(mean)_-_filtered"=0,0,
 	IF_THEN_ELSE ("Data_GMH_New_Patient_Wait_Time_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_GMH_New_Patient_Wait_Time_(median)"
 	)
 	)					</eqn>
@@ -1010,7 +1010,7 @@
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"=0,0,
-	
+
 	IF_THEN_ELSE ("Data_SMH_to_PC/PCMHI_Wait_Time_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_SMH_to_PC/PCMHI_Wait_Time_(median)"))					</eqn>
 			</aux>
 			<aux name="Adjusted_GMH_Engagement_Time_Before_Ending_(median)">
@@ -1644,7 +1644,7 @@
 			<aux name="Flag_GMH_Time_to_Unflag_High_Risk_Patients_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE(Data_GMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 ,
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC">
@@ -1689,7 +1689,7 @@
 			<aux name="Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC">
 				<units>Dimensionless</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 ,
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC">
@@ -1983,8 +1983,8 @@
 				<units>wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (User_GMH_Time_to_Detect>0:AND:Time>0,User_GMH_Time_to_Detect,Initial_GMH_Time_to_Detect)
-	
-	
+
+
 	*GMH_Effect_of_Patient_Load_on_Ability_to_Detect_Symptom_Changes_0*GMH_Effect_of_Implementing_MBC_in_Week_Zero					</eqn>
 			</aux>
 			<aux name="GMH_Time_to_Ending">
@@ -2379,14 +2379,14 @@
 				<units>Dmnl</units>
 				<doc>As wait times to step up to SMH increase (both for PC/PCMHI patients who transfer and those who start in SMH withouth leaving PC/PCMHI), PC/PCMHI providers will be less willing to recommend that their patients step up.  There is no limit to the detrimental effect SMH wait times have on PC/PCMHI step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5020113033120ver the original rate. (pct)</doc>
 					<eqn>MAX(
-	
+
 	SMOOTHI(
 	(
 	XIDZ("PC/PCMHI_to_SMH_Wait_Time","PC/PCMHI_to_SMH_Desired_Wait_Time_to_Step_up",1)
 	)^IF_THEN_ELSE("PC/PCMHI_to_SMH_Wait_Time">0,"User_PC/PCMHI_to_SMH_Sensitivity_of_Step_up_Decisions_to_Wait_Time",0),Time_for_Wait_Time_to_Stepped_Care_Referral_Decisions
-	
+
 	,1)
-	
+
 	,0.5)					</eqn>
 			</aux>
 			<aux name="PC/PCMHI_Effect_of_Wait_Time_on_Start_Rate_0">
@@ -2429,7 +2429,7 @@
 			<aux name="Flag_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 ,
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_High_Risk_Flag_Rate_EpC">
@@ -2440,7 +2440,7 @@
 			<aux name="Flag_SMH_Time_to_Unflag_High_Risk_Patients_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE(Data_SMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 ,
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc">
@@ -2785,9 +2785,9 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE(Time>=0,0,
-	
+
 	"PC/PCMHI_to_GMH_PID_--_Additional_Patients_to_Maintain_Wait_Time"
-	
+
 	)					</eqn>
 			</aux>
 			<aux name="PC/PCMHI_to_GMH_Change_in_Error">
@@ -3237,7 +3237,7 @@
 				<units>wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (User_SMH_Time_to_Detect>0:AND:Time>0,User_SMH_Time_to_Detect,Initial_SMH_Time_to_Detect)
-	
+
 	*SMH_Effect_of_Patient_Load_on_Ability_to_Detect_Symptom_Changes_0*SMH_Effect_of_Implementing_MBC_in_Week_Zero					</eqn>
 			</aux>
 			<aux name="SMH_Time_to_Ending">
@@ -3276,7 +3276,7 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE(
-	Time>=0,0, 
+	Time>=0,0,
 	"SMH_to_GMH_PID_--_Additional_Patients_to_Maintain_Wait_Time"
 	)					</eqn>
 			</aux>
@@ -3301,7 +3301,7 @@
 				<doc></doc>
 					<eqn>IF_THEN_ELSE(User_SMH_to_GMH_Engagement_Time_Before_Step_down>0:AND:Time>0,User_SMH_to_GMH_Engagement_Time_Before_Step_down
 	,"Adjusted_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)")
-	
+
 	*Effect_of_Implementing_Stepped_Care_between_GMH_and_SMH_in_Week_Zero*SMH_Effect_of_GMH_Wait_Time_on_Recommend_Step_down_Rate_0					</eqn>
 			</aux>
 			<aux name="SMH_to_GMH_GAP_Wait_Time">
@@ -3374,7 +3374,7 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE(Time>=0,0,
-	
+
 	"SMH_to_PC/PCMHI_PID_--_Additional_Patients_to_Maintain_Wait_Time"
 	)					</eqn>
 			</aux>
@@ -3510,14 +3510,14 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (Time<-200,MAX((Openings_from_Capacity_in_GMH+Openings_from_Transfers_in_GMH-Total_Openings_Used_by_HRF_Patients),0),
-	
+
 	MAX((Openings_from_Capacity_in_GMH+Openings_from_Transfers_in_GMH-Total_Openings_Used_by_HRF_Patients),0)*GMH_Effect_of_Patient_Load_on_Start_Rate_0*GMH_Effect_of_Wait_Time_on_Start_Rate_0)					</eqn>
 			</aux>
 			<aux name="Total_Openings_in_PCMHI">
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (Time<-200,MAX((Openings_from_Capacity_in_PC+Openings_from_Transfers_in_PC),0),
-	
+
 	MAX((Openings_from_Capacity_in_PC+Openings_from_Transfers_in_PC),0)*"PC/PCMHI_Effect_of_Patient_Load_on_Start_Rate_0"*"PC/PCMHI_Effect_of_Wait_Time_on_Start_Rate_0"
 	)					</eqn>
 			</aux>
@@ -3525,7 +3525,7 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (Time<-200,MAX((Openings_from_Capacity_in_SMH+Openings_from_Transfers_in_SMH),0),
-	
+
 	MAX((Openings_from_Capacity_in_SMH+Openings_from_Transfers_in_SMH),0)*SMH_Effect_of_Patient_Load_on_Start_Rate_0*SMH_Effect_of_Wait_Time_on_Start_Rate_0)					</eqn>
 			</aux>
 			<aux name="Total_Openings_Used_by_HRF_Patients">
