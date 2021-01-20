@@ -31,11 +31,11 @@ output:
 
 ## Learning Objectives
 
-1.	Describe the parameters that are calculated by the *MTL* Data User Interface for Care Coordination (CC), Medication Management (MM), Psychotherapy (PSY), Aggregate Mix of Services (AGG) and Measurement Based Stepped Care and Suicide Prevention (SP).
+1. Describe your team trends over the last two years based on the estimates in the team data table.
 
-2.	Test your expectations against calculated overall team statistics for CC, MM, PSY, AGG, and SP.
+2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions.
 
-3.	Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
+3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
 # In-session Exercise (30 minutes)
 
