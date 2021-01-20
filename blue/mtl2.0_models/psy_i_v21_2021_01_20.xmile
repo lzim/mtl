@@ -425,7 +425,7 @@
 			<aux name="Actual_Initiators_who_Complete__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_à¶õ‡q")					</eqn>
+					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Complete_">
 				<units>Dmnl</units>
@@ -439,7 +439,7 @@
 			<aux name="Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_à¶õ‡q")					</eqn>
+					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Quit_Early_">
 				<units>Dmnl</units>
@@ -453,7 +453,7 @@
 			<aux name="Actual_Starters_who_Initiate__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_à¶õ‡q")					</eqn>
+					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
 			</aux>
 			<aux name="Actual_Starters_Who_Initiate_">
 				<units>Dmnl</units>
@@ -810,7 +810,7 @@
 			<aux name="Effect_of_Implement_IOP_on_Completer_">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero, delayed by the average time it takes to get to completion (now, with IOP is 6 weeks, instead of the usual 12 weeks).</doc>
-					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_à¶õ‡q"),0),Time_for_IOP_to_affect_Duration)					</eqn>
+					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_€ÂÀ×Ü"),0),Time_for_IOP_to_affect_Duration)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implement_IOP_on_Durations">
 				<units>Dmnl</units>
@@ -819,10 +819,10 @@
 	SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Durations),0),Time_for_IOP_to_affect_Duration)
 	)					</eqn>
 			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Initiator_Àæ‡q">
+			<aux name="Effect_of_Implement_IOP_on_Initiator_À¼×Ü">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero.</doc>
-					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_à¶õ‡q"),0)					</eqn>
+					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_€ÂÀ×Ü"),0)					</eqn>
 			</aux>
 			<aux name="Ending_After_8_or_More_Visits_Rate">
 				<units>pts/wk</units>
@@ -1742,7 +1742,7 @@
 				<doc>The time when user changes to experiment parameters take effect.</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Max_Effect_of_IOP_on_Àæ‡q">
+			<aux name="Max_Effect_of_IOP_on_À¼×Ü">
 				<units>Dmnl</units>
 				<doc>The relative change in the size of the gap between the current state and the desired state for the percentages governing the number of patients following care pathways after they initiate care caused by implementing an Intensive Outpatient Program.</doc>
 					<eqn>0.3					</eqn>
@@ -1754,7 +1754,7 @@
 			</aux>
 			<aux name="Max_Effect_of_IOP_on_Frequency">
 				<units>Dmnl</units>
-				<doc>Where 1 is a 100-2127808944ncrease in the frequency (i.e., patients come twice as often as before).</doc>
+				<doc>Where 1 is a 100-625723824ncrease in the frequency (i.e., patients come twice as often as before).</doc>
 					<eqn>1					</eqn>
 			</aux>
 			<aux name="Median_Time_in_Visit_1">
