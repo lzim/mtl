@@ -11,8 +11,6 @@
 4. [mtl.how/menu](https://www.mtl.how/menu) - _Modeling to Learn_ Menu - RedCap Survey of Team Needs/Priorities
 5. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team
 6. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation
-7. [mtl.how/refs](https://www.mtl.how/refs) - _MTL_ References 
-
+7. [mtl.how/refs](https://www.mtl.how/refs) - _MTL_ References
 
 ## _MTL_ - Release 2.0
-
