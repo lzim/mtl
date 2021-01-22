@@ -8,7 +8,7 @@
   "MD018": { "maximum": 1 },
   "MD022": { "lines_above": 1 },
   "MD024": { "siblings_only": true },
-  "MD025": { "level": 1 },
+   "MD025": { "front_matter_title": "" },
   "MD026": { "punctuation": ".,;:" },
   "MD029": { "style": "one_or_ordered" },
   "MD030": { "ul_single": 1 },
