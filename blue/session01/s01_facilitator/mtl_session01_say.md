@@ -22,7 +22,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 Throughout _Modeling to Learn_, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
 
-In the Session 1 Done and Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. Your home base is mlt.how for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
+In the Session 1 Done and Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. Your home base is mtl.how for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
 
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
@@ -45,7 +45,7 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 3. Identify a shared team vision for learning from _Modeling to Learn_.
 
-## Let's get started!
+**Let's get started!**
 
 ## In-session Exercise (30 minutes): Team vision
 
@@ -130,7 +130,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ## Done and Do (15 minutes)
 
-<!-- Do/Done Tables -->
+<!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live)  We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  Select a team lead and email Team PSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. |
