@@ -16,41 +16,41 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
      height = "175" width = "420">](#DontLink)  
 
-## Today we're modeling to learn how to align our team vision
+# Today we're modeling to learn how to align our team vision
 
-Hello! I'm <facilitator's name> and I'm <co-facilitator's name> [Co-facilitators introduce themselves]. Today we're modeling to learn how to align our team vision.
+Hello! I'm /(facilitator's name/) and I'm /(co-facilitator's name/) /[Co-facilitators introduce themselves/]. Today we're modeling to learn how to align our team vision.
 
-Throughout *Modeling to Learn*, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
+Throughout _Modeling to Learn_, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
 
-In the Session 1 Done/Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. MTL.HOW is your home base for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
+In the Session 1 Done and Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. Your home base is mlt.how for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
 
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
-## Do and Done (15 minutes)
+## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We logged in to mtl.how/live for screen-sharing in the team meeting and called in to VANTS for audio. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
 
-### By the end of this session you will be able to
+## Learning Objectives
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
-## Learning Objectives
+### By the end of this session you will be able to:
 
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
 
-3. Identify a shared team vision for learning from *Modeling to Learn*.
+3. Identify a shared team vision for learning from _Modeling to Learn_.
 
-### Let's get started!
+# Let's get started!
 
 ## In-session Exercise (30 minutes): Team vision
 
-- We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with *Modeling to Learn*. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
-- Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in *Modeling to Learn*. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
+- We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with _Modeling to Learn_. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
+- Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in _Modeling to Learn_. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
 - Team learning is all about ‘alignment’ and getting people working in sync with one another to meet the needs of our Veteran patients. We will explore “what is” (retrospective data) and vision forward to “what we would like it to be” (future-oriented).
 - The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations.
 
@@ -128,7 +128,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review
 
-## Done/Do (15 minutes)
+## Done and Do (15 minutes)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
