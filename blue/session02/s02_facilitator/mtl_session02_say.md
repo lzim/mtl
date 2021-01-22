@@ -15,13 +15,13 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
      height = "175" width = "420">](#DontLink)
 
-## MTL Live Session 02
+# MTL Live Session 02
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
 
-### Do and Done
+## Done and Do
 
-<!-- Do/Done Tables -->
+<!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of \_______________ ; selected our Team Lead \_______________ ; and set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the facility data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
@@ -29,7 +29,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
-### Learning Objectives
+## Learning Objectives
 
 1. Describe the decisions your team made in producing your team data table.
 
