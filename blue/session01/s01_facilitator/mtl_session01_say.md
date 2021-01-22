@@ -126,7 +126,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
   b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
 
-### That's it for _Modeling to Learn_ how to align our team vision! Next is our Done/Do review
+**That's it for _Modeling to Learn_ how to align our team vision! Next is our Done/Do review**
 
 ## Done and Do (15 minutes)
 
@@ -169,4 +169,4 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
-## Until next time, thank you for _Modeling to Learn_!  
+**Until next time, thank you for _Modeling to Learn_!**  
