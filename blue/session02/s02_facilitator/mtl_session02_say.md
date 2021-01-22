@@ -206,4 +206,4 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    - Encounters \(Enc\), and
    - Measurement Based Stepped Care and Suicide Prevention\(SP\)
 
-## Until next time, thank you for *Modeling to Learn*!
+**Until next time, thank you for *Modeling to Learn*!**
