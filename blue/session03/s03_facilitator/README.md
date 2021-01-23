@@ -9,6 +9,6 @@
 
 **s03_facilitator:**
 
-- Facilitator SAY Guide - Learning objectives and exercises for session 03 
+- Facilitator SAY Guide - Learning objectives and exercises for session 03
 - Facilitator pre/post checklist for session 03
 - Pre/post emails for session 03 (.html and .md)
