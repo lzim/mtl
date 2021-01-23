@@ -8,4 +8,5 @@
 ### session 02. *Modeling to Learn* how to check our **patient data** and **team trends.**
 
 **s02_resources:**
-  - SQL query code
+
+- SQL query code
