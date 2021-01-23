@@ -42,7 +42,7 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](data UI says what is and sim UI asks What if - illustration?)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" alt = "data\_ui and sim\ui relationship diagram">](#DontLink)
 
 ## *MTL* on BISL
 
@@ -86,7 +86,7 @@ output:
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
 
-- Click on the 3 dots /[/./././] next to the data_ui file.
+- Click on the 3 dots [...] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 [![edit in excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
