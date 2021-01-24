@@ -27,13 +27,13 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- | 
+| --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in the Team Data UI to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_UI and team_data_table. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will produce our team_data_table for the MTL simulation user-interface (sim UI).|
 
 **After this session you will be able to:**
 
-<!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> ](#DontLink)
+<!-- Learning Objectives Icon -->
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style = "display: inline-block"/>](#DontLink)
 
 ## Learning Objectives
 
@@ -48,6 +48,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*; and we will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.
 
 ## In-session Exercise (30 minutes): Team data table for simulation
+
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ### Navigate to the data UI at mtl.how/data
@@ -87,7 +88,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
   - The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
 
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
- 
+
 ### 1. Select a module for review 
 
 - To show what data are used to tailor each *MTL* module to your team.
@@ -112,12 +113,12 @@ Check out the different modules that are highlighted in the team data on the scr
   This column [highlight column] gives the description or definition of the variable.
   This column [highlight column] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends.
 - Find a variable that is important to your team. How is it estimated in this table? What are its units?
--  Where can you find even more detailed information about your team data?
+- Where can you find even more detailed information about your team data?
   - You can click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, which CPT codes are used to define each service, and the patient engagement patterns (for the Psychotherapy module).
   
 ### 3. Are there any team data table values you would like to explore in the team data UI?
 
--  If so, which ones? Open the data UI to examine your question.
+- If so, which ones? Open the data UI to examine your question.
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
@@ -137,7 +138,7 @@ Check out the different modules that are highlighted in the team data on the scr
 
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- | 
+| --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We produced team data table for the MTL simulation user-interface (sim UI). |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential. |
 
 ## DO demo
