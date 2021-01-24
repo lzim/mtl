@@ -32,7 +32,7 @@ output:
 
 ## Learning Objectives
 
-**After this session you will be able to:**  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">] \]
+**After this session you will be able to:**  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 1. Describe the team data in the Experiments section.  
 2. Test out the simulation user-interface for more information about team data.  
@@ -52,17 +52,17 @@ output:
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 ### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file
 
 - We want to grab the filename from there so we can upload it to the sim UI. Open an Explorer browser window and go to mtl.how/data.  
 
-### 3. The team data file for simulation is in our team folder, in the team_data_table folder  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 3. The team data file for simulation is in our team folder, in the team_data_table folder \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table.
 
-### 4. Log in to the sim UI [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
+### 4. Log in to the sim UI \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**  
 - Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.  
@@ -106,7 +106,7 @@ output:
 - If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
 - We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
 
-### 6. Start a New Session  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) /]
+### 6. Start a New Session  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Start a New Session and review the sim UI Main Page.     
 - Select the module your team decided to use.  
@@ -138,7 +138,7 @@ output:
 - The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
 - Click on the "i" in the red circle next to Team Data and read the "i" information. Throughout the Sim UI, we use "i" symbols for information pop-ups. Here, the "i" information is telling you how the data that you record, that you reviewed and chose in the data UI, are used to calculate or estimate the values in this Team Data Table.  
 - What types of decisions does the team make that affect these variables?  
-- Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice \ ___________________________________________
+- Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice \__________________________________________
 
 ### 9. Find the Team Data Table variables in the system diagram at the left.  
 
