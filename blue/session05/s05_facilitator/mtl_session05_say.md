@@ -118,9 +118,9 @@ output:
 - **New Patient Start Rate:** Choose this learning mode to prioritize the New Patient Start Rate estimated from team data, and only see existing patients in remaining open slots after the new patient start rate, appointment supply, and missed appointments are all taken into account.  
 - Upon clicking icons like "Play," "Run," or "Reset,' a quick tip will appear on the loading screen on different functions in the sim UI.
 
-### 7. Orient yourself to the Main Page of the sim UI 
+### 7. Orient yourself to the Main Page of the Sim UI 
 
-**(Same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text)**
+**Notice the same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text**
 
 - You see the same information and buttons across the top as the Home page.  
 - There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.
