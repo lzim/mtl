@@ -39,7 +39,7 @@ output:
 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-# In-session Exercise (30 minutes)
+## In-session Exercise (30 minutes)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
@@ -61,7 +61,7 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
 
-#### New for _MTL_ 2.0
+### New for _MTL_ 2.0**
 
 - The "SPTransfers" tab is now called "SPReferrals."
 - "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
@@ -92,7 +92,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
-- If so, what is surprising? Does the estimation definition (second to last columnn, text in red) help you to interpret the variable value?
+- If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 
