@@ -74,27 +74,27 @@ output:
  
 - At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it). 
 - Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).
-    - Click on the "Team" icon to chat with your team or facilitator.
-    - Click on the "More Info" icon for more info on the sim UI.
-    - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
-    - Click on the "Report Bug" Icon in the top nav bar to report issues.
-    - **Never include any PII/PHI in your description and screenshot.**
-    - To include screenshots, you can:
-          - Copy & paste from Snipping Tool
-          - Drag & drop a screenshot file
-          - Upload your screenshot file
-    - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
-          - Video: Links to the relevant TMS video for this section.
-          - Guide: Links to the relevant session guide for this section.
-          - Back/Next: Move back or next in the tutor instructions for this section.
-          - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
-    - Click on the "Community" button on the bottom right if:
-          - You have an idea
-          - You like something
-          - You have a question:
-            - See if someone already answered your question online in the Community of Practice.
-            - Set up a GitHub account to ask your question directly in the Community of Practice.
-            - Email your question to mtl.help@va.gov
+   - Click on the "Team" icon to chat with your team or facilitator.
+   - Click on the "More Info" icon for more info on the sim UI.
+   - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+   - Click on the "Report Bug" Icon in the top nav bar to report issues.
+   - **Never include any PII/PHI in your description and screenshot.**
+   - To include screenshots, you can:
+      - Copy & paste from Snipping Tool
+      - Drag & drop a screenshot file
+      - Upload your screenshot file
+   - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
+      - Video: Links to the relevant TMS video for this section.
+      - Guide: Links to the relevant session guide for this section.
+      - Back/Next: Move back or next in the tutor instructions for this section.
+      - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
+   - Click on the "Community" button on the bottom right if:
+      - You have an idea
+      - You like something
+      - You have a question:
+         - See if someone already answered your question online in the Community of Practice.
+         - Set up a GitHub account to ask your question directly in the Community of Practice.
+         - Email your question to mtl.help@va.gov
     - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
     - To include screenshots in the "Community" button, you can:
           - Copy & paste from Snipping Tool
