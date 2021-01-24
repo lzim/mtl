@@ -9,6 +9,6 @@
 
 **s04_learner:**
 
-- Learner SEE Guide - Learning objectives and exercises for session 04 
+- Learner SEE Guide - Learning objectives and exercises for session 04
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
 - Learner cheatsheets for mtl.how/data (with Gifs) (.html)
