@@ -43,10 +43,10 @@ output:
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
 - In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that \___________________  
-- Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.     
-- Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make.   
-- With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.     
-- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.    
+- Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.  
+- Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make.  
+- With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.  
+- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
 ## In-session Exercise \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
@@ -74,7 +74,7 @@ output:
 
 ### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers)  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
-- At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).   
+- At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
 - Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).  
   - Click on the "Team" icon to chat with your team or facilitator.  
   - Click on the "More Info" icon for more info on the sim UI.  
@@ -89,7 +89,7 @@ output:
     - Video: Links to the relevant TMS video for this section.  
     - Guide: Links to the relevant session guide for this section.  
     - Back/Next: Move back or next in the tutor instructions for this section.  
-    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section.   
+    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section.  
   - Click on the "Community" button on the bottom right if:  
     - You have an idea  
     - You like something  
@@ -97,18 +97,18 @@ output:
       - See if someone already answered your question online in the Community of Practice.  
       - Set up a GitHub account to ask your question directly in the Community of Practice.  
       - Email your question to mtl.help@va.gov  
-   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**  
-   - To include screenshots in the "Community" button, you can:  
-      - Copy & paste from Snipping Tool  
-      - Drag & drop a screenshot file  
-      - Upload your screenshot file  
-- Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.    
+  - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**  
+  - To include screenshots in the "Community" button, you can:  
+    - Copy & paste from Snipping Tool  
+    - Drag & drop a screenshot file  
+    - Upload your screenshot file  
+- Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
 - If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
 - We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
 
 ### 6. Start a New Session  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
-- Start a New Session and review the sim UI Main Page.     
+- Start a New Session and review the sim UI Main Page.  
 - Select the module your team decided to use.  
 - Select the team data you just uploaded.  
 - Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.)  
@@ -118,7 +118,7 @@ output:
 - **New Patient Start Rate:** Choose this learning mode to prioritize the New Patient Start Rate estimated from team data, and only see existing patients in remaining open slots after the new patient start rate, appointment supply, and missed appointments are all taken into account.  
 - Upon clicking icons like "Play," "Run," or "Reset,' a quick tip will appear on the loading screen on different functions in the sim UI.
 
-### 7. Orient yourself to the Main Page of the Sim UI 
+### 7. Orient yourself to the Main Page of the Sim UI
 
 **Notice the same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text**
 
@@ -140,7 +140,7 @@ output:
 - What types of decisions does the team make that affect these variables?  
 - Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice \__________________________________________
 
-### 9. Find the Team Data Table variables in the system diagram at the left.  
+### 9. Find the Team Data Table variables in the system diagram at the left  
 
 - True Missed Appointments %  
 - Appointment Supply  
@@ -148,15 +148,15 @@ output:
 - Engagement Duration  
 - New Patient Start Rate (AGG)  
 
-### 10. Log out of the Sim UI 
+### 10. Log out of the Sim UI
 
-**That's it for _Modeling to Learn_ how to log in to our team world!**   
+**That's it for _Modeling to Learn_ how to log in to our team world!**
 
 ## Done and Do (15 minutes)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
-| --- | --- | 
+| --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. |
 
 ## DO demo
