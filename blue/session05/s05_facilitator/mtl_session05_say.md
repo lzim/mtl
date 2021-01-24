@@ -14,113 +14,95 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
-     height = "175" width = "420">](#DontLink)  
+     height = "175" width = "420">](#DontLink)
 
-# Session 05
-# Today we're modeling to learn how to log in to our team world.
+# MTL Live Session 05
+
+## Today we're modeling to learn how to log in to our team world
 
 ## Done and Do
+
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
-| --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. | 
+| --- | --- |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the sim UI at mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data to the sim UI and review our data in the Experiments section. |
 
-## Learning Objectives - After this session you will be able to: [ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15"> ___ ]
+<!-- Learning Objectives Icon -->
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontClick)
 
-<!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> ](#DontClick)  
+## Learning Objectives - After this session you will be able to:[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">]
 
-1. Describe the team data in the Experiments section. 
-
+1. Describe the team data in the Experiments section.
 2. Test out the simulation user-interface for more information about team data.
-
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
-
-## Participatory Learning from Simulation [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)  _____ ]
+## Participatory Learning from Simulation [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
- + In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that ___________________ 
+- In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that \___________________ 
+- Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.   
+- Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make. 
+- With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.   
+- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
 
- + Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.   
-
- + Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make. 
-
- + With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.   
-
- + Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
-
-## In-session Exercise [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)   __ ]
+## In-session Exercise [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
+### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
-### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation.  [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ] 
+### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file
 
-### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file. 
-+ We want to grab the filename from there so we can upload it to the sim UI. Open an Explorer browser window and go to mtl.how/data.  
+- We want to grab the filename from there so we can upload it to the sim UI. Open an Explorer browser window and go to mtl.how/data.  
 
-### 3. The team data file for simulation is in our team folder, in the team_data_table folder. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]   
-+ Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table.      
+### 3. The team data file for simulation is in our team folder, in the team_data_table folder [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
-### 4. Log in to the sim UI. [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
-+ Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**
+- Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table.
 
-+ Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
+### 4. Log in to the sim UI [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
-+ Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
+- Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**
+- Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
+- Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!
+- An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.
+- If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.
+
+**Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.**
+
+### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers) [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
  
-+ An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
-
-+ If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.
-
-Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI. 
-
-### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers).   [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)___ ]  
- 
-+ At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
-  
-+ Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's always best to log off when you’re finished with a session. Then at the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).  
-
-  - Click on the "Team" icon to chat with your team or facilitator.
-
-  - Click on the "More Info" icon for more info on the sim UI.
-
-  - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
-
-  - Click on the "Report Bug" Icon in the top nav bar to report issues.
+- At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it). 
+- Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).
+    - Click on the "Team" icon to chat with your team or facilitator.
+    - Click on the "More Info" icon for more info on the sim UI.
+    - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+    - Click on the "Report Bug" Icon in the top nav bar to report issues.
     - **Never include any PII/PHI in your description and screenshot.**
     - To include screenshots, you can:
-      - Copy & paste from Snipping Tool
-      - Drag & drop a screenshot file
-      - Upload your screenshot file
-    
-  - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
-    - Video: Links to the relevant TMS video for this section.
-    - Guide: Links to the relevant session guide for this section.
-    - Back/Next: Move back or next in the tutor instructions for this section.
-    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
-
-  - Click on the "Community" button on the bottom right if:
-    - You have an idea
-    - You like something
-    - You have a question:
-      - See if someone already answered your question online in the Community of Practice.
-      - Set up a GitHub account to ask your question directly in the Community of Practice.
-      - Email your question to mtl.help@va.gov
+          - Copy & paste from Snipping Tool
+          - Drag & drop a screenshot file
+          - Upload your screenshot file
+    - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
+          - Video: Links to the relevant TMS video for this section.
+          - Guide: Links to the relevant session guide for this section.
+          - Back/Next: Move back or next in the tutor instructions for this section.
+          - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
+    - Click on the "Community" button on the bottom right if:
+          - You have an idea
+          - You like something
+          - You have a question:
+            - See if someone already answered your question online in the Community of Practice.
+            - Set up a GitHub account to ask your question directly in the Community of Practice.
+            - Email your question to mtl.help@va.gov
     - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
     - To include screenshots in the "Community" button, you can:
-      - Copy & paste from Snipping Tool
-      - Drag & drop a screenshot file
-      - Upload your screenshot file
-  
-+ Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
-  
-+ If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
- 
-+ We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!   
-
+          - Copy & paste from Snipping Tool
+          - Drag & drop a screenshot file
+          - Upload your screenshot file
+- Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
+- If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
+- We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!   
 
 ### 6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
 
