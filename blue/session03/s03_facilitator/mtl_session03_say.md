@@ -81,7 +81,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 - We have already produced a team data table for you, but to do it yourself:
   - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. In the future, you can pull up the same clinics used last time for creating the team data table by clicking on the gray "Get previous clinic list from Create Team Data Table file" button (Cell B4) to add them column A.
-  - Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab. 
+  - Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
   - Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
   - Click on "Create Team Data Table".
   - If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
@@ -89,7 +89,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 - Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
 
-### 1. Select a module for review 
+### 1. Select a module for review
 
 - To show what data are used to tailor each *MTL* module to your team.
 [Choose a module]  
