@@ -8,6 +8,7 @@
 ### session 04. *Modeling to Learn* how to prioritize **team needs**
 
 **s04_facilitator:**
+
 - Facilitator SAY Guide - Learning objectives and exercises for session 04
 - Facilitator pre/post checklist for session 04
 - Pre/post emails for session 04 (.html and .md)
