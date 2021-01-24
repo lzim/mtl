@@ -10,8 +10,8 @@
 1. **session04.md:**
     - (part 1): Session 04 fidelity checklist components
     - (part 2): List of links for *MTL* resources used in session 04
-          - mtl.how/live
-          - mtl.how/menu
+      - mtl.how/live
+      - mtl.how/menu
     - (part 3): .bibtex file for references; link to public Zotero library for *MTL*
 2. **s04_learner:**
     - Learner SEE Guide - Learning objectives and exercises for session 04
