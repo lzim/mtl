@@ -62,47 +62,47 @@ output:
 
 ### 4. Log in to the sim UI [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
 
-- Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**
-- Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
-- Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!
-- An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.
-- If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.
+- Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**  
+- Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.  
+- Click the down-arrow in the *Please select a World* pop-up. You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
+- An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
+- If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.  
 
 **Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.**
 
 ### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers) [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)
  
-- At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it). 
-- Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).
-  - Click on the "Team" icon to chat with your team or facilitator.
-  - Click on the "More Info" icon for more info on the sim UI.
-  - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
-  - Click on the "Report Bug" Icon in the top nav bar to report issues.
-  - **Never include any PII/PHI in your description and screenshot.**
-  - To include screenshots, you can:
-    - Copy & paste from Snipping Tool
-    - Drag & drop a screenshot file
-    - Upload your screenshot file
+- At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).   
+- Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).  
+  - Click on the "Team" icon to chat with your team or facilitator.  
+  - Click on the "More Info" icon for more info on the sim UI.  
+  - Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.  
+  - Click on the "Report Bug" Icon in the top nav bar to report issues.  
+  - **Never include any PII/PHI in your description and screenshot.**  
+  - To include screenshots, you can:  
+    - Copy & paste from Snipping Tool  
+    - Drag & drop a screenshot file  
+    - Upload your screenshot file  
   - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
-    - Video: Links to the relevant TMS video for this section.
-    - Guide: Links to the relevant session guide for this section.
-    - Back/Next: Move back or next in the tutor instructions for this section.
-    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
-  - Click on the "Community" button on the bottom right if:
-    - You have an idea
-    - You like something
-    - You have a question:
-       - See if someone already answered your question online in the Community of Practice.
-       - Set up a GitHub account to ask your question directly in the Community of Practice.
-       - Email your question to mtl.help@va.gov
-   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**
-   - To include screenshots in the "Community" button, you can:
-        - Copy & paste from Snipping Tool
-        - Drag & drop a screenshot file
-        - Upload your screenshot file
-- Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.  
-- If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
-- We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!   
+    - Video: Links to the relevant TMS video for this section.  
+    - Guide: Links to the relevant session guide for this section.  
+    - Back/Next: Move back or next in the tutor instructions for this section.  
+    - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section.   
+  - Click on the "Community" button on the bottom right if:  
+    - You have an idea  
+    - You like something  
+    - You have a question:  
+       - See if someone already answered your question online in the Community of Practice.  
+       - Set up a GitHub account to ask your question directly in the Community of Practice.  
+       - Email your question to mtl.help@va.gov  
+   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**  
+   - To include screenshots in the "Community" button, you can:  
+        - Copy & paste from Snipping Tool  
+        - Drag & drop a screenshot file  
+        - Upload your screenshot file  
+- Below that row is the *MTL* welcome text, and under that there are 3 section headings in blue bars: Session; Experiment Maintenance; and Team Data Dropdown Maintenance. Whenever you see blue bars like these with a white triangle on the right, that means those sections can be expanded and collapsed by clicking on the bar.    
+- If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.    
+- We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!     
 
 ### 6. Start a New Session [ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick)__ ]  
 
