@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
-     height = "175" width = "420">](#DontLink)   
+     height = "175" width = "420">](#DontLink)
 
 # MTL Live Session 06
 
@@ -37,10 +37,10 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Emphasize team priority with the learning objectives on the screen
 
-**After this session you’ll be able to:** 
+**After this session you’ll be able to:**
 
-<!-- Learning Objectives Icon --> 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontClick) 
+<!-- Learning Objectives Icon -->
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontClick)
 
 ## Learning Objectives
 
@@ -75,16 +75,17 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
   - On a PC, you can re-size your screen to get more or less of the diagram to show up at once by clicking the **stacked boxes icon in the far top right** of your computer screen.
   - On a MAC, to view the model in full screen click the **green button in the upper left of the browser** on your computer. To exit full screen, hover at the top of your computer screen, the toolbar will appear, click on "View", click on "Exit Full Screen."
 
--  Navigate to Text section to pull up the Question from last time.
+- Navigate to Text section to pull up the Question from last time.
 
 ## In-Session Exercise - Part 1
 
 ## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:20-00:30 - Team Priority**\__________________ 
+
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:20-00:30 - Team Priority**\__________________
 
 **Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.**  
 
-### 1. Over what timeframe does an experiment run?
+### 1. Over what time frame does an experiment run?
 
 See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
@@ -123,20 +124,21 @@ In our convention, Red means read in from team data.
     - If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down; and reverse).
 
 ## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)  \_____________ **Time 00:40-00:50 - Team Priority**\__________________
 
 **Walk-throughs of each loop in each module are included in a table below.**
 
-### Enter a basecase question and hypothesis in the Text section
+### Enter a base case question and hypothesis in the Text section
 
-- In the Question box, add a basecase question about no new decisions in addition to the team need question that the team wrote last session.
+- In the Question box, add a base case question about no new decisions in addition to the team need question that the team wrote last session.
 - In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
 - Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.
 - The last thing to do is log out of the SIM UI!
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) ***00:50-00:55*** 
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) ***00:50-00:55***
 
-### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
+### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review
 
 Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.
 
@@ -156,7 +158,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 1. Log back into the SIM UI.
 2. Write your QUESTION about the base case (of no new decisions) in the QUESTION box.
 3. Write your HYPOTHESIS about the base case (of no new decisions) in the HYPOTHESIS box.
-4. Name your bc run. Use the drop down file naming field boxes to select 'bc'. Click on Save (but not Save and Reset). 
+4. Name your bc run. Use the drop down file naming field boxes to select 'bc'. Click on Save (but not Save and Reset).
 
 **Until next time, thanks for *Modeling to Learn*!**
 
@@ -180,7 +182,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 || Let's walk through a systems story focused on the balancing loop titled "Appointment Backlog Extends Return Visit Interval right here on the model diagram [mouse over balancing loop on screen].  Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.
  ||When a clinic team experiences increasing *Work Pressure* then there is an *Effect of Work Pressure on Scheduled Return Visit INterval* such that as work pressure increases, there is an increases the time between appointments or the *Return to Clinic Visit Interval*.  As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.
 |**MEASUREMENT-BASED STEPPED CARE AND SUICIDE PREVENTION**| **-- Higher Care Quality Improves Recovery --**|
-||Starting with *Patient Load*, which is [CLICK ON I TEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases, which then decreases *Patient Load*, further increasing *Care Quality*.  Let's zoom in to this part of the diagram to see how that works by clicking on the plus sign in the upper right corner of the grey box [CLICK ON MEASUREMENT BASED CARE VIEW]. 
+||Starting with *Patient Load*, which is [CLICK ON I TEXT AND READ], one way that increasing patient load influences the team is the effect on care quality. If the team has fewer patients than they can effectively treat, then the effect on quality decreases, and the care quality delivered to patients increases.  When *Care Quality* increases, the number of patients in the grey box labeled *Effect of MBC on Patient Symptoms and Risk* decreases, which then decreases *Patient Load*, further increasing *Care Quality*.  Let's zoom in to this part of the diagram to see how that works by clicking on the plus sign in the upper right corner of the grey box [CLICK ON MEASUREMENT BASED CARE VIEW].
 ||Here we see some of our same variables, including *Care Quality*, which has the same causal relationships in this view as in the previous view.  When *Care Quality* goes up, two things happen:  First, high-symptom patients improve faster than before (see the arrow to “Time to Improve” which affects the number of patients each week whose symptoms improve enough to be eligible to be stepped down to a less intense level of care), and  Second, patients with high risk flags improve faster than before (see the arrow to “Time to UnFlag” which affects the rate at which patients with high risk flags have those flags removed).
 || This causes more patients to flow into the “low symptom” group, so more patients can both end their care and be recommended to step down to a lower level of care. Now, click any one of the plus signs in a grey box to zoom out to the previous view [TOGGLE BACK TO STEPPED CARE VIEW]. As more patients leave this setting, it further reduces the total number of patients in the GMH treatment setting, thus further decreasing the patient load and increasing quality. When moving this direction, this type of reinforcing loop is often called a “virtuous circle.”  However, this feedback loop also works in the opposite direction, where small increases in patients can lead to lower quality, more patients staying with “high symptoms,” resulting in even higher patient load. When this happens, this same loop is referred to as a “vicious circle,” or a “death spiral.” We have closed the loop, or brought our chain of causation full circle, and can now explain how this reinforcing loop of "Higher Care Quality Improves Recovery" could both energize our improvement efforts, or potentially derail them.
 ||**-- Higher Care Quality Improves Recovery Loop --**|
