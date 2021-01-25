@@ -44,7 +44,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 3. Apply systems thinking to describe your team's findings, insights and conclusions from your experiment.
 
-## Let's get started:
+## Let's get started
 
 ## In-session Exercise (30 minutes): Comparing experiments 1 and 2
 
@@ -130,19 +130,19 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Why is this happening? Even though the effect on flow between the two settings was the same (i.e., implementing stepped care reduced the Time to Recommend in both settings by 50%), the size of the two settings is not. [MINIMIZE THE EXPANDED OUTPUTS, OPEN EXPERIMENTS, CLICK ON BASE CASE VALUE FOR "PC/PCMHI Manageable Total Patients"] We know that GMH can maintain over 500 patients in treatment, but Primary Care can only maintain about 300 mental health patients. Implementing Stepped Care between these two settings with a substantial size difference means more patients trying to flow from General to Primary Care than from Primary Care to General. Even though both settings are trying to step more patients out to a more appropriate level of care, the increase in openings in Primary Care is not enough to accommodate the increase in demand from General to step patients down into Primary Care. Thus, the resulting average wait time to step down from GMH to PC practically doubles over the next two years.  
 
     \[CLICK BACK TO GMH EXPANDED OUTPUTS TO FINISH TYPING TEXT\]
-    
+ 
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 ### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run
 
 - Discuss what **new decisions** the team wants to test next. Ideally, the **highest leverage** and **most feasible (i.e., decisions that individual and the team have under their control)** experiments were tested in session 8 (Experiment 1) and session 9 (Experiment 2).
 - Therefore, _to apply systems thinking_ in session 10, ask the team to consider a combination of experiments 1 and 2.  Ask the team to type in the Decisions box, _both_ 1) what they would like to experiment with next, and 2) any _new decisions they may make in their clinical practice based on what they learned._  
-      
-- **CC** \- We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients. 
 
-- **MM** \- This tradeoff is not a good one for the team. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients. We will use the simulation to identify more optimized practice decisions. 
+- **CC** \- We decided to try a combination of experiments 1 and 2. We will experiment with both increasing our overall Appointment Supply in care coordination and increasing our targeted Return Visit Interval for existing patients. As I meet with more stable patients, I will consider who may appropriately have a longer RVI, which may free me to see more new patients, and increase overall scheduling flexibility for all my patients.
 
-- **PSY** \- We will run a third experiment. We will look to see if we can combine the effects of graduating 75% of all Completers AND increasing Initiators who Complete. We need the appointment supply that becomes available by keeping to a higher graduation rate of Completers to accommodate the higher number of Initiators who are transitioned to Completers! 
+- **MM** \- This tradeoff is not a good one for the team. Increasing referrals and reallocating appointments is not enough to serve the new OUD patients without an impact on our other patients. We will use the simulation to identify more optimized practice decisions.
+
+- **PSY** \- We will run a third experiment. We will look to see if we can combine the effects of graduating 75% of all Completers AND increasing Initiators who Complete. We need the appointment supply that becomes available by keeping to a higher graduation rate of Completers to accommodate the higher number of Initiators who are transitioned to Completers!
 
 **AGG** \- We will explore sensitivity to work pressure in our next experiment, but keep our new service mix and our improved RVI for PSY and Evidence-based Psychotherapy. I can begin to shift some of my referral and RVI decisions now.
 
@@ -165,8 +165,8 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 1. If you can, run a third experiment in your Individual world. You might consider one that combines the decisions of your Experiment 1 and Experiment 2.
 2. To do this, log back into the SIM UI. In Experiments, select your Experiment 2 run from the list of saved experiments. Click GO and select the box to include text, to reload your prior QUESTION, HYPOTHESIS, FINDINGS and DECISIONS.
-4. Expand the OUTPUTS AND TEXT section to reveal all the text and results saved from the run. Use these to refine and document your Question and Hypothesis for Experiment 3.
-5. When you set the sliders for this experiment, remember that they are starting out set as you had them for Experiment 2. Run the simulation and note your Findings and Decisions.
-6. As always, save your work and log off.
+3. Expand the OUTPUTS AND TEXT section to reveal all the text and results saved from the run. Use these to refine and document your Question and Hypothesis for Experiment 3.
+4. When you set the sliders for this experiment, remember that they are starting out set as you had them for Experiment 2. Run the simulation and note your Findings and Decisions.
+5. As always, save your work and log off.
 
 **Until next time, thank you for *Modeling to Learn*!**
