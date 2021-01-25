@@ -77,8 +77,8 @@ Time Stamp | Prioritize tailored team learning | Script
 - You will see the main, model diagram section, the *Outputs and Text* section, and the *Experiments* section, with a smaller, floating *Text* section. You can drag that section over or "X out" of it to make room to open the *Experiments* section. To pick up where we left off last time, expand the *Experiments* section by clicking on the blue bar. At the top you will see, "Select Previous Experiment to Set Experimental Values to a Former State."  
 
     Time Stamp | Prioritize tailored team learning | Script
--- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**  
+    -- | -- | --
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:15-00:20 | **Review** the team data the led to that q/h/f/d | **1. Practice highlighting specific values from the Team Data table that are guiding the in-session work to address the team's highest priority need.**  
 
 - Open the drop-down menu for Select Experiment and select the base case experiment from the last session.
 - When you click the red "Go" button, a pop-up box will appear that says "Review Previous Settings." Because you've selected the base case experiment, all of the values showing in the Experimental Values box should show either bc or 0 (or 1 for sensitivities).
@@ -86,8 +86,8 @@ Time Stamp | Prioritize tailored team learning | Script
 - As a reminder, the text fields are: Our Question, Our Hypothesis, Our Findings, Our Decisions. To bring up the text boxes for easy review, click on the Outputs and Text bar. Click to Expand. Click on the layered squares or windows in the upper right corner of the blue bar to make the text box smaller so it's easy to review the text in the text boxes and main model diagram.  
 
     Time Stamp | Prioritize tailored team learning | Script
--- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most relevant to the team's highest priority need.**
+    -- | -- | --
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most relevant to the team's highest priority need.**
 
 ### 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result
   
@@ -101,8 +101,8 @@ Time Stamp | Prioritize tailored team learning | Script
   - As a team, you decide what change to experiment with in the sim. To make that decision, you should ask: 1) How do we think things will change over time if make a specific change?; and 2) What relationships in the system will interact if we make that change? Ultimately, the team should choose changes that might give the desired result, based on the team vision and team need.  
 
     Time Stamp | Prioritize tailored team learning | Script
--- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need.**
+    -- | -- | --
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need.**
 
 ### 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now
 
@@ -139,8 +139,8 @@ Time Stamp | Prioritize tailored team learning | Script
 - A quick tip -- make note of the service or services you selected to change and the new values, that is, what you changed the numbers to, so you have that information available for naming the experiment when you save it.  
 
     Time Stamp | Prioritize tailored team learning | Script
--- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:35-00:40  | **Run** experiment
+    -- | -- | --
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:35-00:40  | **Run** experiment
 
 ### 9.	Run and then Save (without resetting).  Name this run according to the variable setting(s) you changed.
 
@@ -150,8 +150,8 @@ Time Stamp | Prioritize tailored team learning | Script
 - Click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.   
 
     Time Stamp | Prioritize tailored team learning | Script
--- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:40-00:50 | **Describe** findings/decisions and save | **4. Practice describing outputs (system behaviors) you're going to check and discuss as a team in relation to the team's highest priority need.**
+    -- | -- | --
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:40-00:50 | **Describe** findings/decisions and save | **4. Practice describing outputs (system behaviors) you're going to check and discuss as a team in relation to the team's highest priority need.**
 
 ### 10.	Compare Experiments to see the difference the between base case and the current experimental run
 
@@ -189,15 +189,15 @@ Time Stamp | Prioritize tailored team learning | Script
 
      [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Decisions:** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
-**CC** - Next time we will experiment with adjusting our Return Visit Interval.
+- **CC** - Next time we will experiment with adjusting our Return Visit Interval.  
 
-**MM** - Although we were glad to see that we could care for more OUD patients with our available staffing, we are concerned that if all we do is shift several of our Other appointments to OUD, we won't be able to help as many Other patients. We decided to experiment with Return to Clinic Visit Intervals as a possible alternate solution.
+- **MM** - Although we were glad to see that we could care for more OUD patients with our available staffing, we are concerned that if all we do is shift several of our Other appointments to OUD, we won't be able to help as many Other patients. We decided to experiment with Return to Clinic Visit Intervals as a possible alternate solution.  
 
-**PSY** - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.
+- **PSY** - For our next experiment, since we have now affirmed that we have additional appt capacity for new (and existing patients), we would like to explore how changing Initiators who Complete from the base case rate of 37% to 75% might impact the number of patients who complete and graduate. This will be the only change we make, so that we can see the effect clearly.  
 
-**AGG** - Now that we have reduced the RVI for PSY and EB PSY, we can look to see what gains in managing our patients may be achieved by rebalancing our service mix. We'll see what happens if we invest in doing more EB PSY and less PSY, but keeping the proportion of other services more or less as before.
+- **AGG** - Now that we have reduced the RVI for PSY and EB PSY, we can look to see what gains in managing our patients may be achieved by rebalancing our service mix. We'll see what happens if we invest in doing more EB PSY and less PSY, but keeping the proportion of other services more or less as before.  
 
-**SP** – In this experiment, we see a strong connection between changes made in our team and demand and wait times for downstream teams. We should run an experiment that explores these connections, specifically to gauge the impacts of implementing stepped care between GMH and PC/PCMHI.
+- **SP** – In this experiment, we see a strong connection between changes made in our team and demand and wait times for downstream teams. We should run an experiment that explores these connections, specifically to gauge the impacts of implementing stepped care between GMH and PC/PCMHI.  
 
 In an interconnected system, with causal interdependencies over time, simulation can help us find out when our short-term decisions are going to make things worse in the longer term.  In the real world, it would be very hard to perceive these longer term system effects, but we can see them using *Modeling to Learn* and we can evaluate the results against other available decisions to compare their effects and better coordinate Veterans' care across the team to increase care quality [expand access, or reduce symptoms and risk].
 
