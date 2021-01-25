@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 10](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md "MTL Live Session 10")
 
-# Today we're modeling to learn how to use systems thinking.
+## Today we're modeling to learn how to use systems thinking
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name).
 
@@ -32,18 +32,18 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10**
 
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45"> 
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">
 **Learning Objectives for Session 9**
 
-1.	Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
-2.	Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
-3.	Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
+1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
+2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
+3. Apply your thinking to anticipate the short and long term trends in your team's care quality under different decision scenarios.
 
 ## Facilitator provides rationale: We've been _Modeling to Learn_ how to improve our use of systems thinking when making care decisions in our team
 
  <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:15**
- 
- - [ ] Show the Systems Thinking Table in the SEE guide.
+
+- [ ] Show the Systems Thinking Table in the SEE guide.
 
 Systems Thinking | Definition
 -- | --
@@ -61,7 +61,7 @@ Time | **Short   and   long term.**      Better understanding of change over tim
 
 ## Pull up **q/h/f/d** from session 09 and ask **team lead** to review the rationale for the relative differences among **Experiment 2,** **Experiment 1,** and the **Base Case** findings from the "Findings" Text
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20** - Team-specific **caual system story for findings** __________________
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:15-00:20** - Team-specific **causal system story for findings** __________________
 
 _If you did not reset the Team World at the end of Session 9:_
 
@@ -76,9 +76,11 @@ _The advantage of starting **session 10** at the end of the Experiment 2 run in 
 - [ ] Minimize **Outputs and Text** and move the text to the **Right** to reveal the causal system diagram.
 - [ ] **Refine/edit Experiment 2 text** to capture the causal explanations for the differences between the Base Case, Experiment 1 and Experiment 2 entered for Hypothesis, Findings and Decisions.  
 
-## **Paste the Decision Text** in the **Question Box** for Experiment 3. 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:30**  
-- [ ] Refine the text as necessary to reflect today's learning goal to combine the team decisions reflected in Experiment 1 and 2. 
+## **Paste the Decision Text** in the **Question Box** for Experiment 3
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:25-00:30**
+
+- [ ] Refine the text as necessary to reflect today's learning goal to combine the team decisions reflected in Experiment 1 and 2.
 
 ## Use then causal system story in the model diagram to craft a **Dynamic Hypothesis**
 
