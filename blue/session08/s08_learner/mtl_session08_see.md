@@ -55,7 +55,7 @@ output:
 
 4. You can *Join Current Session* or *Start a New Session* in any module. If you *Start a New Session* select the team data file you’d like to use.  
 
-  - Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.  
+    - Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.  
 
 5. To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.  
 
