@@ -58,12 +58,12 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 1. Log in to your individual or team world at mtl.how/sim
 
-### 2. If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+### 2. If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to
 
 - On the *MTL* Home page, you will see the "Experiment Maintenance" section in the middle. This is where you can review your saved runs by clicking the blue bar to expand the section.  
 - Here, you are able to *Delete*, *Rename*, or *Export* your experiments.
 - A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, check the box to the left of the file name, click Rename*, change the name, and Save.
-   
+
 ### 3. If you logged into your individual world, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want
 
 - The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named at mtl.how/data.
@@ -89,10 +89,10 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most relevant to the team's highest priority need.**
 
-### 6.	Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result
+### 6.  Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result
   
-- Click on \____________ under "reveal complexity" to see the systems story relevant to the experiment you decided on  in the last session. 
-  + In the diagram, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients or appointments can accumulate or drop. For example, in this team we see \___ patients in the \________ stock.  The number of patients in a state are influenced by flow rates - designated by circles here that look like speedometers. For example, this \______ rate shows that about \__ patients per week in this team move from \_________ to \_________ [show with mouse work]. 
+- Click on \_\_\_\_\_\_\_\_\_\_\_\_ under "reveal complexity" to see the systems story relevant to the experiment you decided on in the last session.
+- In the diagram, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients or appointments can accumulate or drop. For example, in this team we see \_\_\_ patients in the \_\_\_\_\_\_\_\_ stock.  The number of patients in a state are influenced by flow rates - designated by circles here that look like speedometers. For example, this \_\_\_\_\_\_ rate shows that about \_\_\_ patients per week in this team move from \_\_\_\_\_\_\_\_\_ to \_\_\_\_\_\_\_\_\_ \[show with mouse work\].  
 
 - Example:
   - First, explore the Appointments section of the diagram and see how Appointment Supply links to a number of variables.
@@ -111,11 +111,11 @@ Time Stamp | Prioritize tailored team learning | Script
 
     [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Questions and Hypotheses:** *Briefly describe what your team wants to learn from this experiment and outline the systems story your team believes will cause the outcomes your team expects to observe.*
 
-- **CC** 
+- **CC**
   - Q: What will happen to the Starting Rate and New Patient Wait Time if we increase the Appointment Supply of care coordination appointments overall?
   - H: Increasing the CC Appointment Supply will make more Appointments available for both new and existing CC patients. The Additional Appointment Supply for New CC Patients will increase the Starting Rate and lower New Patient Wait Times.  
 
-- **MM** 
+- **MM**
   - Q: How could we serve more patients with specific conditions, like OUD, with our existing staffing levels?
   - H: If our referral rate for OUD is 2 pts per month (0.5 per week), and we allocate 40% of our x-waiver slots to OUD treatment, and 40% to Other Needs, and we change our RVI for depression to 12 weeks, and the RVI for OUD to 4 weeks (in line with our quality standards), then we will serve more OUD patients with our existing team staff, without increasing the wait time for new depression patients.  
 
@@ -131,7 +131,7 @@ Time Stamp | Prioritize tailored team learning | Script
   - Q: How much does implementing Measurement Based Care improve our ability to get our high symptom patients into the right care at the right time? How will this change in our team impact the other settings in Mental Health?   Will it kick off a virtuous cycle of GMH care quality improving recovery?
   - H: If we more readily detect patients' symptoms and risk, then our improvement rate will increase, moving more patients in to recovery. For this team, with their local resources and constraints, can more patients graduate from general mental health care, our patient load will drop and open more slots to start new care episodes. If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.  However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.
 
-### 8.	Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values)
+### 8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values)
 
 - Slide the Text box to the left, over the model section. This will allow you to adjust experiment sliders for the new experiment.
 - In the experiments section we also have experimental sliders with “i” information that tells you what you’re changing when you adjust that slider in your experiment.
@@ -142,23 +142,23 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:35-00:40  | **Run** experiment
 
-### 9.	Run and then Save (without resetting).  Name this run according to the variable setting(s) you changed.
+### 9. Run and then Save (without resetting).  Name this run according to the variable setting(s) you changed
 
 - To name the run, click on the down arrow next to Variable, choose the variable you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name.
 - Click on the down arrow next to Service, choose the service you adjusted, for example, Psy, Medication Management or Adjunctive services. Click *Add*.
 - Finally, click on the down arrow next to Number, choose the number that represents the new value you used in your experiment.
-- Click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.   
+- Click *Save* (not Save & Reset, just Save). The date will automatically be added to the name of the saved experiment.  
 
     Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:40-00:50 | **Describe** findings/decisions and save | **4. Practice describing outputs (system behaviors) you're going to check and discuss as a team in relation to the team's highest priority need.**
 
-### 10.	Compare Experiments to see the difference the between base case and the current experimental run
+### 10. Compare Experiments to see the difference the between base case and the current experimental run
 
 - Navigate to the Results Dashboard. It is here you can choose up to two prior experiments' results to compare with the current run. Select your base case run.  
 - There are six charts in the dashboard at a time. To see the default set of charts for a specific service, cohort, or setting, go to the main model diagram Experiment Timeline box and under "Display Patient Services" click on the service, cohort, or setting for the specific charts you want to review.  First, let's look at \_______ chart, in the \_________ section of the screen, as it answers our question \_________ .
-- To see charts of other variables, click on the down arrows under any chart to bring up a list of all variables. 
-- Examine the differences between the base case and the current experimental run. How do these results compare against your hypothesis? 
+- To see charts of other variables, click on the down arrows under any chart to bring up a list of all variables.
+- Examine the differences between the base case and the current experimental run. How do these results compare against your hypothesis?
 - As you describe the findings, record what you observe and learn in the *Our Findings* text box:  
 
   \___Example of chart review for SP:\___  
@@ -171,18 +171,18 @@ Time Stamp | Prioritize tailored team learning | Script
 - Thus, low symptom patients build up in our clinics. Also, PC is taking more patients than they can handle, so their quality declines, and GMH gets more patients stepping up from PC --> demand for GMH goes up!  Something that we think is outside of our control is actually a result of our own decision.  
 
     [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Example Findings:** *Describe your team's findings, insights and conclusions from this experiment.*  
- 
- - **CC** - Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.  
 
- - **MM** - We found that if we allocate 50% of our x-waiver provider appointments to OUD, in the long run instead of only starting ½ patient per week (1 every other week), we can start 3 patients in OUD per week. But dropping the appointment supply for our *Other* patients meant we could not start any of them in care for a while until some existing patients completed and moved on. A backlog built up, which caused referrals to slow. When we were eventually able to start *Other* patients, the backlog dropped so referrals picked up again, and we established a new steady state with about 15 *Other* diagnosis patients waiting to start and about 170 in care.  
+ - **CC** \- Increasing the supply of Appointment Supply for New CC Patients does increase the new CC patient weekly Starting Rate, which reduces new CC patients Waiting to Start.  
 
-- **PSY** - We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!)  
+ - **MM** \- We found that if we allocate 50% of our x-waiver provider appointments to OUD, in the long run instead of only starting ½ patient per week (1 every other week), we can start 3 patients in OUD per week. But dropping the appointment supply for our *Other* patients meant we could not start any of them in care for a while until some existing patients completed and moved on. A backlog built up, which caused referrals to slow. When we were eventually able to start *Other* patients, the backlog dropped so referrals picked up again, and we established a new steady state with about 15 *Other* diagnosis patients waiting to start and about 170 in care.  
 
-- **AGG** - Our hypothesis was supported! We see that implementing a much shorter RVI for PSY patients show a steady reduction in the number of PSY patients in service, from more than 300 in our bc to less than a 100 after two years. Booking rates for PSY climb initially, but then drop off and level out just a bit higher than baseline! One concern is that MM patients in service also drops from about 1000 to 900.  
+- **PSY** \- We found that the total number of patients served by the team increased from N=371 to N=460. Of the 460, n=358 were Initiators and n=132 were Completers. Among Completers, n=99 graduated and were done (75%, as we expected). Regarding the starting rate for new patients, it increased from about 3.8 pts/wk to about 4.8 pts/wk. our hypotheses was supported. This dramatically increases the number of patients in PSY who are receiving an evidence base dose of therapy and supports the team in taking on more new patients, about one more new pt/wk (or 4 new ones per month, or 48 new ones annually!).  
 
- - **SP** – As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, the number of patients waiting to step down to PC hs increased substantially – from about 110 to 170, who are all undoubtedly waiting significantly longer than before.
+- **AGG** \- Our hypothesis was supported! We see that implementing a much shorter RVI for PSY patients show a steady reduction in the number of PSY patients in service, from more than 300 in our bc to less than a 100 after two years. Booking rates for PSY climb initially, but then drop off and level out just a bit higher than baseline! One concern is that MM patients in service also drops from about 1000 to 900.  
 
-### 11.	Discuss and record what changes you may want to make in the clinic and what further experiments you want to run
+ - **SP** \– As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, the number of patients waiting to step down to PC hs increased substantially – from about 110 to 170, who are all undoubtedly waiting significantly longer than before.
+
+### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run
 
 - Based on what you saw here, and what further experiments you want to run in the Sim.
 - Type those into the *Our Decision* text box.  
@@ -204,8 +204,8 @@ In an interconnected system, with causal interdependencies over time, simulation
 ### 12. Save and Reset when ready
 
 - Log out of the SIM UI.
- 
-### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
+
+### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review
 
 ## Done and Do (15 minutes)
 
