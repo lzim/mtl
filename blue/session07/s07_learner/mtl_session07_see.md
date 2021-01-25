@@ -47,6 +47,7 @@ output:
 ## Running a Base Case
 
 1. Log in to your team world at mtl.how/sim.  
+
     [![sim ui 1 screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#.)
   **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  
 
@@ -59,7 +60,7 @@ output:
     [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.*  
 
     [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
- 
+
 4. Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.  
 
     [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_bc_qh.gif)](#.)  
