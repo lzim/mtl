@@ -130,7 +130,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Why is this happening? Even though the effect on flow between the two settings was the same (i.e., implementing stepped care reduced the Time to Recommend in both settings by 50%), the size of the two settings is not. [MINIMIZE THE EXPANDED OUTPUTS, OPEN EXPERIMENTS, CLICK ON BASE CASE VALUE FOR "PC/PCMHI Manageable Total Patients"] We know that GMH can maintain over 500 patients in treatment, but Primary Care can only maintain about 300 mental health patients. Implementing Stepped Care between these two settings with a substantial size difference means more patients trying to flow from General to Primary Care than from Primary Care to General. Even though both settings are trying to step more patients out to a more appropriate level of care, the increase in openings in Primary Care is not enough to accommodate the increase in demand from General to step patients down into Primary Care. Thus, the resulting average wait time to step down from GMH to PC practically doubles over the next two years.  
 
     \[CLICK BACK TO GMH EXPANDED OUTPUTS TO FINISH TYPING TEXT\]
- 
+
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
 ### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run
