@@ -48,26 +48,42 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Running a Base Case
 
-1. Log in to your team world at mtl.how/sim.  
+1. Log in to your team world at mtl.how/sim. 
+
   [![sim ui 1 screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#.)
   **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**
+  
 2. *Join Current Session* to pick up where the team left off.  
 3. Orient yourself to the main page: Team Name (when you're in your individual world, the team name is your name); selected module (CC, MM, PSY, AGG, or SP); selected data file. All slider settings in the Experiments section are at Base Case or default values.  
+
   [![sim ui sections screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true)](#.)  
   **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  
+  
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.*  
+  
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
+  
 4. Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.  
+
   [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_bc_qh.gif)](#.)  
   **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  
+  
 5. Run; then Save (without resetting) the run with the name Base Case.  
+
 6. Review the Current Experiment Values in the Control Panel: You should see all variables at Base Case or default values.  
+
 7. Orient yourself to the charts in the Results Dashboard (axes, units, legend, drop-down menu options).  
+
 8. Describe what you see in the Our Findings box. What do you notice about the results? Do they match your hypothesis? Compare the values in the charts with the Team Data Table numbers.  
+
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
+  
 9. Record your Findings - what you learned from the Results compared to your Hypothesis.  
+
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
+  
 10. In Our Decisions, record what these findings suggest doing differently in your team. Also write down what the team decided to investigate next.  
+
 11. Save and Reset when ready. Notice that the sim UI automatically adds the date to the name of the run for you. Remember to log off before you exit the browser window.  
 
 ## Done and Do (15 minutes)
