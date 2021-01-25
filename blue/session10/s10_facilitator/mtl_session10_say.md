@@ -69,7 +69,7 @@ Time | **Short and long term.**  Better understanding of change over time (e.g.,
 
 ### 5. Open the Outputs and Text section and select another earlier experiment to compare to the one you have just pulled up
 
-- Select the two previous experiments, basecase from Session 7 and experiment 1 from Session 8, to compare.
+- Select the two previous experiments, base case from Session 7 and experiment 1 from Session 8, to compare.
 
 ### 6. Note the variables that were manipulated in the two experiments
 
@@ -101,7 +101,7 @@ Time | **Short and long term.**  Better understanding of change over time (e.g.,
 - In the Results Dashboard, review how causal feedback explains why the decisions in experiment 3 combine to produce the relative differences in specific variables and values over time. Enter your Findings about causal relationships that explain the differences in short- and long-term trends between the base case, experiment 1, experiment 2, and experiment 3. Document decisions the team will consider implementing in the clinic.
 - _Model systems thinking for the team by highlighting the C.F.B.T. systems thinking concepts that are included in the q/h/f/d text boxes._
 - _Note the **dominant causal feedback that produces the system behaviors,** and note the **highest leverage (high yield) decisions** that are most **clinically feasible** for the team to implement in their care._
- 
+
 ## That's it for _Modeling to Learn_ how to use systems thinking. Next is our Done/Do review
 
 ## Done and Do (15 minutes)
