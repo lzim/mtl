@@ -31,7 +31,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 | --- | --- |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu (behind VA firewall) to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results (behind VA firewall) to prioritize our team needs and select an _MTL_ module. |
 
-**By the end of this session you will be able to:**
+**After this session you will be able to:**
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style = "display: inline-block"/>](#DontClick)  
