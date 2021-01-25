@@ -9,6 +9,6 @@
 
 **s10_learner:**
 
-- earner SEE Guide - Learning objectives and exercises for session 10 
+- Learner SEE Guide - Learning objectives and exercises for session 10
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
   - Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
