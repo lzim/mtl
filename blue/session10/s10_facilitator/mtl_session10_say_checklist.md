@@ -15,7 +15,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">
 
-# [MTL Live Session 10](https://github.com/lzim/mtl/blob/master/session10/s10_learner/mtl_session10_see.md "MTL Live Session 10")
+# [MTL Live Session 10](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md "MTL Live Session 10")
 
 # Today we're modeling to learn how to use systems thinking.
 
@@ -26,7 +26,6 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:00-00:05**
 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "45" width = "45"> **Done** We ran a third experiment in our individual world.
-
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do** We will run exp 3 and discuss the bc, exp 1, exp 2 and exp 3 using Complex, Feedback, Behavior, Time (CFBT) systems thinking skills. |
 
 ## Emphasize team priority with the learning objectives on the screen
@@ -111,6 +110,5 @@ _The advantage of starting **session 10** at the end of the Experiment 2 run in 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**
 
-- [ ] Done: We ran exp 3 and discussed the results using **C.F.B.T. systems thinking skills.**
-
+- [ ] Done: We ran exp 3 and discussed the results using **CFBT systems thinking skills.**
 - [ ] Do: Review and compare the bc, exp 1, exp 2 and exp 3 and think about possible new decisions team could make in their daily clinical care.
