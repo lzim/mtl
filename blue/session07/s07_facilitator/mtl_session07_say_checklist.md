@@ -50,7 +50,7 @@ output:
 
 - [ ] Join current session to pick up where the team left off in Session 06.
 - [ ] Orient to main page: Team name, module, and selected data file.
-- [ ] Pull up the team's **Session 06 question and dynamic hypothesis** about the basecase.
+- [ ] Pull up the team's **Session 06 question and dynamic hypothesis** about the base case.
 
 ## Use session 6 complexity reveal (feedback loop) to explain the likely
 
@@ -77,7 +77,7 @@ output:
 - [ ] Look at the results with the **team specific to the team's question and hypothesis** for the BC run.
 - [ ] What does the team notice about the results for **variables related to their highest priority need**?
 - [ ] Describe team **System Behavior** findings in the *Our Findings* textbox.
-- [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority.
+- [ ] How **Base case System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority.
 - [ ] **Decisions:** Based on what the team learned in this base case experiment, what **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
 ## Have Team Lead pull up the session 06 SEE guide Done/Do review
