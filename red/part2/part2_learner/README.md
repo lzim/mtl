@@ -9,6 +9,6 @@
 
 **part2_learner:**
 
-- Learner SEE Guide - Learning objectives and exercises for part 2 
+- Learner SEE Guide - Learning objectives and exercises for part 2
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
   - Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data (with Gifs) (.md)
