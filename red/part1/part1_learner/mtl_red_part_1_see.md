@@ -49,7 +49,7 @@ output:
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
 
-[![data ui splashpage screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
+[![data ui splash page screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
 
 - Click through the tabs on the bottom of the Excel spreadsheet. What options are there and what do they mean? Hints:
   - Data: Sortable report of data
