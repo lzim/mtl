@@ -1,5 +1,5 @@
 ---
-title: "MTL Session 12 - Faciliator Say Checklist"
+title: "MTL Session 12 - Facilitator Say Checklist"
 author: "Team PSD"
 date: "October 16, 2019 Edited by LZ"
 output: 
