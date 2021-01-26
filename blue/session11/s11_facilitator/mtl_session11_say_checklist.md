@@ -1,7 +1,7 @@
 ---
-title: "MTL Session 11 - Faciliator Say"
+title: "MTL Session 11 - Facilitator Say"
 author: "Team PSD"
-date: "October 16, 2019 Edited by LZ ed Mar 2020 JB"
+date: "October 16, 2019 Edited by LZ ed Mar 2020 JF"
 output: 
   github_document: default
   html_document: default
@@ -35,13 +35,13 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">
 
-**Learning Objectives for Session 11**
+## Learning Objectives for Session 11
 
-1.	Describe what your team has prioritized as decisions to implement in your clinic.
-2.	Test your team’s plan against your individual and shared, team vision.
-3.	Apply your team’s plan in clinical decisions using C.F.B.T. systems thinking.
+1. Describe what your team has prioritized as decisions to implement in your clinic.
+2. Test your team’s plan against your individual and shared, team vision.
+3. Apply your team’s plan in clinical decisions using C.F.B.T. systems thinking.
 
-## Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been _Modeling to Learn_ how to use systems thinking when making care decisions in our team.
+## Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been _Modeling to Learn_ how to use systems thinking when making care decisions in our team  
 
 _Prepare your script to model and reflect team decisions using C.F.B.T. systems thinking_
 
