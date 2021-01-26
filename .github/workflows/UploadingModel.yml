@@ -32,7 +32,22 @@ jobs:
       - uses: actions/checkout@v2
         with:
          fetch-depth: "0"
-
+     
+      #- name: Pushes test file
+        #uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+        #env:
+          #API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        #with:
+          #source_file: 'datad/*.vmfx'
+          #destination_repo: 'hirenp-waferwire/Demo'
+          #destination_branch: 'Dev'
+          #destination_folder: 'modelData'
+          #user_email: 'hirenp@waferwire.com'
+          #user_name: 'hirenp-waferwire'
+          #commit_message: 'Model Upload'
+      
+      
+      
       - id: changedFiles
         uses: jitterbit/get-changed-files@v1
       
@@ -50,9 +65,19 @@ jobs:
           chmod +x .github/workflows/changedFilesFilter.sh
           echo "::set-output name=fileName::$(.github/workflows/changedFilesFilter.sh "${{ steps.changedFiles.outputs.added_modified }}")"
 
+      - name: Uploading Model to another Repository (sim_ui)
+        run: |
+          chmod +x .github/workflows/UploadingModelUtility.sh
+          awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
+          mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
+          chmod +x .github/workflows/UploadingModelUtility.sh 
+          .github/workflows/UploadingModelUtility.sh "blue/mtl2.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.extract_branch.outputs.branch }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+        
       - name: File Name List
         run: |
          echo ${{ steps.getFileName.outputs.fileName }}
+         
+      
          
   UploadModel:
     # The type of runner that the job will run on
@@ -99,34 +124,14 @@ jobs:
         git add -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git commit -m'SMD Doc Commit' -- ${{ steps.getSDMDocFile.outputs.SDMDocFile }} 
         git push
-      
-       
-    - name: Generating Vensim input file
-      if: always()  
-      run: |
-        echo "SPECIAL>NOINTERACTION" > .github/workflows/DevUtility/vensimInput.cmd 
-        .github/workflows/DevUtility/makeVensimInputFile.bat "${{ needs.getFileNameList.outputs.outputFileName }}" ".github/workflows/DevUtility/vensimInput.cmd" "${{ github.workspace }}\"
-        echo "MENU>EXIT" >> .github/workflows/DevUtility/vensimInput.cmd
-   
-     
-    - name: Convert .mdl to .VFM and .mdl to .xmile
-      if: always()  
-      run: .github\workflows\DevUtility\VensimUtility\vensim ".github\workflows\DevUtility\vensimInput.cmd"
-    
-    - name: Commit XMile File
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
-        git commit -m'Model Xmile Commit' -- ${{ steps.getModelXmileFile.outputs.ModelXmileFile }}
-        git push
-   
-    - name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
-      if: always()   
-      run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
+ 
+    #- name: Run a Deploy script # echo ${GITHUB_REF##*/} this is code for getting dynamic branch name
+    #  if: always()   
+    #  run: '.github\workflows\DevUtility\DeployFilesUtility\deploy "${{ secrets.TEMPDATA }}" "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ needs.getFileNameList.outputs.outputBranchName }}"'
     
     
     #- name: Run a one-line script
      # run: | 
       #  git status
-      #  type  .github/workflows/DevUtility/vensimInput.cmd
+      #  type  .github/workflows/DevUtility/vensimInput.cmd    
+   

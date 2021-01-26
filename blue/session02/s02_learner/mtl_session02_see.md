@@ -33,7 +33,7 @@ output:
 
 1. Describe the decisions your team made in producing your team data table.
 
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
