@@ -43,7 +43,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been _Modeling to Learn_ how to use systems thinking when making care decisions in our team  
 
-_Prepare your script to model and reflect team decisions using CFBT systems thinking_  
+- _Prepare your script to model and reflect team decisions using CFBT systems thinking_  
 
 Systems Thinking | Definition  
 -- | --  
