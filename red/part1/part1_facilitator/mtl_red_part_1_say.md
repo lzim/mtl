@@ -18,9 +18,9 @@ output:
 
 # MTL Red Part 1
 
-Hello! I'm __________ and I'm __________.
+Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
-## Today we're modeling to learn from patient data and team trends.
+## Today we're modeling to learn from patient data and team trends
 
 ## Done and Do (15 minutes)
 
@@ -28,13 +28,13 @@ Hello! I'm __________ and I'm __________.
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the facility data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data.|
- 
+
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 ## Learning Objectives
 
-### After this session, you will be able to:
+### After this session, you will be able to
 
 1. Describe the criteria determined to build your team in the MTL Data User Interface.
 2. Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
@@ -86,17 +86,17 @@ ___ | Enc| Encounter or visits types, such as medication management, psychothera
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
-### To sum up, there are three ways to view each set of data 
+### To sum up, there are three ways to view each set of data
 
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
-2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas 
-3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas. 
-     
+2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas
+3. **Drill down patient-level data:** dataDiag, dataHF, and dataMeas.
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
 
-**All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.** 
+**All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
-1. Last meeting ________________________ [team members' names] mentioned concerns with **__________________________ [themes from session 1 team vision].**  
+1. Last meeting \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[team members' names\] mentioned concerns with **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[themes from session 1 team vision\].**  
 
     Time Stamp | Team Learning Priorities | Script for Session 2
     -- | -- | --
@@ -111,7 +111,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     ___ | *vizDiag* | See trends in what types of diagnoses the facility/team is spending their time on (data are based on the primary diagnosis of each encounter, not the problem list for each patient.)*
     ___ | *vizEnc* | See trends in what services the facility/team is spending their time providing.*
     ___ | *vizHF* | See trends in what specifics the facility/team's patients are getting in their encounters (in vis, this is a very long list.)
-    ___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?* 
+    ___ | *vizMeas* | See trends in what standard measures the facility is using on their patients.  Are they screening more for alcohol use disorder or depression or PTSD?*
     ___ |*dataDiag* | can be sorted by primary diagnosis type based on ICD-10 code to see more detail on what happens in any one diagnosis type*
     ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
     ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
@@ -119,6 +119,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
+
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.  
 
 - Click on the 3 dots [...] next to the data_ui file.  
@@ -164,7 +165,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.  
 
-- The viz tabs will also always return to default selections everytime the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.  
+- The viz tabs will also always return to default selections every time the team clicks on "Get Patient-level Data" to refresh data in their data\_ui file.  
 
 - Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together.  
 
@@ -172,7 +173,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.  
 
-- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combintations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.  
+- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.  
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***  
 
@@ -200,11 +201,11 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
     \[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]  
 
-    Time Stamp | Team Learning Priorities | Script 
+    Time Stamp | Team Learning Priorities | Script
     -- | -- | --
     **[Prioritize which questions you will use given this team's guiding vision.** |  |  |   
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-    Keep an eye on time |  |  |  
+    Keep an eye on time |  |  |
 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
 
