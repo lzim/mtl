@@ -1,5 +1,5 @@
 ---
-title: "MTL Session 11 - Faciliator Say"
+title: "MTL Session 11 - Facilitator Say"
 author: "Team PSD"
 date: "March 2020 "
 release: "MTL 2.0"
@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
-     height = "175" width = "420">](#DontLlink) 
+     height = "175" width = "420">](#DontLink)
 
 # MTL Live Session 11
 
@@ -22,7 +22,7 @@ output:
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
-**As you can see in the Done/Do table in the Learner See Guide:** 
+**As you can see in the Done/Do table in the Learner See Guide:**
 
 ## Done and Do (15 minutes)
 
@@ -72,7 +72,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 8. What data will we watch to see how we're doing?
 
-## That's it for _Modeling to Learn_ how to make _future team decisions_. Next is our Done/Do review.
+## That's it for _Modeling to Learn_ how to make _future team decisions_. Next is our Done/Do review
 
 ## Done and Do (15 minutes)
 
