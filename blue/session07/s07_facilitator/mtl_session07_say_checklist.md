@@ -15,7 +15,7 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">
 
-# [MTL Live Session 07](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session06_see.Rmd "MTL Live Session 06")
+# [MTL Live Session 07](https://github.com/lzim/mtl/blob/master/blue/session07/s07_learner/mtl_session07_see.md "MTL Live Session 07")
 
 ## Today we're modeling to learn how to evaluate our Base Case of no new decisions
 
