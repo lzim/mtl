@@ -14,7 +14,7 @@ output:
 ---
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
-     height = "175" width = "420">](#DontLlink) 
+     height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
@@ -36,27 +36,27 @@ output:
 
 1. Describe what your team has prioritized as decisions to implement in your clinic.
 2. Test your team's plan against your individual and shared team vision.
-3. Apply your team's plan in clinical decisions using C.F.B.T. systems thinking. 
+3. Apply your team's plan in clinical decisions using C.F.B.T. systems thinking.
 
 ## In-session Exercise (30 minutes)
 
 ### Connect learning and decisions from experiments to original team vision, question, and need
 
-1.  What shared vision did the team decide on in session 1?  
+1. What shared vision did the team decide on in session 1?  
 
-2.  What team need and questions did we identify?  
+2. What team need and questions did we identify?  
 
-3.  What hypotheses did we test?  
+3. What hypotheses did we test?  
 
-4.  What insights will we keep in mind as we make clinic decisions?  
+4. What insights will we keep in mind as we make clinic decisions?  
 
-5.  What new approaches or targets do we want to focus on?  
+5. What new approaches or targets do we want to focus on?  
 
-6.  What concrete actions can the team take in the real world?  
+6. What concrete actions can the team take in the real world?  
 
-7.  How do these decisions align with the team's shared vision, question and needs?  
+7. How do these decisions align with the team's shared vision, question and needs?  
 
-8.  What data will we watch to see how we're doing?  
+8. What data will we watch to see how we're doing?  
 
 ## Done and Do (15 minutes)
 
