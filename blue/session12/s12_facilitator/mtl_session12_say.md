@@ -18,7 +18,7 @@ height = "175" width = "420">](#DontLink)
 
 # MTL Live Session 12
 
-## Today we're modeling to learn how to turn team learning into a team plan.
+## Today we're modeling to learn how to turn team learning into a team plan
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
@@ -27,7 +27,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| We discussed the **new practice decisions** we are prioritizing across our team. | Reflect on our _MTL_ **participatory learning** and finalize our team plan for next steps. | 
+| We discussed the **new practice decisions** we are prioritizing across our team. | Reflect on our _MTL_ **participatory learning** and finalize our team plan for next steps. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
@@ -52,7 +52,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - _MTL Co-Facilitators_ prepare concise review of **causal system story of team problem** ____________________  
 
-- _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________    
+- _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________
 
 ### 4. What *MTL* resources will the team use or revisit in the future?
 
@@ -64,11 +64,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 6. Celebrate completion of *Modeling to Learn*!
 
-# MTL RESOURCES
+## MTL RESOURCES
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)
 
-- You will continue to have access to the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.   
+- You will continue to have access to the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.
 
 - In Care Coordination (CC), you can compare multiple experiments and look at things like how Overwork Affects No-Shows and how you Balance New and Existing Patients.  
 
@@ -79,10 +79,10 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - In the Aggregate (AGG) module, you can test hypotheses about your overall mix of services. The unique feature here is that in Outputs, you can choose to compare either different experiments (as you can in all the modules), or you can compare the effects of a given experiment across the different services.  
 
 - The Measurement Based Stepped Care and Suicide Prevention(SP) module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.  
-       
+
 - Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.  
 
--  Finally, you can join the *Modeling to Learn* listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.  
+- Finally, you can join the *Modeling to Learn* Listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
 
 ### Now let's make a plan for how the team will keep modeling to learn going forward
 
@@ -96,7 +96,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **It's great if you make a concrete action plan, identify a point person, and call on us as needed.**
 
-### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review 
+### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review
 
 ## Done and Do (15 minutes)
 
