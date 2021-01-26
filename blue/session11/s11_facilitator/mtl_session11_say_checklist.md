@@ -43,16 +43,16 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Facilitator prepare team-tailored C.F.B.T. rationale for the session 11 discussion: We've been _Modeling to Learn_ how to use systems thinking when making care decisions in our team  
 
-_Prepare your script to model and reflect team decisions using C.F.B.T. systems thinking_
+_Prepare your script to model and reflect team decisions using CFBT systems thinking_  
 
-Systems Thinking | Definition
--- | --
-**Complex** _________________ [team example(s)]| **Forest   not trees.**    Relationships among two or more **units** (patients, weeks), **variables** (_stocks_: patients waiting to start, _flows_: improvement rate), or two or more **settings** (primary care, general mental health).
-**Feedback** _________________ [team example(s)]| **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (**reinforcing**)   or reduced (**balancing**) around the loop.
-**System Behavior** _________________ [team example(s)]| **Movie   not snapshot.**    Trends over time.    Systems _cause_ their own behavior through feedback.
-**Time** _________________ [team example(s)]| **Short   and   long term.**      Better understanding of change over time   (e.g., worse before better, better before worse, better before a lot better, worse before a lot worse).
+Systems Thinking | Definition  
+-- | --  
+**Complex** _________________ [team example(s)]| **Forest   not trees.**    Relationships among two or more **units** (patients, weeks), **variables** (_stocks_: patients waiting to start, _flows_: improvement rate), or two or more **settings** (primary care, general mental health).  
+**Feedback** _________________ [team example(s)]| **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (**reinforcing**)   or reduced (**balancing**) around the loop.  
+**System Behavior** _________________ [team example(s)]| **Movie   not snapshot.**    Trends over time.    Systems _cause_ their own behavior through feedback.  
+**Time** _________________ [team example(s)]| **Short   and   long term.**      Better understanding of change over time   (e.g., worse before better, better before worse, better before a lot better, worse before a lot worse).  
 
- <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:20**
+ <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:20**  
 
 - [ ] 1. We've made lots of **team decisions,** including selecting ______________ as team lead.  
 
