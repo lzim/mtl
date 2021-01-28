@@ -95,10 +95,10 @@
 					Initial_GMH_Low_Symptom_Patients
 					</eqn>
 					<inflow>
-					EQ Improvement in GMH Rate
+					EQ Detect Low Sympt Pt in GMH Rate
 					</inflow>
 					<inflow>
-					EQ Detect Low Sympt Pt in GMH Rate
+					EQ Improvement in GMH Rate
 					</inflow>
 					<outflow>
 					EQ Leave GMH Rate
@@ -123,10 +123,10 @@
 					EQ Transfer into PCMHI Rate
 					</inflow>
 					<outflow>
-					EQ Detect Low Sympt Pt in PCMHI Rate
+					EQ Detect High Sympt Pts in PCMHI Rate
 					</outflow>
 					<outflow>
-					EQ Detect High Sympt Pts in PCMHI Rate
+					EQ Detect Low Sympt Pt in PCMHI Rate
 					</outflow>
 			</stock>
 			<stock name="EQ_PC/PCMHI_High_Risk_Flag_Patients">
@@ -183,10 +183,10 @@
 					"Initial_PC/PCMHI_Low_Symptom_Patients"
 					</eqn>
 					<inflow>
-					EQ Improvement in PCMHI Rate
+					EQ Detect Low Sympt Pt in PCMHI Rate
 					</inflow>
 					<inflow>
-					EQ Detect Low Sympt Pt in PCMHI Rate
+					EQ Improvement in PCMHI Rate
 					</inflow>
 					<outflow>
 					EQ Leave PCMHI Rate
@@ -199,19 +199,19 @@
 					Initial_SMH_Early_in_Care_Patients
 					</eqn>
 					<inflow>
-					EQ Transfer into SMH from PCMHI Rate
+					EQ Refer to SMH from GMH Rate
 					</inflow>
 					<inflow>
-					EQ Refer to SMH from GMH Rate
+					EQ Transfer into SMH from PCMHI Rate
 					</inflow>
 					<inflow>
 					EQ Transfer into SMH Rate
 					</inflow>
 					<outflow>
-					EQ Detect Low Sympt Pt in SMH Rate
+					EQ Detect High Sympt Pts in SMH Rate
 					</outflow>
 					<outflow>
-					EQ Detect High Sympt Pts in SMH Rate
+					EQ Detect Low Sympt Pt in SMH Rate
 					</outflow>
 			</stock>
 			<stock name="EQ_SMH_High_Risk_Flag_Patients">
@@ -240,10 +240,10 @@
 					Initial_SMH_High_Symptom_Patients
 					</eqn>
 					<inflow>
-					EQ HR Unflag Rate in SMH
+					EQ Detect High Sympt Pts in SMH Rate
 					</inflow>
 					<inflow>
-					EQ Detect High Sympt Pts in SMH Rate
+					EQ HR Unflag Rate in SMH
 					</inflow>
 					<outflow>
 					EQ HR Flag Rate in SMH
@@ -262,10 +262,10 @@
 					Initial_SMH_Low_Symptom_Patients
 					</eqn>
 					<inflow>
-					EQ Improvement in SMH Rate
+					EQ Detect Low Sympt Pt in SMH Rate
 					</inflow>
 					<inflow>
-					EQ Detect Low Sympt Pt in SMH Rate
+					EQ Improvement in SMH Rate
 					</inflow>
 					<outflow>
 					EQ Leave SMH Rate
@@ -300,13 +300,13 @@
 					Initial_GMH_High_Risk_Flag_Patients
 					</eqn>
 					<inflow>
-					SMH to GMH High Risk Flag Step Down Rate
+					GMH High Risk Patient Flag Rate
 					</inflow>
 					<inflow>
 					"PC/PCMHI to GMH High Risk Flag Step Up Rate"
 					</inflow>
 					<inflow>
-					GMH High Risk Patient Flag Rate
+					SMH to GMH High Risk Flag Step Down Rate
 					</inflow>
 					<outflow>
 					GMH High Risk Flag Patient to Residential Rate
@@ -334,10 +334,10 @@
 					GMH High Symptom Patients Community Care Rate
 					</outflow>
 					<outflow>
-					GMH Improvement Rate
+					GMH High Symptom to Residential Rate
 					</outflow>
 					<outflow>
-					GMH High Symptom to Residential Rate
+					GMH Improvement Rate
 					</outflow>
 					<outflow>
 					GMH to SMH Recommend Step up Rate
@@ -375,7 +375,7 @@
 					GMH New Patient Recommend Rate
 					</inflow>
 					<outflow>
-					GMH New Patient Start Rate
+					GMH New Episode of Care Start Rate
 					</outflow>
 			</stock>
 			<stock name="GMH_Patients_Early_in_Care">
@@ -385,6 +385,9 @@
 					Initial_GMH_Early_in_Care_Patients
 					</eqn>
 					<inflow>
+					GMH New Episode of Care Start Rate
+					</inflow>
+					<inflow>
 					GMH Step down from Inpatient Rate
 					</inflow>
 					<inflow>
@@ -392,9 +395,6 @@
 					</inflow>
 					<inflow>
 					SMH to GMH Step Down Rate2
-					</inflow>
-					<inflow>
-					GMH New Patient Start Rate
 					</inflow>
 					<outflow>
 					GMH High Symptom Patient Detection Rate
@@ -552,13 +552,13 @@
 					"PC/PCMHI High Symptom Patients Community Care Rate"
 					</outflow>
 					<outflow>
+					"PC/PCMHI High Symptom to Residential Rate"
+					</outflow>
+					<outflow>
 					"PC/PCMHI Improvement Rate"
 					</outflow>
 					<outflow>
 					"PC/PCMHI to GMH Recommend Step Up Rate"
-					</outflow>
-					<outflow>
-					"PC/PCMHI High Symptom to Residential Rate"
 					</outflow>
 					<outflow>
 					"PC/PCMHI to SMH Recommend Step Up Rate"
@@ -593,7 +593,7 @@
 					"PC/PCMHI New Patient Recommend Rate"
 					</inflow>
 					<outflow>
-					"PC/PCMHI New Patient Start Rate"
+					"PC/PCMHI New Episode of Care Start Rate"
 					</outflow>
 			</stock>
 			<stock name="PC/PCMHI_Patients_Early_in_Care">
@@ -606,7 +606,7 @@
 					"GMH to PC/PCMHI Step Down Rate"
 					</inflow>
 					<inflow>
-					"PC/PCMHI New Patient Start Rate"
+					"PC/PCMHI New Episode of Care Start Rate"
 					</inflow>
 					<inflow>
 					"PC/PCMHI Step down from Inpatient Rate"
@@ -628,10 +628,10 @@
 					0
 					</eqn>
 					<inflow>
-					"PC/PCMHI Low Symptom Patients Community Care Rate"
+					"PC/PCMHI High Symptom Patients Community Care Rate"
 					</inflow>
 					<inflow>
-					"PC/PCMHI High Symptom Patients Community Care Rate"
+					"PC/PCMHI Low Symptom Patients Community Care Rate"
 					</inflow>
 			</stock>
 			<stock name="PC/PCMHI_Pts_from_Inpt">
@@ -755,13 +755,13 @@
 					SMH High Risk Patient Flag Rate
 					</inflow>
 					<outflow>
-					SMH to GMH High Risk Flag Step Down Rate
+					SMH High Risk Flag Patient to Residential Rate
 					</outflow>
 					<outflow>
 					SMH High Risk Patient Unflag Rate
 					</outflow>
 					<outflow>
-					SMH High Risk Flag Patient to Residential Rate
+					SMH to GMH High Risk Flag Step Down Rate
 					</outflow>
 			</stock>
 			<stock name="SMH_High_Symptom_Patients">
@@ -783,10 +783,10 @@
 					SMH High Symptom Patients Community Care Rate
 					</outflow>
 					<outflow>
-					SMH Improvement Rate
+					SMH High Symptom to Residential Rate
 					</outflow>
 					<outflow>
-					SMH High Symptom to Residential Rate
+					SMH Improvement Rate
 					</outflow>
 			</stock>
 			<stock name="SMH_Low_Symptom_Patients">
@@ -824,7 +824,7 @@
 					SMH New Patient Recommend Rate
 					</inflow>
 					<outflow>
-					SMH New Patient Start Rate
+					SMH New Episode of Care Start Rate
 					</outflow>
 			</stock>
 			<stock name="SMH_Patients_Early_in_Care">
@@ -840,7 +840,7 @@
 					"PC/PCMHI to SMH Step up Rate"
 					</inflow>
 					<inflow>
-					SMH New Patient Start Rate
+					SMH New Episode of Care Start Rate
 					</inflow>
 					<inflow>
 					SMH Step down from Inpatient Rate
@@ -1366,17 +1366,17 @@
 			</aux>
 			<aux name="EQ_HR_Flag_Rate_in_GMH">
 				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 33255033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 30354033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>EQ_GMH_High_Symptom_Patients*"EQ_Initial_GMH_High_Risk_Patient_Flag_Rate_"					</eqn>
 			</aux>
 			<aux name="EQ_HR_Flag_Rate_in_PCMHI">
 				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 33255033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 30354033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>"EQ_PC/PCMHI_High_Symptom_Patients"*"EQ_Initial_PC/PCMHI_High_Risk_Patient_Flag_Rate_"					</eqn>
 			</aux>
 			<aux name="EQ_HR_Flag_Rate_in_SMH">
 				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 33255033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 30354033120f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>EQ_SMH_High_Symptpm_Patients*"EQ_Initial_SMH_High_Risk_Patient_Flag_Rate_"					</eqn>
 			</aux>
 			<aux name="EQ_HR_Flag_Transfer_from_PCMHI_to_GMH">
@@ -1797,7 +1797,7 @@
 			</aux>
 			<aux name="GMH_Effect_of_PC/PCMHI_Wait_Time_on_Recommend_Step_down_Rate">
 				<units>Dmnl</units>
-				<doc>As wait times to step down to PC/PCMHI increase (both for GMH patients who transfer and those who start in PC/PCMHI without leaving GMH), GMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect PC/PCMHI wait times have on GMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step down to PC/PCMHI increase (both for GMH patients who transfer and those who start in PC/PCMHI without leaving GMH), GMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect PC/PCMHI wait times have on GMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>MAX(SMOOTHI((XIDZ("GMH_to_PC/PCMHI_Wait_Time" , "GMH_to_PC/PCMHI_Desired_Wait_Time_to_Step_down" ,1)
 	)^IF_THEN_ELSE("GMH_to_PC/PCMHI_Wait_Time">0,User_GMH_Sensitivity_of_Step_Down_Decisions_to_Wait_Time,0)
 	,Time_for_Wait_Time_to_Stepped_Care_Referral_Decisions
@@ -1805,7 +1805,7 @@
 			</aux>
 			<aux name="GMH_Effect_of_SMH_Wait_Time_on_Recommend_Step_up_Rate">
 				<units>Dmnl</units>
-				<doc>As wait times to step up to SMH increase (both for GMH patients who transfer and those who start in SMH withouth leaving GMH), GMH providers will be less willing to recommend that their patients step up.  There is no limit to the detrimental effect SMH wait times have on GMH step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step up to SMH increase (both for GMH patients who transfer and those who start in SMH without leaving GMH), GMH providers will be less willing to recommend that their patients step up.  There is no limit to the detrimental effect SMH wait times have on GMH step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>MAX(SMOOTHI((XIDZ(GMH_to_SMH_Wait_Time , GMH_to_SMH_Desired_Wait_Time_to_Step_up ,1)
 	)^IF_THEN_ELSE(GMH_to_SMH_Wait_Time>0,User_GMH_Sensitivity_of_Step_Up_Decisions_to_Wait_Time,0)
 	,Time_for_Wait_Time_to_Stepped_Care_Referral_Decisions,1),0.5)					</eqn>
@@ -1922,21 +1922,21 @@
 				<doc></doc>
 					<eqn>(IF_THEN_ELSE(Time>0,User_GMH_Manageable_Total_Patients,0)+EQ_Initial_GMH_Manageable_Total_Patients)*GMH_Effect_of_Patient_Load_on_Manageable_Total_Patients_0					</eqn>
 			</aux>
+			<aux name="GMH_New_Episode_of_Care_Start_Rate">
+				<units>pts/wk</units>
+				<doc>This is the number of patients starting a new episode of care within GMH, and not coming from SMH or PC/PCMHI. (pts/wk)</doc>
+					<eqn>MIN(IF_THEN_ELSE(Time<0,GMH_New_Patient_Recommend_Rate,Total_Openings_in_GMH*"GMH_Openings_for_New_Patients_"),Max_Transfers_to_GMH)					</eqn>
+			</aux>
 			<aux name="GMH_New_Patient_Recommend_Rate">
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (User_GMH_Recommended_New_Episode_of_Care_Start_Rate>=0:AND:Time>0,User_GMH_Recommended_New_Episode_of_Care_Start_Rate,"Data_GMH_Start_Rate_(mean)_-_filtered"
 	)					</eqn>
 			</aux>
-			<aux name="GMH_New_Patient_Start_Rate">
-				<units>pts/wk</units>
-				<doc>This is the number of patients starting a new episode of care within GMH, and not coming from SMH or PC/PCMHI. (pts/wk)</doc>
-					<eqn>MIN(IF_THEN_ELSE(Time<0,GMH_New_Patient_Recommend_Rate,Total_Openings_in_GMH*"GMH_Openings_for_New_Patients_"),Max_Transfers_to_GMH)					</eqn>
-			</aux>
 			<aux name="GMH_New_Patient_Wait_Time_to_Start">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>ZIDZ(GMH_New_Patients_Waiting_to_Start , GMH_New_Patient_Start_Rate)					</eqn>
+					<eqn>ZIDZ(GMH_New_Patients_Waiting_to_Start , GMH_New_Episode_of_Care_Start_Rate)					</eqn>
 			</aux>
 			<aux name="GMH_Openings_for_New_Patients_">
 				<units>Dmnl</units>
@@ -2157,7 +2157,7 @@
 			<aux name="GMH_Total_New_Episode_of_Care_Start_Rate">
 				<units>pts/wk</units>
 				<doc>This is the total GMH New Episode of Care rate estimated by the model keeping track of the three sources of referrals to the team (GMH, SMH, PC/PCMHI). (pts/wk)</doc>
-					<eqn>SMH_to_GMH_Step_Down_Rate+"PC/PCMHI_to_GMH_Step_Up_Rate"+GMH_New_Patient_Start_Rate					</eqn>
+					<eqn>SMH_to_GMH_Step_Down_Rate+"PC/PCMHI_to_GMH_Step_Up_Rate"+GMH_New_Episode_of_Care_Start_Rate					</eqn>
 			</aux>
 			<aux name="GMH_Total_Patients">
 				<units>pts</units>
@@ -2377,7 +2377,7 @@
 			</aux>
 			<aux name="PC/PCMHI_Effect_of_SMH_Wait_Time_on_Recommend_Step_up_Rate">
 				<units>Dmnl</units>
-				<doc>As wait times to step up to SMH increase (both for PC/PCMHI patients who transfer and those who start in SMH withouth leaving PC/PCMHI), PC/PCMHI providers will be less willing to recommend that their patients step up.  There is no limit to the detrimental effect SMH wait times have on PC/PCMHI step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step up to SMH increase (both for PC/PCMHI patients who transfer and those who start in SMH without leaving PC/PCMHI), PC/PCMHI providers will be less willing to recommend that their patients step up.  There is no limit to the detrimental effect SMH wait times have on PC/PCMHI step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>MAX(
 	
 	SMOOTHI(
@@ -2687,21 +2687,21 @@
 				<doc></doc>
 					<eqn>(IF_THEN_ELSE(Time>0,"User_PC/PCMHI_Manageable_Total_Patients",0)+"EQ_Initial_PC/PCMHI_Manageable_Total_Patients")*"PC/PCMHI_Effect_of_Patient_Load_on_Manageable_Total_Patients_0"					</eqn>
 			</aux>
+			<aux name="PC/PCMHI_New_Episode_of_Care_Start_Rate">
+				<units>pts/wk</units>
+				<doc>This is the number of patients starting a new episode of care within PC/PCMHI, and not coming from SMH or GMH. (pts/wk)</doc>
+					<eqn>MIN(IF_THEN_ELSE (Time<0,"PC/PCMHI_New_Patient_Recommend_Rate",Total_Openings_in_PCMHI*"PC/PCMHI_Openings_for_New_Patients_"),"Max_Transfers_to_PC/PCMHI")					</eqn>
+			</aux>
 			<aux name="PC/PCMHI_New_Patient_Recommend_Rate">
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE ("User_PC/PCMHI_Recommend_New_Episode_of_Care_Start_Rate">=0:AND:Time>0,"User_PC/PCMHI_Recommend_New_Episode_of_Care_Start_Rate","Data_PC/PCMHI_Start_Rate_-_filtered"
 	)					</eqn>
 			</aux>
-			<aux name="PC/PCMHI_New_Patient_Start_Rate">
-				<units>pts/wk</units>
-				<doc>This is the number of patients starting a new episode of care within PC/PCMHI, and not coming from SMH or GMH. (pts/wk)</doc>
-					<eqn>MIN(IF_THEN_ELSE (Time<0,"PC/PCMHI_New_Patient_Recommend_Rate",Total_Openings_in_PCMHI*"PC/PCMHI_Openings_for_New_Patients_"),"Max_Transfers_to_PC/PCMHI")					</eqn>
-			</aux>
 			<aux name="PC/PCMHI_New_Patient_Wait_Time_to_Start">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>ZIDZ("PC/PCMHI_New_Patients_Waiting_to_Start" , "PC/PCMHI_New_Patient_Start_Rate")					</eqn>
+					<eqn>ZIDZ("PC/PCMHI_New_Patients_Waiting_to_Start" , "PC/PCMHI_New_Episode_of_Care_Start_Rate")					</eqn>
 			</aux>
 			<aux name="PC/PCMHI_Openings_for_GMH_">
 				<units>Dmnl</units>
@@ -2720,7 +2720,7 @@
 			</aux>
 			<aux name="PC/PCMHI_Patient_Load_Affects_New_Episode_of_Care_Start_Rate">
 				<units>Dmnl</units>
-				<doc>As wait times to step up to GMH increase (both for PC/PCMHI patients who transfer and those who start in GMH without leaving PC/PCMHI), PC/PCMHI providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect GMH wait times have on PC/PCMHI step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step up to GMH increase (both for PC/PCMHI patients who transfer and those who start in GMH without leaving PC/PCMHI), PC/PCMHI providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect GMH wait times have on PC/PCMHI step up recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step up recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>IF_THEN_ELSE(Time>0,SMOOTHI("PC/PCMHI_Patient_Load"^-"User_PC/PCMHI_Sensitivity_of_Start_Rate_to_Patient_Load",Time_for_Load_to_Affect_Start_Rate
 	,1), 1)					</eqn>
 			</aux>
@@ -2966,7 +2966,7 @@
 			<aux name="PC/PCMHI_Total_New_Episode_of_Care_Start_Rate">
 				<units>pts/wk</units>
 				<doc>This is the total PC/PCMHI New Episode of Care rate estimated by the model keeping track of the three sources of referrals to the team (GMH, SMH, PC/PCMHI). (pts/wk)</doc>
-					<eqn>"GMH_to_PC/PCMHI_Step_Down_Rate"+"SMH_to_PC/PCMHI_Step_Down_Rate"+"PC/PCMHI_New_Patient_Start_Rate"					</eqn>
+					<eqn>"GMH_to_PC/PCMHI_Step_Down_Rate"+"SMH_to_PC/PCMHI_Step_Down_Rate"+"PC/PCMHI_New_Episode_of_Care_Start_Rate"					</eqn>
 			</aux>
 			<aux name="PC/PCMHI_Total_Patients">
 				<units>pts</units>
@@ -3028,7 +3028,7 @@
 			</aux>
 			<aux name="SMH_Effect_of_Patient_Load_on_Ability_to_Detect_Symptom_Changes">
 				<units>Dmnl</units>
-				<doc>As wait times to step down to GMH increase (both for SMH patients who transfer and those who start in GMH without leaving SMH), SMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect GMH wait times have on SMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step down to GMH increase (both for SMH patients who transfer and those who start in GMH without leaving SMH), SMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect GMH wait times have on SMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>IF_THEN_ELSE(Time>0,MIN(SMOOTHI(SMH_Patient_Load^User_SMH_Sensitivity_of_Detection_to_Patient_Load,Time_to_Affect_Detection_Time,1),3)
 	,1)					</eqn>
 			</aux>
@@ -3176,21 +3176,21 @@
 				<doc></doc>
 					<eqn>(IF_THEN_ELSE(Time>0,User_SMH_Manageable_Total_Patients,0)+EQ_Initial_SMH_Manageable_Total_Patients)*SMH_Effect_of_Patient_Load_on_Manageable_Total_Patients_0					</eqn>
 			</aux>
+			<aux name="SMH_New_Episode_of_Care_Start_Rate">
+				<units>pts/wk</units>
+				<doc>This is the number of patients starting a new episode of care within SMH, and not coming from GMH or PC/PCMHI. (pts/wk)</doc>
+					<eqn>MIN(IF_THEN_ELSE (Time<0,SMH_New_Patient_Recommend_Rate,Total_Openings_in_SMH*"SMH_Openings_for_New_Patients_"),Max_Transfers_to_SMH)					</eqn>
+			</aux>
 			<aux name="SMH_New_Patient_Recommend_Rate">
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>IF_THEN_ELSE (User_SMH_Recommend_New_Episode_of_Care_Start_Rate>=0:AND:Time>0,User_SMH_Recommend_New_Episode_of_Care_Start_Rate,"Data_SMH_Start_Rate_(mean)_-_filtered"
 	)					</eqn>
 			</aux>
-			<aux name="SMH_New_Patient_Start_Rate">
-				<units>pts/wk</units>
-				<doc>This is the number of patients starting a new episode of care within SMH, and not coming from GMH or PC/PCMHI. (pts/wk)</doc>
-					<eqn>MIN(IF_THEN_ELSE (Time<0,SMH_New_Patient_Recommend_Rate,Total_Openings_in_SMH*"SMH_Openings_for_New_Patients_"),Max_Transfers_to_SMH)					</eqn>
-			</aux>
 			<aux name="SMH_New_Patient_Wait_Time_to_Start">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>ZIDZ(SMH_New_Patients_Waiting_to_Start , SMH_New_Patient_Start_Rate)					</eqn>
+					<eqn>ZIDZ(SMH_New_Patients_Waiting_to_Start , SMH_New_Episode_of_Care_Start_Rate)					</eqn>
 			</aux>
 			<aux name="SMH_Openings_for_GMH_">
 				<units>Dmnl</units>
@@ -3459,7 +3459,7 @@
 			<aux name="SMH_Total_New_Episode_of_Care_Start_Rate">
 				<units>pts/wk</units>
 				<doc>This is the total SMH New Episode of Care rate estimated by the model keeping track of the three sources of referrals to our team (GMH, SMH, PC/PCMHI). (pts/wk)</doc>
-					<eqn>GMH_to_SMH_Step_up_Rate+"PC/PCMHI_to_SMH_Step_up_Rate"+SMH_New_Patient_Start_Rate					</eqn>
+					<eqn>GMH_to_SMH_Step_up_Rate+"PC/PCMHI_to_SMH_Step_up_Rate"+SMH_New_Episode_of_Care_Start_Rate					</eqn>
 			</aux>
 			<aux name="SMH_Total_Patients">
 				<units>pts</units>
@@ -3473,7 +3473,7 @@
 			</aux>
 			<aux name="SMH_Wait_Time_Affects_New_Episode_of_Care_Start_Rate">
 				<units>Dmnl</units>
-				<doc>As wait times to step down to PC/PCMHI increase (both for SMH patients who transfer and those who start in PC/PCMHI withouth leaving SMH), SMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect PC/PCMHI wait times have on SMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5033255033120ver the original rate. (pct)</doc>
+				<doc>As wait times to step down to PC/PCMHI increase (both for SMH patients who transfer and those who start in PC/PCMHI withouth leaving SMH), SMH providers will be less willing to recommend that their patients step down.  There is no limit to the detrimental effect PC/PCMHI wait times have on SMH step down recommendations; however, this effect is limited to a maximum of 1.5x, as very low wait times could increase step down recommendations by no more than 5030354033120ver the original rate. (pct)</doc>
 					<eqn>MIN(SMOOTHI((XIDZ(SMH_Wait_Times , SMH_Desired_Wait_Time ,1))^User_SMH_Sensitivity_of_Start_Rate_to_Wait_Time,Time_for_Wait_Time_to_Affect_Start_Rate,1),2)					</eqn>
 			</aux>
 			<aux name="SMH_Wait_Times">
@@ -3570,13 +3570,13 @@
 			</aux>
 			<aux name="User_GMH_High_Risk_Patient_Flag_Rate_">
 				<units>1/wk</units>
-				<doc>Set the 33255033120f GMH patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
+				<doc>Set the 30354033120f GMH patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_GMH_High_Symptom_Patient_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. The BC value will likely differ from the value reported in the Team Data Table, as reported value is based on patient transfers after treatment, and this parameter represents the initial, currently unmeasured, distribution of patients’ initial symptoms before treatment. This "initial symptoms proportion" BC value is calculated to produce the measured "final" symptom proportion seen in the data, given all other team data. (pct)</doc>
+				<doc>Set the 30354033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. The BC value will likely differ from the value reported in the Team Data Table, as reported value is based on patient transfers after treatment, and this parameter represents the initial, currently unmeasured, distribution of patients’ initial symptoms before treatment. This "initial symptoms proportion" BC value is calculated to produce the measured "final" symptom proportion seen in the data, given all other team data. (pct)</doc>
 					<eqn>GAME(
 	-0.01)					</eqn>
 			</aux>
@@ -3606,19 +3606,19 @@
 			</aux>
 			<aux name="User_GMH_Openings_for_New_Episodes_of_Care_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_GMH_Openings_for_New_Episodes_of_Care_from_PC/PCMHI_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from PC/PCMHI. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from PC/PCMHI. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_GMH_Openings_for_New_Episodes_of_Care_from_SMH_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from SMH. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from SMH. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -3750,13 +3750,13 @@
 			</aux>
 			<aux name="User_PC/PCMHI_High_Risk_Patient_Flag_Rate_">
 				<units>1/wk</units>
-				<doc>Set the 33255033120f PC/PCMHI patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
+				<doc>Set the 30354033120f PC/PCMHI patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_PC/PCMHI_High_Symptom_Patient_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. The BC value will likely differ from the value reported in the Team Data Table, as reported value is based on patient transfers after treatment, and this parameter represents the initial, currently unmeasured, distribution of patients’ initial symptoms before treatment. This "initial symptoms proportion" BC value is calculated to produce the measured "final" symptom proportion seen in the data, given all other team data. (pct)</doc>
+				<doc>Set the 30354033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. The BC value will likely differ from the value reported in the Team Data Table, as reported value is based on patient transfers after treatment, and this parameter represents the initial, currently unmeasured, distribution of patients’ initial symptoms before treatment. This "initial symptoms proportion" BC value is calculated to produce the measured "final" symptom proportion seen in the data, given all other team data. (pct)</doc>
 					<eqn>GAME(
 	-0.01)					</eqn>
 			</aux>
@@ -3786,19 +3786,19 @@
 			</aux>
 			<aux name="User_PC/PCMHI_Openings_for_New_Episodes_of_Care_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from GMH. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from GMH. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_PC/PCMHI_Openings_for_New_Episodes_of_Care_from_GMH_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_PC/PCMHI_Openings_for_New_Episodes_of_Care_from_SMH_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from SMH. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from SMH. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -3936,13 +3936,13 @@
 			</aux>
 			<aux name="User_SMH_High_Risk_Patient_Flag_Rate_">
 				<units>1/wk</units>
-				<doc>Set the 33255033120f SMH patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
+				<doc>Set the 30354033120f SMH patients who receive a High Risk Flag each week.  This value replaces the base case value estimated from team data. (1/wk)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_SMH_High_Symptom_Patient_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f patients who are found to be "high symptom." This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME(
 	-0.01)					</eqn>
 			</aux>
@@ -3972,19 +3972,19 @@
 			</aux>
 			<aux name="User_SMH_Openings_for_New_Episodes_of_Care_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by new patients. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_SMH_Openings_for_New_Episodes_of_Care_from_GMH_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from GMH. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from GMH. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_SMH_Openings_for_New_Episodes_of_Care_from_PC/PCMHI_">
 				<units>Dmnl</units>
-				<doc>Set the 33255033120f total openings to be used by patients coming from PC/PCMHI. This value replaces the base case value estimated from team data. (pct)</doc>
+				<doc>Set the 30354033120f total openings to be used by patients coming from PC/PCMHI. This value replaces the base case value estimated from team data. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
