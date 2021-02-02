@@ -118,6 +118,12 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 ## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
 
+## To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
+-	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
+-	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
+    - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
+-	**As a warning, Do NOT click on “Propagate”** as this is used by our data team to update facility data across the nation.
+
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
 
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.  
