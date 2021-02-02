@@ -72,6 +72,7 @@ output:
     - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
 -	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
 
+[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
 
 ## Your Team Data Folder
 
