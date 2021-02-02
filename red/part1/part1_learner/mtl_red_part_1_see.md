@@ -64,7 +64,7 @@ output:
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD.
 
-### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering.
+### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
 
 -	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
