@@ -82,6 +82,16 @@ output:
 
 - Patient SSID is no longer asterisked out in the facility data. It has been completely removed. Please go to the data UI to see Patient SSID information.
 
+### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
+
+-	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
+-	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
+-	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
+    - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
+-	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
+
+[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
+
 ### Your Team Data Folder
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
