@@ -116,13 +116,14 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     ___ |*dataHF* | can be sorted by health factor type to see more detail on what happens in any one health factor type.*
     ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
-
-## To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
+## If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.
+- To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
     - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
 -	**As a warning, Do NOT click on “Propagate”** as this is used by our data team to update facility data across the nation.
+
+## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
 
 ### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
 
