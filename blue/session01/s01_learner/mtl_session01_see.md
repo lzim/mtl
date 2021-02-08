@@ -20,7 +20,7 @@ output:
 
 # MTL Live Session 01
 
-## Today we're modeling to learn how to align our team vision
+## Today we're modeling to learn how to align our team vision.
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
@@ -108,4 +108,4 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/teampsd_style/teampsd_logo/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
+| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email TeamPSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
