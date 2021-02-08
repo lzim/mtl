@@ -1,7 +1,7 @@
 ---
 title: "MTL Red Part 1 - Facilitator Say"
 author: "Team PSD"
-date: "March 2020"
+date: "Feburary 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -20,7 +20,7 @@ output:
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
-## Today we're modeling to learn from patient data and team trends
+## Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 
@@ -34,7 +34,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 ## Learning Objectives
 
-### After this session, you will be able to
+### After this session, you will be able to:
 
 1. Describe the criteria determined to build your team in the MTL Data User Interface.
 2. Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
@@ -50,20 +50,19 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 **Who would like to "drive" today?** [Recommend the Team Lead]
 
-### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 
 - This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
 - On the landing page, select your VISN **______________**. On the next page, select your team's facility **______________**.
-  - A web version of Excel will open on your screen, showing your facility's data in charts.  
 
-### 2. Explore the facility data
+### 2. Explore the facility data.
 
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.  
 
-- **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**  
+- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
 
 - The facility data is designed to show trends relevant to your team vision of __________________________ for the last two years. Let's explore the information available in the facility data Excel spreadsheet.
 
@@ -86,7 +85,7 @@ ___ | Enc| Encounter or visits types, such as medication management, psychothera
 ___ | HF | Health Factors data related to visits, including evidence-based psychotherapy templates, and other clinical reminders and screenings.
 ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL-5 for PTSD, and suicide and behavioral risk flags.
 
-### To sum up, there are three ways to view each set of data
+### To sum up, there are three ways to view each set of data:
 
 1. **Counts per month:** countDiag, countEnc, countHF, and countMeas;  
 2. **Visual charts of trends over time:**  vizDiag, vizEnc, vizHF, and vizMeas
@@ -117,15 +116,15 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 ## If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.
-- To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”
+- To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
     - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
 -	**As a warning, Do NOT click on “Propagate”** as this is used by our data team to update facility data across the nation.
 
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
+## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel
+### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.  
 
@@ -133,13 +132,13 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.  
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team
+### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 
 - This data_ui file has already been specified for your facility/station.  
 
 - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.  
 
-- Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.  
+- Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
 
 - Follow the instructions in **Box A2**.  
 
@@ -147,14 +146,14 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).  
 
-### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today
+### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
-## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team
+## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.
 
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet.
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
@@ -166,7 +165,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.  
 
-### 6. Click to view the "viz" tabs, which show team trends
+### 6. Click to view the "viz" tabs, which show team trends.
 
 - Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about **[ __]**.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
@@ -196,7 +195,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***  
 
-### 7. Click to view the "data" tabs, which show your team's individual patient information
+### 7. Click to view the "data" tabs, which show your team's individual patient information.
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.  
 
@@ -210,7 +209,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
     Time Stamp | Team Learning Priorities | Script
     -- | -- | --
-    **[Prioritize which questions you will use given this team's guiding vision.** |  |  |   
+    **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
     Keep an eye on time |  |  |
 
@@ -224,7 +223,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
-### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review
+### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 
