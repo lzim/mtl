@@ -97,7 +97,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 1. Last meeting \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[team members' names\] mentioned concerns with **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[themes from session 1 team vision\].**  
 
-    Time Stamp | Team Learning Priorities | Script for Session 2
+    Time Stamp | Team Learning Priorities | Script for Part 1
     -- | -- | --
     **What filtering options are available?** |  |  |
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
@@ -154,13 +154,12 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
+   
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
-
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
-
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**  
 
 - We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.  
