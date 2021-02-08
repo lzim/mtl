@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -17,7 +17,7 @@ output:
 
 # MTL Live Session 03
 
-## Today we're modeling to learn how to produce team data for simulation
+## Today we're modeling to learn how to produce team data for simulation.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to produce team data for simulation.
 
@@ -51,12 +51,12 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### Navigate to the data UI at mtl.how/data
+### Navigate to the data UI at mtl.how/data.
 
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.
 
-### Clicking the "Create Team Data Table" button produces a table of descriptive team data
+### Clicking the "Create Team Data Table" button produces a table of descriptive team data/
 
 **You already have a fresh Team Data Table file to work with in the team_data_table folder.**
 
@@ -132,7 +132,7 @@ Check out the different modules that are highlighted in the team data on the scr
 
 - In what ways does the team data fit with your day-to-day clinical practice in your team?
 
-### That's it for _Modeling to Learn_ how to produce team data for simulation. Next is our Done/Do review
+### That's it for _Modeling to Learn_ how to produce team data for simulation. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 
