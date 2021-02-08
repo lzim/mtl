@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 4 - Learner See"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -20,7 +20,7 @@ output:
 
 # MTL Live Session 04
 
-## Today we're modeling to learn how to prioritize team needs
+## Today we're modeling to learn how to prioritize team needs.
 
 ## Done and Do (15 minutes)
 
@@ -40,25 +40,25 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-### 1. Complete the [*MTL* Menu](https://mtl.how/menu) on your own
+### 1. Complete the [*MTL* Menu](https://mtl.how/menu) on your own.
 
-### 2. Review the team's results in your team
+### 2. Review the team's results in your team.
 
 - What stands out to you?
 
-### 3. Look for areas of consensus among the team
+### 3. Look for areas of consensus among the team.
 
 - What does the team agree about?
 
-### 4. Discuss items in which team members varied a lot in their rankings
+### 4. Discuss items in which team members varied a lot in their rankings.
 
 - Where does the team have more variable perspectives?
 
-### 5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*
+### 5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*.
 
 - What is the highest priority need for your team now?
 
-**These are the *MTL* available modules**
+**These are the *MTL* available modules.**
 
 - Care Coordination (CC)
 - Medication Management (MM)
