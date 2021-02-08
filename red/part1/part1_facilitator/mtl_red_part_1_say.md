@@ -95,13 +95,12 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
-1. Last meeting \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[team members' names\] mentioned concerns with **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[themes from session 1 team vision\].**  
+1. Last meeting \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[team members' names\] mentioned concerns with **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[themes from Part 1\].**  
 
-    Time Stamp | Team Learning Priorities | Script for Part 1
-    -- | -- | --
-    **What filtering options are available?** |  |  |
-    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.**
-    Keep an eye on time |  |  |  
+ Time Stamp | Team Learning Priorities | Script for Part 1
+   -- | -- | --
+   **What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
 
 2. For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the **clinic** or **VISTA clinic/"grid"**. [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]  
 
@@ -205,12 +204,12 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***  
 
     \[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]  
-
-    Time Stamp | Team Learning Priorities | Script
-    -- | -- | --
-    **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
-    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink)  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-    Keep an eye on time |  |  |
+    
+     Time Stamp | Team Learning Priorities | Script
+   -- | -- | --
+   **Prioritize which questions you will use given this team's guiding vision.** |  |  |
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+   |  |  |    
 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
 
