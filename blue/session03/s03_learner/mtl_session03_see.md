@@ -19,7 +19,7 @@ output:
 
 # MTL Live Session 03
 
-## Today we're modeling to learn how to produce team data for simulation
+## Today we're modeling to learn how to produce team data for simulation.
 
 ## Done and Do (15 minutes)
 
@@ -43,7 +43,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you click the "Create Team Data Table" button, it produces a table of descriptive team data
+### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 
 - We will not do this in-session today. You already have a fresh Team Data Table to work with in your team team_data_table folder.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
