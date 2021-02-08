@@ -71,7 +71,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
     - On the landing page, select your VISN. On the next page, select your team's facility.
 2. **Explore the facility data.**
     - To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-    - **Team files are in team folders.** If you do not see a team folder, **request a team folder above.**
+    - **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
     - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
 **There are two types of View options at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
@@ -120,13 +120,13 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 ## If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.
-- To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”
+- To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
     - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
 -	**As a warning, Do NOT click on “Propagate”** as this is used by our data team to update facility data across the nation.
 
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file
+## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
 
 3. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
     - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
@@ -135,17 +135,17 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 4. **Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
     - This data_ui file has already been specified for your facility/station.
     - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-    - Note that this will pull all clinics used in the last two years (including de-activated clinics: denoted by "ZZ"). You can see the de-activated clinics in column I.
+    - Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
     - Follow the instructions in **Box A2**.
     - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
     - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
 5. **To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today. You already have a fresh data UI file to work with in your data_ui folder. With your team lead \_______________ \(Team Lead's name\), we selected the following clinics to represent your team.**
     - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse
-    - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the link to access the document through VA intranet.
+    - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
     - **If you don't have access to facilities that you believe you should, please verify:**
       - CPRS access/permissions at your station (i.e COR tab access for CPRS).
       - Your network username recorded in VistA.
-      - To have your network username recording in VistA, please follow the instructions outlined in the linked document through VA intranet.
+      - To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
     - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
     - **Prior to today's session, \__________________ \(Team Lead's name\) worked with us to build an initial team dataset.
     - **\__________________ \(Team Lead's name\), which column did we find most helpful for creating this team's dataset?**
