@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 04 - Facilitator Say"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -18,7 +18,7 @@ output:
 
 # MTL Live Session 04
 
-## Today we're modeling to learn how to prioritize team needs
+## Today we're modeling to learn how to prioritize team needs.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to prioritize team needs.
 
@@ -50,31 +50,31 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - Menu results and team needs discussion
 
-### 1. Complete the *MTL Menu* on your own
+### 1. Complete the *MTL Menu* on your own.
 
 - Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*.
 - You will receive a summary of this in your follow-up email.
 
-### 2. Review the team's results with your team
+### 2. Review the team's results with your team.
 
 - What stands out to you?
 - First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*
 
-### 3. Look for areas of consensus among the team
+### 3. Look for areas of consensus among the team.
 
 - What does the team agree about?
 - Where are there areas of high consensus? What issues does the team agree about?
 
 _Decide which Menu results to show to reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
   
-### 4. Discuss items in which team members varied a lot in their rankings
+### 4. Discuss items in which team members varied a lot in their rankings.
 
 - Where does the team have more variable perspectives?
 - What are the topics where team members' perspectives are more divergent?
 
 _Decide which Menu results to show to discuss divergence, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
 
-### 5. Focus on the high priority needs to select a module for sessions 5-10 of Modeling to Learn
+### 5. Focus on the high priority needs to select a module for sessions 5-10 of _Modeling to Learn_.
 
 - What is the highest priority need for your team now?
 - Let's think about which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*
@@ -97,7 +97,7 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)
 
-### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review
+### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 
