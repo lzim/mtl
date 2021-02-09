@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 11](https://github.com/lzim/mtl/blob/master/blue/session11/s11_learner/mtl_session11_see.md "MTL Live Session 11")
 
-# Today we're modeling to learn how to make _future_ team decisions
+# Today we're modeling to learn how to make _future_ team decisions.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
