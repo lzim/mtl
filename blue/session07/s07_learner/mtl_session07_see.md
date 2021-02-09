@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Learner See"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -20,7 +20,7 @@ output:
 
 # MTL Live Session 07
 
-# Today we're modeling to learn how to evaluate our Base Case of no new decisions
+# Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 
 ## Done and Do (15 minutes)
 
