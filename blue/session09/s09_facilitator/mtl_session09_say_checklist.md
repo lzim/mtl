@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 09](https://github.com/lzim/mtl/blob/master/blue/session09/s09_learner/mtl_session09_see.md "MTL Live Session 09")
 
-# Today we're modeling to learn how to compare alternatives
+# Today we're modeling to learn how to compare alternatives.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to compare alternatives.  
 
