@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Facilitator Say"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -18,7 +18,7 @@ output:
 
 # MTL Live Session 05
 
-## Today we're modeling to learn how to log in to our team world
+## Today we're modeling to learn how to log in to our team world.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to log in to our team world.
 
@@ -54,17 +54,17 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **The Team Lead, or whoever is willing to drive today: open an Internet Explorer browser and a Chrome browser, then share both applications in Adobe Connect.**
 
-### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
-### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file
+### 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team_data_table file.
 
 - We want to grab the filename from there so we can upload it to the sim UI. Open an Explorer browser window and go to mtl.how/data.  
 
-### 3. The team data file for simulation is in our team folder, in the team_data_table folder \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 3. The team data file for simulation is in our team folder, in the team_data_table folder. \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table.
 
-### 4. Log in to the sim UI \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 4. Log in to the sim UI. \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**  
 - Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.  
@@ -74,7 +74,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.**
 
-### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers)  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers).  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - At the top left is the *MTL* logo. That’s on each page, and it works as a Home button (just like the button next to it).  
 - Scanning across that row you see your Team name followed by six navigation icons: Home, Play, Team, More Info, News, Report Bug, Tutor, and Logoff. These are pretty self-explanatory, but I would highlight the Logoff button. It's best to log off when you’re finished with a session. At the far right along the top is your name and picture (if you’ve uploaded by clicking on the "Avatar" function).  
@@ -108,7 +108,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - If you're not designated as a Team Lead, you won't see all of these features. But everyone is the “Team Lead” for their individual world, so will see all of these sections when you're logged in there.  
 - We'll be using the other two sections in a minute, but for now let's expand the middle section and take a look. This is where you can manage the experiments you've run - you can delete, rename, or export them from here. Right now it's empty, but it won't be for long!  
 
-### 6. Start a New Session  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
+### 6. Start a New Session.  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
 - Start a New Session and review the sim UI Main Page.  
 - Select the module your team decided to use.  
@@ -120,7 +120,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - **New Patient Start Rate:** Choose this learning mode to prioritize the New Patient Start Rate estimated from team data, and only see existing patients in remaining open slots after the new patient start rate, appointment supply, and missed appointments are all taken into account.  
 - Upon clicking icons like "Play," "Run," or "Reset,' a quick tip will appear on the loading screen on different functions in the sim UI.
 
-### 7. Orient yourself to the Main Page of the Sim UI (Notice the same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text)
+### 7. Orient yourself to the Main Page of the Sim UI (Notice the same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
 - You see the same information and buttons across the top as the Home page.  
 - There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.
@@ -132,7 +132,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "bc" (stands for base case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
 - Check out the Team Data Table.  
 
-### 8. Expand the Experiments section and read the "i" information for the Team Data Table  
+### 8. Expand the Experiments section and read the "i" information for the Team Data Table.
 
 - Open the section by clicking on the white down arrow in the right corner of the blue bar.  
 - The data in this table come straight from the file we just uploaded. In fact, throughout the sim UI, we've used the convention that red font means "read in from team data".  
@@ -140,7 +140,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - What types of decisions does the team make that affect these variables?  
 - Close the "i" information and look over the values - how do they strike you? Do they line up with how you think things are in your team? In particular, notice \__________________________________________
 
-### 9. Find the Team Data Table variables in the system diagram at the left  
+### 9. Find the Team Data Table variables in the system diagram at the left.  
 
 - True Missed Appointments %  
 - Appointment Supply  
@@ -148,7 +148,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Engagement Duration  
 - New Patient Start Rate (AGG)  
 
-### 10. Log out of the Sim UI
+### 10. Log out of the Sim UI.
 
 **That's it for _Modeling to Learn_ how to log in to our team world!**
 
