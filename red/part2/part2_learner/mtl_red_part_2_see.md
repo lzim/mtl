@@ -1,7 +1,7 @@
 ---
 title: "MTL Red, Part 2 - Learner See"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -17,7 +17,7 @@ output:
 
 # MTL Red Part 2
 
-## Today we're modeling to learn how to calculate team parameters
+## Today we're modeling to learn how to calculate team parameters.
 
 ## Done and Do (15 minutes)
 
@@ -31,13 +31,15 @@ output:
 
 ## Learning Objectives
 
-1. Describe the parameters that are calculated by the *MTL* Data User Interface for Care Coordination (CC), Medication Management (MM), Psychotherapy (PSY), Aggregate Mix of Services (AGG) and Measurement Based Stepped Care and Suicide Prevention (SP).
-2. Test your expectations against calculated overall team statistics for CC, MM, PSY, AGG, and SP.
-3. Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
+1. Describe your team trends over the last two years based on the estimates in the team data table.
+
+2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
+
+3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
 ## In-session Exercise (30 minutes)
 
-### When you click the "Create Team Data Table" button, it produces a table of descriptive team data
+### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 
 - We will not do this in-session today. You already have a fresh Team Data Table to work with in your team_data_table folder.  
 

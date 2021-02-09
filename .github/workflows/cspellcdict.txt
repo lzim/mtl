@@ -15,6 +15,7 @@ ees
 EES
 Listserv
 flowmap
+Listserv
 HX
 IIR
 IIRI
@@ -30,6 +31,7 @@ Kanban
 matierals
 muda
 NCPTSD
+CFBT
 osf
 FNR
 fnr
@@ -2807,6 +2809,7 @@ threaten
 three
 throat
 through
+walk-throughs
 throughout
 walk-throughs
 throw

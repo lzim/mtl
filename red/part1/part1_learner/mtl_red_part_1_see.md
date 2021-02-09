@@ -32,9 +32,11 @@ output:
 
 ## Learning Objectives
 
-1. Describe the criteria determined to build your team in the *MTL* Data User Interface.
-2. Test your expectations about team historical trends against actual results in the "data", "viz" and "count" tabs.
-3. Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.
+1. Describe the decisions your team made in producing your team data table.
+
+2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
+
+3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 ## In-session Exercise (30 minutes)
 

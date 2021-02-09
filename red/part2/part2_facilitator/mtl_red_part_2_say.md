@@ -1,7 +1,7 @@
 ---
 title: "MTL Red Part 2 - Facilitator Say"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -20,7 +20,7 @@ output:
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
-## Today we're modeling to learn how to calculate team parameters
+## Today we're modeling to learn how to calculate team parameters.
 
 ## Done and Do (15 minutes)
 
@@ -36,11 +36,11 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 **After this session, you will be able to:**
 
-1. Describe the parameters that are calculated by the *MTL* Data User Interface for Care Coordination (CC), Medication Management (MM), Psychotherapy (PSY), Aggregate Mix of Services (AGG) and Measurement Based Stepped Care and Suicide Prevention (SP).  
+1. Describe your team trends over the last two years based on the estimates in the team data table.
 
-2. Test your expectations against calculated overall team statistics for CC, MM, PSY, AGG, and SP.  
+2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3. Apply your clinical expertise to translate learnings from the *MTL* Data UI into team decisions.  
+3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
 ## In-session Exercise (30 minutes)
 
@@ -53,9 +53,9 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 - You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
 - Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.
 
-### Clicking the "Create Team Data Table" button produces a table of descriptive team data
+### Clicking the "Create Team Data Table" button produces a table of descriptive team data.
 
-### You already have a fresh Team Data Table file to work with in the team_data_table folder
+### You already have a fresh Team Data Table file to work with in the team_data_table folder.
 
 - It takes some time to generate a team data table for all modules using your team's data.  
 
