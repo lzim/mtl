@@ -17,7 +17,7 @@ output:
 
 # [MTL Live Session 10](https://github.com/lzim/mtl/blob/master/blue/session10/s10_learner/mtl_session10_see.md "MTL Live Session 10")
 
-## Today we're modeling to learn how to use systems thinking
+## Today we're modeling to learn how to use systems thinking.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name).
 
