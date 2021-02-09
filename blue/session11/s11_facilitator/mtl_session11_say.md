@@ -18,7 +18,7 @@ output:
 
 # MTL Live Session 11
 
-## Today we're modeling to learn how to make _future_ team decisions
+## Today we're modeling to learn how to make _future_ team decisions.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
@@ -72,7 +72,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 8. What data will we watch to see how we're doing?
 
-## That's it for _Modeling to Learn_ how to make _future team decisions_. Next is our Done/Do review
+## That's it for _Modeling to Learn_ how to make _future team decisions_. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
 
