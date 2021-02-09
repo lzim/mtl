@@ -18,7 +18,7 @@ height = "175" width = "420">](#DontLink)
 
 # MTL Live Session 12
 
-## Today we're modeling to learn how to turn team learning into a team plan
+## Today we're modeling to learn how to turn team learning into a team plan.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
@@ -84,7 +84,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - Finally, you can join the *Modeling to Learn* Listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
 
-### Now let's make a plan for how the team will keep modeling to learn going forward
+### Now let's make a plan for how the team will keep modeling to learn going forward.
 
 - How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?
 - Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?
@@ -96,7 +96,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **It's great if you make a concrete action plan, identify a point person, and call on us as needed.**
 
-### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review
+### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review.
 
 ## Done and Do (15 minutes)
 
