@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 8 - Learner See"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -19,7 +19,7 @@ output:
 
 # MTL Live Session 08
 
-## Today we're modeling to learn how to test a dynamic hypothesis
+## Today we're modeling to learn how to test a dynamic hypothesis.
 
 ## Done and Do (15 minutes)
 
