@@ -101,7 +101,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - The "Help" icon is now called "More Info." Click here for more info on the sim UI.
 
-- Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current new flashes.
+- Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current news flashes.
+
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_news_notification.gif)](#DontLink)
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_andon_alert.png)](#DontLink) 
