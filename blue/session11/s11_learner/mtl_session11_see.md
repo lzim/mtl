@@ -20,7 +20,7 @@ output:
 
 # MTL Live Session 11
 
-## Today we're modeling to learn how to make future team decisions
+## Today we're modeling to learn how to make future team decisions.
 
 ## Done and Do (15 minutes)
 
@@ -40,7 +40,7 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-### Connect learning and decisions from experiments to original team vision, question, and need
+### Connect learning and decisions from experiments to original team vision, question, and need.
 
 1. What shared vision did the team decide on in session 1?  
 
