@@ -20,7 +20,7 @@ output:
 
 # MTL Live Session 10
 
-## Today we're modeling to learn how to use systems thinking
+## Today we're modeling to learn how to use systems thinking.
 
 ## Done and Do (15 minutes)
 
