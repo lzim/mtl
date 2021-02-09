@@ -19,7 +19,7 @@
 #### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
 _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
-To recieve for **CEU credit** through VA TMS, please select the **TMS** link.
+To receive **CEU credit** through VA TMS, please select the **TMS** link.
 
 - **Session 1:** [Team Vision](https://bcove.video/2PBJxli) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41387%26componentTypeID%3dVA%26revisionDate%3d1585238760000%26fromSF%3dY&company=VAHCM03))
 - **Session 2:** [Data Interface](https://bcove.video/2PGS6vo) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41544%26componentTypeID%3dVA%26revisionDate%3d1586807640000%26fromSF%3dY&company=VAHCM03))
@@ -40,7 +40,7 @@ Session 10: | [Systems Thinking](https://bcove.video/2RVMiB3)   [(TMS)](https://
 - **Session 12:** [Team Plan](https://bcove.video/38xrxBz) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41484%26componentTypeID%3dVA%26revisionDate%3d1586286840000%26fromSF%3dY&company=VAHCM03))
 
 ## *Modeling to Learn* Links
-1. [mtl.how/live](https://www.mtl.how/live) - _Modeling to Learn_ Live Sessions - Adobe Connect Room
-2. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team
-3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation
-4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References 
+1. [mtl.how/live](https://www.mtl.how/live) - _Modeling to Learn_ Live Sessions - Adobe Connect Room.
+2. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team.
+3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation.
+4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References.
