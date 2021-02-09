@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "March 2020"
+date: "February 2021"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -44,7 +44,7 @@ output:
 # Session 5 In-Session Exercise
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-## Check the name of your team data file in Explorer
+## Check the name of your team data file in Explorer.
 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
 2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
@@ -54,7 +54,7 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**
 
-## Log in to the sim UI in Chrome
+## Log in to the sim UI in Chrome.
 
 4. Log in to the sim UI.
 
@@ -145,7 +145,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
-6. Start a New Session
+6. Start a New Session.
 
    + Select the module your team decided to use. 
 
@@ -202,7 +202,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
     + New Patient Start Rate (AGG)
 
-10. Log out of the Sim UI
+10. Log out of the Sim UI.
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->

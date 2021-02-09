@@ -136,7 +136,7 @@ jobs:
         # Branch name to pull from, default is triggered branch
         #source_branch: 'Feature' # optional
         # Branch name to sync to in this repo, default is master
-        #destination_branch: 'QA' # optional, default is master  #Disable
+        #destination_branch: 'QA' # optional, default is master #Disable
         # Pull request title
         #pr_title: # optional
         # Pull request body
@@ -157,4 +157,3 @@ jobs:
         #pr_allow_empty: # optional
         # GitHub token secret
         #github_token: ${{ secrets.GITHUB_TOKEN }} #Disable
-         
