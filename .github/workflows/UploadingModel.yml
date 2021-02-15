@@ -55,7 +55,8 @@ jobs:
           chmod +x .github/workflows/UploadingModelUtility.sh
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
           mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
-          chmod +x .github/workflows/UploadingModelUtility.sh 
+          chmod +x .github/workflows/UploadingModelUtility.sh
+          .github/workflows/UploadingModelUtility.sh "blue/mtl2.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.extract_branch.outputs.branch }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}" 
         
       - name: File Name List
         run: |
