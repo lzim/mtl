@@ -55,7 +55,7 @@
 	|
 
 "RVI_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -183,8 +183,8 @@
 	|
 
 "RVI_Change_Delayed_by_RVI_-_1-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD", \
-		1)
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD"\
+		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
 		their first 3 months delayed by the RVI, as appointments are completed \
@@ -195,7 +195,7 @@
 	|
 
 "RVI_Change_Delayed_by_RVI_-_8-12-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -207,7 +207,7 @@
 	|
 
 "RVI_Change_Delayed_by_RVI_-_8-12-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -219,7 +219,7 @@
 	|
 
 "RVI_Change_Delayed_by_RVI_-_8-12-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -248,8 +248,8 @@ Supply_Used_by_Completers_who_Continue=
 	|
 
 "RVI_Change_Delayed_by_RVI_-_1-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD", \
-		1)
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD"\
+		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
 		their first 3 months delayed by the RVI, as appointments are completed \
@@ -280,8 +280,8 @@ Supply_Used_by_Initiators_who_Return=
 	|
 
 "RVI_Change_Delayed_by_RVI_-_1-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD",\
-		 1)
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD"\
+		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
 		their first 3 months delayed by the RVI, as appointments are completed \
@@ -311,7 +311,7 @@ Supply_Used_by_New_Patients_who_Return=
 	|
 
 "RVI_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -323,7 +323,7 @@ Supply_Used_by_New_Patients_who_Return=
 	|
 
 "RVI_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD"\
+	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD"\
 		, 1)
 	~	Dmnl [-0.75,2,0.25]
 	~	Relative change in the median RVI of all patients still in care after \
@@ -338,7 +338,8 @@ Supply_Used_by_New_Patients_who_Return=
 	(
 	"Starting_LowD_%"*(
 	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)" , "RVI_>3mo_-_2-7Visits-LowD"\
-		*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk))\
+		)
 	)
 	)
 	
@@ -346,14 +347,15 @@ Supply_Used_by_New_Patients_who_Return=
 	
 	("Starting_MidD_%"*(
 	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(Mean)" , "RVI_>3mo_-_2-7Visits-MidD"*Pts_per_appt\
-		*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_%"*(
 	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)" , "RVI_>3mo_-_2-7Visits-HighD"\
-		*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk))\
+		)
 	))
 	~	appt/pts
 	~	For calculating "Sankey bar heights" - The total number of visits for the \
@@ -387,7 +389,7 @@ Bars_E4=
 	(
 	"Starting_LowD_%"*(
 	ZIDZ( "Engagement_Time_-_From_1_Visit_(1st_Quartile)" , "RVI_>3mo_-_1Visit-LowD"*Pts_per_appt\
-		*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
 	)
 	)
 	
@@ -395,14 +397,14 @@ Bars_E4=
 	
 	("Starting_MidD_%"*(
 	ZIDZ("Engagement_Time_-_From_1_Visit_(Mean)" , "RVI_>3mo_-_1Visit-MidD"*Pts_per_appt\
-		*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_%"*(
 	ZIDZ("Engagement_Time_-_From_1_Visit_(4th_Quartile)" , "RVI_>3mo_-_1Visit-HighD"*Pts_per_appt\
-		*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
 	))
 	~	appt/pts
 	~	For calculating "Sankey bar heights" - The total number of visits for the \
@@ -426,7 +428,8 @@ Bars_E9=
 	(
 	"Starting_LowD_%"*(
 	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)" , "RVI_>3mo_-_8-12Visits-LowD"\
-		*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk))\
+		)
 	)
 	)
 	
@@ -434,14 +437,16 @@ Bars_E9=
 	
 	("Starting_MidD_%"*(
 	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(Mean)" , "RVI_>3mo_-_8-12Visits-MidD"\
-		*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk))\
+		)
 	))
 	
 	+
 	
 	("Starting_HighD_%"*(
 	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)" , "RVI_>3mo_-_8-12Visits-HighD"\
-		*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_Months,Experiment_wk)))
+		*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk))\
+		)
 	))
 	~	appt/pts
 	~	For calculating "Sankey bar heights" - The total number of visits for the \
@@ -482,7 +487,7 @@ Bars_E3=
 
 Supply_Used_by_Completers=
 	(
-	ZIDZ( Completers_Patients_in_over_7_Visits , "RVI_<3mo_-_8-12_Visits"*Pts_per_appt)
+	ZIDZ( Completers_Patients_in_Over_7_Visits , "RVI_<3mo_-_8-12_Visits"*Pts_per_appt)
 	)
 	*Effect_of_Implement_IOP_on_Frequency
 	~	appt/wk
@@ -492,10 +497,10 @@ Supply_Used_by_Completers=
 
 Supply_Used_by_Initiators=
 	(
-	(ZIDZ( Initiators_Who_Will_Quit , "RVI_<3mo_-_2-7Visits-n-done"*Pts_per_appt))+
-	(ZIDZ( Initiators_Who_Will_Continue , "RVI_<3mo_-_2-7Visits-n-More<3mo"*Pts_per_appt\
+	(ZIDZ( Initiators_who_will_Quit , "RVI_<3mo_-_2-7Visits-n-done"*Pts_per_appt))+
+	(ZIDZ( Initiators_who_will_Continue , "RVI_<3mo_-_2-7Visits-n-More<3mo"*Pts_per_appt\
 		))+
-	(ZIDZ( Initiators_Who_Will_Return , "RVI_<3mo_-_2-7Visits-n-More>3mo"*Pts_per_appt))
+	(ZIDZ( Initiators_who_will_Return , "RVI_<3mo_-_2-7Visits-n-More>3mo"*Pts_per_appt))
 	)
 	*Effect_of_Implement_IOP_on_Frequency
 	~	appt/wk
@@ -717,7 +722,7 @@ Max_Effect_of_IOP_on_Frequency=
 "Actual_Completers_Who_Graduate_%"=
 	MAX(MIN(
 	
-	IF_THEN_ELSE("User_Completers_Who_Graduate_%">=0:AND:Time>Experiment_wk,"User_Completers_Who_Graduate_%"\
+	IF_THEN_ELSE("User_Completers_who_Graduate_%">=0:AND:Time>Experiment_wk,"User_Completers_who_Graduate_%"\
 		,"Data_Completers_Who_Graduate_%")
 	
 	,1),0)
@@ -858,7 +863,7 @@ Time_for_IOP_to_affect_Duration=
 Continuting_on_to_Visit_8_Rate=
 	MAX(
 	
-	ZIDZ(Initiators_Who_Will_Continue, ("Data_ET_-_Initiators_Who_Complete"*Effect_of_Implement_IOP_on_Durations\
+	ZIDZ(Initiators_who_will_Continue, ("Data_ET_-_Initiators_Who_Complete"*Effect_of_Implement_IOP_on_Durations\
 		))
 	
 	,0)
@@ -872,7 +877,7 @@ Continuting_on_to_Visit_8_Rate=
 Ending_After_8_or_More_Visits_Rate=
 	MAX(
 	
-	ZIDZ(Completers_Patients_in_over_7_Visits, ("ET_-_Completers_who_Graduate"*Effect_of_Implement_IOP_on_Durations\
+	ZIDZ(Completers_Patients_in_Over_7_Visits, ("ET_-_Completers_who_Graduate"*Effect_of_Implement_IOP_on_Durations\
 		))
 	
 	,0)
@@ -886,7 +891,7 @@ Ending_After_8_or_More_Visits_Rate=
 Ending_During_Visit_2_to_7_Rate=
 	MAX(
 	
-	ZIDZ(Initiators_Who_Will_Quit, ("Data_ET_-_Initiators_Who_Quit_Early"*Effect_of_Implement_IOP_on_Durations\
+	ZIDZ(Initiators_who_will_Quit, ("Data_ET_-_Initiators_Who_Quit_Early"*Effect_of_Implement_IOP_on_Durations\
 		))
 	
 	,0)
@@ -896,7 +901,7 @@ Ending_During_Visit_2_to_7_Rate=
 	|
 
 Initiators_Continue_Treatment_Rate_after_3_Months=
-	MAX(Initiators_Who_Will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations\
+	MAX(Initiators_who_will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations\
 		),0)
 	~	pts/wk
 	~	The number of patients who continue treatment after completing two to \
@@ -984,7 +989,7 @@ User_Implement_Intensive_Outpatient_Program= GAME (
 	~	Initiate an "Intensive Outpatient Program" for new patients, where they \
 		are seen twice as often for half as many weeks after they initiate care.  \
 		Estimates from the team's data for Return Visit Interval and Median \
-		Engagement Duration during a patient's first 3 months in care are modified \
+		Engagement Duration during a patients first 3 months in care are modified \
 		accordingly.  Also, this more intensive therapy results in more patients \
 		completing a timely dose, modifying patient flow percentages estimated \
 		from the team's data (specifically: the gap between the desired and \
@@ -1061,7 +1066,7 @@ Initiation_Rate=
 	~	:SUPPLEMENTARY 
 	|
 
-Initiators_Who_Will_Quit= INTEG (
+Initiators_who_will_Quit= INTEG (
 	Initiation_Rate_who_will_Quit-Ending_During_Visit_2_to_7_Rate,
 		0)
 	~	pts
@@ -1077,7 +1082,7 @@ Starters_Patients_in_First_Visit= INTEG (
 	~	Total number of patients scheduled for their first visit. (pts)
 	|
 
-Completers_Patients_in_over_7_Visits= INTEG (
+Completers_Patients_in_Over_7_Visits= INTEG (
 	Completion_Rate-Ending_After_8_or_More_Visits_Rate,
 		0)
 	~	pts
@@ -1093,7 +1098,7 @@ Completers_Patients_in_over_7_Visits= INTEG (
 		capacity for them to continue care.
 	|
 
-Initiators_Who_Will_Return= INTEG (
+Initiators_who_will_Return= INTEG (
 	Initation_Rate_who_will_Return-Initiators_Continue_Treatment_Rate_after_3_Months,
 		0)
 	~	pts
@@ -1101,7 +1106,7 @@ Initiators_Who_Will_Return= INTEG (
 		three months engaged in care, who will continue psychotherapy afterward.
 	|
 
-Initiators_Who_Will_Continue= INTEG (
+Initiators_who_will_Continue= INTEG (
 	Initiation_Rate_who_will_Complete-Continuting_on_to_Visit_8_Rate,
 		0)
 	~	pts
@@ -1387,7 +1392,7 @@ G=
 	~	:SUPPLEMENTARY 
 	|
 
-"Starters_Who_Quit_%"=
+"Starters_who_Quit_%"=
 	1 - ("Data_Starters_Who_Initiate_%" + "Data_Starters_Who_Return_Later_%")
 	~	Dmnl
 	~	The proportion of patients who do not come back for another psychotherapy \
@@ -1439,7 +1444,7 @@ G=
 	~	:SUPPLEMENTARY 
 	|
 
-"Initators_Who_Return_Later_%"=
+"Initators_who_Return_Later_%"=
 	1 - ("Data_Initiators_Who_Complete_%" + "Data_Initiators_Who_Quit_Early_%")
 	~	Dmnl
 	~	Of patients who complete at least two to seven psythotherapy visit within \
@@ -1450,7 +1455,7 @@ G=
 	~	:SUPPLEMENTARY 
 	|
 
-"Completers_Who_Return_%"=
+"Completers_who_Return_%"=
 	1 - "Data_Completers_Who_Graduate_%"
 	~	Dmnl
 	~	The proportion of patients who complete eight or more psychotherapy visits \
@@ -1628,7 +1633,7 @@ Ending_Rate=
 	|
 
 HS_Silver_Standard_for_OUD=
-	(Total_Initiators+Completers_Patients_in_over_7_Visits)*"OUD_within_3_months_%"
+	(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"OUD_within_3_months_%"
 	~	pts
 	~	"Health Services definition"-based middle quality standard - the number of \
 		patients with OUD who initiated psychotherapy in the past 3 months.
@@ -1684,21 +1689,21 @@ Sankey_E9=
 	|
 
 HS_Silver_Standard_for_Depression=
-	(Total_Initiators+Completers_Patients_in_over_7_Visits)*"DEP_within_3_months_%"
+	(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"DEP_within_3_months_%"
 	~	pts
 	~	"Health Services definition"-based middle quality standard - the number of \
 		patients with depression who initiated psychotherapy in the past 3 months.
 	|
 
 HS_Silver_Standard_for_PTSD=
-	(Total_Initiators+Completers_Patients_in_over_7_Visits)*"PTSD_within_3_months_%"
+	(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"PTSD_within_3_months_%"
 	~	pts
 	~	"Health Services definition"-based middle quality standard - the number of \
 		patients with PTSD who initiated psychotherapy in the past 3 months.
 	|
 
 HS_Silver_Standard_for_AUD=
-	(Total_Initiators+Completers_Patients_in_over_7_Visits)*"AUD_within_3_months_%"
+	(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"AUD_within_3_months_%"
 	~	pts
 	~	"Health Services definition"-based middle quality standard - the number of \
 		patients with AUDwho initiated psychotherapy in the past 3 months.
@@ -1924,7 +1929,7 @@ Starting_Rate=
 	~	:SUPPLEMENTARY 
 	|
 
-User_Change_in_RVI_after_Months= GAME (
+User_Change_in_RVI_of_Patient's_Past_3_Months= GAME (
 	0)
 	~	Dmnl [-0.75,2,0.25]
 	~	This is a relative change in patients' return-to-clinic visit interval \
@@ -2235,7 +2240,7 @@ HS_Bronze_Standard_for_PTSD=
 	|
 
 "HS_Gold_Standard_-_All"=
-	Completers_Patients_in_over_7_Visits
+	Completers_Patients_in_Over_7_Visits
 	~	pts
 	~	Number of patients who are receiving a full, timely dose in their first 3 \
 		months (i.e., completed 8+ visits within 3 months).  These are the \
@@ -2243,7 +2248,7 @@ HS_Bronze_Standard_for_PTSD=
 	|
 
 HS_Gold_Standard_for_PTSD=
-	(Completers_Patients_in_over_7_Visits*"PTSD_within_3_months_%")
+	(Completers_Patients_in_Over_7_Visits*"PTSD_within_3_months_%")
 	~	pts
 	~	"Health Services definition"-based highest quality standard - the number \
 		of patients with PTSD who completed psychotherapy in the past 3 months.
@@ -2258,7 +2263,7 @@ HS_Gold_Standard_for_PTSD=
 	|
 
 HS_Gold_Standard_for_OUD=
-	(Completers_Patients_in_over_7_Visits*"OUD_within_3_months_%")
+	(Completers_Patients_in_Over_7_Visits*"OUD_within_3_months_%")
 	~	pts
 	~	"Health Services definition"-based highest quality standard - the number \
 		of patients with OUD who completed psychotherapy in the past 3 months.
@@ -2266,7 +2271,7 @@ HS_Gold_Standard_for_OUD=
 	|
 
 HS_Gold_Standard_for_Depression=
-	(Completers_Patients_in_over_7_Visits*"DEP_within_3_months_%")
+	(Completers_Patients_in_Over_7_Visits*"DEP_within_3_months_%")
 	~	pts
 	~	"Health Services definition"-based highest quality standard - the number \
 		of patients with depression who completed psychotherapy in the past 3 \
@@ -2282,7 +2287,7 @@ User_Change_in_Engagement_Duration_after_Three_Months= GAME (
 	|
 
 HS_Gold_Standard_for_AUD=
-	(Completers_Patients_in_over_7_Visits*"AUD_within_3_months_%")
+	(Completers_Patients_in_Over_7_Visits*"AUD_within_3_months_%")
 	~	pts
 	~	"Health Services definition"-based highest quality standard - the number \
 		of patients with AUD who completed psychotherapy in the past 3 months.
@@ -2419,7 +2424,7 @@ User_Reserve_Appointments_for_New_Patients= GAME (
 		quitting early (i.e., the team has no "One-and-Dones").   (pct)
 	|
 
-"User_Completers_Who_Graduate_%"= GAME (
+"User_Completers_who_Graduate_%"= GAME (
 	-0.05)
 	~	Dmnl [-1,1,0.05]
 	~	This slider controls the proportion of patients who, after completing a \
@@ -2474,7 +2479,7 @@ User_Reserve_Appointments_for_New_Patients= GAME (
 	|
 
 Initiators_Patients_in_Visits_2_to_7=
-	Initiators_Who_Will_Quit+Initiators_Who_Will_Return+Initiators_Who_Will_Continue
+	Initiators_who_will_Quit+Initiators_who_will_Return+Initiators_who_will_Continue
 	~	pts
 	~	Total number of patients scheduled for their 2-7th visit within their \
 		first three months engaged in care. (pts)
@@ -2502,7 +2507,7 @@ Initiators_Patients_in_Visits_2_to_7=
 	~		|
 
 Total_Initiators=
-	Initiators_Who_Will_Quit+Initiators_Who_Will_Return+Initiators_Who_Will_Continue
+	Initiators_who_will_Quit+Initiators_who_will_Return+Initiators_who_will_Continue
 	~	pts
 	~	Number of patients who are completing 2-7 visits in their first 3 months.  \
 		These are the "Initiators" (but they may or may not become "Completers").
@@ -2560,8 +2565,8 @@ Patients_in_Care_More_Than_3_Months=
 	|
 
 "Total_Pts_<3months"=
-	Starters_Patients_in_First_Visit+Initiators_Who_Will_Return+Completers_Patients_in_over_7_Visits\
-		+Initiators_Who_Will_Quit+Initiators_Who_Will_Continue
+	Starters_Patients_in_First_Visit+Initiators_who_will_Return+Completers_Patients_in_Over_7_Visits\
+		+Initiators_who_will_Quit+Initiators_who_will_Continue
 	~	pts
 	~	Number of patients who started psychotherapy in the past three months.
 	|
@@ -2896,7 +2901,7 @@ User_Reserve_Appointments_for_New_Patients,0,10,1
 12,5,7868178,258,468,80,20,3,124,0,0,0,0,0,0,0,0,0,0,0,0
 "User_Starters_Who_Return_Later_%",-0.05,1,0.05
 12,6,13174784,238,1038,80,20,3,124,0,0,0,0,0,0,0,0,0,0,0,0
-"User_Completers_Who_Graduate_%",-0.05,1,0.05
+"User_Completers_who_Graduate_%",-0.05,1,0.05
 12,7,0,285,341,158,23,8,135,0,24,-1,0,0,0,-1--1--1,0-0-0,|12|U|0-0-0,0,0,0,0,0,0
 Engagement Pattern Experiments:
 12,8,0,234,148,93,17,8,135,0,24,-1,0,0,0,-1--1--1,0-0-0,|12|U|0-0-0,0,0,0,0,0,0
@@ -2934,7 +2939,7 @@ Performance_Measures_Overview
 12,24,6360438,422,1187,80,20,3,124,0,0,0,0,0,0,0,0,0,0,0,0
 User_Change_in_Engagement_Duration_after_Three_Months,-0.75,2,0.25
 12,25,5311962,422,1264,80,20,3,124,0,0,0,0,0,0,0,0,0,0,0,0
-User_Change_in_RVI_after_Months,-0.75,2,0.25
+User_Change_in_RVI_of_Patient's_Past_3_Months,-0.75,2,0.25
 12,26,3935982,130,1192,80,20,3,124,0,0,0,0,0,0,0,0,0,0,0,0
 User_Implement_Intensive_Outpatient_Program,0,1,1
 \\\---/// Sketch information - do not modify anything except names
@@ -2953,1124 +2958,1124 @@ OUD
 V300  Do not put anything below this section - it will be ignored
 *Supply Used
 $192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,75,0
-10,1,Appointment Supply,698,110,44,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,2,Appointments Available for New Patients,811,52,79,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,3,"Supply Used by Pts >3mo",848,201,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,4,1,2,0,0,0,0,0,64,0,-1--1--1,,1|(747,84)|
-10,5,"RVI <3mo - 1Visit",1258,-39,59,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,6,"RVI <3mo - 2-7Visits-n-More>3mo",1444,-12,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,7,6,29,0,0,0,0,0,64,0,-1--1--1,,1|(1281,65)|
-10,8,"RVI <3mo - 8-12 Visits",1545,316,62,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,9,8,31,1,0,0,0,0,64,0,-1--1--1,,1|(1324,272)|
-10,10,Starters Patients in First Visit,1256,-4,56,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,11,Initiators Who Will Return,1429,32,48,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,12,Completers Patients in over 7 Visits,1537,364,60,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,13,10,30,0,0,0,0,0,128,0,-1--1--1,,1|(1184,23)|
-1,14,11,29,0,0,0,0,0,128,0,-1--1--1,,1|(1276,87)|
-1,15,12,31,1,0,0,0,0,128,0,-1--1--1,,1|(1333,300)|
-10,16,"RVI >3mo - 1Visit-LowD",502,479,37,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,17,"RVI >3mo - 2-7Visits-LowD",1291,477,46,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,18,"RVI >3mo - 8-12Visits-LowD",1986,443,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,19,"RVI >3mo - 1Visit-MidD",514,568,36,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,20,"RVI >3mo - 2-7Visits-MidD",1286,577,45,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,21,"RVI >3mo - 8-12Visits-MidD",1975,541,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,22,"RVI >3mo - 1Visit-HighD",522,667,39,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,23,"RVI >3mo - 2-7Visits-HighD",1290,669,48,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,24,"RVI >3mo - 8-12Visits-HighD",1977,644,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,25,Initiators Who Will Quit,1424,146,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,26,Initiators Who Will Continue,1430,247,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,27,"RVI <3mo - 2-7Visits-n-done",1427,112,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,28,"RVI <3mo - 2-7Visits-n-More<3mo",1431,205,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,29,Supply Used by Initiators,1107,150,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,30,Supply Used by New Patients,1100,57,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,31,Supply Used by Completers,1100,229,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,32,27,29,0,0,0,0,0,64,0,-1--1--1,,1|(1268,130)|
-1,33,25,29,0,0,0,0,0,64,0,-1--1--1,,1|(1270,147)|
-1,34,28,29,0,0,0,0,0,64,0,-1--1--1,,1|(1263,176)|
-1,35,26,29,0,0,0,0,0,64,0,-1--1--1,,1|(1268,198)|
-1,36,30,39,0,0,0,0,0,64,0,-1--1--1,,1|(1036,106)|
-1,37,29,39,0,0,0,0,0,64,0,-1--1--1,,1|(1047,154)|
-1,38,31,39,0,0,0,0,0,64,0,-1--1--1,,1|(1037,199)|
-10,39,"Supply Used by Pts <3mo",962,164,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,40,28,8,1,0,0,0,0,64,0,-1--1--1,,1|(1544,262)|
-1,41,3,82,0,0,0,0,0,64,0,-1--1--1,,1|(849,160)|
-10,42,Supply Used by New Patients who Return,194,541,68,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,43,22,42,0,0,0,0,0,64,0,-1--1--1,,1|(371,609)|
-1,44,16,42,0,0,0,0,0,64,0,-1--1--1,,1|(370,505)|
-1,45,19,42,0,0,0,0,0,64,0,-1--1--1,,1|(376,556)|
-10,46,"From Starters-HighD",507,696,55,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,47,46,42,0,0,0,0,0,64,0,-1--1--1,,1|(365,626)|
-10,48,"From Starters-LowD",501,510,53,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,49,48,42,0,0,0,0,0,64,0,-1--1--1,,1|(361,523)|
-10,50,"From Starters-MidD",508,598,51,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,51,50,42,0,0,0,0,0,64,0,-1--1--1,,1|(366,572)|
-10,52,Supply Used by Initiators who Return,873,593,71,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,53,Supply Used by Completers who Continue,1671,568,55,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,54,23,52,0,0,0,0,0,64,0,-1--1--1,,1|(1099,634)|
-1,55,17,52,0,0,0,0,0,64,0,-1--1--1,,1|(1101,529)|
-1,56,20,52,0,0,0,0,0,64,0,-1--1--1,,1|(1099,583)|
-10,57,"From Initiators-HighD",1286,697,63,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,58,57,52,0,0,0,0,0,64,0,-1--1--1,,1|(1102,650)|
-10,59,"From Initiators-LowD",1292,506,61,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,60,59,52,0,0,0,0,0,64,0,-1--1--1,,1|(1100,545)|
-10,61,"From Initiators-MidD",1278,606,58,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,62,61,52,0,0,0,0,0,64,0,-1--1--1,,1|(1088,600)|
-1,63,24,53,0,0,0,0,0,64,0,-1--1--1,,1|(1827,606)|
-1,64,18,53,0,0,0,0,0,64,0,-1--1--1,,1|(1837,501)|
-1,65,21,53,0,0,0,0,0,64,0,-1--1--1,,1|(1826,553)|
-10,66,"From Completers-HighD",1977,676,64,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,67,66,53,0,0,0,0,0,64,0,-1--1--1,,1|(1844,628)|
-10,68,"From Completers-LowD",1985,472,62,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,69,68,53,0,0,0,0,0,64,0,-1--1--1,,1|(1846,514)|
-10,70,"From Completers-MidD",1974,572,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,71,70,53,0,0,0,0,0,64,0,-1--1--1,,1|(1827,570)|
-1,72,42,3,1,0,0,0,0,128,0,-1--1--1,,1|(863,395)|
-1,73,52,3,1,0,0,0,0,128,0,-1--1--1,,1|(893,412)|
-1,74,53,3,1,0,0,0,0,128,0,-1--1--1,,1|(1336,314)|
-12,75,0,783,382,61,61,6,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0,0,0,0,0,0,0
+10,1,Appointment Supply,698,337,44,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,2,Appointments Available for New Patients,811,279,79,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,3,"Supply Used by Pts >3mo",848,428,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,4,1,2,0,0,0,0,0,64,0,-1--1--1,,1|(747,311)|
+10,5,"RVI <3mo - 1Visit",1258,188,59,11,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,6,"RVI <3mo - 2-7Visits-n-More>3mo",1444,215,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,7,6,29,0,0,0,0,0,64,0,-1--1--1,,1|(1281,293)|
+10,8,"RVI <3mo - 8-12 Visits",1545,543,62,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,9,8,31,1,0,0,0,0,64,0,-1--1--1,,1|(1324,499)|
+10,10,Starters Patients in First Visit,1256,223,56,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,11,Initiators who will Return,1429,259,48,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,12,Completers Patients in Over 7 Visits,1537,591,60,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,13,10,30,0,0,0,0,0,128,0,-1--1--1,,1|(1184,252)|
+1,14,11,29,0,0,0,0,0,128,0,-1--1--1,,1|(1276,314)|
+1,15,12,31,1,0,0,0,0,128,0,-1--1--1,,1|(1333,527)|
+10,16,"RVI >3mo - 1Visit-LowD",502,706,37,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,17,"RVI >3mo - 2-7Visits-LowD",1291,704,46,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,18,"RVI >3mo - 8-12Visits-LowD",1986,670,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,19,"RVI >3mo - 1Visit-MidD",514,795,36,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,20,"RVI >3mo - 2-7Visits-MidD",1286,804,45,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,21,"RVI >3mo - 8-12Visits-MidD",1975,768,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,22,"RVI >3mo - 1Visit-HighD",522,894,39,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,23,"RVI >3mo - 2-7Visits-HighD",1290,896,48,16,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,24,"RVI >3mo - 8-12Visits-HighD",1977,871,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,25,Initiators who will Quit,1424,373,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,26,Initiators who will Continue,1430,474,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,27,"RVI <3mo - 2-7Visits-n-done",1427,339,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,28,"RVI <3mo - 2-7Visits-n-More<3mo",1431,432,76,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,29,Supply Used by Initiators,1107,377,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,30,Supply Used by New Patients,1100,284,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,31,Supply Used by Completers,1100,456,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,32,27,29,0,0,0,0,0,64,0,-1--1--1,,1|(1268,357)|
+1,33,25,29,0,0,0,0,0,64,0,-1--1--1,,1|(1270,374)|
+1,34,28,29,0,0,0,0,0,64,0,-1--1--1,,1|(1263,403)|
+1,35,26,29,0,0,0,0,0,64,0,-1--1--1,,1|(1268,425)|
+1,36,30,39,0,0,0,0,0,64,0,-1--1--1,,1|(1036,333)|
+1,37,29,39,0,0,0,0,0,64,0,-1--1--1,,1|(1047,381)|
+1,38,31,39,0,0,0,0,0,64,0,-1--1--1,,1|(1037,426)|
+10,39,"Supply Used by Pts <3mo",962,391,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,40,28,8,1,0,0,0,0,64,0,-1--1--1,,1|(1544,489)|
+1,41,3,82,0,0,0,0,0,64,0,-1--1--1,,1|(849,387)|
+10,42,Supply Used by New Patients who Return,194,768,68,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,43,22,42,0,0,0,0,0,64,0,-1--1--1,,1|(371,836)|
+1,44,16,42,0,0,0,0,0,64,0,-1--1--1,,1|(370,732)|
+1,45,19,42,0,0,0,0,0,64,0,-1--1--1,,1|(376,783)|
+10,46,"From Starters-HighD",507,923,55,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,47,46,42,0,0,0,0,0,64,0,-1--1--1,,1|(365,853)|
+10,48,"From Starters-LowD",501,737,53,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,49,48,42,0,0,0,0,0,64,0,-1--1--1,,1|(361,750)|
+10,50,"From Starters-MidD",508,825,51,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,51,50,42,0,0,0,0,0,64,0,-1--1--1,,1|(366,799)|
+10,52,Supply Used by Initiators who Return,873,820,71,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,53,Supply Used by Completers who Continue,1671,795,55,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,54,23,52,0,0,0,0,0,64,0,-1--1--1,,1|(1099,861)|
+1,55,17,52,0,0,0,0,0,64,0,-1--1--1,,1|(1101,756)|
+1,56,20,52,0,0,0,0,0,64,0,-1--1--1,,1|(1099,810)|
+10,57,"From Initiators-HighD",1286,924,63,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,58,57,52,0,0,0,0,0,64,0,-1--1--1,,1|(1102,877)|
+10,59,"From Initiators-LowD",1292,733,61,10,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,60,59,52,0,0,0,0,0,64,0,-1--1--1,,1|(1100,772)|
+10,61,"From Initiators-MidD",1278,833,58,11,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,62,61,52,0,0,0,0,0,64,0,-1--1--1,,1|(1088,827)|
+1,63,24,53,0,0,0,0,0,64,0,-1--1--1,,1|(1827,833)|
+1,64,18,53,0,0,0,0,0,64,0,-1--1--1,,1|(1837,728)|
+1,65,21,53,0,0,0,0,0,64,0,-1--1--1,,1|(1826,780)|
+10,66,"From Completers-HighD",1977,903,64,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,67,66,53,0,0,0,0,0,64,0,-1--1--1,,1|(1844,855)|
+10,68,"From Completers-LowD",1985,699,62,10,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,69,68,53,0,0,0,0,0,64,0,-1--1--1,,1|(1846,741)|
+10,70,"From Completers-MidD",1974,799,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,71,70,53,0,0,0,0,0,64,0,-1--1--1,,1|(1827,797)|
+1,72,42,3,1,0,0,0,0,128,0,-1--1--1,,1|(863,622)|
+1,73,52,3,1,0,0,0,0,128,0,-1--1--1,,1|(893,639)|
+1,74,53,3,1,0,0,0,0,128,0,-1--1--1,,1|(1336,541)|
+12,75,0,783,609,61,61,6,135,0,16,-1,0,0,0,-1--1--1,0-0-0,|10|I|0-0-0,0,0,0,0,0,0
 Frequency data only include visits that happened, not visits that were missed
-10,76,User Appointment Supply,696,216,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,77,76,1,0,0,0,0,0,128,0,-1--1--1,,1|(696,169)|
-10,78,"Appointment Supply (75th percentile)",599,152,68,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,79,78,1,0,0,0,0,0,128,0,-1--1--1,,1|(643,133)|
-10,80,User Reserve Appointments for New Patients,939,-3,75,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,81,80,2,0,0,0,0,0,128,0,-1--1--1,,1|(881,21)|
-10,82,Appointments for Existing Patients,852,106,58,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,83,39,82,0,0,0,0,0,128,0,-1--1--1,,1|(913,138)|
-1,84,82,2,0,0,0,0,0,128,0,-1--1--1,,1|(835,84)|
-10,85,User Change in RVI after Months,1092,762,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-10,86,Bars E3,1157,-69,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,87,5,86,0,1,0,0,0,128,0,-1--1--1,,1|(1208,-54)|
-10,88,Median Time in Visit 1,1268,-103,45,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,89,88,86,0,1,0,0,0,128,0,-1--1--1,,1|(1209,-86)|
-10,90,Bars E4,775,798,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,91,16,90,0,1,0,0,0,128,0,-1--1--1,,1|(635,635)|
-1,92,19,90,0,1,0,0,0,128,0,-1--1--1,,1|(641,680)|
-1,93,22,90,0,1,0,0,0,128,0,-1--1--1,,1|(646,731)|
-10,94,"Engagement Time - From 1 Visit (1st Quartile)",647,753,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,95,94,90,0,1,0,0,0,64,0,-1--1--1,,1|(719,778)|
-10,96,"Starting LowD %",1273,1042,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,97,96,90,0,1,0,0,0,64,0,-1--1--1,,1|(1021,918)|
-10,98,"Engagement Time - From 1 Visit (Mean)",659,816,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,99,98,90,0,1,0,0,0,64,0,-1--1--1,,1|(730,805)|
-10,100,"Engagement Time - From 1 Visit (4th Quartile)",659,871,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,101,100,90,0,1,0,0,0,64,0,-1--1--1,,1|(717,833)|
-10,102,"Starting HighD %",1266,1146,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,103,102,90,0,1,0,0,0,64,0,-1--1--1,,1|(1019,971)|
-10,104,"Starting MidD %",1264,1097,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,105,104,90,0,1,0,0,0,64,0,-1--1--1,,1|(1017,946)|
-10,106,Bars E5,1712,118,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,107,27,106,0,1,0,0,0,128,0,-1--1--1,,1|(1580,114)|
-10,108,"Data ET - Initiators Who Quit Early",1835,104,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,109,108,106,0,1,0,0,0,64,0,-1--1--1,,1|(1759,112)|
-10,110,Bars E6,1704,-35,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,111,6,110,0,1,0,0,0,128,0,-1--1--1,,1|(1592,-25)|
-10,112,"Bars E6 >3mo",1357,862,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,113,17,112,0,1,0,0,0,128,0,-1--1--1,,1|(1322,665)|
-1,114,20,112,0,1,0,0,0,128,0,-1--1--1,,1|(1319,715)|
-1,115,23,112,0,1,0,0,0,128,0,-1--1--1,,1|(1321,761)|
-10,116,"Engagement Time - From 2 to 7 Visits (1st Quartile)",1181,863,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,117,116,112,0,1,0,0,0,64,0,-1--1--1,,1|(1275,862)|
-10,118,"Engagement Time - From 2 to 7 Visits (Mean)",1198,907,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,119,118,112,0,1,0,0,0,64,0,-1--1--1,,1|(1286,881)|
-10,120,"Engagement Time - From 2 to 7 Visits (4th Quartile)",1217,949,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,121,120,112,0,1,0,0,0,64,0,-1--1--1,,1|(1288,904)|
-10,122,"ET - Initiators Who Return",1742,-84,51,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,123,122,110,0,1,0,0,0,64,0,-1--1--1,,1|(1723,-61)|
-10,124,Bars E7,1714,235,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,125,28,124,0,1,0,0,0,128,0,-1--1--1,,1|(1590,221)|
-10,126,"Data ET - Initiators Who Complete",1730,181,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,127,126,124,0,1,0,0,0,64,0,-1--1--1,,1|(1723,205)|
-10,128,Bars E8,1708,307,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,129,8,128,0,1,0,0,0,128,0,-1--1--1,,1|(1637,310)|
-10,130,"ET - Completers who Graduate",1730,272,59,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,131,130,128,0,1,0,0,0,64,0,-1--1--1,,1|(1720,289)|
-10,132,Bars E9,1704,809,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,133,24,132,0,1,0,0,0,128,0,-1--1--1,,1|(1838,727)|
-1,134,21,132,0,1,0,0,0,128,0,-1--1--1,,1|(1839,674)|
-1,135,18,132,0,1,0,0,0,128,0,-1--1--1,,1|(1845,624)|
-1,136,96,112,0,1,0,0,0,128,0,-1--1--1,,1|(1313,953)|
-1,137,104,112,0,1,0,0,0,128,0,-1--1--1,,1|(1308,981)|
-1,138,102,112,0,1,0,0,0,128,0,-1--1--1,,1|(1310,1006)|
-1,139,96,132,0,1,0,0,0,128,0,-1--1--1,,1|(1489,924)|
-1,140,104,132,0,1,0,0,0,128,0,-1--1--1,,1|(1484,952)|
-1,141,102,132,0,1,0,0,0,128,0,-1--1--1,,1|(1484,977)|
-10,142,"Engagement Time - From 8 or More Visits (1st Quartile)",1863,747,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,143,142,132,0,1,0,0,0,64,0,-1--1--1,,1|(1777,780)|
-10,144,"Engagement Time - From 8 or More Visits (Mean)",1858,821,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,145,144,132,0,1,0,0,0,64,0,-1--1--1,,1|(1763,814)|
-10,146,"Engagement Time - From 8 or More Visits (4th Quartile)",1845,882,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,147,146,132,0,1,0,0,0,64,0,-1--1--1,,1|(1772,844)|
-1,148,85,90,0,1,0,0,0,64,0,-1--1--1,,1|(914,781)|
-1,149,85,112,0,1,0,0,0,64,0,-1--1--1,,1|(1229,814)|
-1,150,85,132,0,1,0,0,0,64,0,-1--1--1,,1|(1417,786)|
-10,151,"Bars E4-Final",780,945,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,152,90,151,0,1,0,0,0,128,0,-1--1--1,,1|(776,864)|
-10,153,FINAL TIME,780,976,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,154,153,151,0,1,0,0,0,64,0,-1--1--1,,1|(780,967)|
-10,155,Time,780,976,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,156,155,151,0,1,0,0,0,64,0,-1--1--1,,1|(780,967)|
-10,157,"Bars E4-Initial",885,952,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,158,90,157,0,1,0,0,0,128,0,-1--1--1,,1|(825,869)|
-10,159,INITIAL TIME,885,983,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,160,159,157,0,1,0,0,0,64,0,-1--1--1,,1|(885,974)|
-10,161,Time,885,983,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,162,161,157,0,1,0,0,0,64,0,-1--1--1,,1|(885,974)|
-10,163,"Bars E6 >3mo-Final",1450,816,39,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,164,"Bars E6 >3mo-Initial",1462,890,42,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,165,"Bars E9-Final",1693,944,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,166,"Bars E9-Initial",1833,947,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,167,112,163,0,1,0,0,0,64,0,-1--1--1,,1|(1388,846)|
-10,168,FINAL TIME,1450,856,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,169,168,163,0,1,0,0,0,64,0,-1--1--1,,1|(1450,847)|
-10,170,Time,1450,856,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,171,170,163,0,1,0,0,0,64,0,-1--1--1,,1|(1450,847)|
-1,172,112,164,0,1,0,0,0,64,0,-1--1--1,,1|(1402,873)|
-10,173,INITIAL TIME,1462,930,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,174,173,164,0,1,0,0,0,64,0,-1--1--1,,1|(1462,921)|
-10,175,Time,1462,930,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,176,175,164,0,1,0,0,0,64,0,-1--1--1,,1|(1462,921)|
-1,177,132,166,0,1,0,0,0,64,0,-1--1--1,,1|(1763,872)|
-10,178,INITIAL TIME,1833,978,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,179,178,166,0,1,0,0,0,64,0,-1--1--1,,1|(1833,969)|
-10,180,Time,1833,978,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,181,180,166,0,1,0,0,0,64,0,-1--1--1,,1|(1833,969)|
-1,182,132,165,0,1,0,0,0,64,0,-1--1--1,,1|(1699,869)|
-10,183,FINAL TIME,1666,1008,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,184,183,165,0,1,0,0,0,64,0,-1--1--1,,1|(1676,982)|
-10,185,Time,1693,975,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,186,185,165,0,1,0,0,0,64,0,-1--1--1,,1|(1693,966)|
-10,187,Experiment wk,548,-48,58,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,188,187,1,0,1,0,0,0,128,0,-1--1--1,,1|(613,21)|
-10,189,Time,610,87,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,190,189,1,0,1,0,0,0,64,0,-1--1--1,,1|(639,94)|
-1,191,187,2,0,1,0,0,0,64,0,-1--1--1,,1|(660,-5)|
-10,192,Supply Available for New Pts who can start 2nd visit,762,-50,87,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,193,1,192,0,0,0,0,0,64,0,-1--1--1,,1|(727,36)|
-1,194,82,192,0,0,0,0,0,64,0,-1--1--1,,1|(810,34)|
-10,195,Ballpark Initial Appointments in Psychotherapy,1315,-181,55,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,196,Total Pts in Psych,1012,-259,43,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,197,Pts per appt,1614,267,51,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,198,187,90,0,1,0,0,0,64,0,-1--1--1,,1|(659,368)|
-1,199,187,112,0,1,0,0,0,64,0,-1--1--1,,1|(947,401)|
-1,200,187,132,0,1,0,0,0,64,0,-1--1--1,,1|(1119,376)|
-10,201,"RVI - Initiators who Complete",2014,131,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
-1,202,28,201,0,1,0,0,0,64,0,-1--1--1,,1|(1720,168)|
-10,203,"RVI - Initiators who Quit Early",2036,69,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
-1,204,27,203,0,1,0,0,0,64,0,-1--1--1,,1|(1722,91)|
-10,205,"RVI - Completers who Graduate",1990,194,58,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
-1,206,8,205,0,1,0,0,0,64,0,-1--1--1,,1|(1762,256)|
-10,207,"RVI - From 1 Visit (1st Quartile)",630,492,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,208,"RVI - From 1 Visit (Mean)",643,583,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,209,"RVI - From 1 Visit (4th Quartile)",652,681,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,210,"RVI - From 2 to 7 Visits (1st Quartile)",1450,485,64,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,211,"RVI - From 2 to 7 Visits (Mean)",1455,576,58,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,212,"RVI - From 2 to 7 Visits (4th Quartile)",1457,677,65,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,213,"RVI - From 8 or More Visits (1st Quartile)",2130,447,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,214,"RVI - From 8 or More Visits (Mean)",2117,547,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,215,"RVI - From 8 or More Visits (4th Quartile)",2128,651,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,216,16,207,0,1,0,0,0,128,0,-1--1--1,,1|(548,483)|
-1,217,19,208,0,1,0,0,0,128,0,-1--1--1,,1|(560,573)|
-1,218,22,209,0,1,0,0,0,128,0,-1--1--1,,1|(570,671)|
-1,219,17,210,0,1,0,0,0,128,0,-1--1--1,,1|(1354,479)|
-1,220,20,211,0,1,0,0,0,128,0,-1--1--1,,1|(1357,576)|
-1,221,23,212,0,1,0,0,0,128,0,-1--1--1,,1|(1358,671)|
-1,222,18,213,0,1,0,0,0,128,0,-1--1--1,,1|(2046,443)|
-1,223,21,214,0,1,0,0,0,128,0,-1--1--1,,1|(2034,542)|
-1,224,24,215,0,1,0,0,0,128,0,-1--1--1,,1|(2041,646)|
-10,225,Return Visit Interval,562,-102,39,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,226,User Implement Intensive Outpatient Program,1837,149,54,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,227,Effect of Implement IOP on Frequency,1591,138,66,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,228,226,227,0,0,0,0,0,128,0,-1--1--1,,1|(1726,143)|
-1,229,227,29,0,0,0,0,0,128,0,-1--1--1,,1|(1348,143)|
-1,230,227,31,0,0,0,0,0,128,0,-1--1--1,,1|(1344,183)|
-10,231,Time,1591,165,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,232,231,227,0,0,0,0,0,64,0,-1--1--1,,1|(1591,163)|
-10,233,Time for IOP to affect Frequency,1652,64,57,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,234,233,227,0,0,0,0,0,128,0,-1--1--1,,1|(1626,95)|
-10,235,Max Effect of IOP on Frequency,1591,206,68,20,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,236,235,227,0,0,0,0,0,64,0,-1--1--1,,1|(1591,179)|
-1,237,1,82,0,0,0,0,0,128,0,-1--1--1,,1|(761,108)|
-1,238,2,248,0,0,0,0,0,128,0,-1--1--1,,1|(851,-67)|
-1,239,82,248,0,0,0,0,0,128,0,-1--1--1,,1|(872,-40)|
-1,240,80,192,0,0,0,0,0,128,0,-1--1--1,,1|(857,-25)|
-1,241,187,192,0,0,0,0,0,64,0,-1--1--1,,1|(633,-49)|
-1,242,1,253,0,0,0,0,0,128,0,-1--1--1,,1|(906,-36)|
-10,243,Appointments in Psychotherapy,1011,-202,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,244,48,810,-208,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,245,247,243,4,0,0,22,0,0,0,-1--1--1,,1|(936,-208)|
-1,246,247,244,100,0,0,22,0,0,0,-1--1--1,,1|(854,-208)|
-11,247,48,895,-208,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,248,Booking Rate,895,-189,45,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,249,48,1188,-200,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,250,252,249,4,0,0,22,0,0,0,-1--1--1,,1|(1149,-200)|
-1,251,252,243,100,0,0,22,0,0,0,-1--1--1,,1|(1079,-200)|
-11,252,48,1114,-200,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,253,Completing Rate,1114,-181,55,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,254,195,243,0,0,0,0,0,128,1,-1--1--1,,1|(1162,-192)|
-1,255,253,195,0,0,0,0,0,128,0,-1--1--1,,1|(1207,-181)|
-10,256,"Avg RVI >3mo",1169,353,44,9,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,257,16,256,0,0,0,0,0,128,0,-1--1--1,,1|(825,418)|
-1,258,19,256,0,0,0,0,0,128,0,-1--1--1,,1|(838,461)|
-1,259,22,256,0,0,0,0,0,128,0,-1--1--1,,1|(845,509)|
-1,260,23,256,0,0,0,0,0,128,0,-1--1--1,,1|(1230,514)|
-1,261,20,256,0,0,0,0,0,128,0,-1--1--1,,1|(1228,467)|
-1,262,17,256,0,0,0,0,0,128,0,-1--1--1,,1|(1231,416)|
-1,263,18,256,0,0,0,0,0,128,0,-1--1--1,,1|(1575,397)|
-1,264,21,256,0,0,0,0,0,128,0,-1--1--1,,1|(1566,446)|
-1,265,24,256,0,0,0,0,0,128,0,-1--1--1,,1|(1564,495)|
-10,266,"Avg RVI >3mo",1452,-185,52,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,267,266,195,0,0,0,0,0,128,0,-1--1--1,,1|(1391,-184)|
-10,268,"Bars E5-Final",1839,-1,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,269,106,268,0,0,0,0,0,128,0,-1--1--1,,1|(1769,63)|
-10,270,FINAL TIME,1839,39,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,271,270,268,0,0,0,0,0,64,0,-1--1--1,,1|(1839,26)|
-10,272,Time,1839,39,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,273,272,268,0,0,0,0,0,64,0,-1--1--1,,1|(1839,26)|
-10,274,"Bars E7-Final",1851,239,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,275,"Bars E8-Final",1827,305,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,276,124,274,0,0,0,0,0,128,0,-1--1--1,,1|(1766,235)|
-1,277,128,275,0,0,0,0,0,128,0,-1--1--1,,1|(1751,306)|
-10,278,FINAL TIME,1851,270,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,279,278,274,0,0,0,0,0,64,0,-1--1--1,,1|(1851,261)|
-10,280,Time,1851,270,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,281,280,274,0,0,0,0,0,64,0,-1--1--1,,1|(1851,261)|
-10,282,FINAL TIME,1827,336,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,283,282,275,0,0,0,0,0,64,0,-1--1--1,,1|(1827,327)|
-10,284,Time,1827,336,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,285,284,275,0,0,0,0,0,64,0,-1--1--1,,1|(1827,327)|
-10,286,Pts per appt,1263,-64,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,287,286,30,0,0,0,0,0,128,0,-1--1--1,,1|(1194,-14)|
-10,288,Pts per appt,1548,337,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,289,Pts per appt,1425,84,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,290,Pts per appt,880,810,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,291,Pts per appt,1389,909,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,292,Pts per appt,1991,512,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,293,Pts per appt,1732,891,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,294,Pts per appt,1745,5,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,295,Pts per appt,1287,545,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,296,Pts per appt,516,536,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,297,289,29,0,0,0,0,0,128,0,-1--1--1,,1|(1276,114)|
-1,298,5,30,0,0,0,0,0,128,0,-1--1--1,,1|(1191,0)|
-1,299,288,31,0,0,0,0,0,128,0,-1--1--1,,1|(1337,286)|
-1,300,292,53,0,0,0,0,0,128,0,-1--1--1,,1|(1842,537)|
-1,301,295,52,0,0,0,0,0,128,0,-1--1--1,,1|(1099,566)|
-1,302,296,42,0,0,0,0,0,128,0,-1--1--1,,1|(372,537)|
-1,303,286,86,0,0,0,0,0,128,0,-1--1--1,,1|(1206,-67)|
-1,304,294,110,0,0,0,0,0,128,0,-1--1--1,,1|(1730,-10)|
-1,305,294,106,0,0,0,0,0,128,0,-1--1--1,,1|(1731,53)|
-1,306,197,124,0,0,0,0,0,128,0,-1--1--1,,1|(1661,251)|
-1,307,197,128,0,0,0,0,0,128,0,-1--1--1,,1|(1654,284)|
-1,308,293,132,0,0,0,0,0,128,0,-1--1--1,,1|(1720,857)|
-1,309,290,90,0,0,0,0,0,128,0,-1--1--1,,1|(824,803)|
-1,310,291,112,0,0,0,0,0,128,0,-1--1--1,,1|(1377,892)|
-10,311,"RVI Change Delayed by RVI - 2-7-LowD",1109,470,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,312,17,311,0,0,0,0,0,128,0,-1--1--1,,1|(1218,474)|
-1,313,85,311,0,0,0,0,0,64,0,-1--1--1,,1|(1099,622)|
-1,314,187,311,0,0,0,0,0,64,0,-1--1--1,,1|(817,201)|
-1,315,311,52,0,0,0,0,0,128,0,-1--1--1,,1|(997,528)|
-10,316,"RVI Change Delayed by RVI - 2-7-MidD",1118,552,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,317,"RVI Change Delayed by RVI - 2-7-HighD",1113,655,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,318,85,316,0,0,0,0,0,64,0,-1--1--1,,1|(1103,663)|
-1,319,187,316,0,0,0,0,0,64,0,-1--1--1,,1|(823,242)|
-1,320,20,316,0,0,0,0,0,64,0,-1--1--1,,1|(1221,567)|
-1,321,85,317,0,0,0,0,0,64,0,-1--1--1,,1|(1100,715)|
-1,322,187,317,0,0,0,0,0,64,0,-1--1--1,,1|(821,293)|
-1,323,23,317,0,0,0,0,0,64,0,-1--1--1,,1|(1224,664)|
-1,324,316,52,0,0,0,0,0,128,0,-1--1--1,,1|(1002,570)|
-1,325,317,52,0,0,0,0,0,128,0,-1--1--1,,1|(996,624)|
-10,326,"RVI Change Delayed by RVI - 1-LowD",381,472,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,327,"RVI Change Delayed by RVI - 1-MidD",390,554,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,328,"RVI Change Delayed by RVI - 1-HighD",385,657,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,329,16,326,0,0,0,0,0,128,0,-1--1--1,,1|(464,476)|
-1,330,19,327,0,0,0,0,0,128,0,-1--1--1,,1|(475,563)|
-1,331,22,328,0,0,0,0,0,128,0,-1--1--1,,1|(475,664)|
-1,332,85,328,0,0,0,0,0,64,0,-1--1--1,,1|(741,710)|
-1,333,187,328,0,0,0,0,0,64,0,-1--1--1,,1|(469,293)|
-1,334,85,327,0,0,0,0,0,64,0,-1--1--1,,1|(747,659)|
-1,335,187,327,0,0,0,0,0,64,0,-1--1--1,,1|(472,241)|
-1,336,85,326,0,0,0,0,0,64,0,-1--1--1,,1|(742,619)|
-1,337,187,326,0,0,0,0,0,64,0,-1--1--1,,1|(468,200)|
-1,338,326,42,0,0,0,0,0,128,0,-1--1--1,,1|(294,504)|
-1,339,327,42,0,0,0,0,0,128,0,-1--1--1,,1|(297,548)|
-1,340,328,42,0,0,0,0,0,128,0,-1--1--1,,1|(295,602)|
-10,341,"RVI Change Delayed by RVI - 8-12-LowD",1834,468,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,342,"RVI Change Delayed by RVI - 8-12-MidD",1843,550,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,343,"RVI Change Delayed by RVI - 8-12-HighD",1838,653,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,344,18,341,0,0,0,0,0,128,0,-1--1--1,,1|(1925,452)|
-1,345,21,342,0,0,0,0,0,128,0,-1--1--1,,1|(1924,544)|
-1,346,24,343,0,0,0,0,0,128,0,-1--1--1,,1|(1923,647)|
-1,347,85,341,0,0,0,0,0,64,0,-1--1--1,,1|(1455,617)|
-1,348,187,341,0,0,0,0,0,64,0,-1--1--1,,1|(1173,202)|
-1,349,85,342,0,0,0,0,0,64,0,-1--1--1,,1|(1460,657)|
-1,350,187,342,0,0,0,0,0,64,0,-1--1--1,,1|(1178,243)|
-1,351,85,343,0,0,0,0,0,64,0,-1--1--1,,1|(1457,708)|
-1,352,187,343,0,0,0,0,0,64,0,-1--1--1,,1|(1178,294)|
-1,353,341,53,0,0,0,0,0,128,0,-1--1--1,,1|(1766,509)|
-1,354,342,53,0,0,0,0,0,128,0,-1--1--1,,1|(1751,559)|
-1,355,343,53,0,0,0,0,0,128,0,-1--1--1,,1|(1768,617)|
+10,76,User Appointment Supply,696,443,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,77,76,1,0,0,0,0,0,128,0,-1--1--1,,1|(696,396)|
+10,78,"Appointment Supply (75th percentile)",599,379,68,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,79,78,1,0,0,0,0,0,128,0,-1--1--1,,1|(643,360)|
+10,80,User Reserve Appointments for New Patients,939,224,75,20,8,131,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,81,80,2,0,0,0,0,0,128,0,-1--1--1,,1|(881,248)|
+10,82,Appointments for Existing Patients,852,333,58,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,83,39,82,0,0,0,0,0,128,0,-1--1--1,,1|(913,365)|
+1,84,82,2,0,0,0,0,0,128,0,-1--1--1,,1|(835,311)|
+10,85,User Change in RVI of Patient's Past 3 Months,1092,989,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+10,86,Bars E3,1157,158,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,87,5,86,0,1,0,0,0,128,0,-1--1--1,,1|(1208,174)|
+10,88,Median Time in Visit 1,1268,124,45,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,89,88,86,0,1,0,0,0,128,0,-1--1--1,,1|(1209,142)|
+10,90,Bars E4,775,1025,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,91,16,90,0,1,0,0,0,128,0,-1--1--1,,1|(635,862)|
+1,92,19,90,0,1,0,0,0,128,0,-1--1--1,,1|(641,907)|
+1,93,22,90,0,1,0,0,0,128,0,-1--1--1,,1|(646,958)|
+10,94,"Engagement Time - From 1 Visit (1st Quartile)",647,980,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,95,94,90,0,1,0,0,0,64,0,-1--1--1,,1|(719,1005)|
+10,96,"Starting LowD %",1273,1269,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,97,96,90,0,1,0,0,0,64,0,-1--1--1,,1|(1021,1145)|
+10,98,"Engagement Time - From 1 Visit (Mean)",659,1043,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,99,98,90,0,1,0,0,0,64,0,-1--1--1,,1|(730,1032)|
+10,100,"Engagement Time - From 1 Visit (4th Quartile)",659,1098,67,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,101,100,90,0,1,0,0,0,64,0,-1--1--1,,1|(717,1060)|
+10,102,"Starting HighD %",1266,1373,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,103,102,90,0,1,0,0,0,64,0,-1--1--1,,1|(1019,1198)|
+10,104,"Starting MidD %",1264,1324,65,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,105,104,90,0,1,0,0,0,64,0,-1--1--1,,1|(1017,1173)|
+10,106,Bars E5,1712,345,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,107,27,106,0,1,0,0,0,128,0,-1--1--1,,1|(1580,341)|
+10,108,"Data ET - Initiators Who Quit Early",1835,331,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,109,108,106,0,1,0,0,0,64,0,-1--1--1,,1|(1759,339)|
+10,110,Bars E6,1704,192,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,111,6,110,0,1,0,0,0,128,0,-1--1--1,,1|(1592,203)|
+10,112,"Bars E6 >3mo",1357,1089,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,113,17,112,0,1,0,0,0,128,0,-1--1--1,,1|(1322,892)|
+1,114,20,112,0,1,0,0,0,128,0,-1--1--1,,1|(1319,942)|
+1,115,23,112,0,1,0,0,0,128,0,-1--1--1,,1|(1321,988)|
+10,116,"Engagement Time - From 2 to 7 Visits (1st Quartile)",1181,1090,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,117,116,112,0,1,0,0,0,64,0,-1--1--1,,1|(1275,1089)|
+10,118,"Engagement Time - From 2 to 7 Visits (Mean)",1198,1134,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,119,118,112,0,1,0,0,0,64,0,-1--1--1,,1|(1286,1108)|
+10,120,"Engagement Time - From 2 to 7 Visits (4th Quartile)",1217,1176,74,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,121,120,112,0,1,0,0,0,64,0,-1--1--1,,1|(1288,1131)|
+10,122,"ET - Initiators Who Return",1742,143,51,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,123,122,110,0,1,0,0,0,64,0,-1--1--1,,1|(1723,167)|
+10,124,Bars E7,1714,462,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,125,28,124,0,1,0,0,0,128,0,-1--1--1,,1|(1590,448)|
+10,126,"Data ET - Initiators Who Complete",1730,408,68,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,127,126,124,0,1,0,0,0,64,0,-1--1--1,,1|(1723,432)|
+10,128,Bars E8,1708,534,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,129,8,128,0,1,0,0,0,128,0,-1--1--1,,1|(1637,537)|
+10,130,"ET - Completers who Graduate",1730,499,59,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,131,130,128,0,1,0,0,0,64,0,-1--1--1,,1|(1720,516)|
+10,132,Bars E9,1704,1036,26,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,133,24,132,0,1,0,0,0,128,0,-1--1--1,,1|(1838,954)|
+1,134,21,132,0,1,0,0,0,128,0,-1--1--1,,1|(1839,901)|
+1,135,18,132,0,1,0,0,0,128,0,-1--1--1,,1|(1845,851)|
+1,136,96,112,0,1,0,0,0,128,0,-1--1--1,,1|(1313,1180)|
+1,137,104,112,0,1,0,0,0,128,0,-1--1--1,,1|(1308,1208)|
+1,138,102,112,0,1,0,0,0,128,0,-1--1--1,,1|(1310,1233)|
+1,139,96,132,0,1,0,0,0,128,0,-1--1--1,,1|(1489,1151)|
+1,140,104,132,0,1,0,0,0,128,0,-1--1--1,,1|(1484,1179)|
+1,141,102,132,0,1,0,0,0,128,0,-1--1--1,,1|(1484,1204)|
+10,142,"Engagement Time - From 8 or More Visits (1st Quartile)",1863,974,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,143,142,132,0,1,0,0,0,64,0,-1--1--1,,1|(1777,1007)|
+10,144,"Engagement Time - From 8 or More Visits (Mean)",1858,1048,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,145,144,132,0,1,0,0,0,64,0,-1--1--1,,1|(1763,1041)|
+10,146,"Engagement Time - From 8 or More Visits (4th Quartile)",1845,1109,75,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,147,146,132,0,1,0,0,0,64,0,-1--1--1,,1|(1772,1071)|
+1,148,85,90,0,1,0,0,0,64,0,-1--1--1,,1|(914,1008)|
+1,149,85,112,0,1,0,0,0,64,0,-1--1--1,,1|(1229,1041)|
+1,150,85,132,0,1,0,0,0,64,0,-1--1--1,,1|(1417,1013)|
+10,151,"Bars E4-Final",780,1172,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,152,90,151,0,1,0,0,0,128,0,-1--1--1,,1|(776,1091)|
+10,153,FINAL TIME,780,1203,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,154,153,151,0,1,0,0,0,64,0,-1--1--1,,1|(780,1194)|
+10,155,Time,780,1203,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,156,155,151,0,1,0,0,0,64,0,-1--1--1,,1|(780,1194)|
+10,157,"Bars E4-Initial",885,1179,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,158,90,157,0,1,0,0,0,128,0,-1--1--1,,1|(825,1096)|
+10,159,INITIAL TIME,885,1210,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,160,159,157,0,1,0,0,0,64,0,-1--1--1,,1|(885,1201)|
+10,161,Time,885,1210,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,162,161,157,0,1,0,0,0,64,0,-1--1--1,,1|(885,1201)|
+10,163,"Bars E6 >3mo-Final",1450,1043,39,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,164,"Bars E6 >3mo-Initial",1462,1117,42,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,165,"Bars E9-Final",1693,1171,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,166,"Bars E9-Initial",1833,1174,47,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,167,112,163,0,1,0,0,0,64,0,-1--1--1,,1|(1388,1073)|
+10,168,FINAL TIME,1450,1083,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,169,168,163,0,1,0,0,0,64,0,-1--1--1,,1|(1450,1074)|
+10,170,Time,1450,1083,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,171,170,163,0,1,0,0,0,64,0,-1--1--1,,1|(1450,1074)|
+1,172,112,164,0,1,0,0,0,64,0,-1--1--1,,1|(1402,1100)|
+10,173,INITIAL TIME,1462,1157,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,174,173,164,0,1,0,0,0,64,0,-1--1--1,,1|(1462,1148)|
+10,175,Time,1462,1157,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,176,175,164,0,1,0,0,0,64,0,-1--1--1,,1|(1462,1148)|
+1,177,132,166,0,1,0,0,0,64,0,-1--1--1,,1|(1763,1099)|
+10,178,INITIAL TIME,1833,1205,55,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,179,178,166,0,1,0,0,0,64,0,-1--1--1,,1|(1833,1196)|
+10,180,Time,1833,1205,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,181,180,166,0,1,0,0,0,64,0,-1--1--1,,1|(1833,1196)|
+1,182,132,165,0,1,0,0,0,64,0,-1--1--1,,1|(1699,1096)|
+10,183,FINAL TIME,1666,1235,49,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,184,183,165,0,1,0,0,0,64,0,-1--1--1,,1|(1676,1209)|
+10,185,Time,1693,1202,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,186,185,165,0,1,0,0,0,64,0,-1--1--1,,1|(1693,1193)|
+10,187,Experiment wk,548,179,58,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,188,187,1,0,1,0,0,0,128,0,-1--1--1,,1|(613,249)|
+10,189,Time,610,314,28,11,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,190,189,1,0,1,0,0,0,64,0,-1--1--1,,1|(639,321)|
+1,191,187,2,0,1,0,0,0,64,0,-1--1--1,,1|(660,223)|
+10,192,Supply Available for New Pts who can start 2nd visit,762,177,87,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,193,1,192,0,0,0,0,0,64,0,-1--1--1,,1|(727,264)|
+1,194,82,192,0,0,0,0,0,64,0,-1--1--1,,1|(810,262)|
+10,195,Ballpark Initial Appointments in Psychotherapy,1315,46,55,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,196,Total Pts in Psych,1012,-32,43,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,197,Pts per appt,1614,494,51,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,198,187,90,0,1,0,0,0,64,0,-1--1--1,,1|(659,595)|
+1,199,187,112,0,1,0,0,0,64,0,-1--1--1,,1|(947,628)|
+1,200,187,132,0,1,0,0,0,64,0,-1--1--1,,1|(1119,603)|
+10,201,"RVI - Initiators who Complete",2014,358,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
+1,202,28,201,0,1,0,0,0,64,0,-1--1--1,,1|(1720,395)|
+10,203,"RVI - Initiators who Quit Early",2036,296,66,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
+1,204,27,203,0,1,0,0,0,64,0,-1--1--1,,1|(1722,318)|
+10,205,"RVI - Completers who Graduate",1990,421,58,20,8,3,1,2,0,0,0,0,0-0-0,0-0-0,|10||255-128-0,0,0,0,0,0,0
+1,206,8,205,0,1,0,0,0,64,0,-1--1--1,,1|(1762,483)|
+10,207,"RVI - From 1 Visit (1st Quartile)",630,719,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,208,"RVI - From 1 Visit (Mean)",643,810,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,209,"RVI - From 1 Visit (4th Quartile)",652,908,59,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,210,"RVI - From 2 to 7 Visits (1st Quartile)",1450,712,64,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,211,"RVI - From 2 to 7 Visits (Mean)",1455,803,58,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,212,"RVI - From 2 to 7 Visits (4th Quartile)",1457,904,65,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,213,"RVI - From 8 or More Visits (1st Quartile)",2130,674,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,214,"RVI - From 8 or More Visits (Mean)",2117,774,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,215,"RVI - From 8 or More Visits (4th Quartile)",2128,878,71,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,216,16,207,0,1,0,0,0,128,0,-1--1--1,,1|(548,710)|
+1,217,19,208,0,1,0,0,0,128,0,-1--1--1,,1|(560,800)|
+1,218,22,209,0,1,0,0,0,128,0,-1--1--1,,1|(570,898)|
+1,219,17,210,0,1,0,0,0,128,0,-1--1--1,,1|(1354,706)|
+1,220,20,211,0,1,0,0,0,128,0,-1--1--1,,1|(1357,803)|
+1,221,23,212,0,1,0,0,0,128,0,-1--1--1,,1|(1358,898)|
+1,222,18,213,0,1,0,0,0,128,0,-1--1--1,,1|(2046,670)|
+1,223,21,214,0,1,0,0,0,128,0,-1--1--1,,1|(2034,769)|
+1,224,24,215,0,1,0,0,0,128,0,-1--1--1,,1|(2041,873)|
+10,225,Return Visit Interval,562,125,39,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,226,User Implement Intensive Outpatient Program,1837,376,54,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,227,Effect of Implement IOP on Frequency,1591,365,66,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,228,226,227,0,0,0,0,0,128,0,-1--1--1,,1|(1726,370)|
+1,229,227,29,0,0,0,0,0,128,0,-1--1--1,,1|(1348,370)|
+1,230,227,31,0,0,0,0,0,128,0,-1--1--1,,1|(1344,410)|
+10,231,Time,1591,392,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,232,231,227,0,0,0,0,0,64,0,-1--1--1,,1|(1591,390)|
+10,233,Time for IOP to affect Frequency,1652,291,57,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,234,233,227,0,0,0,0,0,128,0,-1--1--1,,1|(1626,322)|
+10,235,Max Effect of IOP on Frequency,1591,433,68,20,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,236,235,227,0,0,0,0,0,64,0,-1--1--1,,1|(1591,406)|
+1,237,1,82,0,0,0,0,0,128,0,-1--1--1,,1|(761,335)|
+1,238,2,248,0,0,0,0,0,128,0,-1--1--1,,1|(851,161)|
+1,239,82,248,0,0,0,0,0,128,0,-1--1--1,,1|(872,188)|
+1,240,80,192,0,0,0,0,0,128,0,-1--1--1,,1|(857,202)|
+1,241,187,192,0,0,0,0,0,64,0,-1--1--1,,1|(633,179)|
+1,242,1,253,0,0,0,0,0,128,0,-1--1--1,,1|(906,192)|
+10,243,Appointments in Psychotherapy,1011,25,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,244,48,810,19,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,245,247,243,4,0,0,22,0,0,0,-1--1--1,,1|(936,19)|
+1,246,247,244,100,0,0,22,0,0,0,-1--1--1,,1|(854,19)|
+11,247,48,895,19,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,248,Booking Rate,895,38,45,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,249,48,1188,27,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,250,252,249,4,0,0,22,0,0,0,-1--1--1,,1|(1149,27)|
+1,251,252,243,100,0,0,22,0,0,0,-1--1--1,,1|(1079,27)|
+11,252,48,1114,27,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,253,Completing Rate,1114,46,55,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,254,195,243,0,0,0,0,0,128,1,-1--1--1,,1|(1162,37)|
+1,255,253,195,0,0,0,0,0,128,0,-1--1--1,,1|(1207,46)|
+10,256,"Avg RVI >3mo",1169,580,44,9,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,257,16,256,0,0,0,0,0,128,0,-1--1--1,,1|(825,645)|
+1,258,19,256,0,0,0,0,0,128,0,-1--1--1,,1|(838,688)|
+1,259,22,256,0,0,0,0,0,128,0,-1--1--1,,1|(845,736)|
+1,260,23,256,0,0,0,0,0,128,0,-1--1--1,,1|(1230,741)|
+1,261,20,256,0,0,0,0,0,128,0,-1--1--1,,1|(1228,694)|
+1,262,17,256,0,0,0,0,0,128,0,-1--1--1,,1|(1231,643)|
+1,263,18,256,0,0,0,0,0,128,0,-1--1--1,,1|(1575,624)|
+1,264,21,256,0,0,0,0,0,128,0,-1--1--1,,1|(1566,673)|
+1,265,24,256,0,0,0,0,0,128,0,-1--1--1,,1|(1564,722)|
+10,266,"Avg RVI >3mo",1452,42,52,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,267,266,195,0,0,0,0,0,128,0,-1--1--1,,1|(1391,44)|
+10,268,"Bars E5-Final",1839,226,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,269,106,268,0,0,0,0,0,128,0,-1--1--1,,1|(1769,291)|
+10,270,FINAL TIME,1839,266,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,271,270,268,0,0,0,0,0,64,0,-1--1--1,,1|(1839,253)|
+10,272,Time,1839,266,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,273,272,268,0,0,0,0,0,64,0,-1--1--1,,1|(1839,253)|
+10,274,"Bars E7-Final",1851,466,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,275,"Bars E8-Final",1827,532,44,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,276,124,274,0,0,0,0,0,128,0,-1--1--1,,1|(1766,462)|
+1,277,128,275,0,0,0,0,0,128,0,-1--1--1,,1|(1751,533)|
+10,278,FINAL TIME,1851,497,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,279,278,274,0,0,0,0,0,64,0,-1--1--1,,1|(1851,488)|
+10,280,Time,1851,497,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,281,280,274,0,0,0,0,0,64,0,-1--1--1,,1|(1851,488)|
+10,282,FINAL TIME,1827,563,49,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,283,282,275,0,0,0,0,0,64,0,-1--1--1,,1|(1827,554)|
+10,284,Time,1827,563,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,285,284,275,0,0,0,0,0,64,0,-1--1--1,,1|(1827,554)|
+10,286,Pts per appt,1263,163,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,287,286,30,0,0,0,0,0,128,0,-1--1--1,,1|(1194,214)|
+10,288,Pts per appt,1548,564,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,289,Pts per appt,1425,311,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,290,Pts per appt,880,1037,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,291,Pts per appt,1389,1136,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,292,Pts per appt,1991,739,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,293,Pts per appt,1732,1118,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,294,Pts per appt,1745,232,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,295,Pts per appt,1287,772,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,296,Pts per appt,516,763,46,9,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,297,289,29,0,0,0,0,0,128,0,-1--1--1,,1|(1276,341)|
+1,298,5,30,0,0,0,0,0,128,0,-1--1--1,,1|(1191,228)|
+1,299,288,31,0,0,0,0,0,128,0,-1--1--1,,1|(1337,513)|
+1,300,292,53,0,0,0,0,0,128,0,-1--1--1,,1|(1842,764)|
+1,301,295,52,0,0,0,0,0,128,0,-1--1--1,,1|(1099,793)|
+1,302,296,42,0,0,0,0,0,128,0,-1--1--1,,1|(372,764)|
+1,303,286,86,0,0,0,0,0,128,0,-1--1--1,,1|(1206,161)|
+1,304,294,110,0,0,0,0,0,128,0,-1--1--1,,1|(1730,218)|
+1,305,294,106,0,0,0,0,0,128,0,-1--1--1,,1|(1731,281)|
+1,306,197,124,0,0,0,0,0,128,0,-1--1--1,,1|(1661,478)|
+1,307,197,128,0,0,0,0,0,128,0,-1--1--1,,1|(1654,511)|
+1,308,293,132,0,0,0,0,0,128,0,-1--1--1,,1|(1720,1084)|
+1,309,290,90,0,0,0,0,0,128,0,-1--1--1,,1|(824,1030)|
+1,310,291,112,0,0,0,0,0,128,0,-1--1--1,,1|(1377,1119)|
+10,311,"RVI Change Delayed by RVI - 2-7-LowD",1109,697,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,312,17,311,0,0,0,0,0,128,0,-1--1--1,,1|(1218,701)|
+1,313,85,311,0,0,0,0,0,64,0,-1--1--1,,1|(1099,849)|
+1,314,187,311,0,0,0,0,0,64,0,-1--1--1,,1|(817,428)|
+1,315,311,52,0,0,0,0,0,128,0,-1--1--1,,1|(997,755)|
+10,316,"RVI Change Delayed by RVI - 2-7-MidD",1118,779,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,317,"RVI Change Delayed by RVI - 2-7-HighD",1113,882,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,318,85,316,0,0,0,0,0,64,0,-1--1--1,,1|(1103,890)|
+1,319,187,316,0,0,0,0,0,64,0,-1--1--1,,1|(823,469)|
+1,320,20,316,0,0,0,0,0,64,0,-1--1--1,,1|(1221,794)|
+1,321,85,317,0,0,0,0,0,64,0,-1--1--1,,1|(1100,942)|
+1,322,187,317,0,0,0,0,0,64,0,-1--1--1,,1|(821,520)|
+1,323,23,317,0,0,0,0,0,64,0,-1--1--1,,1|(1224,891)|
+1,324,316,52,0,0,0,0,0,128,0,-1--1--1,,1|(1002,797)|
+1,325,317,52,0,0,0,0,0,128,0,-1--1--1,,1|(996,851)|
+10,326,"RVI Change Delayed by RVI - 1-LowD",381,699,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,327,"RVI Change Delayed by RVI - 1-MidD",390,781,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,328,"RVI Change Delayed by RVI - 1-HighD",385,884,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,329,16,326,0,0,0,0,0,128,0,-1--1--1,,1|(464,703)|
+1,330,19,327,0,0,0,0,0,128,0,-1--1--1,,1|(475,790)|
+1,331,22,328,0,0,0,0,0,128,0,-1--1--1,,1|(475,891)|
+1,332,85,328,0,0,0,0,0,64,0,-1--1--1,,1|(741,937)|
+1,333,187,328,0,0,0,0,0,64,0,-1--1--1,,1|(469,520)|
+1,334,85,327,0,0,0,0,0,64,0,-1--1--1,,1|(747,886)|
+1,335,187,327,0,0,0,0,0,64,0,-1--1--1,,1|(472,468)|
+1,336,85,326,0,0,0,0,0,64,0,-1--1--1,,1|(742,846)|
+1,337,187,326,0,0,0,0,0,64,0,-1--1--1,,1|(468,427)|
+1,338,326,42,0,0,0,0,0,128,0,-1--1--1,,1|(294,731)|
+1,339,327,42,0,0,0,0,0,128,0,-1--1--1,,1|(297,775)|
+1,340,328,42,0,0,0,0,0,128,0,-1--1--1,,1|(295,829)|
+10,341,"RVI Change Delayed by RVI - 8-12-LowD",1834,695,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,342,"RVI Change Delayed by RVI - 8-12-MidD",1843,777,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,343,"RVI Change Delayed by RVI - 8-12-HighD",1838,880,80,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,344,18,341,0,0,0,0,0,128,0,-1--1--1,,1|(1925,679)|
+1,345,21,342,0,0,0,0,0,128,0,-1--1--1,,1|(1924,771)|
+1,346,24,343,0,0,0,0,0,128,0,-1--1--1,,1|(1923,874)|
+1,347,85,341,0,0,0,0,0,64,0,-1--1--1,,1|(1455,844)|
+1,348,187,341,0,0,0,0,0,64,0,-1--1--1,,1|(1173,429)|
+1,349,85,342,0,0,0,0,0,64,0,-1--1--1,,1|(1460,884)|
+1,350,187,342,0,0,0,0,0,64,0,-1--1--1,,1|(1178,470)|
+1,351,85,343,0,0,0,0,0,64,0,-1--1--1,,1|(1457,935)|
+1,352,187,343,0,0,0,0,0,64,0,-1--1--1,,1|(1178,521)|
+1,353,341,53,0,0,0,0,0,128,0,-1--1--1,,1|(1766,736)|
+1,354,342,53,0,0,0,0,0,128,0,-1--1--1,,1|(1751,786)|
+1,355,343,53,0,0,0,0,0,128,0,-1--1--1,,1|(1768,844)|
 \\\---/// Sketch information - do not modify anything except names
 V300  Do not put anything below this section - it will be ignored
 *Psychotherapy Service
 $192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,75,0
-10,1,Starters Patients in First Visit,302,6,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,2,48,139,-3,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-12,3,48,472,5,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,4,6,3,4,0,0,22,0,0,0,-1--1--1,,1|(435,5)|
-1,5,6,1,100,0,0,22,0,0,0,-1--1--1,,1|(369,5)|
-11,6,48,402,5,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,7,Ending First Visit,402,24,54,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,8,Median Time in Visit 1,430,127,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,9,8,7,1,0,0,0,0,64,0,-1--1--1,,1|(424,73)|
-1,10,1,6,1,0,0,0,0,64,0,-1--1--1,,1|(356,-23)|
-10,11,Initiators Who Will Return,1001,481,51,20,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-12,12,48,829,482,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,13,15,11,4,0,0,22,0,0,0,-1--1--1,,1|(924,481)|
-1,14,15,12,100,0,0,22,0,0,0,-1--1--1,,1|(863,481)|
-11,15,48,893,481,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,16,Initation Rate who will Return,893,519,62,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
-12,17,48,1160,480,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,18,20,17,4,0,0,22,0,0,0,-1--1--1,,1|(1112,480)|
-1,19,20,11,100,0,0,22,0,0,0,-1--1--1,,1|(1112,481)|
-11,20,48,1112,519,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,21,Initiators Continue Treatment Rate after 3 Months,1112,557,101,30,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
-10,22,"ET - Initiators Who Return",1189,441,54,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,23,22,20,0,0,0,0,0,64,0,-1--1--1,,1|(1147,482)|
-1,24,11,20,1,0,0,0,0,64,0,-1--1--1,,1|(1044,452)|
-10,25,Completers Patients in over 7 Visits,1504,341,45,34,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-12,26,48,1336,318,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,27,29,25,4,0,0,22,0,0,0,-1--1--1,,1|(1433,318)|
-1,28,29,26,100,0,0,22,0,0,0,-1--1--1,,1|(1371,318)|
-11,29,48,1402,318,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,30,Completion Rate,1402,343,54,17,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
-12,31,48,1669,326,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,32,34,31,4,0,0,22,0,0,0,-1--1--1,,1|(1642,333)|
-1,33,34,25,100,0,0,22,0,0,0,-1--1--1,,1|(1581,333)|
-11,34,48,1619,333,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,35,Ending After 8 or More Visits Rate,1619,361,57,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
-10,36,"ET - Completers who Graduate",1650,257,39,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,37,36,34,0,0,0,0,0,64,0,-1--1--1,,1|(1634,295)|
-1,38,25,34,1,0,0,0,0,64,0,-1--1--1,,1|(1553,298)|
-10,39,"Actual Starters Who Initiate %",647,256,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,40,"From Starters-LowD",310,820,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,41,48,146,817,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,42,44,40,4,0,0,22,0,0,0,-1--1--1,,1|(244,819)|
-1,43,44,41,100,0,0,22,0,0,0,-1--1--1,,1|(181,819)|
-11,44,48,212,819,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,45,From Starters into Low D,212,847,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,46,48,479,825,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,47,49,46,4,0,0,22,0,0,0,-1--1--1,,1|(442,826)|
-1,48,49,40,100,0,0,22,0,0,0,-1--1--1,,1|(376,826)|
-11,49,48,409,826,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,50,From Starters Ending Low D,409,854,46,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,51,40,49,1,0,0,0,0,64,0,-1--1--1,,1|(366,794)|
-10,52,"From Starters-MidD",310,947,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,53,48,147,936,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,54,56,52,4,0,0,22,0,0,0,-1--1--1,,1|(244,938)|
-1,55,56,53,100,0,0,22,0,0,0,-1--1--1,,1|(182,938)|
-11,56,48,213,938,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,57,From Starters into Mid D,213,966,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,58,48,480,944,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,59,61,58,4,0,0,22,0,0,0,-1--1--1,,1|(443,945)|
-1,60,61,52,100,0,0,22,0,0,0,-1--1--1,,1|(377,945)|
-11,61,48,410,945,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,62,From Starters Ending Mid D,410,973,46,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,63,52,61,1,0,0,0,0,64,0,-1--1--1,,1|(364,916)|
-10,64,"From Starters-HighD",320,1060,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,65,48,157,1049,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,66,68,64,4,0,0,22,0,0,0,-1--1--1,,1|(254,1051)|
-1,67,68,65,100,0,0,22,0,0,0,-1--1--1,,1|(192,1051)|
-11,68,48,223,1051,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,69,From Starters into High D,223,1079,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,70,48,490,1057,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,71,73,70,4,0,0,22,0,0,0,-1--1--1,,1|(453,1058)|
-1,72,73,64,100,0,0,22,0,0,0,-1--1--1,,1|(387,1058)|
-11,73,48,420,1058,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,74,From Starters Ending High D,420,1086,48,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,75,64,73,1,0,0,0,0,64,0,-1--1--1,,1|(374,1029)|
-10,76,"Starting MidD %",258,909,54,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,77,"Starting HighD %",273,1024,57,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,78,77,68,0,0,0,0,0,64,0,-1--1--1,,1|(246,1038)|
-1,79,76,57,0,0,0,0,0,64,0,-1--1--1,,1|(243,927)|
-10,80,"Starting LowD %",271,779,56,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,81,80,44,0,0,0,0,0,128,0,-1--1--1,,1|(241,798)|
-10,82,"Actual Starters Who Return Later %",-111,666,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,83,"From Initiators-LowD",1064,826,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,84,48,901,817,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,85,87,83,4,0,0,22,0,0,0,-1--1--1,,1|(998,817)|
-1,86,87,84,100,0,0,22,0,0,0,-1--1--1,,1|(936,817)|
-11,87,48,967,817,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,88,From Initiators into Low D,967,845,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,89,48,1234,825,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,90,92,89,4,0,0,22,0,0,0,-1--1--1,,1|(1197,824)|
-1,91,92,83,100,0,0,22,0,0,0,-1--1--1,,1|(1131,824)|
-11,92,48,1164,824,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,93,From Initiators Ending Low D,1164,852,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,94,"Engagement Time - From 2 to 7 Visits (1st Quartile)",1226,782,85,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,95,94,92,0,0,0,0,0,64,0,-1--1--1,,1|(1188,807)|
-1,96,83,92,1,0,0,0,0,64,0,-1--1--1,,1|(1118,797)|
-10,97,"From Initiators-MidD",1065,945,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,98,48,902,941,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,99,101,97,4,0,0,22,0,0,0,-1--1--1,,1|(999,938)|
-1,100,101,98,100,0,0,22,0,0,0,-1--1--1,,1|(937,938)|
-11,101,48,968,938,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,102,From Initiators into Mid D,968,966,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,103,48,1235,944,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,104,106,103,4,0,0,22,0,0,0,-1--1--1,,1|(1198,943)|
-1,105,106,97,100,0,0,22,0,0,0,-1--1--1,,1|(1132,943)|
-11,106,48,1165,943,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,107,From Initiators Ending Mid D,1165,971,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,108,"Engagement Time - From 2 to 7 Visits (Mean)",1230,906,84,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,109,108,106,0,0,0,0,0,64,0,-1--1--1,,1|(1188,929)|
-1,110,97,106,1,0,0,0,0,64,0,-1--1--1,,1|(1119,916)|
-10,111,"From Initiators-HighD",1075,1058,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,112,48,912,1057,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,113,115,111,4,0,0,22,0,0,0,-1--1--1,,1|(1009,1054)|
-1,114,115,112,100,0,0,22,0,0,0,-1--1--1,,1|(947,1054)|
-11,115,48,978,1054,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,116,From Initiators into High D,978,1082,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,117,48,1245,1061,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,118,120,117,4,0,0,22,0,0,0,-1--1--1,,1|(1208,1056)|
-1,119,120,111,100,0,0,22,0,0,0,-1--1--1,,1|(1142,1056)|
-11,120,48,1175,1056,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,121,From Initiators Ending High D,1175,1084,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,122,"Engagement Time - From 2 to 7 Visits (4th Quartile)",1245,1014,86,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,123,122,120,0,0,0,0,0,64,0,-1--1--1,,1|(1202,1039)|
-1,124,111,120,1,0,0,0,0,64,0,-1--1--1,,1|(1129,1029)|
-10,125,"Actual Initiators Who Quit Early % including any IOP Effect",665,483,86,30,8,131,0,0,0,0,0,0,0,0,0,0,0,0
-1,126,21,87,1,0,0,0,0,64,0,-1--1--1,,1|(930,708)|
-1,127,21,101,1,0,0,0,0,64,0,-1--1--1,,1|(895,736)|
-1,128,21,115,1,0,0,0,0,64,0,-1--1--1,,1|(857,760)|
-10,129,"Starting LowD %",1070,764,53,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,130,"Starting MidD %",1008,904,51,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,131,"Starting HighD %",1024,1008,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,132,129,87,0,0,0,0,0,128,0,-1--1--1,,1|(1008,795)|
-1,133,130,101,0,0,0,0,0,128,0,-1--1--1,,1|(984,924)|
-1,134,131,116,0,0,0,0,0,128,0,-1--1--1,,1|(1004,1039)|
-10,135,"From Completers-LowD",1870,806,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,136,48,1707,797,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,137,139,135,4,0,0,22,0,0,0,-1--1--1,,1|(1804,799)|
-1,138,139,136,100,0,0,22,0,0,0,-1--1--1,,1|(1742,799)|
-11,139,48,1773,799,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,140,From Completers into Low D,1773,827,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,141,48,2040,805,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,142,144,141,4,0,0,22,0,0,0,-1--1--1,,1|(2003,807)|
-1,143,144,135,100,0,0,22,0,0,0,-1--1--1,,1|(1937,807)|
-11,144,48,1970,807,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,145,From Completers Ending Low D,1970,835,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,146,"Engagement Time - From 8 or More Visits (1st Quartile)",2032,755,92,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,147,146,144,0,0,0,0,0,64,0,-1--1--1,,1|(1996,784)|
-1,148,135,144,1,0,0,0,0,64,0,-1--1--1,,1|(1924,777)|
-10,149,"From Completers-MidD",1871,925,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,150,48,1708,916,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,151,153,149,4,0,0,22,0,0,0,-1--1--1,,1|(1805,918)|
-1,152,153,150,100,0,0,22,0,0,0,-1--1--1,,1|(1743,918)|
-11,153,48,1774,918,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,154,From Completers into Mid D,1774,946,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,155,48,2041,924,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,156,158,155,4,0,0,22,0,0,0,-1--1--1,,1|(2004,926)|
-1,157,158,149,100,0,0,22,0,0,0,-1--1--1,,1|(1938,926)|
-11,158,48,1971,926,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,159,From Completers Ending Mid D,1971,954,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,160,"Engagement Time - From 8 or More Visits (Mean)",2036,879,85,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,161,160,158,0,0,0,0,0,64,0,-1--1--1,,1|(1997,906)|
-1,162,149,158,1,0,0,0,0,64,0,-1--1--1,,1|(1925,896)|
-10,163,"From Completers-HighD",1881,1038,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,164,48,1718,1035,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,165,167,163,4,0,0,22,0,0,0,-1--1--1,,1|(1815,1035)|
-1,166,167,164,100,0,0,22,0,0,0,-1--1--1,,1|(1753,1035)|
-11,167,48,1784,1035,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,168,From Completers into High D,1784,1063,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,169,48,2051,1037,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,170,172,169,4,0,0,22,0,0,0,-1--1--1,,1|(2014,1039)|
-1,171,172,163,100,0,0,22,0,0,0,-1--1--1,,1|(1948,1039)|
-11,172,48,1981,1039,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,173,From Completers Ending High D,1981,1067,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-10,174,"Engagement Time - From 8 or More Visits (4th Quartile)",2051,990,93,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,175,174,172,0,0,0,0,0,64,0,-1--1--1,,1|(2009,1018)|
-1,176,163,172,1,0,0,0,0,64,0,-1--1--1,,1|(1935,1009)|
-10,177,"Actual Completers Who Graduate %",1918,460,57,27,8,131,0,0,0,0,0,0,0,0,0,0,0,0
-10,178,"Starting LowD %",1819,757,53,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,179,"Starting MidD %",1819,885,51,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,180,"Starting HighD %",1828,999,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,181,178,139,0,0,0,0,0,128,0,-1--1--1,,1|(1792,781)|
-1,182,179,153,0,0,0,0,0,128,0,-1--1--1,,1|(1790,905)|
-1,183,180,167,0,0,0,0,0,128,0,-1--1--1,,1|(1801,1020)|
-10,184,New Patient Scheduling Efficiency,327,165,70,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||64-160-98,0,0,0,0,0,0
-10,185,Pts per appt,213,155,41,11,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,186,Starting Psychotherapy,197,79,49,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,187,Appointments Available for New Patients,-127,77,60,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,188,184,186,0,0,0,0,0,128,0,-1--1--1,,1|(267,125)|
-1,189,185,186,0,0,0,0,0,128,0,-1--1--1,,1|(207,128)|
-10,190,EightPlusAfter,1952,1124,46,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,191,163,190,0,2,0,0,0,128,0,-1--1--1,,1|(1915,1080)|
-1,192,149,190,0,2,0,0,0,128,0,-1--1--1,,1|(1910,1022)|
-1,193,135,190,0,2,0,0,0,128,0,-1--1--1,,1|(1910,962)|
-10,194,TwoSevenAfter,1104,1176,51,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,195,111,194,0,2,0,0,0,128,0,-1--1--1,,1|(1088,1114)|
-1,196,97,194,0,2,0,0,0,128,0,-1--1--1,,1|(1083,1058)|
-1,197,83,194,0,2,0,0,0,128,0,-1--1--1,,1|(1083,998)|
-10,198,OneAfter,484,1164,31,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,199,64,198,0,2,0,0,0,128,0,-1--1--1,,1|(402,1112)|
-1,200,52,198,0,2,0,0,0,128,0,-1--1--1,,1|(396,1054)|
-1,201,40,198,0,2,0,0,0,128,0,-1--1--1,,1|(395,990)|
-10,202,Initiators Who Will Quit,1033,159,42,28,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-12,203,48,868,151,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,204,206,202,4,0,0,22,0,0,0,-1--1--1,,1|(961,149)|
-1,205,206,203,100,0,0,22,0,0,0,-1--1--1,,1|(898,149)|
-11,206,48,925,149,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,207,Initiation Rate who will Quit,925,177,64,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
-12,208,48,1264,152,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,209,211,208,4,0,0,22,0,0,0,-1--1--1,,1|(1211,152)|
-1,210,211,202,100,0,0,22,0,0,0,-1--1--1,,1|(1115,152)|
-11,211,48,1162,152,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,212,Ending During Visit 2 to 7 Rate,1162,180,69,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,213,125,207,1,0,0,0,0,128,0,-1--1--1,,1|(816,257)|
-1,214,202,211,1,0,0,0,0,128,0,-1--1--1,,1|(1112,120)|
-10,215,"Data ET - Initiators Who Quit Early",1227,87,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,216,215,211,0,0,0,0,0,128,0,-1--1--1,,1|(1191,122)|
-10,217,Initiators Who Will Continue,1036,317,53,19,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-1,218,219,217,4,0,0,22,2,0,0,-1--1--1,|12||0-0-0,1|(949,321)|
-11,219,2312,909,321,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,220,Initiation Rate who will Complete,909,349,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-12,221,48,1256,319,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,222,224,221,4,0,0,22,0,0,0,-1--1--1,,1|(1213,319)|
-1,223,224,217,100,0,0,22,0,0,0,-1--1--1,,1|(1128,319)|
-11,224,48,1174,319,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,225,Continuting on to Visit 8 Rate,1174,347,58,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,226,217,224,1,0,0,0,0,128,0,-1--1--1,,1|(1135,285)|
-10,227,"Data ET - Initiators Who Complete",1219,254,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,228,227,224,0,0,0,0,0,128,0,-1--1--1,,1|(1195,288)|
-1,229,225,30,1,0,0,0,0,128,0,-1--1--1,,1|(1283,344)|
-10,230,"Actual Initiators Who Complete %",1050,397,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,231,125,16,0,0,0,0,0,128,0,-1--1--1,,1|(784,501)|
-10,232,Patients in Care More Than 3 Months,1009,1268,72,20,8,3,2,0,0,0,0,0,0,0,0,0,0,0
-1,233,198,232,0,2,0,0,0,128,0,-1--1--1,,1|(719,1210)|
-1,234,194,232,0,2,0,0,0,128,0,-1--1--1,,1|(1066,1212)|
-1,235,190,232,0,2,0,0,0,128,0,-1--1--1,,1|(1500,1192)|
-1,236,8,36,1,0,0,0,0,128,0,-1--1--1,,1|(1217,-67)|
-1,237,227,36,1,0,0,0,0,128,0,-1--1--1,,1|(1416,198)|
-12,238,0,699,1183,113,113,6,135,0,0,-1,0,0,0,0,0,0,0,0,0
+10,1,Starters Patients in First Visit,664,132,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,2,48,501,123,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+12,3,48,834,131,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,4,6,3,4,0,0,22,0,0,0,-1--1--1,,1|(797,131)|
+1,5,6,1,100,0,0,22,0,0,0,-1--1--1,,1|(731,131)|
+11,6,48,764,131,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,7,Ending First Visit,764,150,54,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,8,Median Time in Visit 1,792,253,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,9,8,7,1,0,0,0,0,64,0,-1--1--1,,1|(786,199)|
+1,10,1,6,1,0,0,0,0,64,0,-1--1--1,,1|(718,103)|
+10,11,Initiators who will Return,1363,607,51,20,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+12,12,48,1191,608,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,13,15,11,4,0,0,22,0,0,0,-1--1--1,,1|(1286,607)|
+1,14,15,12,100,0,0,22,0,0,0,-1--1--1,,1|(1225,607)|
+11,15,48,1255,607,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,16,Initation Rate who will Return,1255,645,62,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
+12,17,48,1522,606,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,18,20,17,4,0,0,22,0,0,0,-1--1--1,,1|(1488,610)|
+1,19,20,11,100,0,0,22,0,0,0,-1--1--1,,1|(1433,610)|
+11,20,48,1458,610,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,21,Initiators Continue Treatment Rate after 3 Months,1458,648,101,30,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
+10,22,"ET - Initiators Who Return",1551,567,54,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,23,22,20,0,0,0,0,0,64,0,-1--1--1,,1|(1491,594)|
+1,24,11,20,1,0,0,0,0,64,0,-1--1--1,,1|(1406,578)|
+10,25,Completers Patients in Over 7 Visits,1861,453,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,26,48,1698,444,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,27,29,25,4,0,0,22,0,0,0,-1--1--1,,1|(1795,444)|
+1,28,29,26,100,0,0,22,0,0,0,-1--1--1,,1|(1733,444)|
+11,29,48,1764,444,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,30,Completion Rate,1764,463,55,11,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
+12,31,48,2031,452,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,32,34,31,4,0,0,22,0,0,0,-1--1--1,,1|(1994,452)|
+1,33,34,25,100,0,0,22,0,0,0,-1--1--1,,1|(1928,452)|
+11,34,48,1961,452,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,35,Ending After 8 or More Visits Rate,1961,487,57,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
+10,36,"ET - Completers who Graduate",2012,383,39,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,37,36,34,0,0,0,0,0,64,0,-1--1--1,,1|(1985,419)|
+1,38,25,34,1,0,0,0,0,64,0,-1--1--1,,1|(1915,424)|
+10,39,"Actual Starters Who Initiate %",1009,382,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,40,"From Starters-LowD",672,946,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,41,48,508,943,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,42,44,40,4,0,0,22,0,0,0,-1--1--1,,1|(606,945)|
+1,43,44,41,100,0,0,22,0,0,0,-1--1--1,,1|(543,945)|
+11,44,48,574,945,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,45,From Starters into Low D,574,973,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,46,48,841,951,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,47,49,46,4,0,0,22,0,0,0,-1--1--1,,1|(804,952)|
+1,48,49,40,100,0,0,22,0,0,0,-1--1--1,,1|(738,952)|
+11,49,48,771,952,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,50,From Starters Ending Low D,771,980,46,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,51,40,49,1,0,0,0,0,64,0,-1--1--1,,1|(728,920)|
+10,52,"From Starters-MidD",672,1073,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,53,48,509,1062,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,54,56,52,4,0,0,22,0,0,0,-1--1--1,,1|(606,1064)|
+1,55,56,53,100,0,0,22,0,0,0,-1--1--1,,1|(544,1064)|
+11,56,48,575,1064,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,57,From Starters into Mid D,575,1092,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,58,48,842,1070,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,59,61,58,4,0,0,22,0,0,0,-1--1--1,,1|(805,1071)|
+1,60,61,52,100,0,0,22,0,0,0,-1--1--1,,1|(739,1071)|
+11,61,48,772,1071,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,62,From Starters Ending Mid D,772,1099,46,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,63,52,61,1,0,0,0,0,64,0,-1--1--1,,1|(726,1042)|
+10,64,"From Starters-HighD",682,1186,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,65,48,519,1175,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,66,68,64,4,0,0,22,0,0,0,-1--1--1,,1|(616,1177)|
+1,67,68,65,100,0,0,22,0,0,0,-1--1--1,,1|(554,1177)|
+11,68,48,585,1177,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,69,From Starters into High D,585,1205,60,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,70,48,852,1183,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,71,73,70,4,0,0,22,0,0,0,-1--1--1,,1|(815,1184)|
+1,72,73,64,100,0,0,22,0,0,0,-1--1--1,,1|(749,1184)|
+11,73,48,782,1184,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,74,From Starters Ending High D,782,1212,48,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,75,64,73,1,0,0,0,0,64,0,-1--1--1,,1|(736,1155)|
+10,76,"Starting MidD %",620,1035,54,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,77,"Starting HighD %",635,1150,57,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,78,77,68,0,0,0,0,0,64,0,-1--1--1,,1|(608,1164)|
+1,79,76,57,0,0,0,0,0,64,0,-1--1--1,,1|(605,1053)|
+10,80,"Starting LowD %",633,905,56,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,81,80,44,0,0,0,0,0,128,0,-1--1--1,,1|(603,924)|
+10,82,"Actual Starters Who Return Later %",251,792,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,83,"From Initiators-LowD",1426,952,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,84,48,1263,943,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,85,87,83,4,0,0,22,0,0,0,-1--1--1,,1|(1360,943)|
+1,86,87,84,100,0,0,22,0,0,0,-1--1--1,,1|(1298,943)|
+11,87,48,1329,943,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,88,From Initiators into Low D,1329,971,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,89,48,1596,951,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,90,92,89,4,0,0,22,0,0,0,-1--1--1,,1|(1559,950)|
+1,91,92,83,100,0,0,22,0,0,0,-1--1--1,,1|(1493,950)|
+11,92,48,1526,950,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,93,From Initiators Ending Low D,1526,978,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,94,"Engagement Time - From 2 to 7 Visits (1st Quartile)",1588,908,85,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,95,94,92,0,0,0,0,0,64,0,-1--1--1,,1|(1550,933)|
+1,96,83,92,1,0,0,0,0,64,0,-1--1--1,,1|(1480,923)|
+10,97,"From Initiators-MidD",1427,1071,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,98,48,1264,1067,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,99,101,97,4,0,0,22,0,0,0,-1--1--1,,1|(1361,1064)|
+1,100,101,98,100,0,0,22,0,0,0,-1--1--1,,1|(1299,1064)|
+11,101,48,1330,1064,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,102,From Initiators into Mid D,1330,1092,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,103,48,1597,1070,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,104,106,103,4,0,0,22,0,0,0,-1--1--1,,1|(1560,1069)|
+1,105,106,97,100,0,0,22,0,0,0,-1--1--1,,1|(1494,1069)|
+11,106,48,1527,1069,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,107,From Initiators Ending Mid D,1527,1097,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,108,"Engagement Time - From 2 to 7 Visits (Mean)",1592,1032,84,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,109,108,106,0,0,0,0,0,64,0,-1--1--1,,1|(1550,1055)|
+1,110,97,106,1,0,0,0,0,64,0,-1--1--1,,1|(1481,1042)|
+10,111,"From Initiators-HighD",1437,1184,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,112,48,1274,1183,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,113,115,111,4,0,0,22,0,0,0,-1--1--1,,1|(1371,1180)|
+1,114,115,112,100,0,0,22,0,0,0,-1--1--1,,1|(1309,1180)|
+11,115,48,1340,1180,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,116,From Initiators into High D,1340,1208,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,117,48,1607,1187,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,118,120,117,4,0,0,22,0,0,0,-1--1--1,,1|(1570,1182)|
+1,119,120,111,100,0,0,22,0,0,0,-1--1--1,,1|(1504,1182)|
+11,120,48,1537,1182,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,121,From Initiators Ending High D,1537,1210,49,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,122,"Engagement Time - From 2 to 7 Visits (4th Quartile)",1607,1140,86,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,123,122,120,0,0,0,0,0,64,0,-1--1--1,,1|(1564,1165)|
+1,124,111,120,1,0,0,0,0,64,0,-1--1--1,,1|(1491,1155)|
+10,125,"Actual Initiators Who Quit Early % including any IOP Effect",1027,609,86,30,8,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,126,21,87,1,0,0,0,0,64,0,-1--1--1,,1|(1271,826)|
+1,127,21,101,1,0,0,0,0,64,0,-1--1--1,,1|(1229,850)|
+1,128,21,115,1,0,0,0,0,64,0,-1--1--1,,1|(1186,872)|
+10,129,"Starting LowD %",1432,890,53,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,130,"Starting MidD %",1370,1030,51,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,131,"Starting HighD %",1386,1134,55,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,132,129,87,0,0,0,0,0,128,0,-1--1--1,,1|(1370,921)|
+1,133,130,101,0,0,0,0,0,128,0,-1--1--1,,1|(1346,1050)|
+1,134,131,116,0,0,0,0,0,128,0,-1--1--1,,1|(1366,1165)|
+10,135,"From Completers-LowD",2232,932,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,136,48,2069,923,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,137,139,135,4,0,0,22,0,0,0,-1--1--1,,1|(2166,925)|
+1,138,139,136,100,0,0,22,0,0,0,-1--1--1,,1|(2104,925)|
+11,139,48,2135,925,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,140,From Completers into Low D,2135,953,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,141,48,2402,931,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,142,144,141,4,0,0,22,0,0,0,-1--1--1,,1|(2365,933)|
+1,143,144,135,100,0,0,22,0,0,0,-1--1--1,,1|(2299,933)|
+11,144,48,2332,933,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,145,From Completers Ending Low D,2332,961,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,146,"Engagement Time - From 8 or More Visits (1st Quartile)",2394,881,92,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,147,146,144,0,0,0,0,0,64,0,-1--1--1,,1|(2358,910)|
+1,148,135,144,1,0,0,0,0,64,0,-1--1--1,,1|(2286,903)|
+10,149,"From Completers-MidD",2233,1051,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,150,48,2070,1042,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,151,153,149,4,0,0,22,0,0,0,-1--1--1,,1|(2167,1044)|
+1,152,153,150,100,0,0,22,0,0,0,-1--1--1,,1|(2105,1044)|
+11,153,48,2136,1044,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,154,From Completers into Mid D,2136,1072,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,155,48,2403,1050,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,156,158,155,4,0,0,22,0,0,0,-1--1--1,,1|(2366,1052)|
+1,157,158,149,100,0,0,22,0,0,0,-1--1--1,,1|(2300,1052)|
+11,158,48,2333,1052,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,159,From Completers Ending Mid D,2333,1080,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,160,"Engagement Time - From 8 or More Visits (Mean)",2398,1005,85,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,161,160,158,0,0,0,0,0,64,0,-1--1--1,,1|(2359,1032)|
+1,162,149,158,1,0,0,0,0,64,0,-1--1--1,,1|(2287,1022)|
+10,163,"From Completers-HighD",2243,1164,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,164,48,2080,1161,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,165,167,163,4,0,0,22,0,0,0,-1--1--1,,1|(2177,1161)|
+1,166,167,164,100,0,0,22,0,0,0,-1--1--1,,1|(2115,1161)|
+11,167,48,2146,1161,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,168,From Completers into High D,2146,1189,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,169,48,2413,1163,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,170,172,169,4,0,0,22,0,0,0,-1--1--1,,1|(2376,1165)|
+1,171,172,163,100,0,0,22,0,0,0,-1--1--1,,1|(2310,1165)|
+11,172,48,2343,1165,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,173,From Completers Ending High D,2343,1193,57,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+10,174,"Engagement Time - From 8 or More Visits (4th Quartile)",2413,1116,93,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,175,174,172,0,0,0,0,0,64,0,-1--1--1,,1|(2371,1144)|
+1,176,163,172,1,0,0,0,0,64,0,-1--1--1,,1|(2297,1135)|
+10,177,"Actual Completers Who Graduate %",2280,586,57,27,8,131,0,0,0,0,0,0,0,0,0,0,0,0
+10,178,"Starting LowD %",2181,883,53,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,179,"Starting MidD %",2181,1011,51,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,180,"Starting HighD %",2190,1125,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,181,178,139,0,0,0,0,0,128,0,-1--1--1,,1|(2154,907)|
+1,182,179,153,0,0,0,0,0,128,0,-1--1--1,,1|(2152,1031)|
+1,183,180,167,0,0,0,0,0,128,0,-1--1--1,,1|(2163,1146)|
+10,184,New Patient Scheduling Efficiency,689,291,70,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||64-160-98,0,0,0,0,0,0
+10,185,Pts per appt,575,281,41,11,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,186,Starting Psychotherapy,559,205,49,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,187,Appointments Available for New Patients,235,203,60,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,188,184,186,0,0,0,0,0,128,0,-1--1--1,,1|(629,252)|
+1,189,185,186,0,0,0,0,0,128,0,-1--1--1,,1|(569,255)|
+10,190,EightPlusAfter,2314,1250,46,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,191,163,190,0,2,0,0,0,128,0,-1--1--1,,1|(2277,1206)|
+1,192,149,190,0,2,0,0,0,128,0,-1--1--1,,1|(2272,1148)|
+1,193,135,190,0,2,0,0,0,128,0,-1--1--1,,1|(2272,1088)|
+10,194,TwoSevenAfter,1466,1302,51,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,195,111,194,0,2,0,0,0,128,0,-1--1--1,,1|(1450,1240)|
+1,196,97,194,0,2,0,0,0,128,0,-1--1--1,,1|(1445,1184)|
+1,197,83,194,0,2,0,0,0,128,0,-1--1--1,,1|(1445,1124)|
+10,198,OneAfter,846,1290,31,11,8,3,2,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,199,64,198,0,2,0,0,0,128,0,-1--1--1,,1|(764,1238)|
+1,200,52,198,0,2,0,0,0,128,0,-1--1--1,,1|(758,1180)|
+1,201,40,198,0,2,0,0,0,128,0,-1--1--1,,1|(757,1116)|
+10,202,Initiators who will Quit,1393,277,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,203,48,1230,277,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,204,206,202,4,0,0,22,0,0,0,-1--1--1,,1|(1323,275)|
+1,205,206,203,100,0,0,22,0,0,0,-1--1--1,,1|(1260,275)|
+11,206,48,1287,275,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,207,Initiation Rate who will Quit,1287,303,64,20,40,131,0,0,-1,0,0,0,0,0,0,0,0,0
+12,208,48,1626,278,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,209,211,208,4,0,0,22,0,0,0,-1--1--1,,1|(1573,278)|
+1,210,211,202,100,0,0,22,0,0,0,-1--1--1,,1|(1475,278)|
+11,211,48,1524,278,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,212,Ending During Visit 2 to 7 Rate,1524,306,69,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,213,125,207,1,0,0,0,0,128,0,-1--1--1,,1|(1178,383)|
+1,214,202,211,1,0,0,0,0,128,0,-1--1--1,,1|(1474,246)|
+10,215,"Data ET - Initiators Who Quit Early",1589,213,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,216,215,211,0,0,0,0,0,128,0,-1--1--1,,1|(1553,249)|
+10,217,Initiators who will Continue,1398,443,53,19,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,218,219,217,4,0,0,22,2,0,0,-1--1--1,|12||0-0-0,1|(1311,447)|
+11,219,2312,1271,447,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,220,Initiation Rate who will Complete,1271,475,64,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+12,221,48,1618,445,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,222,224,221,4,0,0,22,0,0,0,-1--1--1,,1|(1575,445)|
+1,223,224,217,100,0,0,22,0,0,0,-1--1--1,,1|(1490,445)|
+11,224,48,1536,445,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,225,Continuting on to Visit 8 Rate,1536,473,58,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,226,217,224,1,0,0,0,0,128,0,-1--1--1,,1|(1497,411)|
+10,227,"Data ET - Initiators Who Complete",1581,380,62,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,228,227,224,0,0,0,0,0,128,0,-1--1--1,,1|(1557,414)|
+1,229,225,30,1,0,0,0,0,128,0,-1--1--1,,1|(1648,472)|
+10,230,"Actual Initiators Who Complete %",1412,523,70,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,231,125,16,0,0,0,0,0,128,0,-1--1--1,,1|(1146,627)|
+10,232,Patients in Care More Than 3 Months,1371,1394,72,20,8,3,2,0,0,0,0,0,0,0,0,0,0,0
+1,233,198,232,0,2,0,0,0,128,0,-1--1--1,,1|(1081,1336)|
+1,234,194,232,0,2,0,0,0,128,0,-1--1--1,,1|(1428,1338)|
+1,235,190,232,0,2,0,0,0,128,0,-1--1--1,,1|(1862,1318)|
+1,236,8,36,1,0,0,0,0,128,0,-1--1--1,,1|(1579,59)|
+1,237,227,36,1,0,0,0,0,128,0,-1--1--1,,1|(1778,324)|
+12,238,0,1061,1309,113,113,6,135,0,0,-1,0,0,0,0,0,0,0,0,0
 For >3mo, the data pull will always underestimate the actual # of patients, because we only include patients with 1 or more visits in this past quarter.
-10,239,Initiators Patients in Visits 2 to 7,997,75,54,20,8,3,2,0,0,0,0,0,0,0,0,0,0,0
-1,240,11,239,0,2,0,0,0,128,0,-1--1--1,,1|(999,284)|
-1,241,217,239,0,2,0,0,0,128,0,-1--1--1,,1|(1017,203)|
-1,242,202,239,0,2,0,0,0,128,0,-1--1--1,,1|(1015,119)|
-12,243,48,861,322,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,244,219,243,100,0,0,22,0,0,0,-1--1--1,,1|(887,321)|
-10,245,"User Initiators Who Quit Early %",355,504,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-10,246,"Data Starters Who Initiate %",437,284,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,247,246,39,0,0,0,0,0,128,0,-1--1--1,,1|(523,272)|
-1,248,245,532,0,1,0,0,0,128,0,-1--1--1,,1|(481,462)|
-10,249,"Data Initiators Who Quit Early %",359,410,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,250,249,532,0,0,0,0,0,128,0,-1--1--1,,1|(480,412)|
-10,251,"User Starters Who Initiate %",513,227,71,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,252,251,39,0,1,0,0,0,128,0,-1--1--1,,1|(575,240)|
-10,253,"Data Initiators Who Complete %",1225,390,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,254,253,230,0,0,0,0,0,128,0,-1--1--1,,1|(1155,392)|
-10,255,"User Initiators Who Complete %",1369,414,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,256,255,230,0,1,0,0,0,128,0,-1--1--1,,1|(1214,405)|
-10,257,"User Starters Who Return Later %",-109,590,71,20,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-10,258,"Data Starters Who Return Later %",-264,663,52,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,259,257,82,0,1,0,0,0,128,0,-1--1--1,,1|(-110,621)|
-1,260,258,82,0,0,0,0,0,128,0,-1--1--1,,1|(-202,664)|
-10,261,"User Completers Who Graduate %",2084,533,55,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-10,262,"Data Completers Who Graduate %",2053,422,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,263,262,177,0,0,0,0,0,128,0,-1--1--1,,1|(1992,438)|
-1,264,261,177,0,1,0,0,0,128,0,-1--1--1,,1|(2008,499)|
-10,265,"Engagement Time - From 1 Visit (1st Quartile)",489,783,86,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,266,"Engagement Time - From 1 Visit (Mean)",506,901,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,267,"Engagement Time - From 1 Visit (4th Quartile)",513,1013,87,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,268,265,49,0,0,0,0,0,128,0,-1--1--1,,1|(439,809)|
-1,269,266,61,0,0,0,0,0,128,0,-1--1--1,,1|(445,928)|
-1,270,267,73,0,0,0,0,0,128,0,-1--1--1,,1|(454,1041)|
-10,271,Time to Percieve Supply for New Pts,84,150,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,272,Percieved New pts appt Supply,30,78,46,24,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-1,273,187,272,0,0,0,0,0,128,0,-1--1--1,,1|(-49,77)|
-1,274,271,272,0,0,0,0,0,128,0,-1--1--1,,1|(62,121)|
-10,275,Graduation Rate,1801,404,54,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,276,35,275,0,0,0,0,0,128,0,-1--1--1,,1|(1708,381)|
-10,277,User Change in Engagement Duration after Three Months,1292,657,79,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,278,277,562,0,1,0,0,0,128,0,-1--1--1,,1|(1032,694)|
-10,279,"Data ET - From 1 Visit (1st Quartile)",591,826,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,280,"Data ET - From 1 Visit (Mean)",602,946,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,281,"Data ET - From 1 Visit (4th Quartile)",604,1075,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,282,279,265,0,0,0,0,0,128,0,-1--1--1,,1|(546,806)|
-1,283,280,266,0,0,0,0,0,128,0,-1--1--1,,1|(560,926)|
-1,284,281,267,0,0,0,0,0,128,0,-1--1--1,,1|(564,1047)|
-10,285,"Data ET - From 2 to 7 Visits (1st Quartile)",1366,843,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,286,"Data ET - From 2 to 7 Visits (Mean)",1388,955,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,287,"Data ET - From 2 to 7 Visits (4th Quartile)",1378,1075,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,288,285,94,0,0,0,0,0,128,0,-1--1--1,,1|(1302,815)|
-1,289,286,108,0,0,0,0,0,128,0,-1--1--1,,1|(1320,934)|
-1,290,287,122,0,0,0,0,0,128,0,-1--1--1,,1|(1317,1047)|
-10,291,"Data ET - From 8 or More Visits (1st Quartile)",2158,818,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,292,"Data ET - From 8 or More Visits (Mean)",2158,935,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,293,"Data ET - From 8 or More Visits (4th Quartile)",2173,1054,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-1,294,291,146,0,0,0,0,0,128,0,-1--1--1,,1|(2101,789)|
-1,295,292,160,0,0,0,0,0,128,0,-1--1--1,,1|(2103,909)|
-1,296,293,174,0,0,0,0,0,128,0,-1--1--1,,1|(2118,1025)|
-10,297,Time,721,260,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,298,Time,810,532,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,299,Time,1103,397,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,300,299,230,0,3,0,0,0,64,0,-1--1--1,,1|(1096,397)|
-10,301,Time,-204,705,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,302,301,82,0,3,0,0,0,64,0,-1--1--1,,1|(-175,692)|
-10,303,Time,1954,377,28,11,8,2,15,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,304,303,177,0,15,0,0,0,64,0,-1--1--1,,1|(1942,404)|
-1,305,306,1,4,0,0,22,0,0,0,-1--1--1,,1|(236,-3)|
-11,306,68,205,-3,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,307,Starting Rate,205,16,44,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,308,186,307,1,0,0,0,0,128,0,-1--1--1,,1|(193,44)|
-10,309,"<3mo Visit 1 who can start 2",253,333,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
-12,310,48,90,324,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-12,311,48,417,332,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,312,314,311,4,0,0,22,0,0,0,-1--1--1,,1|(383,332)|
-1,313,314,309,100,0,0,22,0,0,0,-1--1--1,,1|(320,332)|
-11,314,48,353,332,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,315,Ending who can Initiate,353,351,54,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,316,309,314,1,0,0,0,0,64,0,-1--1--1,,1|(307,304)|
-1,317,318,309,4,0,0,22,0,0,0,-1--1--1,,1|(184,325)|
-11,318,3368,150,325,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
-10,319,Starting Rate who can Initiate,150,353,61,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,320,8,314,1,0,0,0,0,128,0,-1--1--1,,1|(365,316)|
-10,321,Starting Psychotherapy who can start 2,167,250,78,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,322,Percieved New pts appt Supply who can start 2,34,229,52,26,3,131,0,0,0,0,0,0,0,0,0,0,0,0
-1,323,321,318,0,0,0,0,0,128,0,-1--1--1,,1|(158,287)|
-1,324,184,321,0,0,0,0,0,128,0,-1--1--1,,1|(253,204)|
-1,325,185,321,0,0,0,0,0,128,0,-1--1--1,,1|(195,191)|
-1,326,271,322,0,0,0,0,0,128,0,-1--1--1,,1|(64,180)|
-10,327,Supply Available for New Pts who can start 2nd visit,-151,229,93,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,328,327,322,0,0,0,0,0,128,0,-1--1--1,,1|(-45,229)|
-1,329,315,207,1,0,0,0,0,64,0,-1--1--1,,1|(632,318)|
-1,330,315,220,0,0,0,0,0,64,0,-1--1--1,,1|(619,350)|
-1,331,315,16,1,0,0,0,0,64,0,-1--1--1,,1|(642,381)|
-10,332,Sankey One and More Laters,251,1401,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,333,FINAL TIME,265,1432,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,334,333,332,0,2,0,0,0,64,0,-1--1--1,,1|(267,1421)|
-1,335,69,332,0,2,0,0,0,64,0,-1--1--1,,1|(235,1233)|
-1,336,45,332,0,2,0,0,0,64,0,-1--1--1,,1|(230,1117)|
-1,337,57,332,0,2,0,0,0,64,0,-1--1--1,,1|(230,1176)|
-10,338,Time,265,1432,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,339,338,332,0,2,0,0,0,64,0,-1--1--1,,1|(267,1421)|
-10,340,Sankey Initiators who quit,1019,1417,56,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,341,FINAL TIME,1019,1448,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,342,341,340,0,2,0,0,0,64,0,-1--1--1,,1|(1019,1437)|
-1,343,207,340,0,2,0,0,0,64,0,-1--1--1,,1|(970,790)|
-10,344,Time,1019,1448,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,345,344,340,0,2,0,0,0,64,0,-1--1--1,,1|(1019,1437)|
-10,346,Sankey Graduators,1349,1429,37,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,347,FINAL TIME,1407,1532,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,348,347,346,0,2,0,0,0,64,0,-1--1--1,,1|(1383,1491)|
-1,349,220,346,0,2,0,0,0,64,0,-1--1--1,,1|(1125,882)|
-10,350,Time,1407,1532,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,351,350,346,0,2,0,0,0,64,0,-1--1--1,,1|(1383,1491)|
-1,352,177,346,0,2,0,0,0,64,0,-1--1--1,,1|(1635,941)|
-10,353,Sankey Initiators who Get More Later,1676,1441,72,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,354,FINAL TIME,1676,1472,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,355,354,353,0,2,0,0,0,64,0,-1--1--1,,1|(1676,1461)|
-1,356,16,353,0,2,0,0,0,64,0,-1--1--1,,1|(1279,974)|
-10,357,Time,1676,1472,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,358,357,353,0,2,0,0,0,64,0,-1--1--1,,1|(1676,1461)|
-10,359,Sankey Completers who Get More Later,1892,1434,67,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,360,177,359,0,2,0,0,0,64,0,-1--1--1,,1|(1905,943)|
-10,361,FINAL TIME,1892,1465,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,362,361,359,0,2,0,0,0,64,0,-1--1--1,,1|(1892,1454)|
-1,363,220,359,0,2,0,0,0,64,0,-1--1--1,,1|(1395,886)|
-10,364,Time,1892,1465,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,365,364,359,0,2,0,0,0,64,0,-1--1--1,,1|(1892,1454)|
-10,366,Sankey Initaitors,587,664,55,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,367,FINAL TIME,687,694,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,368,367,366,0,2,0,0,0,64,0,-1--1--1,,1|(643,680)|
-1,369,207,366,0,2,0,0,0,64,0,-1--1--1,,1|(757,419)|
-1,370,220,366,0,2,0,0,0,64,0,-1--1--1,,1|(748,506)|
-1,371,16,366,0,2,0,0,0,64,0,-1--1--1,,1|(736,593)|
-10,372,Time,587,695,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,373,372,366,0,2,0,0,0,64,0,-1--1--1,,1|(587,686)|
-10,374,Sankey Completers,1441,552,39,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,375,FINAL TIME,1473,601,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,376,375,374,0,2,0,0,0,64,0,-1--1--1,,1|(1463,586)|
-1,377,220,374,0,2,0,0,0,64,0,-1--1--1,,1|(1174,450)|
-10,378,Time,1406,600,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,379,378,374,0,2,0,0,0,64,0,-1--1--1,,1|(1415,586)|
-10,380,Sankey One and Dones,512,1397,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,381,82,380,0,2,0,0,0,64,0,-1--1--1,,1|(195,1026)|
-1,382,39,380,0,2,0,0,0,128,0,-1--1--1,,1|(580,819)|
-10,383,Sankey E2,420,662,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,384,366,383,0,2,0,0,0,128,0,-1--1--1,,1|(500,663)|
-10,385,"Sankey One n Dones + Initiators + One n More Laters",-31,991,68,42,8,131,2,2,0,0,0,0,-1--1--1,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,386,366,385,0,2,0,0,0,64,0,-1--1--1,,1|(308,811)|
-1,387,332,385,0,2,0,0,0,128,0,-1--1--1,,1|(121,1212)|
-1,388,380,385,0,2,0,0,0,128,0,-1--1--1,,1|(261,1209)|
-10,389,FINAL TIME,-102,893,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,390,389,385,0,2,0,0,0,64,0,-1--1--1,,1|(-83,920)|
-10,391,Time,-11,899,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,392,391,385,0,2,0,0,0,64,0,-1--1--1,,1|(-16,922)|
-10,393,FINAL TIME,149,1513,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,394,Time,149,1513,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,395,385,383,0,2,0,0,0,128,0,-1--1--1,,1|(209,815)|
-10,396,FINAL TIME,471,621,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,397,396,383,0,2,0,0,0,64,0,-1--1--1,,1|(451,637)|
-10,398,Time,388,619,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,399,398,383,0,2,0,0,0,64,0,-1--1--1,,1|(399,634)|
-10,400,Sankey E3,510,1510,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,401,380,400,0,2,0,0,0,128,0,-1--1--1,,1|(511,1451)|
-1,402,385,400,0,2,0,0,0,128,0,-1--1--1,,1|(249,1261)|
-10,403,FINAL TIME,510,1541,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,404,403,400,0,2,0,0,0,64,0,-1--1--1,,1|(510,1532)|
-10,405,Time,510,1541,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,406,405,400,0,2,0,0,0,64,0,-1--1--1,,1|(510,1532)|
-10,407,Sankey E4,183,1461,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,408,332,407,0,2,0,0,0,128,0,-1--1--1,,1|(217,1430)|
-1,409,385,407,0,2,0,0,0,128,0,-1--1--1,,1|(79,1235)|
-1,410,394,407,0,2,0,0,0,128,0,-1--1--1,,1|(161,1492)|
-1,411,393,407,0,2,0,0,0,128,0,-1--1--1,,1|(161,1492)|
-10,412,"% One-n-Dones",538,31,37,18,8,131,1,0,0,0,0,0,0,0,0,0,0,0
-1,413,39,412,1,1,0,0,0,64,0,-1--1--1,,1|(653,159)|
-10,414,Sankey E5,955,1480,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-1,415,340,414,0,2,0,0,0,128,0,-1--1--1,,1|(987,1448)|
-1,416,366,414,0,2,0,0,0,128,0,-1--1--1,,1|(767,1065)|
-10,417,FINAL TIME,955,1511,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,418,417,414,0,2,0,0,0,64,0,-1--1--1,,1|(955,1502)|
-10,419,Time,955,1511,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,420,419,414,0,2,0,0,0,64,0,-1--1--1,,1|(955,1502)|
-10,421,Sankey E6,1583,1520,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,422,FINAL TIME,1583,1551,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,423,422,421,0,2,0,0,0,64,0,-1--1--1,,1|(1583,1542)|
-1,424,366,421,0,2,0,0,0,64,0,-1--1--1,,1|(1079,1087)|
-1,425,353,421,0,2,0,0,0,64,0,-1--1--1,,1|(1629,1480)|
-10,426,Time,1583,1551,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,427,426,421,0,2,0,0,0,64,0,-1--1--1,,1|(1583,1542)|
-10,428,Sankey E7,1317,535,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,429,FINAL TIME,1323,574,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,430,429,428,0,2,0,0,0,64,0,-1--1--1,,1|(1321,561)|
-1,431,374,428,0,2,0,0,0,64,0,-1--1--1,,1|(1385,544)|
-1,432,366,428,0,2,0,0,0,64,0,-1--1--1,,1|(953,599)|
-10,433,Time,1270,573,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,434,433,428,0,2,0,0,0,64,0,-1--1--1,,1|(1287,558)|
-10,435,Sankey E8,1214,1500,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,436,FINAL TIME,1214,1531,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,437,436,435,0,2,0,0,0,64,0,-1--1--1,,1|(1214,1522)|
-1,438,374,435,0,2,0,0,0,64,0,-1--1--1,,1|(1328,1023)|
-1,439,346,435,0,2,0,0,0,64,0,-1--1--1,,1|(1279,1465)|
-10,440,Time,1214,1531,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,441,440,435,0,2,0,0,0,64,0,-1--1--1,,1|(1214,1522)|
-10,442,Sankey E9,1761,1507,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
-10,443,FINAL TIME,1761,1538,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,444,443,442,0,2,0,0,0,64,0,-1--1--1,,1|(1761,1529)|
-1,445,374,442,0,2,0,0,0,64,0,-1--1--1,,1|(1599,1027)|
-1,446,359,442,0,2,0,0,0,64,0,-1--1--1,,1|(1824,1471)|
-10,447,Time,1761,1538,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,448,447,442,0,2,0,0,0,64,0,-1--1--1,,1|(1761,1529)|
-10,449,FINAL TIME,512,1437,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,450,449,380,0,2,0,0,0,64,0,-1--1--1,,1|(512,1428)|
-10,451,Time,512,1437,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,452,451,380,0,2,0,0,0,64,0,-1--1--1,,1|(512,1428)|
-1,453,307,380,0,2,0,0,0,64,0,-1--1--1,,1|(355,695)|
-10,454,Experiment wk,-166,728,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,455,454,82,0,3,0,0,0,64,0,-1--1--1,,1|(-144,702)|
-10,456,Experiment wk,2061,643,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,457,Experiment wk,1947,416,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,458,457,177,0,3,0,0,0,64,0,-1--1--1,,1|(1938,428)|
-10,459,Experiment wk,1051,357,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,460,459,230,0,3,0,0,0,64,0,-1--1--1,,1|(1057,377)|
-10,461,Ending After First Visit Rate,487,-48,57,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,462,7,461,0,0,0,0,0,128,0,-1--1--1,,1|(433,-3)|
-1,463,412,461,0,1,0,0,0,128,0,-1--1--1,,1|(516,-1)|
-10,464,Starters Continue Treatment Rate after 3 Months,78,666,103,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,465,315,464,0,0,0,0,0,128,0,-1--1--1,,1|(224,498)|
-1,466,82,464,0,0,0,0,0,128,0,-1--1--1,,1|(-42,666)|
-1,467,464,44,1,0,0,0,0,128,0,-1--1--1,,1|(116,746)|
-1,468,464,56,1,0,0,0,0,128,0,-1--1--1,,1|(78,807)|
-1,469,464,68,1,0,0,0,0,128,0,-1--1--1,,1|(42,878)|
-10,470,Ending Rate,1181,1287,41,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,471,121,470,0,1,0,0,0,128,0,-1--1--1,,1|(1177,1183)|
-1,472,107,470,0,1,0,0,0,128,0,-1--1--1,,1|(1172,1126)|
-1,473,93,470,0,1,0,0,0,128,0,-1--1--1,,1|(1171,1067)|
-1,474,173,470,0,1,0,0,0,128,0,-1--1--1,,1|(1579,1177)|
-1,475,159,470,0,1,0,0,0,128,0,-1--1--1,,1|(1571,1122)|
-1,476,145,470,0,1,0,0,0,128,0,-1--1--1,,1|(1574,1062)|
-1,477,74,470,0,1,0,0,0,128,0,-1--1--1,,1|(796,1185)|
-1,478,62,470,0,1,0,0,0,128,0,-1--1--1,,1|(798,1130)|
-1,479,50,470,0,1,0,0,0,128,0,-1--1--1,,1|(796,1071)|
-10,480,"%Visit1-n-Done",-112,523,53,11,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,481,258,480,0,3,0,0,0,128,0,-1--1--1,,1|(-189,593)|
-1,482,246,480,0,3,0,0,0,128,0,-1--1--1,,1|(159,404)|
-10,483,"%Visit2-7<3mo and More",723,132,53,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,484,249,483,0,3,0,0,0,64,0,-1--1--1,,1|(534,275)|
-1,485,253,483,0,3,0,0,0,64,0,-1--1--1,,1|(980,264)|
-10,486,"%Visit8PL-n-More",2117,482,78,10,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,487,262,486,1,3,0,0,0,128,0,-1--1--1,,1|(2091,449)|
-10,488,"Starters Who Quit %",527,383,43,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,489,246,488,0,3,0,0,0,64,0,-1--1--1,,1|(476,328)|
-1,490,258,488,0,3,0,0,0,64,0,-1--1--1,,1|(128,523)|
-10,491,"Initators Who Return Later %",507,532,52,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,492,249,491,0,3,0,0,0,64,0,-1--1--1,,1|(427,466)|
-1,493,253,491,0,3,0,0,0,64,0,-1--1--1,,1|(875,458)|
-10,494,"Completers Who Return %",1973,580,55,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
-1,495,262,494,0,3,0,0,0,64,0,-1--1--1,,1|(2016,494)|
-10,496,Initiation Rate,875,13,47,11,8,131,2,0,0,0,0,0,0,0,0,0,0,0
-1,497,206,496,0,2,0,0,0,128,0,-1--1--1,,1|(903,90)|
-1,498,219,496,0,2,0,0,0,128,0,-1--1--1,,1|(893,176)|
-1,499,15,496,0,2,0,0,0,128,0,-1--1--1,,1|(884,256)|
-10,500,Completers Continuing Treatment Rate after 3 Months,1605,482,101,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,501,35,500,0,0,0,0,0,128,0,-1--1--1,,1|(1613,409)|
-1,502,500,139,1,0,0,0,0,128,0,-1--1--1,,1|(1606,690)|
-1,503,500,153,1,0,0,0,0,128,0,-1--1--1,,1|(1569,706)|
-1,504,500,167,1,0,0,0,0,128,0,-1--1--1,,1|(1554,858)|
-10,505,"Actual Starters Who Return Later %",611,-47,72,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,506,505,412,0,1,0,0,0,128,0,-1--1--1,,1|(578,-12)|
-1,507,318,310,100,0,0,22,0,0,0,-1--1--1,,1|(122,325)|
-1,508,306,2,100,0,0,22,0,0,0,-1--1--1,,1|(174,-3)|
-10,509,"Effect of Implement IOP on Initiator %s",781,568,66,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-10,510,User Implement Intensive Outpatient Program,1098,638,59,32,8,131,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,511,510,509,0,1,0,0,0,128,0,-1--1--1,,1|(949,605)|
-10,512,"Max Effect of IOP on %s",834,629,58,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,513,512,509,0,1,0,0,0,128,0,-1--1--1,,1|(812,603)|
-10,514,Effect of Implement IOP on Durations,1316,480,66,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,515,510,514,0,1,0,0,0,128,0,-1--1--1,,1|(1209,557)|
-1,516,514,225,0,1,0,0,0,128,0,-1--1--1,,1|(1250,418)|
-1,517,514,212,0,1,0,0,0,128,0,-1--1--1,,1|(1242,336)|
-1,518,514,35,0,1,0,0,0,128,0,-1--1--1,,1|(1460,423)|
-1,519,514,21,0,1,0,0,0,128,0,-1--1--1,,1|(1234,510)|
-10,520,Time,737,632,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,521,520,509,0,0,0,0,0,64,0,-1--1--1,,1|(751,610)|
-10,522,Time,1436,484,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,523,522,514,0,0,0,0,0,64,0,-1--1--1,,1|(1401,483)|
-10,524,Time for IOP to affect Duration,1480,519,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,525,524,514,0,0,0,0,0,128,0,-1--1--1,,1|(1412,502)|
-10,526,"Actual Starters who Initiate % including any IOP Effect",759,186,79,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,527,509,526,0,0,0,0,0,128,0,-1--1--1,,1|(770,388)|
-1,528,39,526,0,0,0,0,0,128,0,-1--1--1,,1|(689,229)|
-10,529,"Actual Initiators who Complete % including IOP Effect",805,410,87,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,530,230,529,0,0,0,0,0,128,0,-1--1--1,,1|(942,402)|
-1,531,509,529,0,0,0,0,0,128,0,-1--1--1,,1|(790,500)|
-10,532,"Actual Initiators Who Quit Early %",623,417,70,20,8,131,0,0,0,0,0,0,0,0,0,0,0,0
-10,533,Experiment wk,563,313,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,534,533,532,0,0,0,0,0,64,0,-1--1--1,,1|(586,354)|
-10,535,Time,602,334,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,536,535,532,0,0,0,0,0,64,0,-1--1--1,,1|(608,364)|
-1,537,509,125,0,0,0,0,0,64,0,-1--1--1,,1|(735,534)|
-1,538,532,125,0,0,0,0,0,64,0,-1--1--1,,1|(636,439)|
-1,539,526,207,0,0,0,0,0,128,0,-1--1--1,,1|(842,181)|
-1,540,526,219,0,0,0,0,0,128,0,-1--1--1,,1|(842,261)|
-1,541,533,39,0,0,0,0,0,128,0,-1--1--1,,1|(592,292)|
-1,542,535,39,0,0,0,0,0,128,0,-1--1--1,,1|(618,305)|
-1,543,526,16,0,0,0,0,0,128,0,-1--1--1,,1|(824,350)|
-1,544,529,220,0,0,0,0,0,128,0,-1--1--1,,1|(859,378)|
-1,545,529,15,0,0,0,0,0,128,0,-1--1--1,,1|(859,454)|
-10,546,Max Effect of IOP on Durations,1296,562,68,20,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
-1,547,546,514,0,0,0,0,0,64,0,-1--1--1,,1|(1303,527)|
-10,548,"Actual Completers Who Graduate % including IOP Effect",1825,535,86,30,8,131,0,0,0,0,0,0,0,0,0,0,0,0
-1,549,177,548,0,0,0,0,0,128,0,-1--1--1,,1|(1879,491)|
-1,550,548,500,0,0,0,0,0,128,0,-1--1--1,,1|(1729,512)|
-1,551,548,275,0,0,0,0,0,128,0,-1--1--1,,1|(1812,466)|
-1,552,187,186,1,0,0,0,0,128,0,-1--1--1,,1|(88,26)|
-1,553,327,321,1,0,0,0,0,128,0,-1--1--1,,1|(8,307)|
-10,554,"Effect of Implement IOP on Completer %",1729,589,69,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
-1,555,524,554,0,0,0,0,0,128,0,-1--1--1,,1|(1588,549)|
-1,556,554,548,0,0,0,0,0,128,0,-1--1--1,,1|(1761,570)|
-10,557,"Max Effect of IOP on %s",1710,635,63,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,558,557,554,0,0,0,0,0,128,0,-1--1--1,,1|(1716,618)|
-10,559,Time,1827,627,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,560,559,554,0,0,0,0,0,64,0,-1--1--1,,1|(1795,615)|
-1,561,510,554,0,0,0,0,0,64,0,-1--1--1,,1|(1401,614)|
-10,562,"ET Change Delayed by RVI - 1-LowD",762,733,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,563,562,265,0,0,0,0,0,128,0,-1--1--1,,1|(637,755)|
-10,564,Experiment wk,762,773,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,565,564,562,0,0,0,0,0,64,0,-1--1--1,,1|(762,764)|
-10,566,"RVI >3mo - 1Visit-LowD",762,773,46,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,567,566,562,0,0,0,0,0,64,0,-1--1--1,,1|(762,753)|
-10,568,"ET Change Delayed by RVI - 1-HighD",747,1008,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,569,"ET Change Delayed by RVI - 1-MidD",746,868,66,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,570,277,569,0,0,0,0,0,64,0,-1--1--1,,1|(1012,764)|
-10,571,Experiment wk,746,908,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,572,571,569,0,0,0,0,0,64,0,-1--1--1,,1|(746,899)|
-10,573,"RVI >3mo - 1Visit-MidD",746,908,45,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,574,573,569,0,0,0,0,0,64,0,-1--1--1,,1|(746,888)|
-1,575,277,568,0,0,0,0,0,64,0,-1--1--1,,1|(1017,833)|
-10,576,Experiment wk,747,1048,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,577,576,568,0,0,0,0,0,64,0,-1--1--1,,1|(747,1039)|
-10,578,"RVI >3mo - 1Visit-HighD",747,1048,47,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,579,578,568,0,0,0,0,0,64,0,-1--1--1,,1|(747,1028)|
-1,580,569,266,0,0,0,0,0,128,0,-1--1--1,,1|(633,883)|
-1,581,568,267,0,0,0,0,0,128,0,-1--1--1,,1|(642,1009)|
-10,582,"ET Change Delayed by RVI - 2-7-LowD",1561,740,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,583,"ET Change Delayed by RVI - 2-7-HighD",1546,1015,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,584,"ET Change Delayed by RVI - 2-7-MidD",1545,875,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,585,582,94,0,0,0,0,0,128,0,-1--1--1,,1|(1404,759)|
-1,586,584,108,0,0,0,0,0,128,0,-1--1--1,,1|(1398,888)|
-1,587,583,122,0,0,0,0,0,128,0,-1--1--1,,1|(1407,1014)|
-1,588,277,582,0,0,0,0,0,64,0,-1--1--1,,1|(1426,698)|
-10,589,Experiment wk,1561,780,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,590,589,582,0,0,0,0,0,64,0,-1--1--1,,1|(1561,771)|
-10,591,"RVI >3mo - 2-7Visits-LowD",1561,780,56,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,592,591,582,0,0,0,0,0,64,0,-1--1--1,,1|(1561,760)|
-1,593,277,584,0,0,0,0,0,64,0,-1--1--1,,1|(1418,766)|
-10,594,Experiment wk,1545,915,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,595,594,584,0,0,0,0,0,64,0,-1--1--1,,1|(1545,906)|
-10,596,"RVI >3mo - 2-7Visits-MidD",1545,915,54,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,597,596,584,0,0,0,0,0,64,0,-1--1--1,,1|(1545,895)|
-1,598,277,583,0,0,0,0,0,64,0,-1--1--1,,1|(1417,834)|
-10,599,Experiment wk,1546,1055,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,600,599,583,0,0,0,0,0,64,0,-1--1--1,,1|(1546,1046)|
-10,601,"RVI >3mo - 2-7Visits-HighD",1546,1055,58,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,602,601,583,0,0,0,0,0,64,0,-1--1--1,,1|(1546,1035)|
-10,603,"ET Change Delayed by RVI - 8-12-LowD",2350,728,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,604,"ET Change Delayed by RVI - 8-12-HighD",2337,992,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,605,"ET Change Delayed by RVI - 8-12-MidD",2348,859,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,606,603,146,0,0,0,0,0,128,0,-1--1--1,,1|(2205,739)|
-1,607,605,160,0,0,0,0,0,128,0,-1--1--1,,1|(2203,867)|
-1,608,604,174,0,0,0,0,0,128,0,-1--1--1,,1|(2209,991)|
-1,609,277,603,0,0,0,0,0,64,0,-1--1--1,,1|(1815,691)|
-10,610,Experiment wk,2350,768,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,611,610,603,0,0,0,0,0,64,0,-1--1--1,,1|(2350,759)|
-10,612,"RVI >3mo - 8-12Visits-LowD",2350,768,60,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,613,612,603,0,0,0,0,0,64,0,-1--1--1,,1|(2350,748)|
-1,614,277,605,0,0,0,0,0,64,0,-1--1--1,,1|(1814,756)|
-10,615,Experiment wk,2348,899,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,616,615,605,0,0,0,0,0,64,0,-1--1--1,,1|(2348,890)|
-10,617,"RVI >3mo - 8-12Visits-MidD",2348,899,58,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,618,617,605,0,0,0,0,0,64,0,-1--1--1,,1|(2348,879)|
-1,619,277,604,0,0,0,0,0,64,0,-1--1--1,,1|(1815,824)|
-10,620,Experiment wk,2337,1032,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,621,620,604,0,0,0,0,0,64,0,-1--1--1,,1|(2337,1023)|
-10,622,"RVI >3mo - 8-12Visits-HighD",2337,1032,62,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,623,622,604,0,0,0,0,0,64,0,-1--1--1,,1|(2337,1012)|
+10,239,Initiators Patients in Visits 2 to 7,1359,201,54,20,8,3,2,0,0,0,0,0,0,0,0,0,0,0
+1,240,11,239,0,2,0,0,0,128,0,-1--1--1,,1|(1361,410)|
+1,241,217,239,0,2,0,0,0,128,0,-1--1--1,,1|(1379,330)|
+1,242,202,239,0,2,0,0,0,128,0,-1--1--1,,1|(1379,246)|
+12,243,48,1223,448,10,8,0,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,244,219,243,100,0,0,22,0,0,0,-1--1--1,,1|(1249,447)|
+10,245,"User Initiators Who Quit Early %",819,590,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+10,246,"Data Starters Who Initiate %",799,410,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,247,246,39,0,0,0,0,0,128,0,-1--1--1,,1|(885,398)|
+1,248,245,532,0,1,0,0,0,128,0,-1--1--1,,1|(864,557)|
+10,249,"Data Initiators Who Quit Early %",777,534,63,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,250,249,532,0,0,0,0,0,128,0,-1--1--1,,1|(839,527)|
+10,251,"User Starters Who Initiate %",875,353,71,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,252,251,39,0,1,0,0,0,128,0,-1--1--1,,1|(937,366)|
+10,253,"Data Initiators Who Complete %",1587,516,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,254,253,230,0,0,0,0,0,128,0,-1--1--1,,1|(1517,518)|
+10,255,"User Initiators Who Complete %",1731,540,74,20,8,3,1,2,-1,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,256,255,230,0,1,0,0,0,128,0,-1--1--1,,1|(1576,531)|
+10,257,"User Starters Who Return Later %",253,716,71,20,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+10,258,"Data Starters Who Return Later %",98,789,52,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,259,257,82,0,1,0,0,0,128,0,-1--1--1,,1|(252,747)|
+1,260,258,82,0,0,0,0,0,128,0,-1--1--1,,1|(160,790)|
+10,261,"User Completers who Graduate %",2446,659,55,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+10,262,"Data Completers Who Graduate %",2415,548,56,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,263,262,177,0,0,0,0,0,128,0,-1--1--1,,1|(2354,564)|
+1,264,261,177,0,1,0,0,0,128,0,-1--1--1,,1|(2370,625)|
+10,265,"Engagement Time - From 1 Visit (1st Quartile)",851,909,86,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,266,"Engagement Time - From 1 Visit (Mean)",868,1027,67,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,267,"Engagement Time - From 1 Visit (4th Quartile)",875,1139,87,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,268,265,49,0,0,0,0,0,128,0,-1--1--1,,1|(801,935)|
+1,269,266,61,0,0,0,0,0,128,0,-1--1--1,,1|(807,1054)|
+1,270,267,73,0,0,0,0,0,128,0,-1--1--1,,1|(816,1167)|
+10,271,Time to Percieve Supply for New Pts,446,276,63,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,272,Percieved New pts appt Supply,392,204,46,24,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,273,187,272,0,0,0,0,0,128,0,-1--1--1,,1|(313,204)|
+1,274,271,272,0,0,0,0,0,128,0,-1--1--1,,1|(424,248)|
+10,275,Graduation Rate,2163,530,54,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,276,35,275,0,0,0,0,0,128,0,-1--1--1,,1|(2057,507)|
+10,277,User Change in Engagement Duration after Three Months,1654,783,79,30,8,3,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,278,277,562,0,1,0,0,0,128,0,-1--1--1,,1|(1394,820)|
+10,279,"Data ET - From 1 Visit (1st Quartile)",953,952,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,280,"Data ET - From 1 Visit (Mean)",964,1072,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,281,"Data ET - From 1 Visit (4th Quartile)",966,1201,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,282,279,265,0,0,0,0,0,128,0,-1--1--1,,1|(908,932)|
+1,283,280,266,0,0,0,0,0,128,0,-1--1--1,,1|(922,1052)|
+1,284,281,267,0,0,0,0,0,128,0,-1--1--1,,1|(926,1173)|
+10,285,"Data ET - From 2 to 7 Visits (1st Quartile)",1728,969,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,286,"Data ET - From 2 to 7 Visits (Mean)",1750,1081,55,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,287,"Data ET - From 2 to 7 Visits (4th Quartile)",1740,1201,73,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,288,285,94,0,0,0,0,0,128,0,-1--1--1,,1|(1664,941)|
+1,289,286,108,0,0,0,0,0,128,0,-1--1--1,,1|(1682,1060)|
+1,290,287,122,0,0,0,0,0,128,0,-1--1--1,,1|(1679,1173)|
+10,291,"Data ET - From 8 or More Visits (1st Quartile)",2520,944,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,292,"Data ET - From 8 or More Visits (Mean)",2520,1061,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,293,"Data ET - From 8 or More Visits (4th Quartile)",2535,1180,67,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+1,294,291,146,0,0,0,0,0,128,0,-1--1--1,,1|(2463,915)|
+1,295,292,160,0,0,0,0,0,128,0,-1--1--1,,1|(2465,1035)|
+1,296,293,174,0,0,0,0,0,128,0,-1--1--1,,1|(2480,1151)|
+10,297,Time,1083,386,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,298,Time,1172,658,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,299,Time,1465,523,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,300,299,230,0,3,0,0,0,64,0,-1--1--1,,1|(1458,523)|
+10,301,Time,158,831,28,11,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,302,301,82,0,3,0,0,0,64,0,-1--1--1,,1|(187,818)|
+10,303,Time,2316,503,28,11,8,2,15,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,304,303,177,0,15,0,0,0,64,0,-1--1--1,,1|(2304,530)|
+1,305,306,1,4,0,0,22,0,0,0,-1--1--1,,1|(598,123)|
+11,306,68,567,123,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,307,Starting Rate,567,142,44,11,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,308,186,307,1,0,0,0,0,128,0,-1--1--1,,1|(555,170)|
+10,309,"<3mo Visit 1 who can start 2",615,459,40,20,3,3,0,0,0,0,0,0,0,0,0,0,0,0
+12,310,48,452,450,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+12,311,48,779,458,10,8,0,3,0,40,-1,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,312,314,311,4,0,0,22,0,0,0,-1--1--1,,1|(745,458)|
+1,313,314,309,100,0,0,22,0,0,0,-1--1--1,,1|(682,458)|
+11,314,48,715,458,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,315,Ending who can Initiate,715,477,54,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,316,309,314,1,0,0,0,0,64,0,-1--1--1,,1|(669,430)|
+1,317,318,309,4,0,0,22,0,0,0,-1--1--1,,1|(546,451)|
+11,318,3368,512,451,6,8,34,3,0,0,1,0,0,0,0,0,0,0,0,0
+10,319,Starting Rate who can Initiate,512,479,61,20,40,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,320,8,314,1,0,0,0,0,128,0,-1--1--1,,1|(727,442)|
+10,321,Starting Psychotherapy who can start 2,529,376,78,20,8,131,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,322,Percieved New pts appt Supply who can start 2,396,355,52,26,3,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,323,321,318,0,0,0,0,0,128,0,-1--1--1,,1|(520,413)|
+1,324,184,321,0,0,0,0,0,128,0,-1--1--1,,1|(615,331)|
+1,325,185,321,0,0,0,0,0,128,0,-1--1--1,,1|(557,318)|
+1,326,271,322,0,0,0,0,0,128,0,-1--1--1,,1|(426,307)|
+10,327,Supply Available for New Pts who can start 2nd visit,211,355,93,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,328,327,322,0,0,0,0,0,128,0,-1--1--1,,1|(317,355)|
+1,329,315,207,1,0,0,0,0,64,0,-1--1--1,,1|(994,444)|
+1,330,315,220,0,0,0,0,0,64,0,-1--1--1,,1|(981,476)|
+1,331,315,16,1,0,0,0,0,64,0,-1--1--1,,1|(1004,507)|
+10,332,Sankey One and More Laters,613,1527,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,333,FINAL TIME,627,1558,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,334,333,332,0,2,0,0,0,64,0,-1--1--1,,1|(629,1547)|
+1,335,69,332,0,2,0,0,0,64,0,-1--1--1,,1|(597,1359)|
+1,336,45,332,0,2,0,0,0,64,0,-1--1--1,,1|(592,1243)|
+1,337,57,332,0,2,0,0,0,64,0,-1--1--1,,1|(592,1302)|
+10,338,Time,627,1558,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,339,338,332,0,2,0,0,0,64,0,-1--1--1,,1|(629,1547)|
+10,340,Sankey Initiators who quit,1381,1543,56,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,341,FINAL TIME,1381,1574,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,342,341,340,0,2,0,0,0,64,0,-1--1--1,,1|(1381,1563)|
+1,343,207,340,0,2,0,0,0,64,0,-1--1--1,,1|(1332,916)|
+10,344,Time,1381,1574,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,345,344,340,0,2,0,0,0,64,0,-1--1--1,,1|(1381,1563)|
+10,346,Sankey Graduators,1711,1555,37,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,347,FINAL TIME,1769,1658,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,348,347,346,0,2,0,0,0,64,0,-1--1--1,,1|(1745,1617)|
+1,349,220,346,0,2,0,0,0,64,0,-1--1--1,,1|(1487,1008)|
+10,350,Time,1769,1658,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,351,350,346,0,2,0,0,0,64,0,-1--1--1,,1|(1745,1617)|
+1,352,177,346,0,2,0,0,0,64,0,-1--1--1,,1|(1997,1067)|
+10,353,Sankey Initiators who Get More Later,2038,1567,72,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,354,FINAL TIME,2038,1598,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,355,354,353,0,2,0,0,0,64,0,-1--1--1,,1|(2038,1587)|
+1,356,16,353,0,2,0,0,0,64,0,-1--1--1,,1|(1641,1100)|
+10,357,Time,2038,1598,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,358,357,353,0,2,0,0,0,64,0,-1--1--1,,1|(2038,1587)|
+10,359,Sankey Completers who Get More Later,2254,1560,67,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,360,177,359,0,2,0,0,0,64,0,-1--1--1,,1|(2267,1069)|
+10,361,FINAL TIME,2254,1591,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,362,361,359,0,2,0,0,0,64,0,-1--1--1,,1|(2254,1580)|
+1,363,220,359,0,2,0,0,0,64,0,-1--1--1,,1|(1757,1012)|
+10,364,Time,2254,1591,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,365,364,359,0,2,0,0,0,64,0,-1--1--1,,1|(2254,1580)|
+10,366,Sankey Initaitors,949,790,55,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,367,FINAL TIME,1049,820,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,368,367,366,0,2,0,0,0,64,0,-1--1--1,,1|(1005,806)|
+1,369,207,366,0,2,0,0,0,64,0,-1--1--1,,1|(1119,545)|
+1,370,220,366,0,2,0,0,0,64,0,-1--1--1,,1|(1110,632)|
+1,371,16,366,0,2,0,0,0,64,0,-1--1--1,,1|(1098,719)|
+10,372,Time,949,821,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,373,372,366,0,2,0,0,0,64,0,-1--1--1,,1|(949,812)|
+10,374,Sankey Completers,1803,678,39,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,375,FINAL TIME,1835,727,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,376,375,374,0,2,0,0,0,64,0,-1--1--1,,1|(1825,712)|
+1,377,220,374,0,2,0,0,0,64,0,-1--1--1,,1|(1536,576)|
+10,378,Time,1768,726,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,379,378,374,0,2,0,0,0,64,0,-1--1--1,,1|(1777,712)|
+10,380,Sankey One and Dones,874,1523,55,20,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,381,82,380,0,2,0,0,0,64,0,-1--1--1,,1|(557,1152)|
+1,382,39,380,0,2,0,0,0,128,0,-1--1--1,,1|(942,945)|
+10,383,Sankey E2,782,788,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,384,366,383,0,2,0,0,0,128,0,-1--1--1,,1|(862,789)|
+10,385,"Sankey One n Dones + Initiators + One n More Laters",331,1117,68,42,8,131,2,2,0,0,0,0,-1--1--1,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,386,366,385,0,2,0,0,0,64,0,-1--1--1,,1|(670,937)|
+1,387,332,385,0,2,0,0,0,128,0,-1--1--1,,1|(483,1338)|
+1,388,380,385,0,2,0,0,0,128,0,-1--1--1,,1|(623,1335)|
+10,389,FINAL TIME,260,1019,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,390,389,385,0,2,0,0,0,64,0,-1--1--1,,1|(279,1046)|
+10,391,Time,351,1025,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,392,391,385,0,2,0,0,0,64,0,-1--1--1,,1|(346,1048)|
+10,393,FINAL TIME,511,1639,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,394,Time,511,1639,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,395,385,383,0,2,0,0,0,128,0,-1--1--1,,1|(571,941)|
+10,396,FINAL TIME,833,747,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,397,396,383,0,2,0,0,0,64,0,-1--1--1,,1|(813,763)|
+10,398,Time,750,745,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,399,398,383,0,2,0,0,0,64,0,-1--1--1,,1|(761,760)|
+10,400,Sankey E3,872,1636,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,401,380,400,0,2,0,0,0,128,0,-1--1--1,,1|(873,1577)|
+1,402,385,400,0,2,0,0,0,128,0,-1--1--1,,1|(611,1387)|
+10,403,FINAL TIME,872,1667,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,404,403,400,0,2,0,0,0,64,0,-1--1--1,,1|(872,1658)|
+10,405,Time,872,1667,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,406,405,400,0,2,0,0,0,64,0,-1--1--1,,1|(872,1658)|
+10,407,Sankey E4,545,1587,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,408,332,407,0,2,0,0,0,128,0,-1--1--1,,1|(579,1556)|
+1,409,385,407,0,2,0,0,0,128,0,-1--1--1,,1|(441,1361)|
+1,410,394,407,0,2,0,0,0,128,0,-1--1--1,,1|(523,1618)|
+1,411,393,407,0,2,0,0,0,128,0,-1--1--1,,1|(523,1618)|
+10,412,"% One-n-Dones",900,157,37,18,8,131,1,0,0,0,0,0,0,0,0,0,0,0
+1,413,39,412,1,1,0,0,0,64,0,-1--1--1,,1|(1015,285)|
+10,414,Sankey E5,1317,1606,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+1,415,340,414,0,2,0,0,0,128,0,-1--1--1,,1|(1349,1574)|
+1,416,366,414,0,2,0,0,0,128,0,-1--1--1,,1|(1129,1191)|
+10,417,FINAL TIME,1317,1637,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,418,417,414,0,2,0,0,0,64,0,-1--1--1,,1|(1317,1628)|
+10,419,Time,1317,1637,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,420,419,414,0,2,0,0,0,64,0,-1--1--1,,1|(1317,1628)|
+10,421,Sankey E6,1945,1646,35,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,422,FINAL TIME,1945,1677,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,423,422,421,0,2,0,0,0,64,0,-1--1--1,,1|(1945,1668)|
+1,424,366,421,0,2,0,0,0,64,0,-1--1--1,,1|(1441,1213)|
+1,425,353,421,0,2,0,0,0,64,0,-1--1--1,,1|(1991,1606)|
+10,426,Time,1945,1677,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,427,426,421,0,2,0,0,0,64,0,-1--1--1,,1|(1945,1668)|
+10,428,Sankey E7,1679,661,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,429,FINAL TIME,1685,700,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,430,429,428,0,2,0,0,0,64,0,-1--1--1,,1|(1683,687)|
+1,431,374,428,0,2,0,0,0,64,0,-1--1--1,,1|(1747,670)|
+1,432,366,428,0,2,0,0,0,64,0,-1--1--1,,1|(1315,725)|
+10,433,Time,1632,699,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,434,433,428,0,2,0,0,0,64,0,-1--1--1,,1|(1649,684)|
+10,435,Sankey E8,1576,1626,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,436,FINAL TIME,1576,1657,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,437,436,435,0,2,0,0,0,64,0,-1--1--1,,1|(1576,1648)|
+1,438,374,435,0,2,0,0,0,64,0,-1--1--1,,1|(1690,1149)|
+1,439,346,435,0,2,0,0,0,64,0,-1--1--1,,1|(1641,1591)|
+10,440,Time,1576,1657,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,441,440,435,0,2,0,0,0,64,0,-1--1--1,,1|(1576,1648)|
+10,442,Sankey E9,2123,1633,39,11,8,3,2,2,0,0,0,0,0-0-0,0-0-0,|10||128-0-128,0,0,0,0,0,0
+10,443,FINAL TIME,2123,1664,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,444,443,442,0,2,0,0,0,64,0,-1--1--1,,1|(2123,1655)|
+1,445,374,442,0,2,0,0,0,64,0,-1--1--1,,1|(1961,1153)|
+1,446,359,442,0,2,0,0,0,64,0,-1--1--1,,1|(2186,1597)|
+10,447,Time,2123,1664,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,448,447,442,0,2,0,0,0,64,0,-1--1--1,,1|(2123,1655)|
+10,449,FINAL TIME,874,1563,49,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,450,449,380,0,2,0,0,0,64,0,-1--1--1,,1|(874,1554)|
+10,451,Time,874,1563,28,11,8,2,2,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,452,451,380,0,2,0,0,0,64,0,-1--1--1,,1|(874,1554)|
+1,453,307,380,0,2,0,0,0,64,0,-1--1--1,,1|(717,821)|
+10,454,Experiment wk,196,854,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,455,454,82,0,3,0,0,0,64,0,-1--1--1,,1|(218,828)|
+10,456,Experiment wk,2423,769,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,457,Experiment wk,2309,542,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,458,457,177,0,3,0,0,0,64,0,-1--1--1,,1|(2300,554)|
+10,459,Experiment wk,1413,483,44,20,8,2,3,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,460,459,230,0,3,0,0,0,64,0,-1--1--1,,1|(1419,503)|
+10,461,Ending After First Visit Rate,849,78,57,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,462,7,461,0,0,0,0,0,128,0,-1--1--1,,1|(795,123)|
+1,463,412,461,0,1,0,0,0,128,0,-1--1--1,,1|(878,125)|
+10,464,Starters Continue Treatment Rate after 3 Months,440,792,103,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,465,315,464,0,0,0,0,0,128,0,-1--1--1,,1|(586,624)|
+1,466,82,464,0,0,0,0,0,128,0,-1--1--1,,1|(320,792)|
+1,467,464,44,1,0,0,0,0,128,0,-1--1--1,,1|(478,872)|
+1,468,464,56,1,0,0,0,0,128,0,-1--1--1,,1|(440,933)|
+1,469,464,68,1,0,0,0,0,128,0,-1--1--1,,1|(404,1004)|
+10,470,Ending Rate,1543,1413,41,11,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,471,121,470,0,1,0,0,0,128,0,-1--1--1,,1|(1539,1309)|
+1,472,107,470,0,1,0,0,0,128,0,-1--1--1,,1|(1534,1252)|
+1,473,93,470,0,1,0,0,0,128,0,-1--1--1,,1|(1533,1193)|
+1,474,173,470,0,1,0,0,0,128,0,-1--1--1,,1|(1941,1303)|
+1,475,159,470,0,1,0,0,0,128,0,-1--1--1,,1|(1933,1248)|
+1,476,145,470,0,1,0,0,0,128,0,-1--1--1,,1|(1936,1188)|
+1,477,74,470,0,1,0,0,0,128,0,-1--1--1,,1|(1158,1311)|
+1,478,62,470,0,1,0,0,0,128,0,-1--1--1,,1|(1160,1256)|
+1,479,50,470,0,1,0,0,0,128,0,-1--1--1,,1|(1158,1197)|
+10,480,"%Visit1-n-Done",250,649,53,11,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,481,258,480,0,3,0,0,0,128,0,-1--1--1,,1|(173,719)|
+1,482,246,480,0,3,0,0,0,128,0,-1--1--1,,1|(521,530)|
+10,483,"%Visit2-7<3mo and More",1085,258,53,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,484,249,483,0,3,0,0,0,64,0,-1--1--1,,1|(925,400)|
+1,485,253,483,0,3,0,0,0,64,0,-1--1--1,,1|(1342,390)|
+10,486,"%Visit8PL-n-More",2479,608,78,10,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,487,262,486,1,3,0,0,0,128,0,-1--1--1,,1|(2453,575)|
+10,488,"Starters who Quit %",901,527,43,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,489,246,488,0,3,0,0,0,64,0,-1--1--1,,1|(844,463)|
+1,490,258,488,0,3,0,0,0,64,0,-1--1--1,,1|(496,659)|
+10,491,"Initators who Return Later %",831,639,52,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,492,249,491,0,3,0,0,0,64,0,-1--1--1,,1|(800,580)|
+1,493,253,491,0,3,0,0,0,64,0,-1--1--1,,1|(1218,575)|
+10,494,"Completers who Return %",2315,681,55,20,8,3,3,0,0,0,0,0,0,0,0,0,0,0
+1,495,262,494,0,3,0,0,0,64,0,-1--1--1,,1|(2369,608)|
+10,496,Initiation Rate,1237,139,47,11,8,131,2,0,0,0,0,0,0,0,0,0,0,0
+1,497,206,496,0,2,0,0,0,128,0,-1--1--1,,1|(1265,217)|
+1,498,219,496,0,2,0,0,0,128,0,-1--1--1,,1|(1255,303)|
+1,499,15,496,0,2,0,0,0,128,0,-1--1--1,,1|(1246,382)|
+10,500,Completers Continuing Treatment Rate after 3 Months,1967,608,101,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,501,35,500,0,0,0,0,0,128,0,-1--1--1,,1|(1962,535)|
+1,502,500,139,1,0,0,0,0,128,0,-1--1--1,,1|(1968,816)|
+1,503,500,153,1,0,0,0,0,128,0,-1--1--1,,1|(1931,832)|
+1,504,500,167,1,0,0,0,0,128,0,-1--1--1,,1|(1916,984)|
+10,505,"Actual Starters Who Return Later %",973,79,72,20,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,506,505,412,0,1,0,0,0,128,0,-1--1--1,,1|(940,114)|
+1,507,318,310,100,0,0,22,0,0,0,-1--1--1,,1|(484,451)|
+1,508,306,2,100,0,0,22,0,0,0,-1--1--1,,1|(536,123)|
+10,509,"Effect of Implement IOP on Initiator %s",1143,694,66,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+10,510,User Implement Intensive Outpatient Program,1460,764,59,32,8,131,1,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,511,510,509,0,1,0,0,0,128,0,-1--1--1,,1|(1311,731)|
+10,512,"Max Effect of IOP on %s",1196,755,58,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,513,512,509,0,1,0,0,0,128,0,-1--1--1,,1|(1174,729)|
+10,514,Effect of Implement IOP on Durations,1678,606,66,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,515,510,514,0,1,0,0,0,128,0,-1--1--1,,1|(1571,683)|
+1,516,514,225,0,1,0,0,0,128,0,-1--1--1,,1|(1612,544)|
+1,517,514,212,0,1,0,0,0,128,0,-1--1--1,,1|(1604,462)|
+1,518,514,35,0,1,0,0,0,128,0,-1--1--1,,1|(1812,549)|
+1,519,514,21,0,1,0,0,0,128,0,-1--1--1,,1|(1592,621)|
+10,520,Time,1099,758,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,521,520,509,0,0,0,0,0,64,0,-1--1--1,,1|(1113,736)|
+10,522,Time,1798,610,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,523,522,514,0,0,0,0,0,64,0,-1--1--1,,1|(1763,609)|
+10,524,Time for IOP to affect Duration,1842,645,51,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,525,524,514,0,0,0,0,0,128,0,-1--1--1,,1|(1774,628)|
+10,526,"Actual Starters who Initiate % including any IOP Effect",1121,312,79,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,527,509,526,0,0,0,0,0,128,0,-1--1--1,,1|(1132,514)|
+1,528,39,526,0,0,0,0,0,128,0,-1--1--1,,1|(1051,356)|
+10,529,"Actual Initiators who Complete % including IOP Effect",1167,536,87,30,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,530,230,529,0,0,0,0,0,128,0,-1--1--1,,1|(1304,528)|
+1,531,509,529,0,0,0,0,0,128,0,-1--1--1,,1|(1152,626)|
+10,532,"Actual Initiators Who Quit Early %",922,517,70,20,8,131,0,0,0,0,0,0,0,0,0,0,0,0
+10,533,Experiment wk,925,439,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,534,533,532,0,0,0,0,0,64,0,-1--1--1,,1|(923,466)|
+10,535,Time,964,460,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,536,535,532,0,0,0,0,0,64,0,-1--1--1,,1|(950,478)|
+1,537,509,125,0,0,0,0,0,64,0,-1--1--1,,1|(1097,660)|
+1,538,532,125,0,0,0,0,0,64,0,-1--1--1,,1|(962,553)|
+1,539,526,207,0,0,0,0,0,128,0,-1--1--1,,1|(1204,308)|
+1,540,526,219,0,0,0,0,0,128,0,-1--1--1,,1|(1204,387)|
+1,541,533,39,0,0,0,0,0,128,0,-1--1--1,,1|(954,418)|
+1,542,535,39,0,0,0,0,0,128,0,-1--1--1,,1|(980,431)|
+1,543,526,16,0,0,0,0,0,128,0,-1--1--1,,1|(1186,476)|
+1,544,529,220,0,0,0,0,0,128,0,-1--1--1,,1|(1221,504)|
+1,545,529,15,0,0,0,0,0,128,0,-1--1--1,,1|(1221,580)|
+10,546,Max Effect of IOP on Durations,1658,688,68,20,8,3,0,0,-1,0,0,0,0,0,0,0,0,0
+1,547,546,514,0,0,0,0,0,64,0,-1--1--1,,1|(1665,653)|
+10,548,"Actual Completers Who Graduate % including IOP Effect",2187,661,86,30,8,131,0,0,0,0,0,0,0,0,0,0,0,0
+1,549,177,548,0,0,0,0,0,128,0,-1--1--1,,1|(2241,617)|
+1,550,548,500,0,0,0,0,0,128,0,-1--1--1,,1|(2091,638)|
+1,551,548,275,0,0,0,0,0,128,0,-1--1--1,,1|(2174,592)|
+1,552,187,186,1,0,0,0,0,128,0,-1--1--1,,1|(450,152)|
+1,553,327,321,1,0,0,0,0,128,0,-1--1--1,,1|(370,433)|
+10,554,"Effect of Implement IOP on Completer %",2091,715,69,20,8,3,1,0,0,0,0,0,0,0,0,0,0,0
+1,555,524,554,0,0,0,0,0,128,0,-1--1--1,,1|(1950,675)|
+1,556,554,548,0,0,0,0,0,128,0,-1--1--1,,1|(2123,696)|
+10,557,"Max Effect of IOP on %s",2072,761,63,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,558,557,554,0,0,0,0,0,128,0,-1--1--1,,1|(2078,744)|
+10,559,Time,2189,753,28,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,560,559,554,0,0,0,0,0,64,0,-1--1--1,,1|(2157,741)|
+1,561,510,554,0,0,0,0,0,64,0,-1--1--1,,1|(1763,740)|
+10,562,"ET Change Delayed by RVI - 1-LowD",1124,859,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,563,562,265,0,0,0,0,0,128,0,-1--1--1,,1|(999,881)|
+10,564,Experiment wk,1124,899,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,565,564,562,0,0,0,0,0,64,0,-1--1--1,,1|(1124,890)|
+10,566,"RVI >3mo - 1Visit-LowD",1124,899,46,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,567,566,562,0,0,0,0,0,64,0,-1--1--1,,1|(1124,879)|
+10,568,"ET Change Delayed by RVI - 1-HighD",1109,1134,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,569,"ET Change Delayed by RVI - 1-MidD",1108,994,66,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,570,277,569,0,0,0,0,0,64,0,-1--1--1,,1|(1374,890)|
+10,571,Experiment wk,1108,1034,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,572,571,569,0,0,0,0,0,64,0,-1--1--1,,1|(1108,1025)|
+10,573,"RVI >3mo - 1Visit-MidD",1108,1034,45,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,574,573,569,0,0,0,0,0,64,0,-1--1--1,,1|(1108,1014)|
+1,575,277,568,0,0,0,0,0,64,0,-1--1--1,,1|(1379,959)|
+10,576,Experiment wk,1109,1174,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,577,576,568,0,0,0,0,0,64,0,-1--1--1,,1|(1109,1165)|
+10,578,"RVI >3mo - 1Visit-HighD",1109,1174,47,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,579,578,568,0,0,0,0,0,64,0,-1--1--1,,1|(1109,1154)|
+1,580,569,266,0,0,0,0,0,128,0,-1--1--1,,1|(995,1009)|
+1,581,568,267,0,0,0,0,0,128,0,-1--1--1,,1|(1004,1135)|
+10,582,"ET Change Delayed by RVI - 2-7-LowD",1923,866,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,583,"ET Change Delayed by RVI - 2-7-HighD",1908,1141,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,584,"ET Change Delayed by RVI - 2-7-MidD",1907,1001,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,585,582,94,0,0,0,0,0,128,0,-1--1--1,,1|(1766,885)|
+1,586,584,108,0,0,0,0,0,128,0,-1--1--1,,1|(1760,1014)|
+1,587,583,122,0,0,0,0,0,128,0,-1--1--1,,1|(1769,1140)|
+1,588,277,582,0,0,0,0,0,64,0,-1--1--1,,1|(1788,824)|
+10,589,Experiment wk,1923,906,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,590,589,582,0,0,0,0,0,64,0,-1--1--1,,1|(1923,897)|
+10,591,"RVI >3mo - 2-7Visits-LowD",1923,906,56,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,592,591,582,0,0,0,0,0,64,0,-1--1--1,,1|(1923,886)|
+1,593,277,584,0,0,0,0,0,64,0,-1--1--1,,1|(1780,892)|
+10,594,Experiment wk,1907,1041,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,595,594,584,0,0,0,0,0,64,0,-1--1--1,,1|(1907,1032)|
+10,596,"RVI >3mo - 2-7Visits-MidD",1907,1041,54,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,597,596,584,0,0,0,0,0,64,0,-1--1--1,,1|(1907,1021)|
+1,598,277,583,0,0,0,0,0,64,0,-1--1--1,,1|(1779,960)|
+10,599,Experiment wk,1908,1181,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,600,599,583,0,0,0,0,0,64,0,-1--1--1,,1|(1908,1172)|
+10,601,"RVI >3mo - 2-7Visits-HighD",1908,1181,58,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,602,601,583,0,0,0,0,0,64,0,-1--1--1,,1|(1908,1161)|
+10,603,"ET Change Delayed by RVI - 8-12-LowD",2712,854,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,604,"ET Change Delayed by RVI - 8-12-HighD",2699,1118,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,605,"ET Change Delayed by RVI - 8-12-MidD",2710,985,76,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,606,603,146,0,0,0,0,0,128,0,-1--1--1,,1|(2567,865)|
+1,607,605,160,0,0,0,0,0,128,0,-1--1--1,,1|(2565,993)|
+1,608,604,174,0,0,0,0,0,128,0,-1--1--1,,1|(2571,1117)|
+1,609,277,603,0,0,0,0,0,64,0,-1--1--1,,1|(2177,817)|
+10,610,Experiment wk,2712,894,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,611,610,603,0,0,0,0,0,64,0,-1--1--1,,1|(2712,885)|
+10,612,"RVI >3mo - 8-12Visits-LowD",2712,894,60,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,613,612,603,0,0,0,0,0,64,0,-1--1--1,,1|(2712,874)|
+1,614,277,605,0,0,0,0,0,64,0,-1--1--1,,1|(2176,882)|
+10,615,Experiment wk,2710,1025,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,616,615,605,0,0,0,0,0,64,0,-1--1--1,,1|(2710,1016)|
+10,617,"RVI >3mo - 8-12Visits-MidD",2710,1025,58,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,618,617,605,0,0,0,0,0,64,0,-1--1--1,,1|(2710,1005)|
+1,619,277,604,0,0,0,0,0,64,0,-1--1--1,,1|(2177,950)|
+10,620,Experiment wk,2699,1158,59,11,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,621,620,604,0,0,0,0,0,64,0,-1--1--1,,1|(2699,1149)|
+10,622,"RVI >3mo - 8-12Visits-HighD",2699,1158,62,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,623,622,604,0,0,0,0,0,64,0,-1--1--1,,1|(2699,1138)|
 \\\---/// Sketch information - do not modify anything except names
 V300  Do not put anything below this section - it will be ignored
 *Performance Measures
 $192-192-192,0,Meiryo|10||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,70,0
-10,1,Starters Patients in First Visit,1349,1085,77,16,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-10,2,Initiators Who Will Return,1317,956,65,20,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,3,Completers Patients in over 7 Visits,1310,856,68,25,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,4,"Total Pts <3months",1074,928,35,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,5,1,4,0,0,0,0,0,128,0,-1--1--1,,1|(1221,1011)|
-1,6,2,4,0,0,0,0,0,128,0,-1--1--1,,1|(1187,941)|
-1,7,3,4,0,0,0,0,0,128,0,-1--1--1,,1|(1182,894)|
-10,8,EBP Bronze Standard for Depression,1063,120,72,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
-10,9,EBP Gold Standard for Depression,1431,121,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,10,Total Pts in Psych,1190,1128,57,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,11,HS Gold Standard for Depression,1130,459,70,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,12,Initiators Who Will Quit,1323,1026,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,13,Initiators Who Will Continue,1325,758,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,14,12,4,0,0,0,0,0,128,0,-1--1--1,,1|(1197,976)|
-1,15,13,4,0,0,0,0,0,128,0,-1--1--1,,1|(1205,839)|
-10,16,EBP Silver Standard for Depression,1253,122,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
-10,17,HS Silver Standard for Depression,964,454,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,18,4,10,1,0,0,0,0,128,0,-1--1--1,,1|(1130,1059)|
-1,19,16,9,0,0,0,0,0,128,0,-1--1--1,,1|(1336,121)|
-10,20,"DEP within 3 months %",322,946,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,21,"PTSD within 3 months %",455,944,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,22,"AUD within 3 months %",558,938,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,23,"OUD within 3 months %",670,945,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,24,Patients in Care More Than 3 Months,1355,1145,63,27,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
-1,25,24,10,0,0,0,0,0,128,0,-1--1--1,,1|(1276,1136)|
-1,26,17,16,0,0,0,0,0,128,0,-1--1--1,,1|(1103,293)|
-10,27,HS Gold Standard for PTSD,1131,531,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,28,HS Silver Standard for PTSD,965,526,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,29,Total Initiators,993,827,48,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,30,12,29,0,0,0,0,0,128,0,-1--1--1,,1|(1156,925)|
-1,31,2,29,0,0,0,0,0,128,0,-1--1--1,,1|(1150,889)|
-1,32,13,29,0,0,0,0,0,128,0,-1--1--1,,1|(1157,792)|
-10,33,"# Pts <3mo in Team with Depression",334,871,69,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,34,"# Pts <3mo in Team w/PTSD",327,810,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,35,"# Pts <3mo in Team w/AUD",329,743,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-10,36,"# Pts <3mo in Team w/OUD",331,696,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,37,4,36,0,0,0,0,0,128,0,-1--1--1,,1|(715,816)|
-1,38,4,35,0,0,0,0,0,128,0,-1--1--1,,1|(714,838)|
-1,39,4,34,0,0,0,0,0,128,0,-1--1--1,,1|(713,871)|
-1,40,4,33,0,0,0,0,0,128,0,-1--1--1,,1|(727,901)|
-1,41,20,33,0,0,0,0,0,128,0,-1--1--1,,1|(326,915)|
-1,42,21,34,0,0,0,0,0,128,0,-1--1--1,,1|(395,882)|
-1,43,22,35,0,0,0,0,0,128,0,-1--1--1,,1|(448,845)|
-1,44,23,36,0,0,0,0,0,128,0,-1--1--1,,1|(506,824)|
-1,45,20,17,0,0,0,0,0,128,0,-1--1--1,,1|(636,704)|
-1,46,29,17,0,0,0,0,0,128,0,-1--1--1,,1|(979,651)|
-1,47,3,11,0,0,0,0,0,128,0,-1--1--1,,1|(1221,661)|
-1,48,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(719,706)|
-1,49,29,28,0,0,0,0,0,128,0,-1--1--1,,1|(979,687)|
-1,50,21,28,0,0,0,0,0,128,0,-1--1--1,,1|(704,739)|
-1,51,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(719,706)|
-1,52,21,27,0,0,0,0,0,128,0,-1--1--1,,1|(786,741)|
-1,53,3,27,0,0,0,0,0,128,0,-1--1--1,,1|(1222,697)|
-10,54,EBP Bronze Standard for PTSD,1118,190,62,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
-10,55,EBP Gold Standard for PTSD,1500,191,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,56,EBP Silver Standard for PTSD,1308,192,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
-1,57,56,55,0,0,0,0,0,128,0,-1--1--1,,1|(1398,191)|
-1,58,28,56,0,0,0,0,0,128,0,-1--1--1,,1|(1130,363)|
-10,59,HS Gold Standard for AUD,1131,601,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,60,HS Silver Standard for AUD,965,596,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,61,29,60,0,0,0,0,0,64,0,-1--1--1,,1|(980,722)|
-1,62,22,60,0,0,0,0,0,64,0,-1--1--1,,1|(755,771)|
-1,63,22,59,0,0,0,0,0,64,0,-1--1--1,,1|(837,773)|
-10,64,HS Gold Standard for OUD,1134,670,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,65,HS Silver Standard for OUD,968,665,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
-1,66,29,65,0,0,0,0,0,64,0,-1--1--1,,1|(982,757)|
-1,67,23,65,0,0,0,0,0,64,0,-1--1--1,,1|(813,809)|
-1,68,23,64,0,0,0,0,0,64,0,-1--1--1,,1|(895,811)|
-10,69,EBP Bronze Standard for AUD,1182,255,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
-10,70,EBP Gold Standard for AUD,1564,257,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,71,EBP Silver Standard for AUD,1372,257,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
-1,72,71,70,0,0,0,0,0,128,0,-1--1--1,,1|(1462,257)|
-1,73,60,71,0,0,0,0,0,64,0,-1--1--1,,1|(1162,430)|
-10,74,EBP Bronze Standard for OUD,1245,319,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
-10,75,EBP Gold Standard for OUD,1627,321,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
-10,76,EBP Silver Standard for OUD,1435,321,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
-1,77,76,75,0,0,0,0,0,128,0,-1--1--1,,1|(1525,321)|
-1,78,65,76,0,0,0,0,0,64,0,-1--1--1,,1|(1195,497)|
-1,79,3,64,0,0,0,0,0,128,0,-1--1--1,,1|(1224,765)|
-1,80,3,59,0,0,0,0,0,128,0,-1--1--1,,1|(1223,731)|
-10,81,Octane Ratio,1011,1005,44,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,82,"HS Silver Standard - All",865,1072,49,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-128-128,0,0,0,0,0,0
-10,83,"HS Gold Standard - All",863,1153,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-192-0,0,0,0,0,0,0
-1,84,10,81,1,0,0,0,0,128,0,-1--1--1,,1|(1071,1062)|
-1,85,29,82,0,0,0,0,0,64,0,-1--1--1,,1|(934,938)|
-1,86,3,83,0,0,0,0,0,128,0,-1--1--1,,1|(1088,1003)|
-10,87,Team Data on New Patients Starts,402,262,66,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
-10,88,Start Rate Relative to Data,517,357,64,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,89,87,88,0,0,0,0,0,128,0,-1--1--1,,1|(453,305)|
-10,90,Starting Psychotherapy,626,255,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
-1,91,90,88,0,0,0,0,0,128,0,-1--1--1,,1|(576,301)|
-10,92,"HS Bronze Standard - All",878,1006,46,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
-1,93,4,92,0,0,0,0,0,128,0,-1--1--1,,1|(987,961)|
-10,94,HS Bronze Standard for Depression,804,456,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
-10,95,HS Bronze Standard for PTSD,804,526,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
-10,96,HS Bronze Standard for AUD,809,591,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
-10,97,HS Bronze Standard for OUD,809,666,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
-1,98,33,94,0,0,0,0,0,128,0,-1--1--1,,1|(563,668)|
-1,99,34,95,0,0,0,0,0,128,0,-1--1--1,,1|(558,671)|
-1,100,35,96,0,0,0,0,0,128,0,-1--1--1,,1|(556,670)|
-1,101,36,97,0,0,0,0,0,128,0,-1--1--1,,1|(557,681)|
-1,102,94,8,0,0,0,0,0,128,0,-1--1--1,,1|(928,293)|
-1,103,95,54,0,0,0,0,0,128,0,-1--1--1,,1|(955,363)|
-1,104,96,69,0,0,0,0,0,128,0,-1--1--1,,1|(989,427)|
-1,105,97,74,0,0,0,0,0,128,0,-1--1--1,,1|(1021,496)|
-10,106,"User Patients with Adequate EBP Templates %",1241,-30,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
-1,107,106,8,0,0,0,0,0,128,0,-1--1--1,,1|(1157,40)|
-1,108,106,54,0,0,0,0,0,64,0,-1--1--1,,1|(1182,73)|
-1,109,106,69,0,0,0,0,0,64,0,-1--1--1,,1|(1212,105)|
-1,110,106,74,0,0,0,0,0,64,0,-1--1--1,,1|(1242,137)|
-1,111,106,16,0,0,0,0,0,64,0,-1--1--1,,1|(1245,39)|
-1,112,106,56,0,0,0,0,0,64,0,-1--1--1,,1|(1272,74)|
-1,113,106,71,0,0,0,0,0,64,0,-1--1--1,,1|(1303,107)|
-1,114,106,76,0,0,0,0,0,64,0,-1--1--1,,1|(1334,139)|
-1,115,106,9,0,0,0,0,0,64,0,-1--1--1,,1|(1330,41)|
-1,116,106,55,0,0,0,0,0,64,0,-1--1--1,,1|(1364,75)|
-1,117,106,70,0,0,0,0,0,64,0,-1--1--1,,1|(1396,108)|
-1,118,106,75,0,0,0,0,0,64,0,-1--1--1,,1|(1428,140)|
-10,119,"Octane Ratio - Initiators",1003,1071,49,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-10,120,"Octane Ratio - Completers",1014,1151,49,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
-1,121,92,81,0,0,0,0,0,128,0,-1--1--1,,1|(938,1005)|
-1,122,10,119,1,0,0,0,0,128,0,-1--1--1,,1|(1109,1103)|
-1,123,10,120,1,0,0,0,0,128,0,-1--1--1,,1|(1169,1133)|
-1,124,82,119,0,0,0,0,0,128,0,-1--1--1,,1|(927,1071)|
-1,125,83,120,0,0,0,0,0,128,0,-1--1--1,,1|(936,1152)|
-1,126,83,119,0,0,0,0,0,64,0,-1--1--1,,1|(926,1115)|
-1,127,3,65,0,0,0,0,0,128,0,-1--1--1,,1|(1140,761)|
-1,128,3,60,0,0,0,0,0,128,0,-1--1--1,,1|(1139,727)|
-1,129,3,28,0,0,0,0,0,128,0,-1--1--1,,1|(1139,693)|
-1,130,3,17,0,0,0,0,0,128,0,-1--1--1,,1|(1139,657)|
+10,1,Starters Patients in First Visit,1349,1206,77,16,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+10,2,Initiators who will Return,1317,1077,65,20,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,3,Completers Patients in Over 7 Visits,1310,977,68,25,8,130,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,4,"Total Pts <3months",1074,1049,35,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,5,1,4,0,0,0,0,0,128,0,-1--1--1,,1|(1221,1132)|
+1,6,2,4,0,0,0,0,0,128,0,-1--1--1,,1|(1187,1062)|
+1,7,3,4,0,0,0,0,0,128,0,-1--1--1,,1|(1182,1015)|
+10,8,EBP Bronze Standard for Depression,1063,241,72,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
+10,9,EBP Gold Standard for Depression,1431,242,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,10,Total Pts in Psych,1190,1249,57,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,11,HS Gold Standard for Depression,1130,580,70,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,12,Initiators who will Quit,1323,1147,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,13,Initiators who will Continue,1325,879,65,20,8,2,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,14,12,4,0,0,0,0,0,128,0,-1--1--1,,1|(1197,1097)|
+1,15,13,4,0,0,0,0,0,128,0,-1--1--1,,1|(1205,960)|
+10,16,EBP Silver Standard for Depression,1253,243,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
+10,17,HS Silver Standard for Depression,964,575,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,18,4,10,1,0,0,0,0,128,0,-1--1--1,,1|(1130,1180)|
+1,19,16,9,0,0,0,0,0,128,0,-1--1--1,,1|(1336,242)|
+10,20,"DEP within 3 months %",322,1067,43,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,21,"PTSD within 3 months %",455,1065,47,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,22,"AUD within 3 months %",558,1059,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,23,"OUD within 3 months %",670,1066,44,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,24,Patients in Care More Than 3 Months,1355,1266,63,27,8,130,0,43,-1,0,0,0,128-128-128,0-0-0,Meiryo|10||128-128-128,0,0,0,0,0,0
+1,25,24,10,0,0,0,0,0,128,0,-1--1--1,,1|(1276,1257)|
+1,26,17,16,0,0,0,0,0,128,0,-1--1--1,,1|(1103,414)|
+10,27,HS Gold Standard for PTSD,1131,652,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,28,HS Silver Standard for PTSD,965,647,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,29,Total Initiators,993,948,48,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,30,12,29,0,0,0,0,0,128,0,-1--1--1,,1|(1156,1046)|
+1,31,2,29,0,0,0,0,0,128,0,-1--1--1,,1|(1150,1010)|
+1,32,13,29,0,0,0,0,0,128,0,-1--1--1,,1|(1157,913)|
+10,33,"# Pts <3mo in Team with Depression",334,992,69,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,34,"# Pts <3mo in Team w/PTSD",327,931,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,35,"# Pts <3mo in Team w/AUD",329,864,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+10,36,"# Pts <3mo in Team w/OUD",331,817,48,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,37,4,36,0,0,0,0,0,128,0,-1--1--1,,1|(715,937)|
+1,38,4,35,0,0,0,0,0,128,0,-1--1--1,,1|(714,959)|
+1,39,4,34,0,0,0,0,0,128,0,-1--1--1,,1|(713,992)|
+1,40,4,33,0,0,0,0,0,128,0,-1--1--1,,1|(727,1022)|
+1,41,20,33,0,0,0,0,0,128,0,-1--1--1,,1|(326,1036)|
+1,42,21,34,0,0,0,0,0,128,0,-1--1--1,,1|(395,1003)|
+1,43,22,35,0,0,0,0,0,128,0,-1--1--1,,1|(448,966)|
+1,44,23,36,0,0,0,0,0,128,0,-1--1--1,,1|(506,945)|
+1,45,20,17,0,0,0,0,0,128,0,-1--1--1,,1|(636,825)|
+1,46,29,17,0,0,0,0,0,128,0,-1--1--1,,1|(979,772)|
+1,47,3,11,0,0,0,0,0,128,0,-1--1--1,,1|(1221,782)|
+1,48,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(719,827)|
+1,49,29,28,0,0,0,0,0,128,0,-1--1--1,,1|(979,808)|
+1,50,21,28,0,0,0,0,0,128,0,-1--1--1,,1|(704,860)|
+1,51,20,11,0,0,0,0,0,128,0,-1--1--1,,1|(719,827)|
+1,52,21,27,0,0,0,0,0,128,0,-1--1--1,,1|(786,862)|
+1,53,3,27,0,0,0,0,0,128,0,-1--1--1,,1|(1222,818)|
+10,54,EBP Bronze Standard for PTSD,1118,311,62,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
+10,55,EBP Gold Standard for PTSD,1500,312,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,56,EBP Silver Standard for PTSD,1308,313,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
+1,57,56,55,0,0,0,0,0,128,0,-1--1--1,,1|(1398,312)|
+1,58,28,56,0,0,0,0,0,128,0,-1--1--1,,1|(1130,484)|
+10,59,HS Gold Standard for AUD,1131,722,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,60,HS Silver Standard for AUD,965,717,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,61,29,60,0,0,0,0,0,64,0,-1--1--1,,1|(980,843)|
+1,62,22,60,0,0,0,0,0,64,0,-1--1--1,,1|(755,892)|
+1,63,22,59,0,0,0,0,0,64,0,-1--1--1,,1|(837,894)|
+10,64,HS Gold Standard for OUD,1134,791,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,65,HS Silver Standard for OUD,968,786,62,20,8,3,0,40,0,0,0,0,0-0-0,0-0-0,Meiryo|10||0-0-0,0,0,0,0,0,0
+1,66,29,65,0,0,0,0,0,64,0,-1--1--1,,1|(982,878)|
+1,67,23,65,0,0,0,0,0,64,0,-1--1--1,,1|(813,930)|
+1,68,23,64,0,0,0,0,0,64,0,-1--1--1,,1|(895,932)|
+10,69,EBP Bronze Standard for AUD,1182,376,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
+10,70,EBP Gold Standard for AUD,1564,378,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,71,EBP Silver Standard for AUD,1372,378,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
+1,72,71,70,0,0,0,0,0,128,0,-1--1--1,,1|(1462,378)|
+1,73,60,71,0,0,0,0,0,64,0,-1--1--1,,1|(1162,551)|
+10,74,EBP Bronze Standard for OUD,1245,440,59,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||128-64-0,0,0,0,0,0,0
+10,75,EBP Gold Standard for OUD,1627,442,63,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||255-192-0,0,0,0,0,0,0
+10,76,EBP Silver Standard for OUD,1435,442,66,20,8,3,0,42,0,0,0,0,-1--1--1,0-0-0,Meiryo|10||160-160-160,0,0,0,0,0,0
+1,77,76,75,0,0,0,0,0,128,0,-1--1--1,,1|(1525,442)|
+1,78,65,76,0,0,0,0,0,64,0,-1--1--1,,1|(1195,618)|
+1,79,3,64,0,0,0,0,0,128,0,-1--1--1,,1|(1224,886)|
+1,80,3,59,0,0,0,0,0,128,0,-1--1--1,,1|(1223,852)|
+10,81,Octane Ratio,1011,1126,44,11,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,82,"HS Silver Standard - All",865,1193,49,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-128-128,0,0,0,0,0,0
+10,83,"HS Gold Standard - All",863,1274,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-192-0,0,0,0,0,0,0
+1,84,10,81,1,0,0,0,0,128,0,-1--1--1,,1|(1071,1183)|
+1,85,29,82,0,0,0,0,0,64,0,-1--1--1,,1|(934,1059)|
+1,86,3,83,0,0,0,0,0,128,0,-1--1--1,,1|(1088,1124)|
+10,87,Team Data on New Patients Starts,402,383,66,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-0,0,0,0,0,0,0
+10,88,Start Rate Relative to Data,517,478,64,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,89,87,88,0,0,0,0,0,128,0,-1--1--1,,1|(453,426)|
+10,90,Starting Psychotherapy,626,376,55,20,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|10||128-128-128,0,0,0,0,0,0
+1,91,90,88,0,0,0,0,0,128,0,-1--1--1,,1|(576,422)|
+10,92,"HS Bronze Standard - All",878,1127,46,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
+1,93,4,92,0,0,0,0,0,128,0,-1--1--1,,1|(987,1082)|
+10,94,HS Bronze Standard for Depression,804,577,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
+10,95,HS Bronze Standard for PTSD,804,647,68,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
+10,96,HS Bronze Standard for AUD,809,712,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
+10,97,HS Bronze Standard for OUD,809,787,59,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||128-64-0,0,0,0,0,0,0
+1,98,33,94,0,0,0,0,0,128,0,-1--1--1,,1|(563,789)|
+1,99,34,95,0,0,0,0,0,128,0,-1--1--1,,1|(558,792)|
+1,100,35,96,0,0,0,0,0,128,0,-1--1--1,,1|(556,791)|
+1,101,36,97,0,0,0,0,0,128,0,-1--1--1,,1|(557,802)|
+1,102,94,8,0,0,0,0,0,128,0,-1--1--1,,1|(928,414)|
+1,103,95,54,0,0,0,0,0,128,0,-1--1--1,,1|(955,484)|
+1,104,96,69,0,0,0,0,0,128,0,-1--1--1,,1|(989,548)|
+1,105,97,74,0,0,0,0,0,128,0,-1--1--1,,1|(1021,617)|
+10,106,"User Patients with Adequate EBP Templates %",1241,91,78,20,8,3,0,2,0,0,0,0,-1--1--1,0-0-0,|10||255-0-255,0,0,0,0,0,0
+1,107,106,8,0,0,0,0,0,128,0,-1--1--1,,1|(1157,161)|
+1,108,106,54,0,0,0,0,0,64,0,-1--1--1,,1|(1182,194)|
+1,109,106,69,0,0,0,0,0,64,0,-1--1--1,,1|(1212,226)|
+1,110,106,74,0,0,0,0,0,64,0,-1--1--1,,1|(1242,258)|
+1,111,106,16,0,0,0,0,0,64,0,-1--1--1,,1|(1245,160)|
+1,112,106,56,0,0,0,0,0,64,0,-1--1--1,,1|(1272,195)|
+1,113,106,71,0,0,0,0,0,64,0,-1--1--1,,1|(1303,228)|
+1,114,106,76,0,0,0,0,0,64,0,-1--1--1,,1|(1334,260)|
+1,115,106,9,0,0,0,0,0,64,0,-1--1--1,,1|(1330,162)|
+1,116,106,55,0,0,0,0,0,64,0,-1--1--1,,1|(1364,196)|
+1,117,106,70,0,0,0,0,0,64,0,-1--1--1,,1|(1396,229)|
+1,118,106,75,0,0,0,0,0,64,0,-1--1--1,,1|(1428,261)|
+10,119,"Octane Ratio - Initiators",1003,1192,49,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+10,120,"Octane Ratio - Completers",1014,1272,49,20,8,3,0,0,0,0,0,0,0,0,0,0,0,0
+1,121,92,81,0,0,0,0,0,128,0,-1--1--1,,1|(938,1126)|
+1,122,10,119,1,0,0,0,0,128,0,-1--1--1,,1|(1109,1224)|
+1,123,10,120,1,0,0,0,0,128,0,-1--1--1,,1|(1169,1254)|
+1,124,82,119,0,0,0,0,0,128,0,-1--1--1,,1|(927,1192)|
+1,125,83,120,0,0,0,0,0,128,0,-1--1--1,,1|(936,1273)|
+1,126,83,119,0,0,0,0,0,64,0,-1--1--1,,1|(926,1236)|
+1,127,3,65,0,0,0,0,0,128,0,-1--1--1,,1|(1140,882)|
+1,128,3,60,0,0,0,0,0,128,0,-1--1--1,,1|(1139,848)|
+1,129,3,28,0,0,0,0,0,128,0,-1--1--1,,1|(1139,814)|
+1,130,3,17,0,0,0,0,0,128,0,-1--1--1,,1|(1139,778)|
 \\\---/// Sketch information - do not modify anything except names
 V300  Do not put anything below this section - it will be ignored
 *UI Outputs
@@ -4390,6 +4395,7 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,7
 :VAR HS Silver Standard for OUD
 :VAR HS Gold Standard for OUD
 :L<%^E!@
+1:PSY--Nov04-DoubleRVI.vdfx
 9:PSY--Nov04-DoubleRVI
 22:$,Dollar,Dollars,$s
 22:Hour,Hours
@@ -4401,14 +4407,14 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|96,96,7
 22:Day,Days
 23:0
 15:0,0,0,0,0,0
-19:75,2
+19:75,3
 27:0,
 34:0,
 42:1
 72:0
 73:0
 4:Time
-5:"#_Pts_<3mo_in_Team_w/AUD"
+5:Starters_Continue_Treatment_Rate_after_3_Months
 35:Date
 36:YYYY-MM-DD
 37:2000
