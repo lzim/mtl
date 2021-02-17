@@ -4,7 +4,7 @@
 set workspacePath= C:\Users\james\Documents\GitHub\lzim-mtl\blue\mtl2.0_models
 
 :: This is mandatory parameter, specify file name with .mdl extension. For multiple file, specify names with space between each, For Example, abc.mdl xyz.mdl xxx.mdl
-set fileNames= sp_i_v4_2021_01_20.mdl agg_i_v15_2021_01_20.mdl cc_i_v36_2021_01_20.mdl mm_i_v36_2021_01_20.mdl psy_i_v21_2021_01_20.mdl
+set fileNames= sp_i_v4_2021_02_14.mdl agg_i_v15_2021_02_14.mdl cc_i_v36_2021_02_14mdl mm_i_v36_2021_02_14.mdl psy_i_v21_2021_02_14.mdl
 
 
 :: Vensim Command Generating

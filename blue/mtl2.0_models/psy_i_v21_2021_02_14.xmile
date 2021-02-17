@@ -32,7 +32,7 @@
 					Ending who can Initiate
 					</outflow>
 			</stock>
-			<stock name="Completers_Patients_in_Over_7_Visits">
+			<stock name="Completers_Patients_in_over_7_Visits">
 				<units>pts</units>
 				<doc>Total number of patients scheduled for their 8th or greater visit within their first three months engaged in care. (pts)</doc>
 					<eqn>
@@ -247,7 +247,7 @@
 					From Starters Ending Mid D
 					</outflow>
 			</stock>
-			<stock name="Initiators_who_will_Continue">
+			<stock name="Initiators_Who_Will_Continue">
 				<units>pts</units>
 				<doc>Total number of patients scheduled for their 2-7th visit in their first three months engaged in care, who will go on to complete 8 or more visits in this period.</doc>
 					<eqn>
@@ -260,7 +260,7 @@
 					Continuting on to Visit 8 Rate
 					</outflow>
 			</stock>
-			<stock name="Initiators_who_will_Quit">
+			<stock name="Initiators_Who_Will_Quit">
 				<units>pts</units>
 				<doc>Total number of patients scheduled for their 2-7th visit in their first three months engaged in care, who will not continue psychotherapy afterward.</doc>
 					<eqn>
@@ -273,7 +273,7 @@
 					Ending During Visit 2 to 7 Rate
 					</outflow>
 			</stock>
-			<stock name="Initiators_who_will_Return">
+			<stock name="Initiators_Who_Will_Return">
 				<units>pts</units>
 				<doc>Total number of patients scheduled for their 2-7th visit in their first three months engaged in care, who will continue psychotherapy afterward.</doc>
 					<eqn>
@@ -291,7 +291,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_1-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_1-LowD">
@@ -299,7 +299,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_1-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_1-MidD">
@@ -307,7 +307,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_1-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-HighD">
@@ -315,7 +315,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-LowD">
@@ -323,7 +323,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-MidD">
@@ -331,7 +331,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-HighD">
@@ -339,7 +339,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-LowD">
@@ -347,7 +347,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD", 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-MidD">
@@ -355,7 +355,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD", 1)
 					</eqn>
 			</stock>
 			<stock name="Starters_Patients_in_First_Visit">
@@ -425,7 +425,7 @@
 			<aux name="Actual_Initiators_who_Complete__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
+					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Complete_">
 				<units>Dmnl</units>
@@ -439,7 +439,7 @@
 			<aux name="Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
+					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Quit_Early_">
 				<units>Dmnl</units>
@@ -453,7 +453,7 @@
 			<aux name="Actual_Starters_who_Initiate__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_€ÂÀ×Ü")					</eqn>
+					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
 			</aux>
 			<aux name="Actual_Starters_Who_Initiate_">
 				<units>Dmnl</units>
@@ -501,20 +501,20 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patient who completed only 1 visit in their first 3 months (i.e., "'False' One-and-Dones").</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_1_Visit_(1st_Quartile)" , "RVI_>3mo_-_1Visit-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_1_Visit_(1st_Quartile)" , "RVI_>3mo_-_1Visit-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ("Engagement_Time_-_From_1_Visit_(Mean)" , "RVI_>3mo_-_1Visit-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ("Engagement_Time_-_From_1_Visit_(Mean)" , "RVI_>3mo_-_1Visit-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ("Engagement_Time_-_From_1_Visit_(4th_Quartile)" , "RVI_>3mo_-_1Visit-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ("Engagement_Time_-_From_1_Visit_(4th_Quartile)" , "RVI_>3mo_-_1Visit-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
 			</aux>
 			<aux name="Bars_E4-Final">
@@ -548,20 +548,20 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Initiator" patients who eventually complete more visits.</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)" , "RVI_>3mo_-_2-7Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)" , "RVI_>3mo_-_2-7Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(Mean)" , "RVI_>3mo_-_2-7Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(Mean)" , "RVI_>3mo_-_2-7Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)" , "RVI_>3mo_-_2-7Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)" , "RVI_>3mo_-_2-7Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
 			</aux>
 			<aux name="Bars_E6_>3mo-Initial">
@@ -596,20 +596,20 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patient who completed only 1 visit in their first 3 months (i.e., "Completer" patients who receive even more visits).</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)" , "RVI_>3mo_-_8-12Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)" , "RVI_>3mo_-_8-12Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(Mean)" , "RVI_>3mo_-_8-12Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(Mean)" , "RVI_>3mo_-_8-12Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)" , "RVI_>3mo_-_8-12Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_of_Patient's_Past_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)" , "RVI_>3mo_-_8-12Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
 			</aux>
 			<aux name="Bars_E9-Initial">
@@ -627,7 +627,7 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
 					<eqn>"Bars_E4-Initial"+Bars_E3					</eqn>
 			</aux>
-			<aux name="Completers_who_Return_">
+			<aux name="Completers_Who_Return_">
 				<units>Dmnl</units>
 				<doc>The proportion of patients who complete eight or more psychotherapy visits within three months (i.e., completers) and continue to get more psychotherapy visits more than three months after their first psychotherapy visit. (pct)</doc>
 					<eqn>1 - "Data_Completers_Who_Graduate_"					</eqn>
@@ -654,7 +654,7 @@
 				<doc>Constrained to be between 0 and 100</doc>
 					<eqn>MAX(MIN(
 	
-	IF_THEN_ELSE("User_Completers_who_Graduate_">=0:AND:Time>Experiment_wk,"User_Completers_who_Graduate_","Data_Completers_Who_Graduate_")
+	IF_THEN_ELSE("User_Completers_Who_Graduate_">=0:AND:Time>Experiment_wk,"User_Completers_Who_Graduate_","Data_Completers_Who_Graduate_")
 	
 	,1),0)					</eqn>
 			</aux>
@@ -708,7 +708,7 @@
 				<doc>Rate of patients ending their 2-7th visit, who will complete 2-7 visits in less than 3 months and go on to complete 8 or more visits in that period.  This is the desired engagement pattern. It is constrained from going below zero.</doc>
 					<eqn>MAX(
 	
-	ZIDZ(Initiators_who_will_Continue, ("Data_ET_-_Initiators_Who_Complete"*Effect_of_Implement_IOP_on_Durations))
+	ZIDZ(Initiators_Who_Will_Continue, ("Data_ET_-_Initiators_Who_Complete"*Effect_of_Implement_IOP_on_Durations))
 	
 	,0)					</eqn>
 			</aux>
@@ -810,7 +810,7 @@
 			<aux name="Effect_of_Implement_IOP_on_Completer_">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero, delayed by the average time it takes to get to completion (now, with IOP is 6 weeks, instead of the usual 12 weeks).</doc>
-					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_€ÂÀ×Ü"),0),Time_for_IOP_to_affect_Duration)					</eqn>
+					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_@Â“"),0),Time_for_IOP_to_affect_Duration)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implement_IOP_on_Durations">
 				<units>Dmnl</units>
@@ -819,17 +819,17 @@
 	SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Durations),0),Time_for_IOP_to_affect_Duration)
 	)					</eqn>
 			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Initiator_À¼×Ü">
+			<aux name="Effect_of_Implement_IOP_on_Initiator_ðü“">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero.</doc>
-					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_€ÂÀ×Ü"),0)					</eqn>
+					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_@Â“"),0)					</eqn>
 			</aux>
 			<aux name="Ending_After_8_or_More_Visits_Rate">
 				<units>pts/wk</units>
 				<doc>Rate of patients ending their 8th visit, who will complete 8 or more visits in their first 3 months.  This is also known as the "completion rate," i.e., those patients receiving a full, timely dose of psychotherapy.  It is constrained from going below zero.</doc>
 					<eqn>MAX(
 	
-	ZIDZ(Completers_Patients_in_Over_7_Visits, ("ET_-_Completers_who_Graduate"*Effect_of_Implement_IOP_on_Durations))
+	ZIDZ(Completers_Patients_in_over_7_Visits, ("ET_-_Completers_who_Graduate"*Effect_of_Implement_IOP_on_Durations))
 	
 	,0)					</eqn>
 			</aux>
@@ -843,7 +843,7 @@
 				<doc>The number of patients completing their 2-7th visit each week, but who will not continue engagement to receive a full dose. (pts/wk)</doc>
 					<eqn>MAX(
 	
-	ZIDZ(Initiators_who_will_Quit, ("Data_ET_-_Initiators_Who_Quit_Early"*Effect_of_Implement_IOP_on_Durations))
+	ZIDZ(Initiators_Who_Will_Quit, ("Data_ET_-_Initiators_Who_Quit_Early"*Effect_of_Implement_IOP_on_Durations))
 	
 	,0)					</eqn>
 			</aux>
@@ -1155,27 +1155,27 @@
 			<aux name="HS_Gold_Standard_-_All">
 				<units>pts</units>
 				<doc>Number of patients who are receiving a full, timely dose in their first 3 months (i.e., completed 8+ visits within 3 months).  These are the "Completers" (but they may or may not be "Graduators").</doc>
-					<eqn>Completers_Patients_in_Over_7_Visits					</eqn>
+					<eqn>Completers_Patients_in_over_7_Visits					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_AUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with AUD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_Over_7_Visits*"AUD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"AUD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_Depression">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with depression who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_Over_7_Visits*"DEP_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"DEP_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_OUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with OUD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_Over_7_Visits*"OUD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"OUD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_PTSD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with PTSD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_Over_7_Visits*"PTSD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"PTSD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_-_All">
 				<units>pts</units>
@@ -1185,22 +1185,22 @@
 			<aux name="HS_Silver_Standard_for_AUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with AUDwho initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"AUD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"AUD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_Depression">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with depression who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"DEP_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"DEP_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_OUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with OUD who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"OUD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"OUD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_PTSD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with PTSD who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_Over_7_Visits)*"PTSD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"PTSD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="Initation_Rate_who_will_Return">
 				<units>pts/wk</units>
@@ -1209,7 +1209,7 @@
 	*
 	(1-"Actual_Initiators_who_Complete__including_IOP_Effect"-"Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect")					</eqn>
 			</aux>
-			<aux name="Initators_who_Return_Later_">
+			<aux name="Initators_Who_Return_Later_">
 				<units>Dmnl</units>
 				<doc>Of patients who complete at least two to seven psythotherapy visit within their first three months (i.e., initiators), this is the proportion who  do not complete any more psychotherapy visits within three months, but return for at least one more psychotherapy visit after three months ((i.e., patients who return later). (pct)</doc>
 					<eqn>1 - ("Data_Initiators_Who_Complete_" + "Data_Initiators_Who_Quit_Early_")					</eqn>
@@ -1232,12 +1232,12 @@
 			<aux name="Initiators_Continue_Treatment_Rate_after_3_Months">
 				<units>pts/wk</units>
 				<doc>The number of patients who continue treatment after completing two to seven psythotherapy visits within their first three months.  (pts/wk)</doc>
-					<eqn>MAX(Initiators_who_will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations),0)					</eqn>
+					<eqn>MAX(Initiators_Who_Will_Return/("ET_-_Initiators_Who_Return"*Effect_of_Implement_IOP_on_Durations),0)					</eqn>
 			</aux>
 			<aux name="Initiators_Patients_in_Visits_2_to_7">
 				<units>pts</units>
 				<doc>Total number of patients scheduled for their 2-7th visit within their first three months engaged in care. (pts)</doc>
-					<eqn>Initiators_who_will_Quit+Initiators_who_will_Return+Initiators_who_will_Continue					</eqn>
+					<eqn>Initiators_Who_Will_Quit+Initiators_Who_Will_Return+Initiators_Who_Will_Continue					</eqn>
 			</aux>
 			<aux name="Octane_Ratio">
 				<units>Dmnl</units>
@@ -1451,7 +1451,7 @@
 				<doc>The number of patients who continue treatment after completing only one psythotherapy visit within their first three months.  (pts/wk)</doc>
 					<eqn>Ending_who_can_Initiate*"Actual_Starters_Who_Return_Later_"					</eqn>
 			</aux>
-			<aux name="Starters_who_Quit_">
+			<aux name="Starters_Who_Quit_">
 				<units>Dmnl</units>
 				<doc>The proportion of patients who do not come back for another psychotherapy visit with this team after their first psychotherapy visit.  (pct)</doc>
 					<eqn>1 - ("Data_Starters_Who_Initiate_" + "Data_Starters_Who_Return_Later_")					</eqn>
@@ -1486,7 +1486,7 @@
 				<units>appt/wk</units>
 				<doc>All appointments used per wk by patients' eighth and over visits during their first three months engaged in care.</doc>
 					<eqn>(
-	ZIDZ( Completers_Patients_in_Over_7_Visits , "RVI_<3mo_-_8-12_Visits"*Pts_per_appt)
+	ZIDZ( Completers_Patients_in_over_7_Visits , "RVI_<3mo_-_8-12_Visits"*Pts_per_appt)
 	)
 	*Effect_of_Implement_IOP_on_Frequency					</eqn>
 			</aux>
@@ -1503,9 +1503,9 @@
 				<units>appt/wk</units>
 				<doc>All appointments used per wk by patients' second through seventh visits during their first three months engaged in care.</doc>
 					<eqn>(
-	(ZIDZ( Initiators_who_will_Quit , "RVI_<3mo_-_2-7Visits-n-done"*Pts_per_appt))+
-	(ZIDZ( Initiators_who_will_Continue , "RVI_<3mo_-_2-7Visits-n-More<3mo"*Pts_per_appt))+
-	(ZIDZ( Initiators_who_will_Return , "RVI_<3mo_-_2-7Visits-n-More>3mo"*Pts_per_appt))
+	(ZIDZ( Initiators_Who_Will_Quit , "RVI_<3mo_-_2-7Visits-n-done"*Pts_per_appt))+
+	(ZIDZ( Initiators_Who_Will_Continue , "RVI_<3mo_-_2-7Visits-n-More<3mo"*Pts_per_appt))+
+	(ZIDZ( Initiators_Who_Will_Return , "RVI_<3mo_-_2-7Visits-n-More>3mo"*Pts_per_appt))
 	)
 	*Effect_of_Implement_IOP_on_Frequency					</eqn>
 			</aux>
@@ -1554,12 +1554,12 @@
 			<aux name="Total_Initiators">
 				<units>pts</units>
 				<doc>Number of patients who are completing 2-7 visits in their first 3 months.  These are the "Initiators" (but they may or may not become "Completers").</doc>
-					<eqn>Initiators_who_will_Quit+Initiators_who_will_Return+Initiators_who_will_Continue					</eqn>
+					<eqn>Initiators_Who_Will_Quit+Initiators_Who_Will_Return+Initiators_Who_Will_Continue					</eqn>
 			</aux>
 			<aux name="Total_Pts_<3months">
 				<units>pts</units>
 				<doc>Number of patients who started psychotherapy in the past three months.</doc>
-					<eqn>Starters_Patients_in_First_Visit+Initiators_who_will_Return+Completers_Patients_in_Over_7_Visits+Initiators_who_will_Quit+Initiators_who_will_Continue					</eqn>
+					<eqn>Starters_Patients_in_First_Visit+Initiators_Who_Will_Return+Completers_Patients_in_over_7_Visits+Initiators_Who_Will_Quit+Initiators_Who_Will_Continue					</eqn>
 			</aux>
 			<aux name="Total_Pts_in_Psych">
 				<units>pts</units>
@@ -1583,13 +1583,13 @@
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_Change_in_RVI_of_Patient's_Past_3_Months">
+			<aux name="User_Change_in_RVI_after_3_Months">
 				<units>Dmnl</units>
 				<doc>This is a relative change in patients' return-to-clinic visit interval after their first three months in psychotherapy. (pct)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_Completers_who_Graduate_">
+			<aux name="User_Completers_Who_Graduate_">
 				<units>Dmnl</units>
 				<doc>This slider controls the proportion of patients who, after completing a timely dose of psychotherapy, then step down out of psychotherapy to a less intensive mental health service (with this team, or with another team). This value replaces the base case value estimated from the team's data. (pct)</doc>
 					<eqn>GAME (
@@ -1597,7 +1597,7 @@
 			</aux>
 			<aux name="User_Implement_Intensive_Outpatient_Program">
 				<units>Dmnl</units>
-				<doc>Initiate an "Intensive Outpatient Program" for new patients, where they are seen twice as often for half as many weeks after they initiate care.  Estimates from the team's data for Return Visit Interval and Median Engagement Duration during a patients first 3 months in care are modified accordingly.  Also, this more intensive therapy results in more patients completing a timely dose, modifying patient flow percentages estimated from the team's data (specifically: the gap between the desired and current state for "Starters who Initiate ," "Initiators who Complete ," and "Completers who Graduate " all increase by 30, while the gap between the desired and current state for "Initiators who Quit Early " is reduced by 30).  These changes do not affect patient care patterns for patients who remain in care after completing their timely dose of psychotherapy.  A team can choose to "Partially" or "Fully" implement the IOP, where "Partial" indicates that only half their patients follow the IOP, and "Fully" indicates that all new patients follow the IOP. (pct)</doc>
+				<doc>Initiate an "Intensive Outpatient Program" for new patients, where they are seen twice as often for half as many weeks after they initiate care.  Estimates from the team's data for Return Visit Interval and Median Engagement Duration during a patient's first 3 months in care are modified accordingly.  Also, this more intensive therapy results in more patients completing a timely dose, modifying patient flow percentages estimated from the team's data (specifically: the gap between the desired and current state for "Starters who Initiate ," "Initiators who Complete ," and "Completers who Graduate " all increase by 30, while the gap between the desired and current state for "Initiators who Quit Early " is reduced by 30).  These changes do not affect patient care patterns for patients who remain in care after completing their timely dose of psychotherapy.  A team can choose to "Partially" or "Fully" implement the IOP, where "Partial" indicates that only half their patients follow the IOP, and "Fully" indicates that all new patients follow the IOP. (pct)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
@@ -1742,7 +1742,7 @@
 				<doc>The time when user changes to experiment parameters take effect.</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Max_Effect_of_IOP_on_À¼×Ü">
+			<aux name="Max_Effect_of_IOP_on_ðü“">
 				<units>Dmnl</units>
 				<doc>The relative change in the size of the gap between the current state and the desired state for the percentages governing the number of patients following care pathways after they initiate care caused by implementing an Intensive Outpatient Program.</doc>
 					<eqn>0.3					</eqn>
@@ -1754,7 +1754,7 @@
 			</aux>
 			<aux name="Max_Effect_of_IOP_on_Frequency">
 				<units>Dmnl</units>
-				<doc>Where 1 is a 100-625723824ncrease in the frequency (i.e., patients come twice as often as before).</doc>
+				<doc>Where 1 is a 100 1507472976ncrease in the frequency (i.e., patients come twice as often as before).</doc>
 					<eqn>1					</eqn>
 			</aux>
 			<aux name="Median_Time_in_Visit_1">
