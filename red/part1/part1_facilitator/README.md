@@ -10,5 +10,4 @@
 **part1_facilitator:**
 
 - Facilitator SAY Guide - Learning objectives and exercises for part 1
-- Facilitator pre/post checklist for part 1
-- Pre/post emails for part 1 (.html and .md)
+
