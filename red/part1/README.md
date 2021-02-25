@@ -12,7 +12,7 @@
     - Facilitator mtl.how/data - One-pager for Data Folders on mtl.how/data
 2. **part1_learner:**
     - Learner SEE Guide - Learning objectives and exercises for part 1
-      - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
+      - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
     - Learner cheatsheets for and mtl.how/data (with screenshots) (.pdf)
 3.  **part1_resources:**
     - SQL query code
