@@ -49,7 +49,7 @@ output:
 ### 2. Explore the facility data.
 
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
+- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder"** in the horizontal header next the BISL logo.
 
 [![data ui splash page screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
 
@@ -126,6 +126,10 @@ output:
 - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
 
 [![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
+
+- For Veterans Video Connect (VVC), use the VVC filter in the vizEnc tab.
+
+[![vvc_filter](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/vvc_filter.gif)](#DontLink)
 
 ### 7. Click to view the "data" tab, which show your team's individual patient information.
 

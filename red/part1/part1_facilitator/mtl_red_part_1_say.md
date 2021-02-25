@@ -179,6 +179,8 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.  
 
+- To filter by Veterans Video Connect, known as VVC, use the grey VVC filter button in the top left hand corner of the visualization in the vizEnc tab.
+
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***  
 
 - **What stands out to you about ________________________________**[fill-in team vision]**?  
