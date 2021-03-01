@@ -26,7 +26,7 @@ output:
 <!-- Done and Do Table -->
 |[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) Join the Microsoft Teams meeting invitation from Outlook and call in, if needed.](#Done-and-Do)| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
+|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) Join the Microsoft Teams meeting invitation from Outlook and call in, if needed.]| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#DontLink)
