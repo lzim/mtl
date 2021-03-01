@@ -17,22 +17,7 @@
 2. sldkfjd
 3. sdflkdfj
 
-**Learner See Guide**: link here 
-***MTL Video* TMS Link**: link here
-**Resources**: link here
+**Learner See Guide**: link here  
+***MTL Video* TMS Link**: link here  
+**Resources**: link here  
 
-
-Session title
-learning objectives
-SEE guide link
-MTL Video links
-Resources
-
-## *MTL* Red at-a-glance guide
-
-Phase
-Session title
-learning objectives
-SEE guide link
-MTL Video links
-Learner-only Resources
