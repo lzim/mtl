@@ -44,9 +44,9 @@ output:
 # Session 5 In-Session Exercise
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-## Check the name of your team data file in Explorer.
+## Check the name of your team data file.
 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data in an Internet Explorer window to check the name of our team data file.
+2. Let's now go back to mtl.how/data in any browser window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
     + Copy the name of the team data file.
 
