@@ -30,7 +30,10 @@
 
 ## MTL Red at-a-glance guide with 
 
-**Session Title** | **Facilitator Say Guide Link** | **Resources**
---- | --- | --- |
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part1_data_ui.png" width = "200" height = "80"> | [Part 01 Learner Guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) | [mtl.how/data Cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf) |
-| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part2_team_data.png" width = "200" height = "80"> | [Part 02 Learner Guide](https://github.com/lzim/mtl/blob/master/red/part2/part2_learner/mtl_red_part_2_see.md) | [mtl.how/data Data Cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf)
+**Session Title** | **Learning Objectives** | **Learner See Guide Link**  | **Resources**
+--- | --- | --- | --- | 
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part1_data_ui.png" width = "200" height = "80"> | 1. Describe the decisions your team made in producing your team data table. <br/> 2. Test whether team historical trends shown in the "viz" tabs reflect your expectations. <br/> 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs. <br/> | [Part 01 Learner Guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md) | [mtl.how/data Cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf) |
+| <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part2_team_data.png" width = "200" height = "80"> | [Part 02 Learner Guide](https://github.com/lzim/mtl/blob/master/red/part2/part2_learner/mtl_red_part_2_see.md) | [mtl.how/data Cheatsheet](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_how_data_cheatsheet.pdf)
+
+
+
