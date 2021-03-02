@@ -1,3 +1,4 @@
+mtl-manual
 introduction---short-blub-on-purpose-how-to-use-manual-etc.
 learner
 mtl-blue-vs.-red-map
