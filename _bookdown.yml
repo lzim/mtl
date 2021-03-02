@@ -3,4 +3,4 @@ language:
   ui:
     chapter_name: "Chapter "
 new_session: yes
-rmd_files: ["01_introduction.md", "02_learner.md", "03_facilitator.md", "04_administrator.md"]
+rmd_files: ["index.Rmd", "01_introduction.md", "02_learner.md", "03_facilitator.md", "04_administrator.md"]
