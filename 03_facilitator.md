@@ -17,7 +17,7 @@
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s11_team_decisions_title.png" width = "200" height = "80"> | [Session 11 FacilitatorGuide](https://github.com/lzim/mtl/blob/master/blue/session11/s11_facilitator/mtl_session11_say.md) | [Session 11 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session11/s11_facilitator/mtl_session11_say_checklist.md)
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s12_team_plan_title.png" width = "200" height = "80"> | [Session 12 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session12/s12_facilitator/mtl_session12_say.md) |[Session 12 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session12/s12_facilitator/mtl_session12_say_checklist.md)
 
-## 3.2 MTL Red at-a-glance guide
+## MTL Red at-a-glance guide
 
 **Session Title** | **Facilitator Say Guide Link** | **Resources**
 --- | --- | --- |
