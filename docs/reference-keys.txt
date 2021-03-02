@@ -1,5 +1,5 @@
 mtl-manual
-introduction---short-blub-on-purpose-how-to-use-manual-etc.
+introduction---modeling-to-learn-manual
 learner
 mtl-blue-vs.-red-map
 mtl-blue
@@ -13,6 +13,3 @@ partner-1
 build-1
 apply-1
 mtl-red-1
-admin
-mtl-blue-at-a-glance-guide-with
-mtl-red-at-a-glance-guide
