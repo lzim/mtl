@@ -1,8 +1,8 @@
 # Facilitator
 
-##  MTL Blue at-a-glance guide with
+##  *MTL Blue*
 
-## Partner 
+### Partner 
 **Session Title** | **Facilitator Say Guide Link** | **Resources**
 --- | --- | --- |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s01_teamvision_title.png" width = "200" height = "80"> | [Session 01 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session01/s01_facilitator/mtl_session01_say.md) | 
@@ -10,7 +10,7 @@
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s03_teamdata_title.png" width = "200" height = "80"> | [Session 03 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session03/s03_facilitator/mtl_session03_say.md) | [mtl.how/data Facilitator One Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_facilitator_one_pager.pdf)
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s04_teamneeds_title.png" width = "200" height = "80"> | [Session 04 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session04/s04_facilitator/mtl_session04_say.md) |
 
-## Build
+### Build
 **Session Title** | **Facilitator Say Guide Link** | **Resources**
 --- | --- | --- |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s05_teamworld_title.png" width = "200" height = "80"> | [Session 05 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session05/s05_facilitator/mtl_session05_say.md) | 
@@ -18,7 +18,7 @@
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s07_base_case_title.png" width = "200" height = "80"> | [Session 07 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session07/s07_facilitator/mtl_session07_say.md) | [Session 07 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session07/s07_facilitator/mtl_session07_say_checklist.md)
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png" width = "200" height = "80"> | [Session 08 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session08/s08_facilitator/mtl_session08_say.md) | [Session 08 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session08/s08_facilitator/mtl_session08_say_checklist.md)|
 
-## Apply 
+### Apply 
 **Session Title** | **Facilitator Say Guide Link** | **Resources**
 --- | --- | --- |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s09_compare_alternatives_title.png" width = "200" height = "80"> | [Session 09 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session09/s09_facilitator/mtl_session09_say.md) | [Session 09 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session09/s09_facilitator/mtl_session09_say_checklist.md)
@@ -26,7 +26,7 @@
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s11_team_decisions_title.png" width = "200" height = "80"> | [Session 11 FacilitatorGuide](https://github.com/lzim/mtl/blob/master/blue/session11/s11_facilitator/mtl_session11_say.md) | [Session 11 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session11/s11_facilitator/mtl_session11_say_checklist.md)
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s12_team_plan_title.png" width = "200" height = "80"> | [Session 12 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session12/s12_facilitator/mtl_session12_say.md) |[Session 12 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session12/s12_facilitator/mtl_session12_say_checklist.md)|
 
-## MTL Red at-a-glance guide
+## *MTL Red*
 
 **Session Title** | **Facilitator Say Guide Link** | **Resources**
 --- | --- | --- |
