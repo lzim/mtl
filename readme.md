@@ -10,7 +10,7 @@
 - Just curious about _Modeling to Learn_? Check out [mtl.how/demo](https://mtl.how/demo).
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://mtl.how)
-
+  
  _MTL Blue_ click here: | _MTL Red_ click here:
 -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/blue) | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/red) |
