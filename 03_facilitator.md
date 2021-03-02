@@ -19,7 +19,7 @@
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png" width = "200" height = "80"> | [Session 08 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session08/s08_facilitator/mtl_session08_say.md) | [Session 08 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session08/s08_facilitator/mtl_session08_say_checklist.md)|
 
 ### Apply 
-**Session Title** | **Facilitator Say Guide Link** | **Facilitator Say Checklist Link** | **Resources** -- |
+**Session Title** | **Facilitator Say Guide Link** | **Facilitator Say Checklist Link** | **Resources** |
 --- | --- | --- | --- |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s09_compare_alternatives_title.png" width = "200" height = "80"> | [Session 09 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session09/s09_facilitator/mtl_session09_say.md) | [Session 09 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session09/s09_facilitator/mtl_session09_say_checklist.md)
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/title_slides/mtl_s10_systems_thinking_title.png" width = "200" height = "80"> |  [Session 10 Facilitator Guide](https://github.com/lzim/mtl/blob/master/blue/session10/s10_facilitator/mtl_session10_say.md) | [Session 10 Say Checklist](https://github.com/lzim/mtl/blob/master/blue/session10/s10_facilitator/mtl_session10_say_checklist.md)
