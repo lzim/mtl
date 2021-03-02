@@ -1,6 +1,6 @@
 introduction---short-blub-on-purpose-how-to-use-manual-etc.
 learner
-mtl-red-vs.-blue-map
+mtl-blue-vs.-red-map
 mtl-blue
 partner
 build
