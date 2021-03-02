@@ -1,6 +1,8 @@
 # Learner
 
-## MTL Red vs. Blue map
+## *MTL Blue vs. Red* Map
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://mtl.how)
+
 
 ## *MTL Blue*
 
