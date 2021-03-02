@@ -1,6 +1,6 @@
 # Platforms
 
-Testing image
+Testing image test
 ![](https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png)
 
 Testing image scaling
