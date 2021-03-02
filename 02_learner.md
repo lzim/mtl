@@ -2,7 +2,7 @@
 
 ## *MTL Blue vs. Red* Map
 
-![image](https://user-images.githubusercontent.com/59668647/109671072-9abe4080-7b28-11eb-94ae-c2a67b4d9a54.png)
+![](https://user-images.githubusercontent.com/59668647/109671072-9abe4080-7b28-11eb-94ae-c2a67b4d9a54.png)
 
 
 ## *MTL Blue*
