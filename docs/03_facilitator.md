@@ -36,3 +36,5 @@
 
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true"> | 
 https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/clinic_selection.gif?raw=true)
+
