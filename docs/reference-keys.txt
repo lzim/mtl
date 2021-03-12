@@ -1,5 +1,4 @@
-mtl-manual
-introduction---modeling-to-learn-manual
+modeling-to-learn-technical-manual
 learner
 mtl-blue-vs.-red-map
 mtl-blue

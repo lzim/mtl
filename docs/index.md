@@ -1,15 +1,15 @@
 ---
 title: "MTL Manual"
 author: "Team PSD"
-date: "2021-03-02"
+date: "2021-03-12"
 link-citations: yes
 preview: yes
 site: bookdown::bookdown_site
 description: This is the MTL one stop shop.
 ---
 
-# MTL Manual
+# *Modeling to Learn* Technical Manual
 
-Welcome to MTL's manual for all things related to resources and guides!
-
-**Click within chapters and subsections** or use the **built-in search feature** to search throughout the manual for key terms.
+Welcome to the *Modeling to Learn* manual for learners, facilitators, and administrators.
+This manual includes links to all guides, cheatsheets, and resources, needed to walk through *Modeling to Learn Blue* and *Red*.
+**Click within chapters and subsections** or use the **built-in search feature by clicking on the magnifying glass in the top right** to search throughout the manual for key terms.
