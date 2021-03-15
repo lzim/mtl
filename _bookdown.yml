@@ -6,5 +6,4 @@ new_session: yes
 rmd_files: ["index.Rmd", 
 "02_introduction.md", 
 "03_mtl_red.md",
-"03_mtl_red_learner_part_01.md",
-"03_mtl_red_learner_part_02.md"]
+"03_mtl_red_learner_part_01.md"]
