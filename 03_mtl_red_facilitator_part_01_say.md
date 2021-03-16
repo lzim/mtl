@@ -1,4 +1,6 @@
-### MTL Red Part 1
+## Facilitator
+
+### Part 01 Say Guide
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
@@ -26,7 +28,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 **In-Session Exercise**
 
-**Let's get started**
+**Let's get started!**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:20___
 

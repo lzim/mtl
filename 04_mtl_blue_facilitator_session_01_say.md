@@ -1,7 +1,10 @@
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
-     height = "175" width = "420">](#DontLink)  
+## Facilitator
 
-# Today we're modeling to learn how to align our team vision.
+### Session 01 Say Guide
+
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png?raw=true" height = "175" width = "420">](#DontLink)  
+
+**Today we're modeling to learn how to align our team vision.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to align our team vision.
 
@@ -11,16 +14,16 @@ In the Session 1 Done and Do table, you can see that for today, we logged in to 
 
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 <!-- Done and Do Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
 
-## Learning Objectives
+**Learning Objectives**
 
 <!-- Learning Objectives Icon -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 **By the end of this session you will be able to:**
 
@@ -32,14 +35,14 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 **Let's get started!**
 
-## In-session Exercise (30 minutes): Team vision
+**In-session Exercise (30 minutes): Team vision**
 
 - We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with _Modeling to Learn_. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
 - Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in _Modeling to Learn_. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
 - Team learning is all about ‘alignment’ and getting people working in sync with one another to meet the needs of our Veteran patients. We will explore “what is” (retrospective data) and vision forward to “what we would like it to be” (future-oriented).
 - The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations.
 
-### 1. Prior Team Learning Prompt (5 minutes)
+**1. Prior Team Learning Prompt (5 minutes)**
 
 a. First, we want to set ground rules for our learning sessions. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.
 
@@ -57,13 +60,13 @@ b. Jot down on scratch paper what it was that made it a good learning experience
   - The experience helped the learner understand him- or herself.
   - The learner experienced success and accomplishment with challenging work.  
 
-### 2. Best Case Scenario (5 minutes)
+**2. Best Case Scenario (5 minutes)**
 
 a. Now let's envision our *Best Case Scenario*. It is important to create a team language for learning; for aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now. The interactions and communications within the team, in and out of team meetings. The key people you rely on outside the team. The information and data you use to coordinate care plans, and the feelings you associate with it.
 
 b. Now picture the team learning over the next 6 months in a *best case* scenario, where things are happening in the team the way that you would ideally like them to. This is your *dream team* situation.
 
-### 3. Personal Vision (5 minutes)
+**3. Personal Vision (5 minutes)**
 
 - Think about your Personal Vision for your team:
 
@@ -75,7 +78,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
   d. How are decisions, plans and changes made?
   
-### 4. Review in Team (5 minutes)  
+**4. Review in Team (5 minutes)**
 
 - Reflecting as a team on those individual visions:
 
@@ -89,7 +92,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
   e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (10 minutes)  
+**5. Putting it Together (10 minutes)** 
 
 - Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:
 
@@ -101,9 +104,9 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
   d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.
   
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png?raw=true">](#DontLink)
 
-### 6. Select the Team Vision
+**6. Select the Team Vision**
 
 - To wrap up, let's home in on our Team Vision
 
@@ -113,14 +116,14 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 **That's it for _Modeling to Learn_ how to align our team vision! Next is our Done/Do review**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Done and Do Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink)  We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  Select a team lead and email Team PSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink)  We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data)  Select a team lead and email Team PSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. |
 
-## DO Demo
+**DO Demo**
 
 1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
 
