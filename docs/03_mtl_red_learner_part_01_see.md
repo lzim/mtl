@@ -1,4 +1,4 @@
-### MTL Red Part 1
+### Part 01 See Guide
 
 Today we're modeling to learn from patient data and team trends.
 
@@ -24,11 +24,11 @@ Today we're modeling to learn from patient data and team trends.
 
  *MTL* on BISL
 
-1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
+**1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
 
 ![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif?raw=true)
 
-2. Explore the facility data.
+**2. Explore the facility data.**
 
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder"** in the horizontal header next the BISL logo.
@@ -48,7 +48,7 @@ Today we're modeling to learn from patient data and team trends.
 
 - vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD.
 
-NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
+**NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.**
 
 -	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
@@ -60,14 +60,14 @@ NOTE: Refresh your data if you are experiencing issues or discrepancies within t
 
 **Your Team Data Folder**
 
-3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+**3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
 
 - Click on the 3 dots [ ... ] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif?raw=true)](#DontLink)
 
-4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+**4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
 
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: This will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
@@ -75,7 +75,7 @@ NOTE: Refresh your data if you are experiencing issues or discrepancies within t
 - After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
-5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+**5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.**
 
 - **You already have a fresh data UI file to work with in your team data_ui folder.**
 - We will learn about the "Create Team Data Table" button in our next team meeting.
@@ -84,13 +84,13 @@ NOTE: Refresh your data if you are experiencing issues or discrepancies within t
   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet only).
 
-NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse.
+**NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse.**
 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif?raw=true)](#DontLink)
 
-6. Click to view the "viz" tab, which show team trends.
+**6. Click to view the "viz" tab, which show team trends.**
 
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
   - What stands out to you?
@@ -113,7 +113,7 @@ NOTE: It takes some time to run a query from your team data UI to the VA Corpora
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/vvc_filter.gif?raw=true)](#DontLink)
 
-7. Click to view the "data" tab, which show your team's individual patient information.
+**7. Click to view the "data" tab, which show your team's individual patient information.**
 
 - Patients who have requested restricted access to their information have asterisks (****) in Columns F & G. If you are a VA provider, you can still identify patients from Column H.
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
