@@ -69,6 +69,7 @@ Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
 **There are four main data sets in the facility data:**
+
 (During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.)
 
 Rank | Data | Displays
@@ -89,12 +90,17 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
 1. **Last meeting ________________________ (team members' names) mentioned concerns with __________________________ (themes from session 1 team vision).**
+
+
    Time Stamp | Team Learning Priorities | Script for Session 2
    -- | -- | --
    **What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
+   
 
-2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** (During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
+2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** 
+
+(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
 
    Rank | viz Options |  |
    -- | -- | -- |
@@ -107,6 +113,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 **If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.**
+
 - To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
@@ -116,11 +123,13 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.**
 
 **3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
+
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 - Click on the 3 dots [...] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 **4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
+
 - This data_ui file has already been specified for your facility/station.
 - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
@@ -191,7 +200,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. |
 
@@ -211,5 +220,5 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **Until next time, thank you for *Modeling to Learn*!**
 
-### Facilitator One Pager
+#### Facilitator One Pager
 ![](https://user-images.githubusercontent.com/59668647/111249781-799a2d00-85c9-11eb-8043-e59835978d1a.png)
