@@ -1,4 +1,4 @@
-### MTL Red Part 2
+### Part 2 See Guide
 
 Today we're modeling to learn how to calculate team parameters.
 
