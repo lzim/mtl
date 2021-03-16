@@ -1,4 +1,4 @@
-### MTL Red Part 1
+### *MTL* Red Part 1
 
 Today we're modeling to learn from patient data and team trends.
 
