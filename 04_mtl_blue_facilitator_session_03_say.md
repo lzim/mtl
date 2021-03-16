@@ -19,7 +19,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 **After this session you will be able to:**
 
 <!-- Learning Objectives Icon -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" height = "90" width = "90" style = "display: inline-block"/>](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 **Learning Objectives**
 
