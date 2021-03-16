@@ -26,7 +26,7 @@ Today we're modeling to learn from patient data and team trends.
 
 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
 
-[![data ui login screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
+![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)
 
 2. Explore the facility data.
 
