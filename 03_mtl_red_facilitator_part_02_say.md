@@ -1,6 +1,6 @@
 ### Part 02 Say Guide
 
-Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
+Hello! I'm _______ and I'm _______.
 
 **Today we're modeling to learn how to calculate team parameters.**
 
@@ -28,7 +28,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 **Let's get started!**
 
-**Who would like to "drive" today?** \[Recommend the Team Lead\]
+**Who would like to "drive" today?** [Recommend the Team Lead]
 
 **Navigate to the data UI at mtl.how/data**
 
@@ -74,7 +74,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 - To show what data are used to tailor each *MTL* module to your team.
 
-\[Choose a module\]  
+[Choose a module]  
 
 - *CCParams*: Key variables of interest in CC may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and new patient wait times.
 
