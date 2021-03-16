@@ -1,7 +1,6 @@
 ### Session 03 Say Guide
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
-      height = "175" width = "420">](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png?raw=true" height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
@@ -10,9 +9,9 @@
 **Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in the Team Data UI to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data\_UI and team_data_table. [![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce our team_data_table for the _MTL_ simulation user-interface (sim UI). [![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink)**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in the Team Data UI to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data\_UI and team_data_table. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif?raw=true)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will produce our team_data_table for the _MTL_ simulation user-interface (sim UI). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#DontLink)**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -27,7 +26,7 @@
 
 **In-session Exercise (30 minutes)**
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png?raw=true">](#DontLink)
 
 **When you click the "Create Team Data Table" button, it produces a table of descriptive team data.**
 
@@ -43,7 +42,7 @@
 - If you want to produce a team data table for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
 - Click on the module drop-down to select the module you want and select "Create Team Data Table."
 
-[![referrals tab screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/spreferrals_tabs.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/spreferrals_tabs.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
 
@@ -56,7 +55,7 @@
 - The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
   - If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
-[![three pop ups screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif?raw=true)](#DontLink)
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
@@ -84,14 +83,14 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
 
-[![session 3 data ui parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
 
 **Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced team data table for the MTL simulation user-interface (sim UI). [![data parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential. [![modeling to learn menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We produced team data table for the MTL simulation user-interface (sim UI). [![data parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu (behind VA firewall) to prioritize your needs. Responses are confidential. [![modeling to learn menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**|
 
