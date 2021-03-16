@@ -82,3 +82,5 @@ When you click the "Create Team Data Table" button, it produces a table of descr
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data)  We examined team parameters for CC, MM, PSY, AGG, and SP. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#.) |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) Find something in the team data table and consider its implications for team decisions.|
 
+### *MTL* Data Cheatsheet
+![](https://user-images.githubusercontent.com/59668647/111249584-2922cf80-85c9-11eb-87fc-864dbf9c175f.png)
