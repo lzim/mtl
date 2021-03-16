@@ -2,14 +2,14 @@
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png?raw=true" height = "175" width = "420">](#DontLink)
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
+Hello! I'm ________________ (facilitator's name) and I'm _______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
 
 **Done and Do**
 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of \_______________ ; selected our Team Lead \_______________ ; and set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the facility data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of _______________ ; selected our Team Lead _______________ ; and set a standing team meeting time at _______________ . We logged in to mtl.how/data to look at the facility data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -45,7 +45,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
 
-**Who would like to "drive" today?** \(Recommend the Team Lead\)
+**Who would like to "drive" today?** (Recommend the Team Lead)
 
 **1. **Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
 
@@ -56,11 +56,11 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 **2. Explore the facility data.**
 
-- To **view facility data** click on the \[...\] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
+- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
 - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
-**There are two types of View options at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
+**There are two types of View options at the bottom of the spreadsheet. __________________ (Team Lead's name) Will you please click through them, so we can see what each displays?**
 
 View | Displays
 -- | --
@@ -69,7 +69,7 @@ Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
 **There are four main data sets in the facility data:**
-\(During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.\)
+(During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.)
 
 Rank | Data | Displays
 -- | -- | --
@@ -88,13 +88,13 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
-1. **Last meeting \________________________ \(team members' names\) mentioned concerns with \__________________________ \(themes from session 1 team vision\).**
+1. **Last meeting ________________________ (team members' names) mentioned concerns with __________________________ (themes from session 1 team vision).**
    Time Stamp | Team Learning Priorities | Script for Session 2
    -- | -- | --
    **What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
 
-2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\).
+2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** (During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
 
    Rank | viz Options |  |
    -- | -- | -- |
@@ -126,7 +126,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 - Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
 - Follow the instructions in **Box A2**.
 - After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
-- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
+- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
 **5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.**
 
@@ -140,7 +140,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+- **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**  
 
@@ -148,7 +148,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     
 **6. Click to view the "viz" tabs, which show team trends.**
 
-- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
+- Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about _______________.  Let's go to the _________________ viz tab to see data relevant to that issue.
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 - The viz tabs will also always return to default selections every time the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.
 - Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together.
@@ -158,21 +158,21 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
-   - **What stands out to you about \________________________________**\(fill-in team vision\)?
-   - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
-    \(Prepare in advance, but ask this as an open-ended question\)?  
-   - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+   - **What stands out to you about ________________________________**(fill-in team vision)?
+   - **What is most important to you to check out first related to ________________________________**(fill-in team vision)?
+    (Prepare in advance, but ask this as an open-ended question)?  
+   - **What is most surprising?** (Prepare in advance, but ask this as an open-ended question)?
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 
 **7. Click to view the "data" tabs, which show your team's individual patient information.**
-   - Patients who have requested restricted access to their information have asterisks \(\*\*\*\*\) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
+   - Patients who have requested restricted access to their information have asterisks (****) in Column F & G. If you are a VA provider, you can still identify patients from Column H.
    - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.
    - Providers can filter to find specific patients, or produce reports.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
-   \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
+(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.)
 
    Time Stamp | Team Learning Priorities | Script
    -- | -- | --
@@ -180,7 +180,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
    |  |  |
 
-   - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
+   - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.
    - What **viz** tab would you use to see what the most common service encounters or visits are?
    - Are there services that have been **increasing over time?**
    - Are there services that have been **decreasing over time?**
@@ -188,7 +188,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
-**Done and Do \(15 minutes\)**
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
@@ -200,14 +200,16 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 1. **We encourage you to look around in your team data before next time.**
 2. **Go to mtl.how/data and open the team data in Excel.**
 3. **While waiting for the excel to open, let's review the three reasons to use the excel-based Data UI instead of the facility data Excel spreadsheet.**
-   - You can select a set of clinics \(grids\) that exactly represent your individual team.
+   - You can select a set of clinics (grids) that exactly represent your individual team.
    - All the patient-level data are identified with patient names.
    - You can create the team data table parameters used by the simulation user interface.
 4. **Review your individual patient data and identify team trends.**
-   - Health Factors \(HF\)
-   - Diagnoses \(Diag\)
-   - Encounters \(Enc\), and
-   - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+   - Health Factors (HF)
+   - Diagnoses (Diag)
+   - Encounters (Enc), and
+   - Measurement Based Stepped Care and Suicide Prevention (SP)
 
 **Until next time, thank you for *Modeling to Learn*!**
 
+### Facilitator One Pager
+![](https://user-images.githubusercontent.com/59668647/111249781-799a2d00-85c9-11eb-8043-e59835978d1a.png)

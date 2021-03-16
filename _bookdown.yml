@@ -5,8 +5,8 @@ language:
 new_session: yes
 rmd_files: ["index.Rmd", "02_introduction.md", 
 "03_mtl_red.md",
-"03_mtl_red_learner_part_01_see.md", "mtl_data_cheatsheet.md", "03_mtl_red_learner_part_02_see.md", 
-"03_mtl_red_facilitator_part_01_say.md", "facilitator_one_pager.md", "03_mtl_red_facilitator_part_02_say.md",
+"03_mtl_red_learner_part_01_see.md", "03_mtl_red_learner_part_02_see.md", 
+"03_mtl_red_facilitator_part_01_say.md", "03_mtl_red_facilitator_part_02_say.md",
 "04_mtl_blue.md",
-"04_mtl_blue_learner_session_01_see.md", "04_mtl_blue_learner_session_02_see.md", "mtl_data_cheatsheet.md", "04_mtl_blue_learner_session_03_see.md",
-"04_mtl_blue_facilitator_session_01_say.md", "04_mtl_blue_facilitator_session_02_say.md", "facilitator_one_pager.md", "04_mtl_blue_facilitator_session_03_say.md"]
+"04_mtl_blue_learner_session_01_see.md", "04_mtl_blue_learner_session_02_see.md", "04_mtl_blue_learner_session_03_see.md",
+"04_mtl_blue_facilitator_session_01_say.md", "04_mtl_blue_facilitator_session_02_say.md", "04_mtl_blue_facilitator_session_03_say.md"]
