@@ -1,6 +1,4 @@
 # MTL Red
-[![](https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png?raw=true)](https://mtl.how/red)
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "290">](https://mtl.how/red)
+[<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_red.png" height="175px" width='290px'/>](https://mtl.how/red)
 
 ## Learner
