@@ -62,7 +62,7 @@ NOTE: Refresh your data if you are experiencing issues or discrepancies within t
 
 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
-- Click on the 3 dots \[...\] next to the data_ui file.
+- Click on the 3 dots [ ... ] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif?raw=true)](#DontLink)
