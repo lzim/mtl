@@ -1,6 +1,3 @@
-
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "290">
-
 ## MTL Red Part 2
 
 Today we're modeling to learn how to calculate team parameters.
