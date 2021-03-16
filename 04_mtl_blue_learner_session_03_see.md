@@ -1,13 +1,13 @@
+### Session 03 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s03_teamdata_title.png"
       height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 03
+**Today we're modeling to learn how to produce team data for simulation.**
 
-## Today we're modeling to learn how to produce team data for simulation.
-
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
@@ -17,7 +17,7 @@
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe your team trends over the last two years based on the estimates in the team data table.
 
@@ -25,11 +25,11 @@
 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-## In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
+**When you click the "Create Team Data Table" button, it produces a table of descriptive team data.**
 
 - We will not do this in-session today. You already have a fresh Team Data Table to work with in your team team_data_table folder.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
@@ -47,7 +47,7 @@
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
 
-### New for _MTL_ 2.0**
+**New for _MTL_ 2.0**
 
 - The "SPTransfers" tab is now called "SPReferrals."
 - "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
@@ -60,27 +60,27 @@
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
 
-### 1. Select a module for review
+**1. Select a module for review**
 
 - Find a variable that is important to your team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 - Check out the last two columns. What is the difference between these two columns?
 
-### 2. Select a second module for review
+**2. Select a second module for review**
 
 - Check out the last two columns.
 - Find a variable that is important to you team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 
-### 3. Are there any team data table values you would like to explore in the team data UI?
+**3. Are there any team data table values you would like to explore in the team data UI?**
 
 - If so, which ones? Open the data UI to examine your question.
 
-### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
+**4. Does the team see any values in the team data that seem to vary significantly from expectations?**
 
 - If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
 
-### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
+**5. Does the team see any values in the team data that fit your expectations about high priority team needs?**
 
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
 
@@ -88,7 +88,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
