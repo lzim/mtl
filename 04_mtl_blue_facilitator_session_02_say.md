@@ -201,9 +201,9 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 <!-- Do/Done Tables -->
 
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#.) **Do** |
+-- | -- 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table.|
 
 **DO demo**
 
