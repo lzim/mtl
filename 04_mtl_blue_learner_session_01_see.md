@@ -9,7 +9,6 @@
 **Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
-
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#.) **Do** |
 -- | -- 
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#.) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_.|
