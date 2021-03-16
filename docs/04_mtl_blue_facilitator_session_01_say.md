@@ -6,7 +6,7 @@
 
 **Today we're modeling to learn how to align our team vision.**
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to align our team vision.
+Hello! I'm ________________ (facilitator's name) and I'm _______________ (co-facilitator's name). Today we're modeling to learn how to align our team vision.
 
 Throughout _Modeling to Learn_, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
 
@@ -158,5 +158,3 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
 **Until next time, thank you for _Modeling to Learn_!**  
-
-
