@@ -89,10 +89,18 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
 1. **Last meeting ________________________ (team members' names) mentioned concerns with __________________________ (themes from session 1 team vision).**
+
+
    Time Stamp | Team Learning Priorities | Script for Session 2
    -- | -- | --
    **What filtering options are available?** | **Themes from the team vision to be highlighted.** | **Team Data to Prioritize with the Team.** |
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
+   
+   Time Stamp | Team Learning Priorities | Script
+   -- | -- | --
+   **What filtering options are available?** |  |  |
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+   |  |  |
 
 2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** (During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
 
@@ -107,6 +115,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 **If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.**
+
 - To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
@@ -116,11 +125,13 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.**
 
 **3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
+
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
 - Click on the 3 dots [...] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 **4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
+
 - This data_ui file has already been specified for your facility/station.
 - You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
