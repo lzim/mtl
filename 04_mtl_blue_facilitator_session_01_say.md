@@ -2,6 +2,8 @@
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png?raw=true" height = "175" width = "420">](#DontLink)  
 
+**MTL Live Session 01**
+
 **Today we're modeling to learn how to align our team vision.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to align our team vision.
