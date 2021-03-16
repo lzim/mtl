@@ -49,27 +49,27 @@ When you click the "Create Team Data Table" button, it produces a table of descr
 
     [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif?raw=true)](#DontLink)
 
-1. Select a module for review
+**1. Select a module for review**
 
 - Find a variable that is important to your team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 - Check out the last two columns. What is the difference between these two columns?
 
-2. Select a second module for review
+**2. Select a second module for review**
 
 - Check out the last two columns.
 - Find a variable that is important to you team. How is it estimated in this table? What are its units?
 - Where can you find even more detailed information about your team data?
 
-3. Are there any team data table values you would like to explore in the team data UI?
+**3. Are there any team data table values you would like to explore in the team data UI?**
 
 - If so, which ones? Open the data UI to examine your question.
 
-4. Does the team see any values in the team data that seem to vary significantly from expectations?
+**4. Does the team see any values in the team data that seem to vary significantly from expectations?**
 
 - If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
 
-5. Does the team see any values in the team data that fit your expectations about high priority team needs?
+**5. Does the team see any values in the team data that fit your expectations about high priority team needs?**
 
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
 
