@@ -1,4 +1,4 @@
-### Part 2 See Guide
+### Part 02 See Guide
 
 Today we're modeling to learn how to calculate team parameters.
 
