@@ -2,7 +2,7 @@
 
 ### Part 01 Say Guide
 
-Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
+Hello! I'm ______ and I'm ______.
 
 **Today we're modeling to learn from patient data and team trends.**
 
@@ -60,7 +60,7 @@ Viz | Visualization of trends over time.
 
 **There are four main data sets in the facility data:**
 
-\[During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.\]
+[During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.]
 
 Rank | Data | Displays
 -- | -- | --
@@ -79,7 +79,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **All data is sortable and filterable so that the team can transparently see how the charting you do all day becomes VA data.**
 
-1. Last meeting \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[team members' names\] mentioned concerns with **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \[themes from Part 1\].**  
+1. Last meeting [team members' names] mentioned concerns with **[themes from Part 1].**  
 
  Time Stamp | Team Learning Priorities | Script for Part 1
    -- | -- | --
@@ -99,6 +99,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 **If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.**
+
 - To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
@@ -141,7 +142,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 - It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+- **Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**  
 
@@ -153,7 +154,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - You can further drill up/down in the "viz" tabs by right clicking on any trend line and clicking on **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.  
 
-- The viz tabs will also always return to default selections every time the team clicks on "Get Patient-level Data" to refresh data in their data\_ui file.  
+- The viz tabs will also always return to default selections every time the team clicks on "Get Patient-level Data" to refresh data in their data_ui file.  
 
 - Note: If you use the "Quick Explore" drill down using patient names, all of the asterisked patients will be grouped together.  
 
@@ -171,11 +172,11 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 - **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
 
-    \[Prepare in advance, but ask this as an open-ended question\]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
 
 - **What is most surprising?**
 
-    \[Prepare in advance, but ask this as an open-ended question\]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***  
 
@@ -189,7 +190,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***  
 
-    \[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]  
+    [During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.]  
     
      Time Stamp | Team Learning Priorities | Script
    -- | -- | --
@@ -212,6 +213,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 **Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
+
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. |
