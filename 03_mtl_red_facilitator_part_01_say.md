@@ -99,6 +99,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
     ___ |*dataMeas* | can be sorted by measurement type to see more detail on what happens in any one measurement type.*
 
 **If the data is not loading or showing incorrect facilities/clinics, here's how to refresh.**
+
 - To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
 -	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
 -	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
