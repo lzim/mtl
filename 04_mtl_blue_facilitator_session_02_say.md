@@ -69,6 +69,7 @@ Data | Sortable report of de-identified individual patient data
 Viz | Visualization of trends over time.
 
 **There are four main data sets in the facility data:**
+
 (During intersession prep, facilitator should fill-in the rankings of the highest priority data categories that should be emphasized. Follow the team's lead "live" during the meeting, but be prepared.)
 
 Rank | Data | Displays
@@ -97,7 +98,9 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png?raw=true" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on time |  | |  |  |
    
 
-2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** (During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
+2. **For each "viz" chart, you can filter on location and clinic name (upper left) to zoom in to the *clinic* or *VISTA clinic/"grid"*.** 
+
+(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.).
 
    Rank | viz Options |  |
    -- | -- | -- |
