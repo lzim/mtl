@@ -1,7 +1,6 @@
 ### Session 01 See Guide
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png"
-     height = "175" width = "420">](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s01_teamvision_title.png" height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
