@@ -1,6 +1,6 @@
 ### Session 02 Say Guide
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png" height = "175" width = "420">](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png?raw=true" height = "175" width = "420">](#DontLink)
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
 
