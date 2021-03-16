@@ -7,7 +7,7 @@ Today we're modeling to learn how to calculate team parameters.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_ui and team_data_table. [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif?raw=true)](#.)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We will examine calculated team parameters for CC, MM, PSY, AGG, and SP. [![session 3 data ui parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#.)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in Team Data to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_ui and team_data_table. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif?raw=true)](#.)|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png?raw=true" height = "75" width = "110">](http://mtl.how/data) We will examine calculated team parameters for CC, MM, PSY, AGG, and SP. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif?raw=true)](#.)|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" height = "90" width = "90" style ="display: inline-block"/>](#.)
@@ -47,7 +47,7 @@ When you click the "Create Team Data Table" button, it produces a table of descr
 
 - If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*  
 
-    [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif)?raw=true](#DontLink)
+    [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif?raw=true)](#DontLink)
 
 1. Select a module for review
 
