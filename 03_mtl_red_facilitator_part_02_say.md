@@ -1,4 +1,4 @@
-### Part 2 Say Guide
+### Part 02 Say Guide
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
