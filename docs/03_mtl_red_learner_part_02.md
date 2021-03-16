@@ -1,11 +1,11 @@
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "290">](#.)
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "290">
 
 ## MTL Red Part 2
 
 Today we're modeling to learn how to calculate team parameters.
 
-### Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -15,7 +15,7 @@ Today we're modeling to learn how to calculate team parameters.
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-### Learning Objectives
+**Learning Objectives**
 
 1. Describe your team trends over the last two years based on the estimates in the team data table.
 
@@ -23,7 +23,7 @@ Today we're modeling to learn how to calculate team parameters.
 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-### In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
 When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
 
@@ -78,7 +78,7 @@ When you click the "Create Team Data Table" button, it produces a table of descr
 
 [![session 3 data ui screencast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink)
 
-### Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
