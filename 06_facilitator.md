@@ -32,9 +32,3 @@
 --- | --- | --- | --- |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part1_data_ui.png" width = "200" height = "80"> | [Part 01 Facilitator Guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_facilitator/mtl_red_part_1_say.md) | | [mtl.how/data Facilitator One Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_facilitator_one_pager.pdf) & <br/> [mtl.how Teams Cheatsheet](https://github.com/lzim/mtl/blob/master/blue/session01/s01_learner/mtl.how_teams_cheatsheet.pdf)  |
 | <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_red_part2_team_data.png" width = "200" height = "80"> | [Part 02 Facilitator Guide](https://github.com/lzim/mtl/blob/master/red/part2/part2_facilitator/mtl_red_part_2_say.md) | | [mtl.how/data Facilitator One Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_facilitator_one_pager.pdf)
-
-
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true"> | 
-https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sections.gif?raw=true
-![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/clinic_selection.gif?raw=true)
-
