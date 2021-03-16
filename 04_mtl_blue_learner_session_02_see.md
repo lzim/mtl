@@ -1,6 +1,6 @@
 ### Session 02 See Guide
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png" height = "175" width = "420">](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png?raw=true" height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
@@ -9,12 +9,12 @@
 **Done and Do (15 minutes)**
 
 <!-- Done and Do Table -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the facility data.  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)  **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  | [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
 
 <!-- Learning Objectives Icon -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png?raw=true" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 **Learning Objectives**
 
@@ -32,7 +32,7 @@
 
 **1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
 
-[![Data UI Login Screen Cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
@@ -41,7 +41,7 @@
 - To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
 - **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
 
-[![data ui login screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif?raw=true)](#DontLink)
 
 ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
@@ -74,7 +74,7 @@
     - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
 -	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
 
-[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif?raw=true)](#DontLink)
 
 **Your Team Data Folder**
 
@@ -83,7 +83,7 @@
 - Click on the 3 dots [...] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
-[![edit in excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif?raw=true)](#DontLink)
 
 **4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
 
@@ -92,7 +92,7 @@
 - Follow the instructions in **Box A2.**
 - After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 
-[![clinic selection screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/clinic_selection.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/clinic_selection.gif?raw=true)](#DontLink)
 
 **New for _MTL_ 2.0**
 
@@ -114,7 +114,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
 
-[![create team data folder graphic](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/create_team_data_folder.png)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/create_team_data_folder.png?raw=true)](#DontLink)
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
@@ -122,7 +122,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
-[![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
@@ -133,7 +133,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - What is most important to you to check out first?
 - What is most surprising?
 
-[![session 2 data ui visual diagram screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
@@ -147,7 +147,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
 
-[![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif?raw=true)](#DontLink)
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
@@ -161,7 +161,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
 
-[![primary diagnosis example graphic](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/primary_diagnoses.png)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/primary_diagnoses.png?raw=true)](#DontLink)
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
@@ -173,7 +173,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 **Done and Do (15 minutes)**
 <!-- Done and Do Table -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png?raw=true" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png?raw=true" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data\_ui and team_data_table. [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif?raw=true)](#DontLink) ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data\_ui and team_data_table. [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif?raw=true)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
 
