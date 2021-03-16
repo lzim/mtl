@@ -2,7 +2,7 @@
 
 Welcome to the *Modeling to Learn* for learners, facilitators, and administrators.
 
-**Click within chapters and subsections** or use the **built-in search feature using the magnifying glass in the top left** to search throughout the manual for key terms.
+**Click within chapters and subsections** or use the **built-in search feature using the magnifying glass in the top left** to search throughout the manual for keywords.
 
 ## *MTL Blue vs. Red* Map
 
