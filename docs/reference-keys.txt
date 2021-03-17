@@ -1,6 +1,8 @@
 modeling-to-learn-technical-manual
 introduction---modeling-to-learn-manual
 mtl-blue-vs.-red-map
+mtl-is-a-partnership.
+how-to-use-github-to-report-a-new-issue-or-bug-to-team-psd
 mtl-red
 learner
 part-01-see-guide
