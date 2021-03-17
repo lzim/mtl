@@ -15,18 +15,17 @@ Welcome to the *Modeling to Learn* for learners, facilitators, and administrator
 - Please use **GitHub** bring it to the attention of [Team PSD](https://mtl.how/team).
 
 ### How to use GitHub to report a new issue or bug to Team PSD:
+
 1. **Go** to [mtl.how/bugs](https://mtl.how/bugs).
 2. **Click** on the **Issues tab.**
- 
-![image](https://user-images.githubusercontent.com/7454688/111515460-09e28a00-8710-11eb-9a10-c600e826232c.png)
+
+![](https://user-images.githubusercontent.com/59668647/111537947-4d95bd80-8729-11eb-8052-8737660d9351.png)
+
 
 3. **Click** the green “**New Issue”** button.
-4. Create a “New Issue” by clicking the green “**Get Started**” button.
-
-![image](https://user-images.githubusercontent.com/7454688/111515594-35fe0b00-8710-11eb-9cad-223642b7a3fc.png)
-
+4. Create an “Issue” by clicking the green “**Get Started**” button.
+![](https://user-images.githubusercontent.com/59668647/111537923-4373bf00-8729-11eb-890b-12a1a7fb7993.png)
 
 5. **Edit** the template information to the details of your issue and click the green “**Submit new issue**” button.
 
-![image](https://user-images.githubusercontent.com/7454688/111515625-3eeedc80-8710-11eb-8c4b-62b6e0bfc277.png)
-
+![image](https://user-images.githubusercontent.com/59668647/111538479-fb08d100-8729-11eb-9a39-c5e71fbc088e.png)
