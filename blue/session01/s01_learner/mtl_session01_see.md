@@ -47,7 +47,7 @@ a. Think of a good learning experience in your team. It can be in a meeting or a
 
 b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list:
 
-- Most likely the following are true:*
+- *Most likely the following are true:*
   - The learning was hands-on and experiential.
   - The learning connected to the real world.
   - The learning experience was personally relevant, interesting, useful, or meaningful to the learner.
@@ -89,7 +89,7 @@ e. If not, which would we most like to address (align around), and why?
 
 ### 5. Putting it Together (10 minutes)
 
-Overall "Modeling to Learn" objectives include activities and competencies that:
+Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
 a. Are meaningful for you and align your learning goals with your team's.
 
@@ -107,4 +107,4 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead if you do not have one. Log into mtl.how/data to look at the facility file. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
+| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email us at mtl.help@va.gov. Log into mtl.how/data to look at the facility file. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
