@@ -30,7 +30,7 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed. | We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
 
 ## Learning Objectives
 
@@ -133,7 +133,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/pre_post_mtl_red_link_fix/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink)  We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  Select a team lead and email Team PSD to set up our standing team meeting time. Log into mtl.how/data to look at the splash page. |
+|We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  Select a Team Lead and email us at mtl.help@va.gov. Log into mtl.how/data to look at the facility file. |
 
 ## DO Demo
 
@@ -143,7 +143,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
     - help with scheduling *MTL*-related team meetings;
 
-    - become familiar with *MTL* resources and help team members trouble-shoot - mainly mtl.how/live (Adobe Connect, used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+    - become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
 
     - provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
