@@ -22,7 +22,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 Throughout _Modeling to Learn_, we will start each session in our Learner See Guide at MTL.HOW, which is what we're sharing on our screen now. We'll review what was Done prior to the session and what we will Do in the session, as well as the specific MTL resources that we'll be using.
 
-In the Session 1 Done and Do table, you can see that for today, we logged in to mtl.how/live for screen-sharing during the team meeting and called in to the VANTS line for audio. Your home base is mtl.how for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or VANTS number or anything, just type mtl.how into your browser.
+In the Session 1 Done and Do table, you can see that for today, we joined the Microsoft Teams meeting invitation from Outlook and called in, if needed. Your home base is mtl.how for ALL of the tools and resources we'll use in _Modeling to Learn_, so if you ever forget a link or anything, just type mtl.how into your browser.
 
 Our DO for this session is to Launch _Modeling to Learn_ and select a Team Vision for _MTL_.
 
