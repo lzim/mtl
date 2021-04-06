@@ -75,7 +75,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
 - The facility data is designed to show trends relevant to your team vision of for the last two years. Let's explore the information available in the facility data Excel spreadsheet:
 
-**There are two types of View options at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
+**There are three types of view options across the two types of tabs at the bottom of the spreadsheet. \__________________ \(Team Lead's name\) Will you please click through them, so we can see what each displays?**
 
 View | Displays
 -- | --
@@ -201,7 +201,7 @@ ___ | Meas| Standardized symptom scales, such as the PHQ-9 for depression or PCL
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
-## Done and Do \(15 minutes\)
+## Done and Do \(10 minutes\)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
