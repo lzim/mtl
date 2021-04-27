@@ -29,7 +29,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick) **Do** |
 | --- | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu (behind VA firewall) to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results (behind VA firewall) to prioritize our team needs and select an _MTL_ module. |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data table and completed the mtl.how/menu to prioritize our needs.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. |
 
 **After this session you will be able to:**
 
@@ -110,7 +110,7 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
-3. Unlike the data UI, which requires us to use the VA's default browser, Internet Explorer, this UI works better with Chrome. We recommend you use that.
+3. The sim UI does not work on the Internet Explorer, please use any of the other available browsers such as Edge, Chrome, FireFox, or Safari via desktop or mobile.
 4. The sim UI is designed for use with a variety of devices, from large-monitor desktops to tablets and smartphones. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.
 5. To log in to the sim UI, you will need your username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. Click Log In, and check out the *MTL* sim UI landing page.
 6. You won't be able to go further than that yet, but feel free to look around at what's on that page.
