@@ -48,11 +48,12 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## In-session Exercise (30 minutes)
 
-- Menu results and team needs discussion
+- Menu results and team needs discussion.
 
 ### 1. Complete the *MTL Menu* on your own.
 
-- Everyone on the team has completed the MTL Menu, and we are showing the tabulated results *[Show Menu Results]*.
+- If you have not completed the MTL Menu at mtl.how/menu, please take 5 minutes to complete it. Your username is your VA email.
+- Once everyone on the team has completed the MTL Menu, and we will show the tabulated results *[Show Menu Results]*.
 - You will receive a summary of this in your follow-up email.
 
 ### 2. Review the team's results with your team.
