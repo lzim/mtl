@@ -1,6 +1,6 @@
 # Facilitator Dashboard.
 
-This section explains how to use the Faciliator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
+This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
 
 ## You Will Need to Be Registered as a Facilitator in:
 
@@ -13,9 +13,9 @@ This section explains how to use the Faciliator Dashboard to set up and manage t
   
 1. **Select Team** - Use this dropdown to select your desired team. It will enable you to monitor their experiments.
 2. **Go to Current Session/Home** - Use these buttons to go to the teams' session.  If the "Go to Current Session" button is washed out, there is no current session.  Use the "Home" button to go to the teams' Home page.
-3. **Guages** - This indicates the teams' progress with a selected experiment. Teams receive 20% completion for a minimum 50 characters input for each of the Question, Hypothesis, Findings, Decisions fields and another 20% for running the experiment.
+3. **Gauges** - This indicates the teams' progress with a selected experiment. Teams receive 20% completion for a minimum 50 characters input for each of the Question, Hypothesis, Findings, Decisions fields and another 20% for running the experiment.
 4. **Select Experiment** - Use this dropdown to select the desired experiment to monitor. An experiment will not show in this dropdown until it has been named and saved.
-5. **Team Average Completion** - If the team runs multiple experiments, this guage shows the average completion of the experiments.
+5. **Team Average Completion** - If the team runs multiple experiments, this gauge shows the average completion of the experiments.
 6. **Team Roster** - Lists team members, their clinical role and team role. 
 7. **Team Statistics** - Lists experiments, when they started and ended, total time-on-task, team size, attendance percentage and completion percentage.
 8. **Team Setup** - Click this button to set up a team. It provides team setup input screens and a means to load Team Data. See the section on team setup below.
