@@ -88,7 +88,7 @@ My GOAL for this session is to document the following themes and differential qu
 - [ ] ___ post-session _______________________________________
 
 
-## Sessions 1-4 -_**PARTNER** to identify and validate the team's highest priority learning need now.**
+**Sessions 1-4** - **PARTNER** **to identify and validate the team's highest priority learning need now.**
 
 _Participatory Learning Emphasized:_
 
