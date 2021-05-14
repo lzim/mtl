@@ -78,6 +78,7 @@ _MTL_ Sessions | Primary Goal | Emphasis | Team Time Report
 | 3. **Practice your priorities** from the intersession guide using the intersession and SAY file timestamps. |
 
 ### 2. Sessions 1-4 Goals and Emphases - Partner to identify the team's highest priority learning need now. [participatory learning]
+
 1. **Review** the _MTL_ Partner Fidelity Checklist and overview below.
 2. **Introduce** the overarching _MTL_ Learning Objectives and identify a shared team vision for _Modeling to Learn_.
 3. **Review** hyper local transparent team data resources related to the team's learning vision.
@@ -109,6 +110,7 @@ Time Stamp | Prioritize tailored team learning | Edit SAY checklist and practice
 
 
 ### 4. Sessions 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]
+
 1. **Review** the _MTL_ Build Fidelity Checklist and overview below.
 2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 3. **Tailor** your review of new _MTL_ resources and skills to the team's highest priority need.
@@ -141,6 +143,7 @@ Time Stamp | Prioritize tailored team learning | Edit SAY checklist and practice
 
 
 ### 6. Sessions 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]
+
 1. **Review** the _MTL_ Apply Fidelity Checklist and overview below.
 2. **Identify** the new _MTL_ capacities for each session consistent with the _MTL_ theory of change.
 3. **Target** the next level of systems thinking for the team based on their question, hypothesis, findings and decisions boxes for that session, specifically these four C.F.B.T. systems thinking attributes:
