@@ -1,19 +1,3 @@
----
-title: "MTL Session 6 - Learner See"
-author: "Team PSD"
-date: "March 2020"
-release: "MTL 2.0"
-output: 
-  github_document: default
-  html_document: default
-  pdf_document: default
-  word_document: default
-  ioslides_presentation: default
-  slidy_presentation: default
-  powerpoint_presentation: default
----
-
-
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
      height = "175" width = "420">](#DontLink)  
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
