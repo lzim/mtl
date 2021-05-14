@@ -1,29 +1,29 @@
-## MTL Live Session 01 Facilitator Checklist
+## Session 01 Say Checklist
 
-### Today we're modeling to learn how to align our team vision.
+**Today we're modeling to learn how to align our team vision.**
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to align our team vision
 
-### Navigate to the SEE guide to show Done and Do
+**Navigate to the SEE guide to show Done and Do**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ 
 
 **Time 00:00-00:10** 
 
-### Do and Done (15 minutes)
+**Do and Done (15 minutes)**
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | We joined the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_.| 
 
-### Emphasize importance of creating a shared team vision while reviewing the learning objectives on the screen 
+**Emphasize importance of creating a shared team vision while reviewing the learning objectives on the screen **
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-### Learning Objectives
+**Learning Objectives**
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
 3. Identify a shared team vision for learning from Modeling to Learn.
 
-### Start in-session exercise. Provide clarity on what we are trying to accomplish together with “Modeling to Learn” and the importance of creating a team learning goal.
+**Start in-session exercise. Provide clarity on what we are trying to accomplish together with “Modeling to Learn” and the importance of creating a team learning goal.**
 
 **Goal:**  to move from “my vision” to “our vision” using shared decision-making. Together, the clinic team lead and facilitation team will explore “What’s can be done better?” in a way that reflects common team aspirations. 
 
@@ -55,7 +55,7 @@
 
 - [ ] Select the Team Vision
 
-### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
+**That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  **
 
 
 **Done/Do (15 minutes)  **
