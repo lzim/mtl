@@ -1,18 +1,3 @@
----
-title: "MTL Session 04 - Facilitator Say"
-author: "Team PSD"
-date: "February 2021"
-release: "MTL 2.0"
-output: 
-  github_document: default
-  html_document: default
-  pdf_document: default
-  word_document: default
-  ioslides_presentation: default
-  slidy_presentation: default
-  powerpoint_presentation: default
----
-
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png"
      height = "175" width = "420">](#DontLink)
 
