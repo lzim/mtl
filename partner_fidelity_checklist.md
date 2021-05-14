@@ -24,6 +24,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 **3. How did the co-facilitation model go? **
 
 **Use the following Likert Scale for the Responses below**
+
 - [ ] 5 Strongly Agree 
 - [ ] 4 Agree 
 - [ ] 3 Neither Agree nor Disagree 
@@ -31,6 +32,7 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 1 Strongly Disagree
 
 **Sessions 1-4 - Rate the following 5 items.** 
+
 - [ ] 1. We were clear about the purposes or goals of this improvement effort.
 - [ ] 2. We recognized the need to partner to create change and improvement.
 - [ ] 3. We made VHA data resources in this effort transparent. 
@@ -115,21 +117,25 @@ _Participatory Learning Emphasized:_
 **9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.**
 
 **s1**
+
 - [ ] Team Vision _______________________________________
 - [ ] Team Lead _______________________________________
 - [ ] Standing team meeting time _______________________________________
 - [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
 **s2**
+
 - [ ] Selected the clinics that make up our team for the data UI _______________________________________
 - [ ] Reviewed the HF, Diag, Enc and SP tabs in data UI to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
 - [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data table. _______________________________________ 
 
 **s3**
+
 - [ ] Produced team data table for the sim UI. _______________________________________
 - [ ] Prioritized data for review in the team data table. _______________________________________
 
 **s4**
+
 - [ ] Completed the mtl.how/menu to prioritize our needs. _______________________________________
 - [ ] Selected an MTL simulation module. _______________________________________
 - [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
