@@ -1,6 +1,6 @@
 Intersession Checklist 
 
-### MTL* 12-session Plan
+### *MTL* 12-session Plan
 
 session 01. Today we're *modeling to learn* how to align our **team vision**. 
 
