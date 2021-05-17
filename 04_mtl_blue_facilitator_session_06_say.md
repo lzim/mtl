@@ -1,33 +1,35 @@
+## Session 06 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s06_systems_story_title.png"
      height = "175" width = "420">](#DontLink)
 
-# MTL Live Session 06
+**MTL Live Session 06**
 
-## Today we're modeling to learn how to tell a systems story.
+**Today we're modeling to learn how to tell a systems story.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to tell a systems story.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
-## Navigate to the SEE guide to show Done and Do.
+**Navigate to the SEE guide to show Done and Do.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)_____________ **Time 00:00-00:10**
 
-### As you see in the Done and Do table of your Learner See Guide.
+**As you see in the Done and Do table of your Learner See Guide.**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick) **Do** |
 | --- | --- |
 |[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of \__________ using the Model Diagram in the sim UI. |
 
-## Emphasize team priority with the learning objectives on the screen.
+**Emphasize team priority with the learning objectives on the screen.**
 
 **After this session you’ll be able to:**
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontClick)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the systems story of your team's highest priority.
 
@@ -35,19 +37,19 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 3. Apply clinical expertise to develop a question for team learning using simulation.
 
-## In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
-### Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation.
+**Start in-session exercise and provide team-specific rationale for building capacity for participatory learning from simulation.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:10-00:15 - Team-specific rationale** \__________________
 
 **The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your Team simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, \_________________.**
 
-### Team lead shares Chrome and logs in to the Team world at **mtl.how/sim.**
+**Team lead shares Chrome and logs in to the Team world at **mtl.how/sim.****
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:15-00:20 - Team's Session 05 Question** \__________________
 
-### Let's explore the MTL Home Page.
+**Let's explore the MTL Home Page.**
 
 - To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that ends with **"team" from the drop-down menu**.
 - Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.
@@ -62,33 +64,33 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - Navigate to Text section to pull up the Question from last time.
 
-## In-Session Exercise - Part 1
+**In-Session Exercise - Part 1**
 
-## Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority.
+**Introducing the Simulation User Interface Main Section with the Model Diagram in relation to team's priority.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:20-00:30 - Team Priority**\__________________
 
 **Now we're ready to explore the simulation user interface main section with the model diagram in relation to your team.**  
 
-### 1. Over what time frame does an experiment run?
+**1. Over what time frame does an experiment run?**
 
 See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
 
-### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
+**2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.**
 
 Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
 
-### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+**3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"**
 
 Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.
 
-### 4. What is the significance of the variables in the "red boxes"?
+**4. What is the significance of the variables in the "red boxes"?**
 
 In our convention, Red means read in from team data.
 
-## In-Session Exercise - Part 2
+**In-Session Exercise - Part 2**
 
-## Introducing stocks/flows and polarities among key variables related to the team's priority.
+**Introducing stocks/flows and polarities among key variables related to the team's priority.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:30-00:40  - Team Priority**\__________________
 
@@ -108,13 +110,13 @@ In our convention, Red means read in from team data.
   - If there is a plus sign between two variables, this means they move in the same direction (thumbs both up for increasing or both down for decreasing).
     - If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down; and reverse).
 
-## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority.
+**Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)  \_____________ **Time 00:40-00:50 - Team Priority**\__________________
 
 **Walk-throughs of each loop in each module are included in a table below.**
 
-### Enter a base case question and hypothesis in the Text section.
+**Enter a base case question and hypothesis in the Text section.**
 
 - In the Question box, add a base case question about no new decisions in addition to the team need question that the team wrote last session.
 - In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
@@ -123,13 +125,13 @@ In our convention, Red means read in from team data.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) ***00:50-00:55***
 
-### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
+**That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.**
 
 Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
-## Have Team Lead pull up the session 06 SEE guide Done/Do review.
+**Have Team Lead pull up the session 06 SEE guide Done/Do review.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   _____________ **Time 00:50-00:55**
 
@@ -138,7 +140,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
 
-## DO demo
+**DO demo**
 
 1. Log back into the SIM UI.
 2. Write your QUESTION about the base case (of no new decisions) in the QUESTION box.
@@ -147,7 +149,7 @@ Today we told a systems story about our team's top priority and entered a Questi
 
 **Until next time, thanks for *Modeling to Learn*!**
 
-### Table of System Stories
+**Table of System Stories**
 
 | ***MODULE*** | ***-- Loop --*** |
 |------:|:-----|
