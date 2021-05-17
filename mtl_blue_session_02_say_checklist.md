@@ -1,4 +1,4 @@
-## Session 02 Say Checklist
+### Session 02 Say Checklist
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 
