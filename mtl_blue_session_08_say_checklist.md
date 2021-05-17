@@ -1,8 +1,8 @@
 ### Session 08 Say Checklist
 
-**Today we're modeling to learn how to test a dynamic hypothesis.**
+**Today we're _modeling to learn_ how to test a dynamic hypothesis.**
 
-Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to test a dynamic hypothesis.
+Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're _modeling to learn_ how to test a dynamic hypothesis.
 
 **Navigate to the SEE guide to show Done and Do**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:00-00:05** 
