@@ -1,13 +1,15 @@
+## Session 12 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
 height = "175" width = "420">](#DontLink)
 
-# MTL Live Session 12
+**MTL Live Session 12**
 
-## Today we're modeling to learn how to turn team learning into a team plan.
+**Today we're modeling to learn how to turn team learning into a team plan.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -17,21 +19,21 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe what your team has learned throughout the *MTL* 12-session program.
 2. Test out with each other how your new practice decisions based on systems thinking align with your team’s shared vision.
 3. Apply the new decisions that your team has prioritized.
 
-## In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
+**In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)**
 
-### 1. We completed _Modeling to Learn_! Let's review and plan!
+**1. We completed _Modeling to Learn_! Let's review and plan!**
 
-### 2. What has the team learned throughout the *Modeling to Learn* 12-session program?
+**2. What has the team learned throughout the *Modeling to Learn* 12-session program?**
 
 - _MTL Co-Facilitators_ prepare a brief summary of themes to highlight with the team ____________________
 
-### 3. How will we coordinate our efforts going forward based on our learning?
+**3. How will we coordinate our efforts going forward based on our learning?**
 
 - How will we align our new practice decisions with systems thinking going forward based on our learning?  
 
@@ -39,17 +41,17 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - _MTL Co-Facilitators_ prepare concise review of **feasible practice decisions to prioritize** ____________________
 
-### 4. What *MTL* resources will the team use or revisit in the future?
+**4. What *MTL* resources will the team use or revisit in the future?**
 
 - *MTL* data UI? (What data will be most helpful to check back in on?)  
 
 - *MTL* sim UI? (Which module would be most appropriate to your further need and questions?)  
 
-### 5. Lead person(s) and time frame for the above actions: _______________
+**5. Lead person(s) and time frame for the above actions: _______________**
 
-### 6. Celebrate completion of *Modeling to Learn*!
+**6. Celebrate completion of *Modeling to Learn*!**
 
-## MTL RESOURCES
+**MTL RESOURCES**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)
 
@@ -69,7 +71,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - Finally, you can join the *Modeling to Learn* Listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
 
-### Now let's make a plan for how the team will keep modeling to learn going forward.
+**Now let's make a plan for how the team will keep modeling to learn going forward.**
 
 - How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?
 - Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?
@@ -81,9 +83,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **It's great if you make a concrete action plan, identify a point person, and call on us as needed.**
 
-### Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review.
+**Congratulations on completing *Modeling to Learn*! Here is our final Done/Do Review.**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90">](#.) **Do** |
