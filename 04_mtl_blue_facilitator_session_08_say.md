@@ -1,15 +1,17 @@
+## Session 08 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png"
      height = "175" width = "420">](#DontLink)  
 
-# MTL Live Session 08
+**MTL Live Session 08**
 
-# Today we're modeling to learn how to test a dynamic hypothesis.
+**Today we're modeling to learn how to test a dynamic hypothesis.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to test a dynamic hypothesis.
 
 **As you can see in the Done/Do table at the top of the Learner See Guide:**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -21,7 +23,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 2. Test your dynamic hypothesis about your team's clinical priority.
@@ -29,11 +31,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:05-00:10
 
-### Let's get started! Who wants to drive today?
+**Let's get started! Who wants to drive today?**
 
-## In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
-## Running an experiment
+**Running an experiment**
 
 Providers know there are a lot of interdependencies that make improving care in the clinic challenging. Often, because we’re embedded in such a large care system, we may be “flying blind” with regard to how our own care decisions fit within all that is going on locally. We can use simulation to help reveal the connections and figure out which changes work, which don't, and which are sustainable, a lot faster and safer than in the real world.
 
@@ -41,23 +43,23 @@ Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:10-00:15 | **Cue** up last time q/h/f/d |
 
-### 1. Log in to your individual or team world at mtl.how/sim.
+**1. Log in to your individual or team world at mtl.how/sim.**
 
-### 2. If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.
+**2. If you logged into your individual world, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.**
 
 - On the *MTL* Home page, you will see the "Experiment Maintenance" section in the middle. This is where you can review your saved runs by clicking the blue bar to expand the section.  
 - Here, you are able to *Delete*, *Rename*, or *Export* your experiments.
 - A team may need to rename experiments if they want to be sure they are able to differentiate between experiments or if they incorrectly named a file in a prior session. If you need to rename any of your saved runs, check the box to the left of the file name, click Rename*, change the name, and Save.
 
-### 3. If you logged into your individual world, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
+**3. If you logged into your individual world, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.**
 
 - The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named at mtl.how/data.
 
-### 4. You can Join Current Session or Start a New Session in any module. If you Start a New Session select the team data file you’d like to use.
+**4. You can Join Current Session or Start a New Session in any module. If you Start a New Session select the team data file you’d like to use.**
 
 - If you *Start a New Session* you will need to select the team data file you would like to use for this session. Click the "Select Team Data" icon. A pop-up box will appear that says, "Please select a model input file." Click to open the drop-down menu and choose the data file you would like to use.
 
-### 5. To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs Text fields. Review those text fields.
+**5. To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs Text fields. Review those text fields.**
 
 - You will see the main, model diagram section, the *Outputs and Text* section, and the *Experiments* section, with a smaller, floating *Text* section. You can drag that section over or "X out" of it to make room to open the *Experiments* section. To pick up where we left off last time, expand the *Experiments* section by clicking on the blue bar. At the top you will see, "Select Previous Experiment to Set Experimental Values to a Former State."  
 
@@ -74,7 +76,7 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:20-00:25 | **Review** the relevant causal system story | **2. Practice describing the complexity reveal (causal loop) most relevant to the team's highest priority need.**
 
-### 6.  Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.
+**6. Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.**
   
 - Click on \_\_\_\_\_\_\_\_\_\_\_\_ under "reveal complexity" to see the systems story relevant to the experiment you decided on in the last session.
 - In the diagram, the rectangles that look like the levels of gas that you have in your gas tank are showing states in care where patients or appointments can accumulate or drop. For example, in this team we see \_\_\_ patients in the \_\_\_\_\_\_\_\_ stock.  The number of patients in a state are influenced by flow rates - designated by circles here that look like speedometers. For example, this \_\_\_\_\_\_ rate shows that about \_\_\_ patients per week in this team move from \_\_\_\_\_\_\_\_\_ to \_\_\_\_\_\_\_\_\_ \[show with mouse work\].  
@@ -89,7 +91,7 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:25-00:35 | **Adjust** sliders and set up team's dynamic hypothesis | **3. Practice describing specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need.**
 
-### 7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now.
+**7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now.**
 
 - Let's create a new experiment building off of the previous one, the base case of no new decisions. The important thing for learning is to stake a claim about your expectations, so the simulation output can teach you something. This process can also help teams to reconcile differences and achieve consensus about ways to move forward and take action for improvement. You all probably won't agree about what the likely impact of any change will be, but we can use Modeling to Learn engage in participatory learning to find out.
 - The first step is to revise the text in all the text boxes to reflect the experiment you want to do now:  
@@ -116,7 +118,7 @@ Time Stamp | Prioritize tailored team learning | Script
   - Q: How much does implementing Measurement Based Care improve our ability to get our high symptom patients into the right care at the right time? How will this change in our team impact the other settings in Mental Health?   Will it kick off a virtuous cycle of GMH care quality improving recovery?
   - H: If we more readily detect patients' symptoms and risk, then our improvement rate will increase, moving more patients in to recovery. For this team, with their local resources and constraints, can more patients graduate from general mental health care, our patient load will drop and open more slots to start new care episodes. If we implement measurement based care in our GMH team, then care quality will improve (specifically through reductions in Time to Improve and Time to UnFlag, and an increase in the Time to Ending). Also, how long it takes clinicians to see changes in their patients will also improve (seen in a reduction in Time to Detect). We expect to be able to effectively diagnose and treat patients faster, reducing the number of high-symptom patients in care, and thus reducing the number of patients who receive high risk flags.  However, low symptom patients are in care for longer than before, reducing the number of openings for new patients. These patients will make up more and more of our total – as there will be both more flowing in (due to higher Improvement Rate) and fewer flowing out (due to the lower Ending Rate). With fewer openings, wait times to start with our team should increase.
 
-### 8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).
+**8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).**
 
 - Slide the Text box to the left, over the model section. This will allow you to adjust experiment sliders for the new experiment.
 - In the experiments section we also have experimental sliders with “i” information that tells you what you’re changing when you adjust that slider in your experiment.
@@ -127,7 +129,7 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:35-00:40  | **Run** experiment
 
-### 9. Run and then Save (without resetting).  Name this run according to the variable setting(s) you changed.
+**9. Run and then Save (without resetting).  Name this run according to the variable setting(s) you changed.**
 
 - To name the run, click on the down arrow next to Variable, choose the variable you changed, for example, Appointment Supply or Return Visit Interval. Click *Add*. This will insert an abbreviation of that variable into the experiment name.
 - Click on the down arrow next to Service, choose the service you adjusted, for example, Psy, Medication Management or Adjunctive services. Click *Add*.
@@ -138,7 +140,7 @@ Time Stamp | Prioritize tailored team learning | Script
     -- | -- | --
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:40-00:50 | **Describe** findings/decisions and save | **4. Practice describing outputs (system behaviors) you're going to check and discuss as a team in relation to the team's highest priority need.**
 
-### 10. Compare Experiments to see the difference the between base case and the current experimental run.
+**10. Compare Experiments to see the difference the between base case and the current experimental run.**
 
 - Navigate to the Results Dashboard. It is here you can choose up to two prior experiments' results to compare with the current run. Select your base case run.  
 - There are six charts in the dashboard at a time. To see the default set of charts for a specific service, cohort, or setting, go to the main model diagram Experiment Timeline box and under "Display Patient Services" click on the service, cohort, or setting for the specific charts you want to review.  First, let's look at \_______ chart, in the \_________ section of the screen, as it answers our question \_________ .
@@ -167,7 +169,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 - **SP** \- As predicted, we see a dramatic shift in patient from “high symptom” to “low symptom,” as both detection and care quality improve – the ratio of high to low symptom patients drops from 0.6:1 to 0.2:1 over two years. The number of patients with a suicide flag decreases by more than 50%, as more high symptom patients have their symptoms addressed before they can be flagged in the first place. However, the initial predicted reduction in Ending Rate is off-set by long-term increases in the Recommend Step Down Rate, thus not permanently impacting the new patient start rate. Both new patient starts and wait times in our clinic increase in the short-term, but fall below our historical average by 3 months, and continue to fall for the next year. However, because there have been no changes in Primary Care, the number of patients waiting to step down to PC hs increased substantially – from about 110 to 170, who are all undoubtedly waiting significantly longer than before.
 
-### 11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.
+**11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.**
 
 - Based on what you saw here, and what further experiments you want to run in the Sim.
 - Type those into the *Our Decision* text box.  
@@ -186,26 +188,26 @@ Time Stamp | Prioritize tailored team learning | Script
 
 In an interconnected system, with causal interdependencies over time, simulation can help us find out when our short-term decisions are going to make things worse in the longer term.  In the real world, it would be very hard to perceive these longer term system effects, but we can see them using *Modeling to Learn* and we can evaluate the results against other available decisions to compare their effects and better coordinate Veterans' care across the team to increase care quality [expand access, or reduce symptoms and risk].
 
-### 12. Save and Reset when ready.
+**12. Save and Reset when ready.**
 
 - Log out of the SIM UI.
 
-### That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.
+**That's it for _Modeling to Learn_ how to test a dynamic hypothesis. Next is our Done/Do review.**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 1 and compared results against the bc. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Explore the bc and experiment 1, and draft a dynamic hypothesis to prepare for experiment 2. |
 
-## Until next time, thank you for *Modeling to Learn*!
+**Until next time, thank you for *Modeling to Learn*!**
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
 
-## DO Demo
+**DO Demo**
 
 1. Before next time, please explore the base case and experiment results and draft a dynamic hypothesis to prepare for experiment 2.
 2. To do this, log back into the SIM UI team world.
