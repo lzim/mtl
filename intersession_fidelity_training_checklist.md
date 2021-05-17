@@ -1,6 +1,8 @@
-Intersession Checklist 
+# Facilitator Checklists 
 
-### *MTL* 12-session Plan
+## Intersession Checklist 
+
+***MTL* 12-session Plan**
 
 session 01. Today we're *modeling to learn* how to align our **team vision**. 
 
