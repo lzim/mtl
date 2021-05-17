@@ -1,13 +1,14 @@
+## Session 05 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
      height = "175" width = "420">](#DontLink)  
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 05
+**MTL Live Session 05**
 
+**Today we're modeling to learn how to log in to our team world.**
 
-# Today we're modeling to learn how to log in to our team world.
-
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
@@ -16,7 +17,7 @@
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the team data in the Experiments section. 
 
@@ -24,13 +25,12 @@
 
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
+**In-session Exercise (30 minutes)**
 
-# In-session Exercise (30 minutes)
-
-# Session 5 In-Session Exercise
+**Session 5 In-Session Exercise**
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-## Check the name of your team data file.
+**Check the name of your team data file.**
 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
 2. Let's now go back to mtl.how/data in any browser window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
@@ -40,7 +40,7 @@
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**
 
-## Log in to the sim UI in Chrome.
+**Log in to the sim UI in Chrome.**
 
 4. Log in to the sim UI.
 
@@ -56,7 +56,7 @@
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**
 
-#### New for _MTL_ 2.0
+**New for _MTL_ 2.0**
 - You can use several browsers outside of Chrome that are not Explorer. As the warning states on the login page of the sim UI "The _Modeling to Learn_ simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile."
 
 - If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.
@@ -80,8 +80,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_team_data_menu_maint.gif)](#DontLink) 
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**
-   
-#### New for _MTL_ 2.0
+
+**New for _MTL_ 2.0**
 
 - The "Chat" icon is now called "Team." Click here to chat with your team or facilitator.
 
@@ -140,7 +140,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
    
    + Click Play.
 
-#### New for _MTL_ 2.0
+**New for _MTL_ 2.0**
 
    + For CC & MM, you need to select your Learning Mode before hitting Play.  
    + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
@@ -155,7 +155,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
 
-#### New for _MTL_ 2.0
+**New for _MTL_ 2.0**
 - The "Outputs" section is now called "Outputs and Text."
 - To get the "Text" pop-up from the "Outputs and Text" section, click on the "T" icon with the arrow. Click once more on the "Expand" icon in the top right of the "Text" pop-up to get to the expanded view of the "Outputs and Text" section that show the Q/H/F/D text and 6 Output charts in one view.
   - Click on the "Minimize" icon in the top right of the expanded "Outputs and Text" view to return to the "Text" pop-up.
@@ -191,7 +191,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 10. Log out of the Sim UI.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
