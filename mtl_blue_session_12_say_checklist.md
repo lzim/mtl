@@ -23,7 +23,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 3. Apply the new decisions that your team has prioritized.
 
-**1. We completed _Modeling to Learn_! **
+**1. We completed _Modeling to Learn_!**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:30** 
 
 - [ ] 2. Brief summary of themes to highlight with the team ____________________
