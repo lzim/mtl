@@ -1,13 +1,15 @@
+## Session 12 See Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
 height = "175" width = "420">](#DontLink) 
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 12
+**MTL Live Session 12**
 
-# Today we're modeling to learn how to turn team learning into a team plan.
+**Today we're modeling to learn how to turn team learning into a team plan.**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
@@ -16,7 +18,7 @@ height = "175" width = "420">](#DontLink)
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe what your team has learned throughout the *MTL* 12-session program. 
 
@@ -24,7 +26,7 @@ height = "175" width = "420">](#DontLink)
 
 3. Apply the new decisions that your team has prioritized.  
 
-# In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
+**In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)**
 
 1. We completed _Modeling to Learn_! Let's review and plan!
 
@@ -42,9 +44,7 @@ height = "175" width = "420">](#DontLink)
 
 6. Celebrate completion of *Modeling to Learn*!
 
-
-
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 <!-- Do/Done Tables -->
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_hexagon-check-mark_309690_003F72.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/hexagon_icons/np_synchronize_778914_003F72.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
