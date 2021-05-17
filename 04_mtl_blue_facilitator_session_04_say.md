@@ -1,15 +1,17 @@
+## Session 04 Say Guide
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png"
      height = "175" width = "420">](#DontLink)
 
-# MTL Live Session 04
+**MTL Live Session 04**
 
-## Today we're modeling to learn how to prioritize team needs.
+**Today we're modeling to learn how to prioritize team needs.**
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to prioritize team needs.
 
 **As we see in the Done/Do table of the Learner See Guide:**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick) **Do** |
@@ -21,7 +23,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style = "display: inline-block"/>](#DontClick)  
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the high priority needs reported across the team.
 
@@ -31,36 +33,36 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **Let's get started:**
 
-## In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
 - Menu results and team needs discussion.
 
-### 1. Complete the *MTL Menu* on your own.
+**1. Complete the *MTL Menu* on your own.**
 
 - If you have not completed the MTL Menu at mtl.how/menu, please take 5 minutes to complete it. Your username is your VA email.
 - Once everyone on the team has completed the MTL Menu, and we will show the tabulated results *[Show Menu Results]*.
 - You will receive a summary of this in your follow-up email.
 
-### 2. Review the team's results with your team.
+**2. Review the team's results with your team.**
 
 - What stands out to you?
 - First we'll scan through the results and see what stands out. *[Lead discussion; take notes.]*
 
-### 3. Look for areas of consensus among the team.
+**3. Look for areas of consensus among the team.**
 
 - What does the team agree about?
 - Where are there areas of high consensus? What issues does the team agree about?
 
 _Decide which Menu results to show to reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
   
-### 4. Discuss items in which team members varied a lot in their rankings.
+**4. Discuss items in which team members varied a lot in their rankings.**
 
 - Where does the team have more variable perspectives?
 - What are the topics where team members' perspectives are more divergent?
 
 _Decide which Menu results to show to discuss divergence, based on relevance to the team's priority needs and ability to assist us with our differential. Should be related to charts shown in Session 3._
 
-### 5. Focus on the high priority needs to select a module for sessions 5-10 of _Modeling to Learn_.
+**5. Focus on the high priority needs to select a module for sessions 5-10 of _Modeling to Learn_.**
 
 - What is the highest priority need for your team now?
 - Let's think about which _Modeling to Learn_ module best addresses that need. *[Recap the highest priority need, recommended module, and why.]*
@@ -83,16 +85,16 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)
 
-### That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.
+**That's it for _Modeling to learn_ how to prioritize team needs. Next is our Done/Do review.**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG). | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim. |
 
-## DO demo
+**DO demo**
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
 2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
