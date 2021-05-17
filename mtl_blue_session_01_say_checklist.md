@@ -1,4 +1,4 @@
-## Session 01 Say Checklist
+### Session 01 Say Checklist
 
 **Today we're modeling to learn how to align our team vision.**
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to align our team vision
