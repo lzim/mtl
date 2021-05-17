@@ -1,13 +1,13 @@
+## MTL Live Session 07
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
      height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 07
+**Today we're modeling to learn how to evaluate our Base Case of no new decisions.**
 
-# Today we're modeling to learn how to evaluate our Base Case of no new decisions.
-
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -19,17 +19,17 @@
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the base case of no new decisions in your team.
 2. Test out your thinking about what is likely to cause oscillation in team trends.
 3. Apply systems thinking to develop a hypothesis about your team's clinical priority.
 
-# In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#.)
 
-## Running a Base Case
+**Running a Base Case**
 
 1. Log in to your team world at mtl.how/sim.  
 
@@ -69,7 +69,7 @@
 
 11. Save and Reset when ready. Notice that the sim UI automatically adds the date to the name of the run for you. Remember to log off before you exit the browser window.  
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
