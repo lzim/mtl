@@ -1,13 +1,13 @@
+## MTL Live Session 10
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s10_systems_thinking_title.png"
      height = "175" width = "420">](#DontLink)
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 10
+**Today we're modeling to learn how to use systems thinking.**
 
-## Today we're modeling to learn how to use systems thinking.
-
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -17,22 +17,22 @@
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the decisions you experimented with and how they are intertwined with other decisions and clinic outcomes over time.
 2. Test your understanding of the causal system story by describing what’s happening when it produces a system behavior over time.
 3. Apply your thinking to anticipate the short and long term trends in your team’s care quality under different decision scenarios.
 
-# In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
 **We've been _Modeling to Learn_ how to improve our use of systems thinking when making care decisions in our team.**
 
 Systems Thinking | Definition
 -- | --
-Complex | **Forest   not trees.**    Relationships among two or more   variables (wait times, improvement rate), or two or more settings (primary   care, general mental health).
-Feedback | **Loop not line.**    Not simple cause and effect. The end of   the story often influences the beginning, and is strengthened (reinforcing)   or reduced (balancing) around the loop.
-System Behavior | **Movie   not snapshot.**    Trends over time.    Systems cause their own behavior   through feedback.
-Time | **Short   and   long term.**      Better understanding of change over   time   (e.g., worse before better, better   before worse).
+Complex | **Forest not trees.** Relationships among two or more variables (wait times, improvement rate), or two or more settings (primary care, general mental health).
+Feedback | **Loop not line.** Not simple cause and effect. The end of the story often influences the beginning, and is strengthened (reinforcing) or reduced (balancing) around the loop.
+System Behavior | **Movie not snapshot.** Trends over time. Systems cause their own behavior through feedback.
+Time | **Short and long term.** Better understanding of change over time (e.g., worse before better, better before worse).
 
 **We'll work to apply these skills as we review our combined experiment today.**
 
@@ -88,7 +88,7 @@ Time | **Short   and   long term.**      Better understanding of change over   t
 
     [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
