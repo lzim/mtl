@@ -1,12 +1,13 @@
+## MTL Live Session 08
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s08_dynamic_hypothesis_title.png"
      height = "175" width = "420">](#DontLink)
-     **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-# MTL Live Session 08
+**Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-## Today we're modeling to learn how to test a dynamic hypothesis.
+**Today we're modeling to learn how to test a dynamic hypothesis.**
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
@@ -16,7 +17,7 @@
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
-## Learning Objectives
+**Learning Objectives**
 
 1. Describe the systems story your team believes will cause the outcomes you expect to observe in your experiment.
 
@@ -24,9 +25,9 @@
 
 3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
 
-## In-session Exercise (30 minutes)
+**In-session Exercise (30 minutes)**
 
-### Running an Experiment
+**Running an Experiment**
 
 1. Log in to your individual or team world at mtl.how/sim.  
 
@@ -84,7 +85,7 @@
 
 12. Save and Reset when ready.
 
-## Done and Do (15 minutes)
+**Done and Do (15 minutes)**
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
