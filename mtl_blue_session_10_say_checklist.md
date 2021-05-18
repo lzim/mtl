@@ -80,6 +80,7 @@ _The advantage of starting **session 10** at the end of the Experiment 2 run in 
 - [ ] Model for the team, and highlight the C.F.B.T. systems thinking concepts and add explanations in q/h/f/d text boxes.
 - [ ] Dominant causal feedback that produces the system behaviors _______________ 
 - [ ] Highest leverage (high yield) decisions that are most clinically feasible for the team to implement in their care _______________
+
 - [ ] **Enter Decisions Text** to reflect **new practice decisions the team would like to consider next** and then click **Save** to save the text edits for Experiment 3.
 
 **Have Team Lead pull up the session 10 SEE guide Done/Do review.**
