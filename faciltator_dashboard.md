@@ -9,7 +9,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 ### Orientation to the Dashboard
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/dashboard_overview.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/dashboard_overview.png?raw=true">
   
 1. **Select Team** - Use this dropdown to select your desired team. It will enable you to monitor their experiments.
 2. **Go to Current Session/Home** - Use these buttons to go to the teams' session.  If the "Go to Current Session" button is washed out, there is no current session.  Use the "Home" button to go to the teams' Home page.
