@@ -1,4 +1,4 @@
-# Facilitator Dashboard.
+# Facilitator Dashboard
 
 This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
 
@@ -7,7 +7,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - The Facilitator group in Epicenter.
 - Each group you are managing. 
 
-## Orientation to the Dashboard.
+## Orientation to the Dashboard
 
 <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/dashboard_overview.png">
   
@@ -23,7 +23,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 10. **Manage Multiple Teams** - Select additional teams to monitor using this dropdown. 
 11. **ADD TEAM** - Click this button to add an unlimited number of teams to the dashboard.
 
-## Set Up a Team.
+## Set Up a Team
 
 <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/team_setup_overview.png">
 
@@ -84,11 +84,11 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - The upload routine must update multiple GitHub repositories and Epicenter, which may take a few minutes. If the file does not appear, try clicking the "Refresh" button.
 - **Do not attempt to upload Team Data file directly to Epicenter,** since the GitHub repository will overwrite the files on the next update and they will not work when you try to access them from the Sim UI.
 
-## tt Admin.
+## tt Admin
 
 This section explains how to use the Facilitator Dashboard to set up and manage tt reports.  
 
-## Set up a Blue - tt report.
+## Set up a Blue - tt report
 
 - The tt Reports popup allows you to select your team, select experiments to display and the specific charts you want to display in the report.
 - For the Psychotherapy Module, Sankey charts are displayed by default.
