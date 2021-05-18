@@ -44,6 +44,30 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 9. Click the checkbox next to a name and "Edit" or "Delete" to update information or delete a team member.
 10. Click "Done" button when finished.
 
+## Set up a Facilitator Individual Team (_ind)
+
+- Facilitators can go into any team session where they are listed as a facilitator.
+- The Sim UI uses that listing to build the Select Team dropdown in the Facilitator Dashboard.
+- A Facilitator cannot be assigned a world, so a workaround is needed.
+- The procedure below will explain how to create an alias you can use to access your personal individual team.
+- After following the procedure, your individual \_ind will be on your dropdown list.
+
+*Visual - navigate to team setup (to be published)*
+
+1. Navigate to Team Setup 
+
+*Visual - select facilitator\_ind\_team (to be published)*
+
+2. Select facilitator\_ind\_team from Team Setup listing and click Edit.
+
+*Visual - Edit team setup popup (to be published)*
+
+3. In the Edit Team Setup popup click Add.
+
+*Visual - Add Team Member popup (to be published)*
+
+4. In the Add Team Members popup, enter your first name, last name, select Team Lead in Select Role dropdown, enter your name again in the Enter Email field and enter your Clinical Role.  Click Add, then Done.
+
 ## Manage Team Data
 
 <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/manage_team_data.png">
@@ -60,6 +84,29 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - The upload routine must update multiple GitHub repositories and Epicenter, which may take a few minutes. If the file does not appear, try clicking the "Refresh" button.
 - **Do not attempt to upload Team Data file directly to Epicenter,** since the GitHub repository will overwrite the files on the next update and they will not work when you try to access them from the Sim UI.
 
-## tt Admin
+## tt Admin.
 
-**TO BE PUBLISHED**
+This section explains how to use the Facilitator Dashboard to set up and manage tt reports.  
+
+## Set up a Blue - tt report.
+
+- The tt Reports popup allows you to select your team, select experiments to display and the specific charts you want to display in the report.
+- For the Psychotherapy Module, Sankey charts are displayed by default.
+- Psychotherapy charts active in the Sim UI Team Data Table are also active in the tt report Team Data Table.
+- A team can have only **one** module at a time displayed on the tt report.  
+- If you choose a different module, it will re-render the tt report page to the selected module.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png">
+
+1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_module.png">
+
+2. Select your team and the module they are using.  Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments and click Add.  The experiments will appear in the Display list.  **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** You can select up to 5 experiments for comparison.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png">
+
+3. Scroll down.  Click checkbox to select chart and then click Add.  The charts will appear on the Display list.  **The charts will display in order of appearance on the list in the tt report.** Click save when done. 
+
+
+
