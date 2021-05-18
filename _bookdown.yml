@@ -1,7 +1,7 @@
 book_filename: "MTL_Bookdown"
 language:
   ui:
-    chapter_name: "Chapter"
+    chapter_name: "Chapter "
 new_session: yes
 rmd_files: ["index.Rmd", "02_introduction.md", 
 "intersession_fidelity_training_checklist.md",
@@ -43,4 +43,8 @@ rmd_files: ["index.Rmd", "02_introduction.md",
 "04_mtl_blue_facilitator_session_11_say.md",
 "mtl_blue_session_11_say_checklist.md",
 "04_mtl_blue_facilitator_session_12_say.md",
-"mtl_blue_session_12_say_checklist.md",]
+"mtl_blue_session_12_say_checklist.md",
+"mtl_technical_manual.md",
+"mtl_technical_manual_facilitator.md",
+"faciltator_dashboard.md",
+"mtl_technical_manual_admin.md"]
