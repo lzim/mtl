@@ -1,7 +1,7 @@
 book_filename: "MTL_Bookdown"
 language:
   ui:
-    chapter_name: "Chapter"
+    chapter_name: "Chapter "
 new_session: yes
 rmd_files: ["index.Rmd", "02_introduction.md", 
 "intersession_fidelity_training_checklist.md",
