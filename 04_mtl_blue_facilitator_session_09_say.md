@@ -1,4 +1,4 @@
-## Session 09 Say Guide
+### Session 09 Say Guide
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s09_compare_alternatives_title.png"
      height = "175" width = "420">](#DontLink)  
