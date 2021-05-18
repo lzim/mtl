@@ -90,3 +90,14 @@ session-11-say-guide
 session-11-say-checklist
 session-12-say-guide
 session-12-say-checklist
+modeling-to-learn---technical-manual
+facilitator-technical-manual
+facilitator-cheatsheet
+facilitator-dashboard.
+orientation-to-the-dashboard.
+set-up-a-team.
+set-up-a-facilitator-individual-team-_ind
+manage-team-data
+tt-admin.
+set-up-a-blue---tt-report.
+admin-technical-manual
