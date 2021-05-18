@@ -1,4 +1,4 @@
-## Session 04 Say Guide
+### Session 04 Say Guide
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s04_teamneeds_title.png"
      height = "175" width = "420">](#DontLink)
