@@ -9,7 +9,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 ### Orientation to the Dashboard
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/dashboard_overview.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/dashboard_overview.png?raw=true">
   
 1. **Select Team** - Use this dropdown to select your desired team. It will enable you to monitor their experiments.
 2. **Go to Current Session/Home** - Use these buttons to go to the teams' session.  If the "Go to Current Session" button is washed out, there is no current session.  Use the "Home" button to go to the teams' Home page.
@@ -25,18 +25,18 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 ### Set Up a Team
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/team_setup_overview.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_setup_overview.png?raw=true">
 
 1. Click the "Add" button. A Team Setup popup will appear.
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/add_team_pop_up.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_pop_up.png?raw=true">
 
 2. Add the team name.  Just add the teams' root name. The setup function will add "team" and "ind" extensions in Epicenter.
 3. Type the teams' vision statement. 
 4. Select the Research Arm.
 5. Click "Add" button to add a team member. A Add Team Members popup will appear.
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/add_team_member_popup.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_member_popup.png?raw=true">
 
 6. Enter First Name, Last Name, Email and Clinical Role information.
 7. Use the Select Role to select team members' role on the team.
@@ -70,11 +70,11 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 ### Manage Team Data
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/manage_team_data.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/manage_team_data.png?raw=true">
 
 1. Click the "Add" button to add a new team data file. The File Manager popup will appear.
 
-<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/select_file_popup.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_file_popup.png?raw=true">
  
 2. Go to the desired file location and click on the file.
 3. Click "Open" to upload the file.  
@@ -96,15 +96,15 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - A team can have only **one** module at a time displayed on the tt report.  
 - If you choose a different module, it will re-render the tt report page to the selected module.
 
-<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
 1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
 
-<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_module.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_module.png?raw=true">
 
 2. Select your team and the module they are using.  Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments and click Add.  The experiments will appear in the Display list.  **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** You can select up to 5 experiments for comparison.
 
-<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png?raw=true">
 
 3. Scroll down.  Click checkbox to select chart and then click Add.  The charts will appear on the Display list.  **The charts will display in order of appearance on the list in the tt report.** Click save when done. 
 
