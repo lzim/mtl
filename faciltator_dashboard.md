@@ -2,7 +2,7 @@
 
 This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
 
-## You Will Need to Be Registered as a Facilitator in:
+**You Will Need to Be Registered as a Facilitator in:**
 
 - The Facilitator group in Epicenter.
 - Each group you are managing. 
@@ -107,6 +107,4 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png">
 
 3. Scroll down.  Click checkbox to select chart and then click Add.  The charts will appear on the Display list.  **The charts will display in order of appearance on the list in the tt report.** Click save when done. 
-
-
 
