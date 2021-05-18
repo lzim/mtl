@@ -4,6 +4,8 @@
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
+**MTL Live Session 01**
+
 **Today we're modeling to learn how to align our team vision.**
 
 **Done and Do (15 minutes)**
