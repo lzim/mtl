@@ -47,4 +47,4 @@ rmd_files: ["index.Rmd", "02_introduction.md",
 "mtl_technical_manual.md",
 "mtl_technical_manual_facilitator.md",
 "faciltator_dashboard.md",
-"mtl_technical_manual_admin.md",]
+"mtl_technical_manual_admin.md"]
