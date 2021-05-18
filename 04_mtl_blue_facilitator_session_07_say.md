@@ -1,4 +1,4 @@
-## Session 07 Say Guide
+### Session 07 Say Guide
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s07_base_case_title.png"
      height = "175" width = "420">](#DontLink)  
