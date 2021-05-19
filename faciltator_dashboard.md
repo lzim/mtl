@@ -48,25 +48,25 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 - Facilitators can go into any team session where they are listed as a facilitator.
 - The Sim UI uses that listing to build the Select Team dropdown in the Facilitator Dashboard.
-- A Facilitator cannot be assigned a world, so a workaround is needed.
-- The procedure below will explain how to create an alias you can use to access your personal individual team.
+- A Facilitator cannot be assigned a world using the same alias, so a workaround is needed.
+- The procedure below will explain how to use an additional alias to create and access a personal individual team.
 - After following the procedure, your individual \_ind will be on your dropdown list.
 
-*Visual - navigate to team setup (to be published)*
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/nav_to_team_setup.png">
 
 1. Navigate to Team Setup 
 
-*Visual - select facilitator\_ind\_team (to be published)*
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_ind_team.png">
 
-2. Select facilitator\_ind\_team from Team Setup listing and click Edit.
+2. Select any \_ind\_team from Team Setup listing and click Edit.
 
 *Visual - Edit team setup popup (to be published)*
 
-3. In the Edit Team Setup popup click Add.
+3. In the Edit Team Setup popup click Add. Notice the facilitator alias for the facilitator role. 
 
 *Visual - Add Team Member popup (to be published)*
 
-4. In the Add Team Members popup, enter your first name, last name, select Team Lead in Select Role dropdown, enter your name again in the Enter Email field and enter your Clinical Role.  Click Add, then Done.
+4. In the Add Team Members popup, enter your first name, last name, select Team Lead in Select Role dropdown, enter your name (example: James Rollins) again in the Enter Email field and enter your Clinical Role.  Click Add, then Done.  Your name is now your alternate alias to be used for _ind teams.
 
 ### Manage Team Data
 
@@ -102,9 +102,9 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_module.png?raw=true">
 
-2. Select your team and the module they are using.  Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments and click Add.  The experiments will appear in the Display list.  **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** You can select up to 5 experiments for comparison.
+2. Select your team and the module they are using.  Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments.  The experiments will appear in the Display list.  Click again if you want to remove the experiment from the list. If you are changing experiments only, be sure to scroll down and click and click the Save button. **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** You can select up to 10 experiments for comparison.
 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png?raw=true">
 
-3. Scroll down.  Click checkbox to select chart and then click Add.  The charts will appear on the Display list.  **The charts will display in order of appearance on the list in the tt report.** Click save when done. 
+3. Scroll down.  Click checkbox to select chart.  The charts will appear on the Display list. Click again if you want to remove the chart from the list. **The charts will display in order of appearance on the list in the tt report.** Click Save when done. 
 
