@@ -46,5 +46,6 @@ rmd_files: ["index.Rmd", "02_introduction.md",
 "mtl_blue_session_12_say_checklist.md",
 "mtl_technical_manual.md",
 "mtl_technical_manual_facilitator.md",
+"facilitator_one_pager.md",
 "faciltator_dashboard.md",
 "mtl_technical_manual_admin.md"]
