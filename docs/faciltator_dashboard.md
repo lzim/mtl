@@ -52,19 +52,19 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - The procedure below will explain how to use an additional alias to create and access a personal individual team.
 - After following the procedure, your individual \_ind will be on your dropdown list.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/nav_to_team_setup.png">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/nav_to_team_setup.png?raw=true">
 
 1. Navigate to Team Setup 
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_ind_team.png">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_ind_team.png?raw=true">
 
 2. Select any \_ind\_team from Team Setup listing and click Edit.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_ind.png">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_ind.png?raw=true">
 
 3. In the Edit Team Setup popup click Add. 
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/enter_ind_alias.png">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/enter_ind_alias.png?raw=true">
 
 4. In the Add Team Members popup, enter your first name, last name, select Team Lead in Select Role dropdown, enter your name (example: James Rollins) again in the Enter Email field and enter your Clinical Role.  Click Add, then Done.  Your name is now your alternate alias to be used for _ind teams.
 
