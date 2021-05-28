@@ -112,4 +112,69 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 ### Set up a NIH-Red tt Report
 
-- To be published.
+- The NIH-Red tt report only contains team data. **Do not select charts to display.**
+- Team data cannot be read directly, it must be converted to an experiment.
+- There is a special button in the Team Setup popup for the team data to experiment conversion.
+- The team data file must be uploaded before using this procedure.
+ 
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/nav_to_team_setup.png?raw=true">
+ 
+1. Select Team Setup from the Facilitator Dashboard. The Set Setup popup will appear.
+ 
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_tdata_add_to_tt.png?raw=true">
+ 
+2. Select the team data file you want to use in the Red tt report and click the Add to tt button.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_module_tt_red.png?raw=true">
+ 
+3. Select the desired model.
+ 
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_tt_red.png?raw=true">
+ 
+4. Select the desired team from the dropdown and click Done.
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
+ 
+5. Close the Team Setup popup and click on the tt Admin button.  The tt Admin popup will appear.
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/setup_tt_red.png?raw=true">
+
+6. Select the desired team and modules from the dropdowns. Select the tt red experiment to display in the teams' report.
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/tt_reports_done.png?raw=true">
+
+9. Scroll down and click Save.
+ 
+## Team
+
+- The Team button in the top navigation is for texting and maintaing private discussion threads with one or more individuals and open discussion threads with teams.
+- A person can chat with one or more people using the Team function by inputting the enduser name (usually the va.gov email address) of the person or people they want to address.
+- A person can chat with with an entire team at once, provided they are a registered enduser in that team.
+ 
+### Set up a Private Conversation
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team.png?raw=true">
+ 
+1. Click Team to open the chat popup. **Note how the Team icon has a red circle indicating there are 2 chats waiting.**
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat.png?raw=true">
+ 
+2. Click Chat in the left-hand navigation to private-text an individual. The latest conversation will appear in the Chat Log, followed the the next recent. The discussion thread appears in the Conversation window.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat_2.png?raw=true">
+ 
+3. To continue a conversation, type a new message in the message line at the bottom of the window. Click the send icon to post the chat.
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/new_private_chat.png?raw=true">
+ 
+4. To start a conversation with one or more new people, click the New icon and enter their user name and click Add.  Type a new message and click send.
+ 
+### Set up an Open Team Discussion
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_navigation.png?raw=true">
+ 
+1. Click on the Team icon in the left hand navigation. **Note how the icon has a red circle indicating there are 2 chats waiting.**
+ 
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_listing.png?raw=true">
+ 
+2. The Teams listing will contain a list of all teams the individual is a registered enduser (see bluegreen highlight). A boldface team indicates a chat is waiting. **Note the listing contains _ind teams. These are teams where users are assigned an individual world with which to experiment. However, any discussions held in this thread will be visible by all registered users from their different worlds.**  To have a private chat with an individual, see Set up a Private Conversation above.
