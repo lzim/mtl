@@ -147,9 +147,9 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
  
 ## Team
 
-- The Team button in the top navigation is for texting and maintaing private discussion threads with one or more individuals and open discussion threads with teams.
-- A person can chat with one or more people using the Team function by inputting the enduser name (usually the va.gov email address) of the person or people they want to address.
-- A person can chat with with an entire team at once, provided they are a registered enduser in that team.
+- The Team button in the top navigation is for texting and maintaining private discussion threads with one or more individuals and open discussion threads with teams.
+- A person can chat with one or more people using the Team function by inputting the end user name (usually the va.gov email address) of the person or people they want to address.
+- A person can chat with with an entire team at once, provided they are a registered end user in that team.
  
 ### Set up a Private Conversation
 
@@ -177,4 +177,4 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
  
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_listing.png?raw=true">
  
-2. The Teams listing will contain a list of all teams the individual is a registered enduser (see bluegreen highlight). A boldface team indicates a chat is waiting. **Note the listing contains _ind teams. These are teams where users are assigned an individual world with which to experiment. However, any discussions held in this thread will be visible by all registered users from their different worlds.**  To have a private chat with an individual, see Set up a Private Conversation above.
+2. The Teams listing will contain a list of all teams the individual is a registered end user (see blue-green highlight). A boldface team indicates a chat is waiting. **Note the listing contains _ind teams. These are teams where users are assigned an individual world with which to experiment. However, any discussions held in this thread will be visible by all registered users from their different worlds.**  To have a private chat with an individual, see Set up a Private Conversation above.
