@@ -102,4 +102,7 @@ manage-team-data
 tt-admin
 set-up-a-blue---tt-report
 set-up-a-nih-red-tt-report
+team
+set-up-a-private-conversation
+set-up-an-open-team-discussion
 admin-technical-manual
