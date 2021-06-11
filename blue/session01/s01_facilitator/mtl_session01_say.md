@@ -118,13 +118,33 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision
+### 6. Select the Team Vision and a Team Lead
 
 - To wrap up, let's home in on our Team Vision
 
   a. You can further word-smith the Team Vision after the session if you want.
   
   b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
+  
+- Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
+
+  1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+
+  3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+
+    - Ideal characteristics of the Team Lead include:
+
+       - Having strong relationships with fellow team members;
+
+       - Being organized;
+
+       - Having basic computer knowledge (some Excel experience is good);
+
+       - Attention to detail; and
+
+       - Commitment to process improvement and the use of data to improve care.
 
 **That's it for _Modeling to Learn_ how to align our team vision! Next is our Done/Do review**
 
@@ -137,37 +157,10 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 ## DO Demo
 
-1. We will help the team decide on a Team Lead and standing meeting time over the next week or two. The role of the Team Lead is to:
+1. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
-    - be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-
-    - help with scheduling *MTL*-related team meetings;
-
-    - become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
-
-    - provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
-
-2. Ideal characteristics of the Team Lead include
-
-    - Having strong relationships with fellow team members;
-
-    - Being organized;
-
-    - Having basic computer knowledge (some Excel experience is good);
-
-    - Attention to detail; and
-
-    - Commitment to process improvement and the use of data to improve care.
-
-3. Some considerations for choosing a standing meeting time are
-
-    - Whether the team works at a central location or is geographically dispersed;
-
-    - Clinic schedules; and
-
-    - Clinicians' availability.
-
-4. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
+2. First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN and then your facility. This is where you can access your local team data files on a secure VA site. 
+   - On your own time, open the facility excel file by clicking on the 3 dots and click "Edit" to open the file in Excel on your local desktop.
 
 **Until next time, thank you for _Modeling to Learn_!**  
 
