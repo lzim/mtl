@@ -153,14 +153,18 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  Select a Team Lead and email us at mtl.help@va.gov. Log into mtl.how/data to look at the facility file. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Go to mtl.how/data to look at the facility file. |
 
 ## DO Demo
 
 1. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
-2. First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN and then your facility. This is where you can access your local team data files on a secure VA site. 
-   - On your own time, open the facility excel file by clicking on the 3 dots and click "Edit" to open the file in Excel on your local desktop.
+2. We will email the Team Lead to set up a one-time hour prep before our next meeting. 
+
+3. Before our next meeting take at look at the facility file on mtl.how/data. 
+   - First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN and then your facility. 
+      - This is where you can access your local team data files on a secure VA site. 
+   - As homework, take a look at the facility file by clicking on the 3 dots and click "Edit" to open the file in Excel on your local desktop.
 
 **Until next time, thank you for _Modeling to Learn_!**  
 
