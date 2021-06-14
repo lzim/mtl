@@ -157,8 +157,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 #### New for _MTL_ 2.0
 
    + For CC & MM, you need to select your Learning Mode before hitting Play.  
-   + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
-   + **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
+       + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+       + **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
    
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/learning_mode.gif)](#DontLink)
 
