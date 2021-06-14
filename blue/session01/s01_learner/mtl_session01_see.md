@@ -26,7 +26,7 @@ output:
 <!-- Done and Do Table -->
 |[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision and Team Lead for _MTL_. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#DontLink)
@@ -101,10 +101,10 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision
+### 6. Select the Team Vision and a Team Lead
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| We selected a Team Vision to orient our learning throughout _MTL_.  | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a Team Lead and email us at mtl.help@va.gov. Log into mtl.how/data to look at the facility file. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout _MTL_. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Go to mtl.how/data to look at the facility file. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
