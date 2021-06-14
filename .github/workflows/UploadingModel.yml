@@ -6,7 +6,7 @@ name: UploadModel
 # events but only for the master branch
 on:
   push:
-    branches: [ master, Test, Dev ]
+    branches: [  master, Test, Dev  ]
     paths:
     - '**.mdl'
   #pull_request:
