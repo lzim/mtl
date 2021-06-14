@@ -102,6 +102,7 @@ jobs:
       run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
           
     - name: Commit SDM-Doc File
+      if: ${{ steps.extract_branch.outputs.branch != 'master' && steps.extract_branch.outputs.branch != 'main' && steps.extract_branch.outputs.branch != 'Test' }} 
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
