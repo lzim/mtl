@@ -40,6 +40,17 @@ jobs:
         #shell: bash
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: extract_branch
+        
+      - name: Set branch name
+        id: setSimUIBranchName
+        run: |
+          if ${{ steps.extract_branch.outputs.branch == 'master'}} ; then
+            echo "::set-output name=BranchName::main"
+          elif ${{ steps.extract_branch.outputs.branch == 'Test'}}; then 
+            echo "::set-output name=BranchName::Test"
+          elif ${{ steps.extract_branch.outputs.branch == 'Dev'}}; then 
+            echo "::set-output name=BranchName::Dev"
+          fi
 
       - name: '' #get changed files
         id: getFileName
@@ -56,7 +67,7 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
           mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
           chmod +x .github/workflows/UploadingModelUtility.sh
-          .github/workflows/UploadingModelUtility.sh "blue/mtl2.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.extract_branch.outputs.branch }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}" 
+          .github/workflows/UploadingModelUtility.sh "blue/mtl2.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}" 
         
       - name: File Name List
         run: |
@@ -97,6 +108,18 @@ jobs:
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
+      
+    - name: Set branch name
+      id: setSimUIBranchName
+      shell: bash
+      run: |
+        if ${{ steps.extract_branch.outputs.branch == 'master'}} ; then
+          echo "::set-output name=BranchName::main"
+        elif ${{ steps.extract_branch.outputs.branch == 'Test'}}; then 
+          echo "::set-output name=BranchName::Test"
+        elif ${{ steps.extract_branch.outputs.branch == 'Dev'}}; then 
+          echo "::set-output name=BranchName::Dev"
+        fi  
     
     - name: SDM Doc
       run: '.github\workflows\DevUtility\SDMDocUtility\ConSDM "${{ needs.getFileNameList.outputs.outputFileName }}" "${{ github.workspace }}\"'
@@ -118,5 +141,5 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
           mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "${{ steps.extract_branch.outputs.branch }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
       shell: bash   
