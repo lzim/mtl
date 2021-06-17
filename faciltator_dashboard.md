@@ -160,11 +160,11 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat.png?raw=true">
 
 2. Click Chat in the left-hand navigation to private-text an individual. The latest conversation will appear in the Chat Log, followed the the next recent. The discussion thread appears in the Conversation window.
-   
+
   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat_2.png?raw=true">
 
 3. To continue a conversation, type a new message in the message line at the bottom of the window. Click the send icon to post the chat.
- 
+
   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/new_private_chat.png?raw=true">
 
 4. To start a conversation with one or more new people, click the New icon and enter their user name and click Add.  Type a new message and click send.
@@ -174,7 +174,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_navigation.png?raw=true">
 
 1. Click on the Team icon in the left hand navigation. **Note how the icon has a red circle indicating there are 2 chats waiting.**
- 
+
   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_listing.png?raw=true">
 
 2. The Teams listing will contain a list of all teams the individual is a registered end user (see blue-green highlight). A boldface team indicates a chat is waiting. **Note the listing contains _ind teams. These are teams where users are assigned an individual world with which to experiment. However, any discussions held in this thread will be visible by all registered users from their different worlds.**  To have a private chat with an individual, see Set up a Private Conversation above.
@@ -182,7 +182,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
  ## Resize a Window for Side-by-Side Viewing
  
  - A facilitator may need to show two items on the screen side-by-side for comparison.
- - The Sim UI has a responsive design that should accomodate many resolutions and browser window sizes.
+ - The Sim UI has a responsive design that should accommodate many resolutions and browser window sizes.
  - Follow the steps below to get the best view.
  
  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_resize_window/images/window_view_click.png?raw=true">
