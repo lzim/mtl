@@ -1,4 +1,4 @@
-# Facilitator Dashboard
+# Sim UI Facilitator Dashboard
 
 This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
 
