@@ -178,6 +178,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
   - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
   - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
 
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sp_i_information.gif)](#DontLink) 
+
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
