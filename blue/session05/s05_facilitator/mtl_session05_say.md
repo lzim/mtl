@@ -131,6 +131,21 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Type your question about \_________________________________ into the Question box.  
 - Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "bc" (stands for base case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.  
 - Check out the Team Data Table.  
+- "Exclamation points" in the Team Data Table for Measurement Based Stepped Care & Suicide Prevention (SP): Sometimes we may have estimates derived from very few observations. We decided to set infrequently observed values to zero to avoid inflation of rarer episodes of care. Poor inferences are possible using estimates when the count is low and the duration is low. If the values are <1% of the total counts of episodes of care in the team, and they are retained in the model, it will inflate rare episodes.
+  - Exclamation points in the Team Data Table will indicate when a parameter is too low to be validly used.
+  - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
+  - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
+  - Our goal is to make the learners aware when low counts are used for estimates. A key systems insight for facilitators is that teams will always find the highest leverage change focusing on where the patients are (i.e., stocks or flows). 
+    - Here is an example competing for the same outflow of patients from PC/PCMHI:
+      - PC/PCMHI to GMH: Episode count is 31 and duration is 30 weeks. This is most common step-up path.
+      - PC/PCMHI to SMH: Episode count is 1 and duration is 14 weeks. This step-up engagement pattern was only observed once.
+    - Because the flow is based on the engagement duration (weeks), this is an example of 30:1 difference in episode counts, but the difference in engagement duration is actually only 2:1 (30 weeks to 14 weeks). Retaining this parameter to estimate these model outflow (pts/wk) over the course of a two year experiment timeline would exaggerate the number of patients who step up from PC/PCMHI to SMH from 1 to 20 and reduce the number who step up from PC/PCMHI to GMH from 30 to 10.
+    - If we set it to zero it won't include this rare flow in the basecase. Because the outflow that is infrequently observed is set to zero, it will slightly inflate the other stock outflows, but this is better than extreme exaggeration of an uncommon episodes of care.
+    - However, the Measurement Based Stepped Care for Suicide Prevention module includes low base rate patterns for high risk flag patients. The outflows from the HRF Patients stock are to residential. Sim UI - Setting View:
+      - *PC/PCMHI - Residential, GMH or Unflag (3 outflows)
+      - *GMH - Residential or Unflag (2 outflows) - likely to keep their HRF flag patients
+      - SMH - Residential, GMH or Unflag (3 outflows) - no change
+    - Inpatient was not included as an outflow from any setting view because the patient never really transfer fully to the inpatient setting, they are still typically managed by the team coordinating their treatment before the inpatient stay and after discharge from an inpatient stay. The episode counts for HRF patients are always likely to represent a low percentage of the total episodes of care in the team.
 
 ### 8. Expand the Experiments section and read the "i" information for the Team Data Table.
 
