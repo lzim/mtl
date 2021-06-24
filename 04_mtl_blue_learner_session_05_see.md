@@ -161,6 +161,13 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 - The "Outputs" section is now called "Outputs and Text."
 - To get the "Text" pop-up from the "Outputs and Text" section, click on the "T" icon with the arrow. Click once more on the "Expand" icon in the top right of the "Text" pop-up to get to the expanded view of the "Outputs and Text" section that show the Q/H/F/D text and 6 Output charts in one view.
   - Click on the "Minimize" icon in the top right of the expanded "Outputs and Text" view to return to the "Text" pop-up.
+- "Exclamation points" in the Team Data Table for Measurement Based Stepped Care & Suicide Prevention (SP): Sometimes we may have estimates derived from very few observations. We decided to set infrequently observed values to zero to avoid inflation of rarer episodes of care. Poor inferences are possible using estimates when the count is low and the duration is low. If the values are <1% of the total counts of episodes of care in the team, and they are retained in the model, it will inflate rare episodes.
+  - Exclamation points in the Team Data Table will indicate when a parameter is too low to be validly used.
+  - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
+  - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
+    
+    [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sp_i_information.gif)](#DontLink) 
+
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md).
 
