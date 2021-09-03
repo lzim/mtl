@@ -69,7 +69,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - On the landing page, select your VISN. On the next page, select your team's facility.
 
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
+## To create a fresh data UI file, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file.
 
 ### 2. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
