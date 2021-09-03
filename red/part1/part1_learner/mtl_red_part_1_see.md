@@ -25,7 +25,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the facility data.  [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif" height="200px" width="350px" />](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif" height="200px" width='400px'/>](#DontLink)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the data UI.  [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif" height="200px" width="350px" />](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif" height="200px" width='400px'/>](#DontLink)|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -46,46 +46,17 @@ output:
 
 [![data ui login screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
 
-### 2. Explore the facility data.
-
-- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder"** in the horizontal header next the BISL logo.
-
-[![data ui splash page screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
-
-- Click through the tabs on the bottom of the Excel spreadsheet. What options are there and what do they mean? Hints:
-  - Data: Sortable report of data
-  - Diag: Diagnostic data
-  - Enc: Encounter types of visits
-  - HF: Health Factors data related to visits
-  - Meas: Measures or flag names
-  - Viz: Visualization of trends  
-
-- What filtering options are available?
-  - Filter to your clinic or division to see trends for the last two years.  
-
-- vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD.
-
-### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
-
--	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
--	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
--	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
-    - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
--	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
-
-[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
 
 ## Your Team Data Folder
 
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+### 2. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - Click on the 3 dots \[...\] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 [![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+### 3. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: This will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
@@ -93,7 +64,7 @@ output:
 - After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
 - In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
-### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+### 4. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
 - **You already have a fresh data UI file to work with in your team data_ui folder.**
 - We will learn about the "Create Team Data Table" button in our next team meeting.
@@ -108,7 +79,7 @@ output:
 
 [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
 
-### 6. Click to view the "viz" tab, which show team trends.
+### 5. Click to view the "viz" tab, which show team trends.
 
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
   - What stands out to you?
@@ -131,7 +102,7 @@ output:
 
 [![vvc_filter](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/vvc_filter.gif)](#DontLink)
 
-### 7. Click to view the "data" tab, which show your team's individual patient information.
+### 6. Click to view the "data" tab, which show your team's individual patient information.
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F (dataDiag, dataHF) or Column E (dataMeas). If you are a VA provider, you can still identify patients from Column G (dataDiag, dataHF) or Column F (dataMeas).
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
