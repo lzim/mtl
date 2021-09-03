@@ -66,24 +66,24 @@ output:
 - [ ] Select your VISN **______________**. 
 - [ ] On the next page, select your team's facility **______________**.  
     
-## To create a fresh data UI file, go through Steps #3-5. We will show you the steps but you already have a fresh data UI file.
+## To create a fresh data UI file, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file.
 
-### 3. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+### 2. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
  
    
-### 4. Go to the ClinicSelection tab. 
-    [ ] Use columns C-H to select the clinics that make up your team. 
-    [ ] Follow the instructions in **Box A2.**  
-    [ ] Double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
+### 3. Go to the ClinicSelection tab. 
+   [ ] Use columns C-H to select the clinics that make up your team. 
+   [ ] Follow the instructions in **Box A2.**  
+   [ ] Double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
  
-### 5. To view your team patient data and your team trends click on "Get-Patient-level Data." 
+### 4. To view your team patient data and your team trends click on "Get-Patient-level Data." 
 
 ## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
 -	It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse,  may be up to 15 minutes.
 -	**Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.
 -	**Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
 
-### 6. Click to view the "viz" tabs, which show team trends.  
+### 5. Click to view the "viz" tabs, which show team trends.  
 
     [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
     [ ] **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
@@ -98,7 +98,7 @@ output:
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
-### 7. Click to view the "data" tabs, which show your team's individual patient information.  
+### 6. Click to view the "data" tabs, which show your team's individual patient information.  
 
     [ ]  Patients with restricted access to their information have asterisks (****) in Column F & G.  
     [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
