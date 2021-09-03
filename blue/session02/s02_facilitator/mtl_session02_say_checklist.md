@@ -85,24 +85,24 @@ output:
 
 ### 5. Click to view the "viz" tabs, which show team trends.  
 
-    [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
-    [ ] **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
+   [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+   [ ] **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
-    [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
+   [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
   
-    [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
+   [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
     [Prepare in advance, but ask this as an open-ended quesiton]?  
-      [ ] **What is most surprising?**  
+   [ ] **What is most surprising?**  
     [Prepare in advance, but ask this as an open-ended quesiton]?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ### 6. Click to view the "data" tabs, which show your team's individual patient information.  
 
-    [ ]  Patients with restricted access to their information have asterisks (****) in Column F & G.  
-    [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
-    [ ] Providers can filter to find specific patients, or produce reports.
+   [ ]  Patients with restricted access to their information have asterisks (****) in Column F & G.  
+   [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+   [ ] Providers can filter to find specific patients, or produce reports.
     
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
 
@@ -113,10 +113,10 @@ Time Stamp | Team Learning Priorities | Script
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 Keep an eye on time |  |  |   
 
-    [ ] What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
-    [ ] What **viz** tab would you use to see what the most common service encounters or visits are?  
-    [ ] Are there services that have been **increasing over time?** 
-    [ ] Are there services that have been **decreasing over time?**  
+   [ ] What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
+   [ ] What **viz** tab would you use to see what the most common service encounters or visits are?  
+   [ ] Are there services that have been **increasing over time?** 
+   [ ] Are there services that have been **decreasing over time?**  
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
