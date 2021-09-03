@@ -52,56 +52,16 @@ output:
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
-### 2. Explore the facility data.
-
-- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder** in the horizontal header next the BISL logo.
-
-[![data ui login screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
-
-***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
-
-- Click through the tabs on the bottom of the Excel spreadsheet. What options are there and what do they mean? Hints:
-  - Data: Sortable report of data
-  - Diag: Diagnostic data
-  - Enc: Encounter types of visits
-  - HF: Health Factors data related to visits
-  - Meas: Measures or flag names
-  - Viz: Visualization of trends
-
-- What filtering options are available?
-  - Filter to your clinic or division to see trends for the last two years.
-
-**New for _MTL_ 2.0**
-
-- You no longer need to use only Internet Explorer or Edge to open mtl.how/data. You can use any browser.
-
-- View facility data via the "facility.xlsb" Excel sheet instead of the splash page.
-
-- vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD.
-
-- Patient SSID is no longer asterisked out in the facility data. It has been completely removed. Please go to the data UI to see Patient SSID information.
-
-### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
-
--	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
--	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
--	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
-    - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
--	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
-
-[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
-
 ### Your Team Data Folder
 
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+### 2. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
 
 - Click on the 3 dots [...] next to the data_ui file.
 - Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
 
 [![edit in excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+### 3. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
 
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: This will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
@@ -116,7 +76,7 @@ output:
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
-### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+### 4. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
 - **You already have a fresh data UI file to work with in your team data_ui folder.**
 - We will learn about the "Create Team Data Table" button in our next team meeting.
@@ -142,7 +102,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
-### 6. Click to view the "viz" tab, which show team trends.
+### 5. Click to view the "viz" tab, which show team trends.
 
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - What stands out to you?
@@ -167,7 +127,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
-### 7. Click to view the "data" tab, which show your team's individual patient information.
+### 6. Click to view the "data" tab, which show your team's individual patient information.
 
 - Patients who have requested restricted access to their information have asterisks (****) in Column F (dataDiag, dataHF) or Column E (dataMeas). If you are a VA provider, you can still identify patients from Column G (dataDiag, dataHF) or Column F (dataMeas).
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
