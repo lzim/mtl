@@ -42,5 +42,5 @@ Session 10: | [Systems Thinking](https://bcove.video/2RVMiB3)   [(TMS)](https://
 ## *Modeling to Learn* Links
 1. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team.
 2. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation.
-3. [https://mtl.how/demo](https://mtl.how/demo) - _MTL Blue_ demo simulation. 
+3. [mtl.how/demo](https://mtl.how/demo) - _MTL Blue_ demo simulation. 
 4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References.
