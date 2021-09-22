@@ -1719,7 +1719,7 @@
 			</aux>
 			<aux name="Intake_Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 7117036633120f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 3514453535531f its original value).</doc>
+				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 7116023260260f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 3513755266711f its original value).</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -2302,37 +2302,37 @@
 			</aux>
 			<aux name="Sensitivity_of_Overtime_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 4117036633120ver the original value, and a value of 1.5 would increase the hours worked to 18214453535531ver the original value.</doc>
+				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 4116023260260ver the original value, and a value of 1.5 would increase the hours worked to 18213755266711ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Patient's_Engagement_Time_to_Provider_Fatigue">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 7117036633120f the original time in service, and a value of 1.5 would reduce the duration to only 3514453535531f the original duration.</doc>
+				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 7116023260260f the original time in service, and a value of 1.5 would reduce the duration to only 3513755266711f the original duration.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 4117036633120ver its original value, and a value of 1.5 would increase the RVI by 18214453535531ver the original value.</doc>
+				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 4116023260260ver its original value, and a value of 1.5 would increase the RVI by 18213755266711ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Burnout_Due_to_Long-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 7117036633120f its original value, and a value of 1.5 would reduce the official hours to 3514453535531f the original.</doc>
+				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 7116023260260f its original value, and a value of 1.5 would reduce the official hours to 3513755266711f the original.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Missed_Appointments_Due_to_Short-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 13904gher than before. A value of "0.5" would cause that same 20 1689172825ncrease in hours worked to have less of an effect (causing only a 9.5 1614965088ncrease in the missed appointment percentage). A value of "2" would cause that same 20 64ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
+				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20 1605725641ncrease in hours worked to have less of an effect (causing only a 9.5 1592966472ncrease in the missed appointment percentage). A value of "2" would cause that same 20-775445396ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 7117036633120f the original rate, and a value of "1.5" would reduce the decisions to start to only 3514453535531f the original rate.</doc>
+				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 7116023260260f the original rate, and a value of "1.5" would reduce the decisions to start to only 3513755266711f the original rate.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -2343,7 +2343,7 @@
 			</aux>
 			<aux name="Total_Actual_Hours_Available_for_Service">
 				<units>hrs/wk</units>
-				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff7787b3650p-1022llocated to a service.</doc>
+				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff7704d60b0p-1022llocated to a service.</doc>
 					<eqn>Intake_Actual_Hours_Available_for_Service+Psych_Actual_Hours_Available_for_Service+EBPsych_Actual_Hours_Available_for_Service
 	+CC_Actual_Hours_Available_for_Service+MM_Actual_Hours_Available_for_Service+Adjunctive_Actual_Hours_Available_for_Service+Group_Actual_Hours_Available_for_Service					</eqn>
 			</aux>
@@ -2415,7 +2415,7 @@
 			</aux>
 			<aux name="User_Adjunctive_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2451,7 +2451,7 @@
 			</aux>
 			<aux name="User_CC_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2481,7 +2481,7 @@
 			</aux>
 			<aux name="User_EBPsych_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2511,7 +2511,7 @@
 			</aux>
 			<aux name="User_Group_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2541,7 +2541,7 @@
 			</aux>
 			<aux name="User_Intake_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2559,7 +2559,7 @@
 			</aux>
 			<aux name="User_MM_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2589,7 +2589,7 @@
 			</aux>
 			<aux name="User_Psych_Appointment_Supply">
 				<units>hrs/wk</units>
-				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (appt/wk)</doc>
+				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
@@ -2680,7 +2680,7 @@
 			</aux>
 			<aux name="Data_Adjunctive_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G2')					</eqn>
 			</aux>
 			<aux name="Data_Adjunctive_Engagement_Duration_(median)">
@@ -2705,7 +2705,7 @@
 			</aux>
 			<aux name="Data_Appointment_Supply_(Total)">
 				<units></units>
-				<doc>The sum of all clinical hours allocated to patient appointments. It must be less than 40 hrs/week/clinician, due to administrative duties, sick leave, annual leave, training, etc. (apts/wk)</doc>
+				<doc>The sum of all clinical hours allocated to patient appointments. It must be less than 40 hrs/week/clinician, due to administrative duties, sick leave, annual leave, training, etc. (hrs/wk)</doc>
 					<eqn>0					</eqn>
 			</aux>
 			<aux name="Data_CC__w_AUD">
@@ -2735,7 +2735,7 @@
 			</aux>
 			<aux name="Data_CC_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E2')					</eqn>
 			</aux>
 			<aux name="Data_CC_Engagement_Duration_(median)">
@@ -2785,7 +2785,7 @@
 			</aux>
 			<aux name="Data_EBPsych_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D2')					</eqn>
 			</aux>
 			<aux name="Data_EBPsych_Engagement_Duration_(median)">
@@ -2835,7 +2835,7 @@
 			</aux>
 			<aux name="Data_Group_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H2')					</eqn>
 			</aux>
 			<aux name="Data_Group_Engagement_Duration_(median)">
@@ -2860,7 +2860,7 @@
 			</aux>
 			<aux name="Data_Intake_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B2')					</eqn>
 			</aux>
 			<aux name="Data_Intake_Engagement_Duration">
@@ -2905,7 +2905,7 @@
 			</aux>
 			<aux name="Data_MM_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F2')					</eqn>
 			</aux>
 			<aux name="Data_MM_Engagement_Duration_(median)">
@@ -2960,7 +2960,7 @@
 			</aux>
 			<aux name="Data_Psych_Appointment_Supply_(median)">
 				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C2')					</eqn>
 			</aux>
 			<aux name="Data_Psych_Engagement_Duration_(median)">
