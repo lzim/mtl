@@ -131,8 +131,6 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***  
 
-00:50***  
-
     \[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]  
     
      Time Stamp | Team Learning Priorities | Script
@@ -149,6 +147,8 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 - With the team trends (viz), your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
+    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***  
+    
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.
 
 ## Done and Do (15 minutes)
