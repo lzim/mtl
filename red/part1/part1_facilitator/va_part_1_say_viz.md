@@ -16,7 +16,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "290">](#.)
 
-# MTL Red Part 1
+# MTL Red Part 1 - Visualization Tabs
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
@@ -38,7 +38,6 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 1. Describe the decisions your team made in producing your team data table.
 2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
 
@@ -132,15 +131,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
     [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***  
 
-### 6. Click to view the "data" tabs, which show your team's individual patient information.
-
-- Patients who have requested restricted access to their information have asterisks (****) in Column F (dataDiag, dataHF) or Column E (dataMeas). If you are a VA provider, you can still identify patients from Column G (dataDiag, dataHF) or Column F (dataMeas).
-
-- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
-
-- Providers can filter to find specific patients, or produce reports.  
-
-    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***  
+00:50***  
 
     \[During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\]  
     
@@ -150,15 +141,13 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
    |  |  |    
 
-- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
-
 - What **viz** tab would you use to see what the most common service encounters or visits are?  
 
 - Are there services that have been **increasing over time?**  
 
 - Are there services that have been **decreasing over time?**  
 
-- With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
+- With the team trends (viz), your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.  
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.
 
@@ -167,12 +156,12 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. |
 
 ### DO demo
 
 1. We encourage you to look around in your team data before next time.
-2. Review your individual patient data and identify team trends:
+2. [Removed data] Identify team trends:
     - Health Factors (HF)
     - Diagnoses (Diag)
     - Encounters (Enc), and
