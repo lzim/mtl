@@ -77,7 +77,7 @@ output:
 
     **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**  
 
-9. Run and then Save (without resetting). The Sim UI will automatically name your experiment. Review the name and Save. If you have a question about the abbreviations, click the "i" information next to the name.  
+9. Run and then Save (without resetting). The Sim UI will automatically name your experiment based on your experiment settings. If you did not adjust experiment settings, the SIM UI will name your experiment "bc" for base case. Review the name and Save. If you have a question about the abbreviations, click the "i" information next to the name for more information.  
 
     [![sim ui save experiments screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_save_exp.gif)](#.)  
 
