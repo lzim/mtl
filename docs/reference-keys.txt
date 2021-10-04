@@ -112,7 +112,7 @@ modeling-to-learn---technical-manual
 facilitator-technical-manual
 facilitator-cheatsheet
 facilitator-one-pager-mtl.howdata
-facilitator-dashboard
+sim-ui-facilitator-dashboard
 orientation-to-the-dashboard
 set-up-a-team
 set-up-a-facilitator-individual-team-_ind
