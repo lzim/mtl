@@ -124,7 +124,7 @@ Below is the _MTL_ Links page.
 1. When the user clicks on this graphic, they navigate to the mtl.how website.
 2. This is the text instruction.
 
-   ![mtl links page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links.png)
+   ![mtl links page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links1.png)
 
 #### Update Links
 
