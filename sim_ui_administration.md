@@ -14,9 +14,9 @@ Select the administrator login world.
 1. **Community Function Administration:**  View lists of issues reported by users from the Report Bug and Community Button, and issue outgoing email messages and targeted ANDON Alerts.
 2. **More Information Page Adminstration:** Manage images and reference links in the Information Page. Add and edit Module Section information.
 3. **Tutor Administrative Dashboard:** Manage text descriptions, video and web links for tutor prompts for each module.
-4. **_MTL_ Quick Tip Loading Screen Administration:** Add icons and desriptive text for tips that appear when _MTL_ screen are loading.
+4. **_MTL_ Quick Tip Loading Screen Administration:** Add icons and descriptive text for tips that appear when _MTL_ screen are loading.
 5. **_MTL_ Demo Webpage Administration:** Manage the _MTL_ Demo website, such as adding course codes, managing Demo user lists, and managing page content such video and reference links, text descriptions and others.
-6. **TeamPSD Webpage Admininstration:** Manage the TeamPSD website, like updating a new team memberd, or changing page content.
+6. **TeamPSD Webpage Administration:** Manage the TeamPSD website, like adding a new team member, or changing page content.
 
    ![orient to the dashboard graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/orient_admin_dash.png)
 
@@ -28,15 +28,15 @@ Select the administrator login world.
 4. Description of the issue.
 5. Click the "Export" button to download an spreadsheet file of the list.
 
-   ![community function administration - user issue list managment graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/issue_list_management.png)
-   
+   ![community function administration - user issue list management graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/issue_list_management.png)
+
 ### Review Issue Information
 
 The listing only contains a text description of the issue. Sometimes users submit files or screenshots. To view these details:
 
-1.  Click the checkbox next to the issue.
-2.  Click "See Issue" button.
-3.  Review information in the pop up.
+1. Click the checkbox next to the issue.
+2. Click "See Issue" button.
+3. Review information in the pop up.
 
    ![review issue information graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/review_issue.png)
 
@@ -44,11 +44,11 @@ The listing only contains a text description of the issue. Sometimes users submi
 
 The Sim UI sends out email and other messages to mass-communicate important information.  There are 5 types of messages.
 
-1.  **I have an idea:**  This is an outgoing email that informs the user that we have received their idea.
-2.  **I like something:** This is an outgoing email that informs the user that we have received and appreciate their message.
-3.  **Report Bug:** This is an outgoing email that informs the user that we have received their bug report and will act on it. It also returns an issue number for their reference.
-4.  **News:** Every user has a News button on their Home webpage. When clicked, it will display news items on their webpage that were set up with this function.
-5.  **Alert:** Also known as an ANDON alert, this is an outgoing message that displays on the Home webpage when the user logs in.  It can target facilitators only, users only or both.  ANDONS are normally reserved for problems where the user should stop using the Sim UI until the issue is resolved.
+1. **I have an idea:**  This is an outgoing email that informs the user that we have received their idea.
+2. **I like something:** This is an outgoing email that informs the user that we have received and appreciate their message.
+3. **Report Bug:** This is an outgoing email that informs the user that we have received their bug report and will act on it. It also returns an issue number for their reference.
+4. **News:** Every user has a News button on their Home webpage. When clicked, it will display news items on their webpage that were set up with this function.
+5. **Alert:** Also known as an ANDON alert, this is an outgoing message that displays on the Home webpage when the user logs in.  It can target facilitators only, users only or both.  ANDONS are normally reserved for problems where the user should stop using the Sim UI until the issue is resolved.
 
    ![manage outgoing messages](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/manage_out_msg.png)
 
@@ -66,7 +66,7 @@ The _MTL_ Demo website provides interested users access to a demonstration simul
 
 Navigate to [_MTL_ Demo](https://forio.com/app/va/va-psd-demo/mtl_demo.html) to view example below. To modify this webpage, click on the _MTL_ Demo icon in your Facilitator Dashboard.
 
-   ![mtl demo wegsite graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_website.png)
+   ![mtl demo website graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_website.png)
 
 ### Orient to the _MTL_ Demo Admin Webpage
 
@@ -77,6 +77,7 @@ Navigate to [_MTL_ Demo](https://forio.com/app/va/va-psd-demo/mtl_demo.html) to 
    ![orient to mtl demo admin webpage graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_orient.png)
 
 ### Update Course Code
+
 Sometimes we present _Modeling to Learn_ in seminars and other academic gatherings. To enable participants to experience _MTL_, we provide a course code that enables users to access the platform longer than the standard 14 days.
 
    ![update course code graphic overview graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code1.png)
@@ -111,19 +112,19 @@ The Tutor is a function in the Sim UI that explains functions on the webpage to 
 
 The Admin Dashboard enables you to adjust descriptive text and links associated with each Tutor call out box.  **However, the user cannot add or remove Tutor call outs.** These have to be put in using computer code. See below for a description of these features.
 
-1.  Each page in the Sim UI has Tutor call outs.  This points to the call outs on the Home Page.  Below are Tutor call out listings for CC, MM, PSY, AGG and SP modules.
-2.  This is a unique row that enables you to adjust the description below Tutor Administrative Dashboard title.  Otherwise, it is the description of the Tutor call out.
-3.  This is the section on the webpage where the Tutor call outs apply.
-4.  This is the function the Tutor is describing.
-5.  This text will show up in the Tutor call out box. To edit, simply click on the text.  Don't forget to save your changes!
-6.  When the user clicks the video button on this Tutor call out box, the computer will navigate the user to this video. To edit, simply click on the link.  Don't forget to save your changes!
-7.  When the user clicks the link button on this Tutor call out box, the computer will navigate the user to this url. To edit, simply click on the link.  Don't forget to save your changes!
+1. Each page in the Sim UI has Tutor call outs.  This points to the call outs on the Home Page.  Below are Tutor call out listings for CC, MM, PSY, AGG and SP modules.
+2. This is a unique row that enables you to adjust the description below Tutor Administrative Dashboard title.  Otherwise, it is the description of the Tutor call out.
+3. This is the section on the webpage where the Tutor call outs apply.
+4. This is the function the Tutor is describing.
+5. This text will show up in the Tutor call out box. To edit, simply click on the text.  Don't forget to save your changes!
+6. When the user clicks the video button on this Tutor call out box, the computer will navigate the user to this video. To edit, simply click on the link.  Don't forget to save your changes!
+7. When the user clicks the link button on this Tutor call out box, the computer will navigate the user to this url. To edit, simply click on the link.  Don't forget to save your changes!
 
    ![tutor administrative dashboard graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tutor_admin_page.png)
 
 ## More Information Page Administration
 
-When the user clicks the More Info icon in the their header bar, they navigate to a page that contains information about the Sim UI.  There are multple sections, _MTL_ Guides, _MTL_ Links, _MTL_ Navigation, _MTL_ Modules, _MTL_ Sections and _MTL_ References. While the sections are permanent, you can change elements inside the sections using the Administration page.
+When the user clicks the More Info icon in the their header bar, they navigate to a page that contains information about the Sim UI.  There are multiple sections, _MTL_ Guides, _MTL_ Links, _MTL_ Navigation, _MTL_ Modules, _MTL_ Sections and _MTL_ References. While the sections are permanent, you can change elements inside the sections using the Administration page.
 
 ### You Cannot Change the _MTL_ Guides or Navigation Page.
 
@@ -155,10 +156,10 @@ Below is the links and references section maintenance section of the page. You c
 
 The References section contains a bibliography that supports the research being conducted by _MTL_.  Below is a description.
 
-1.  This is the explanatory text for the bibliography entry.  Note that it has several characteristics. You can boldface or italisize using markdown language.
-2.  The text can have hyperlinks embedded using the ##Link1## code. The number immediately after "Link" indicates the position of the title of the hyperlink from the list. 
-3.  The hyperlink title then calls the url listed in order in this column slightly offscreen.
-4.  Each entry can have up to 6 hyperlinks.  To add a hyperlink, click on the "Empty" and a dialogue box will appear.  Don't forget to save!
+1. This is the explanatory text for the bibliography entry.  Note that it has several characteristics. You can boldface or italicize using markdown language.
+2. The text can have hyperlinks embedded using the ##Link1## code. The number immediately after "Link" indicates the position of the title of the hyperlink from the list.
+3. The hyperlink title then calls the url listed in order in this column slightly offscreen.
+4. Each entry can have up to 6 hyperlinks.  To add a hyperlink, click on the "Empty" and a dialogue box will appear.  Don't forget to save!
 
    ![update references graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links4.png)
 
@@ -193,26 +194,28 @@ Forio Epicenter is an enterprise platform that hosts our Sim UI and runs the sim
 
   ![navigate to veterans affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/navigate_to_vet_affairs_project.png)
   
-  #### Select End User from Menu
+#### Select End User from Menu
   
-  You can search for the user by using the search bar.
+You can search for the user by using the search bar.
 
   ![select end user graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_end_user.png)
   
-  #### Click on the Password Reset
+#### Click on the Password Reset
   
-  You can also change the password directly for the user by selecting the "Change Password" from the dropdown.
+You can also change the password directly for the user by selecting the "Change Password" from the dropdown.
 
   ![click send password reset graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_password_link.png)
 
 ### Set up A New Epicenter End User
 
 #### Navigate to A Project
+
 Note that you would navigate to various projects to set up end users in different instances of the Sim UI.  For example, you would navigate to VA Sim UI-TEST-Slow to set an end-user up in the TEST environment.
 
   ![navigate to veteran affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_prod_project.png)
 
 #### Navigate to Group Page
+
 In the Epicenter hierarchy, "groups" are the highest entity.  Underneath groups are worlds.  In TeamPSD, we refer to groups as "teams."  Typically, we auto-setup a \_team group and a \_ind group to manage team assignments and individual worlds.
 
   ![navigate to group page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_groups.png)
@@ -220,12 +223,13 @@ In the Epicenter hierarchy, "groups" are the highest entity.  Underneath groups 
 #### Select Desired Group
   
    ![select your desired group graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_desired_group.png)
-  
+
 #### Click Add End User Button
 
    ![click add end user button graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_end_users.png)
  
 #### Add User Email to Field and Click "Add/invite User" Button
+
 We usually put the user's VA email address in this field.  However, it does not have to be an email unless you are sending a notice via email to the user. Sometimes users just need an alias besides their email address.
 
    ![navigate to veteran affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_invite_user.png)
@@ -239,4 +243,3 @@ We don't set up teams directly in Epicenter anymore, because there are multiple 
 To set up an Admin, the end-user id must be assigned to the administrator_login group on the groups page.
 
    ![administrator login group graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/admin_end_user.png)
-
