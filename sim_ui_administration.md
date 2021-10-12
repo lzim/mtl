@@ -83,11 +83,23 @@ Sometimes we present _Modeling to Learn_ in seminars and other academic gatherin
 
    ![update course code detail graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code2.png)
 
-## Update Tips
+## Quick Tips
 
-When a screen loads in the Sim UI, a blank gray screen in presented.  We use this opportunity to offer suggestions or "Tips" to explain functions in the Sim UI.  We have an admin webpage to create new Tips.  Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen.
+When a screen loads in the Sim UI, a blank gray screen in presented.  We use this opportunity to offer suggestions or "Tips" to explain functions in the Sim UI.  We have an admin webpage to create new Tips.  Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen (see example below). A repository of quick tips graphics is available in [GitHub lzim/mtl](https://github.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files).
 
-**<<< GRAPHICS TO BE PUBLISHED >>>**
+**Please note that _MTL_ Demo has its own tips management admin page. To access, you must first navigate to the _MTL_ Demo admin page, THEN click the "Tips" icon. You can verify you are on the right page, because the URL will say "va-psd-sim/qtipadmin.html" if you are in PROD Tips and "va-psd-demo/qtipadmin.html" if you are in the DEMO Tips.**
+
+   ![quick tip screen example graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_screen.png)
+
+### Update a Quick Tip
+
+1. From the Administrator Dashboard, click on the "Tips" icon. The _MTL_ Quick Tip Loading Screen Administration page will open.
+2. Click the "Add Tip" button. The page will scroll to the bottom of the list and present a new row to input information.
+3. Click on the "upload" icon.  An upload file pop up will appear.  Navigate to your file and click "Save." The filename should appear immediately to the left of the upload icon and a thumbnail should appear to the right.
+4. Click on the "Empty" icon.  A text field will present.  Type in the description and click save.  You are finished!
+5. Be sure to upload the .svg graphic you used to the [GitHub repository](https://github.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files).
+
+   ![quick tip update graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_update.png)
 
 ## Tutor Function
 
