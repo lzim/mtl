@@ -1,6 +1,7 @@
 # Simulation User Interface (Sim UI) Administration
 
 ## Modeling To Learn Administrative Dashboard
+
 The _MTL_ Administrative Dashboard provides customizable information and messaging capabilities for webpages in the Sim UI.
 
 ### Login to Administrative Dashboards
@@ -227,7 +228,7 @@ In the Epicenter hierarchy, "groups" are the highest entity.  Underneath groups 
 #### Click Add End User Button
 
    ![click add end user button graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_end_users.png)
- 
+
 #### Add User Email to Field and Click "Add/invite User" Button
 
 We usually put the user's VA email address in this field.  However, it does not have to be an email unless you are sending a notice via email to the user. Sometimes users just need an alias besides their email address.
