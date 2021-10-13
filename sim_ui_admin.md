@@ -8,7 +8,7 @@ The _MTL_ Administrative Dashboard provides customizable information and messagi
 
 Select the administrator login world.
 
-   ![administrator login graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/admin_login.png)
+   ![administrator login graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/admin_login.png)
 
 ### Orient to the Dashboard
 
@@ -19,7 +19,7 @@ Select the administrator login world.
 5. **_MTL_ Demo Webpage Administration:** Manage the _MTL_ Demo website, such as adding course codes, managing Demo user lists, and managing page content such video and reference links, text descriptions and others.
 6. **TeamPSD Webpage Administration:** Manage the TeamPSD website, like adding a new team member, or changing page content.
 
-   ![orient to the dashboard graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/orient_admin_dash.png)
+   ![orient to the dashboard graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/orient_admin_dash.png)
 
 ## Community Function Administration - User Issue List Management
 
@@ -29,7 +29,7 @@ Select the administrator login world.
 4. Description of the issue.
 5. Click the "Export" button to download an spreadsheet file of the list.
 
-   ![community function administration - user issue list management graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/issue_list_management.png)
+   ![community function administration - user issue list management graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/issue_list_management.png)
 
 ### Review Issue Information
 
@@ -39,7 +39,7 @@ The listing only contains a text description of the issue. Sometimes users submi
 2. Click "See Issue" button.
 3. Review information in the pop up.
 
-   ![review issue information graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/review_issue.png)
+   ![review issue information graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/review_issue.png)
 
 ### Manage Outgoing Messages
 
@@ -51,13 +51,13 @@ The Sim UI sends out email and other messages to mass-communicate important info
 4. **News:** Every user has a News button on their Home webpage. When clicked, it will display news items on their webpage that were set up with this function.
 5. **Alert:** Also known as an ANDON alert, this is an outgoing message that displays on the Home webpage when the user logs in.  It can target facilitators only, users only or both.  ANDONS are normally reserved for problems where the user should stop using the Sim UI until the issue is resolved.
 
-   ![manage outgoing messages](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/manage_out_msg.png)
+   ![manage outgoing messages](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/manage_out_msg.png)
 
 #### Target ANDON Alert Users
 
 As explained in 5. above, you can target specific users with an ANDON Alert.  When "Alert" is selected from the Message dropdown, an additional "Show Message to Whom" will appear.  Select the target audience and click "Add Message."
 
-   ![target andon alert users graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/andon_alert.png)
+   ![target andon alert users graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/andon_alert.png)
 
 ## Manage _MTL_ Demo Website
 
@@ -67,7 +67,7 @@ The _MTL_ Demo website provides interested users access to a demonstration simul
 
 Navigate to [_MTL_ Demo](https://forio.com/app/va/va-psd-demo/mtl_demo.html) to view example below. To modify this webpage, click on the _MTL_ Demo icon in your Facilitator Dashboard.
 
-   ![mtl demo website graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_website.png)
+   ![mtl demo website graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_website.png)
 
 ### Orient to the _MTL_ Demo Admin Webpage
 
@@ -75,23 +75,24 @@ Navigate to [_MTL_ Demo](https://forio.com/app/va/va-psd-demo/mtl_demo.html) to 
 2. Resource Management section manages the information contained on the _MTL_ website. The sections supported are Run, Videos, Slides, Papers and Funding.
 3. MTL Demo - Slider section is where the GIF slider files are uploaded.
 
-   ![orient to mtl demo admin webpage graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_orient.png)
+   ![orient to mtl demo admin webpage graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_orient.png)
 
 ### Update Course Code
 
 Sometimes we present _Modeling to Learn_ in seminars and other academic gatherings. To enable participants to experience _MTL_, we provide a course code that enables users to access the platform longer than the standard 14 days.
 
-   ![update course code graphic overview graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code1.png)
+   ![update course code graphic overview graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code1.png)
 
-   ![update course code detail graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code2.png)
+   ![update course code detail graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code2.png)
 
 ## Quick Tips
 
-When a screen loads in the Sim UI, a blank gray screen in presented.  We use this opportunity to offer suggestions or "Tips" to explain functions in the Sim UI.  We have an admin webpage to create new Tips.  Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen (see example below). A repository of quick tips graphics is available in [GitHub lzim/mtl](https://github.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files).
+When a screen loads in the Sim UI, a blank gray screen in presented.  We use this opportunity to offer suggestions or "Tips" to explain functions in the Sim UI.  We have an admin webpage to create new Tips.  Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen (see example below). A repository of quick tips graphics is available in [GitHub lzim/mtl](https://raw.githubusercontent.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files).
 
-**Please note that _MTL_ Demo has its own tips management admin page. To access, you must first navigate to the _MTL_ Demo admin page, THEN click the "Tips" icon. You can verify you are on the right page, because the URL will say "va-psd-sim/qtipadmin.html" if you are in PROD Tips and "va-psd-demo/qtipadmin.html" if you are in the DEMO Tips.**
+**Please note that _MTL_ Demo has its own tips management admin page.**
+**To access, you must first navigate to the _MTL_ Demo admin page, THEN click the "Tips" icon. You can verify you are on the right page, because the URL will say "va-psd-sim/qtipadmin.html" if you are in PROD Tips and "va-psd-demo/qtipadmin.html" if you are in the DEMO Tips.**
 
-   ![quick tip screen example graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_screen.png)
+   ![quick tip screen example graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_screen.png)
 
 ### Update a Quick Tip
 
@@ -101,13 +102,13 @@ When a screen loads in the Sim UI, a blank gray screen in presented.  We use thi
 4. Click on the "Empty" icon.  A text field will present.  Type in the description and click save.  You are finished!
 5. Be sure to upload the .svg graphic you used to the [GitHub repository](https://github.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files).
 
-   ![quick tip update graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_update.png)
+   ![quick tip update graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_update.png)
 
 ## Tutor Function
 
 The Tutor is a function in the Sim UI that explains functions on the webpage to the user. Each section on the Home, CC, MM, PSY, AGG, and SP pages have a Tutor icon.
 
-   ![tutor function graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tutor_desc.png)
+   ![tutor function graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tutor_desc.png)
 
 ### Tutor Administrative Dashboard
 
@@ -121,7 +122,7 @@ The Admin Dashboard enables you to adjust descriptive text and links associated 
 6. When the user clicks the video button on this Tutor call out box, the computer will navigate the user to this video. To edit, simply click on the link.  Don't forget to save your changes!
 7. When the user clicks the link button on this Tutor call out box, the computer will navigate the user to this url. To edit, simply click on the link.  Don't forget to save your changes!
 
-   ![tutor administrative dashboard graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tutor_admin_page.png)
+   ![tutor administrative dashboard graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_tutor_admin_page.png)
 
 ## More Information Page Administration
 
@@ -129,7 +130,7 @@ When the user clicks the More Info icon in the their header bar, they navigate t
 
 ### You Cannot Change the _MTL_ Guides or Navigation Page.
 
-   ![you cannot change mtl guides or navigation page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfor_guides.png)
+   ![you cannot change mtl guides or navigation page graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfor_guides.png)
 
 ### _MTL_ Links Page
 
@@ -138,7 +139,7 @@ Below is the _MTL_ Links page.
 1. When the user clicks on this graphic, they navigate to the mtl.how website.
 2. This is the text instruction.
 
-   ![mtl links page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links1.png)
+   ![mtl links page graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links1.png)
 
 #### Update Links
 
@@ -151,7 +152,7 @@ Below is the links and references section maintenance section of the page. You c
 5. The explanatory text for the graphic is shown here.
 6. Slightly offscreen is where the url for the graphic goes.
 
-   ![update links graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links2.png)
+   ![update links graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links2.png)
 
 #### Update References
 
@@ -162,19 +163,19 @@ The References section contains a bibliography that supports the research being 
 3. The hyperlink title then calls the url listed in order in this column slightly offscreen.
 4. Each entry can have up to 6 hyperlinks.  To add a hyperlink, click on the "Empty" and a dialogue box will appear.  Don't forget to save!
 
-   ![update references graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links4.png)
+   ![update references graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links4.png)
 
 #### Add a References or Links Row
 
 To add a row to the Links section, click the dropdown and select "Links."
 
-   ![add a references or links row graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links3.png)
+   ![add a references or links row graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links3.png)
 
 ### _MTL_ Modules Page
 
 The illustration below shows a table with a listing of the modules offered in _MTL_. In case we add more modules, it is possible to expand this list.
 
-   ![mtl modules page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_modules.png)
+   ![mtl modules page graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_modules.png)
 
 #### Update or Add Module Information
 
@@ -185,7 +186,7 @@ The illustration below shows a table with a listing of the modules offered in _M
 5. These describe the layers or complexity reveals in the module. Click to modify. Use markdown to emphasize boldface, italics and add bullets.
 6. These are the experimental controls available in the module. Click to modify. Use markdown to emphasize boldface, italics and add bullets.
 
-   ![update or add module information graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_module1.png)
+   ![update or add module information graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_module1.png)
 
 ## Forio Epicenter
 
@@ -193,19 +194,19 @@ Forio Epicenter is an enterprise platform that hosts our Sim UI and runs the sim
 
 ### Send Password Reset to End User
 
-  ![navigate to veterans affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/navigate_to_vet_affairs_project.png)
+  ![navigate to veterans affairs project graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/navigate_to_vet_affairs_project.png)
   
 #### Select End User from Menu
   
 You can search for the user by using the search bar.
 
-  ![select end user graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_end_user.png)
+  ![select end user graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_end_user.png)
   
 #### Click on the Password Reset
   
 You can also change the password directly for the user by selecting the "Change Password" from the dropdown.
 
-  ![click send password reset graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_password_link.png)
+  ![click send password reset graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_password_link.png)
 
 ### Set up A New Epicenter End User
 
@@ -213,36 +214,36 @@ You can also change the password directly for the user by selecting the "Change 
 
 Note that you would navigate to various projects to set up end users in different instances of the Sim UI.  For example, you would navigate to VA Sim UI-TEST-Slow to set an end-user up in the TEST environment.
 
-  ![navigate to veteran affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_prod_project.png)
+  ![navigate to veteran affairs project graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_prod_project.png)
 
 #### Navigate to Group Page
 
 In the Epicenter hierarchy, "groups" are the highest entity.  Underneath groups are worlds.  In TeamPSD, we refer to groups as "teams."  Typically, we auto-setup a \_team group and a \_ind group to manage team assignments and individual worlds.
 
-  ![navigate to group page graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_groups.png)
+  ![navigate to group page graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/click_groups.png)
 
 #### Select Desired Group
   
-   ![select your desired group graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_desired_group.png)
+   ![select your desired group graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/select_desired_group.png)
 
 #### Click Add End User Button
 
-   ![click add end user button graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_end_users.png)
+   ![click add end user button graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_end_users.png)
 
 #### Add User Email to Field and Click "Add/invite User" Button
 
 We usually put the user's VA email address in this field.  However, it does not have to be an email unless you are sending a notice via email to the user. Sometimes users just need an alias besides their email address.
 
-   ![navigate to veteran affairs project graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_invite_user.png)
+   ![navigate to veteran affairs project graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/add_invite_user.png)
 
 ### Set up a team
 
-We don't set up teams directly in Epicenter anymore, because there are multiple dependencies in the Sim UI that would be bypassed. See chapter on  [Facilitator Dashboard](https://github.com/lzim/mtl/edit/feature-gh-pages_sim_ui_admin/faciltator_dashboard.md).
+We don't set up teams directly in Epicenter anymore, because there are multiple dependencies in the Sim UI that would be bypassed. See chapter on  [Facilitator Dashboard](https://raw.githubusercontent.com/lzim/mtl/edit/feature-gh-pages_sim_ui_admin/faciltator_dashboard.md).
 
 ### Set up an Admin
 
 To set up an Admin, the end-user id must be assigned to the administrator_login group on the groups page.
 
-   ![administrator login group graphic](https://github.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/admin_end_user.png)
+   ![administrator login group graphic](https://raw.githubusercontent.com/lzim/mtl/blob/feature-gh-pages_sim_ui_admin/images/admin_end_user.png)
    
    
