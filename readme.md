@@ -40,7 +40,7 @@ Session 10: | [Systems Thinking](https://bcove.video/2RVMiB3)   [(TMS)](https://
 - **Session 12:** [Team Plan](https://bcove.video/38xrxBz) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41484%26componentTypeID%3dVA%26revisionDate%3d1586286840000%26fromSF%3dY&company=VAHCM03))
 
 ## *Modeling to Learn* Links
-1. [mtl.how/manual](https://www.mtl.how/manual) - _Modeling to Learn_ Manual covering Leaner, Facilitator, & Admin resources.
+1. [mtl.how/manual](https://www.mtl.how/manual) - _Modeling to Learn_ Manual covering Learner, Facilitator, & Admin resources.
 2. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team.
 3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation.
 4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References.
