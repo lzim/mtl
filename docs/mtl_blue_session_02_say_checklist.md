@@ -14,17 +14,19 @@
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 **Learning Objectives for Session 2**
+
 1. Describe the decisions your team made in producing your team data.
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
 
-### Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.
+**Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.**
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 
 **Participatory Learning from Simulation**
+
 - [ ] Graphic: how *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
@@ -41,6 +43,7 @@
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 **1. On any browser, navigate to mtl.how/data.**
+
 - [ ] Explain the Business Intelligence Service Line (or BISL) -- VA’s corporate data warehouse site.
 	- You must have your PIV engaged to access the site.
 - *Reminder:* BISL site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  

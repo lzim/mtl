@@ -15,6 +15,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **Emphasize team priority with the learning objectives on the screen**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:05-00:10** 
+
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) 
 
 **Learning Objectives for Session 8**
@@ -49,10 +50,12 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:25-00:35  - Team Priority**__________________
 
 - [ ] Example **experiment 1 hypothesis,** using specific **variables** and **values**: "If we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will ___________." 
+
 - [ ] Set all other **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sensitivity sliders**, which start with a default middle value of **"1"**.
 
 **Run experiment 1**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:35-00:40  - Team Priority**__________________
+
 - [ ] Hit the **Green Run Button**!
 - [ ] Go to the **Expanded Outputs** section and **Save** (without resetting) our run. 
 
