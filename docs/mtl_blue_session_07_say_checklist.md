@@ -11,7 +11,6 @@
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) Do: We will run a "bc" simulation and review the impact of **making no new decisions** on ________________ in the MTL sim UI Outputs section.
 
 **Emphasize team priority with the learning objectives on the screen **
-
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#.) 
 
 **Learning Objectives for Session 7**

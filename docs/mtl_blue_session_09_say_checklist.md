@@ -13,7 +13,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 **Emphasize team priority with the learning objectives on the screen**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:05-00:10** 
-
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#DontClick) 
 
 **Learning Objectives for Session 9**

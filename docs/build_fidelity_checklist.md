@@ -1,4 +1,5 @@
-## _MTL_ Build Fidelity Checklist Sessions 5-8  (short-form)
+## _MTL_ Partner Fidelity Checklist Sessions 1-4  (short-form)
+
 
 ### Track the below session details and Section A at mtl.how/fidelity
 
@@ -21,7 +22,7 @@ Rater: _______________________________________
 
 We achieved _________ (0-100%) of our time stamp marks as planned when we prioritized and practiced during our intersession prep.
 
-**3. How did the co-facilitation model go? **
+**3. How did the co-facilitation model go?**
 
 **Use the following Likert Scale for the Responses below**
 - [ ] 5 Strongly Agree 
@@ -30,46 +31,34 @@ We achieved _________ (0-100%) of our time stamp marks as planned when we priori
 - [ ] 2 Disagree 
 - [ ] 1 Strongly Disagree
 
-**Sessions 5-8 - Rate the following 4 items.** 
-- [ ] 1. This project emphasizes what is important to our (this) team.
-- [ ] 2. We sought to support our existing capacities to best use local team resources and make local decisions.
-- [ ] 3. Even though we did not have total agreement, we did reach a kind of consensus that our (this) team all accepts.
-- [ ] 4. We are supporting shared team decision-making in this project.
+**Sessions 1-4 - Rate the following 5 items.** 
+- [ ] 1. We were clear about the purposes or goals of this improvement effort.
+- [ ] 2. We recognized the need to partner to create change and improvement.
+- [ ] 3. We made VHA data resources in this effort transparent. 
+- [ ] 4. We facilitated greater understanding and local team control over use of VHA data.
+- [ ] 5. Our (this) team has a clear and shared understanding of the problems we are trying to address.
 
 ### B. Intersession checklist prioritizing Post-session Checklist items 6, 7 & 9 (short-form)
 
 **6. What is the team's guiding question and hypotheses? (what are they testing?)**
 
-**BUILD & APPLY (s5-s8) Intersession Checklist Priorities**
+**PARTNER (s1-4) Intersession Checklist Priorities**
 
-_CONSIDER THESE QUESTIONS_
-- **NEED: Current working conceptualization of this team's need based on the 4 priorities below?**  _______________________________________
+CONSIDER THESE QUESTIONS
 
-- **DIFFERENTIATE: I need to rule in  _______________________________________ or rule out  _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).**
+NEED: Current working conceptualization of this team's need based on the 4 priorities below? _______________________________________
 
-- **My GOAL for this session is that the team will document the following Q/H/F/D by end of the session.**
+DIFFERENTIATE: I need to rule in _______________________________________ or rule out _______________________________________ during this session to refine my conceptualization and prepare for the next session (based on growing consensus and capacity building with this team).
 
-**Question: _______________________________________** 
+My GOAL for this session is to document the following themes and differential questions related to the teams need by end of the session.
 
-**Hypothesis: _______________________________________** 
+1. Specific themes the team brought up when visioning during session 1. _______________________________________
 
-**Findings: _______________________________________** 
+2. Specific values in the team data table (sessions 2 and 3) that reveal the team's highest priority need: _______________________________________
 
-**Decisions: _______________________________________** 
+3. Prioritized data-related frequently asked questions (FAQs) related  to the team's highest priority need: _______________________________________
 
-1. Specific values from the Team Data table (sessions 2,3 & 5) that are guiding the in-session work to address the team's highest priority need. _______________________________________
-
-2. Complexity reveal (causal loop) most relevant to the team's highest priority need is: _______________________________________
-
-3. Specific value adjustments you expect will be helpful for the team to experiment with related to their highest priority need: _______________________________________ 
-
-**Experiment (Session)** | **Variable(s) & Value(s) in BC** | **Variable(s) and Value Adjustment(s) in Experiment**
--- | -- | -- 
-**Exp 1 (s8)** | _______________________________________ | _______________________________________  
-**Exp 2 (s9)** | _______________________________________  | _______________________________________ 
-**Exp 3 (s10)** | _______________________________________  | _______________________________________ 
-
-4. Output charts (system behaviors) you're going to check and discuss as a team in relation to their team's highest priority need: _______________________________________
+4. Synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions. _______________________________________
 
 
 **7. Facilitator needs/questions - Select and briefly describe the training need or question. Rank to prioritize your facilitator need/question for group supervision.**
@@ -100,65 +89,51 @@ _CONSIDER THESE QUESTIONS_
 - [ ] ___ post-session _______________________________________
 
 
-**Sessions 5-8 - _**BUILD** capacity for participatory learning from simulation using team q/h/f/d.**
-_Participatory Learning + Systems Thinking Emphasized:_
+**Sessions 1-4** -_**PARTNER** **to identify and validate the team's highest priority learning need now.**
 
-**SEE guide** 
+_Participatory Learning Emphasized:_
 
-- [ ] ___ session 5 _______________________________________
+**SEE guide**
 
-- [ ] ___ session 6 _______________________________________
+- [ ] ___ session 1 _______________________________________
 
-- [ ] ___ session 7 _______________________________________
+- [ ] ___ session 2 _______________________________________
 
-- [ ] ___ session 8 _______________________________________
+- [ ] ___ session 3 _______________________________________
 
-
-**SAY guide** 
-
-- [ ] ___ session 5 _______________________________________
-
-- [ ] ___ session 6 _______________________________________
-
-- [ ] ___ session 7 _______________________________________
-
-- [ ] ___ session 8 _______________________________________
+- [ ] ___ session 4 _______________________________________
 
 
-##### MODULE Which module are you working with? 
-- [ ] ___ CC ______________________________________
+**mtl.how/data**  
 
-- [ ] ___ MM _______________________________________
+- [ ] ___ facility data _______________________________________
 
-- [ ] ___ PSY _______________________________________
+- [ ] ___ data UI _______________________________________
 
-- [ ] ___ AGG _______________________________________
-
-- [ ] ___ SP _______________________________________
-
+- [ ] ___ team data table _______________________________________
+- [ ] 
 
 **9. Team Decisions session by session - Check off the decisions made during the session and track team decision details in the blank.**
 
-**s5**
-- [ ] Logged in and uploaded our team data table to the sim UI _______________________________________
-- [ ] Reviewed our team data in the Experiments Section. _______________________________________
-- [ ] Checked the "i" information available in the sim UI Model Diagram and Experiments section. _______________________________________
+**s1**
+- [ ] Team Vision _______________________________________
+- [ ] Team Lead _______________________________________
+- [ ] Standing team meeting time _______________________________________
+- [ ] Logged in to mtl.how/data to look at the facility data _______________________________________
 
-**s6**
-- [ ] Logged in and reviewed the systems story in the main sim section. _______________________________________
-- [ ] Entered question text. _______________________________________
-- [ ] Logged into our individual world and entered question and hypothesis text. _______________________________________
+**s2**
+- [ ] Selected the clinics that make up our team for the data UI _______________________________________
+- [ ] Reviewed the HF, Diag, Enc and SP tabs in data UI to find a patient (zoom in) and find a team trend (zoom out). _______________________________________
+- [ ] Logged in to mtl.how/data and looked at the two team folders: data UI and team data table. _______________________________________ 
 
-**s7**
-- [ ] Entered question, hypothesis, finding and decisions for base case. _______________________________________
-- [ ] Logged into mtl.how/sim and explored the expanded outputs dashboard for the basecase. _______________________________________
-- [ ] Used the worksheet to prepare for experiment 1. _______________________________________
+**s3**
+- [ ] Produced team data table for the sim UI. _______________________________________
+- [ ] Prioritized data for review in the team data table. _______________________________________
 
-**s8**
-- [ ] Team Lead ran Experiment 1. _______________________________________
-- [ ] Team reviewed Expanded Outputs section to compare the basecase and experiment 1. _______________________________________
-- [ ] Continued to explore the basecase and experiment 1 to prepare for experiment 2 at the next team meeting by drafting a dynamic hypothesis using the worksheet. _______________________________________
-
+**s4**
+- [ ] Completed the mtl.how/menu to prioritize our needs. _______________________________________
+- [ ] Selected an MTL simulation module. _______________________________________
+- [ ] Checked to make sure we could log in to the sim UI at mtl.how/sim. _______________________________________
 
 ### C. Post-Session Debriefing checklist item 8 - Track Issues
 

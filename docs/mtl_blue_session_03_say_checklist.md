@@ -16,7 +16,6 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
 
 **Learning Objectives for Session 3**
-
 1. Describe your team trends over the last two years based on the estimates in the team data table.
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
@@ -31,7 +30,6 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 
 
 **1. Navigate to the data UI at mtl.how/data. **
-
 - [ ] Data UI on VA's secure SharePoint site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
 - [ ] Scroll down to see your team folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.  
@@ -75,7 +73,6 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:35-00:45 – Select and review a second *MTL* Module**  
 
 **4. Let’s select a second module for review.  **
-
 - [ ] Again, check out the last 2 columns, to the right of the numerical data.  
 - [ ] Find a variable important to the team. How is it estimated in this table? What are its units?   
 - [ ] Where can you find even more detailed information about your team data? Click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, CPT codes used, and patient engagement patterns (PSY module).  
@@ -99,10 +96,9 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu to prioritize your needs. Responses are confidential.  
 
 **DO demo**
-
-- Encourage team members to look around in the team data table before next time. 
-- Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
-- The username is yout VA email. It will take about 5 minutes. 
-- Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
+-	Encourage team members to look around in the team data table before next time. 
+-	Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
+-	The username is yout VA email. It will take about 5 minutes. 
+-	Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
 
 **Until next time, thank you for *Modeling to Learn*!**

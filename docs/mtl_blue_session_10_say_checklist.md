@@ -12,7 +12,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 **Emphasize team priority with the learning objectives on the screen**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:05-00:10** 
-
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](#DontClick) 
 **Learning Objectives for Session 10**
 
@@ -80,7 +79,6 @@ _The advantage of starting **session 10** at the end of the Experiment 2 run in 
 - [ ] Model for the team, and highlight the C.F.B.T. systems thinking concepts and add explanations in q/h/f/d text boxes.
 - [ ] Dominant causal feedback that produces the system behaviors _______________ 
 - [ ] Highest leverage (high yield) decisions that are most clinically feasible for the team to implement in their care _______________
-
 - [ ] **Enter Decisions Text** to reflect **new practice decisions the team would like to consider next** and then click **Save** to save the text edits for Experiment 3.
 
 **Have Team Lead pull up the session 10 SEE guide Done/Do review.**

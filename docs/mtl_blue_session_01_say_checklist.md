@@ -19,7 +19,6 @@
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 **Learning Objectives**
-
 1. Describe your own vision for what you would like your team to get from *Modeling to Learn*.
 2. Test out your thinking with your team about what your shared vision is for becoming a "dream team."
 3. Identify a shared team vision for learning from Modeling to Learn.

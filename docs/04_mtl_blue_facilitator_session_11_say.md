@@ -1,4 +1,4 @@
-### Session 11 Say Guide
+## Session 11 Say Guide
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
      height = "175" width = "420">](#DontLink)

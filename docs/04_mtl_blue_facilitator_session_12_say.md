@@ -1,4 +1,4 @@
-### Session 12 Say Guide
+## Session 12 Say Guide
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
 height = "175" width = "420">](#DontLink)

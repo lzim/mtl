@@ -13,7 +13,6 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick) 
 
 **Learning Objectives for Session 4**
-
 1. Describe the high priority needs reported across the team.  
 2. Test out how these needs are experienced across the team through team dialogue.  
 3. Consider the team vision and apply team decision-making to select a high-priority module of *MTL*.  
@@ -22,7 +21,6 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:25 – Complete *MTL* Menu**  
 
 **1. Complete the *MTL Menu*.**
-
 - [ ] If you have not already done so, navigate to mtl.how/menu and complete the form. It will take about 5 minutes.
     - Please use Chrome or Edge for the best experience.
     - Your username is your VA email.
@@ -32,17 +30,14 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:40 – Review *MTL* Menu Results**  
 
 **2. Review the team's results with your team.** 
-
 - [ ] What stands out to you? *[Lead discussion; take notes.]*  
 
 **3. Look for areas of consensus among the team.**
-
 - [ ] What does the team agree about?  Where are there areas of high consensus?   
 - [ ] Decide which Menu results reinforce consensus, based on relevance to the team's priority needs and ability to assist us with our differential. 
     - Should be related to charts shown in Session 3  
   
 **4. Discuss items in which team members varied a lot in their rankings.**  
-
 - [ ] Decide which Menu results to show to discuss divergence. 
     - Should be related to charts shown in Session 3.  
 - [ ] Where does the team have more variable or divergent perspectives?  
@@ -50,7 +45,6 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:40-00:50 – Identify team priority and *MTL* Module**
 
 **5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn***
-
 - [ ] What is the highest priority need for your team now?
 - [ ] Discuss which _Modeling to Learn_ module best addresses the team need. *[Recap the highest priority need, recommended module, and why.]*  
 - [ ] Give overview of  5 _MTL_ modules available for teams to focus on in sessions 5 through 10:  
@@ -69,7 +63,6 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim.  
 
 **DO demo**
-
 - [ ] Note use of the _Modeling to Learn_ Simulation User Interface, or sim UI, for sessions 5 to 10.
 - [ ]  All _MTL_ resources can be accessed from your home base at mtl.how  
 - [ ] The sim UI does not work on the Internet Explorer, please use any of the other available browsers such as Edge, Chrome, FireFox, or Safari via desktop or mobile.
