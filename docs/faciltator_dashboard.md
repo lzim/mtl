@@ -86,11 +86,11 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - The upload routine must update multiple GitHub repositories and Epicenter, which may take a few minutes. If the file does not appear, try clicking the "Refresh" button.
 - **Do not attempt to upload Team Data file directly to Epicenter,** since the GitHub repository will overwrite the files on the next update and they will not work when you try to access them from the Sim UI.
    
-## tt Admin
+## Produce team_time report
 
-This section explains how to use the Facilitator Dashboard to set up and manage tt reports.
+This section explains how to use the Facilitator Dashboard to set up and manage team time (tt) reports.
 
-### Set up a Blue - tt report
+### Set up a Blue TT Report
    
 - The tt Reports popup allows you to select your team, select experiments to display and the specific charts you want to display in the report.
 - For the Psychotherapy Module, Sankey charts are displayed by default.
@@ -98,19 +98,35 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 - A team can have only **one** module at a time displayed on the tt report.
 - If you choose a different module, it will re-render the tt report page to the selected module.
 
+1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
+    
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
-1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
-
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_module.png?raw=true">
-
-2. Select your team and the module they are using.  Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments.  The experiments will appear in the Display list.  Click again if you want to remove the experiment from the list. If you are changing experiments only, be sure to scroll down and click and click the Save button. **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** You can select up to 10 experiments for comparison.
+2. Select your team and the module they are using.
+    
+    - If you are producing the last tt report, check the tt3 box.
+    
+![image](https://user-images.githubusercontent.com/59668647/138796745-2e335b2c-bb6c-421c-9ac7-5bb78492d283.png)
+    
+3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments.  The experiments will appear in the Display list.  Click again if you want to remove the experiment from the list. If you are changing experiments only, be sure to scroll down and click and click the Save button. 
+    
+    - **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** 
+    - You can select up to 10 experiments for comparison.
    
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_charts.png?raw=true">
+![image](https://user-images.githubusercontent.com/59668647/138796552-8ece2684-7b06-4bb2-bc27-d333ffb9ad60.png)
 
-3. Scroll down.  Click checkbox to select chart.  The charts will appear on the Display list. Click again if you want to remove the chart from the list. **The charts will display in order of appearance on the list in the tt report.** Click Save when done.
+3. Under Select Reports, check the boxes of charts you want to display. Selected charts will appear on the Display list to the right. Click Save when done.
+    
+    - **The charts will display in order of appearance on the list in the tt report.** Click Save when done.
+    
+4. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
+    
+    - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-### Set up a NIH-Red tt Report
+![image](https://user-images.githubusercontent.com/59668647/138797488-5edee1a4-5356-470a-9826-77eaf4f18248.png)
+![image](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
+
+### Set up a Red TT Report
    
 - The NIH-Red tt report only contains team data. **Do not select charts to display.**
 - Team data cannot be read directly, it must be converted to an experiment.
@@ -144,6 +160,12 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/tt_reports_done.png?raw=true">
    
 9. Scroll down and click Save.
+    
+10. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
+    - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
+
+![image](https://user-images.githubusercontent.com/59668647/138797488-5edee1a4-5356-470a-9826-77eaf4f18248.png)
+![image](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
 
 ## Team
    

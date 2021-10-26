@@ -1,4 +1,4 @@
-modeling-to-learn-manual
+modeling-to-learnhttpsmtl.how-manual
 introduction---modeling-to-learn-manual
 mtl-blue-vs.-red-map
 mtl-is-a-partnership.
@@ -117,9 +117,9 @@ orientation-to-the-dashboard
 set-up-a-team
 set-up-a-facilitator-individual-team-_ind
 manage-team-data
-tt-admin
-set-up-a-blue---tt-report
-set-up-a-nih-red-tt-report
+produce-team_time-report
+set-up-a-blue-tt-report
+set-up-a-red-tt-report
 team
 set-up-a-private-conversation
 set-up-an-open-team-discussion
