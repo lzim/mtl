@@ -100,11 +100,13 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
     
+    - TT 1 Report: If you are producing the 1st tt report, skip to step 5 by signing into [mtl.how/menu](https://mtl.how/menu).
+    
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
 2. Select your team and the module they are using.
     
-    - If you are producing the last tt report, check the tt3 box.
+    - TT 3 Report: If you are producing the last tt report, check the tt3 box.
     
 ![](https://user-images.githubusercontent.com/59668647/138796745-2e335b2c-bb6c-421c-9ac7-5bb78492d283.png)
     
