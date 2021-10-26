@@ -106,25 +106,27 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
     
     - If you are producing the last tt report, check the tt3 box.
     
-![image](https://user-images.githubusercontent.com/59668647/138796745-2e335b2c-bb6c-421c-9ac7-5bb78492d283.png)
+![](https://user-images.githubusercontent.com/59668647/138796745-2e335b2c-bb6c-421c-9ac7-5bb78492d283.png)
     
-3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select desired experiments.  The experiments will appear in the Display list.  Click again if you want to remove the experiment from the list. If you are changing experiments only, be sure to scroll down and click and click the Save button. 
+3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select your desired experiments. Checked experiments will appear in the Display list. If you are changing experiments only, be sure to scroll down and click and click the Save button. 
     
     - **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** 
     - You can select up to 10 experiments for comparison.
    
-![image](https://user-images.githubusercontent.com/59668647/138796552-8ece2684-7b06-4bb2-bc27-d333ffb9ad60.png)
+![](https://user-images.githubusercontent.com/59668647/138796552-8ece2684-7b06-4bb2-bc27-d333ffb9ad60.png)
 
-3. Under Select Reports, check the boxes of charts you want to display. Selected charts will appear on the Display list to the right. Click Save when done.
+4. Under Select Reports, check the boxes of charts you want to display. Selected charts will appear on the Display list to the right. Click Save when done.
     
-    - **The charts will display in order of appearance on the list in the tt report.** Click Save when done.
-    
-4. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
+    - **The charts will display in order of appearance on the list in the tt report.**
+
+    ![](https://user-images.githubusercontent.com/59668647/138799088-ae946e6f-4078-453b-859c-6b100837acee.png)
+
+5. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
     
     - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-![image](https://user-images.githubusercontent.com/59668647/138797488-5edee1a4-5356-470a-9826-77eaf4f18248.png)
-![image](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
+![](https://user-images.githubusercontent.com/59668647/138799246-53eff753-4aa0-42b9-ac46-ed8c8cda8909.png)
+![](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
 
 ### Set up a Red TT Report
    
