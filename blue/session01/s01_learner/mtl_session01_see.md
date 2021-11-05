@@ -87,7 +87,7 @@ d. Can we address them all (bearing in mind our resources and time)?
 
 e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (10 minutes)
+### 5. Putting it Together (5 minutes)
 
 Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
@@ -101,7 +101,33 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision and a Team Lead
+### 6. Select the Team Vision and a Team Lead (5 minutes)
+
+- To wrap up, let's home in on our Team Vision
+
+  a. You can further word-smith the Team Vision after the session if you want.
+  
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
+  
+- Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
+
+  1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+
+  3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+
+    - Ideal characteristics of the Team Lead include:
+
+       - Having strong relationships with fellow team members;
+
+       - Being organized;
+
+       - Having basic computer knowledge (some Excel experience is good);
+
+       - Attention to detail; and
+
+       - Commitment to process improvement and the use of data to improve care.
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
