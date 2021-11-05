@@ -104,7 +104,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
   e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (10 minutes)  
+### 5. Putting it Together (5 minutes)  
 
 - Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:
 
@@ -118,7 +118,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision and a Team Lead
+### 6. Select the Team Vision and a Team Lead (5 minutes)
 
 - To wrap up, let's home in on our Team Vision
 
