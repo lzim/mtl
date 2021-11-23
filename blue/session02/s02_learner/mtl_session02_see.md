@@ -27,7 +27,7 @@ output:
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI.  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI [NEED TO UPDATE].  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -46,47 +46,43 @@ output:
 
 ## *MTL* on BISL
 
-### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
+### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility. [NEED TO UPDATE FOR PBI]
 
 [![Data UI Login Screen Cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
 
-****_MTL_ 2.5.
+**_MTL_ 2.5.
 
 **For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
 
-### Your Team Data Folder
+### Your Team Data 
 
-### 2. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
-
-- Click on the 3 dots [...] next to the data_ui file.
-- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
-
-[![edit in excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
-
-### 3. Go to the ClinicSelection tab. Use the columns to select the clinics that make up your team.
+### 2. Go to the ClinicSelection tab in Power BI. Use the columns to select the clinics that make up your team.
 
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
 - Note: Leaving the "Is Inactive" column blank will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive?" column, check "No" and click "Apply."
 - After making all your selections, click the "Apply" button.
-- To unselect an individual Division, Physical Location, etc, double click the selected box.
-- To clear all selected choices, hover in the upper right hand corner of the column and click on the 'Eraser' icon.
-![image](https://user-images.githubusercontent.com/89947989/143032726-d617a5e6-3f36-4d99-9ac3-ee2a333aa763.png)
 
-****_MTL_ 2.5.
-WHAT IS THE SHORTCUT FOR MTL2.5 FOR THIS?
-In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
+[INSERT GIF OF CLINIC SELECTIONS]
+
+**Note: Unselecting**
+- To unselect an individual Division, Physical Location, etc, double click the selected box.
+- To clear all selected choices, hover in the upper right hand corner of the column and click on the 'Eraser' icon, shown highlighted below.
+![image](https://user-images.githubusercontent.com/89947989/143032726-d617a5e6-3f36-4d99-9ac3-ee2a333aa763.png)
 
 **For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
 
-### 4. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
-
-- **You already have a fresh data UI file to work with in your team data_ui folder.**
-- We will learn about the "Create Team Data Table" button in our next team meeting.
+### 3. Viewing your Team Data. 
+- Clicking "Apply" pulls your Patient Level Data. 
+- (We will not do this in-session today. - CLARIFY)
+- Navigate to the "Data" tabs (shown below) to view this data. We will work more with this data in Session 3. 
+CLARIFY THIS IS STILL CORRECT:
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet link to access verification).
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA.
    To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
+
+![image](https://user-images.githubusercontent.com/89947989/143135541-75d24fe7-d636-406e-aeee-5f867ed90c0b.png)
 
 **Note for _MTL_ 2.5** The **Filter** Feature  
 - In order to find filters: Navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
@@ -96,12 +92,6 @@ In the future, if you want to quickly get the same list of clinics again, you ca
 - "Filters and slicers affecting this visual" means filters are active. 
 
 **For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
-
-[![create team data folder graphic](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/create_team_data_folder.png)](#DontLink)
-
-
-
-[![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
 
 **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
@@ -114,16 +104,10 @@ In the future, if you want to quickly get the same list of clinics again, you ca
 
 [![session 2 data ui visual diagram screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
-**Note for _MTL_ 2.5** The "Quick Explore" feature is no longer available.
+**Note for _MTL_ 2.5** The "Quick Explore" feature is no longer available. (But tables are still available)
 
 REPLACE WITH CURRENT 2.5 INFORMATION:
-- Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
 
-- The viz tabs will also return to default selections, when you click "Get Patient-level Data" for new data pulls.
-
-- Right click on a trend line and filter to hide a selected item or only keep the selected item.
-
-- vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
 
 [![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
 
