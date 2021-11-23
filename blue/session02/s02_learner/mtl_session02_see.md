@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 2 - Learner See"
 author: "Team PSD"
-date: "March 2020"
-release: "MTL 2.0"
+date: "January 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -26,8 +26,8 @@ output:
 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI.  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)  **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  | [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
+|--- | --- |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI.  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)**|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -50,7 +50,9 @@ output:
 
 [![Data UI Login Screen Cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
 
-**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
+****_MTL_ 2.5.
+
+**For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
 
 ### Your Team Data Folder
 
@@ -61,20 +63,20 @@ output:
 
 [![edit in excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
 
-### 3. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+### 3. Go to the ClinicSelection tab. Use the columns to select the clinics that make up your team.
 
 - You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-- Note: This will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
-- Follow the instructions in **Box A2.**
-- After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
+- Note: Leaving the "Is Inactive" column blank will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive?" column, check "No" and click "Apply."
+- After making all your selections, click the "Apply" button.
+- To unselect an individual Division, Physical Location, etc, double click the selected box.
+- To clear all selected choices, hover in the upper right hand corner of the column and click on the 'Eraser' icon.
+![image](https://user-images.githubusercontent.com/89947989/143032726-d617a5e6-3f36-4d99-9ac3-ee2a333aa763.png)
 
-[![clinic selection screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/clinic_selection.gif)](#DontLink)
+****_MTL_ 2.5.
+WHAT IS THE SHORTCUT FOR MTL2.5 FOR THIS?
+In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
 
-**New for _MTL_ 2.0**
-
-- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
-
-For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
+**For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
 
 ### 4. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
 
@@ -86,17 +88,18 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
    2. Your network username recorded in VistA.
    To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
 
-**New for _MTL_ 2.0**
+**Note for _MTL_ 2.5** The **Filter** Feature  
+- In order to find filters: Navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+- In order to use the filters: Click on the column which needs to be filtered, and the appropriate filters will appear i
+- **Important** There is no visual indication when filters are turned on - You **must** unhide the filter panel in order to see which filters are active. This is different in MTL 2.5 from the previous version in MTL 2.0. 
+- If you ever can't find something you expect, click on the funnel
+- "Filters and slicers affecting this visual" means filters are active. 
 
-- "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
+**For _MTL_ 2.0, click [here] (insert link of 2.0 release archive)
 
 [![create team data folder graphic](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/create_team_data_folder.png)](#DontLink)
 
-For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
 
-**NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse.**
-
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
 [![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
 
@@ -111,10 +114,9 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 [![session 2 data ui visual diagram screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
 
-**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
+**Note for _MTL_ 2.5** The "Quick Explore" feature is no longer available.
 
-**New for _MTL_ 2.0**
-
+REPLACE WITH CURRENT 2.5 INFORMATION:
 - Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want. To return to the original settings, click on the gray "Reset Pivot Chart."
 
 - The viz tabs will also return to default selections, when you click "Get Patient-level Data" for new data pulls.
@@ -125,16 +127,16 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 [![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
 
-For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md).
+**_MTL_ 2.0. 
+For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**
 
 ### 6. Click to view the "data" tab, which show your team's individual patient information.
 
-- Patients who have requested restricted access to their information have asterisks (****) in Column F (dataDiag, dataHF) or Column E (dataMeas). If you are a VA provider, you can still identify patients from Column G (dataDiag, dataHF) or Column F (dataMeas).
+- Patients who have requested restricted access to their information have asterisks (****) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column. 
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - Providers can filter to find specific patients, or produce reports.
 
-**New for _MTL_ 2.0**
-
+** _MTL_ 2.0**
 - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
 
 [![primary diagnosis example graphic](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/primary_diagnoses.png)](#DontLink)
