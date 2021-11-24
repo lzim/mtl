@@ -98,10 +98,12 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/feature-mtl_2.5_pbi_gifs/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
-**New for _MTL_ 2.5** (**@JENN - Should we make GIFs for the "View as Table" and/or Drill Up features?**)
+**New for _MTL_ 2.5** 
 - The "Quick Explore" feature is no longer available. 
 - To view the corresponding table to a given graph, right click on the graph and select "View as Table."
-- Note: Drill Up View: The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful  we don't have all days of observation in the month and 12 months of observation in each year, respectively.
+- Note on Drill Up View: 
+The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years.
+
 - Similar to the Data tabs, hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
 - Similar to the Data tabs, unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
 
@@ -134,7 +136,9 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 
 - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-   - You must **unhide the right-hand filter panel** in order to see which specific filters are active.  
+   - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
+
+![image](https://user-images.githubusercontent.com/89947989/143321787-881e0f8f-17a6-4059-9363-f7f334d22442.png)
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
