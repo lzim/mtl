@@ -51,34 +51,38 @@ output:
 [NEED TO UPDATE TEXT + GIF BASED ON INFO FROM JEFF]
 [![Data UI Login Screen Cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
 
-**_MTL_ 2.5.
-For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
+**_MTL_ 2.5.**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ### Your Team Data 
 
-### 2. Go to the ClinicSelection tab in Power BI. Use the columns to select the clinics that make up your team.
+### 2. Go to the Clinic Selection tab in Power BI. Use the columns to select the clinics that make up your team.
 
-- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-- Note: Leaving the "Is Inactive" column blank will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive?" column, check "No" and click "Apply."
-- After making all your selections, click the "Apply" button.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
+- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive?" column, check "No" and click the yellow "Apply" button.
+- After making all your selections in a column, click the yellow "Apply" button.
 
-[INSERT GIF OF CLINIC SELECTIONS]
+[INSERT GIF OF CLINIC SELECTIONS - Clarify w/ Meghana about where the tabs show up for her]
 
-**Note: Unselecting**
-- To unselect an individual Division, Physical Location, etc, double click the selected box.
+**To unselect choices in the the Clinic Selection tab:**
+- To unselect an individual Division, Physical Location, etc, unchecked the selected box.
 - To clear all selected choices, hover in the upper right hand corner of the column and click on the 'Eraser' icon, shown highlighted below.
+
+(**MEGHANA, LET'S TURN THIS INTO A GIF**)
 ![image](https://user-images.githubusercontent.com/89947989/143032726-d617a5e6-3f36-4d99-9ac3-ee2a333aa763.png)
 
-**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ### 3. Viewing your Team Data. 
-- Clicking "Apply" pulls your Patient Level Data. (We will not do this in-session today.) **CLARIFY WITH JEFF**
-- Navigate to the "Data" tabs (shown below) to view this data. We will work more with this data in Session 3. 
+- Clicking "Apply" in the Select Clinics to Generate Report Data column pulls your Patient Level Data. (We will not do this in-session today.) **CLARIFY WITH JEFF**
+- This will pull all clinics used in the last two years.
 
-**New Feature** Suicide and Behavior Risk now has its own tab!
-- We know staff pay close attention behavioral and suicide risk and we have now pulled those data and visualizations into their own separate tabs.
-- MTL 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
+**New in _MTL_ 2.5** 
+- Suicide and Behavior Risk Flags now has its own tab!
+   - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
+- _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
 
+(**MEGHANA, LET'S TURN THIS INTO A GIF**)
 ![image](https://user-images.githubusercontent.com/89947989/143135541-75d24fe7-d636-406e-aeee-5f867ed90c0b.png)
 
 **CLARIFY THIS IS STILL CORRECT:**
@@ -88,47 +92,25 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
    2. Your network username recorded in VistA.
    To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
 
-### 4. Sorting Through Team Data Using Filters
-**NOTE FOR REVIEW: USING IMAGE OF FILTERS HERE, BUT INSERT GIF IF NECESSARY - It is kind of messy. Maybe the images canbe made smaller?
-Also, I made this a step but not sure if it needs to be?**
-- In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-![image](https://user-images.githubusercontent.com/89947989/143149057-3feb8472-4e18-41d9-b1c2-2956e7d56e35.png)
-- In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
-- (We will not do this in-session today.)
-![image](https://user-images.githubusercontent.com/89947989/143149165-8352f6d4-c1c8-4923-82d4-2a0735a1a41e.png)
-![image](https://user-images.githubusercontent.com/89947989/143149225-9a2ce36b-2b52-4e8c-bc35-ba21489209b0.png)
-
-- **Important** There is no visual indication when filters are turned on - You **must** unhide the filter panel in order to see which filters are active. This is different in MTL 2.5 from the previous version in MTL 2.0. 
-- If you ever can't find something you expect, click on the funnel icon and check.
-- "Filters and slicers affecting this visual" means filters are active. 
-
-
-
-**MTL 2.5**
-**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
-
-### 5. Click to view the "viz" tab, which show team trends.
+### 4. Click to view the "viz" tab, which show team trends.
 
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - What stands out to you?
 - What is most important to you to check out first?
 - What is most surprising?
 
-[INSERT GIF OF VIZ TAB]
+[![](https://github.com/lzim/teampsd/blob/feature-mtl_2.5_pbi_gifs/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
-[![session 2 data ui visual diagram screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
-
-**Note** 
-- The "Quick Explore" feature is no longer available in MTL 2.5. 
+**New for _MTL_ 2.0**
+- The "Quick Explore" feature is no longer available in _MTL_ 2.5. 
 - (But tables are still available)
 - INSERT REMAINING 2.5 VIZ TEXT - Focus Mode, Drill up/shoulders etc
 
-[![data user interface screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
+For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
 
-**MTL 2.5 
-For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
+[![](https://github.com/lzim/teampsd/blob/feature-mtl_2.5_pbi_gifs/resources/gifs/mtl_2.5/data_ui_viz_tab_focus_mode_filters.gif?raw=true)](#DontLink)
 
-### 6. Click to view the "data" tab, which show your team's individual patient information.
+### 5. Click to view the "data" tab, which show your team's individual patient information.
 
 - Patients who have requested restricted access to their information have asterisks (****) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column. 
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
@@ -140,7 +122,31 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** option would you use to see what the most common service encounters or visits are?
 - Are there services that have been increasing over time? Are there services that have been decreasing over time?
-For *MTL* 2.0 click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).
+
+**Filtering the "data" tabs:**
+
+**NOTE FOR REVIEW: USING IMAGE OF FILTERS HERE, BUT INSERT GIF IF NECESSARY - It is kind of messy. Maybe the images canbe made smaller?
+Also, I made this a step but not sure if it needs to be?**
+
+(**MEGHANA, let's turn the 3 screenshots in step 4 into 1 gif, it'll be cleaner that way. Let's wait on Jeff to see if he has updates on changing how the filters look for the Data tabs as he mentioned last Wednesday**)
+
+- In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+
+(**See note above**)
+![image](https://user-images.githubusercontent.com/89947989/143149057-3feb8472-4e18-41d9-b1c2-2956e7d56e35.png)
+
+- In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
+
+(**See note above**)
+![image](https://user-images.githubusercontent.com/89947989/143149165-8352f6d4-c1c8-4923-82d4-2a0735a1a41e.png)
+![image](https://user-images.githubusercontent.com/89947989/143149225-9a2ce36b-2b52-4e8c-bc35-ba21489209b0.png)
+
+- **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+   - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+   - You must **unhide the right-hand filter panel** in order to see which specific filters are active.  
+
+**MTL 2.5**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
@@ -148,4 +154,4 @@ For *MTL* 2.0 click [here](https://github.com/lijenn/mtl/blob/master/blue/sessio
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data\_ui and team_data_table. [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
