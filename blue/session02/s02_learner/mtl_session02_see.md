@@ -27,7 +27,7 @@ output:
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI [NEED TO UPDATE TEXT + GIF].  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [NEED TO UPDATE TEXT + GIF] [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI [NEED TO UPDATE GIF].  [![data ui login screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [NEED TO UPDATE GIF] [![session 2 data ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -44,25 +44,19 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" alt = "data\_ui and sim\ui relationship diagram">](#DontLink)
 
-## *MTL* on BISL
+## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility. [NEED TO UPDATE FOR PBI]
-
-[NEED TO UPDATE TEXT + GIF BASED ON INFO FROM JEFF]
-[![Data UI Login Screen Cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
-
-**_MTL_ 2.5.**
-**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
-
-### Your Team Data 
-
-### 2. Go to the Clinic Selection tab in Power BI. Use the columns to select the clinics that make up your team.
-
+### 1. Open an internet browser window. Go to mtl.how/data. You should see the Clinic Selection tab in Power BI. 
+- Use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
 - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
 - After making all your selections in a column, click the yellow "Apply" button.
 
 [INSERT GIF OF CLINIC SELECTIONS - Clarify w/ Meghana about where the tabs show up for her]
+
+
+**_MTL_ 2.5.**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 **To unselect choices in the the Clinic Selection tab:**
 - To unselect an individual Division, Physical Location, etc, uncheck the selected box.
@@ -74,13 +68,18 @@ output:
 
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
-### 3. Viewing your Team Data. 
-- Clicking "Apply" in the Select Clinics to Generate Report Data column pulls your Patient Level Data. (We will not do this in-session today.) **CLARIFY WITH JEFF**
+### 2. Viewing your Team Data. 
+- Clicking "Apply" in the Select Clinics to Generate Report Data column pulls your Patient Level Data. (We will not do this in-session today.) 
 - This will pull all clinics used in the last two years.
-- To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. 
-- Hit "Back to Report" to return to the previous view. 
+- To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
 
 [INSERT FOCUS MODE DATA GIF HERE]
+
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet link to access verification).
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA.
+   To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
 
 **New in _MTL_ 2.5** 
 - Suicide and Behavior Risk Flags now has its own tab!
@@ -90,14 +89,7 @@ output:
 (**INSERT 5 TABS GIF HERE**)
 ![image](https://user-images.githubusercontent.com/89947989/143135541-75d24fe7-d636-406e-aeee-5f867ed90c0b.png)
 
-**CLARIFY THIS IS STILL CORRECT:**
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet link to access verification).
-- **If you don't have access to facilities that you believe you should, please verify:**
-   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA.
-   To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
-
-### 4. Click to view the "viz" tab, which show team trends.
+### 3. Click to view the "viz" tab, which show team trends.
 
 - There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - What stands out to you?
@@ -113,11 +105,11 @@ output:
 - Similar to the Data tabs, hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
 - Similar to the Data tabs, unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
 
-For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
-
 [![](https://github.com/lzim/teampsd/blob/feature-mtl_2.5_pbi_gifs/resources/gifs/mtl_2.5/data_ui_viz_tab_focus_mode_filters.gif?raw=true)](#DontLink)
 
-### 5. Click to view the "data" tab, which show your team's individual patient information.
+For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
+
+### 4. Click to view the "data" tab, which show your team's individual patient information.
 
 - Patients who have requested restricted access to their information have asterisks (****) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column. 
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
@@ -132,26 +124,17 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 
 **Filtering the "data" tabs:**
 
-(**MEGHANA, let's turn the 3 screenshots in step 4 into 1 gif, it'll be cleaner that way. Let's wait on Jeff to see if he has updates on changing how the filters look for the Data tabs as he mentioned last Wednesday**)
-**Sounds good, can make this screen recording after 8 am overflow.**
-
 - In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-
-(**See note above**)
-![image](https://user-images.githubusercontent.com/89947989/143149057-3feb8472-4e18-41d9-b1c2-2956e7d56e35.png)
-
 - In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
 
-(**See note above**)
-![image](https://user-images.githubusercontent.com/89947989/143149165-8352f6d4-c1c8-4923-82d4-2a0735a1a41e.png)
-![image](https://user-images.githubusercontent.com/89947989/143149225-9a2ce36b-2b52-4e8c-bc35-ba21489209b0.png)
+[INSERT FILTER GIF HERE]
+
+**MTL 2.5**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - You must **unhide the right-hand filter panel** in order to see which specific filters are active.  
-
-**MTL 2.5**
-**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
@@ -159,4 +142,4 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [NEED TO UPDATE TEXT + GIF] [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [NEED TO UPDATE TEXT + GIF]  [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [NEED TO UPDATE GIF] [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [NEED TO UPDATE GIF]  [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
