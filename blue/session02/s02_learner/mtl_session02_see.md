@@ -59,16 +59,17 @@ output:
 ### 2. Go to the Clinic Selection tab in Power BI. Use the columns to select the clinics that make up your team.
 
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
-- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive?" column, check "No" and click the yellow "Apply" button.
+- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
 - After making all your selections in a column, click the yellow "Apply" button.
 
 [INSERT GIF OF CLINIC SELECTIONS - Clarify w/ Meghana about where the tabs show up for her]
 
 **To unselect choices in the the Clinic Selection tab:**
-- To unselect an individual Division, Physical Location, etc, unchecked the selected box.
-- To clear all selected choices, hover in the upper right hand corner of the column and click on the 'Eraser' icon, shown highlighted below.
+- To unselect an individual Division, Physical Location, etc, uncheck the selected box.
+- To clear selected choices in a **column**, hover in the upper right hand corner of the column and click on the 'Eraser' icon. 
+- To reset ALL choices in the interface across ALL tabs, click the "Reset" button in the upper bar. Note - the "reset" button will clear ALL choices across ALL Clinic Selection, Data, & Viz tabs, not just the given tab you are viewing.
 
-(**MEGHANA, LET'S TURN THIS INTO A GIF**)
+(**JENN - INSERT ERASER GIF HERE**)
 ![image](https://user-images.githubusercontent.com/89947989/143032726-d617a5e6-3f36-4d99-9ac3-ee2a333aa763.png)
 
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
@@ -76,13 +77,17 @@ output:
 ### 3. Viewing your Team Data. 
 - Clicking "Apply" in the Select Clinics to Generate Report Data column pulls your Patient Level Data. (We will not do this in-session today.) **CLARIFY WITH JEFF**
 - This will pull all clinics used in the last two years.
+- To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. 
+- Hit "Back to Report" to return to the previous view. 
+
+[INSERT FOCUS MODE DATA GIF HERE]
 
 **New in _MTL_ 2.5** 
 - Suicide and Behavior Risk Flags now has its own tab!
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
 - _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
 
-(**MEGHANA, LET'S TURN THIS INTO A GIF**)
+(**INSERT 5 TABS GIF HERE**)
 ![image](https://user-images.githubusercontent.com/89947989/143135541-75d24fe7-d636-406e-aeee-5f867ed90c0b.png)
 
 **CLARIFY THIS IS STILL CORRECT:**
@@ -101,10 +106,12 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/feature-mtl_2.5_pbi_gifs/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
-**New for _MTL_ 2.0**
-- The "Quick Explore" feature is no longer available in _MTL_ 2.5. 
-- (But tables are still available)
-- INSERT REMAINING 2.5 VIZ TEXT - Focus Mode, Drill up/shoulders etc
+**New for _MTL_ 2.5** (**@JENN - Should we make GIFs for the "View as Table" and/or Drill Up features?**)
+- The "Quick Explore" feature is no longer available. 
+- To view the corresponding table to a given graph, right click on the graph and select "View as Table."
+- Note: Drill Up View: The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful  we don't have all days of observation in the month and 12 months of observation in each year, respectively.
+- Similar to the Data tabs, hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
+- Similar to the Data tabs, unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
 
 For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
 
@@ -125,10 +132,8 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 
 **Filtering the "data" tabs:**
 
-**NOTE FOR REVIEW: USING IMAGE OF FILTERS HERE, BUT INSERT GIF IF NECESSARY - It is kind of messy. Maybe the images canbe made smaller?
-Also, I made this a step but not sure if it needs to be?**
-
 (**MEGHANA, let's turn the 3 screenshots in step 4 into 1 gif, it'll be cleaner that way. Let's wait on Jeff to see if he has updates on changing how the filters look for the Data tabs as he mentioned last Wednesday**)
+**Sounds good, can make this screen recording after 8 am overflow.**
 
 - In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 
@@ -154,4 +159,4 @@ Also, I made this a step but not sure if it needs to be?**
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) ***MTL* 2.0. For *MTL* 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. [NEED TO UPDATE TEXT + GIF] [![session 2 data screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [NEED TO UPDATE TEXT + GIF]  [![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink) )**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
