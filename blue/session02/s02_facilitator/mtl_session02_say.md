@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: "February 2021"
-release: "MTL 2.0"
+date: "January 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -62,14 +62,14 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. **Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.**
+### 1. **Open an internet browser window. Go to mtl.how/data..**
 
-- This will take you to the VA’s corporate data warehouse site, the Business Intelligence Service Line (or BISL), where you will log in with your VA email and PIV passcode. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+- This will take you to the Power BI site, where you will log in with your VA email and PIV passcode (**Is this still accurate**). This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
 - We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- On the landing page, select your VISN. On the next page, select your team's facility.
+- On the landing page, you will select your clinics.
 
-## To create a fresh data UI file, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file.
+## To pull your team data, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file (**What will they be doing in session?**)
 
 ### 2. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
 - If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
@@ -153,7 +153,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 ## DO demo
 
 1. **We encourage you to look around in your team data before next time.**
-2. **Go to mtl.how/data and open the team data in Excel.**
+2. **Go to mtl.how/data and open the team data in Power BI.**
 3. **Review your individual patient data and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
