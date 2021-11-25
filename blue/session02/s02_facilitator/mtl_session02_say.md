@@ -64,43 +64,37 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ### 1. **Open an internet browser window. Go to mtl.how/data..**
 
-- This will take you to the Power BI site, where you will log in with your VA email and PIV passcode (**Is this still accurate**). This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
-- We'll be opening the _Modeling to Learn_ data user interface (UI) in Excel from here today.
-- We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- On the landing page, you will select your clinics.
+- This will take you to the Power BI site, where you will log in with your VA email and PIV passcode (**JENN IS THIS STILL ACCURATE**). This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+- We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
+- We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. (**IS THIS STILL NEEDED)
+- On the landing page, you will select your clinics using the columns present.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
+-  **With your team lead (________), we selected the following clinics to represent your team.**
 
-## To pull your team data, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file (**What will they be doing in session?**)
+- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
+After making all your selections in a column, click the yellow "Apply" button.
 
-### 2. **Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.**
-- If you do not have a data_ui file or need a newly updated one, copy the file in the Master_DataUI folder. This has a master data_UI file that has already been pre-selected for your facility/station.
-- Click on the 3 dots [...] next to the data_ui file.
-- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
+**To unselect choices in the the Clinic Selection tab:** (**DO WE WANT TO INCLUDE ALL OF THESE TIPS & TRICKS IN THE SAY GUIDE AS WELL?**)
+- To unselect an individual Division, Physical Location, etc, uncheck the selected box.
+- To clear selected choices in a **column**, hover in the upper right hand corner of the column and click on the 'Eraser' icon. 
+- To reset ALL choices in the interface across ALL tabs, click the "Reset" button in the upper bar. Note - the "reset" button will clear ALL choices across ALL Clinic Selection, Data, & Viz tabs, not just the given tab you are viewing.
 
-### 3. **Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.**
-- This data_ui file has already been specified for your facility/station.
-- You can sort by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-- Note that this will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
-- Follow the instructions in **Box A2**.
-- After filtering, you can double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Cell B6) to add them to column A.
-- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B \(Cell B3\).
-    
-### 4. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+## To view your team data, go through Step #2. We will show you the steps but you already have a fresh data UI file (*WILL THEY BE DOING STEP 2?**)
 
-## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.
+### 2. Viewing your Team Data. 
+- Clicking "Apply" after making choices in the "Clinic Selection" Tab pulled your Patient Level Data.
+- This will pull all clinics used in the last two years.
+- To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view.
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
-   
-- It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse.
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data. And, Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**  
-
-- We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time.  
+- We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time. (**NEEDS TO BE UPDATED BASED ON SESSION 3 EDITS**)
     
 ### 5. **Click to view the "viz" tabs, which show team trends.**
 - Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
