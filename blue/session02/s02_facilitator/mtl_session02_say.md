@@ -64,9 +64,9 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ### 1. **Open an internet browser window. Go to mtl.how/data..**
 
-- This will take you to the Power BI site, where you will log in with your VA email and PIV passcode (**JENN IS THIS STILL ACCURATE**). This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+- This will take you to the Power BI site, where you will log in with your VA email and PIV passcode (**JENN IS THIS STILL ACCURATE** - No need to log in, but let’s say “…Power BI site, ensure you have your PIV card to access the intranet site”). This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
-- We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. (**IS THIS STILL NEEDED**)
+- We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. (**IS THIS STILL NEEDED** - yes, let’s keep this sentence. PBI is secure and we want to reinforce that only the team can see their PHI level data.)
 - On the landing page, you will select your clinics using the columns present.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
 -  **With your team lead (________), we selected the following clinics to represent your team.**
@@ -74,12 +74,12 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - *Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.*
 
-**To unselect choices in the the Clinic Selection tab:** (**DO WE WANT TO INCLUDE ALL OF THESE TIPS & TRICKS IN THE SAY GUIDE AS WELL? FEEL FREE TO DELETE THINGS!**)
+**To unselect choices in the the Clinic Selection tab:** (**DO WE WANT TO INCLUDE ALL OF THESE TIPS & TRICKS IN THE SAY GUIDE AS WELL? FEEL FREE TO DELETE THINGS!** ! – Yes! I would since these are great reminders for both the facilitators and learners as this is now the homepage for mtl.how/data)
 - To unselect an individual Division, Physical Location, etc, uncheck the selected box.
 - To clear selected choices in a **column**, hover in the upper right hand corner of the column and click on the 'Eraser' icon. 
 - To reset ALL choices in the interface across ALL tabs, click the "Reset" button in the upper bar. Note - the "reset" button will clear ALL choices across ALL Clinic Selection, Data, & Viz tabs, not just the given tab you are viewing.
 
-## To view your team data, go through Step #2. We will show you the steps but you already have a fresh data UI file (*WILL THEY BE DOING STEP 2?**)
+## To view your team data, go through Step #2. We will show you the steps but you already have a fresh data UI file (*WILL THEY BE DOING STEP 2?** - Need to clarify w/Jeff on 11/29 8am WG Leads to see if we can share clinic selection w/ team members or if they all have to go thru this step)
 
 ### 2. Viewing your Team Data. 
 - Clicking "Apply" after making choices in the "Clinic Selection" Tab pulled your Patient Level Data.
@@ -89,7 +89,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**  
-- We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time. (**NEEDS TO BE UPDATED BASED ON SESSION 3 EDITS. FEEL FREE TO CHANGE JENN**)
+- We will look at the **"Create Team Data Table"** button and its associated tab **"SPReferrals"** next time. (**NEEDS TO BE UPDATED BASED ON SESSION 3 EDITS. FEEL FREE TO CHANGE JENN** - Needs discussion at 8AM WG Leads. Might consider deleting this sentence since they aren’t signs of the Params tabs in PBI in the Data & Viz tabs link – brings up question if we need a new shortlink for the Params tabs and how we want to direct users to the Params tabs)
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
@@ -111,7 +111,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - Unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
 
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
- **IS THIS BULLET STILL ACCURATE ABOVE? I THINK SO, I JUST MADE SOME MINOR EDITS**
+ (**IS THIS BULLET STILL ACCURATE ABOVE? I THINK SO, I JUST MADE SOME MINOR EDITS** - Still accurate!)
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
@@ -159,7 +159,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. (**JENN CAN YOU CHECK WHAT GOES HERE? DOES THIS LOOK RIGHT? IT PREVIOUSLY SAID DATA_UI AND TEAM DATA FODLER?**). |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. (**JENN CAN YOU CHECK WHAT GOES HERE? DOES THIS LOOK RIGHT? IT PREVIOUSLY SAID DATA_UI AND TEAM DATA FODLER?**). |
 
 ## DO demo
 
@@ -170,5 +170,6 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    - Diagnoses \(Diag\)
    - Encounters \(Enc\), and
    - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+   - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
