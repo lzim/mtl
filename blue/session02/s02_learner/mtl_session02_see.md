@@ -46,8 +46,9 @@ output:
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data. You should see the Clinic Selection tab in Power BI. 
-- Use the columns to select the clinics that make up your team.
+### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page. 
+- Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+- Now, use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
 - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
 - After making all your selections in a column, click the yellow "Apply" button.
@@ -98,15 +99,18 @@ output:
 **New for _MTL_ 2.5** 
 - The "Quick Explore" feature is no longer available. 
 - To view the corresponding table to a given graph, right click on the graph and select "View as Table."
-- Note on Drill Up View: 
-The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years.
-
 - Similar to the Data tabs, hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
 - Similar to the Data tabs, unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tab_focus_mode_filters.gif?raw=true)](#DontLink)
 
 For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
+
+Note on Drill Up View: 
+- To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of the data. 
+- However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of   observation in each year, respectively for all of the months and years. 
+- To return to previous view, click on the forked downward arrow icon: 
+        ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
 
 ### 4. Click to view the "data" tab, which show your team's individual patient information.
 
