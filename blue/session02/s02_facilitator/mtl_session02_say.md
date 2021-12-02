@@ -62,29 +62,28 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. **Open an internet browser window. Go to mtl.how/data..**
+### 1.Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the Power BI site, ensure you have your PIV card to access the intranet site. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
-- On the landing page, you will select your clinics using the columns present.
+- On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+
+
+### 2. Selecting & Viewing your Team Data. 
+- You will select your clinics using the columns present.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
 -  **With your team lead (________), we selected the following clinics to represent your team.**
 -  After making all your selections in a column, click the yellow "Apply" button.
+-  Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; this will pull all clinics used in the last two years.
+- Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
 
-- *Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.*
-
+**Tips & Tricks**
+- *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
+*Unselecting Choices*
 - To unselect an individual Division, Physical Location, etc, uncheck the selected box.
 - To clear selected choices in a **column**, hover in the upper right hand corner of the column and click on the 'Eraser' icon. 
 - To reset ALL choices in the interface across ALL tabs, click the "Reset" button in the upper bar. Note - the "reset" button will clear ALL choices across ALL Clinic Selection, Data, & Viz tabs, not just the given tab you are viewing.
-
-## To view your team data, go through Step #2. We will show you the steps, but you already have access to your data report.
-(*WILL THEY BE DOING STEP 2?** - Need to clarify w/Jeff on 11/29 8am WG Leads to see if we can share clinic selection w/ team members or if they all have to go thru this step)
-
-### 2. Viewing your Team Data. 
-- Clicking "Apply" after making choices in the "Clinic Selection" Tab pulled your Patient Level Data.
-- This will pull all clinics used in the last two years.
-- To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
@@ -95,6 +94,8 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
 
+- *Note: Zooming In* To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
+
 **New in _MTL_ 2.5** 
 - Suicide and Behavior Risk Flags now has its own tab!
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
@@ -104,10 +105,10 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
 - You can explore further in the "viz" tabs by right clicking on any trend line and "Show As Table." (The "Quick Explore" feature is no longer available.)
 
-- *Note on Drill Up View: The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years.*
-
-- Hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
-- Unhide the Filter panel in the right hand side of the screen to use filters and view specific variables. 
+**Tips & Tricks**
+- *Note on Drill Up View:* The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. To return to previous view, click on the forked downward arrow icon: 
+- *Zooming In* Hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
+- *Filters* In order to find filters and view specific variables, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
@@ -149,6 +150,13 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
+
+**To save your work and return to it later, use the "Bookmark" feature**
+- To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
+- Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
+![image](https://user-images.githubusercontent.com/89947989/144341211-4c8a6593-85d9-4f0a-a457-a6b0c61251dd.png)
+- This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
+- To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
