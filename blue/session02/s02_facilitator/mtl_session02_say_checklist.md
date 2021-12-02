@@ -85,16 +85,16 @@ output:
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question?  
 -  [ ] **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 
 -  [ ]  Patients with restricted access to their information have asterisks (****)  
--  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+-  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
 -  [ ] Providers can filter to find specific patients, or produce reports.
     
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
@@ -117,4 +117,4 @@ Time Stamp | Team Learning Priorities | Script
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. |
