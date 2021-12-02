@@ -49,7 +49,7 @@ output:
 ### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page. 
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
- **INSERT NEW LANDING PAGE GIF HERE*
+ **INSERT NEW LANDING PAGE GIF HERE**
 
 ### 2. Selecting & Viewing your Team Data. 
 - Now, use the columns to select the clinics that make up your team.
@@ -145,6 +145,13 @@ Note on Drill Up View:
 ![image](https://user-images.githubusercontent.com/89947989/143321787-881e0f8f-17a6-4059-9363-f7f334d22442.png)
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
+
+**To save your work and return to it later, use the "Bookmark" feature**
+- To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
+- Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
+![image](https://user-images.githubusercontent.com/89947989/144341211-4c8a6593-85d9-4f0a-a457-a6b0c61251dd.png)
+- This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
+- To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
