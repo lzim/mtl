@@ -71,7 +71,7 @@ output:
 - [ ] Select the Clinics **_________________**  
 -  **With your team lead (________), we selected the following clinics to represent your team.**
  
-- [ ] Click Apply to Generate Report Data 
+- [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
