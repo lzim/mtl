@@ -96,7 +96,6 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
 - _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
 
-
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
@@ -126,7 +125,7 @@ _**New in MTL 2.5**_
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
 
-### 6. **Click to view the "data" tabs, which show your team's individual patient information.**
+### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
    - Providers can filter to find specific patients, or produce reports.Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
    - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
    - Providers can filter to find specific patients, or produce reports.
