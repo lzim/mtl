@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 02 - Facilitator Say Checklist"
 author: "Team PSD"
-date: " Edited by RH Jan 24 2020, edited by DK 14 Feb 2020 | RH March 2 2020"
-release: "MTL 1.8"
+date: " January 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -59,49 +59,42 @@ output:
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 ### 1. On any browser, navigate to mtl.how/data.
-- [ ] Explain the Business Intelligence Service Line (or BISL) -- VA’s corporate data warehouse site.
+- [ ] Explain the Power BI site.
 	- You must have your PIV engaged to access the site.
-- *Reminder:* BISL site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
-- We'll show you how files you pull from here will be saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- [ ] Select your VISN **______________**. 
-- [ ] On the next page, select your team's facility **______________**.  
-    
-## To create a fresh data UI file, go through Steps #2-4. We will show you the steps but you already have a fresh data UI file.
-
-### 2. Your Team Data Folder - Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+- *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
+- We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
+- [ ] Select the "Data UI" and then "Clinic Selections" tab.
  
-   
-### 3. Go to the ClinicSelection tab. 
--  [ ] Use columns C-H to select the clinics that make up your team. 
--  [ ] Follow the instructions in **Box A2.**  
--  [ ] Double-click on clinics to add them to column A, or you can highlight the clinics and click the gray "add all" button (Box B6) to add them to column A.  
+
+### 2. Your Team Data 
+- [ ] In the "Clinic Selections" tab, select the Division **______________**
+- [ ] Select the Clinics **_________________**  
+-  **With your team lead (________), we selected the following clinics to represent your team.**
  
-### 4. To view your team patient data and your team trends click on "Get-Patient-level Data." 
+- [ ] Click Apply to Generate Report Data 
 
-## You already have a fresh data UI file to work with in your data_ui folder. With your team lead (________), we selected the following clinics to represent your team.   
--	It takes some time to stitch together a "hyper-local" query tailored to your team from the VA Corporate Data Warehouse,  may be up to 15 minutes.
--	**Prior to today's session, __________________ [Team Lead's name] worked with us to build an initial team dataset.
--	**Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+-  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
+- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
-### 5. Click to view the "viz" tabs, which show team trends.  
+### 3. Click to view the "viz" tabs, which show team trends.  
 
 -  [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
--  [ ] **"Quick Explore**" (look for the magnifying glass). In the **"Explore"** box, pick the item you want to explore and click on **"Drill To**". Keep using Quick Explore to drill until you reach the data you want. You can always click on the gray **"Reset Pivot Chart"** button to return to the original settings.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question?  
 -  [ ] **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended quesiton]?  
+    [Prepare in advance, but ask this as an open-ended question]?  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
-### 6. Click to view the "data" tabs, which show your team's individual patient information.  
+### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 
--  [ ]  Patients with restricted access to their information have asterisks (****) in Column F & G.  
--  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  
+-  [ ]  Patients with restricted access to their information have asterisks (****)  
+-  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
 -  [ ] Providers can filter to find specific patients, or produce reports.
     
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
@@ -124,4 +117,4 @@ Time Stamp | Team Learning Priorities | Script
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data UI and team data. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. |
