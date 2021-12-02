@@ -75,15 +75,11 @@ output:
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 **Zooming In** 
+
 To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet link to access verification).
-- **If you don't have access to facilities that you believe you should, please verify:**
-   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA.
-   To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
 
 **New in _MTL_ 2.5** 
 - Suicide and Behavior Risk Flags now has its own tab!
@@ -91,6 +87,13 @@ To zoom in on the data and view it clearly, hover in the upper right hand corner
 - _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
+
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet link to access verification).
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA.
+   To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet link to Vista).
+
 
 ### 3. Click to view the "viz" tab, which show team trends.
 
