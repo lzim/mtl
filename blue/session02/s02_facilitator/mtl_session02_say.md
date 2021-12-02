@@ -159,7 +159,6 @@ _**New in MTL 2.5**_
 **To save your work and return to it later, use the "Bookmark" feature**
 - To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
 - Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
-![image](https://user-images.githubusercontent.com/89947989/144341211-4c8a6593-85d9-4f0a-a457-a6b0c61251dd.png)
 - This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
 - To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
 
