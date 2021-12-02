@@ -53,7 +53,7 @@ output:
 
 1. Over what timeframe does an experiment run?  
 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.  
-3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"  
+3. Describe in one sentence what happens in the model diagram as you "Reveal Dynamics over Time?"  
 4. What is the significance of the variables in the "red boxes"?  
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink)  
@@ -63,7 +63,7 @@ output:
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
-* Starting Point: Main model section with no additional complexities revealed.  
+* Starting Point: Main model section with no additional dynamics over time revealed.  
 
 *Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.  
 
