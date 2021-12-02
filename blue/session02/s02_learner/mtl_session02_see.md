@@ -55,7 +55,9 @@ output:
 - Now, use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
 - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
-- After making all your selections in a column, click the yellow "Apply" button. Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; this will pull all clinics used in the last two years.
+- After making all your selections in a column, click the yellow "Apply" button. 
+- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; this will pull all clinics used in the last two years.
+- Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. 
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
