@@ -89,17 +89,22 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
-- **If you don't have access to facilities that you believe you should, please verify:**
-   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
-
 - *Note: Zooming In* To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
 
 **New in _MTL_ 2.5** 
 - Suicide and Behavior Risk Flags now has its own tab!
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
 - _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
+
+
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
+   
+_**New in MTL 2.5**_
+- We are able to support Clinical Resource Hub providers in the new PBI Data UI because they are granted more than one local server access!
+- LSV permissioning for Learners still apply in the same way 
     
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 - Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
