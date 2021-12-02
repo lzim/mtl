@@ -95,6 +95,11 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - Suicide and Behavior Risk Flags now has its own tab!
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
 - _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
+   - Health Factors \(HF\)
+   - Diagnoses \(Diag\)
+   - Encounters \(Enc\),
+   - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
+   - Suicide and Behavior Risk Flags \(Flag\)
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
@@ -177,8 +182,8 @@ _**New in MTL 2.5**_
 3. **Review your individual patient data and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
-   - Encounters \(Enc\), and
-   - Measurement Based Stepped Care and Suicide Prevention\(SP\)
+   - Encounters \(Enc\),
+   - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
    - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
