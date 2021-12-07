@@ -37,11 +37,11 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 1. Describe the decisions your team made in producing your team data table.
 2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:15___
 
 ## In-Session Exercise
 
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:15___
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
 
 ### Participatory Learning from Simulation
 
@@ -60,11 +60,11 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ## Let's get started!
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1.Open an internet browser window. Go to mtl.how/data 
+### 1. Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the Power BI site, ensure you have your PIV card to access the intranet site. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
     - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
@@ -129,16 +129,11 @@ _**New in MTL 2.5**_
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
-   - **What stands out to you about \________________________________**\(fill-in team vision\)?
-   - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
-    \(Prepare in advance, but ask this as an open-ended question\)?  
-   - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+   - **What stands out to you?**
+   - **What is most important to you to check out first?** (Prepare in advance, but ask this as an open-ended question)?  
+   - **What is most surprising?** (Prepare in advance, but ask this as an open-ended question)?
 
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
-
-
-
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:45***
 
    \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
@@ -163,7 +158,7 @@ _**New in MTL 2.5**_
 
 **That's it for *Modeling to Learn* how to check our team trends. Next is our Done/Do review.**
 
-## Done and Do \(10 minutes\)
+## Done and Do \(15 minutes\)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
