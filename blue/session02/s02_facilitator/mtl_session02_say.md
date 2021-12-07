@@ -72,7 +72,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
-## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a pre-prepped data UI bookmark for today's session.
+## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
 - You will select your clinics using the columns present.
