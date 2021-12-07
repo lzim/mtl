@@ -1,7 +1,7 @@
 ---
-title: "MTL Session 02 - Facilitator Say"
+title: "MTL Red Part 1 - Facilitator Say - Viz"
 author: "Team PSD"
-date: "January 2022"
+date: "December 2021"
 release: "MTL 2.5"
 output: 
   github_document: default
@@ -12,19 +12,22 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
-     height = "175" width = "420">](#DontLink)
 
-# MTL Live Session 02
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
+     height = "175" width = "290">](#.)
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
+# MTL Red Part 1 - Visualization Tabs
+
+Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
+
+## Today we're modeling to learn from team trends.
 
 ## Done and Do
 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of \_______________ ; selected our Team Lead \_______________ ; and set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -33,13 +36,12 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 1. Describe the decisions your team made in producing your team data table.
 2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
-3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:10___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___Done by 00:15___
 
 ## In-Session Exercise
 
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:10-00:15___
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
 
 ### Participatory Learning from Simulation
 
@@ -58,11 +60,11 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ## Let's get started!
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:20-00:25___
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1.Open an internet browser window. Go to mtl.how/data 
+### 1. Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the Power BI site, ensure you have your PIV card to access the intranet site. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
     - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
@@ -127,20 +129,11 @@ _**New in MTL 2.5**_
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
-   - **What stands out to you about \________________________________**\(fill-in team vision\)?
-   - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
-    \(Prepare in advance, but ask this as an open-ended question\)?  
-   - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+   - **What stands out to you?**
+   - **What is most important to you to check out first?** (Prepare in advance, but ask this as an open-ended question)?  
+   - **What is most surprising?** (Prepare in advance, but ask this as an open-ended question)?
 
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
-
-### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
-   - Providers can filter to find specific patients, or produce reports.Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
-   - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-   - Providers can filter to find specific patients, or produce reports.
-   - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
-
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:45***
 
    \(During intersession prep facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
 
@@ -150,19 +143,10 @@ _**New in MTL 2.5**_
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
    |  |  |
 
-   - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number \(EBP template\) that the patient is on.
    - What **viz** tab would you use to see what the most common service encounters or visits are?
    - Are there services that have been **increasing over time?**
    - Are there services that have been **decreasing over time?**
-   - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
-
-**Filtering the "data" tabs:**
-
-- In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-- In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
-- **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-   - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-   - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
+   - With the team trends (viz) in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 **To save your work and return to it later, create a personal "Bookmark"**
 - To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
@@ -172,20 +156,20 @@ _**New in MTL 2.5**_
 
 **Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming. 
 
-**That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
+**That's it for *Modeling to Learn* how to check our team trends. Next is our Done/Do review.**
 
-## Done and Do \(10 minutes\)
+## Done and Do \(15 minutes\)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a team trend (zoom out). Log in to mtl.how/data and look at the team data.|
 
 ## DO demo
 
 1. **We encourage you to look around in your team data before next time.**
 2. **Go to mtl.how/data and open the team data in Power BI.**
-3. **Review your individual patient data and identify team trends.**
+3. **Review and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),

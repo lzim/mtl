@@ -1,7 +1,7 @@
 ---
-title: "MTL Session 02 - Facilitator Say Checklist"
+title: "MTL Red Part 1 - Facilitator Say"
 author: "Team PSD"
-date: " January 2022"
+date: "December 2021"
 release: "MTL 2.5"
 output: 
   github_document: default
@@ -13,10 +13,10 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
-     height = "175" width = "420">](#DontLink)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
+     height = "175" width = "290">](#.)
 
-# MTL Live Session 02 Facilitator Checklist
+# MTL Red Part I Facilitator Checklist
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 
@@ -26,7 +26,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -65,9 +65,7 @@ output:
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
-- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
-- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
-
+ 
 ## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
 
 ### 2. Your Team Data 
