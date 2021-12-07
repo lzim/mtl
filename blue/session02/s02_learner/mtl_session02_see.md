@@ -46,12 +46,19 @@ output:
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page. 
+### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page.
+- **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let your Facilitator know or contact MTL.Help@va.gov
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-### 2. Selecting & Viewing your Team Data. 
+Navigating to Report bookmarks:
+
+![](https://user-images.githubusercontent.com/59668647/144948911-656f8b78-69a9-4179-9756-4bf9d251e66f.png)
+
+### 2. Selecting & Viewing your Team Data
 - Now, use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
 - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
@@ -151,12 +158,14 @@ Note on Drill Up View:
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
-**To save your work and return to it later, use the "Bookmark" feature**
+**To save your work and return to it later, create a personal "Bookmark"**
 - To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
 - Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
 ![image](https://user-images.githubusercontent.com/89947989/144341211-4c8a6593-85d9-4f0a-a457-a6b0c61251dd.png)
 - This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
 - To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
+
+**Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming.
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
