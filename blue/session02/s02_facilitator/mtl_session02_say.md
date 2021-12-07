@@ -65,10 +65,14 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 ### 1.Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the Power BI site, ensure you have your PIV card to access the intranet site. This site contains Protected Health Information (PHI), so as a provider you will be granted access according to the permissions that are set up on your PIV.
+    - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
+## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a pre-prepped data UI bookmark for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
 - You will select your clinics using the columns present.
@@ -160,11 +164,13 @@ _**New in MTL 2.5**_
    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
 
-**To save your work and return to it later, use the "Bookmark" feature**
+**To save your work and return to it later, create a personal "Bookmark"**
 - To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
 - Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
 - This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
 - To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
+
+**Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming. 
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
