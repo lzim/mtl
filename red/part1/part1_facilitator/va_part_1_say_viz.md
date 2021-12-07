@@ -20,7 +20,7 @@ output:
 
 Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
-## Today we're modeling to learn from patient data and team trends.
+## Today we're modeling to learn from team trends.
 
 ## Done and Do
 
@@ -161,7 +161,7 @@ _**New in MTL 2.5**_
 
 **Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming. 
 
-**That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
+**That's it for *Modeling to Learn* how to check our team trends. Next is our Done/Do review.**
 
 ## Done and Do \(10 minutes\)
 
@@ -174,7 +174,7 @@ _**New in MTL 2.5**_
 
 1. **We encourage you to look around in your team data before next time.**
 2. **Go to mtl.how/data and open the team data in Power BI.**
-3. **Review your individual patient data and identify team trends.**
+3. **Review and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
