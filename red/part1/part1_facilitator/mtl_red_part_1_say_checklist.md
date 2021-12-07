@@ -1,5 +1,5 @@
 ---
-title: "MTL Red Part 1 - Facilitator Say Checklist"
+title: "MTL Red Part 1 - Facilitator Say"
 author: "Team PSD"
 date: "December 2021"
 release: "MTL 2.5"
@@ -13,8 +13,8 @@ output:
   powerpoint_presentation: default
 ---
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
-     height = "175" width = "420">](#DontLink)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
+     height = "175" width = "290">](#.)
 
 # MTL Red Part I Facilitator Checklist
 
