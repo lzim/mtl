@@ -65,7 +65,9 @@ output:
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
- 
+- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
+- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+
 ## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
 
 ### 2. Your Team Data 
