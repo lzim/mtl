@@ -91,11 +91,12 @@ To zoom in on the data and view it clearly, hover in the upper right hand corner
 
 
 **New in _MTL_ 2.5** 
-
-- _MTL_ 2.5 has 5 Data Tabs and 5 Viz Tabs. 
-- ** COPY OVER FROM JENN"S BRANCH**
-- (New!) Suicide and Behavior Risk Flags now has its own tab!
-   - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
+- _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
+   - Health Factors \(HF\)
+   - Diagnoses \(Diag\)
+   - Encounters \(Enc\),
+   - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
+   - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
 
@@ -131,27 +132,18 @@ Note on Drill Up View:
 
 ### 4. Click to view the "data" tab, which show your team's individual patient information.
 
-- Patients who have requested restricted access to their information have asterisks (****) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column. 
+ - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
 - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-- Providers can filter to find specific patients, or produce reports.
-- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
+ - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
+ - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+     - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+     - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
-![image](https://user-images.githubusercontent.com/89947989/143149459-245661e0-6e5e-4e69-8012-e6bd559e4fd6.png)
 
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** option would you use to see what the most common service encounters or visits are?
 - Are there services that have been increasing over time? Are there services that have been decreasing over time?
-
-**Filtering the "data" tabs:**
-
-- In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-- In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
-
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
-
-- **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-   - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-   - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
 
 **MTL 2.5**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
