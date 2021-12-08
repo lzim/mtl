@@ -84,10 +84,8 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 **Tips & Tricks**
 - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
-*Unselecting Choices*
-- To unselect an individual Division, Physical Location, etc, uncheck the selected box.
-- To clear selected choices in a **column**, hover in the upper right hand corner of the column and click on the 'Eraser' icon. 
-- To reset ALL choices in the interface across ALL tabs, click the "Reset" button in the upper bar. Note - the "reset" button will clear ALL choices across ALL Clinic Selection, Data, & Viz tabs, not just the given tab you are viewing.
+- To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
+- To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
@@ -96,14 +94,12 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - *Note: Zooming In* To zoom in on the data and view it clearly, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Hit "Back to Report" to return to the previous view. 
 
 **New in _MTL_ 2.5** 
-- Suicide and Behavior Risk Flags now has its own tab!
-   - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
-- _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
+- _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
    - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
-   - Suicide and Behavior Risk Flags \(Flag\)
+   - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) to access the document through VA intranet.
 - **If you don't have access to facilities that you believe you should, please verify:**
@@ -111,18 +107,16 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
    
 _**New in MTL 2.5**_
-- We are able to support Clinical Resource Hub providers in the new PBI Data UI because they are granted more than one local server access!
-- LSV permissioning for Learners still apply in the same way 
+- We are able to support Clinical Resource Hub providers in the Data UI because they are granted more than one local server access!
     
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 - Just like the facility data, there are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from mental health assistant.  Your team's vision was about \_______________.  Let's go to the \_________________ viz tab to see data relevant to that issue.
 - You can explore further in the "viz" tabs by right clicking on any trend line and "Show As Table." (The "Quick Explore" feature is no longer available.)
-
-**Tips & Tricks**
-- *Note on Drill Up View:* The "Drill Up" View shows a zoomed-out view of the data. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. To return to previous view, click on the forked downward arrow icon: 
-- *Zooming In* Hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
-- *Filters* In order to find filters and view specific variables, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-
+- *Note on Drill Up View:* The "Drill Up" View shows a zoomed-out view of team trends. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. 
+- *Filters* Zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+    - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- *Counts* To view the number of visits in a trend, right-click on the graph and "Show as table".
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
@@ -137,7 +131,9 @@ _**New in MTL 2.5**_
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
    - Providers can filter to find specific patients, or produce reports.Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
    - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-   - Providers can filter to find specific patients, or produce reports.
+   - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+       - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+       - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
@@ -155,22 +151,6 @@ _**New in MTL 2.5**_
    - Are there services that have been **increasing over time?**
    - Are there services that have been **decreasing over time?**
    - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
-
-**Filtering the "data" tabs:**
-
-- In order to find filters, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-- In order to apply filters, click on the column which needs to be filtered, and the appropriate filters will appear. 
-- **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-   - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-   - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
-
-**To save your work and return to it later, create a personal "Bookmark"**
-- To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
-- Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
-- This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
-- To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
-
-**Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming. 
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
