@@ -47,26 +47,28 @@ output:
 ## *MTL* Data UI
 
 ### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page.
-- **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let your Facilitator know or contact MTL.Help@va.gov
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
-- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
-- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-Navigating to Report bookmarks:
-
-![](https://user-images.githubusercontent.com/59668647/144948911-656f8b78-69a9-4179-9756-4bf9d251e66f.png)
 
 ### 2. Selecting & Viewing your Team Data
 - Now, use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
-- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
 - After making all your selections in a column, click the yellow "Apply" button. 
-- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; this will pull all clinics used in the last two years.
-- Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
+- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
+- Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button. 
+- Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
+
+**Navigating to Report Bookmarks:**
+- We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them. 
+- To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- If you make and want to save unique clinic selections to return to, you can "Create a Personal Bookmark" with this Bookmark icon.
+
+![](https://user-images.githubusercontent.com/59668647/144948911-656f8b78-69a9-4179-9756-4bf9d251e66f.png)
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
@@ -89,9 +91,11 @@ To zoom in on the data and view it clearly, hover in the upper right hand corner
 
 
 **New in _MTL_ 2.5** 
-- Suicide and Behavior Risk Flags now has its own tab!
+
+- _MTL_ 2.5 has 5 Data Tabs and 5 Viz Tabs. 
+- ** COPY OVER FROM JENN"S BRANCH**
+- (New!) Suicide and Behavior Risk Flags now has its own tab!
    - We know staff pay close attention behavioral and suicide risk and have now pulled those data and visualizations into their own separate tabs.
-- _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs. 
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
 
@@ -112,9 +116,7 @@ To zoom in on the data and view it clearly, hover in the upper right hand corner
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
 **New for _MTL_ 2.5** 
-- The "Quick Explore" feature is no longer available. 
 - To view the corresponding table to a given graph, right click on the graph and select "View as Table."
-- As described above, hover in the right hand corner and click on the "Focus Mode" icon to zoom in on the visualization.
 - In order to find filters and view specific variables, navigate to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
  
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tab_focus_mode_filters.gif?raw=true)](#DontLink)
@@ -122,7 +124,7 @@ To zoom in on the data and view it clearly, hover in the upper right hand corner
 For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
 
 Note on Drill Up View: 
-- To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of the data. 
+- To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of your team trends.
 - However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of   observation in each year, respectively for all of the months and years. 
 - To return to previous view, click on the forked downward arrow icon: 
         ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
@@ -147,25 +149,15 @@ Note on Drill Up View:
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
-**MTL 2.5**
-**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
-
 - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - You must **unhide the right-hand filter panel** in order to see which specific filters are active. 
 
-![image](https://user-images.githubusercontent.com/89947989/143321787-881e0f8f-17a6-4059-9363-f7f334d22442.png)
+**MTL 2.5**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
-**To save your work and return to it later, create a personal "Bookmark"**
-- To save your Data & Viz tabs in the Power BI app, navigate to the "Bookmark" icon and click "Add a personal Bookmark." 
-- Name the bookmark using the naming convention "100a1_abc_teama_YYYY_MM_DD"
-![image](https://user-images.githubusercontent.com/89947989/144341211-4c8a6593-85d9-4f0a-a457-a6b0c61251dd.png)
-- This will save all of the Clinic Selections, Data, & Viz tabs as they were at the time of creating the bookmark.
-- To update the information saved in an existing bookmark, hover over the three dots by the Bookmark name, and click "Update."
-
-**Note:** Power BI does not currently support sharing personal bookmarks, but this feature will be coming.
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
