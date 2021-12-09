@@ -51,6 +51,7 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
+## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data
 - Now, use the columns to select the clinics that make up your team.
@@ -62,11 +63,10 @@ output:
 - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button. 
 - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
-**Navigating to Report Bookmarks:**
-- We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them. 
+- We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them now. 
 - To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
-- If you make and want to save unique clinic selections to return to, you can "Create a Personal Bookmark" with this Bookmark icon.
+- If you want to view specific data (for example, for your patients), you can make and save unique clinic selections to return to with a Personal Bookmark. Use the "Create a Personal Bookmark" with this Bookmark icon.
 
 ![](https://user-images.githubusercontent.com/59668647/144948911-656f8b78-69a9-4179-9756-4bf9d251e66f.png)
 
