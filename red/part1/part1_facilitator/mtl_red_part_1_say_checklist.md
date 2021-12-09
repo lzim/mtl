@@ -36,12 +36,12 @@ output:
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:15___
 
 ## Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.
 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
 ## Participatory Learning from Data
 - [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
 - [ ] We use the data user interface (UI) to:
@@ -52,7 +52,7 @@ output:
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
@@ -81,7 +81,7 @@ output:
 
 -  [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
@@ -89,7 +89,7 @@ output:
 -  [ ] **What is most surprising?**  
     [Prepare in advance, but ask this as an open-ended question]?  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 
@@ -97,7 +97,7 @@ output:
 -  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
 -  [ ] Providers can filter to find specific patients, or produce reports.
     
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
 
 Time Stamp | Team Learning Priorities | Script 
