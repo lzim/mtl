@@ -59,25 +59,23 @@ output:
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 ### 1. On any browser, navigate to mtl.how/data.
-- [ ] Explain the Power BI site.
+- [ ] Explain the MTL data user interface Power BI site
 	- You must have your PIV engaged to access the site.
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
-- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
-- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
 ## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
 
 ### 2. Your Team Data 
+- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
+- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
--  **With your team lead (________), we selected the following clinics to represent your team.**
- 
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**  
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
