@@ -45,10 +45,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 This graphic illustrates how **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 
-- We use the data user interface (UI) to look back at team trends over the past two years.
-- We review the last two years of data to see *what is* in our team now.
+- We use the data user interface (UI) to look back at team trends over the past two years to see *what is* in our team now.
 - A backward looking data review is limited for guiding effective change.
-- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo existing trends.
+- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 - What we're doing today is that *looking back* using the data UI.
@@ -69,12 +68,12 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
-- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
-- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 
-## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
+- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - Select your clinics using the columns to make up your localized team-level data.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
    - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
