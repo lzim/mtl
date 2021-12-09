@@ -105,7 +105,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) through VA intranet.
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
        
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 - The Viz tab shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
