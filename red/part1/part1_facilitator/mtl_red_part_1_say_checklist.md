@@ -20,18 +20,18 @@ output:
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 
-- [ ] Navigate to the Learner See Guide for Session 2 to show Done and Do
+- [ ] Navigate to the Learner See Guide for Part I to show Done and Do
 
 ## Done and Do
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at __________. We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-## Learning Objectives for Session 2
+## Learning Objectives for Part I
 1. Describe the decisions your team made in producing your team data.
 2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
@@ -42,15 +42,13 @@ output:
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
-## Participatory Learning from Simulation
-- [ ] Graphic: how *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
+## Participatory Learning from Data
+- [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
 		* Backward looking data review is limited for guiding effective change.
 * Reviewing trends: may like or not like the trends; may not know what is causing those trends; may be afraid that the next change we might make will undo it. 
-- [ ] Review use of sim UI – to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. 
-<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
@@ -59,23 +57,23 @@ output:
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 ### 1. On any browser, navigate to mtl.how/data.
-- [ ] Explain the Power BI site.
+- [ ] Explain the MTL data user interface Power BI site
 	- You must have your PIV engaged to access the site.
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
- 
+
 ## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
 
 ### 2. Your Team Data 
+- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
+- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
--  **With your team lead (________), we selected the following clinics to represent your team.**
- 
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**  
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
@@ -119,4 +117,4 @@ Time Stamp | Team Learning Priorities | Script
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data. |
