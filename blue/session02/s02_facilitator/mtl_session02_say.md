@@ -111,10 +111,10 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - The Viz tab shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
 - You can explore further Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend (The "Quick Explore" feature is no longer available.)
-- **Note**: The "Drill Up" View shows a zoomed-out view of team trends. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. 
 - **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
     - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
     - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- **Note**: The "Drill Up" View shows a zoomed-out view of team trends. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. 
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
