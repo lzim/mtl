@@ -114,7 +114,6 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
     - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
     - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-- **Note**: The "Drill Up" View shows a zoomed-out view of team trends. However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of observation in each year, respectively for all of the months and years. 
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
@@ -125,6 +124,12 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
+
+**Tips & Tricks**
+- To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of your team trends.
+- However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of   observation in each year, respectively for all of the months and years. 
+- To return to previous view, click on the forked downward arrow icon: 
+        ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
 
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
    - Providers can filter to find specific patients, or produce reports. Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
