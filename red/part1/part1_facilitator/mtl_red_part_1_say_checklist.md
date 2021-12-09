@@ -43,7 +43,7 @@ output:
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 ## Participatory Learning from Data
-- [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
+- [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
