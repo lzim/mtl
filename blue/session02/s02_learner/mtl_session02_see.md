@@ -75,7 +75,6 @@ output:
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - If you want to create a view for specific personal data, you can make and save unique clinic selections to return to with a Personal Bookmark. Use the "Create a Personal Bookmark" with this Bookmark icon.
-![](https://user-images.githubusercontent.com/59668647/144948911-656f8b78-69a9-4179-9756-4bf9d251e66f.png)
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
