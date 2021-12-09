@@ -79,7 +79,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
    - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.  
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
