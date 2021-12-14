@@ -50,6 +50,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - What we're doing today is *looking back* using the data UI to think through how it can help us look ahead.
+- We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can** zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
+
+ 
 
 ## In-Session Exercise
 
