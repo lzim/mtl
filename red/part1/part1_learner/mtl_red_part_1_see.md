@@ -40,7 +40,7 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can** zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
+We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
 ## *MTL* Data UI
 
