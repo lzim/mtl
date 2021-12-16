@@ -50,38 +50,35 @@ output:
   - Care Coordination (CC)
   - Medication Management (MM)
   - Psychotherapy (PSY)
-  - Aggregate team services (AGG)
+  - Team (AGG) Care
   - Measurement-based stepped care and suicide prevention (SP)
-- On the Data UI Landing page, Click on "Data UI (Team Data)." Click on the  **ClinicSelection tab** and select a set of clinics similar to what you did for the Data & Viz tabs.
+- On the Data UI Landing page, Click on "Data UI (Team Data)." Click on the  **ClinicSelection tab** select the same set of clinics you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
 
 [INSERT GIF HERE OF CLINICS SELECTIONS FOR PARAMS] 
 
 - *Coming Soon!* If you want to produce data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
-- Click on the module drop-down to select the module you want and select "Create Team Data Table."
 
 [![referrals tab screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/spreferrals_tabs.gif)](#DontLink)
 
-[**JENN - DOES THIS STILL APPLY]
   - If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
-
-[![three pop ups screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif)](#DontLink)
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ### 1. Select a module for review
 
-- Find a variable that is important to your team. How is it estimated in this table? What are its units?
+- Find a variable that is important to your team. How is it estimated in this tab? What are its units?
 - Where can you find even more detailed information about your team data?
 - Check out the last two columns. What is the difference between these two columns?
 
 ### 2. Select a second module for review
 
-- Check out the last two columns.
-- Find a variable that is important to you team. How is it estimated in this table? What are its units?
+- Check out the two corresponding tabs related to each to module. What is the difference between these two tabs?
+- Find a variable that is important to you team. How is it estimated in this tab? What are its units?
 - Where can you find even more detailed information about your team data?
 
-### 3. Are there any team data table values you would like to explore in the team data UI?
+
+### 3. Are there any team data values you would like to explore in the team data UI?
 
 - If so, which ones? Open the data UI to examine your question.
 
