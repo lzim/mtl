@@ -43,9 +43,8 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you click the "Create Team Data Table" button, it produces a table of descriptive team data.
+### When you make Clinic Selections & click the "Apply" button, it produces a table of descriptive team data.
 
-- We will not do this in-session today. You already have a fresh Team Data Table to work with in your team team_data_table folder.
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
 - There are team data produced for each module of *Modeling to Learn.*
   - Care Coordination (CC)
@@ -53,26 +52,22 @@ output:
   - Psychotherapy (PSY)
   - Aggregate team services (AGG)
   - Measurement-based stepped care and suicide prevention (SP)
-- Select a set of clinics in **ClinicSelection tab** similar to what you did for the data UI.
-- If you want to produce a team data table for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
+- On the Data UI Landing page, Click on "Data UI (Team Data)." Click on the  **ClinicSelection tab** and select a set of clinics similar to what you did for the Data & Viz tabs.
+
+[INSERT GIF HERE OF CLINICS SELECTIONS FOR PARAMS] 
+
+- *Coming Soon!* If you want to produce data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
 - Click on the module drop-down to select the module you want and select "Create Team Data Table."
 
 [![referrals tab screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/spreferrals_tabs.gif)](#DontLink)
 
-**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
-
-### New for _MTL_ 2.0**
-
-- The "SPTransfers" tab is now called "SPReferrals."
-- "Create Team Data Table for Sim UI" is now called "Create Team Data Table."
-- In the future, if you would like to use the same clinic selections for pulling new parameters, you can select the "Get previous clinic list from Create Team Data Table file" arrow in Column B (Cell B4).
-- You can now generate a team data table for all the modules without SP (called "All without SP" in the dropdown next to the "Create Team Data Table" button), or all the modules with SP (called "All with SP" in the dropdown next to the "Create Team Data Table" button).
-- The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.
+[**JENN - DOES THIS STILL APPLY]
   - If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
 [![three pop ups screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/three_pop_ups.gif)](#DontLink)
 
-For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md).
+**_MTL_ 2.5.**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ### 1. Select a module for review
 
@@ -100,7 +95,8 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 
 [![session 3 data ui parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink)
 
-**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session03_see.md)**
+**_MTL_ 2.5.**
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ## Done and Do (15 minutes)
 
