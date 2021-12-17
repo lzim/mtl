@@ -52,7 +52,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
 
 ### 2. When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
-#### IMPORTANT: We already have a "Report Bookmark" with your Clinic Selections saved from last time. Click on the "Bookmark" icon and select your Team Name to locate it.
+#### IMPORTANT: We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon and select your Team Name to locate it.
 - [ ] Data in the "Team Data" tab are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
 - [ ] There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
    + Care Coordination (CC) - tab title *Care Coordination (CC)*
@@ -61,7 +61,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
    + *Coming Soon!* Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
-*- [ ] Your Clinic Selections are already saveed for you, but to do it for yourself:*  
+*- [ ] Your Clinic Selections are already saved for you, but to do it for yourself:*  
     -- [ ] Select a set of clinics in **ClinicSelection tab**.  
     -- [ ] Click "Apply."
     
