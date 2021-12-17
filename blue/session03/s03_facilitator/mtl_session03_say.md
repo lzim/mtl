@@ -53,16 +53,12 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 ### Navigate to the data UI at mtl.how/data.
 
-- You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
-- Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.
+- You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
+- On the Data UI Landing page, click on "Data UI (Team Data)." 
+- You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on "Data UI (Team Data)."
+- Click on the  **ClinicSelection tab** select the same set of clinics you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
 
-### Clicking the "Create Team Data Table" button produces a table of descriptive team data/
-
-**You already have a fresh Team Data Table file to work with in the team_data_table folder.**
-
-- It takes some time to generate a team data table for all modules using your team's data.
-
-- On average (depending on the size of your team) it may take 15 minutes or so to generate a team data table. And, Microsoft Excel will be unresponsive until it is finished.
+###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
 - This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data."
 
