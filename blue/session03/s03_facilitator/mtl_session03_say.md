@@ -37,11 +37,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Learning Objectives
 
-1. Describe your team trends over the last two years based on the estimates in the team data table.
+1. Describe your team trends over the last two years based on the estimates in the team data.
 
 2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
+3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## Let's get started!
 
@@ -56,7 +56,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
 - On the Data UI Landing page, click on "Data UI (Team Data)." 
 - You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on "Data UI (Team Data)."
-- Click on the  **ClinicSelection tab** select the same set of clinics you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
+- Click on the  **ClinicSelection tab**. 
 
 ###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
@@ -75,7 +75,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
   - In order to capture parameters that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
   - For parameters that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
-- We have already saved your Clinic Selections for you in your team's **Report Bookmark,** which you can find by clicking on the **Bookmark** icon at the top right of your screen. But to make clinic selections yourself:
+- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen and finding the bookmark with your Team Name. But to make clinic selections yourself:
   - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
   
   *Coming Soon!* 
