@@ -57,10 +57,7 @@ output:
 [INSERT GIF HERE OF CLINICS SELECTIONS FOR PARAMS] 
 
 - *Coming Soon!* If you want to produce data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
-
-[![referrals tab screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/spreferrals_tabs.gif)](#DontLink)
-
-  - If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
+  -*Coming Soon!* If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
@@ -69,14 +66,13 @@ output:
 
 - Find a variable that is important to your team. How is it estimated in this tab? What are its units?
 - Where can you find even more detailed information about your team data?
-- Check out the last two columns. What is the difference between these two columns?
+- Check out the two corresponding tabs related to each module. What is the difference between these two tabs?
 
 ### 2. Select a second module for review
 
-- Check out the two corresponding tabs related to each to module. What is the difference between these two tabs?
+- Check out the two corresponding tabs related to each module. What is the difference between these two tabs?
 - Find a variable that is important to you team. How is it estimated in this tab? What are its units?
 - Where can you find even more detailed information about your team data?
-
 
 ### 3. Are there any team data values you would like to explore in the team data UI?
 
@@ -90,7 +86,7 @@ output:
 
 - If so, what are you noticing? In what ways does the team data fit with your day-to-day clinical practice in your team?
 
-[![session 3 data ui parameters screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session3_data_ui_params.gif)](#DontLink)
+[INSERT NEW GIF 2 HERE]
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
