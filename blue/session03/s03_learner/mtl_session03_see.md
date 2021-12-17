@@ -33,11 +33,11 @@ output:
 
 ## Learning Objectives
 
-1. Describe your team trends over the last two years based on the estimates in the team data table.
+1. Describe your team trends over the last two years based on the estimates in the team data.
 
 2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
+3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## In-session Exercise (30 minutes)
 
@@ -52,7 +52,10 @@ output:
   - Psychotherapy (PSY)
   - Team (AGG) Care
   - Measurement-based stepped care and suicide prevention (SP)
-- On the Data UI Landing page, Click on "Data UI (Team Data)." Click on the  **ClinicSelection tab** select the same set of clinics you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
+- On the Data UI Landing page, Click on "Data UI (Team Data)." 
+- Click on the  **ClinicSelection tab**. 
+- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen and finding the bookmark with your Team Name.
+- To make clinic selections yourself, you can select the same set of clinics selections you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_team_data_landing_page.gif?raw=true)](#DontLink)
 
