@@ -29,7 +29,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 
 
 <!-- Learning Objectives Icon --> 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
 ## Learning Objectives for Session 3
 1. Describe your team trends over the last two years based on the estimates in the team data.
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
