@@ -43,7 +43,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### When you make Clinic Selections & click the "Apply" button, it produces a table of descriptive team data.
+### When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
 - Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
 - There are team data produced for each module of *Modeling to Learn.*
