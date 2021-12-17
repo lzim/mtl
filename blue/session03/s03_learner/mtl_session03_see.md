@@ -64,14 +64,14 @@ output:
 
 ### 1. Select a module for review
 
-- Find a variable that is important to your team. How is it estimated in this tab? What are its units?
+- Find a variable that is important to your team. How is it estimated in this module? What are its units?
 - Where can you find even more detailed information about your team data?
-- Check out the two corresponding tabs related to each module. What is the difference between these two tabs?
+- Check out the "Descriptions" Tab and the "Details" Tab corresponding to this module. What is the difference between the "Descriptions" and "Details" tabs?
 
 ### 2. Select a second module for review
 
-- Check out the two corresponding tabs related to each module. What is the difference between these two tabs?
-- Find a variable that is important to you team. How is it estimated in this tab? What are its units?
+- Check out the "Descriptions" Tab and the "Details" Tab corresponding to this module. What is the difference between the "Descriptions" and "Details" tabs?
+- Find a variable that is important to your team. How is it estimated in this module? What are its units?
 - Where can you find even more detailed information about your team data?
 
 ### 3. Are there any team data values you would like to explore in the team data UI?
