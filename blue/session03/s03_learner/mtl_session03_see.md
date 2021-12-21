@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 3 - Learner See"
 author: "Team PSD"
-date: "February 2021"
-release: "MTL 2.0"
+date: "January 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -83,7 +83,7 @@ output:
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
-- If so, what is surprising? Does the estimation definition (second to last column, text in red) help you to interpret the variable value?
+- If so, what is surprising? Does the estimation definition (text in red) help you to interpret the variable value?
 
 ### 5. Does the team see any values in the team data that fit your expectations about high priority team needs?
 
