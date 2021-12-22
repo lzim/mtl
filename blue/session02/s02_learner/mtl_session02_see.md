@@ -110,11 +110,13 @@ _To make Clinic Selections without Bookmarks:_
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
+For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
+
 - What stands out to you?
 - What is most important to you to check out first?
 - What is most surprising?
 
-For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
+
 
 **Tips & Tricks**
 - To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of your team trends.
