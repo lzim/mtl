@@ -44,7 +44,7 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page.
+### 1. Open an internet browser window. Go to mtl.how/data. 
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
