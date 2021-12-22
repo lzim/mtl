@@ -47,30 +47,33 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data. You should see the Power BI Landing page.
+### 1. Open an internet browser window. Go to mtl.how/data. 
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps, but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data
 
-- We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them now. 
+We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them now. 
 - To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
-
-- Use the columns to select the clinics that make up your team.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
-  - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button. 
-- After making all your selections in a column, click the yellow "Apply" button. 
+- Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
-  - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
+
  
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
+
+_If you were to make new Clinic Selections yourself:_
+- Use the columns to select the clinics that make up your team.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
+- Make sure to click "Apply."
+  - Note: Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button. 
+  - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
