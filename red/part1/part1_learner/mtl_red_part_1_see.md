@@ -58,7 +58,6 @@ We have your Team's Clinic Selections pre-bookmarked for convenience, so you don
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
-
  
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
@@ -99,12 +98,13 @@ _To make Clinic Selections without Bookmarks:_
 
 ### 3. Click to view the "viz" tab, which show team trends.
 
-- The Viz tab shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+- The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
 - You can explore further Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend (The "Quick Explore" feature is no longer available.)
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
      - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
      - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
+
 For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
 
 - What stands out to you?
@@ -120,12 +120,13 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 
 ### 4. Click to view the "data" tab, which show your team's individual patient information.
 
-- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+ - In the data tabs, provderis can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+ - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
+
+**Tips & Tricks**
+ - If you do not see something that you would expect or previously saw, check to see if a filter is applied by clicking on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+ - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
- - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
- - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-     - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-     - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
 
