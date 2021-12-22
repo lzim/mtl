@@ -65,7 +65,7 @@ We have your Team's Clinic Selections pre-bookmarked for convenience, so you don
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
-_If you were to make new Clinic Selections yourself:_
+_To make Clinic Selections without Bookmarks:_
 - Use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive column.
 - Make sure to click "Apply."
