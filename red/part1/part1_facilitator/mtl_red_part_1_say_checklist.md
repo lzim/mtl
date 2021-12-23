@@ -68,6 +68,9 @@ output:
 ### 2. Your Team Data 
 - [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
 - [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- [ ] Click "Apply"
+
+_To make Clinic Selections without Bookmarks:_
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
@@ -79,13 +82,13 @@ output:
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
 - [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
--  [ ] - Your team's vision was about ____________. Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+-  [ ] Your team's vision was about ____________.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended question?  
+    Prepare in advance, but ask this as an open-ended question?  
 -  [ ] **What is most surprising?**  
     [Prepare in advance, but ask this as an open-ended question]?  
 
