@@ -81,7 +81,7 @@ output:
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
 - [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
-- [ ] - Your team's vision was about ____________. Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+- [ ] Your team's vision was about ____________. Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
