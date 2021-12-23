@@ -33,7 +33,7 @@ output:
 
 ## Learning Objectives for Part I
 1. Describe the decisions your team made in producing your team data.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:15___
@@ -63,7 +63,7 @@ output:
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
 
-## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Your Team Data 
 - [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
@@ -78,7 +78,8 @@ output:
 
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
--  [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+- [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
+-  [ ] - Your team's vision was about ____________. Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
 -  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
@@ -92,10 +93,10 @@ output:
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 
--  [ ]  Patients with restricted access to their information have asterisks (****)  
--  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
--  [ ] Providers can filter to find specific patients, or produce reports.
-    
+-  [ ] In the data tabs, you can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
+-  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
+-  [ ] Patients with restricted access to their information have asterisks (****)
+
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
 
