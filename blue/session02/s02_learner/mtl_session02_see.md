@@ -102,7 +102,7 @@ _To make Clinic Selections without Bookmarks:_
 ### 3. Click to view the "viz" tab, which show team trends.
 
 - The Viz tab helps providers _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-- You can explore Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend. **Do we need this Jenn, also is this accurate*
+- Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
 - Filter trends and zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
      - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
      - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
