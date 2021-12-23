@@ -81,7 +81,7 @@ We have your Team's Clinic Selections pre-bookmarked* for convenience, so you do
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
 
-*_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager] (https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
+*_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
 
 _To make Clinic Selections without Bookmarks:_
 - Select your clinics using the columns to make up your localized team-level data.
