@@ -66,6 +66,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 - This will take you to the MTL data user interface Power BI site. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
     - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
+    - _For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
@@ -74,11 +75,13 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 
 ### 2. Selecting & Viewing your Team Data. 
 
-We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them now. 
+We have your Team's Clinic Selections pre-bookmarked* for convenience, so you don't have to manually select them now. 
 - To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
+
+*_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager] (https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
 
 _To make Clinic Selections without Bookmarks:_
 - Select your clinics using the columns to make up your localized team-level data.
