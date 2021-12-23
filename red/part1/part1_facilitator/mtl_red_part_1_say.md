@@ -49,7 +49,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - We use the data user interface (UI) to look back at team trends over the past two years to see *what is* in our team now.
 - Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
-- What we're doing today is *looking back* using the data UI to think through how it can help us look ahead.
+- What we're doing today is *looking back* using the data UI.
 - We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
  
@@ -109,7 +109,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
        
 ### 3. **Click to view the "viz" tabs, which show team trends.**
-- The Viz tab shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
+- The Viz tab helps us _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
 - You can explore further Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend (The "Quick Explore" feature is no longer available.)
 - **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
@@ -133,12 +133,13 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
         ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
 
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
-   - Providers can filter to find specific patients, or produce reports. Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
-   - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-   - Providers can zoom in to filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide the filter panel.
-       - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-       - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+- We can filter to find specific patients or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide the filter panel.
+
+**Tips & Tricks**
+ - If you do not see something that you would expect or previously saw, check to see if a filter is applied by clicking on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
+ - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
