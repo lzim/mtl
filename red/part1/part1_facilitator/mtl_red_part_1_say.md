@@ -73,19 +73,24 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
-- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+We have your Team's Clinic Selections pre-bookmarked for convenience, so you don't have to manually select them now. 
+- To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- Click the yellow "Apply" button. 
+- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
+
+_To make Clinic Selections without Bookmarks:_
 - Select your clinics using the columns to make up your localized team-level data.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
+- Make sure to click "Apply."
    - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
+   - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
+   
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
--  After making all your selections in a column, click the yellow "Apply" button.
--  Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; This will pull all clinics used in the last two years.
-   - **Note**: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
 
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
@@ -111,7 +116,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 - The Viz tab helps us _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
-- You can explore further Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend (The "Quick Explore" feature is no longer available.)
+- Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table". (_Note_ The "Quick Explore" feature is no longer available.)
 - **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
     - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
     - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
