@@ -44,22 +44,23 @@ Do: We will examine team data and produce team data for the MTL simulation user-
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
-### 1. Navigate to the data UI at mtl.how/data. 
+### 1. Navigate to the data UI at mtl.how/data. Click on "Data UI (Team Data)."
 - [ ] Data UI on VA's secure Power BI site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
-- [ ] On the Data UI Landing page, click on "Data UI (Team Data)." 
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
 
 ### 2. When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
-#### IMPORTANT: We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon and select your Team Name to locate it.
+
 - [ ] Data in the "Team Data" tab are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
-- [ ] There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
+- [ ] In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
    + Care Coordination (CC) - tab title *Care Coordination (CC)*
    + Medication Management (MM) - tab title *Medication Management (MM)*
    + Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
    + *Coming Soon!* Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
+
+- [ ] We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon, "Show More Bookmarks" and select your Team Name.
 
 *- [ ] Your Clinic Selections are already saved for you, but to do it for yourself:*  
     -- [ ] Select a set of clinics in **ClinicSelection tab**.  
@@ -104,7 +105,7 @@ Do: We will examine team data and produce team data for the MTL simulation user-
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu to prioritize your needs. Responses are confidential.  
 ### DO demo
--	Encourage team members to look around in the team data table before next time. 
+-	Encourage team members to look around in the team data tabs before next time. 
 -	Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
 -	The username is yout VA email. It will take about 5 minutes. 
 -	Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
