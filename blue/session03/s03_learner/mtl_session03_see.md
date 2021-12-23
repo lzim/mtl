@@ -45,17 +45,20 @@ output:
 
 ### When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
-- Data are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
-- There are team data produced for each module of *Modeling to Learn.*
+- Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
+- In today's session, we will make ClinicSelections to review team data estimates related to common care problems, each stored in their own _Modeling to Learn_ tabs:
   - Care Coordination (CC)
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
   - Measurement-based stepped care and suicide prevention (SP)
-- On the Data UI Landing page, Click on "Data UI (Team Data)." 
-- Click on the  **ClinicSelection tab**. 
-- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen and finding the bookmark with your Team Name.
-- To make clinic selections yourself, you can select the same set of clinics selections you made for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
+- These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
+- At [mtl.how/data](https://mtl.how/data), Click on **"Data UI (Team Data)"**
+- In the Dropdown menu that appears, click on the  **ClinicSelection tab**. 
+- We have already saved your Team's Clinic Selections in your team's **Report Bookmark.** 
+    - To find your Team Bookmark, click on the **Bookmark** icon at the top right of your screen, then "Show More Bookmarks" and click the Bookmark with your Team Name.
+    - To make clinic selections yourself, you can select the same set of clinics selections you chose for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above.
+    - Click "Apply"
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_team_data_landing_page.gif?raw=true)](#DontLink)
 
