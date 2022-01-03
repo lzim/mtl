@@ -51,7 +51,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 - What we're doing today is that *looking back* using the data UI.
-- We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
+- We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we **zoom out** to see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ## In-Session Exercise
