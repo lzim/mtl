@@ -40,7 +40,6 @@ output:
 
 ## Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.
 
-
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
 ## Participatory Learning from Data
 - [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
@@ -56,7 +55,7 @@ output:
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 ### 1. On any browser, navigate to mtl.how/data.
-- [ ] Explain the MTL data user interface Power BI site
+- [ ] Explain the MTL data user interface Power BI site:
 	- You must have your PIV engaged to access the site.
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
@@ -67,10 +66,9 @@ output:
 
 ### 2. Your Team Data 
 - [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
-- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
-- [ ] Click "Apply"
+- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name, then click "Apply".
 
-_To make Clinic Selections without Bookmarks:_
+_To make Clinic Selections by yourself:_
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
@@ -82,15 +80,15 @@ _To make Clinic Selections without Bookmarks:_
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
 - [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
--  [ ] Your team's vision was about ____________.  Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+-  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
--  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
+-  [ ] **What stands out to you about _____________________________ [fill-in team vision]?**  
   
--  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    Prepare in advance, but ask this as an open-ended question?  
+-  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
+    [Prepare in advance, but ask this as an open-ended question.]
 -  [ ] **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended question]?  
+    [Prepare in advance, but ask this as an open-ended question.] 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
 
