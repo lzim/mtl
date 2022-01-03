@@ -25,7 +25,7 @@ output:
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: Reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out). 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
-Do: We will examine team data and produce team data for the MTL simulation user-interface (sim UI).  
+Do: We will examine team data and produce team data for the _MTL_ simulation user-interface (sim UI).  
 
 
 <!-- Learning Objectives Icon --> 
