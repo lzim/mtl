@@ -62,9 +62,9 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 
 - [ ] We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon, "Show More Bookmarks" and select your Team Name.
 
-*- [ ] Your Clinic Selections are already saved for you, but to do it for yourself:*  
-    -- [ ] Select a set of clinics in **ClinicSelection tab**.  
-    -- [ ] Click "Apply."
+- [ ] *Your Clinic Selections are already saved for you, but to do it for yourself:*  
+    - Select a set of clinics in **ClinicSelection tab**.  
+    - Click "Apply."
     
 ### *Coming Soon* See SAY guide for narration details on generating file for SP module  
  
@@ -78,8 +78,8 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 - [ ] Find a variable important to your team. Look at how it is estimated in the tab and notice the units.  
 - [ ] The Team Data tabs have more detailed information about team data.  
 - [ ] Review  the "Descriptions" and "Details" tabs below the tab with the numerical data [show with mouse]:  
-	-- The "Descriptions" Tab [click on Tab] gives the description or definition of the variable.  
-	-- The "Details" Tab [click on Tab] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends. 
+	- The "Descriptions" Tab [click on Tab] gives the description or definition of the variable.  
+	- The "Details" Tab [click on Tab] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends. 
 	
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:35-00:45 – Select and review a second *MTL* Module**  
 
