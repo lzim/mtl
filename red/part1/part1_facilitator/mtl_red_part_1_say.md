@@ -81,16 +81,14 @@ We have your Team's Clinic Selections pre-bookmarked* for convenience. (_For ins
 
 To make Clinic Selections by yourself:
 - Select your clinics using the columns to make up your localized team-level data.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic columns.
 - Make sure to click "Apply."
-   - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
+   - *Note:* Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
    - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
    
-
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
-
 
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
