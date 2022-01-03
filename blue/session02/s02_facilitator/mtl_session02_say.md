@@ -179,7 +179,7 @@ To make Clinic Selections by yourself:
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\)
-   - Measurement Based Stepped Care and Suicide Prevention (SP) and
+   - Measurement Based Stepped Care and Suicide Prevention (Meas) and
    - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
