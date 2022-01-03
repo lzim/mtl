@@ -53,7 +53,6 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
  
-
 ## In-Session Exercise
 
 ## Let's get started!
@@ -65,8 +64,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ### 1. Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the MTL data user interface Power BI site. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
-    - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
-    - _For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
+   - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
@@ -74,19 +72,18 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
-We have your Team's Clinic Selections pre-bookmarked* for convenience, so you don't have to manually select them now. 
+
+We have your Team's Clinic Selections pre-bookmarked* for convenience. (_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
 - To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
 
-*_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_
-
-_To make Clinic Selections without Bookmarks:_
+To make Clinic Selections by yourself:
 - Select your clinics using the columns to make up your localized team-level data.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
 - Make sure to click "Apply."
-   - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
+   - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
    - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
    
 
@@ -106,7 +103,7 @@ _To make Clinic Selections without Bookmarks:_
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
-   - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
+   - Measurement Based Stepped Care and Suicide Prevention \(Meas\) and
    - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) to access the document through VA intranet.
@@ -119,10 +116,9 @@ _To make Clinic Selections without Bookmarks:_
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 - The Viz tab helps us _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
-- Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table". (_Note_ The "Quick Explore" feature is no longer available.)
-- **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
+- Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
@@ -182,7 +178,7 @@ _To make Clinic Selections without Bookmarks:_
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\)
-   - Measurement Based Stepped Care and Suicide Prevention (SP) and
+   - Measurement Based Stepped Care and Suicide Prevention (Meas) and
    - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
