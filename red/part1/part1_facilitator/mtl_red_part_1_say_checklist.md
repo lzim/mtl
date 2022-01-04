@@ -100,6 +100,7 @@ _To make Clinic Selections by yourself:_
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
+(During intersession prep, facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.)
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
