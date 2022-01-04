@@ -100,12 +100,10 @@ _To make Clinic Selections by yourself:_
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
-
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Keep an eye on time  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-
 
 -  [ ] What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
 -  [ ] What **viz** tab would you use to see what the most common service encounters or visits are?  
