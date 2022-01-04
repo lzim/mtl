@@ -24,11 +24,10 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 **As you see in the Done and Do table of the Learner See Guide at mtl.how:**
 
 ## Done and Do (15 minutes)
-
-<!-- Done and Do Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+<!-- Done and Do Table -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc and SP tabs in the Team Data UI to find a patient and a team trend. We logged in to mtl.how/data and looked at the two team folders: data_UI and team_data_table. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will produce our team_data_table for the MTL simulation user-interface (sim UI).|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will examine team data and produce team data for the MTL simulation user-interface (sim UI).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
 
 **After this session you will be able to:**
 
@@ -55,27 +54,27 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 - You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
 - On the Data UI Landing page, click on "Data UI (Team Data)." 
-- You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on "Data UI (Team Data)."
+- You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on **"Data UI (Team Data)."**
 - Click on the  **ClinicSelection tab**. 
 
 ###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
-- These tabs are different from the ones you generated last time by selecting the clinics that make up your team and then clicking "Apply."
-
-- Data in these tabs are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data, or parameters.
-
-- There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
+- Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
+- In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
   - Care Coordination (CC)
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
   - Measurement-based stepped care and suicide prevention (SP)
+- These **Team Data** we are viewing today are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data.
 
 - The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
-  - In order to capture parameters that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
-  - For parameters that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
+  - In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
+  - For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
-- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen and finding the bookmark with your Team Name. But to make clinic selections yourself:
+- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen, clicking "Show More Boorkmarks," and finding the bookmark with your Team Name. 
+
+- To make clinic selections yourself:
   - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
   
   *Coming Soon!* 
@@ -92,7 +91,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - *Medication Management (MM)*: Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and slots allocation percent for providers with and without an X waiver.
 - *Psychotherapy (PSY)*: Key variables that can be explored in PSY include median engagement duration and engagement after the patient's first 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
 - *Team (AGG) Care*: Key variables in Team Care include median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
-- *Measurement-based stepped care and suicide prevention (SP)*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
+- *Coming Soon!* *Measurement-based stepped care and suicide prevention (SP)*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
 
 Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.
 
@@ -138,7 +137,7 @@ Check out the different modules that are highlighted in the team data on the scr
 
 ## DO demo
 
-1. We encourage you to look around in the team data table before next time. Test whether you can find a piece of data you decide to look for. Just take a minute, if you can, to become familiar with the format and content of the data table. Remember, you can click through the Params tabs, one for each module, to dig into the details of how each parameter is calculated in the text columns to the right of the numerical data.
+1. We encourage you to look around in the team data before next time. Test whether you can find a piece of data you decide to look for. Just take a minute, if you can, to become familiar with the format and content of the data tab. Remember, you can click through the Team Data tabs, one for each module, to dig into the details of how each value is calculated in the text columns to the right of the numerical data.
 2. The next thing we ask is that each member of the team fill out a short form that you'll find at mtl.how/menu. It will take about 5 minutes. Your responses will be confidential; no identifying information is collected.
 3. We will aggregate the responses and consider them together in the next session to help the team choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
 

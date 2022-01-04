@@ -24,7 +24,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of \_______________ ; selected our Team Lead \_______________ ; and set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision of \_______________ ; selected our Team Lead \_______________ ; and set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will confirm the clinics that make up our team for the Team Data UI. We will confirm and review Data for _MTL_ relevant to our Team Vision. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -51,6 +51,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.
 - What we're doing today is that *looking back* using the data UI.
+- We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we **zoom out** to see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ## In-Session Exercise
@@ -64,7 +65,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 ### 1. Open an internet browser window. Go to mtl.how/data 
 
 - This will take you to the MTL data user interface Power BI site. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
-    - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
+    - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
@@ -72,19 +73,23 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 ## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Selecting & Viewing your Team Data. 
-- To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
+
+We have your Team's Clinic Selections pre-bookmarked* for convenience. (_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
+- To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
 - Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- Click the yellow "Apply" button. 
+- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
+
+To make Clinic Selections by yourself:
 - Select your clinics using the columns to make up your localized team-level data.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is Inactive columns.
-   - *Note:* Leaving the "Is Inactive" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is Inactive" column, check "No" and click the yellow "Apply" button.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic columns.
+- Make sure to click "Apply."
+   - *Note:* Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
+   - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
 
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
-
--  After making all your selections in a column, click the yellow "Apply" button.
--  Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls your Patient Level Data; This will pull all clinics used in the last two years.
-   - **Note**: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
 
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
@@ -97,7 +102,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
-   - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
+   - Measurement Based Stepped Care and Suicide Prevention \(Meas\) and
    - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) to access the document through VA intranet.
@@ -108,12 +113,11 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
        
 ### 3. **Click to view the "viz" tabs, which show team trends.**
-- The Viz tab shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
+- The Viz tab helps us _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
-- You can explore further Counts in the "viz" tabs by right clicking on any trend line and "Show As Table" to view the number of visits in a trend (The "Quick Explore" feature is no longer available.)
-- **Filters** Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-    - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
+- Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
@@ -132,12 +136,13 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
         ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
 
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
-   - Providers can filter to find specific patients, or produce reports. Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
-   - Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-   - Providers can zoom in to filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide the filter panel.
-       - **Note:** If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-       - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+- In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+- We can filter to find specific patients or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide the filter panel.
+
+**Tips & Tricks**
+ - If you do not see something that you would expect or previously saw, check to see if a filter is applied by clicking on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
    - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
+ - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
@@ -162,7 +167,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We confirmed the clinics that make up our team for the Team Data UI. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)We confirmed the clinics that make up our team for the Team Data UI. We confirmed and reviewed data for _MTL_ relevant to our Team Vision. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.|
 
 ## DO demo
 
@@ -172,7 +177,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\)
-   - Measurement Based Stepped Care and Suicide Prevention (SP) and
+   - Measurement Based Stepped Care and Suicide Prevention (Meas) and
    - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
