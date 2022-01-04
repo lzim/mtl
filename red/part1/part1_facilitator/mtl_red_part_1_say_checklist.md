@@ -33,13 +33,12 @@ output:
 
 ## Learning Objectives for Part I
 1. Describe the decisions your team made in producing your team data.
-2. Test out whether your expectations about team historical trends are displayed in the "viz" tabs.
+2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:15___
 
 ## Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.
-
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
 ## Participatory Learning from Data
@@ -47,7 +46,6 @@ output:
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
-		* Backward looking data review is limited for guiding effective change.
 * Reviewing trends: may like or not like the trends; may not know what is causing those trends; may be afraid that the next change we might make will undo it. 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -57,18 +55,20 @@ output:
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
 ### 1. On any browser, navigate to mtl.how/data.
-- [ ] Explain the MTL data user interface Power BI site
+- [ ] Explain the MTL data user interface Power BI site:
 	- You must have your PIV engaged to access the site.
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
 
-## To create a personal data UI bookmark, go through Steps #2-4. We will show you the steps but you already have a prepped data UI bookmark for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
 ### 2. Your Team Data 
 - [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
-- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name, then click "Apply".
+
+_To make Clinic Selections by yourself:_
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
@@ -79,32 +79,31 @@ output:
 
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
--  [ ] Let's go to the **[__ ]** viz tab to see data relevant to that issue.  
+- [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
+-  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
--  [ ] **What stands out to you about ________________________________**[fill-in team vision]**?  
+-  [ ] **What stands out to you about _____________________________ [fill-in team vision]?**  
   
--  [ ] **What is most important to you to check out first related to  ________________________________**[fill-in team vision]?
-    [Prepare in advance, but ask this as an open-ended question?  
+-  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
+    [Prepare in advance, but ask this as an open-ended question.]
 -  [ ] **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended question]?  
+    [Prepare in advance, but ask this as an open-ended question.] 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 
--  [ ]  Patients with restricted access to their information have asterisks (****)  
--  [ ] Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
--  [ ] Providers can filter to find specific patients, or produce reports.
-    
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
+-  [ ] In the data tabs, you can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
+-  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
+-  [ ] Patients with restricted access to their information have asterisks (****)
 
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
 **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Keep an eye on time  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
-
 
 -  [ ] What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
 -  [ ] What **viz** tab would you use to see what the most common service encounters or visits are?  

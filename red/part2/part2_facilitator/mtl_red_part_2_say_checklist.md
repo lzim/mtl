@@ -1,5 +1,5 @@
 ---
-title: "MTL Live Session 03 Facilitator Checklist"
+title: "MTL Red Part 1 - Facilitator Say Checklist"
 author: "Team PSD"
 date: "January 2022"
 release: "MTL 2.5"
@@ -15,56 +15,54 @@ output:
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_live_sq_sm.png"
      height = "175" width = "290">  
 
-# [MTL Live Session 03](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd "MTL Live Session 03")
+# [MTL Red Part II Facilitator Checklist](https://github.com/lzim/teampsd/blob/master/mtl_facilitate_workgroup/mtl_live_guide/mtl_live_session03_see.Rmd "MTL Live Session 03")
 
-# Today we're modeling to learn how to produce team data for simulation.  
-- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
+# Today we're modeling to learn how to produce team data.  
+- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data.
 
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: Reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out). 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc and SP tabs in your team data to find a patient and a team trend. We opened mtl.how/data in a browser and looked at the two team folders: data UI and team data table.  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
-Do: We will examine team data and produce team data for the _MTL_ simulation user-interface (sim UI).  
+Do: We will produce a team data table for the _MTL_ simulation user-interface (sim UI).
 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
-## Learning Objectives for Session 3
+## Learning Objectives for Part II
 1. Describe your team trends over the last two years based on the estimates in the team data.
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
-- [ ] We will use the data UI to look back at team trends over the past two years - *what is*;  
-- [ ] We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.  
+- [ ] We will use the data UI to look back at team trends over the past two years - *what is*;   
 
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
-### 1. Navigate to the data UI at mtl.how/data. Click on "Data UI (Team Data)."
+### 1. Navigate to the data UI at mtl.how/data. 
 - [ ] Data UI on VA's secure Power BI site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
+- [ ] On the Data UI Landing page, click on "Data UI (Team Data)." 
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
 
 ### 2. When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
-
+#### IMPORTANT: We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon and select your Team Name to locate it.
 - [ ] Data in the "Team Data" tab are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
-- [ ] In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
+- [ ] There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
    + Care Coordination (CC) - tab title *Care Coordination (CC)*
    + Medication Management (MM) - tab title *Medication Management (MM)*
    + Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
    + *Coming Soon!* Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
-- [ ] We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon, "Show More Bookmarks" and select your Team Name.
-
-- [ ] *Your Clinic Selections are already saved for you, but to do it for yourself:*  
-    - Select a set of clinics in **ClinicSelection tab**.  
-    - Click "Apply."
+*- [ ] Your Clinic Selections are already saved for you, but to do it for yourself:*  
+    -- [ ] Select a set of clinics in **ClinicSelection tab**.  
+    -- [ ] Click "Apply."
     
 ### *Coming Soon* See SAY guide for narration details on generating file for SP module  
  
@@ -78,8 +76,8 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 - [ ] Find a variable important to your team. Look at how it is estimated in the tab and notice the units.  
 - [ ] The Team Data tabs have more detailed information about team data.  
 - [ ] Review  the "Descriptions" and "Details" tabs below the tab with the numerical data [show with mouse]:  
-	- The "Descriptions" Tab [click on Tab] gives the description or definition of the variable.  
-	- The "Details" Tab [click on Tab] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends. 
+	-- The "Descriptions" Tab [click on Tab] gives the description or definition of the variable.  
+	-- The "Details" Tab [click on Tab] contains additional details about how individual patient data are extracted and used to calculate your team’s historical trends. 
 	
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:35-00:45 – Select and review a second *MTL* Module**  
 
@@ -105,7 +103,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu to prioritize your needs. Responses are confidential.  
 ### DO demo
--	Encourage team members to look around in the team data tabs before next time. 
+-	Encourage team members to look around in the team data table before next time. 
 -	Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
 -	The username is yout VA email. It will take about 5 minutes. 
 -	Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
