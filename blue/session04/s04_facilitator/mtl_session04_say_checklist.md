@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 04 - Facilitator Checklist"
 author: "Team PSD"
-date: "AP February 5, 2020 | DK March 6 2020"
-release: "MTL 1.8"
+date: "January 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -24,7 +24,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 – Done/Do and Learning Objectives**  
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We found something in the team data table and completed the mtl.how/menu to prioritize our needs.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We found something in the team data and completed the mtl.how/menu to prioritize our needs.  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module.
 <!-- Learning Objectives Icon --> 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick) 
@@ -66,7 +66,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
   + Care Coordination (CC)  
   + Medication Management (MM)  
   + Psychotherapy (PSY)  
-  + Aggregate mix of services (AGG)  
+  + Team (AGG) Care 
   + Measurement-based stepped care and suicide prevention (SP)  
   
   ### Navigate to the SEE guide to show Done/Do table  
