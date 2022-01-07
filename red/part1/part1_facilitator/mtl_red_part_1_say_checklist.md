@@ -1,7 +1,7 @@
 ---
 title: "MTL Red Part 1 - Facilitator Say"
 author: "Team PSD"
-date: "December 2021"
+date: "January 2022"
 release: "MTL 2.5"
 output: 
   github_document: default
@@ -64,11 +64,7 @@ output:
 
 ## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
 
-### 2. Your Team Data 
-- [ ] To navigate to our bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header.
-- [ ] Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name, then click "Apply".
-
-_To make Clinic Selections by yourself:_
+### 2. Selecting and Viewing Your Team Data 
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
