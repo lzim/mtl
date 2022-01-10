@@ -72,9 +72,8 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
   - In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
   - For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
-- We have already saved the Clinic Selections you made last time in your team's **Report Bookmark.** You can find your Team Report Bookmark by clicking on the **Bookmark** icon at the top right of your screen, clicking "Show More Boorkmarks," and finding the bookmark with your Team Name. 
-
-- To make clinic selections yourself:
+- The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
+- In the event they do not, to make clinic selections yourself:
   - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
   
   *Coming Soon!* 
