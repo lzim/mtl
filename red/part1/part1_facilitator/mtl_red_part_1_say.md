@@ -69,8 +69,6 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
-## To make selections & view data for your Team, go through Steps #2-4. 
-
 ### 2. Selecting & Viewing your Team Data. 
 
 - Select your clinics using the columns to make up your localized team-level data.
