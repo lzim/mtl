@@ -70,20 +70,15 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
 - On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. 
 
 ### 2. Selecting & Viewing your Team Data. 
 
-We have your Team's Clinic Selections pre-bookmarked* for convenience. (_For instructions on how to set up Bookmarks for the team ahead of time, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
-- To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
-- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- Select your clinics using the columns to make up your localized team-level data.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic columns.
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
 
-To make Clinic Selections by yourself:
-- Select your clinics using the columns to make up your localized team-level data.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic columns.
-- Make sure to click "Apply."
    - *Note:* Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
    - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
 
