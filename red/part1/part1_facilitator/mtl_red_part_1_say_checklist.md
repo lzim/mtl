@@ -62,8 +62,6 @@ output:
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 - [ ] Select the "Data UI" and then "Clinic Selections" tab.
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
-
 ### 2. Selecting and Viewing Your Team Data 
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
