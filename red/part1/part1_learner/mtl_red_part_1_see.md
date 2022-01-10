@@ -49,8 +49,6 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-## To make selections & view data for your Team, go through Steps #2-4. 
-
 ### 2. Selecting & Viewing your Team Data
  
 - Use the columns to select the clinics that make up your team.
