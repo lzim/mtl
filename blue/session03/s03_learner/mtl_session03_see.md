@@ -55,8 +55,7 @@ output:
  
 - These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
 - At [mtl.how/data](https://mtl.how/data), click on **"Data UI (Team Data)"**. In the Dropdown menu that appears, click on the  **ClinicSelection tab**. 
-- We have already saved your Team's Clinic Selections in your team's **Report Bookmark.** To find your Team Bookmark, click on the **Bookmark** icon at the top right of your screen, then "Show More Bookmarks" and click the Bookmark with your Team Name.
-- To make clinic selections yourself, you can select the same set of clinics selections you chose for the Data & Viz tabs to review team data estimates to the related common care problems mentioned above. Then, click "Apply". 
+- Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. In the event they do not, or to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_ to review team data estimates to the related common care problems mentioned above. Then, click "Apply". 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_team_data_landing_page.gif?raw=true)](#DontLink)
 
