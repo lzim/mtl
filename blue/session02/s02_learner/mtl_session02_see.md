@@ -52,15 +52,17 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps, but your Team's Clinics have been bookmarked for today's session.
+## To make selections & view data for your Team, go through Steps #2-4. 
 
 ### 2. Selecting & Viewing your Team Data
 
-We have your Team's Clinic Selections pre-bookmarked for convenience. To navigate to the bookmarks: 
-- Click on the bookmark icon in the upper right hand in the top of the grey header. 
-- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
+- Use the columns to select the clinics that make up your team.
+- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic column.
 - Click the yellow "Apply" button. 
 - Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
+
+  - Note: Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button. 
+  - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
  
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
@@ -68,12 +70,6 @@ We have your Team's Clinic Selections pre-bookmarked for convenience. To navigat
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
-_To make Clinic Selections without Bookmarks:_
-- Use the columns to select the clinics that make up your team.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic column.
-- Make sure to click "Apply."
-  - Note: Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button. 
-  - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
