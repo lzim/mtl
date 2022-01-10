@@ -74,7 +74,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 - The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
 - In the event they do not, to make clinic selections yourself:
-  - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
+  - Select a set of clinics in the **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
   
   *Coming Soon!* 
   - Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
