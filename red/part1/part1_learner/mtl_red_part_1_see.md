@@ -49,20 +49,13 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
-
 ### 2. Selecting & Viewing your Team Data
-
-We have your Team's Clinic Selections pre-bookmarked for convenience:
-- To navigate to the bookmarks, click on the bookmark icon in the upper right hand in the top of the grey header. 
-- Click "Show more bookmarks" and under "Report bookmarks", select the bookmark with your team's name.
-- Click the yellow "Apply" button. 
-- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
  
-_To make Clinic Selections by yourself:_
 - Use the columns to select the clinics that make up your team.
 - You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic column.
-- Make sure to click "Apply."
+- Click the yellow "Apply" button. 
+- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
+
   - Note: Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not wish for inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button. 
   - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
@@ -71,7 +64,6 @@ _To make Clinic Selections by yourself:_
 **Tips & Tricks**
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
-- If you want to create a view for specific personal data, you can make and save unique clinic selections to return to with a Personal Bookmark. Use the "Create a Personal Bookmark" with this Bookmark icon.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
