@@ -50,8 +50,8 @@ jobs:
       id: fn
       uses: shitiomatic/str-replace@master
       with:
-        find: "mtl.how/data "
-        replace: "mtl.how/data_test "
+        find: "mtl.how/sim "
+        replace: "mtl.how/sim_test "
         
         # search returns only committed file by user 
         #include: ${{ steps.getfile.outputs.files }} 
