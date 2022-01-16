@@ -66,7 +66,7 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
 
-5. Click "PFD" icon to download a PDF file of the report.
+5. Click "PDF" icon to download a PDF file of the report.
 
 <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download?raw=true">
 
