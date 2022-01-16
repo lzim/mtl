@@ -44,6 +44,34 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 9. Click the checkbox next to a name and "Edit" or "Delete" to update information or delete a team member.
 10. Click "Done" button when finished.
 
+## Manage tt Menu Results
+
+If you are a Facilitator, use your login to access the facilitator tools to access multiple team’s menu results. The system knows you are a facilitator based on your user id and will present the facilitator popup.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_url.png?raw=true">
+
+1. Navigate to mtl.how/menu.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_login.png?raw=true">
+
+2. Enter login information and click "Start Survey."
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_select_team.png?raw=true">
+
+3. Select the team from whom you want to view results from the dropdown (you may monitor three teams simultaneously).
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_results.png?raw=true">
+
+4. Click "Review Results" icon to the results of the team's mtl.how/menu responses.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_PDF.png?raw=true">
+
+5. Click "PFD" icon to download a PDF file of the report.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/menu_download?raw=true">
+
+6. Click "Open file" to see results in PDF format.
+
 ## Set up a Facilitator Individual Team (_ind)
 
 - Facilitators can go into any team session where they are listed as a facilitator.
@@ -171,7 +199,7 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 ![image](https://user-images.githubusercontent.com/59668647/138797488-5edee1a4-5356-470a-9826-77eaf4f18248.png)
 ![image](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
 
-## Team
+## Texting in Team Sessions
    
 - The Team button in the top navigation is for texting and maintaining private discussion threads with one or more individuals and open discussion threads with teams.
 - A person can chat with one or more people using the Team function by inputting the end user name (usually the va.gov email address) of the person or people they want to address.
@@ -211,18 +239,18 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
  - The Sim UI has a responsive design that should accommodate many resolutions and browser window sizes.
  - Follow the steps below to get the best view.
  
- <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/window_view_click.png?raw=true">
+   <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/window_view_click.png?raw=true">
  
  1. Click the "window" icon in the upper right of the browser window.
  
-   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/drag_window.png?raw=true">
+   <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/drag_window.png?raw=true">
  
  2. Drag the browser window to the desired size. **Notice how the Sim UI design responds by stacking menu icon.**
  
-   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/refresh_window.png?raw=true">
+  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/refreshwindow.png?raw=true">
  
  3. Sometimes items on the screen are cutoff or not formatted correctly.  Click the refresh button so the browser can detect the new window size and adjust the format.
  
-   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/zoom_window.png?raw=true">
+  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/zoom_window.png?raw=true">
  
  4. If the format is still not optimum, decrease the zoom below 100% to reduce the size of the items on the screen, or drag the screen slightly larger.
