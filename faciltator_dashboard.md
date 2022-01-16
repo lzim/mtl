@@ -211,18 +211,18 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
  - The Sim UI has a responsive design that should accommodate many resolutions and browser window sizes.
  - Follow the steps below to get the best view.
  
- <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/window_view_click.png?raw=true">
+ <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/images/window_view_click.png?raw=true">
  
  1. Click the "window" icon in the upper right of the browser window.
  
-   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/drag_window.png?raw=true">
+   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/images/drag_window.png?raw=true">
  
  2. Drag the browser window to the desired size. **Notice how the Sim UI design responds by stacking menu icon.**
  
-   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/refresh_window.png?raw=true">
+   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/refresh_window.png?raw=true">
  
  3. Sometimes items on the screen are cutoff or not formatted correctly.  Click the refresh button so the browser can detect the new window size and adjust the format.
  
-   <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/zoom_window.png?raw=true">
+   <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/zoom_window.png?raw=true">
  
  4. If the format is still not optimum, decrease the zoom below 100% to reduce the size of the items on the screen, or drag the screen slightly larger.
