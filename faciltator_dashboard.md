@@ -1,6 +1,6 @@
 # Sim UI Facilitator Dashboard
 
-This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to set up Team Time (tt) report content.
+This section explains how to use the Facilitator Dashboard to set up and manage teams.  It also explains how to access mtl.how/menu and set up Team Time (tt) report content.
 
 **You Will Need to Be Registered as a Facilitator in:**
 
@@ -29,14 +29,14 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Click the "Add" button. A Team Setup popup will appear.  **The Team Setup will not list all teams in Epicenter. It will only list teams assigned to the facilitator.**
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_pop_up.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_pop_up.png?raw=true">
 
 2. Add the team name.  Just add the teams' root name. The setup function will add "team" and "ind" extensions in Epicenter.
 3. Type the teams' vision statement.
 4. Select the Research Arm.
 5. Click "Add" button to add a team member. A Add Team Members popup will appear. **Facilitators do not need to register with the team, because the system will automatically assign based on the login. However, a co-facilitator would have to be listed and assigned to the facilitator role.**
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_member_popup.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_team_member_popup.png?raw=true">
 
 6. Enter First Name, Last Name, Email and Clinical Role information.
 7. Use the Select Role to select team members' role on the team.
@@ -44,33 +44,33 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 9. Click the checkbox next to a name and "Edit" or "Delete" to update information or delete a team member.
 10. Click "Done" button when finished.
 
-## Manage tt Menu Results
+## Review tt Menu Results
 
-If you are a Facilitator, use your login to access the facilitator tools to access multiple team’s menu results. The system knows you are a facilitator based on your user id and will present the facilitator popup.
-
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_url.png?raw=true">
+If you are a Facilitator, use your login to access the facilitator tools to access multiple team’s menu results. The system knows you are a facilitator based on your user id and will present the facilitator popup. From the popup, you can review the results of multiple teams.
 
 1. Navigate to mtl.how/menu.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_login.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_url.png?raw=true">
 
 2. Enter login information and click "Start Survey."
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_select_team.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_login.png?raw=true">
 
 3. Select the team from whom you want to view results from the dropdown (you may monitor three teams simultaneously).
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_results.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_select_team.png?raw=true">
 
 4. Click "Review Results" icon to the results of the team's mtl.how/menu responses.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_results.png?raw=true">
 
 5. Click "PDF" icon to download a PDF file of the report.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
 
 6. Click "Open file" to see results in PDF format.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download.png?raw=true">
 
 ## Set up a Facilitator Individual Team (_ind)
 
@@ -84,15 +84,15 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 1. Navigate to Team Setup
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_ind_team.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_ind_team.png?raw=true">
 
 2. Select any \_ind\_team from Team Setup listing and click Edit.
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_ind.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/add_ind.png?raw=true">
 
 3. In the Edit Team Setup popup click Add.
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/enter_ind_alias.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/enter_ind_alias.png?raw=true">
 
 4. In the Add Team Members popup, enter your first name, last name, select Team Lead in Select Role dropdown, enter your name (example: James Rollins) again in the Enter Email field and enter your Clinical Role.  Click Add, then Done.  Your name is now your alternate alias to be used for _ind teams.
 
@@ -104,7 +104,7 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 1. Click the "Add" button to add a new team data file. The File Manager popup will appear.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_file_popup.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_file_popup.png?raw=true">
  
 2. Go to the desired file location and click on the file.
 3. Click "Open" to upload the file.
@@ -118,7 +118,7 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 This section explains how to use the Facilitator Dashboard to set up and manage team time (tt) reports.
 
-### Set up a Blue TT Report
+### Set up a Blue tt Report
    
 - The tt Reports popup allows you to select your team, select experiments to display and the specific charts you want to display in the report.
 - For the Psychotherapy Module, Sankey charts are displayed by default.
@@ -128,38 +128,41 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
     
-    - TT 1 Report: If you are producing the 1st tt report, skip to step 5 by signing into [mtl.how/menu](https://mtl.how/menu).
+    - tt 1 Report: If you are producing the 1st tt report, skip to step 5 by signing into [mtl.how/menu](https://mtl.how/menu). See **Managing tt Menu Results** section above for more information.
     
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
-2. Select your team and the module they are using.
-    
-    - TT 3 Report: If you are producing the last tt report, check the tt3 box.
-    
-![](https://user-images.githubusercontent.com/59668647/138796745-2e335b2c-bb6c-421c-9ac7-5bb78492d283.png)
-    
-3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select your desired experiments. Checked experiments will appear in the Display list. If you are changing experiments only, be sure to scroll down and click and click the Save button. 
-    
-    - **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.** 
+2. Select your team and the module they are using from the dropdowns.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_tm_mod.png?raw=true">
+
+    - tt 3 Report: If you are producing the last tt report, check the tt3 box.
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_tt3.png?raw=true">
+  
+3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select your desired experiments. Checked experiments will appear in the Display list. If you are changing experiments only, be sure to scroll down and click and click the Save button.
+
+    - **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.**
     - You can select up to 10 experiments for comparison.
-   
-![](https://user-images.githubusercontent.com/59668647/138796552-8ece2684-7b06-4bb2-bc27-d333ffb9ad60.png)
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_add_experiments.png?raw=true">
 
 4. Under Select Reports, check the boxes of charts you want to display. Selected charts will appear on the Display list to the right. Click Save when done.
     
     - **The charts will display in order of appearance on the list in the tt report.**
 
-    ![](https://user-images.githubusercontent.com/59668647/138799088-ae946e6f-4078-453b-859c-6b100837acee.png)
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_reports.png?raw=true">
 
 5. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
     
     - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-![](https://user-images.githubusercontent.com/59668647/138799246-53eff753-4aa0-42b9-ac46-ed8c8cda8909.png)
-![](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
+
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download.png?raw=true">
 
 ### Set up a Red TT Report
-   
+
 - The NIH-Red tt report only contains team data. **Do not select charts to display.**
 - Team data cannot be read directly, it must be converted to an experiment.
 - There is a special button in the Team Setup popup for the team data to experiment conversion.
@@ -169,57 +172,59 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Select Team Setup from the Facilitator Dashboard. The Set Setup popup will appear.
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_tdata_add_to_tt.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_tdata_add_to_tt.png?raw=true">
 
 2. Select the team data file you want to use in the Red tt report and click the Add to tt button.
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_module_tt_red.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_module_tt_red.png?raw=true">
 
 3. Select the desired model.
 
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_tt_red.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team_tt_red.png?raw=true">
 
 4. Select the desired team from the dropdown and click Done.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
 5. Close the Team Setup popup and click on the tt Admin button.  The tt Admin popup will appear.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/setup_tt_red.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/setup_tt_red.png?raw=true">
 
 6. Select the desired team and modules from the dropdowns. Select the tt red experiment to display in the teams' report.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/tt_reports_done.png?raw=true">
-   
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/tt_reports_done.png?raw=true">
+
 9. Scroll down and click Save.
-    
+
 10. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
+
     - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-![image](https://user-images.githubusercontent.com/59668647/138797488-5edee1a4-5356-470a-9826-77eaf4f18248.png)
-![image](https://user-images.githubusercontent.com/59668647/138797857-9917e833-c587-40ab-a3c3-ba03f46ae993.png)
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
 
-## Texting in Team Sessions
-   
+<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download.png?raw=true">
+
+## Manage Discussions in Team
+
 - The Team button in the top navigation is for texting and maintaining private discussion threads with one or more individuals and open discussion threads with teams.
 - A person can chat with one or more people using the Team function by inputting the end user name (usually the va.gov email address) of the person or people they want to address.
 - A person can chat with with an entire team at once, provided they are a registered end user in that team.
 
 ### Set up a Private Conversation
-   
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team.png?raw=true">
+  
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_team.png?raw=true">
 
 1. Click Team to open the chat popup. **Note how the Team icon has a red circle indicating there are 2 chats waiting.**
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat.png?raw=true">
 
 2. Click Chat in the left-hand navigation to private-text an individual. The latest conversation will appear in the Chat Log, followed the the next recent. The discussion thread appears in the Conversation window.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat_2.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/private_chat_2.png?raw=true">
 
 3. To continue a conversation, type a new message in the message line at the bottom of the window. Click the send icon to post the chat.
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/new_private_chat.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/new_private_chat.png?raw=true">
 
 4. To start a conversation with one or more new people, click the New icon and enter their user name and click Add.  Type a new message and click send.
 
@@ -229,28 +234,28 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Click on the Team icon in the left hand navigation. **Note how the icon has a red circle indicating there are 2 chats waiting.**
 
-  <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_listing.png?raw=true">
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/team_listing.png?raw=true">
 
 2. The Teams listing will contain a list of all teams the individual is a registered end user (see blue-green highlight). A boldface team indicates a chat is waiting. **Note the listing contains _ind teams. These are teams where users are assigned an individual world with which to experiment. However, any discussions held in this thread will be visible by all registered users from their different worlds.**  To have a private chat with an individual, see Set up a Private Conversation above.
 
- ## Resize a Window for Side-by-Side Viewing
+## Resize a Window for Side-by-Side Viewing
  
- - A facilitator may need to show two items on the screen side-by-side for comparison.
- - The Sim UI has a responsive design that should accommodate many resolutions and browser window sizes.
- - Follow the steps below to get the best view.
+- A facilitator may need to show two items on the screen side-by-side for comparison.
+- The Sim UI has a responsive design that should accommodate many resolutions and browser window sizes.
+- Follow the steps below to get the best view.
  
-   <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/window_view_click.png?raw=true">
+ <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/window_view_click.png?raw=true">
  
  1. Click the "window" icon in the upper right of the browser window.
  
-   <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/drag_window.png?raw=true">
+ <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/drag_window.png?raw=true">
  
  2. Drag the browser window to the desired size. **Notice how the Sim UI design responds by stacking menu icon.**
  
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/refreshwindow.png?raw=true">
+ <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/refreshwindow.png?raw=true">
  
  3. Sometimes items on the screen are cutoff or not formatted correctly.  Click the refresh button so the browser can detect the new window size and adjust the format.
  
-  <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/zoom_window.png?raw=true">
+ <image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/zoom_window.png?raw=true">
  
  4. If the format is still not optimum, decrease the zoom below 100% to reduce the size of the items on the screen, or drag the screen slightly larger.
