@@ -50,8 +50,8 @@ jobs:
       id: fn
       uses: jacobtomlinson/gha-find-replace@v2
       with:
-          find: "hello"
-          replace: "world"
+          find: "Session 1"
+          replace: "Session X"
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 
