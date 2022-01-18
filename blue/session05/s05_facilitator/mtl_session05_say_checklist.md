@@ -52,8 +52,8 @@ output:
 ### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation.  
 - [ ] Identify team lead  
 
-### 2. Let's now go back to mtl.how/data in your browser window to check the name of our team_data_table file  
-- [ ] Guide team lead to mtl.how/data and then to the team_data_table file  
+### 2. Let's now go back to mtl.how/data_test in your browser window to check the name of our team_data_table file  
+- [ ] Guide team lead to mtl.how/data_test and then to the team_data_table file  
 
 ### 3. The team data file for simulation is in our team folder, in the team_data_table folder.  
 - [ ] Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table  
@@ -86,7 +86,7 @@ output:
 - [ ] Select the team data you just uploaded.  
 
 - [ ] Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.)
-Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data_test, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
 - [ ] Note: Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the Modeling to Learn program.
 
 - [ ] Existing Patient Return-to-Clinic Visit Interval: Choose this learning mode to prioritize the Existing Patients Return-to-Clinic Visit Interval (RVI) estimated from team data, and only start new patients in remaining open slots after the existing patient RVI, appointment supply, and missed appointments are all taken into account.
