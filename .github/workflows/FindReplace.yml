@@ -50,7 +50,7 @@ jobs:
       id: fn
       uses: jacobtomlinson/gha-find-replace@v2
       with:
-          find: "mtl.how/data "
+          find: "mtl.how/data"
           replace: "mtl.how/data_test"
           regex: false
           exclude: "**/*.yml"
