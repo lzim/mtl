@@ -23,7 +23,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc and SP tabs in your team data to find a patient and a team trend. We opened mtl.how/data in a browser and looked at the two team folders: data UI and team data table.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc and SP tabs in your team data to find a patient and a team trend. We opened mtl.how/data_test_test in a browser and looked at the two team folders: data UI and team data table.  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
 Do: We will produce a team data table for the _MTL_ simulation user-interface (sim UI).
 
@@ -36,14 +36,14 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data_test_test**
 - [ ] We will use the data UI to look back at team trends over the past two years - *what is*;   
 
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
-### 1. Navigate to the data UI at mtl.how/data. 
+### 1. Navigate to the data UI at mtl.how/data_test_test. 
 - [ ] Data UI on VA's secure Power BI site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
 - [ ] On the Data UI Landing page, click on "Data UI (Team Data)." 
