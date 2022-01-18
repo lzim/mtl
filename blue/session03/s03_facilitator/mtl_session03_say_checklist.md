@@ -36,7 +36,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data_test_test**
 - [ ] We will use the data UI to look back at team trends over the past two years - *what is*;  
 - [ ] We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.  
 
@@ -44,7 +44,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
-### 1. Navigate to the data UI at mtl.how/data. Click on "Data UI (Team Data)."
+### 1. Navigate to the data UI at mtl.how/data_test_test. Click on "Data UI (Team Data)."
 - [ ] Data UI on VA's secure Power BI site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
 
@@ -60,11 +60,10 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
    + *Coming Soon!* Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
-- [ ] We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon, "Show More Bookmarks" and select your Team Name.
-
-- [ ] *Your Clinic Selections are already saved for you, but to do it for yourself:*  
-    - Select a set of clinics in **ClinicSelection tab**.  
-    - Click "Apply."
+- The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
+- In the event they do not, to make clinic selections yourself:
+  - Select the **same** set of clinics in the **ClinicSelection tab** 
+  - Click "Apply."
     
 ### *Coming Soon* See SAY guide for narration details on generating file for SP module  
  
