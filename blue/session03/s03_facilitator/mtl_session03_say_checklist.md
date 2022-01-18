@@ -60,11 +60,10 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
    + *Coming Soon!* Measurement-based stepped care and suicide prevention (SP) - tab title *SPParams*
 
-- [ ] We already have a "Report Bookmark" saved with the Clinic Selections your team made last session. Click on the "Bookmark" icon, "Show More Bookmarks" and select your Team Name.
-
-- [ ] *Your Clinic Selections are already saved for you, but to do it for yourself:*  
-    - Select a set of clinics in **ClinicSelection tab**.  
-    - Click "Apply."
+- The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
+- In the event they do not, to make clinic selections yourself:
+  - Select the **same** set of clinics in the **ClinicSelection tab** 
+  - Click "Apply."
     
 ### *Coming Soon* See SAY guide for narration details on generating file for SP module  
  
