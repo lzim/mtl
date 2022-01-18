@@ -48,19 +48,18 @@ jobs:
         
     - name: Find and Replace
       id: fn
-      uses: shitiomatic/str-replace@master
+      uses: jacobtomlinson/gha-find-replace@v2
       with:
-        find: "mtl.how/sim "
-        replace: "mtl.how/sim_test"
-        
-        # search returns only committed file by user 
-        #include: ${{ steps.getfile.outputs.files }} 
-        
-        # only searching such directory's files and subdirectory's files which is committed by the user
-        #include: ${{ steps.getDirName.outputs.dirs }} 
-       
-        # always searching directory or file by its name which is available with double quotes i.e "test", "test/xyx.txt", "xyx.txt"
-        #include: ""
+          find: "mtl.how/data "
+          replace: "mtl.how/data_test"
+          regex: false
+          exclude: "**/*.yml"
+          # search returns only committed file by user 
+          #include: ${{ steps.getfile.outputs.files }} 
+          # only searching such directory's files and subdirectory's files which is committed by the user
+          #include: "${{ steps.getDirName.outputs.dirs }}/**"  
+          # always searching directory or file by its name which is available with double quotes i.e "test", "test/xyx.txt", "xyx.txt"
+          #include: ""
         
     - name: Modified Files
       run: echo ${{ steps.fn.outputs.modifiedFiles }}
