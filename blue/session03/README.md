@@ -15,7 +15,7 @@
 2.  **s03_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 03 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-  + Learner cheatsheets for mtl.how/data (with Gifs) (.html)
+  + Learner cheatsheets for mtl.how/data_test(with Gifs) (.html)
 3.  **s03_facilitator:**  
   + Facilitator SAY Guide - Learning objectives and exercises for session 03 
   + Facilitator pre/post checklist for session 03

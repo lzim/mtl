@@ -130,7 +130,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
   1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
 
-  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data_test(the data user interface), mtl.how/sim (the simulation user interface); and
 
   3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
@@ -153,7 +153,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) 1. We will reach out to schedule and prep the data file for Session 2 with the Team Lead. <br> 2. Go to mtl.how/data to see your team's data folder. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) 1. We will reach out to schedule and prep the data file for Session 2 with the Team Lead. <br> 2. Go to mtl.how/data_testto see your team's data folder. |
 
 ## DO Demo
 
@@ -162,7 +162,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 2. We will email the Team Lead to set up a one-time hour prep before our next meeting. 
 
 3. Before our next meeting, check to see if you can see your team folder at mtl.how/data. 
-   - First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN and then your facility. 
+   - First, go to any browser and type in mtl.how/data_testin the top search bar. Then, select your VISN and then your facility. 
       - This is where you can access your local team data files on a secure VA site. 
    - See if you can click into your team's folder.
 

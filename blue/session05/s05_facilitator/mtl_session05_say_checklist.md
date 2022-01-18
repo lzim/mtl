@@ -52,8 +52,8 @@ output:
 ### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation.  
 - [ ] Identify team lead  
 
-### 2. Let's now go back to mtl.how/data in your browser window to check the name of our team_data_table file  
-- [ ] Guide team lead to mtl.how/data and then to the team_data_table file  
+### 2. Let's now go back to mtl.how/data_testin your browser window to check the name of our team_data_table file  
+- [ ] Guide team lead to mtl.how/data_testand then to the team_data_table file  
 
 ### 3. The team data file for simulation is in our team folder, in the team_data_table folder.  
 - [ ] Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table  

@@ -56,7 +56,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
-### 2. Let's now go back to mtl.how/data in the browser window to check the name of our team_data_table file.
+### 2. Let's now go back to mtl.how/data_testin the browser window to check the name of our team_data_table file.
 
 - We want to grab the filename from there so we can upload it to the sim UI. Open a browser window and go to mtl.how/data.  
 
