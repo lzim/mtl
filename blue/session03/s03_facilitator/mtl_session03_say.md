@@ -27,7 +27,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will examine team data and produce team data for the MTL simulation user-interface (sim UI).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test_test) We reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test_test) We will examine team data and produce team data for the MTL simulation user-interface (sim UI).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
 
 **After this session you will be able to:**
 
@@ -50,7 +50,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### Navigate to the data UI at mtl.how/data_test.
+### Navigate to the data UI at mtl.how/data_test_test.
 
 - You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
 - On the Data UI Landing page, click on "Data UI (Team Data)." 
@@ -132,7 +132,7 @@ Check out the different modules that are highlighted in the team data on the scr
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We produced team data table for the MTL simulation user-interface (sim UI). |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu to prioritize your needs. Responses are confidential. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test_test) We produced team data table for the MTL simulation user-interface (sim UI). |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data table and complete the mtl.how/menu to prioritize your needs. Responses are confidential. |
 
 ## DO demo
 

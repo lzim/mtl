@@ -9,10 +9,10 @@
 
 1. **part2_facilitator:**
     - Facilitator SAY Guide - Learning objectives and exercises for part 2
-    - Facilitator mtl.how/data_test - One-pager for Data Folders on mtl.how/data_test
+    - Facilitator mtl.how/data_test_test - One-pager for Data Folders on mtl.how/data_test_test
 2. **part2_learner:**
     - Learner SEE Guide - Learning objectives and exercises for part 2
       - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-    - Learner cheatsheets for and mtl.how/data_test (with screenshots) (.pdf)
+    - Learner cheatsheets for and mtl.how/data_test_test (with screenshots) (.pdf)
 3.  **part2_resources:**
     - SQL query code
