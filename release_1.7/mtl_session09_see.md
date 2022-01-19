@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)  **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)  **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_5.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives.| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_5.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We will run experiment 2 to compare alternatives.| 
 
 
 <!-- Learning Objectives Icon --> 
@@ -40,7 +40,7 @@ output:
 
 ## Running an Experiment
 
-1.	Login to your team world at [mtl.how/sim](http://mtl.how/sim).
+1.	Login to your team world at [mtl.how/sim_test](http://mtl.how/sim_test).
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_1.gif)](#.) 
 
@@ -89,4 +89,4 @@ Record what you learned:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.)  **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.)  **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_6.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Run a third experiment in our individual world. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We ran experiment 2 and used the Control Panel of the Expanded Outputs section to compare bc, exp 1, and exp 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_1.7/sim_ui_6.gif)](#.) | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Run a third experiment in our individual world. |
