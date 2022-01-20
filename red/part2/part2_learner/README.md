@@ -11,4 +11,4 @@
 
 - Learner SEE Guide - Learning objectives and exercises for part 2
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-  - Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data_test_test (with Gifs) (.md)
+  - Learner cheatsheets for mtl.how/live (Adobe Connect) and mtl.how/data_test (with Gifs) (.md)
