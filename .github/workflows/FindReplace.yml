@@ -50,8 +50,8 @@ jobs:
       id: fn
       uses: jacobtomlinson/gha-find-replace@v2
       with:
-          find: "mtl.how/red "
-          replace: "mtl.how/red_test "
+          find: "mtl.how/blue "
+          replace: "mtl.how/blue_test "
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 
