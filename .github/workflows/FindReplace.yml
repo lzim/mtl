@@ -51,7 +51,7 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v2
       with:
           find: "mtl.how "
-          replace: "mtl.how/test"
+          replace: "mtl.how/test "
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 
