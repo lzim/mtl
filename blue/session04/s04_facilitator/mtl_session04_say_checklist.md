@@ -75,11 +75,11 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 ### That's it for _Modeling to learn_ how to prioritize team needs.  Let's review the Done/Do.
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim_test.  
 
 ### DO demo
 - [ ] Note use of the _Modeling to Learn_ Simulation User Interface, or sim UI, for sessions 5 to 10.
-- [ ]  All _MTL_ resources can be accessed from your home base at mtl.how  
+- [ ]  All _MTL_ resources can be accessed from your home base at mtl.how/test  
 - [ ] The sim UI does not work on the Internet Explorer, please use any of the other available browsers such as Edge, Chrome, FireFox, or Safari via desktop or mobile.
 - [ ] The sim UI is designed for use with a variety of devices. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.  
 - [ ] To log in to the sim UI, you will need your username which is your VA email and the password which we will send in the follow-up email. 

@@ -31,7 +31,7 @@ Time Stamp | Prioritize tailored team learning | Script
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in to our individual world at mtl.how/sim. We used the question we entered during the previous session and added our own hypothesis about the Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run a "BC" simulation and review the impact of making no new decisions on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Outputs section.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in to our individual world at mtl.how/sim_test. We used the question we entered during the previous session and added our own hypothesis about the Base Case (bc) run in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We will run a "BC" simulation and review the impact of making no new decisions on ___________ [the variables relevant to the team's question] in the _MTL_ sim UI Outputs section.|
 
 **After this session you’ll be able to:**
 
@@ -56,7 +56,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### Running a Base Case
 
-### 1. Log in to your team world at mtl.how/sim.
+### 1. Log in to your team world at mtl.how/sim_test.
 
 - During the time it takes the team lead to start screen share and navigate to the sim, present the purpose of the exercise:
 
@@ -150,14 +150,14 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### That’s it for _Modeling to Learn_ how to evaluate the Base Case of no new decisions. Next is our Done/Do review.
 
-- Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim and explore the results of the base case run in the Results Dashboard found in the Outputs and Text expanded view.
+- Today we entered our Question, Hypothesis, Findings and Decisions for our base case run in the Text section. Before next time, please log in to mtl.how/sim_test and explore the results of the base case run in the Results Dashboard found in the Outputs and Text expanded view.
 
 ## Done and Do (15 minutes)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Outputs and Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We entered our Question, Hypothesis, Findings and Decisions for our Base Case (bc) run in the Outputs and Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Log in to mtl.how/sim_test and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. |
 
 ## DO Demo
 
