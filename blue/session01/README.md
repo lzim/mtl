@@ -11,14 +11,14 @@
 
 - (part 1): Session 01 fidelity checklist components
 - (part 2): List of links for *MTL* resources used in session 01
-  - mtl.how/test/live
+  - mtl.how/live
 - (part 3): .bibtex file for references; link to public Zotero library for *MTL*
 
 #### s01_learner
 
 - Learner SEE Guide - Learning objectives and exercises for session 01
 - .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-- Learner cheatsheets for mtl.how/test/live (Adobe Connect) (with Gifs) (.html)
+- Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
 
 #### s01_facilitator
 

@@ -61,4 +61,4 @@ height = "175" width = "420">](#DontLink)
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how/test) Follow team plan for next steps. Visit mtl.how/test/test for ongoing release updates and assistance using _MTL_ resources. | 
+| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how/test for ongoing release updates and assistance using _MTL_ resources. | 

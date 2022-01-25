@@ -24,7 +24,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  
 
-**Done:** We logged in to mtl.how/test/sim_test and explored the results of the **base case (bc)** in the Expanded Outputs section to prepare for experiment 1. We reviewed our **hypothesis text** about the base case ___________________.
+**Done:** We logged in to mtl.how/sim_test and explored the results of the **base case (bc)** in the Expanded Outputs section to prepare for experiment 1. We reviewed our **hypothesis text** about the base case ___________________.
 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) **Do:** We will **test a dynamic hypothesis** about ___________ **experiment 1,** comparing results against the bc in the MTL sim UI Outputs section.
 
@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
 
-**Team lead navigates using Chrome to log in to the Team world at **mtl.how/test/sim_test****
+**Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim_test****
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:10-00:15 - Team's Session 06 Question** __________________
 
 - [ ] Join current session to pick up where the team left off in Session 07.
@@ -86,6 +86,6 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:50-00:55**  
 
 - [ ] Done: We **ran experiment 1** and **compared results against the bc,** and entered our Question, Hypothesis, Findings and Decision for Experiment 1 in the Text section.
-- [ ] Do: Log into mtl.how/test/sim_test and Explore the bc and experiment 1, and draft a dynamic hypothesis to **prepare for experiment 2.**
+- [ ] Do: Log into mtl.how/sim_test and Explore the bc and experiment 1, and draft a dynamic hypothesis to **prepare for experiment 2.**
 - [ ] Demo for team how to **reload team's prior Question, Hypothesis, Findings and Decision text.** 
 - [ ] Reminder to click "Save" and log out. 

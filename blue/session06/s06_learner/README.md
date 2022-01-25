@@ -9,4 +9,4 @@
 **s06_learner:** 
   + Learner SEE Guide - Learning objectives and exercises for session 06 
     + .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-  + Learner cheatsheets for mtl.how/test/sim_test (with Gifs) (.html)
+  + Learner cheatsheets for mtl.how/sim_test (with Gifs) (.html)

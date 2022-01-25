@@ -22,7 +22,7 @@ output:
 **Navigate to the SEE guide to show Done and Do**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:00-00:10** 
 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  Done: We logged in to our individual world at mtl.how/test/sim_test. We entered in our own hypothesis about the Base Case in the Text section.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#.)  Done: We logged in to our individual world at mtl.how/sim_test. We entered in our own hypothesis about the Base Case in the Text section.
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#.) Do: We will run a "bc" simulation and review the impact of **making no new decisions** on ________________ in the MTL sim UI Outputs section.
 
 **Emphasize team priority with the learning objectives on the screen **
@@ -43,7 +43,7 @@ output:
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#.) Provide **rationale** for preparing for running a base case of no new decisions prior to running simulation experiments.
 - [ ] The first step in learning from simulation is to run a **base case simulation** against which all **future experiments** will be compared.   
 
-**Team lead navigates using Chrome to log in to the Team world at **mtl.how/test/sim_test****
+**Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim_test****
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:15-00:20 - Team's Session 06 Question** __________________
 
 - [ ] Join current session to pick up where the team left off in Session 06.
@@ -78,6 +78,6 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:50-00:55**  
 
 - [ ] Done: We entered our Question, Hypothesis, Findings and Decision for our Base Case (bc) in the Text section.
-- [ ] Do: Log into mtl.how/test/sim_test and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. 
+- [ ] Do: Log into mtl.how/sim_test and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. 
 - [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
 - [ ] Reminder to click "Save" and log out. 

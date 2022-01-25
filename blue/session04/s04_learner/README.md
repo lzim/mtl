@@ -11,4 +11,4 @@
 
 - Learner SEE Guide - Learning objectives and exercises for session 04
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-- Learner cheatsheets for mtl.how/test/data_test (with Gifs) (.html)
+- Learner cheatsheets for mtl.how/data_test (with Gifs) (.html)

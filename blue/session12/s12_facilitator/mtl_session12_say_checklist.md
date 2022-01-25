@@ -65,4 +65,4 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:60**  
 
 - [ ] Done: We completed _Modeling to Learn_!
-- [ ] Follow team plan for next steps. Visit mtl.how/test/test for ongoing release updates and assistance using _MTL_ resources.
+- [ ] Follow team plan for next steps. Visit mtl.how/test for ongoing release updates and assistance using _MTL_ resources.
