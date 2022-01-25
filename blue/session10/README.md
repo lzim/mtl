@@ -11,12 +11,12 @@
   - (part 1): Session 10 fidelity checklist components:
   - (part 2): List of links for *MTL* resources use in session 10
     - mtl.how/live
-    - mtl.how/sim_test
+    - mtl.how/sim
   - (part 3): .bibtex file for references; link to public Zotero library for *MTL*
 2. **s10_learner:**
    - Learner SEE Guide - Learning objectives and exercises for session 10
      - .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-   - Learner cheatsheets for mtl.how/sim_test (with Gifs) (.md)
+   - Learner cheatsheets for mtl.how/sim (with Gifs) (.md)
 3. **s10_facilitator:**
   - Facilitator SAY Guide - Learning objectives and exercises for session 10
   - Pre/post emails for session 10 (.md)

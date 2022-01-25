@@ -11,12 +11,12 @@
     - (part 1): Session 06 fidelity checklist components:
     - (part 2): List of links for *MTL* resources used in session 06
       - mtl.how/live
-      - mtl.how/sim_test
+      - mtl.how/sim
     - (part 3): .bibtex file for references; link to public Zotero library for *MTL*
 2. **s06_learner:**
     - Learner SEE Guide - Learning objectives and exercises for session 06
       - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-    - Learner cheatsheets for mtl.how/sim_test (with Gifs) (.html)
+    - Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
 3. **s06_facilitator:**
     - Facilitator SAY Guide - Learning objectives and exercises for session 06
     - Facilitator pre/post checklist for session 06

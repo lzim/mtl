@@ -113,7 +113,7 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
   1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
 
-  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim_test (the simulation user interface); and
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
 
   3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
