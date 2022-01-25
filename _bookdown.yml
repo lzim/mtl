@@ -49,4 +49,4 @@ rmd_files: ["index.Rmd", "02_introduction.md",
 "facilitator_one_pager.md",
 "faciltator_dashboard.md",
 "mtl_technical_manual_admin.md",
-"sim_ui_admin.md",]
+"sim_ui_admin.md"]
