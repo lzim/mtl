@@ -5,18 +5,18 @@
 **_Modeling to Learn_ (MTL) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _Modeling to Learn_ (MTL) provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
 
-- _Modeling to Learn_ [blue guides](https://mtl.how/blue) and _Modeling to Learn_ [red guides](https://mtl.how/red) are in the two folders at the top of this page.
+- _Modeling to Learn_ [blue guides](https://mtl.how/test/blue) and _Modeling to Learn_ [red guides](https://mtl.how/test/red) are in the two folders at the top of this page.
 - **Use the map below to decide which guides you should use.**
-- Just curious about _Modeling to Learn_? Check out [mtl.how/demo](https://mtl.how/demo).
+- Just curious about _Modeling to Learn_? Check out [mtl.how/test/demo](https://mtl.how/test/demo).
   
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how_map.png">](https://mtl.how)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/maps/mtl.how/test_map.png">](https://mtl.how/test)
   
  _MTL Blue_ click here: | _MTL Red_ click here:
 -- | --
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_blue.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/blue) | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "300">](https://github.com/lzim/mtl/tree/master/red) |
 
 ## _Modeling to Learn_ Video
-#### Use [_MTL Blue_](https://mtl.how/blue) guides in the folder at the top of this page.
+#### Use [_MTL Blue_](https://mtl.how/test/blue) guides in the folder at the top of this page.
 _MTL Video_ was filmed during the _MTL_ 1.7 release. _MTL_ 1.7 guides are available at the top of the page for your reference.
 
 To receive **CEU credit** through VA TMS, please select the **TMS** link.
@@ -40,8 +40,8 @@ Session 10: | [Systems Thinking](https://bcove.video/2RVMiB3)   [(TMS)](https://
 - **Session 12:** [Team Plan](https://bcove.video/38xrxBz) ([TMS](https://hcm03.ns2cloud.com/sf/learning?destUrl=https%3a%2f%2fva%2dhcm03%2ens2cloud%2ecom%2flearning%2fuser%2fdeeplink%5fredirect%2ejsp%3flinkId%3dITEM%5fDETAILS%26componentID%3d41484%26componentTypeID%3dVA%26revisionDate%3d1586286840000%26fromSF%3dY&company=VAHCM03))
 
 ## *Modeling to Learn* Links
-1. [mtl.how/manual](https://www.mtl.how/manual) - _Modeling to Learn_ Manual covering Learner, Facilitator, & Admin resources.
-2. [mtl.how/team](https://www.mtl.how/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team.
-3. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 2.0 Learning System for Accreditation.
-3. [mtl.how/demo](https://mtl.how/demo) - _MTL Blue_ demo simulation. 
-4. [mtl.how/refs](https://www.mtl.how/refs) - _Modeling to Learn_ References.
+1. [mtl.how/test/manual](https://www.mtl.how/test/manual) - _Modeling to Learn_ Manual covering Learner, Facilitator, & Admin resources.
+2. [mtl.how/test/team](https://www.mtl.how/test/team) - Team Participatory System Dynamics - The _MTL_ Research & Development Team.
+3. [mtl.how/test/tms](https://www.mtl.how/test/tms) - VA TMS 2.0 Learning System for Accreditation.
+3. [mtl.how/test/demo](https://mtl.how/test/demo) - _MTL Blue_ demo simulation. 
+4. [mtl.how/test/refs](https://www.mtl.how/test/refs) - _Modeling to Learn_ References.

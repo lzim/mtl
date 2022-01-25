@@ -66,9 +66,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## MTL RESOURCES
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/test/sim_test)
 
-- You will continue to have access to the sim UI at mtl.how/sim_test. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.
+- You will continue to have access to the sim UI at mtl.how/test/sim_test. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.
 
 - In Care Coordination (CC), you can compare multiple experiments and look at things like how Overwork Affects No-Shows and how you Balance New and Existing Patients.  
 
@@ -80,9 +80,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 - The Measurement Based Stepped Care and Suicide Prevention(SP) module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.  
 
-- Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.  
+- Another resource is the library of *MTL* videos, available at mtl.how/test/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.  
 
-- Finally, you can join the *Modeling to Learn* Listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
+- Finally, you can join the *Modeling to Learn* Listserv at mtl.how/test@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
 
 ### Now let's make a plan for how the team will keep modeling to learn going forward.
 
@@ -103,4 +103,4 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do**|
 | --- | --- |
-| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how/test for ongoing release updates and assistance using _MTL_ resources. |
+| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how/test) Follow team plan for next steps. Visit mtl.how/test/test for ongoing release updates and assistance using _MTL_ resources. |
