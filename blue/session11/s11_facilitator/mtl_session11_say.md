@@ -29,7 +29,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim_test. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care. |
 
 **After this session you will be able to:**
 
@@ -79,7 +79,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We discussed the team's learning and new individual and team practice decisions that apply C.F.B.T. systems thinking skills in prioritized ways to implement it in our clinical care. | Reflect on our team's vision for MTL and our MTL experience to prepare for planning next steps.|
+|  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We discussed the team's learning and new individual and team practice decisions that apply C.F.B.T. systems thinking skills in prioritized ways to implement it in our clinical care. | Reflect on our team's vision for MTL and our MTL experience to prepare for planning next steps.|
 
 ### DO demo
 
