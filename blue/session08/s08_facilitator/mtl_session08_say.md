@@ -66,7 +66,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 ### 3. If you logged into your individual world, review the data files you have uploaded in the Team Data Dropdown Maintenance section and make sure you have the data file you want.
 
-- The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named at mtl.how/data_test.
+- The section on the right side of the *MTL* Home page is "Team Data Menu Maintenance". This lets you alter what you see in the drop-down menu for selecting a data file when you want to Start a New Session (in the Session section). You can *Delete*, *Rename*, or *Add* data files. You would not want to rename a data file unless you did not already have it entered exactly as it is named at mtl.how/data.
 
 ### 4. You can Join Current Session or Start a New Session in any module. If you Start a New Session select the team data file you’d like to use.
 

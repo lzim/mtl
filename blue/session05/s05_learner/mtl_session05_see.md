@@ -46,7 +46,7 @@ output:
 
 ## Check the name of your team data file.
 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data_test in any browser window to check the name of our team data file.
+2. Let's now go back to mtl.how/data in any browser window to check the name of our team data file.
 3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
     + Copy the name of the team data file.
 
@@ -157,7 +157,7 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 #### New for _MTL_ 2.0
 
    + For CC & MM, you need to select your Learning Mode before hitting Play.  
-       + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data_test, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+       + Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
        + **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
    
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/learning_mode.gif)](#DontLink)
@@ -216,4 +216,4 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session05_see.md)**| 
