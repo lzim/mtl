@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 6 - Learner See"
 author: "Team PSD"
-date: "March 2020"
-release: "MTL 2.0"
+date: "February 2022"
+release: "MTL 2.5"
 output: 
   github_document: default
   html_document: default
@@ -25,7 +25,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in to mtl.how/sim_test and reviewed the "i" information in the Model Diagram and Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI.[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  | 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in to mtl.how/sim_test and reviewed the "i" information in the Model Diagram and Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/tree/master/blue/session06)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test)  We will tell a systems story about the team's top priority using the Model Diagram in the sim UI.[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/tree/master/blue/session06)**  | 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)  
@@ -82,5 +82,5 @@ Enter a Question & Hypothesis in the Text section about the base case of no new 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)Log in to our individual world at mtl.how/sim_test and refine the question and hypothesis we entered during the session about the base case (bc) run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_text_fields.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session06_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/tree/master/blue/session06)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test)Log in to our individual world at mtl.how/sim_test and refine the question and hypothesis we entered during the session about the base case (bc) run in the Text section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_text_fields.gif)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/tree/master/blue/session06)**  |
 
