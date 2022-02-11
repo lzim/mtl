@@ -281,6 +281,36 @@
 				<doc>The number of the appointments offered each week by providers who have a DEA X-Waiver.</doc>
 					<eqn>Official_Total_Appointment_Supply*"Proportion_of_Appointment_Slots_where_Provider_has_X-Waiver"					</eqn>
 			</aux>
+			<aux name="AUD__Slots_Allocated_to_Each_Diagnosis_(no_X)">
+				<units>Dmnl</units>
+				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
+					<eqn>IF_THEN_ELSE ("User_AUD_Slots_Allocation_(No_X_Waiver)" >=0:AND:Time>Experiment_Week,"User_AUD_Slots_Allocation_(No_X_Waiver)" , "AUD_Normalized__Slots_Allocated_(no_X_w_RVI)" )					</eqn>
+			</aux>
+			<aux name="AUD__Slots_Allocated_to_Each_Diagnosis_(w_X)">
+				<units>Dmnl</units>
+				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
+					<eqn>IF_THEN_ELSE ("User_AUD_Slots_Allocation_(with_X_Waiver)" >=0:AND:Time>Experiment_Week,"User_AUD_Slots_Allocation_(with_X_Waiver)" , "AUD_Normalized__Slots_Allocated_(w_X_w_RVI)")					</eqn>
+			</aux>
+			<aux name="AUD_Adjusted_New_Patient_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE (AUD_Referral_Rate_inferred_from_Data=0,0,
+	IF_THEN_ELSE ("Data_New_Patient_Wait_Time_(median)_->_AUD"<AUD_Minimum_Time_to_Schedule, AUD_Minimum_Time_to_Schedule, "Data_New_Patient_Wait_Time_(median)_->_AUD")
+	)					</eqn>
+			</aux>
+			<aux name="AUD_Target_New_Patient_Wait_Time">
+				<units>wk</units>
+				<doc>The acceptable average wait time for new patients to start Care Coordination, based on the team's data. The user can also enter their own new patient wait time goal.</doc>
+					<eqn>IF_THEN_ELSE(User_AUD_Target_Wait_Time<0, "AUD_Adjusted_New_Patient_Wait_Time_(median)", IF_THEN_ELSE(Time<Experiment_Week,"AUD_Adjusted_New_Patient_Wait_Time_(median)"
+	,User_AUD_Target_Wait_Time))					</eqn>
+			</aux>
+			<aux name="DEP_Adjusted_New_Patient_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE (DEP_Referral_Rate_inferred_from_Data=0,0,
+	IF_THEN_ELSE ("Data_New_Patient_Wait_Time_(median)_->_Dep"<DEP_Minimum_Time_to_Schedule,DEP_Minimum_Time_to_Schedule,"Data_New_Patient_Wait_Time_(median)_->_Dep")
+	)					</eqn>
+			</aux>
 			<aux name="AUD__Slots_Allocated_(no_X_w_RVI)">
 				<units>Dmnl</units>
 				<doc>The relative amount of provider time spent in appointments focused on each diagnosis, taking relative differences in RVI into account.</doc>
@@ -292,28 +322,16 @@
 .</doc>
 					<eqn>ZIDZ("AUD_Normalized__Patients_by_Diagnosis_(w_X)"  , AUD_Relative_RVI)					</eqn>
 			</aux>
-			<aux name="AUD__Slots_Allocated_to_Each_Diagnosis_(no_X)">
-				<units>Dmnl</units>
-				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
-					<eqn>IF_THEN_ELSE ("User_AUD_Slots_Allocation_(No_X_Waiver)" >=0:AND:Time>Experiment_Week,"User_AUD_Slots_Allocation_(No_X_Waiver)" , "AUD_Normalized__Slots_Allocated_(no_X_w_RVI)" )					</eqn>
-			</aux>
-			<aux name="AUD__Slots_Allocated_to_Each_Diagnosis_(w_X)">
-				<units>Dmnl</units>
-				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
-					<eqn>IF_THEN_ELSE ("User_AUD_Slots_Allocation_(with_X_Waiver)" >=0:AND:Time>Experiment_Week,"User_AUD_Slots_Allocation_(with_X_Waiver)" , "AUD_Normalized__Slots_Allocated_(w_X_w_RVI)")					</eqn>
-			</aux>
 			<aux name="AUD_Actual_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The average percent of appointments missed, based on the team's data. The user can also enter their own percentage.  (pct)</doc>
-					<eqn>IF_THEN_ELSE("User_AUD_True_Missed_Appointment_"<0,"Data_AUD_True_Missed_Appointment_",
-	IF_THEN_ELSE(Time<Experiment_Week,"Data_AUD_True_Missed_Appointment_", "User_AUD_True_Missed_Appointment_"))					</eqn>
+					<eqn>IF_THEN_ELSE("User_AUD_True_Missed_Appointment_"<0,"Data_True_Missed_Appointment__->_AUD",
+	IF_THEN_ELSE(Time<Experiment_Week,"Data_True_Missed_Appointment__->_AUD", "User_AUD_True_Missed_Appointment_"))					</eqn>
 			</aux>
-			<aux name="AUD_Adjusted_New_Patient_Wait_Time_(median)">
+			<aux name="AUD_Actual_RVI">
 				<units>wk</units>
-				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE (AUD_Referral_Rate_inferred_from_Data=0,0,
-	IF_THEN_ELSE ("Data_AUD_New_Patient_Wait_Time_(median)"<AUD_Minimum_Time_to_Schedule, AUD_Minimum_Time_to_Schedule, "Data_AUD_New_Patient_Wait_Time_(median)")
-	)					</eqn>
+				<doc>The average wait time for new patients is based on the number of patients waiting and how many start care coordination each week (based on Littleâ€™s Law).  If there is more demand for completing appointments than there is available capacity, then actual return visit interval will increase, even if the desired RVI doesn't change.  If the completing appointment rate drops to zero, then the wait is technically infinite. In the model, appointments are never cancelled due to high wait times, but for ease of display, Actual RVI is capped at 12 months (52 weeks).</doc>
+					<eqn>MIN(IF_THEN_ELSE(AUD_Appointments_in_MM<0.05,0.01, XIDZ(AUD_Appointments_in_MM,AUD_Completing_Rate, 52)),52)					</eqn>
 			</aux>
 			<aux name="AUD_Appointments_Available_for_New_Patients">
 				<units>appt/wk</units>
@@ -325,16 +343,6 @@
 				<units>appt/wk</units>
 				<doc>The number of appointments used by existing patients each week.  The team either satisfies all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or uses all the supply (based on the Appointment Supply), leaving no appointments available for new patients.  (appt/wk)</doc>
 					<eqn>MIN(AUD_Desired_Appointment_Completion_Rate,AUD_Current_Appointment_Supply)					</eqn>
-			</aux>
-			<aux name="AUD_Appt_Completion_Rate">
-				<units>appt/wk</units>
-				<doc></doc>
-					<eqn>AUD_Appts_for_Existing_Pts					</eqn>
-			</aux>
-			<aux name="AUD_Appts_for_New_Pts">
-				<units>appt/wk</units>
-				<doc></doc>
-					<eqn>AUD_Current_Appointment_Supply*AUD_Ratio_of_Appts_for_New_Pts					</eqn>
 			</aux>
 			<aux name="AUD_Appts_for_New_Pts_w/DataRVI">
 				<units>appt/wk</units>
@@ -367,55 +375,33 @@
 				<doc>The desired completion rate depends on the number of appointments to complete and the return visit interval that was used when those appointments were booked.</doc>
 					<eqn>ZIDZ(AUD_Appointments_in_MM,AUD_RVI_used_when_Completing)					</eqn>
 			</aux>
-			<aux name="AUD_Effect_of_Wait_Time_on_Referrals">
-				<units>Dmnl</units>
-				<doc>When the wait time to start medication management increases above the target wait time for patients with a specific diagnosis, referring providers will be less likely to refer a new patient with that diagnosis.  This effect only applies to above-target wait times:  lower than expected new patient wait times do not increase referrals above the norm.  (pct)</doc>
-					<eqn>MIN((XIDZ(AUD_Perceived_Wait_Time , AUD_Target_New_Patient_Wait_Time, 1))^-AUD_Sensitivity_of_Referrals_to_Wait_Time,1)					</eqn>
-			</aux>
-			<aux name="AUD_Ending_Rate">
-				<units>pts/wk</units>
-				<doc>The number of patients finishing medication management is a function the number of patients in treatment and their median time engaged in treatment. (pts/wk)</doc>
-					<eqn>ZIDZ(AUD_Patients_in_MM,AUD_Engagement_Duration)					</eqn>
-			</aux>
 			<aux name="AUD_Engagement_Duration">
 				<units>wks</units>
 				<doc>Manually adjust the median number of weeks that patients receive medication Management visits with the team. (wks)</doc>
-					<eqn>IF_THEN_ELSE(User_AUD_Engagement_Duration=0,Data_AUD_Median_Engagement,IF_THEN_ELSE(Time<Experiment_Week, Data_AUD_Median_Engagement
+					<eqn>IF_THEN_ELSE(User_AUD_Engagement_Duration=0,"Data_Engagement_Duration_(median)_->_AUD",IF_THEN_ELSE(Time<Experiment_Week, "Data_Engagement_Duration_(median)_->_AUD"
 	,User_AUD_Engagement_Duration))					</eqn>
-			</aux>
-			<aux name="AUD_If_Existing_Pt_RVI_then_New_Pt_Starts=">
-				<units>pts/wk</units>
-				<doc>for Sim UI, Base Case values table</doc>
-					<eqn>"AUD_Appts_for_New_Pts_w/DataRVI"*AUD_Patients_per_Appointment					</eqn>
-			</aux>
-			<aux name="AUD_If_New_Pt_Start_Rate_then_RVI=">
-				<units>wks</units>
-				<doc>for Sim UI, Base Case values table</doc>
-					<eqn>AUD_fRVI					</eqn>
-			</aux>
-			<aux name="AUD_Initial_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>"AUD_Patient_Start_Rate_based_on_Supply_and_RVI_and_Missed_Appt_and_Engagement_Duration"*AUD_Engagement_Duration					</eqn>
-			</aux>
-			<aux name="AUD_Maximum_Start_Rate">
-				<units>pts/wk</units>
-				<doc>The maximum new patient start rate is determined by the new patient waiting list and minimum time to schedule patient appointments.</doc>
-					<eqn>AUD_Waiting_to_Start/AUD_Minimum_Time_to_Schedule					</eqn>
 			</aux>
 			<aux name="AUD_Normalized__Patients_by_Diagnosis_(no_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_AUD_Slots_Allocation__(without_X_waiver)" 
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/out_X_waiver)_->_AUD" 
 	,
 	"Total_Slots_Allocation__(without_X_waiver)")					</eqn>
 			</aux>
 			<aux name="AUD_Normalized__Patients_by_Diagnosis_(w_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_AUD_Slots_Allocation__(with_X_waiver)"  
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/X_waiver)_->_AUD"  
 	, 
 	"Total_Slots_Allocation__(with_X_waiver)" )					</eqn>
+			</aux>
+			<aux name="AUD_Normalized__Slots_Allocated_(no_X_w_RVI)">
+				<units>Dmnl</units>
+				<doc>The relative amount of provider time spent in appointments focused on each diagnosis, taking relative differences in RVI into account, normalized to sum to 100</doc>
+					<eqn>ZIDZ(ZIDZ("AUD_Normalized__Patients_by_Diagnosis_(no_X)"  , AUD_Relative_RVI)
+	,
+	Total_x
+	)					</eqn>
 			</aux>
 			<aux name="AUD_Normalized__Slots_Allocated_(w_X_w_RVI)">
 				<units>Dmnl</units>
@@ -427,90 +413,80 @@
 			<aux name="AUD_Ratio_of_Appts_for_New_Pts_w/DataRVI">
 				<units>Dmnl</units>
 				<doc>for Sim UI</doc>
-					<eqn>ZIDZ(("Data_AUD_Return_Visit_Interval_(median)"*(1-"AUD_Actual_Missed_Appointment_"))
+					<eqn>ZIDZ(("Data_Return_Visit_Interval_(median)_->_AUD"*(1-"AUD_Actual_Missed_Appointment_"))
 	,
-	(("Data_AUD_Return_Visit_Interval_(median)"*(1-"AUD_Actual_Missed_Appointment_"))+"Data_AUD_Return_Visit_Interval_(median)"+AUD_Engagement_Duration))					</eqn>
-			</aux>
-			<aux name="AUD_Relative_RVI">
-				<units>Dmnl</units>
-				<doc>The relative RVI for each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_AUD_Return_Visit_Interval_(median)" 
-	,
-	Total_RVI)					</eqn>
-			</aux>
-			<aux name="AUD_Sensitivity_of_Referrals_to_Wait_Time">
-				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 7113166433120f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 3536212245511f its original value). (pct)</doc>
-					<eqn>GAME (
-	1)					</eqn>
-			</aux>
-			<aux name="AUD_Target_New_Patient_Wait_Time">
-				<units>wk</units>
-				<doc>The acceptable average wait time for new patients to start Care Coordination, based on the team's data. The user can also enter their own new patient wait time goal.</doc>
-					<eqn>IF_THEN_ELSE(User_AUD_Target_Wait_Time<0, "AUD_Adjusted_New_Patient_Wait_Time_(median)", IF_THEN_ELSE(Time<Experiment_Week,"AUD_Adjusted_New_Patient_Wait_Time_(median)"
-	,User_AUD_Target_Wait_Time))					</eqn>
-			</aux>
-			<aux name="DEP_Actual_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The average percent of appointments missed, based on the team's data. The user can also enter their own percentage.  (pct)</doc>
-					<eqn>IF_THEN_ELSE("User_DEP_True_Missed_Appointment_"<0,"Data_DEP_True_Missed_Appointment_",
-	IF_THEN_ELSE(Time<Experiment_Week,"Data_DEP_True_Missed_Appointment_", "User_DEP_True_Missed_Appointment_"))					</eqn>
-			</aux>
-			<aux name="DEP_Adjusted_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE (DEP_Referral_Rate_inferred_from_Data=0,0,
-	IF_THEN_ELSE ("Data_DEP_New_Patient_Wait_Time_(median)"<DEP_Minimum_Time_to_Schedule,DEP_Minimum_Time_to_Schedule,"Data_DEP_New_Patient_Wait_Time_(median)")
-	)					</eqn>
-			</aux>
-			<aux name="AUD_Actual_RVI">
-				<units>wk</units>
-				<doc>The average wait time for new patients is based on the number of patients waiting and how many start care coordination each week (based on Littleâ€™s Law).  If there is more demand for completing appointments than there is available capacity, then actual return visit interval will increase, even if the desired RVI doesn't change.  If the completing appointment rate drops to zero, then the wait is technically infinite. In the model, appointments are never cancelled due to high wait times, but for ease of display, Actual RVI is capped at 12 months (52 weeks).</doc>
-					<eqn>MIN(IF_THEN_ELSE(AUD_Appointments_in_MM<0.05,0.01, XIDZ(AUD_Appointments_in_MM,AUD_Completing_Rate, 52)),52)					</eqn>
-			</aux>
-			<aux name="AUD_Normalized__Slots_Allocated_(no_X_w_RVI)">
-				<units>Dmnl</units>
-				<doc>The relative amount of provider time spent in appointments focused on each diagnosis, taking relative differences in RVI into account, normalized to sum to 100</doc>
-					<eqn>ZIDZ(ZIDZ("AUD_Normalized__Patients_by_Diagnosis_(no_X)"  , AUD_Relative_RVI)
-	,
-	Total_x
-	)					</eqn>
+	(("Data_Return_Visit_Interval_(median)_->_AUD"*(1-"AUD_Actual_Missed_Appointment_"))+"Data_Return_Visit_Interval_(median)_->_AUD"+AUD_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="Average_Actual_RVI">
 				<units>wks</units>
 				<doc></doc>
 					<eqn>(AUD_Actual_RVI+DEP_Actual_RVI+OUD_Actual_RVI+OtherNeeds_Actual_RVI)/4					</eqn>
 			</aux>
-			<aux name="DEP__Slots_Allocated_(w_X_w_RVI)">
+			<aux name="DEP_Actual_Missed_Appointment_">
 				<units>Dmnl</units>
-				<doc>The relative amount of provider time spent in appointments focused on each diagnosis, taking relative differences in RVI into account
-.</doc>
-					<eqn>ZIDZ("DEP_Normalized__Patients_by_Diagnosis_(w_X)"  , DEP_Relative_RVI)					</eqn>
-			</aux>
-			<aux name="DEP_Actual_RVI">
-				<units>wk</units>
-				<doc>The average wait time for new patients is based on the number of patients waiting and how many start care coordination each week (based on Littleâ€™s Law).  If there is more demand for completing appointments than there is available capacity, then actual return visit interval will increase, even if the desired RVI doesn't change.  If the completing appointment rate drops to zero, then the wait is technically infinite. In the model, appointments are never cancelled due to high wait times, but for ease of display, Actual RVI is capped at 12 months (52 weeks).</doc>
-					<eqn>MIN(IF_THEN_ELSE(DEP_Appointments_in_MM<0.05,0.01, XIDZ(DEP_Appointments_in_MM,DEP_Completing_Rate, 52)),52)					</eqn>
+				<doc>The average percent of appointments missed, based on the team's data. The user can also enter their own percentage.  (pct)</doc>
+					<eqn>IF_THEN_ELSE("User_DEP_True_Missed_Appointment_"<0,"Data_True_Missed_Appointment__->_Dep",
+	IF_THEN_ELSE(Time<Experiment_Week,"Data_True_Missed_Appointment__->_Dep", "User_DEP_True_Missed_Appointment_"))					</eqn>
 			</aux>
 			<aux name="DEP_Appts_for_New_Pts_w/DataRVI">
 				<units>appt/wk</units>
 				<doc>for Sim UI</doc>
 					<eqn>DEP_Current_Appointment_Supply*"DEP_Ratio_of_Appts_for_New_Pts_w/DataRVI"					</eqn>
 			</aux>
+			<aux name="AUD_Appt_Completion_Rate">
+				<units>appt/wk</units>
+				<doc></doc>
+					<eqn>AUD_Appts_for_Existing_Pts					</eqn>
+			</aux>
 			<aux name="AUD_Appts_for_Existing_Pts">
 				<units>appt/wk</units>
 				<doc></doc>
 					<eqn>AUD_Current_Appointment_Supply*AUD_Ratio_of_Appts_for_Existing_Pts					</eqn>
+			</aux>
+			<aux name="AUD_Appts_for_New_Pts">
+				<units>appt/wk</units>
+				<doc></doc>
+					<eqn>AUD_Current_Appointment_Supply*AUD_Ratio_of_Appts_for_New_Pts					</eqn>
+			</aux>
+			<aux name="AUD_Effect_of_Wait_Time_on_Referrals">
+				<units>Dmnl</units>
+				<doc>When the wait time to start medication management increases above the target wait time for patients with a specific diagnosis, referring providers will be less likely to refer a new patient with that diagnosis.  This effect only applies to above-target wait times:  lower than expected new patient wait times do not increase referrals above the norm.  (pct)</doc>
+					<eqn>MIN((XIDZ(AUD_Perceived_Wait_Time , AUD_Target_New_Patient_Wait_Time, 1))^-AUD_Sensitivity_of_Referrals_to_Wait_Time,1)					</eqn>
+			</aux>
+			<aux name="AUD_Ending_Rate">
+				<units>pts/wk</units>
+				<doc>The number of patients finishing medication management is a function the number of patients in treatment and their median time engaged in treatment. (pts/wk)</doc>
+					<eqn>ZIDZ(AUD_Patients_in_MM,AUD_Engagement_Duration)					</eqn>
+			</aux>
+			<aux name="AUD_If_Existing_Pt_RVI_then_New_Pt_Starts=">
+				<units>pts/wk</units>
+				<doc>for Sim UI, Base Case values table</doc>
+					<eqn>"AUD_Appts_for_New_Pts_w/DataRVI"*AUD_Patients_per_Appointment					</eqn>
+			</aux>
+			<aux name="AUD_If_New_Pt_Start_Rate_then_RVI=">
+				<units>wks</units>
+				<doc>for Sim UI, Base Case values table</doc>
+					<eqn>AUD_fRVI					</eqn>
 			</aux>
 			<aux name="AUD_Initial_Appointments">
 				<units>appt</units>
 				<doc></doc>
 					<eqn>AUD_Appt_Completion_Rate*AUD_RVI_used_when_Booking					</eqn>
 			</aux>
+			<aux name="AUD_Initial_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>"AUD_Patient_Start_Rate_based_on_Supply_and_RVI_and_Missed_Appt_and_Engagement_Duration"*AUD_Engagement_Duration					</eqn>
+			</aux>
 			<aux name="AUD_Initial_Patients_Waiting_to_Start">
 				<units>pts</units>
 				<doc></doc>
 					<eqn>"AUD_Patient_Start_Rate_based_on_Supply_and_RVI_and_Missed_Appt_and_Engagement_Duration"*AUD_Target_New_Patient_Wait_Time					</eqn>
+			</aux>
+			<aux name="AUD_Maximum_Start_Rate">
+				<units>pts/wk</units>
+				<doc>The maximum new patient start rate is determined by the new patient waiting list and minimum time to schedule patient appointments.</doc>
+					<eqn>AUD_Waiting_to_Start/AUD_Minimum_Time_to_Schedule					</eqn>
 			</aux>
 			<aux name="AUD_New_Patient_Wait_Time">
 				<units>wk</units>
@@ -548,6 +524,13 @@
 	
 	*AUD_Effect_of_Wait_Time_on_Referrals					</eqn>
 			</aux>
+			<aux name="AUD_Relative_RVI">
+				<units>Dmnl</units>
+				<doc>The relative RVI for each diagnosis, normalized to sum to 100</doc>
+					<eqn>ZIDZ("Data_Return_Visit_Interval_(median)_->_AUD" 
+	,
+	Total_RVI)					</eqn>
+			</aux>
 			<aux name="AUD_Rescheduling_Rate">
 				<units>appt/wk</units>
 				<doc>The rescheduling rate depends on the total number of appointments to reschedule and the average time it takes to reschedule them.  (appts/wk)</doc>
@@ -556,7 +539,13 @@
 			<aux name="AUD_RVI_used_when_Booking">
 				<units>wks</units>
 				<doc>The team's goal to see each patient in this service once in every x weeks. The default value for return visit interval is based on the team's data, unless the team chooses to use the data for New Patient Start Rate instead. If the user inputs their desired RVI, then the model uses that value instead.</doc>
-					<eqn>IF_THEN_ELSE (User_AUD_Return_Visit_Interval>0:AND:Time>Experiment_Week,User_AUD_Return_Visit_Interval,IF_THEN_ELSE(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval=1,AUD_fRVI,"Data_AUD_Return_Visit_Interval_(median)"))					</eqn>
+					<eqn>IF_THEN_ELSE (User_AUD_Return_Visit_Interval>0:AND:Time>Experiment_Week,User_AUD_Return_Visit_Interval,IF_THEN_ELSE(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval=1,AUD_fRVI,"Data_Return_Visit_Interval_(median)_->_AUD"))					</eqn>
+			</aux>
+			<aux name="AUD_Sensitivity_of_Referrals_to_Wait_Time">
+				<units>Dmnl</units>
+				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 71261460260f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 350f its original value). (pct)</doc>
+					<eqn>GAME (
+	1)					</eqn>
 			</aux>
 			<aux name="AUD_Starting_Rate">
 				<units>pts/wk</units>
@@ -576,6 +565,12 @@
 .</doc>
 					<eqn>ZIDZ("DEP_Normalized__Patients_by_Diagnosis_(no_X)"  , DEP_Relative_RVI)					</eqn>
 			</aux>
+			<aux name="DEP__Slots_Allocated_(w_X_w_RVI)">
+				<units>Dmnl</units>
+				<doc>The relative amount of provider time spent in appointments focused on each diagnosis, taking relative differences in RVI into account
+.</doc>
+					<eqn>ZIDZ("DEP_Normalized__Patients_by_Diagnosis_(w_X)"  , DEP_Relative_RVI)					</eqn>
+			</aux>
 			<aux name="DEP__Slots_Allocated_to_Each_Diagnosis_(no_X)">
 				<units>Dmnl</units>
 				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
@@ -585,6 +580,11 @@
 				<units>Dmnl</units>
 				<doc>The allocation of slots is determined by the team's data (default), but can instead be set manually by users.</doc>
 					<eqn>IF_THEN_ELSE ("User_DEP_Slots_Allocation_(with_X_waiver)" >=0:AND:Time>Experiment_Week,"User_DEP_Slots_Allocation_(with_X_waiver)" , "DEP_Normalized__Slots_Allocated_(w_X_w_RVI)")					</eqn>
+			</aux>
+			<aux name="DEP_Actual_RVI">
+				<units>wk</units>
+				<doc>The average wait time for new patients is based on the number of patients waiting and how many start care coordination each week (based on Littleâ€™s Law).  If there is more demand for completing appointments than there is available capacity, then actual return visit interval will increase, even if the desired RVI doesn't change.  If the completing appointment rate drops to zero, then the wait is technically infinite. In the model, appointments are never cancelled due to high wait times, but for ease of display, Actual RVI is capped at 12 months (52 weeks).</doc>
+					<eqn>MIN(IF_THEN_ELSE(DEP_Appointments_in_MM<0.05,0.01, XIDZ(DEP_Appointments_in_MM,DEP_Completing_Rate, 52)),52)					</eqn>
 			</aux>
 			<aux name="DEP_Appointments_Available_for_New_Patients">
 				<units>appt/wk</units>
@@ -651,7 +651,7 @@
 			<aux name="DEP_Engagement_Duration">
 				<units>wks</units>
 				<doc>Manually adjust the median number of weeks that patients receive medication Management visits with the team. (wks)</doc>
-					<eqn>IF_THEN_ELSE(User_DEP_Engagement_Duration=0,Data_DEP_Median_Engagement,IF_THEN_ELSE(Time<Experiment_Week, Data_DEP_Median_Engagement
+					<eqn>IF_THEN_ELSE(User_DEP_Engagement_Duration=0,"Data_Engagement_Duration_(median)_->_Dep",IF_THEN_ELSE(Time<Experiment_Week, "Data_Engagement_Duration_(median)_->_Dep"
 	,User_DEP_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="DEP_If_Existing_Pt_RVI_then_New_Pt_Starts=">
@@ -692,14 +692,14 @@
 			<aux name="DEP_Normalized__Patients_by_Diagnosis_(no_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_DEP_Slots_Allocation__(without_X_waiver)" 
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/out_X_waiver)_->_Dep" 
 	,
 	"Total_Slots_Allocation__(without_X_waiver)")					</eqn>
 			</aux>
 			<aux name="DEP_Normalized__Patients_by_Diagnosis_(w_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_DEP_Slots_Allocation__(with_X_waiver)"  
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/_X_waiver)_->_Dep"  
 	, 
 	"Total_Slots_Allocation__(with_X_waiver)" )					</eqn>
 			</aux>
@@ -745,9 +745,9 @@
 			<aux name="DEP_Ratio_of_Appts_for_New_Pts_w/DataRVI">
 				<units>Dmnl</units>
 				<doc>for Sim UI</doc>
-					<eqn>ZIDZ(("Data_DEP_Return_Visit_Interval_(median)"*(1-"DEP_Actual_Missed_Appointment_"))
+					<eqn>ZIDZ(("Data_Return_Visit_Interval_(median)_->_Dep"*(1-"DEP_Actual_Missed_Appointment_"))
 	,
-	(("Data_DEP_Return_Visit_Interval_(median)"*(1-"DEP_Actual_Missed_Appointment_"))+"Data_DEP_Return_Visit_Interval_(median)"+DEP_Engagement_Duration
+	(("Data_Return_Visit_Interval_(median)_->_Dep"*(1-"DEP_Actual_Missed_Appointment_"))+"Data_Return_Visit_Interval_(median)_->_Dep"+DEP_Engagement_Duration
 	))					</eqn>
 			</aux>
 			<aux name="DEP_Referral_Rate">
@@ -760,7 +760,7 @@
 			<aux name="DEP_Relative_RVI">
 				<units>Dmnl</units>
 				<doc>The relative RVI for each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_DEP_Return_Visit_Interval_(median)" 
+					<eqn>ZIDZ("Data_Return_Visit_Interval_(median)_->_Dep" 
 	,
 	Total_RVI)					</eqn>
 			</aux>
@@ -773,11 +773,11 @@
 				<units>wks</units>
 				<doc>The team's goal to see each patient in this service once in every x weeks. The default value for return visit interval is based on the team's data, unless the team chooses to use the data for New Patient Start Rate instead. If the user inputs their desired RVI, then the model uses that value instead.</doc>
 					<eqn>IF_THEN_ELSE (User_DEP_Return_Visit_Interval>0:AND:Time>Experiment_Week,User_DEP_Return_Visit_Interval,IF_THEN_ELSE(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval
-	=1,DEP_fRVI,"Data_DEP_Return_Visit_Interval_(median)"))					</eqn>
+	=1,DEP_fRVI,"Data_Return_Visit_Interval_(median)_->_Dep"))					</eqn>
 			</aux>
 			<aux name="DEP_Sensitivity_of_Referrals_to_Wait_Time">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 7113166433120f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 3536212245511f its original value).  (pct)</doc>
+				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 71261460260f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 350f its original value).  (pct)</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -840,8 +840,8 @@
 			<aux name="OtherNeeds_Actual_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The average percent of appointments missed, based on the team's data. The user can also enter their own percentage.  (pct)</doc>
-					<eqn>IF_THEN_ELSE("User_OtherNeeds_True_Missed_Appointment_"<0,"Data_OtherNeeds_True_Missed_Appointment_",
-	IF_THEN_ELSE(Time<Experiment_Week,"Data_OtherNeeds_True_Missed_Appointment_", "User_OtherNeeds_True_Missed_Appointment_"))					</eqn>
+					<eqn>IF_THEN_ELSE("User_OtherNeeds_True_Missed_Appointment_"<0,"Data_True_Missed_Appointment__->_Other",
+	IF_THEN_ELSE(Time<Experiment_Week,"Data_True_Missed_Appointment__->_Other", "User_OtherNeeds_True_Missed_Appointment_"))					</eqn>
 			</aux>
 			<aux name="OtherNeeds_Actual_RVI">
 				<units>wk</units>
@@ -852,7 +852,7 @@
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule.  If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE (OtherNeeds_Referral_Rate_inferred_from_Data=0,0,
-	IF_THEN_ELSE ("Data_OtherNeeds_New_Patient_Wait_Time_(median)"<OtherNeeds_Minimum_Time_to_Schedule, OtherNeeds_Minimum_Time_to_Schedule ,"Data_OtherNeeds_New_Patient_Wait_Time_(median)")
+	IF_THEN_ELSE ("Data_New_Patient_Wait_Time_(median)_->_Other"<OtherNeeds_Minimum_Time_to_Schedule, OtherNeeds_Minimum_Time_to_Schedule ,"Data_New_Patient_Wait_Time_(median)_->_Other")
 	)					</eqn>
 			</aux>
 			<aux name="OtherNeeds_Appointments_Available_for_New_Patients">
@@ -925,7 +925,7 @@
 			<aux name="OtherNeeds_Engagement_Duration">
 				<units>wks</units>
 				<doc>Manually adjust the median number of weeks that patients receive medication Management visits with the team. (wks)</doc>
-					<eqn>IF_THEN_ELSE(User_OtherNeeds_Engagement_Duration=0,Data_OtherNeeds_Median_Engagement,IF_THEN_ELSE(Time<Experiment_Week, Data_OtherNeeds_Median_Engagement
+					<eqn>IF_THEN_ELSE(User_OtherNeeds_Engagement_Duration=0,"Data_Engagement_Duration_(median)_->_Other",IF_THEN_ELSE(Time<Experiment_Week, "Data_Engagement_Duration_(median)_->_Other"
 	,User_OtherNeeds_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="OtherNeeds_If_Existing_Pt_RVI_then_New_Pt_Starts=">
@@ -966,14 +966,14 @@
 			<aux name="OtherNeeds_Normalized__Patients_by_Diagnosis_(no_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OtherNeeds_Slots_Allocation__(without_X_waiver)" 
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/out_X_waiver)_->_Other" 
 	,
 	"Total_Slots_Allocation__(without_X_waiver)")					</eqn>
 			</aux>
 			<aux name="OtherNeeds_Normalized__Patients_by_Diagnosis_(w_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OtherNeeds_Slots_Allocation__(with_X_waiver)"  
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/_X_waiver)_->_Other"  
 	, 
 	"Total_Slots_Allocation__(with_X_waiver)" )					</eqn>
 			</aux>
@@ -1019,9 +1019,9 @@
 			<aux name="OtherNeeds_Ratio_of_Appts_for_New_Pts_w/DataRVI">
 				<units>Dmnl</units>
 				<doc>for Sim UI</doc>
-					<eqn>ZIDZ(("Data_OtherNeeds_Return_Visit_Interval_(median)"*(1-"OtherNeeds_Actual_Missed_Appointment_"))
+					<eqn>ZIDZ(("Data_Return_Visit_Interval_(median)_->_Other"*(1-"OtherNeeds_Actual_Missed_Appointment_"))
 	,
-	(("Data_OtherNeeds_Return_Visit_Interval_(median)"*(1-"OtherNeeds_Actual_Missed_Appointment_"))+"Data_OtherNeeds_Return_Visit_Interval_(median)"+OtherNeeds_Engagement_Duration
+	(("Data_Return_Visit_Interval_(median)_->_Other"*(1-"OtherNeeds_Actual_Missed_Appointment_"))+"Data_Return_Visit_Interval_(median)_->_Other"+OtherNeeds_Engagement_Duration
 	))					</eqn>
 			</aux>
 			<aux name="OtherNeeds_Referral_Rate">
@@ -1034,7 +1034,7 @@
 			<aux name="OtherNeeds_Relative_RVI">
 				<units>Dmnl</units>
 				<doc>The relative RVI for each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OtherNeeds_Return_Visit_Interval_(median)" 
+					<eqn>ZIDZ("Data_Return_Visit_Interval_(median)_->_Other" 
 	,
 	Total_RVI)					</eqn>
 			</aux>
@@ -1047,12 +1047,12 @@
 				<units>wks</units>
 				<doc>The team's goal to see each patient in this service once in every x weeks. The default value for return visit interval is based on the team's data, unless the team chooses to use the data for New Patient Start Rate instead. If the user inputs their desired RVI, then the model uses that value instead.</doc>
 					<eqn>IF_THEN_ELSE (User_OtherNeeds_Return_Visit_Interval>0:AND:Time>Experiment_Week,User_OtherNeeds_Return_Visit_Interval,IF_THEN_ELSE
-	(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval=1,OtherNeeds_fRVI,"Data_OtherNeeds_Return_Visit_Interval_(median)"
+	(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval=1,OtherNeeds_fRVI,"Data_Return_Visit_Interval_(median)_->_Other"
 	))					</eqn>
 			</aux>
 			<aux name="OtherNeeds_Sensitivity_of_Referrals_to_Wait_Time">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 7113166433120f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 3536212245511f its original value). (pct)</doc>
+				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 71261460260f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 350f its original value). (pct)</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -1100,8 +1100,8 @@
 			<aux name="OUD_Actual_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The average percent of appointments missed, based on the team's data. The user can also enter their own percentage.  (pct)</doc>
-					<eqn>IF_THEN_ELSE("User_OUD_True_Missed_Appointment_"<0,"Data_OUD_True_Missed_Appointment_",
-	IF_THEN_ELSE(Time<Experiment_Week,"Data_OUD_True_Missed_Appointment_", "User_OUD_True_Missed_Appointment_"))					</eqn>
+					<eqn>IF_THEN_ELSE("User_OUD_True_Missed_Appointment_"<0,"Data_True_Missed_Appointment__->_OUD",
+	IF_THEN_ELSE(Time<Experiment_Week,"Data_True_Missed_Appointment__->_OUD", "User_OUD_True_Missed_Appointment_"))					</eqn>
 			</aux>
 			<aux name="OUD_Actual_RVI">
 				<units>wk</units>
@@ -1112,7 +1112,7 @@
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median new patient wait time to be zero, if the team sees many walk-in patients. However the Target New Patient Wait Time needs to be an average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Time to Schedule. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE (OUD_Referral_Rate_inferred_from_Data=0,0,
-	IF_THEN_ELSE ("Data_OUD_New_Patient_Wait_Time_(median)"<OUD_Minimum_Time_to_Schedule,OUD_Minimum_Time_to_Schedule,"Data_OUD_New_Patient_Wait_Time_(median)")
+	IF_THEN_ELSE ("Data_New_Patient_Wait_Time_(median)_->_OUD"<OUD_Minimum_Time_to_Schedule,OUD_Minimum_Time_to_Schedule,"Data_New_Patient_Wait_Time_(median)_->_OUD")
 	)					</eqn>
 			</aux>
 			<aux name="OUD_Appointments_Available_for_New_Patients">
@@ -1185,7 +1185,7 @@
 			<aux name="OUD_Engagement_Duration">
 				<units>wks</units>
 				<doc>Manually adjust the median number of weeks that patients receive medication Management visits with the team. (wks)</doc>
-					<eqn>IF_THEN_ELSE(User_OUD_Engagement_Duration=0,Data_OUD_Median_Engagement,IF_THEN_ELSE(Time<Experiment_Week, Data_OUD_Median_Engagement
+					<eqn>IF_THEN_ELSE(User_OUD_Engagement_Duration=0,"Data_Engagement_Duration_(median)_->_OUD",IF_THEN_ELSE(Time<Experiment_Week, "Data_Engagement_Duration_(median)_->_OUD"
 	,User_OUD_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="OUD_If_Existing_Pt_RVI_then_New_Pt_Starts=">
@@ -1226,14 +1226,14 @@
 			<aux name="OUD_Normalized__Patients_by_Diagnosis_(no_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OUD_Slots_Allocation__(without_X_waiver)" 
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/out_X_waiver)_->_OUD" 
 	,
 	"Total_Slots_Allocation__(without_X_waiver)")					</eqn>
 			</aux>
 			<aux name="OUD_Normalized__Patients_by_Diagnosis_(w_X)">
 				<units>Dmnl</units>
 				<doc>The relative ratios of patients with each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OUD_Slots_Allocation__(with_X_waiver)"  
+					<eqn>ZIDZ("Data_Slots_Allocation__(W/_X_waiver)_->_OUD"  
 	, 
 	"Total_Slots_Allocation__(with_X_waiver)" )					</eqn>
 			</aux>
@@ -1279,9 +1279,9 @@
 			<aux name="OUD_Ratio_of_Appts_for_New_Pts_w/DataRVI">
 				<units>Dmnl</units>
 				<doc>for Sim UI</doc>
-					<eqn>ZIDZ(("Data_OUD_Return_Visit_Interval_(median)"*(1-"OUD_Actual_Missed_Appointment_"))
+					<eqn>ZIDZ(("Data_Return_Visit_Interval_(median)_->_OUD"*(1-"OUD_Actual_Missed_Appointment_"))
 	,
-	(("Data_OUD_Return_Visit_Interval_(median)"*(1-"OUD_Actual_Missed_Appointment_"))+"Data_OUD_Return_Visit_Interval_(median)"+OUD_Engagement_Duration
+	(("Data_Return_Visit_Interval_(median)_->_OUD"*(1-"OUD_Actual_Missed_Appointment_"))+"Data_Return_Visit_Interval_(median)_->_OUD"+OUD_Engagement_Duration
 	))					</eqn>
 			</aux>
 			<aux name="OUD_Referral_Rate">
@@ -1294,7 +1294,7 @@
 			<aux name="OUD_Relative_RVI">
 				<units>Dmnl</units>
 				<doc>The relative RVI for each diagnosis, normalized to sum to 100</doc>
-					<eqn>ZIDZ("Data_OUD_Return_Visit_Interval_(median)" 
+					<eqn>ZIDZ("Data_Return_Visit_Interval_(median)_->_OUD" 
 	,
 	Total_RVI)					</eqn>
 			</aux>
@@ -1307,11 +1307,11 @@
 				<units>wks</units>
 				<doc>The team's goal to see each patient in this service once in every x weeks. The default value for return visit interval is based on the team's data, unless the team chooses to use the data for New Patient Start Rate instead. If the user inputs their desired RVI, then the model uses that value instead.</doc>
 					<eqn>IF_THEN_ELSE (User_OUD_Return_Visit_Interval>0:AND:Time>Experiment_Week,User_OUD_Return_Visit_Interval,IF_THEN_ELSE(Use_Team_Data_for_Starting_Rate_or_Return_Visit_Interval
-	=1,OUD_fRVI,"Data_OUD_Return_Visit_Interval_(median)"))					</eqn>
+	=1,OUD_fRVI,"Data_Return_Visit_Interval_(median)_->_OUD"))					</eqn>
 			</aux>
 			<aux name="OUD_Sensitivity_of_Referrals_to_Wait_Time">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 7113166433120f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 3536212245511f its original value).  (pct)</doc>
+				<doc>This controls the magnitude of the effect increases in new patient wait time (or decreases in target wait time) have on referrals, where referrals drop as wait time increases (or the target wait time decreases).  A value of "zero" implies that there is no relationship between wait time and referrals.  A value of "1" indicates that if  the new patient wait time doubles (relative to the new patient wait time goal), then referring providers will cut their care coordination referrals in half.  For the same situation, a value of "0.5" would result in less of an effect (reducing the referral rate to 71261460260f its original value), and a value of "1.5" would result in a greater effect (reducing the referral rate to less than 350f its original value).  (pct)</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -1340,12 +1340,12 @@
 			</aux>
 			<aux name="Proportion_of_Appointment_Slots_where_Provider_has_X-Waiver">
 				<units>Dmnl</units>
-				<doc>The 13166433120f appointment slots where the provider has the DEA X-Waiver.  Default value estimated from the team's data, but can by set to any by the user.</doc>
-					<eqn>IF_THEN_ELSE ("User_Appointment_Slots_Where_Provider_has_X-Waiver_">=0:AND:Time>Experiment_Week,"User_Appointment_Slots_Where_Provider_has_X-Waiver_", "Data_Appointment_Slots__(with_X_waiver)")					</eqn>
+				<doc>The 261460260f appointment slots where the provider has the DEA X-Waiver.  Default value estimated from the team's data, but can by set to any by the user.</doc>
+					<eqn>IF_THEN_ELSE ("User_Appointment_Slots_Where_Provider_has_X-Waiver_">=0:AND:Time>Experiment_Week,"User_Appointment_Slots_Where_Provider_has_X-Waiver_", "Data_Appointment_Slots__(W/_X_waiver)")					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Missed_Appointments_to_Task_Time">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in time for non-patient-facing care tasks has on missed appointments.  A value of "zero" implies that there is no relationship between overbooks and missed appointments. A value below 1 indicates that patients are not sensitive to small changes in non-patient-facing task time; a value greater than 1 indicates that patients are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an exponent of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 13904gher than before. A value of "0.5" would cause that same 20-232174775ncrease in hours worked to have less of an effect (causing only a 9.5-119169424ncrease in the missed appointment percentage).  A value of "2" would cause that same 20-179591992ncrease to have a greater effect (raising the missed appointment percentage by 44). (pct)</doc>
+				<doc>This controls the magnitude of the effect changes in time for non-patient-facing care tasks has on missed appointments.  A value of "zero" implies that there is no relationship between overbooks and missed appointments. A value below 1 indicates that patients are not sensitive to small changes in non-patient-facing task time; a value greater than 1 indicates that patients are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an exponent of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20 0ncrease in hours worked to have less of an effect (causing only a 9.5 1313207896ncrease in the missed appointment percentage).  A value of "2" would cause that same 20 1459951200ncrease to have a greater effect (raising the missed appointment percentage by 44). (pct)</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -1357,17 +1357,17 @@
 			<aux name="Total_RVI">
 				<units>wks</units>
 				<doc>Sum of all RVIs, used to normalize diagnostic cohort RVIs.</doc>
-					<eqn>"Data_AUD_Return_Visit_Interval_(median)"+"Data_DEP_Return_Visit_Interval_(median)"+"Data_OUD_Return_Visit_Interval_(median)"+"Data_OtherNeeds_Return_Visit_Interval_(median)"					</eqn>
+					<eqn>"Data_Return_Visit_Interval_(median)_->_AUD"+"Data_Return_Visit_Interval_(median)_->_Dep"+"Data_Return_Visit_Interval_(median)_->_OUD"+"Data_Return_Visit_Interval_(median)_->_Other"					</eqn>
 			</aux>
 			<aux name="Total_Slots_Allocation__(with_X_waiver)">
 				<units>Dmnl</units>
-				<doc>Sum of slot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers with an X waiver, used to normalize slot all for each diagnostic cohort.</doc>
-					<eqn>"Data_AUD_Slots_Allocation__(with_X_waiver)"+"Data_DEP_Slots_Allocation__(with_X_waiver)"+"Data_OUD_Slots_Allocation__(with_X_waiver)"+"Data_OtherNeeds_Slots_Allocation__(with_X_waiver)"					</eqn>
+				<doc>Sum of slot allocation pÁ7NC for providers with an X waiver, used to normalize slot allocation (null) for each diagnostic cohort.</doc>
+					<eqn>"Data_Slots_Allocation__(W/X_waiver)_->_AUD"+"Data_Slots_Allocation__(W/_X_waiver)_->_Dep"+"Data_Slots_Allocation__(W/_X_waiver)_->_OUD"+"Data_Slots_Allocation__(W/_X_waiver)_->_Other"					</eqn>
 			</aux>
 			<aux name="Total_Slots_Allocation__(without_X_waiver)">
 				<units>Dmnl</units>
-				<doc>Sum of slot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize slot allocation ot allocation PÑ“ðR for providers without an X waiver, used to normalize  for each diagnostic cohort.</doc>
-					<eqn>"Data_AUD_Slots_Allocation__(without_X_waiver)"+"Data_DEP_Slots_Allocation__(without_X_waiver)"+"Data_OUD_Slots_Allocation__(without_X_waiver)"+"Data_OtherNeeds_Slots_Allocation__(without_X_waiver)"					</eqn>
+				<doc>Sum of slot allocation pÁ7NC for providers without an X waiver, used to normalize slot allocation (null) for each diagnostic cohort.</doc>
+					<eqn>"Data_Slots_Allocation__(W/out_X_waiver)_->_AUD"+"Data_Slots_Allocation__(W/out_X_waiver)_->_Dep"+"Data_Slots_Allocation__(W/out_X_waiver)_->_OUD"+"Data_Slots_Allocation__(W/out_X_waiver)_->_Other"					</eqn>
 			</aux>
 			<aux name="Total_x">
 				<units>Dmnl</units>
@@ -1423,13 +1423,13 @@
 			</aux>
 			<aux name="User_AUD_Slots_Allocation_(No_X_Waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's thould always be zero. (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third (null)hould always be zero. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_AUD_Slots_Allocation_(with_X_Waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100  (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100  (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -1477,13 +1477,13 @@
 			</aux>
 			<aux name="User_DEP_Slots_Allocation_(with_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_DEP_Slots_Allocation_(without_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allohould always be zero. (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third (null)hould always be zero. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -1531,13 +1531,13 @@
 			</aux>
 			<aux name="User_OtherNeeds_Slots_Allocation_(with_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_OtherNeeds_Slots_Allocation_(without_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, fohould always be zero. (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third (null)hould always be zero. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -1585,13 +1585,13 @@
 			</aux>
 			<aux name="User_OUD_Slots_Allocation_(with_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider has a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 100 (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
 			<aux name="User_OUD_Slots_Allocation_(without_X_waiver)">
 				<units>Dmnl</units>
-				<doc>The 13166433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third 433120f the team's total appointment slots allocated to each diagnosis, for clinics where the providehould always be zero. (pct)</doc>
+				<doc>The 261460260f the team's total appointment slots allocated to each diagnosis, for clinics where the provider does not have a DEA X-Waiver. These values replaces the base case value, which is calculated from the team's data. Any set of percentages is possible, but they must sum to 1. For providers without X-Waivers, they should not allocate any time to OUD treatment, thus the value for the third (null)hould always be zero. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
@@ -1612,6 +1612,61 @@
 				<doc>The fastest possible time to schedule a new patient appointment.</doc>
 					<eqn>0.1					</eqn>
 			</aux>
+			<aux name="Data_New_Patient_Wait_Time_(median)_->_AUD">
+				<units>wk</units>
+				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','I2')					</eqn>
+			</aux>
+			<aux name="Data_New_Patient_Wait_Time_(median)_->_Dep">
+				<units>wk</units>
+				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','S2')					</eqn>
+			</aux>
+			<aux name="Data_New_Patient_Wait_Time_(median)_->_Other">
+				<units>wk</units>
+				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AG2')					</eqn>
+			</aux>
+			<aux name="Data_New_Patient_Wait_Time_(median)_->_OUD">
+				<units>wk</units>
+				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','Z2')					</eqn>
+			</aux>
+			<aux name="Data_Appointment_Slots__(W/_X_waiver)">
+				<units>Dmnl</units>
+				<doc>The proportion of the team's total appointment slots where the provider has a DEA X waiver and thus can provide evidence-based pharmacotherapy for OUD, calculated from the team's data. An X waivered clinician may also provide other treatments in these slots. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','H2')					</eqn>
+			</aux>
+			<aux name="Data_Appointment_Supply_(75th_Percentile)">
+				<units>appt/wk</units>
+				<doc>The weekly number of medication management appointments available with this team, calculated from the team's data on the number of medication management visits completed in each week with the team. (appt/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','G2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_AUD">
+				<units>wks</units>
+				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','K2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Dep">
+				<units>wks</units>
+				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','R2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Other">
+				<units>wks</units>
+				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AF2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_OUD">
+				<units>wks</units>
+				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','Y2')					</eqn>
+			</aux>
+			<aux name="Data_Slots_Allocation__(W/_X_waiver)_->_Dep">
+				<units>Dmnl</units>
+				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','U2')					</eqn>
+			</aux>
 			<aux name="AUD_Patients_per_Appointment">
 				<units>pts/appt</units>
 				<doc>Always 1 patient per appointment, except for group visits.</doc>
@@ -1622,160 +1677,105 @@
 				<doc>Time to measure, report, and respond to differences between desired and actual Return Visit Interval for a service. Set to 4 weeks, i.e., a monthly staff meeting update.</doc>
 					<eqn>4					</eqn>
 			</aux>
-			<aux name="Data_AUD_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B7')					</eqn>
-			</aux>
-			<aux name="Data_AUD_Return_Visit_Interval_(median)">
-				<units>wks</units>
-				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B5')					</eqn>
-			</aux>
-			<aux name="Data_AUD_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B3')					</eqn>
-			</aux>
-			<aux name="Data_DEP_Median_Engagement">
-				<units>wks</units>
-				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C12')					</eqn>
-			</aux>
-			<aux name="Data_DEP_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C7')					</eqn>
-			</aux>
-			<aux name="Data_DEP_Return_Visit_Interval_(median)">
-				<units>wks</units>
-				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C5')					</eqn>
-			</aux>
-			<aux name="Data_DEP_Slots_Allocation__(without_X_waiver)">
-				<units>Dmnl</units>
-				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider does not have a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is not possible in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C14')					</eqn>
-			</aux>
-			<aux name="Data_DEP_Starting_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C1')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E7')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_Slots_Allocation__(with_X_waiver)">
-				<units>Dmnl</units>
-				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E13')					</eqn>
-			</aux>
-			<aux name="Data_OUD_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>The new patient wait time, calculated from the teams' data on the time between each patient's first medication management appointment being scheduled and that visit being completed with this team.  (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D7')					</eqn>
-			</aux>
-			<aux name="Data_DEP_Slots_Allocation__(with_X_waiver)">
-				<units>Dmnl</units>
-				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C13')					</eqn>
-			</aux>
-			<aux name="Data_DEP_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','C3')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_Return_Visit_Interval_(median)">
-				<units>wks</units>
-				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E5')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E3')					</eqn>
-			</aux>
-			<aux name="Data_OUD_Return_Visit_Interval_(median)">
-				<units>wks</units>
-				<doc>The median return-to-clinic visit interval for medication management visits with this team, calculated from the team's data on the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D5')					</eqn>
-			</aux>
-			<aux name="Data_OUD_Slots_Allocation__(with_X_waiver)">
-				<units>Dmnl</units>
-				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D13')					</eqn>
-			</aux>
 			<aux name="AUD_Time_to_Reschedule">
 				<units>wk</units>
 				<doc>Average time to reschedule an appointment that was missed is estimated at 2 weeks, accounting for large variation in time to make productive contact with the patient and their availability.</doc>
 					<eqn>2					</eqn>
 			</aux>
-			<aux name="Data_Appointment_Slots__(with_X_waiver)">
-				<units>Dmnl</units>
-				<doc>The proportion of the team's total appointment slots where the provider has a DEA X waiver and thus can provide evidence-based pharmacotherapy for OUD, calculated from the team's data. An X waivered clinician may also provide other treatments in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B15')					</eqn>
-			</aux>
-			<aux name="Data_Appointment_Supply_(75th_Percentile)">
-				<units>appt/wk</units>
-				<doc>The weekly number of medication management appointments available with this team, calculated from the team's data on the number of medication management visits completed in each week with the team. (appt/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B10')					</eqn>
-			</aux>
-			<aux name="Data_AUD_Median_Engagement">
+			<aux name="Data_Engagement_Duration_(median)_->_AUD">
 				<units>wks</units>
 				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B12')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','M2')					</eqn>
 			</aux>
-			<aux name="Data_AUD_Slots_Allocation__(with_X_waiver)">
+			<aux name="Data_Engagement_Duration_(median)_->_Dep">
+				<units>wks</units>
+				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','T2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Duration_(median)_->_Other">
+				<units>wks</units>
+				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AH2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Duration_(median)_->_OUD">
+				<units>wks</units>
+				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AA2')					</eqn>
+			</aux>
+			<aux name="Data_Slots_Allocation__(W/_X_waiver)_->_Other">
 				<units>Dmnl</units>
 				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B13')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AI2')					</eqn>
 			</aux>
-			<aux name="Data_AUD_Slots_Allocation__(without_X_waiver)">
+			<aux name="Data_Slots_Allocation__(W/_X_waiver)_->_OUD">
+				<units>Dmnl</units>
+				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AB2')					</eqn>
+			</aux>
+			<aux name="Data_Slots_Allocation__(W/out_X_waiver)_->_AUD">
 				<units>Dmnl</units>
 				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider does not have a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is not possible in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B14')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','O2')					</eqn>
 			</aux>
-			<aux name="Data_AUD_Starting_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','B1')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_Median_Engagement">
-				<units>wks</units>
-				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E12')					</eqn>
-			</aux>
-			<aux name="Data_OtherNeeds_Slots_Allocation__(without_X_waiver)">
+			<aux name="Data_Slots_Allocation__(W/out_X_waiver)_->_Dep">
 				<units>Dmnl</units>
 				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider does not have a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is not possible in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E14')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','V2')					</eqn>
 			</aux>
-			<aux name="Data_OtherNeeds_Starting_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','E1')					</eqn>
-			</aux>
-			<aux name="Data_OUD_Median_Engagement">
-				<units>wks</units>
-				<doc>The median number of weeks that patients stay engaged with the team, receiving medication management visits, calculated from the team's data. These visits can be with any member of the team.  This engagement time represents a patient's entire engagement in medication management across treatment episodes, regardless of small gaps in service and missed appointments. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D12')					</eqn>
-			</aux>
-			<aux name="Data_OUD_Slots_Allocation__(without_X_waiver)">
+			<aux name="Data_Slots_Allocation__(W/out_X_waiver)_->_Other">
 				<units>Dmnl</units>
 				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider does not have a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is not possible in these slots. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D14')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AJ2')					</eqn>
 			</aux>
-			<aux name="Data_OUD_Starting_Rate_(mean)">
+			<aux name="Data_Slots_Allocation__(W/out_X_waiver)_->_OUD">
+				<units>Dmnl</units>
+				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider does not have a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is not possible in these slots. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AC2')					</eqn>
+			</aux>
+			<aux name="Data_Slots_Allocation__(W/X_waiver)_->_AUD">
+				<units>Dmnl</units>
+				<doc>The proportion of appointment slots allocated to each diagnosis for clinics where the provider has a DEA X waiver, calculated from the team's data. Providing evidence-based pharmacotherapy for OUD is possible in these slots, but clinicians may provide other treatments in these slots. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','N2')					</eqn>
+			</aux>
+			<aux name="Data_Start_Rate_(mean)_->_AUD">
 				<units>pts/wk</units>
 				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D1')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','I2')					</eqn>
 			</aux>
-			<aux name="Data_OUD_True_Missed_Appointment_">
+			<aux name="Data_Start_Rate_(mean)_->_Dep">
+				<units>pts/wk</units>
+				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','P2')					</eqn>
+			</aux>
+			<aux name="Data_Start_Rate_(mean)_->_Other">
+				<units>pts/wk</units>
+				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AD2')					</eqn>
+			</aux>
+			<aux name="Data_Start_Rate_(mean)_->_OUD">
+				<units>pts/wk</units>
+				<doc>The number of new patients starting with the team per week, calculated from the team's data.  It is based on the average number of patients seen for medication management in one year who have never had a medication management visit with this team before. (pts/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','W2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_AUD">
 				<units>Dmnl</units>
 				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','MMParams','D3')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','J2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_Dep">
+				<units>Dmnl</units>
+				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','Q2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_Other">
+				<units>Dmnl</units>
+				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AE2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_OUD">
+				<units>Dmnl</units>
+				<doc>The proportion of medication management appointments with this team that no-showed or were cancelled after the appointment was supposed to have happened, calculated from the team's data. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','X2')					</eqn>
 			</aux>
 			<aux name="DEP_Minimum_Time_to_Schedule">
 				<units>wk</units>
