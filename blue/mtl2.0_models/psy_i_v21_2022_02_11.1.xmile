@@ -32,67 +32,6 @@
 					Ending who can Initiate
 					</outflow>
 			</stock>
-			<stock name="Completers_Patients_in_over_7_Visits">
-				<units>pts</units>
-				<doc>Total number of patients scheduled for their 8th or greater visit within their first three months engaged in care. (pts)</doc>
-					<eqn>
-					0
-					</eqn>
-					<inflow>
-					Completion Rate
-					</inflow>
-					<outflow>
-					Ending After 8 or More Visits Rate
-					</outflow>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_2-7-LowD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD", 1)
-					</eqn>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_2-7-HighD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD", 1)
-					</eqn>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_2-7-MidD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD", 1)
-					</eqn>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_8-12-HighD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_8-12-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD", 1)
-					</eqn>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_8-12-LowD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_8-12-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD", 1)
-					</eqn>
-			</stock>
-			<stock name="ET_Change_Delayed_by_RVI_-_8-12-MidD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
-					<eqn>
-					"ET_Change_Delayed_by_RVI_-_8-12-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD", 1)
-					</eqn>
-			</stock>
 			<stock name="Appointments_in_Psychotherapy">
 				<units>appt</units>
 				<doc>The total number of appointments for psychotherapy on the calendar.  (appts)</doc>
@@ -106,12 +45,25 @@
 					Completing Rate
 					</outflow>
 			</stock>
+			<stock name="Completers_Patients_in_over_7_Visits">
+				<units>pts</units>
+				<doc>Total number of patients scheduled for their 8th or greater visit within their first three months engaged in care. (pts)</doc>
+					<eqn>
+					0
+					</eqn>
+					<inflow>
+					Completion Rate
+					</inflow>
+					<outflow>
+					Ending After 8 or More Visits Rate
+					</outflow>
+			</stock>
 			<stock name="ET_Change_Delayed_by_RVI_-_1-HighD">
 				<units>Dmnl</units>
 				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
 					<eqn>
 					"ET_Change_Delayed_by_RVI_-_1-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD", 1)
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Starters_Who_Return_High_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="ET_Change_Delayed_by_RVI_-_1-LowD">
@@ -119,7 +71,7 @@
 				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
 					<eqn>
 					"ET_Change_Delayed_by_RVI_-_1-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD", 1)
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Starters_Who_Return_Low_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="ET_Change_Delayed_by_RVI_-_1-MidD">
@@ -127,7 +79,55 @@
 				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
 					<eqn>
 					"ET_Change_Delayed_by_RVI_-_1-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD", 1)
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Starters_Who_Return_Medium_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_2-7-HighD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Initiators_Who_Return_High_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_2-7-LowD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Initiators_Who_Return_Low_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_2-7-MidD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Initiators_Who_Return_Medium_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_8-12-HighD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_8-12-HighD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Completers_Who_Return_High_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_8-12-LowD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_8-12-LowD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Completers_Who_Return_Low_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="ET_Change_Delayed_by_RVI_-_8-12-MidD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median ET of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the ET does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when ET changes).</doc>
+					<eqn>
+					"ET_Change_Delayed_by_RVI_-_8-12-MidD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_Engagement_Duration_after_Three_Months,Experiment_wk)) , Data_Completers_Who_Return_Medium_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="From_Completers-HighD">
@@ -291,7 +291,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_1-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-HighD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Starters_Who_Return_High_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_1-LowD">
@@ -299,31 +299,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_1-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-LowD", 1)
-					</eqn>
-			</stock>
-			<stock name="RVI_Change_Delayed_by_RVI_-_1-MidD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
-					<eqn>
-					"RVI_Change_Delayed_by_RVI_-_1-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_1Visit-MidD", 1)
-					</eqn>
-			</stock>
-			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-HighD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
-					<eqn>
-					"RVI_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-HighD", 1)
-					</eqn>
-			</stock>
-			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-LowD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
-					<eqn>
-					"RVI_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-LowD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Starters_Who_Return_Low_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-MidD">
@@ -331,7 +307,31 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_2-7Visits-MidD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_Medium_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="RVI_Change_Delayed_by_RVI_-_1-MidD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+					<eqn>
+					"RVI_Change_Delayed_by_RVI_-_1-MidD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Starters_Who_Return_Medium_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-HighD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+					<eqn>
+					"RVI_Change_Delayed_by_RVI_-_2-7-HighD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_High_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-LowD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+					<eqn>
+					"RVI_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_Low_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-HighD">
@@ -339,7 +339,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-HighD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-HighD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Completers_Who_Return_High_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-LowD">
@@ -347,7 +347,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-LowD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-LowD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Completers_Who_Return_Low_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-MidD">
@@ -355,7 +355,7 @@
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_8-12-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , "RVI_>3mo_-_8-12Visits-MidD", 1)
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Completers_Who_Return_Medium_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="Starters_Patients_in_First_Visit">
@@ -374,22 +374,22 @@
 			<aux name="#_Pts_<3mo_in_Team_w/AUD">
 				<units>pts</units>
 				<doc></doc>
-					<eqn>"AUD_within_3_months_"*"Total_Pts_<3months"					</eqn>
+					<eqn>"Data_AUD_within_3_months_"*"Total_Pts_<3months"					</eqn>
 			</aux>
 			<aux name="#_Pts_<3mo_in_Team_w/OUD">
 				<units>pts</units>
 				<doc></doc>
-					<eqn>"OUD_within_3_months_"*"Total_Pts_<3months"					</eqn>
+					<eqn>"Data_OUD_within_3_months_"*"Total_Pts_<3months"					</eqn>
 			</aux>
 			<aux name="#_Pts_<3mo_in_Team_w/PTSD">
 				<units>pts</units>
 				<doc></doc>
-					<eqn>"PTSD_within_3_months_"*"Total_Pts_<3months"					</eqn>
+					<eqn>"Data_PTSD_within_3_months_"*"Total_Pts_<3months"					</eqn>
 			</aux>
 			<aux name="#_Pts_<3mo_in_Team_with_Depression">
 				<units>pts</units>
 				<doc></doc>
-					<eqn>"DEP_within_3_months_"*"Total_Pts_<3months"					</eqn>
+					<eqn>"Data_DEP_within_3_months_"*"Total_Pts_<3months"					</eqn>
 			</aux>
 			<aux name="_One-n-Dones">
 				<units>Dmnl</units>
@@ -415,17 +415,26 @@
 			<aux name="A">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Starters_Who_Initiate_") * SankeyScalar					</eqn>
+					<eqn>("Data_Starters_Who_Initiate_") * Data_Sankey_Scalar					</eqn>
 			</aux>
 			<aux name="Actual_Completers_Who_Graduate__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
 					<eqn>"Actual_Completers_Who_Graduate_"+((1-"Actual_Completers_Who_Graduate_")*"Effect_of_Implement_IOP_on_Completer_")					</eqn>
 			</aux>
+			<aux name="Actual_Completers_Who_Graduate_">
+				<units>Dmnl</units>
+				<doc>Constrained to be between 0 and 100</doc>
+					<eqn>MAX(MIN(
+	
+	IF_THEN_ELSE("User_Completers_Who_Graduate_">=0:AND:Time>Experiment_wk,"User_Completers_Who_Graduate_","Data_Completers_Who_Graduate_")
+	
+	,1),0)					</eqn>
+			</aux>
 			<aux name="Actual_Initiators_who_Complete__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
+					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_pÏ’Í·")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Complete_">
 				<units>Dmnl</units>
@@ -439,7 +448,7 @@
 			<aux name="Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
+					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_pÏ’Í·")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Quit_Early_">
 				<units>Dmnl</units>
@@ -453,7 +462,7 @@
 			<aux name="Actual_Starters_who_Initiate__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_@Â“")					</eqn>
+					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_pÏ’Í·")					</eqn>
 			</aux>
 			<aux name="Actual_Starters_Who_Initiate_">
 				<units>Dmnl</units>
@@ -477,44 +486,59 @@
 			<aux name="Appointment_Supply">
 				<units>appt/wk</units>
 				<doc>Total number of 60 minute Psychotherapy appointments offered by the team each wk.</doc>
-					<eqn>IF_THEN_ELSE(User_Appointment_Supply<0,"Appointment_Supply_(75th_percentile)",
+					<eqn>IF_THEN_ELSE(User_Appointment_Supply<0,"Data_Appointment_Supply_(75th_percentile)",
 	
-	IF_THEN_ELSE(Time<Experiment_wk, "Appointment_Supply_(75th_percentile)", User_Appointment_Supply))					</eqn>
+	IF_THEN_ELSE(Time<Experiment_wk, "Data_Appointment_Supply_(75th_percentile)", User_Appointment_Supply))					</eqn>
 			</aux>
 			<aux name="Appointments_Available_for_New_Patients">
 				<units>appt/wk</units>
 				<doc>All remaining supply, after all existing patients are seen. Users can also set aside additional appointments specifically for new patients, which allows the team to start more patients (i.e., they receive a first visit) than they can initiate (i.e., they receive a second visit).  It is prevented from going below zero.</doc>
 					<eqn>MAX((Appointment_Supply-Appointments_for_Existing_Patients),0)+STEP(User_Reserve_Appointments_for_New_Patients,Experiment_wk)					</eqn>
 			</aux>
+			<aux name="Appointments_for_Existing_Patients">
+				<units>appt/wk</units>
+				<doc>The number of appointments used by existing patients each week.  The team either satisfies all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or uses all the supply (based on the Appointment Supply), leaving no appointments available for new patients.  (appt/wk)</doc>
+					<eqn>MIN("Supply_Used_by_Pts_<3mo"+"Supply_Used_by_Pts_>3mo",Appointment_Supply)					</eqn>
+			</aux>
+			<aux name="Avg_RVI_>3mo">
+				<units>wk</units>
+				<doc>The unweighted average number of weeks between visits across the entire patient engagement.</doc>
+					<eqn>(Data_Starters_Who_Return_High_RVI+Data_Starters_Who_Return_Low_RVI+Data_Starters_Who_Return_Medium_RVI+Data_Initiators_Who_Return_High_RVI+Data_Initiators_Who_Return_Low_RVI+Data_Initiators_Who_Return_Medium_RVI+Data_Completers_Who_Return_High_RVI+Data_Completers_Who_Return_Low_RVI+Data_Completers_Who_Return_Medium_RVI)/9					</eqn>
+			</aux>
 			<aux name="B">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>(1-("Data_Starters_Who_Initiate_" +"Data_Starters_Who_Return_Later_")) * SankeyScalar					</eqn>
+					<eqn>(1-("Data_Starters_Who_Initiate_" +"Data_Starters_Who_Return_Later_")) * Data_Sankey_Scalar					</eqn>
+			</aux>
+			<aux name="Ballpark_Initial_Appointments_in_Psychotherapy">
+				<units>appt</units>
+				<doc>The number of appointments on the calendar is not a meaningful measure of the system, so accuracy here is not necessary.</doc>
+					<eqn>Completing_Rate * "Avg_RVI_>3mo"					</eqn>
 			</aux>
 			<aux name="Bars_E3">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment during their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patients who complete only 1 visits in their first 3 months and do not go on to complete more visits afterwards (i.e., "One-and-Dones").</doc>
-					<eqn>(ZIDZ( Median_Time_in_Visit_1 , "RVI_<3mo_-_1Visit"))/Pts_per_appt					</eqn>
+					<eqn>(ZIDZ( Median_Time_in_Visit_1 , Data_First_Visit_RVI))/Pts_per_appt					</eqn>
 			</aux>
 			<aux name="Bars_E4">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patient who completed only 1 visit in their first 3 months (i.e., "'False' One-and-Dones").</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_1_Visit_(1st_Quartile)" , "RVI_>3mo_-_1Visit-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_1_Visit_(1st_Quartile)" , Data_Starters_Who_Return_Low_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ("Engagement_Time_-_From_1_Visit_(Mean)" , "RVI_>3mo_-_1Visit-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ("Engagement_Time_-_From_1_Visit_(Mean)" , Data_Starters_Who_Return_Medium_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ("Engagement_Time_-_From_1_Visit_(4th_Quartile)" , "RVI_>3mo_-_1Visit-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ("Engagement_Time_-_From_1_Visit_(4th_Quartile)" , Data_Starters_Who_Return_High_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
 			</aux>
 			<aux name="Bars_E4-Final">
@@ -530,7 +554,7 @@
 			<aux name="Bars_E5">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment during their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patients who complete 2-7 visits in their first 3 months but do not go on to complete more visits afterward (i.e., "Initiators" who never complete).</doc>
-					<eqn>(ZIDZ( "Data_ET_-_Initiators_Who_Quit_Early" , "RVI_<3mo_-_2-7Visits-n-done"))/Pts_per_appt					</eqn>
+					<eqn>(ZIDZ( Data_Initiators_Who_Quit_Early_Duration , Data_Initiators_Who_Quit_Early_RVI))/Pts_per_appt					</eqn>
 			</aux>
 			<aux name="Bars_E5-Final">
 				<units>appt/pts</units>
@@ -541,28 +565,33 @@
 			<aux name="Bars_E6">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment during their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patients who complete 2-7 visits in their first 3 months and go on to complete more visits afterwards (i.e., "Initiators" who eventually complete).</doc>
-					<eqn>(ZIDZ( "ET_-_Initiators_Who_Return" , "RVI_<3mo_-_2-7Visits-n-More>3mo"))/Pts_per_appt					</eqn>
+					<eqn>(ZIDZ( "ET_-_Initiators_Who_Return" , Data_Initiators_Coming_Back_Later_RVI))/Pts_per_appt					</eqn>
 			</aux>
 			<aux name="Bars_E6_>3mo">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Initiator" patients who eventually complete more visits.</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)" , "RVI_>3mo_-_2-7Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)" , Data_Initiators_Who_Return_Low_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(Mean)" , "RVI_>3mo_-_2-7Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(Mean)" , Data_Initiators_Who_Return_Medium_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)" , "RVI_>3mo_-_2-7Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)" , Data_Initiators_Who_Return_High_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
+			</aux>
+			<aux name="Bars_E6_>3mo-Final">
+				<units>appt/pts</units>
+				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Initiator" patients who eventually complete more visits, at wk 104.</doc>
+					<eqn>SAMPLE IF TRUE(Time=FINAL_TIME, "Bars_E6_>3mo" , :NA:)					</eqn>
 			</aux>
 			<aux name="Bars_E6_>3mo-Initial">
 				<units>appt/pts</units>
@@ -572,7 +601,7 @@
 			<aux name="Bars_E7">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment during their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patients who complete 8 or more visits in their first 3 months (i.e., "Completers").</doc>
-					<eqn>(ZIDZ( "Data_ET_-_Initiators_Who_Complete" , "RVI_<3mo_-_2-7Visits-n-More<3mo"))/Pts_per_appt					</eqn>
+					<eqn>(ZIDZ( Data_Initiators_Who_Graduate_Duration , Data_Initiators_Who_Complete_RVI))/Pts_per_appt					</eqn>
 			</aux>
 			<aux name="Bars_E7-Final">
 				<units>appt/pts</units>
@@ -596,92 +625,31 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of patient who completed only 1 visit in their first 3 months (i.e., "Completer" patients who receive even more visits).</doc>
 					<eqn>(
 	"Starting_LowD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)" , "RVI_>3mo_-_8-12Visits-LowD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)" , Data_Completers_Who_Return_Low_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	)
 	)
 	
 	+
 	
 	("Starting_MidD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(Mean)" , "RVI_>3mo_-_8-12Visits-MidD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(Mean)" , Data_Completers_Who_Return_Medium_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))
 	
 	+
 	
 	("Starting_HighD_"*(
-	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)" , "RVI_>3mo_-_8-12Visits-HighD"*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
+	ZIDZ( "Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)" , Data_Completers_Who_Return_High_RVI*Pts_per_appt*(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)))
 	))					</eqn>
-			</aux>
-			<aux name="Bars_E9-Initial">
-				<units>appt/pts</units>
-				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Completor" patients who receive even more visits, at wk 0.</doc>
-					<eqn>SAMPLE IF TRUE(Time=INITIAL_TIME, Bars_E9 , :NA:)					</eqn>
-			</aux>
-			<aux name="C">
-				<units>pts</units>
-				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Starters_Who_Return_Later_")* SankeyScalar					</eqn>
-			</aux>
-			<aux name="C-Bars">
-				<units>appt/pts</units>
-				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>"Bars_E4-Initial"+Bars_E3					</eqn>
-			</aux>
-			<aux name="Completers_Who_Return_">
-				<units>Dmnl</units>
-				<doc>The proportion of patients who complete eight or more psychotherapy visits within three months (i.e., completers) and continue to get more psychotherapy visits more than three months after their first psychotherapy visit. (pct)</doc>
-					<eqn>1 - "Data_Completers_Who_Graduate_"					</eqn>
-			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Frequency">
-				<units>Dmnl</units>
-				<doc>The relative change in patients' visit frequency after they initiate care caused by implementing an Intensive Outpatient Program.  Implementing IOP will not affect Sankey Bar heights, as doubling the frequency and halving the duration will cancel out when estimating patients' average total visits.</doc>
-					<eqn>1+(
-	SMOOTH3(IF_THEN_ELSE (Time>0:AND:User_Implement_Intensive_Outpatient_Program>0,User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Frequency,0),Time_for_IOP_to_affect_Frequency)
-	)					</eqn>
-			</aux>
-			<aux name="Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)">
-				<units>wk</units>
-				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_2_to_7_Visits_(4th_Quartile)"*"ET_Change_Delayed_by_RVI_-_2-7-HighD"					</eqn>
-			</aux>
-			<aux name="Engagement_Time_-_From_2_to_7_Visits_(Mean)">
-				<units>wk</units>
-				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_2_to_7_Visits_(Mean)"*"ET_Change_Delayed_by_RVI_-_2-7-MidD"					</eqn>
-			</aux>
-			<aux name="Actual_Completers_Who_Graduate_">
-				<units>Dmnl</units>
-				<doc>Constrained to be between 0 and 100</doc>
-					<eqn>MAX(MIN(
-	
-	IF_THEN_ELSE("User_Completers_Who_Graduate_">=0:AND:Time>Experiment_wk,"User_Completers_Who_Graduate_","Data_Completers_Who_Graduate_")
-	
-	,1),0)					</eqn>
-			</aux>
-			<aux name="Appointments_for_Existing_Patients">
-				<units>appt/wk</units>
-				<doc>The number of appointments used by existing patients each week.  The team either satisfies all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or uses all the supply (based on the Appointment Supply), leaving no appointments available for new patients.  (appt/wk)</doc>
-					<eqn>MIN("Supply_Used_by_Pts_<3mo"+"Supply_Used_by_Pts_>3mo",Appointment_Supply)					</eqn>
-			</aux>
-			<aux name="Avg_RVI_>3mo">
-				<units>wk</units>
-				<doc>The unweighted average number of weeks between visits across the entire patient engagement.</doc>
-					<eqn>("RVI_>3mo_-_1Visit-HighD"+"RVI_>3mo_-_1Visit-LowD"+"RVI_>3mo_-_1Visit-MidD"+"RVI_>3mo_-_2-7Visits-HighD"+"RVI_>3mo_-_2-7Visits-LowD"+"RVI_>3mo_-_2-7Visits-MidD"+"RVI_>3mo_-_8-12Visits-HighD"+"RVI_>3mo_-_8-12Visits-LowD"+"RVI_>3mo_-_8-12Visits-MidD")/9					</eqn>
-			</aux>
-			<aux name="Ballpark_Initial_Appointments_in_Psychotherapy">
-				<units>appt</units>
-				<doc>The number of appointments on the calendar is not a meaningful measure of the system, so accuracy here is not necessary.</doc>
-					<eqn>Completing_Rate * "Avg_RVI_>3mo"					</eqn>
-			</aux>
-			<aux name="Bars_E6_>3mo-Final">
-				<units>appt/pts</units>
-				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Initiator" patients who eventually complete more visits, at wk 104.</doc>
-					<eqn>SAMPLE IF TRUE(Time=FINAL_TIME, "Bars_E6_>3mo" , :NA:)					</eqn>
 			</aux>
 			<aux name="Bars_E9-Final">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Completor" patients who receive even more visits, at wk 104.</doc>
 					<eqn>SAMPLE IF TRUE(Time=FINAL_TIME, Bars_E9 , :NA:)					</eqn>
+			</aux>
+			<aux name="Bars_E9-Initial">
+				<units>appt/pts</units>
+				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment after their first three months in care (i.e., the product of the frequency of visits and their total time in treatment) of "Completor" patients who receive even more visits, at wk 0.</doc>
+					<eqn>SAMPLE IF TRUE(Time=INITIAL_TIME, Bars_E9 , :NA:)					</eqn>
 			</aux>
 			<aux name="Booking_Rate">
 				<units>appt/wk</units>
@@ -692,6 +660,11 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who continue treatment after completing eight or more psythotherapy visit within their first three months.  (pts/wk)</doc>
 					<eqn>Ending_After_8_or_More_Visits_Rate*(1-"Actual_Completers_Who_Graduate__including_IOP_Effect")					</eqn>
+			</aux>
+			<aux name="Completers_Who_Return_">
+				<units>Dmnl</units>
+				<doc>The proportion of patients who complete eight or more psychotherapy visits within three months (i.e., completers) and continue to get more psychotherapy visits more than three months after their first psychotherapy visit. (pct)</doc>
+					<eqn>1 - "Data_Completers_Who_Graduate_"					</eqn>
 			</aux>
 			<aux name="Completing_Rate">
 				<units>appt/wk</units>
@@ -708,14 +681,14 @@
 				<doc>Rate of patients ending their 2-7th visit, who will complete 2-7 visits in less than 3 months and go on to complete 8 or more visits in that period.  This is the desired engagement pattern. It is constrained from going below zero.</doc>
 					<eqn>MAX(
 	
-	ZIDZ(Initiators_Who_Will_Continue, ("Data_ET_-_Initiators_Who_Complete"*Effect_of_Implement_IOP_on_Durations))
+	ZIDZ(Initiators_Who_Will_Continue, (Data_Initiators_Who_Graduate_Duration*Effect_of_Implement_IOP_on_Durations))
 	
 	,0)					</eqn>
 			</aux>
 			<aux name="D">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Initiators_Who_Quit_Early_") * SankeyScalar * ("Data_Starters_Who_Initiate_")					</eqn>
+					<eqn>("Data_Initiators_Who_Quit_Early_") * Data_Sankey_Scalar * ("Data_Starters_Who_Initiate_")					</eqn>
 			</aux>
 			<aux name="D-Bars">
 				<units>appt/pts</units>
@@ -725,27 +698,12 @@
 			<aux name="E">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>(1-("Data_Initiators_Who_Quit_Early_" + "Data_Initiators_Who_Complete_")) * SankeyScalar * ("Data_Starters_Who_Initiate_")					</eqn>
+					<eqn>(1-("Data_Initiators_Who_Quit_Early_" + "Data_Initiators_Who_Complete_")) * Data_Sankey_Scalar * ("Data_Starters_Who_Initiate_")					</eqn>
 			</aux>
 			<aux name="E-Bars">
 				<units>appt/pts</units>
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
 					<eqn>Bars_E3+Bars_E6+"Bars_E6_>3mo-Initial"					</eqn>
-			</aux>
-			<aux name="EightPlusAfter">
-				<units>pts</units>
-				<doc>Sum of all patients who, after completing 8 or more visits in their first 3 months in care, complete more visits in subsequent months.</doc>
-					<eqn>"From_Completers-LowD"+"From_Completers-MidD"+"From_Completers-HighD"					</eqn>
-			</aux>
-			<aux name="Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)">
-				<units>wk</units>
-				<doc>The median of the lower quartile of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_8_or_More_Visits_(1st_Quartile)"*"ET_Change_Delayed_by_RVI_-_8-12-LowD"					</eqn>
-			</aux>
-			<aux name="ET_-_Completers_who_Graduate">
-				<units>wk</units>
-				<doc>Engagement time for patients who complete 8 or more visits in their first three months, based on the median time it takes these patients to complete their first 7 visits. Constrained from going below 1 wk.</doc>
-					<eqn>MAX(12-Median_Time_in_Visit_1-"Data_ET_-_Initiators_Who_Complete",1)					</eqn>
 			</aux>
 			<aux name="EBP_Bronze_Standard_for_AUD">
 				<units>pts</units>
@@ -810,7 +768,7 @@
 			<aux name="Effect_of_Implement_IOP_on_Completer_">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero, delayed by the average time it takes to get to completion (now, with IOP is 6 weeks, instead of the usual 12 weeks).</doc>
-					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_@Â“"),0),Time_for_IOP_to_affect_Duration)					</eqn>
+					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_pÏ’Í·"),0),Time_for_IOP_to_affect_Duration)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implement_IOP_on_Durations">
 				<units>Dmnl</units>
@@ -819,10 +777,22 @@
 	SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Durations),0),Time_for_IOP_to_affect_Duration)
 	)					</eqn>
 			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Initiator_ðü“">
+			<aux name="Effect_of_Implement_IOP_on_Frequency">
+				<units>Dmnl</units>
+				<doc>The relative change in patients' visit frequency after they initiate care caused by implementing an Intensive Outpatient Program.  Implementing IOP will not affect Sankey Bar heights, as doubling the frequency and halving the duration will cancel out when estimating patients' average total visits.</doc>
+					<eqn>1+(
+	SMOOTH3(IF_THEN_ELSE (Time>0:AND:User_Implement_Intensive_Outpatient_Program>0,User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Frequency,0),Time_for_IOP_to_affect_Frequency)
+	)					</eqn>
+			</aux>
+			<aux name="Effect_of_Implement_IOP_on_Initiator_ oÍ·">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero.</doc>
-					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_@Â“"),0)					</eqn>
+					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_pÏ’Í·"),0)					</eqn>
+			</aux>
+			<aux name="EightPlusAfter">
+				<units>pts</units>
+				<doc>Sum of all patients who, after completing 8 or more visits in their first 3 months in care, complete more visits in subsequent months.</doc>
+					<eqn>"From_Completers-LowD"+"From_Completers-MidD"+"From_Completers-HighD"					</eqn>
 			</aux>
 			<aux name="Ending_After_8_or_More_Visits_Rate">
 				<units>pts/wk</units>
@@ -843,7 +813,7 @@
 				<doc>The number of patients completing their 2-7th visit each week, but who will not continue engagement to receive a full dose. (pts/wk)</doc>
 					<eqn>MAX(
 	
-	ZIDZ(Initiators_Who_Will_Quit, ("Data_ET_-_Initiators_Who_Quit_Early"*Effect_of_Implement_IOP_on_Durations))
+	ZIDZ(Initiators_Who_Will_Quit, (Data_Initiators_Who_Quit_Early_Duration*Effect_of_Implement_IOP_on_Durations))
 	
 	,0)					</eqn>
 			</aux>
@@ -869,32 +839,62 @@
 			<aux name="Engagement_Time_-_From_1_Visit_(1st_Quartile)">
 				<units>wk</units>
 				<doc>The median of the lower quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_1_Visit_(1st_Quartile)"*"ET_Change_Delayed_by_RVI_-_1-LowD"					</eqn>
+					<eqn>Data_Starters_Who_Return_Later_Low_Duration*"ET_Change_Delayed_by_RVI_-_1-LowD"					</eqn>
 			</aux>
 			<aux name="Engagement_Time_-_From_1_Visit_(4th_Quartile)">
 				<units>wk</units>
 				<doc>The median of the upper quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_1_Visit_(4th_Quartile)"*"ET_Change_Delayed_by_RVI_-_1-HighD"					</eqn>
+					<eqn>Data_Starters_Who_Return_Later_High_Duration*"ET_Change_Delayed_by_RVI_-_1-HighD"					</eqn>
 			</aux>
 			<aux name="Engagement_Time_-_From_1_Visit_(Mean)">
 				<units>wk</units>
 				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_1_Visit_(Mean)"*"ET_Change_Delayed_by_RVI_-_1-MidD"					</eqn>
+					<eqn>Data_Starters_Who_Return_Later_Medium_Duration*"ET_Change_Delayed_by_RVI_-_1-MidD"					</eqn>
 			</aux>
 			<aux name="Engagement_Time_-_From_2_to_7_Visits_(1st_Quartile)">
 				<units>wk</units>
 				<doc>The median of the lower quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_2_to_7_Visits_(1st_Quartile)"*"ET_Change_Delayed_by_RVI_-_2-7-LowD"					</eqn>
+					<eqn>Data_Initiators_Who_Return_Later_Low_Duration*"ET_Change_Delayed_by_RVI_-_2-7-LowD"					</eqn>
+			</aux>
+			<aux name="Engagement_Time_-_From_2_to_7_Visits_(4th_Quartile)">
+				<units>wk</units>
+				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
+					<eqn>Data_Initiators_Who_Return_Later_High_Duration*"ET_Change_Delayed_by_RVI_-_2-7-HighD"					</eqn>
+			</aux>
+			<aux name="Engagement_Time_-_From_2_to_7_Visits_(Mean)">
+				<units>wk</units>
+				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
+					<eqn>Data_Initiators_Who_Return_Later_Medium_Duration*"ET_Change_Delayed_by_RVI_-_2-7-MidD"					</eqn>
+			</aux>
+			<aux name="Engagement_Time_-_From_8_or_More_Visits_(1st_Quartile)">
+				<units>wk</units>
+				<doc>The median of the lower quartile of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
+					<eqn>Data_Completer_Who_Return_Later_Low_Duration*"ET_Change_Delayed_by_RVI_-_8-12-LowD"					</eqn>
 			</aux>
 			<aux name="Engagement_Time_-_From_8_or_More_Visits_(4th_Quartile)">
 				<units>wk</units>
 				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_8_or_More_Visits_(4th_Quartile)"*"ET_Change_Delayed_by_RVI_-_8-12-HighD"					</eqn>
+					<eqn>Data_Completer_Who_Return_Later_High_Duration*"ET_Change_Delayed_by_RVI_-_8-12-HighD"					</eqn>
 			</aux>
 			<aux name="Engagement_Time_-_From_8_or_More_Visits_(Mean)">
 				<units>wk</units>
 				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months, potentially modified by the user.</doc>
-					<eqn>"Data_ET_-_From_8_or_More_Visits_(Mean)"*"ET_Change_Delayed_by_RVI_-_8-12-MidD"					</eqn>
+					<eqn>Data_Completer_Who_Return_Later_Medium_Duration*"ET_Change_Delayed_by_RVI_-_8-12-MidD"					</eqn>
+			</aux>
+			<aux name="ET_-_Completers_who_Graduate">
+				<units>wk</units>
+				<doc>Engagement time for patients who complete 8 or more visits in their first three months, based on the median time it takes these patients to complete their first 7 visits. Constrained from going below 1 wk.</doc>
+					<eqn>MAX(12-Median_Time_in_Visit_1-Data_Initiators_Who_Graduate_Duration,1)					</eqn>
+			</aux>
+			<aux name="C">
+				<units>pts</units>
+				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>("Data_Starters_Who_Return_Later_")* Data_Sankey_Scalar					</eqn>
+			</aux>
+			<aux name="C-Bars">
+				<units>appt/pts</units>
+				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>"Bars_E4-Initial"+Bars_E3					</eqn>
 			</aux>
 			<aux name="Exp-A">
 				<units>pts</units>
@@ -939,11 +939,6 @@
 					<eqn>SAMPLE IF TRUE(
 	Time=FINAL_TIME, Bars_E3+Bars_E6+"Bars_E6_>3mo-Final", :NA:)					</eqn>
 			</aux>
-			<aux name="Exp-F">
-				<units>pts</units>
-				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Sankey_E7 * "Exp-SankeyScalar" * Sankey_E2,:NA:)					</eqn>
-			</aux>
 			<aux name="Exp-G">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
@@ -969,12 +964,12 @@
 			<aux name="Exp-SankeyScalar">
 				<units>pts</units>
 				<doc>The total patients in cohort, based on the cohort defined by the team's data AND the relative change in new patient start rate resulting from any user experiments.</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, (1+Percent_Change_in_Patient_Starts)*SankeyScalar,:NA:)					</eqn>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, (1+Percent_Change_in_Patient_Starts)*Data_Sankey_Scalar,:NA:)					</eqn>
 			</aux>
 			<aux name="F">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Initiators_Who_Complete_") * SankeyScalar * ("Data_Starters_Who_Initiate_")					</eqn>
+					<eqn>("Data_Initiators_Who_Complete_") * Data_Sankey_Scalar * ("Data_Starters_Who_Initiate_")					</eqn>
 			</aux>
 			<aux name="From_Completers_Ending_High_D">
 				<units>pts/wk</units>
@@ -1002,21 +997,6 @@
 	ZIDZ("From_Completers-MidD", "Engagement_Time_-_From_8_or_More_Visits_(Mean)")
 	
 	,0)					</eqn>
-			</aux>
-			<aux name="From_Completers_into_High_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_HighD_"					</eqn>
-			</aux>
-			<aux name="From_Completers_into_Low_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_LowD_"					</eqn>
-			</aux>
-			<aux name="From_Completers_into_Mid_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of two quarters of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
 			</aux>
 			<aux name="From_Initiators_Ending_High_D">
 				<units>pts/wk</units>
@@ -1059,6 +1039,26 @@
 				<units>pts/wk</units>
 				<doc>The starting rate of two quarters of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
 					<eqn>Initiators_Continue_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
+			</aux>
+			<aux name="Exp-F">
+				<units>pts</units>
+				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Sankey_E7 * "Exp-SankeyScalar" * Sankey_E2,:NA:)					</eqn>
+			</aux>
+			<aux name="From_Completers_into_High_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_HighD_"					</eqn>
+			</aux>
+			<aux name="From_Completers_into_Low_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_LowD_"					</eqn>
+			</aux>
+			<aux name="From_Completers_into_Mid_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of two quarters of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
 			</aux>
 			<aux name="From_Starters_Ending_High_D">
 				<units>pts/wk</units>
@@ -1105,7 +1105,7 @@
 			<aux name="G">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Completers_Who_Graduate_") * SankeyScalar * ("Data_Starters_Who_Initiate_") * ("Data_Initiators_Who_Complete_")					</eqn>
+					<eqn>("Data_Completers_Who_Graduate_") * Data_Sankey_Scalar * ("Data_Starters_Who_Initiate_") * ("Data_Initiators_Who_Complete_")					</eqn>
 			</aux>
 			<aux name="G-Bars">
 				<units>appt/pts</units>
@@ -1120,7 +1120,7 @@
 			<aux name="H">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>(1-("Data_Completers_Who_Graduate_")) * SankeyScalar * ("Data_Starters_Who_Initiate_") * ("Data_Initiators_Who_Complete_")					</eqn>
+					<eqn>(1-("Data_Completers_Who_Graduate_")) * Data_Sankey_Scalar * ("Data_Starters_Who_Initiate_") * ("Data_Initiators_Who_Complete_")					</eqn>
 			</aux>
 			<aux name="H-Bars">
 				<units>appt/pts</units>
@@ -1160,22 +1160,22 @@
 			<aux name="HS_Gold_Standard_for_AUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with AUD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_over_7_Visits*"AUD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"Data_AUD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_Depression">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with depression who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_over_7_Visits*"DEP_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"Data_DEP_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_OUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with OUD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_over_7_Visits*"OUD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"Data_OUD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Gold_Standard_for_PTSD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based highest quality standard - the number of patients with PTSD who completed psychotherapy in the past 3 months.</doc>
-					<eqn>(Completers_Patients_in_over_7_Visits*"PTSD_within_3_months_")					</eqn>
+					<eqn>(Completers_Patients_in_over_7_Visits*"Data_PTSD_within_3_months_")					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_-_All">
 				<units>pts</units>
@@ -1185,22 +1185,22 @@
 			<aux name="HS_Silver_Standard_for_AUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with AUDwho initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"AUD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"Data_AUD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_Depression">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with depression who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"DEP_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"Data_DEP_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_OUD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with OUD who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"OUD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"Data_OUD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="HS_Silver_Standard_for_PTSD">
 				<units>pts</units>
 				<doc>"Health Services definition"-based middle quality standard - the number of patients with PTSD who initiated psychotherapy in the past 3 months.</doc>
-					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"PTSD_within_3_months_"					</eqn>
+					<eqn>(Total_Initiators+Completers_Patients_in_over_7_Visits)*"Data_PTSD_within_3_months_"					</eqn>
 			</aux>
 			<aux name="Initation_Rate_who_will_Return">
 				<units>pts/wk</units>
@@ -1276,11 +1276,6 @@
 				<doc>The total number of patients in care after their initial three months. (pts)</doc>
 					<eqn>OneAfter+TwoSevenAfter+EightPlusAfter					</eqn>
 			</aux>
-			<aux name="Percent_Change_in_Patient_Starts">
-				<units>Dmnl</units>
-				<doc>The relative change in total patients in care, 2 years after starting any experiments.</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME,ZIDZ((Patient_Starts_at_Final_Time-Patient_Starts_at_Initial_Time) , Patient_Starts_at_Initial_Time),:NA:)					</eqn>
-			</aux>
 			<aux name="Percieved_New_pts_appt_Supply">
 				<units>appt/wk</units>
 				<doc>Schedulers' perceptsion of the appointment supply available for new patients, regardless of the capacity for them to continue care.</doc>
@@ -1299,62 +1294,67 @@
 			<aux name="RVI_-_From_1_Visit_(1st_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_1Visit-LowD"					</eqn>
+					<eqn>Data_Starters_Who_Return_Low_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_1_Visit_(4th_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_1Visit-HighD"					</eqn>
+					<eqn>Data_Starters_Who_Return_High_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_1_Visit_(Mean)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_1Visit-MidD"					</eqn>
+					<eqn>Data_Starters_Who_Return_Medium_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_2_to_7_Visits_(1st_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_2-7Visits-LowD"					</eqn>
+					<eqn>Data_Initiators_Who_Return_Low_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_2_to_7_Visits_(4th_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_2-7Visits-HighD"					</eqn>
-			</aux>
-			<aux name="RVI_-_From_2_to_7_Visits_(Mean)">
-				<units>wk</units>
-				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_2-7Visits-MidD"					</eqn>
+					<eqn>Data_Initiators_Who_Return_High_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_8_or_More_Visits_(1st_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_8-12Visits-LowD"					</eqn>
+					<eqn>Data_Completers_Who_Return_Low_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_8_or_More_Visits_(4th_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_8-12Visits-HighD"					</eqn>
-			</aux>
-			<aux name="RVI_-_From_8_or_More_Visits_(Mean)">
-				<units>wk</units>
-				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_>3mo_-_8-12Visits-MidD"					</eqn>
-			</aux>
-			<aux name="RVI_-_Initiators_who_Complete">
-				<units>wk</units>
-				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_<3mo_-_2-7Visits-n-More<3mo"					</eqn>
-			</aux>
-			<aux name="RVI_-_Initiators_who_Quit_Early">
-				<units>wk</units>
-				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>"RVI_<3mo_-_2-7Visits-n-done"					</eqn>
+					<eqn>Data_Completers_Who_Return_High_RVI					</eqn>
 			</aux>
 			<aux name="RVI_<3mo_-_8-12_Visits">
 				<units>wk</units>
 				<doc>The average number of appointments per patient per wk, which is nearly identical to the frequency of patients who complete 2-7 visits and then go on to more visits in their first three months engaged in care.</doc>
-					<eqn>"RVI_<3mo_-_2-7Visits-n-More<3mo"					</eqn>
+					<eqn>Data_Initiators_Who_Complete_RVI					</eqn>
+			</aux>
+			<aux name="Percent_Change_in_Patient_Starts">
+				<units>Dmnl</units>
+				<doc>The relative change in total patients in care, 2 years after starting any experiments.</doc>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME,ZIDZ((Patient_Starts_at_Final_Time-Patient_Starts_at_Initial_Time) , Patient_Starts_at_Initial_Time),:NA:)					</eqn>
+			</aux>
+			<aux name="RVI_-_From_2_to_7_Visits_(Mean)">
+				<units>wk</units>
+				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>Data_Initiators_Who_Return_Medium_RVI					</eqn>
+			</aux>
+			<aux name="RVI_-_From_8_or_More_Visits_(Mean)">
+				<units>wk</units>
+				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>Data_Completers_Who_Return_Medium_RVI					</eqn>
+			</aux>
+			<aux name="RVI_-_Initiators_who_Complete">
+				<units>wk</units>
+				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>Data_Initiators_Who_Complete_RVI					</eqn>
+			</aux>
+			<aux name="RVI_-_Initiators_who_Quit_Early">
+				<units>wk</units>
+				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>Data_Initiators_Who_Quit_Early_RVI					</eqn>
 			</aux>
 			<aux name="Sankey_Completers">
 				<units>pts/wk</units>
@@ -1444,7 +1444,7 @@
 			<aux name="Start_Rate_Relative_to_Data">
 				<units>Dmnl</units>
 				<doc>The relative start rate, compared to the team's current state data.</doc>
-					<eqn>ZIDZ(Starting_Psychotherapy,Team_Data_on_New_Patients_Starts)					</eqn>
+					<eqn>ZIDZ(Starting_Psychotherapy,Data_New_Patient_Start_Rate)					</eqn>
 			</aux>
 			<aux name="Starters_Continue_Treatment_Rate_after_3_Months">
 				<units>pts/wk</units>
@@ -1493,51 +1493,51 @@
 			<aux name="Supply_Used_by_Completers_who_Continue">
 				<units>appt/wk</units>
 				<doc>For the period after patients' first three months in care, all appointments used per wk by patients' who completed 8 or more visits during their first three months.  By default, this rate is based on appointment use frequencies estimated from the team's data, but those frequencies can be adjusted by the user.</doc>
-					<eqn>(ZIDZ( "From_Completers-LowD" , "RVI_>3mo_-_8-12Visits-LowD"*"RVI_Change_Delayed_by_RVI_-_8-12-LowD"*Pts_per_appt))
+					<eqn>(ZIDZ( "From_Completers-LowD" , Data_Completers_Who_Return_Low_RVI*"RVI_Change_Delayed_by_RVI_-_8-12-LowD"*Pts_per_appt))
 	+
-	(ZIDZ( "From_Completers-MidD" , "RVI_>3mo_-_8-12Visits-MidD"*"RVI_Change_Delayed_by_RVI_-_8-12-MidD"*Pts_per_appt))
+	(ZIDZ( "From_Completers-MidD" , Data_Completers_Who_Return_Medium_RVI*"RVI_Change_Delayed_by_RVI_-_8-12-MidD"*Pts_per_appt))
 	+
-	(ZIDZ( "From_Completers-HighD" , "RVI_>3mo_-_8-12Visits-HighD"*"RVI_Change_Delayed_by_RVI_-_8-12-HighD"*Pts_per_appt))					</eqn>
+	(ZIDZ( "From_Completers-HighD" , Data_Completers_Who_Return_High_RVI*"RVI_Change_Delayed_by_RVI_-_8-12-HighD"*Pts_per_appt))					</eqn>
 			</aux>
 			<aux name="Supply_Used_by_Initiators">
 				<units>appt/wk</units>
 				<doc>All appointments used per wk by patients' second through seventh visits during their first three months engaged in care.</doc>
 					<eqn>(
-	(ZIDZ( Initiators_Who_Will_Quit , "RVI_<3mo_-_2-7Visits-n-done"*Pts_per_appt))+
-	(ZIDZ( Initiators_Who_Will_Continue , "RVI_<3mo_-_2-7Visits-n-More<3mo"*Pts_per_appt))+
-	(ZIDZ( Initiators_Who_Will_Return , "RVI_<3mo_-_2-7Visits-n-More>3mo"*Pts_per_appt))
+	(ZIDZ( Initiators_Who_Will_Quit , Data_Initiators_Who_Quit_Early_RVI*Pts_per_appt))+
+	(ZIDZ( Initiators_Who_Will_Continue , Data_Initiators_Who_Complete_RVI*Pts_per_appt))+
+	(ZIDZ( Initiators_Who_Will_Return , Data_Initiators_Coming_Back_Later_RVI*Pts_per_appt))
 	)
 	*Effect_of_Implement_IOP_on_Frequency					</eqn>
 			</aux>
 			<aux name="Supply_Used_by_Initiators_who_Return">
 				<units>appt/wk</units>
 				<doc>For the period after patients' first three months in care, all appointments used per wk by patients' who completed 2-7 visits during their first three months.  By default, this rate is based on appointment use frequencies estimated from the team's data, but those frequencies can be adjusted by the user.</doc>
-					<eqn>(ZIDZ( "From_Initiators-LowD" , "RVI_>3mo_-_2-7Visits-LowD"*"RVI_Change_Delayed_by_RVI_-_2-7-LowD"*Pts_per_appt
+					<eqn>(ZIDZ( "From_Initiators-LowD" , Data_Initiators_Who_Return_Low_RVI*"RVI_Change_Delayed_by_RVI_-_2-7-LowD"*Pts_per_appt
 	))
 	+
-	(ZIDZ( "From_Initiators-MidD" , "RVI_>3mo_-_2-7Visits-MidD"*"RVI_Change_Delayed_by_RVI_-_2-7-MidD"*Pts_per_appt
+	(ZIDZ( "From_Initiators-MidD" , Data_Initiators_Who_Return_Medium_RVI*"RVI_Change_Delayed_by_RVI_-_2-7-MidD"*Pts_per_appt
 	))
 	+
-	(ZIDZ( "From_Initiators-HighD" , "RVI_>3mo_-_2-7Visits-HighD"*"RVI_Change_Delayed_by_RVI_-_2-7-HighD"*Pts_per_appt
+	(ZIDZ( "From_Initiators-HighD" , Data_Initiators_Who_Return_High_RVI*"RVI_Change_Delayed_by_RVI_-_2-7-HighD"*Pts_per_appt
 	))					</eqn>
 			</aux>
 			<aux name="Supply_Used_by_New_Patients">
 				<units>appt/wk</units>
 				<doc>All appointments used per wk by patients' first visits.</doc>
 					<eqn>ZIDZ( Starters_Patients_in_First_Visit ,
-	"RVI_<3mo_-_1Visit"*Pts_per_appt
+	Data_First_Visit_RVI*Pts_per_appt
 	)					</eqn>
 			</aux>
 			<aux name="Supply_Used_by_New_Patients_who_Return">
 				<units>appt/wk</units>
 				<doc>For the period after patients' first three months in care, all appointments used per wk by patients' who completed only one visit during their first three months.  By default, this rate is based on appointment use frequencies estimated from the team's data, but those frequencies can be adjusted by the user.</doc>
-					<eqn>(ZIDZ( "From_Starters-LowD" , "RVI_>3mo_-_1Visit-LowD"*"RVI_Change_Delayed_by_RVI_-_1-LowD"*Pts_per_appt
+					<eqn>(ZIDZ( "From_Starters-LowD" , Data_Starters_Who_Return_Low_RVI*"RVI_Change_Delayed_by_RVI_-_1-LowD"*Pts_per_appt
 	))
 	+
-	(ZIDZ( "From_Starters-MidD" , "RVI_>3mo_-_1Visit-MidD"*"RVI_Change_Delayed_by_RVI_-_1-MidD"*Pts_per_appt
+	(ZIDZ( "From_Starters-MidD" , Data_Starters_Who_Return_Medium_RVI*"RVI_Change_Delayed_by_RVI_-_1-MidD"*Pts_per_appt
 	))
 	+
-	(ZIDZ( "From_Starters-HighD" , "RVI_>3mo_-_1Visit-HighD"*"RVI_Change_Delayed_by_RVI_-_1-HighD"*Pts_per_appt))					</eqn>
+	(ZIDZ( "From_Starters-HighD" , Data_Starters_Who_Return_High_RVI*"RVI_Change_Delayed_by_RVI_-_1-HighD"*Pts_per_appt))					</eqn>
 			</aux>
 			<aux name="Supply_Used_by_Pts_<3mo">
 				<units>appt/wk</units>
@@ -1637,112 +1637,197 @@
 					<eqn>GAME (
 	-0.05)					</eqn>
 			</aux>
-			<aux name="Appointment_Supply_(75th_percentile)">
+			<aux name="Data_Appointment_Supply_(75th_percentile)">
 				<units>appt/wk</units>
 				<doc> The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (appt/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C36')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AX2')					</eqn>
 			</aux>
-			<aux name="AUD_within_3_months_">
+			<aux name="Data_AUD_within_3_months_">
 				<units>Dmnl</units>
 				<doc>An estimate of the proportion of the team's patients with alchohol use disorder (AUD), calculated from the cohort of patients who completed visits charted with a primary diagnosis of AUD within their entire psychotherapy engagement.  (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C46')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BS2')					</eqn>
 			</aux>
-			<aux name="Data_ET_-_From_1_Visit_(1st_Quartile)">
-				<units>wk</units>
-				<doc>The median of the lower quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C24')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_1_Visit_(4th_Quartile)">
-				<units>wk</units>
-				<doc>The median of the upper quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C26')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_1_Visit_(Mean)">
-				<units>wk</units>
-				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C25')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_2_to_7_Visits_(1st_Quartile)">
-				<units>wk</units>
-				<doc>The median of the lower quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C27')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_2_to_7_Visits_(4th_Quartile)">
+			<aux name="Data_Completer_Who_Return_Later_High_Duration">
 				<units>wk</units>
 				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C29')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BP2')					</eqn>
 			</aux>
-			<aux name="Data_ET_-_Initiators_Who_Complete">
+			<aux name="Data_Completer_Who_Return_Later_Low_Duration">
 				<units>wk</units>
-				<doc>Median engagement time estimated from the team's own data for patients in their 2-7th visit, who will go on to 8 or more visits in the first three months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C14')					</eqn>
+				<doc>The median of the lower quartile of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BN2')					</eqn>
 			</aux>
-			<aux name="Data_ET_-_Initiators_Who_Quit_Early">
+			<aux name="Data_Completer_Who_Return_Later_Medium_Duration">
 				<units>wk</units>
-				<doc>Median engagement time estimated from the team's own data for patients in their 2-7th visit, who will not continue care after the first three months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C13')					</eqn>
+				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BO2')					</eqn>
 			</aux>
 			<aux name="Data_Completers_Who_Graduate_">
 				<units>Dmnl</units>
 				<doc>Of patients who complete eight or more psychotherapy visits within their first three months (i.e., completers), this is the proportion who do not return for any more psychotherapy visits after three months (i.e., patients who graduate). (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C5')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AO2')					</eqn>
 			</aux>
-			<aux name="Data_ET_-_From_2_to_7_Visits_(Mean)">
+			<aux name="Data_Completers_Who_Return_High_RVI">
 				<units>wk</units>
-				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C28')					</eqn>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BD2')					</eqn>
 			</aux>
-			<aux name="DEP_within_3_months_">
+			<aux name="Data_Completers_Who_Return_Low_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BE2')					</eqn>
+			</aux>
+			<aux name="Data_Completers_Who_Return_Medium_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BF2')					</eqn>
+			</aux>
+			<aux name="Data_DEP_within_3_months_">
 				<units>Dmnl</units>
 				<doc>An estimate of the proportion of the team's patients with depression (DEP), calculated from the cohort of patients who completed visits charted with a primary diagnosis of DEP within their entire psychotherapy engagement.  (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C45')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BR2')					</eqn>
+			</aux>
+			<aux name="Data_First_Visit_RVI">
+				<units>wk</units>
+				<doc>Set to 1 wk, because everyone gets their first appointment in their first week in care.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AR2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Coming_Back_Later_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AT2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Complete_">
+				<units>Dmnl</units>
+				<doc>Of patients who complete at least two to seven psychotherapy visits within three months (i.e., initiators), this is the proportion of patients who complete eight or more psychotherapy visits within three months (i.e., patients who complete a timely dose). (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AQ2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Complete_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AU2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Graduate_Duration">
+				<units>wk</units>
+				<doc>Median engagement time estimated from the team's own data for patients in their 2-7th visit, who will go on to 8 or more visits in the first three months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AW2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Quit_Early_">
+				<units>Dmnl</units>
+				<doc>Of patients who complete at least two to seven psychotherapy visits within their first three months (i.e., initiators), this is the proportion of patients who never complete another psychotherapy visit with this team (i.e., patients who quit before completing a timely dose). (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AN2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Quit_Early_Duration">
+				<units>wk</units>
+				<doc>Median engagement time estimated from the team's own data for patients in their 2-7th visit, who will not continue care after the first three months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AV2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Quit_Early_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AS2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_High_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BD2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_Later_High_Duration">
+				<units>wk</units>
+				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BM2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_Later_Low_Duration">
+				<units>wk</units>
+				<doc>The median of the lower quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BK2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_Later_Medium_Duration">
+				<units>wk</units>
+				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BL2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_Low_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BB2')					</eqn>
+			</aux>
+			<aux name="Data_Initiators_Who_Return_Medium_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BC2')					</eqn>
+			</aux>
+			<aux name="Data_New_Patient_Start_Rate">
+				<units>pts/wk</units>
+				<doc>From the team's data: psycho60 visits/appts for new patients per wk.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AL2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_within_3_months_">
+				<units>Dmnl</units>
+				<doc>An estimate of the proportion of the team's patients with opioid use disorder (OUD), calculated from the cohort of patients who completed visits charted with a primary diagnosis of OUD within their entire psychotherapy engagement.  (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BT2')					</eqn>
+			</aux>
+			<aux name="Data_PTSD_within_3_months_">
+				<units>Dmnl</units>
+				<doc>An estimate of the proportion of the team's patients with post traumatic stress disorder (PTSD), calculated from the cohort of patients who completed visits charted with a primary diagnosis of PTSD within their entire psychotherapy engagement.  (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BQ2')					</eqn>
+			</aux>
+			<aux name="Data_Sankey_Scalar">
+				<units>pts</units>
+				<doc>The total number of patients in the cohort defined by the team's data.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AK2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Initiate_">
+				<units>Dmnl</units>
+				<doc>Of patients who complete at least one psythotherapy visit within their first three months (i.e., starters), this is the proportion who return for at least two to seven psychotherapy visits within their first three months (i.e., patients who initiate treatment). (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AP2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_High_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BA2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Later_">
+				<units>Dmnl</units>
+				<doc>Of patients who complete at least one psythotherapy visit within their first three months (i.e., starters), this is the proportion who  do not complete any more psychotherapy visits within three months, but return for at least one more psychotherapy visit after three months ((i.e., patients who return later). (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AM2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Later_High_Duration">
+				<units>wk</units>
+				<doc>The median of the upper quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BJ2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Later_Low_Duration">
+				<units>wk</units>
+				<doc>The median of the lower quartile of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BH2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Later_Medium_Duration">
+				<units>wk</units>
+				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing only 1 visit in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BI2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Low_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AY2')					</eqn>
+			</aux>
+			<aux name="Data_Starters_Who_Return_Medium_RVI">
+				<units>wk</units>
+				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','AZ2')					</eqn>
 			</aux>
 			<aux name="ET_-_Initiators_Who_Return">
 				<units>wk</units>
 				<doc>Engagement time for patients who only complete 2-7 visits in their first three months, but who will complete more visits after their first three months.</doc>
 					<eqn>11					</eqn>
 			</aux>
-			<aux name="Data_ET_-_From_8_or_More_Visits_(1st_Quartile)">
-				<units>wk</units>
-				<doc>The median of the lower quartile of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C30')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_8_or_More_Visits_(4th_Quartile)">
-				<units>wk</units>
-				<doc>The median of the upper quartile of engagement durations of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C32')					</eqn>
-			</aux>
-			<aux name="Data_ET_-_From_8_or_More_Visits_(Mean)">
-				<units>wk</units>
-				<doc>The median of the inner two quartiles of engagement durations of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C31')					</eqn>
-			</aux>
-			<aux name="Data_Initiators_Who_Complete_">
-				<units>Dmnl</units>
-				<doc>Of patients who complete at least two to seven psychotherapy visits within three months (i.e., initiators), this is the proportion of patients who complete eight or more psychotherapy visits within three months (i.e., patients who complete a timely dose). (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C7')					</eqn>
-			</aux>
-			<aux name="Data_Initiators_Who_Quit_Early_">
-				<units>Dmnl</units>
-				<doc>Of patients who complete at least two to seven psychotherapy visits within their first three months (i.e., initiators), this is the proportion of patients who never complete another psychotherapy visit with this team (i.e., patients who quit before completing a timely dose). (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C4')					</eqn>
-			</aux>
-			<aux name="Data_Starters_Who_Initiate_">
-				<units>Dmnl</units>
-				<doc>Of patients who complete at least one psythotherapy visit within their first three months (i.e., starters), this is the proportion who return for at least two to seven psychotherapy visits within their first three months (i.e., patients who initiate treatment). (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C6')					</eqn>
-			</aux>
-			<aux name="Data_Starters_Who_Return_Later_">
-				<units>Dmnl</units>
-				<doc>Of patients who complete at least one psythotherapy visit within their first three months (i.e., starters), this is the proportion who  do not complete any more psychotherapy visits within three months, but return for at least one more psychotherapy visit after three months ((i.e., patients who return later). (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C3')					</eqn>
-			</aux>
 			<aux name="Experiment_wk">
 				<units>wk</units>
 				<doc>The time when user changes to experiment parameters take effect.</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Max_Effect_of_IOP_on_ðü“">
+			<aux name="Max_Effect_of_IOP_on_ oÍ·">
 				<units>Dmnl</units>
 				<doc>The relative change in the size of the gap between the current state and the desired state for the percentages governing the number of patients following care pathways after they initiate care caused by implementing an Intensive Outpatient Program.</doc>
 					<eqn>0.3					</eqn>
@@ -1754,7 +1839,7 @@
 			</aux>
 			<aux name="Max_Effect_of_IOP_on_Frequency">
 				<units>Dmnl</units>
-				<doc>Where 1 is a 100 1507472976ncrease in the frequency (i.e., patients come twice as often as before).</doc>
+				<doc>Where 1 is a 100 46555312ncrease in the frequency (i.e., patients come twice as often as before).</doc>
 					<eqn>1					</eqn>
 			</aux>
 			<aux name="Median_Time_in_Visit_1">
@@ -1767,95 +1852,15 @@
 				<doc>The percent of open slots actually used by new patients (default is 100, which assumes that the norm is that all open slots are filled by new patients).</doc>
 					<eqn>1					</eqn>
 			</aux>
-			<aux name="OUD_within_3_months_">
-				<units>Dmnl</units>
-				<doc>An estimate of the proportion of the team's patients with opioid use disorder (OUD), calculated from the cohort of patients who completed visits charted with a primary diagnosis of OUD within their entire psychotherapy engagement.  (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C47')					</eqn>
-			</aux>
 			<aux name="Pts_per_appt">
 				<units>pts/appt</units>
 				<doc>Always 1 patient per appointment, excepts for group visits.</doc>
 					<eqn>1					</eqn>
 			</aux>
-			<aux name="PTSD_within_3_months_">
-				<units>Dmnl</units>
-				<doc>An estimate of the proportion of the team's patients with post traumatic stress disorder (PTSD), calculated from the cohort of patients who completed visits charted with a primary diagnosis of PTSD within their entire psychotherapy engagement.  (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C44')					</eqn>
-			</aux>
 			<aux name="Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The average return to clinic visit interval for psychotherapy appointments with this team, estimated from the number of visits per patient over their entire engagement time.  (wks)</doc>
 					<eqn>0					</eqn>
-			</aux>
-			<aux name="RVI_<3mo_-_1Visit">
-				<units>wk</units>
-				<doc>Set to 1 wk, because everyone gets their first appointment in their first week in care.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C8')					</eqn>
-			</aux>
-			<aux name="RVI_<3mo_-_2-7Visits-n-done">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C9')					</eqn>
-			</aux>
-			<aux name="RVI_<3mo_-_2-7Visits-n-More<3mo">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C11')					</eqn>
-			</aux>
-			<aux name="RVI_<3mo_-_2-7Visits-n-More>3mo">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C10')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_1Visit-HighD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C17')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_1Visit-LowD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C15')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_1Visit-MidD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C16')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_2-7Visits-HighD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C20')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_2-7Visits-LowD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C18')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_2-7Visits-MidD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C19')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_8-12Visits-HighD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C23')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_8-12Visits-LowD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C21')					</eqn>
-			</aux>
-			<aux name="RVI_>3mo_-_8-12Visits-MidD">
-				<units>wk</units>
-				<doc>The average number of weeks between visits, estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C22')					</eqn>
-			</aux>
-			<aux name="SankeyScalar">
-				<units>pts</units>
-				<doc>The total number of patients in the cohort defined by the team's data.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C37')					</eqn>
 			</aux>
 			<aux name="Starting_HighD_">
 				<units>Dmnl</units>
@@ -1871,11 +1876,6 @@
 				<units>Dmnl</units>
 				<doc>Used to divide up the starting rate into quartiles.</doc>
 					<eqn>0.5					</eqn>
-			</aux>
-			<aux name="Team_Data_on_New_Patients_Starts">
-				<units>pts/wk</units>
-				<doc>From the team's data: psycho60 visits/appts for new patients per wk.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','PSYParams','C33')					</eqn>
 			</aux>
 			<aux name="Time_for_IOP_to_affect_Duration">
 				<units>wk</units>

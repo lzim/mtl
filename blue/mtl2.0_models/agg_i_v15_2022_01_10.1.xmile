@@ -25,7 +25,7 @@
 					<eqn>
 					(Adjunctive_Booking_Rate)*(Adjunctive_RVI)
 + (
-(((Adjunctive_Actual_Hours_Available_for_Service/Adjunctive_Time_per_Appointment)*"Data_Adjunctive_True_Missed_Appointment_")*Adjunctive_RVI)
+(((Adjunctive_Actual_Hours_Available_for_Service/Adjunctive_Time_per_Appointment)*"Data_True_Missed_Appointment__->_Adjunct")*Adjunctive_RVI)
 )
 					</eqn>
 					<inflow>
@@ -91,7 +91,7 @@
 					<eqn>
 					(CC_Booking_Rate)*(CC_RVI)
 + (
-(((CC_Actual_Hours_Available_for_Service/CC_Time_per_Appointment)*"Data_CC_True_Missed_Appointment_")*CC_RVI)
+(((CC_Actual_Hours_Available_for_Service/CC_Time_per_Appointment)*"Data_True_Missed_Appointment__->_CC")*CC_RVI)
 )
 					</eqn>
 					<inflow>
@@ -151,70 +151,70 @@
 	CC_RVI, CC_RVI , CC_RVI)
 					</eqn>
 			</stock>
-			<stock name="EBPsych_Appointments">
+			<stock name="EBPsy_Appointments">
 				<units>appt</units>
 				<doc>The total number of appointments for each service on the calendar.  (appts)</doc>
 					<eqn>
-					(EBPsych_Booking_Rate)*(EBPsych_RVI)
+					(EBPsy_Booking_Rate)*(EBPsy_RVI)
 + (
-(((EBPsych_Actual_Hours_Available_for_Service/EBPsych_Time_per_Appointment)*"Data_EBPsych_True_Missed_Appointment_")*EBPsych_RVI)
+(((EBPsy_Actual_Hours_Available_for_Service/EBPsy_Time_per_Appointment)*"Data_True_Missed_Appointment__->_EBPsy")*EBPsy_RVI)
 )
 					</eqn>
 					<inflow>
-					EBPsych Booking Rate
+					EBPsy Booking Rate
 					</inflow>
 					<inflow>
-					EBPsych Rescheduling Rate
+					EBPsy Rescheduling Rate
 					</inflow>
 					<outflow>
-					EBPsych Completing Rate
+					EBPsy Completing Rate
 					</outflow>
 			</stock>
-			<stock name="EBPsych_Appointments_to_Reschedule">
+			<stock name="EBPsy_Appointments_to_Reschedule">
 				<units>appt</units>
 				<doc>The number of appointments to be rescheduled for each service. This assumes that all missed appointments are eventually rescheduled.  (appts)</doc>
 					<eqn>
-					EBPsych_True_Missed_Appointment_Rate*Time_to_Reschedule
+					EBPsy_True_Missed_Appointment_Rate*Time_to_Reschedule
 					</eqn>
 					<inflow>
-					EBPsych True Missed Appointment Rate
+					EBPsy True Missed Appointment Rate
 					</inflow>
 					<outflow>
-					EBPsych Rescheduling Rate
+					EBPsy Rescheduling Rate
 					</outflow>
 			</stock>
-			<stock name="EBPsych_Patients_in_Service">
+			<stock name="EBPsy_Patients_in_Service">
 				<units>pts</units>
 				<doc>The total number of patients in each service.  (pts)</doc>
 					<eqn>
-					EBPsych_Initial_Patients
+					EBPsy_Initial_Patients
 					</eqn>
 					<inflow>
-					EBPsych Starting a Service Rate
+					EBPsy Starting a Service Rate
 					</inflow>
 					<outflow>
-					EBPsych Ending Service Rate
+					EBPsy Ending Service Rate
 					</outflow>
 			</stock>
-			<stock name="EBPsych_Patients_Waiting_to_Start_a_Service">
+			<stock name="EBPsy_Patients_Waiting_to_Start_a_Service">
 				<units>pts</units>
 				<doc>The total number of patients waiting to start the service(s) recommended by their provider after a review or an intake evaluation appointment.  (pts)</doc>
 					<eqn>
-					EBPsych_Treatment_Decision_Rate*Acceptable_Delay_to_Starting_Service
+					EBPsy_Treatment_Decision_Rate*Acceptable_Delay_to_Starting_Service
 					</eqn>
 					<inflow>
-					EBPsych Treatment Decision Rate
+					EBPsy Treatment Decision Rate
 					</inflow>
 					<outflow>
-					EBPsych Starting a Service Rate
+					EBPsy Starting a Service Rate
 					</outflow>
 			</stock>
-			<stock name="EBPsych_RVI_used_when_Completing">
+			<stock name="EBPsy_RVI_used_when_Completing">
 				<units>wk</units>
 				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
-					EBPsych_RVI_used_when_Completing= DELAY_FIXED (
-	EBPsych_RVI, EBPsych_RVI , EBPsych_RVI)
+					EBPsy_RVI_used_when_Completing= DELAY_FIXED (
+	EBPsy_RVI, EBPsy_RVI , EBPsy_RVI)
 					</eqn>
 			</stock>
 			<stock name="Group_Appointments">
@@ -223,7 +223,7 @@
 					<eqn>
 					(Group_Booking_Rate)*(Group_RVI)
 + (
-(((Group_Actual_Hours_Available_for_Service/Group_Time_per_Appointment)*"Data_Group_True_Missed_Appointment_")*Group_RVI)
+(((Group_Actual_Hours_Available_for_Service/Group_Time_per_Appointment)*"Data_True_Missed_Appointment__->_Group")*Group_RVI)
 )
 					</eqn>
 					<inflow>
@@ -287,7 +287,7 @@
 				<units>appt</units>
 				<doc>The total number of appointments for each service on the calendar.  (appts)</doc>
 					<eqn>
-					Intake_Booking_Rate*"Data_Intake_Return_Visit_Interval_(median)"
+					Intake_Booking_Rate*"Data_Return_Visit_Interval_(median)_->_Intake"
 					</eqn>
 					<inflow>
 					Intake Booking Rate
@@ -331,7 +331,7 @@
 					<eqn>
 					(MM_Booking_Rate)*(MM_RVI)
 + (
-(((MM_Actual_Hours_Available_for_Service/MM_Time_per_Appointment)*"Data_MM_True_Missed_Appointment_")*MM_RVI)
+(((MM_Actual_Hours_Available_for_Service/MM_Time_per_Appointment)*"Data_True_Missed_Appointment__->_MM")*MM_RVI)
 )
 					</eqn>
 					<inflow>
@@ -391,83 +391,83 @@
 	MM_RVI, MM_RVI , MM_RVI)
 					</eqn>
 			</stock>
-			<stock name="Psych_Appointments">
+			<stock name="PSY_Appointments">
 				<units>appt</units>
 				<doc>The total number of appointments for each service on the calendar.  (appts)</doc>
 					<eqn>
-					(Psych_Booking_Rate)*(Psych_RVI)
+					(PSY_Booking_Rate)*(PSY_RVI)
 + (
-(((Psych_Actual_Hours_Available_for_Service/Psych_Time_per_Appointment)*"Data_Psych_True_Missed_Appointment_")*Psych_RVI)
+(((PSY_Actual_Hours_Available_for_Service/PSY_Time_per_Appointment)*"Data_True_Missed_Appointment__->_PSY")*PSY_RVI)
 )
 					</eqn>
 					<inflow>
-					Psych Booking Rate
+					PSY Booking Rate
 					</inflow>
 					<inflow>
-					Psych Rescheduling Rate
+					PSY Rescheduling Rate
 					</inflow>
 					<outflow>
-					Psych Completing Rate
+					PSY Completing Rate
 					</outflow>
 			</stock>
-			<stock name="Psych_Appointments_to_Reschedule">
+			<stock name="PSY_Appointments_to_Reschedule">
 				<units>appt</units>
 				<doc>The number of appointments to be rescheduled for each service. This assumes that all missed appointments are eventually rescheduled.  (appts)</doc>
 					<eqn>
-					Psych_True_Missed_Appointment_Rate*Time_to_Reschedule
+					PSY_True_Missed_Appointment_Rate*Time_to_Reschedule
 					</eqn>
 					<inflow>
-					Psych True Missed Appointment Rate
+					PSY True Missed Appointment Rate
 					</inflow>
 					<outflow>
-					Psych Rescheduling Rate
+					PSY Rescheduling Rate
 					</outflow>
 			</stock>
-			<stock name="Psych_Patients_in_Service">
+			<stock name="PSY_Patients_in_Service">
 				<units>pts</units>
 				<doc>The total number of patients in each service.  (pts)</doc>
 					<eqn>
-					Psych_Initial_Patients
+					PSY_Initial_Patients
 					</eqn>
 					<inflow>
-					Psych Starting a Service Rate
+					PSY Starting a Service Rate
 					</inflow>
 					<outflow>
-					Psych Ending Service Rate
+					PSY Ending Service Rate
 					</outflow>
 			</stock>
-			<stock name="Psych_Patients_Waiting_to_Start_a_Service">
+			<stock name="PSY_Patients_Waiting_to_Start_a_Service">
 				<units>pts</units>
 				<doc>The total number of patients waiting to start the service(s) recommended by their provider after a review or an intake evaluation appointment.  (pts)</doc>
 					<eqn>
-					Psych_Treatment_Decision_Rate*Acceptable_Delay_to_Starting_Service
+					PSY_Treatment_Decision_Rate*Acceptable_Delay_to_Starting_Service
 					</eqn>
 					<inflow>
-					Psych Treatment Decision Rate
+					PSY Treatment Decision Rate
 					</inflow>
 					<outflow>
-					Psych Starting a Service Rate
+					PSY Starting a Service Rate
 					</outflow>
 			</stock>
-			<stock name="Psych_RVI_used_when_Completing">
+			<stock name="PSY_RVI_used_when_Completing">
 				<units>wk</units>
 				<doc>Appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
 					<eqn>
-					Psych_RVI_used_when_Completing= DELAY_FIXED (
-	Psych_RVI, Psych_RVI , Psych_RVI)
+					PSY_RVI_used_when_Completing= DELAY_FIXED (
+	PSY_RVI, PSY_RVI , PSY_RVI)
 					</eqn>
 			</stock>
 			<aux name="Adjuctive_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
 					<eqn>Adjunctive_Patients_in_Service
-	*"Data_Adjuctive__w_PTSD"					</eqn>
+	*"Data_PTSD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjuctive_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>Adjunctive_Starting_a_Service_Rate
-	*"Data_Adjuctive__w_PTSD"					</eqn>
+	*"Data_PTSD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive__of_Hours_per_Service">
 				<units>Dmnl</units>
@@ -497,7 +497,7 @@
 			<aux name="Adjunctive_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Adjunctive_True_Missed_Appointment_", IF_THEN_ELSE("User_Adjunctive_True_Missed_Appointment_"<0, "Data_Adjunctive_True_Missed_Appointment_"
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_Adjunct", IF_THEN_ELSE("User_Adjunctive_True_Missed_Appointment_"<0, "Data_True_Missed_Appointment__->_Adjunct"
 	, "User_Adjunctive_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
@@ -586,15 +586,15 @@
 			<aux name="Adjunctive_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Adjunctive_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_Adjunctive_Engagement_Duration<=0,"Data_Adjunctive_Engagement_Duration_(median)",User_Adjunctive_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)_->_Adjunct",
+	IF_THEN_ELSE(User_Adjunctive_Engagement_Duration<=0,"Data_Engagement_Duration_(median)_->_Adjunct",User_Adjunctive_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="Adjunctive_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Adjunctive_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_Adjunct",
 	
-	IF_THEN_ELSE(User_Adjunctive_Appointment_Supply<0, "Data_Adjunctive_Appointment_Supply_(median)",User_Adjunctive_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_Adjunctive_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_Adjunct",User_Adjunctive_Appointment_Supply ))					</eqn>
 			</aux>
 			<aux name="Adjunctive_Maximum_Completion_Rate">
 				<units>appt/wk</units>
@@ -611,7 +611,7 @@
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_Adjunctive_Appointment_Supply_(median)", IF_THEN_ELSE(User_Adjunctive_Appointment_Supply<0,"Data_Adjunctive_Appointment_Supply_(median)", User_Adjunctive_Appointment_Supply
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_Adjunct", IF_THEN_ELSE(User_Adjunctive_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_Adjunct", User_Adjunctive_Appointment_Supply
 	))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
@@ -626,23 +626,23 @@
 			<aux name="Adjunctive_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_in_Service*"Data_Adjunctive__w_AUD"					</eqn>
+					<eqn>Adjunctive_Patients_in_Service*"Data_AUD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_in_Service*"Data_Adjunctive__w_DEP"					</eqn>
+					<eqn>Adjunctive_Patients_in_Service*"Data_DEP_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_in_Service*"Data_Adjunctive__w_Other_Needs"					</eqn>
+					<eqn>Adjunctive_Patients_in_Service*"Data_Other_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
 					<eqn>Adjunctive_Patients_in_Service
-	*"Data_Adjunctive__w_OUD"					</eqn>
+	*"Data_OUD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Potential_Completion_Rate">
 				<units>appt/wk</units>
@@ -657,7 +657,7 @@
 			<aux name="Adjunctive_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Adjunctive_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_Adjunctive_Return_Visit_Interval<1, "Data_Adjunctive_Return_Visit_Interval_(median)", User_Adjunctive_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_Adjunct",IF_THEN_ELSE(User_Adjunctive_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_Adjunct", User_Adjunctive_Return_Visit_Interval))					</eqn>
 			</aux>
 			<aux name="Adjunctive_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
@@ -672,7 +672,7 @@
 	IF_THEN_ELSE(User_Balanced_Mode=0, Adjunctive_Service_Proportions_Balanced_Across_Team_Variables
 	,
 	
-	IF_THEN_ELSE(User_Adjunctive_Service_Proportions_from_Team_Data<0,Data_Adjunctive_Service_Proportions_from_Team_Data
+	IF_THEN_ELSE(User_Adjunctive_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_Adjunct"
 	,User_Adjunctive_Service_Proportions_from_Team_Data))
 	
 	)					</eqn>
@@ -690,23 +690,23 @@
 			<aux name="Adjunctive_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_Adjunctive__w_AUD"					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_AUD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_Adjunctive__w_DEP"					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_DEP_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_Adjunctive__w_Other_Needs"					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_Rate*"Data_Other_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting OUD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>Adjunctive_Starting_a_Service_Rate
-	*"Data_Adjunctive__w_OUD"					</eqn>
+	*"Data_OUD_->_Adjunct"					</eqn>
 			</aux>
 			<aux name="Adjunctive_Treatment_Decision_Rate">
 				<units>pts/wk</units>
@@ -760,7 +760,7 @@
 			<aux name="CC_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_CC_True_Missed_Appointment_", IF_THEN_ELSE("User_CC_True_Missed_Appointment_"<0, "Data_CC_True_Missed_Appointment_"
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_CC", IF_THEN_ELSE("User_CC_True_Missed_Appointment_"<0, "Data_True_Missed_Appointment__->_CC"
 	, "User_CC_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
@@ -849,15 +849,15 @@
 			<aux name="CC_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_CC_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_CC_Engagement_Duration<=0,"Data_CC_Engagement_Duration_(median)",User_CC_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)->_CC",
+	IF_THEN_ELSE(User_CC_Engagement_Duration<=0,"Data_Engagement_Duration_(median)->_CC",User_CC_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="CC_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_CC_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_CC",
 	
-	IF_THEN_ELSE(User_CC_Appointment_Supply<0, "Data_CC_Appointment_Supply_(median)",User_CC_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_CC_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_CC",User_CC_Appointment_Supply ))					</eqn>
 			</aux>
 			<aux name="CC_Maximum_Completion_Rate">
 				<units>appt/wk</units>
@@ -874,7 +874,7 @@
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_CC_Appointment_Supply_(median)", IF_THEN_ELSE(User_CC_Appointment_Supply<0,"Data_CC_Appointment_Supply_(median)", User_CC_Appointment_Supply
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_CC", IF_THEN_ELSE(User_CC_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_CC", User_CC_Appointment_Supply
 	))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
@@ -889,29 +889,29 @@
 			<aux name="CC_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>CC_Patients_in_Service*"Data_CC__w_AUD"					</eqn>
+					<eqn>CC_Patients_in_Service*"Data_AUD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>CC_Patients_in_Service*"Data_CC__w_DEP"					</eqn>
+					<eqn>CC_Patients_in_Service*"Data_DEP_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a primary diagnosis.</doc>
-					<eqn>CC_Patients_in_Service*"Data_CC__w_Other_Needs"					</eqn>
+					<eqn>CC_Patients_in_Service*"Data_Other_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
 					<eqn>CC_Patients_in_Service
-	*"Data_CC__w_OUD"					</eqn>
+	*"Data_OUD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
 					<eqn>CC_Patients_in_Service
-	*"Data_CC__w_PTSD"					</eqn>
+	*"Data_PTSD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Potential_Completion_Rate">
 				<units>appt/wk</units>
@@ -926,7 +926,7 @@
 			<aux name="CC_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_CC_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_CC_Return_Visit_Interval<1, "Data_CC_Return_Visit_Interval_(median)", User_CC_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_CC",IF_THEN_ELSE(User_CC_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_CC", User_CC_Return_Visit_Interval))					</eqn>
 			</aux>
 			<aux name="CC_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
@@ -940,7 +940,7 @@
 	
 	IF_THEN_ELSE(User_Balanced_Mode=0, CC_Service_Proportions_Balanced_Across_Team_Variables,
 	
-	IF_THEN_ELSE(User_CC_Service_Proportions_from_Team_Data<0,Data_CC_Service_Proportions_from_Team_Data,User_CC_Service_Proportions_from_Team_Data
+	IF_THEN_ELSE(User_CC_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_CC",User_CC_Service_Proportions_from_Team_Data
 	))
 	
 	)					</eqn>
@@ -958,29 +958,29 @@
 			<aux name="CC_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>CC_Starting_a_Service_Rate*"Data_CC__w_AUD"					</eqn>
+					<eqn>CC_Starting_a_Service_Rate*"Data_AUD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>CC_Starting_a_Service_Rate*"Data_CC__w_DEP"					</eqn>
+					<eqn>CC_Starting_a_Service_Rate*"Data_DEP_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>CC_Starting_a_Service_Rate*"Data_CC__w_Other_Needs"					</eqn>
+					<eqn>CC_Starting_a_Service_Rate*"Data_Other_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting OUD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>CC_Starting_a_Service_Rate
-	*"Data_CC__w_OUD"					</eqn>
+	*"Data_OUD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>CC_Starting_a_Service_Rate
-	*"Data_CC__w_PTSD"					</eqn>
+	*"Data_PTSD_->_CC"					</eqn>
 			</aux>
 			<aux name="CC_Treatment_Decision_Rate">
 				<units>pts/wk</units>
@@ -1012,281 +1012,281 @@
 					<eqn>QUANTUM(ZIDZ(Total_Actual_Hours_Available_for_Service-"Total_Appt._Supply"
 	,"Total_Appt._Supply"),0.0001)					</eqn>
 			</aux>
-			<aux name="EBPsych__of_Hours_per_Service">
+			<aux name="EBPsy__of_Hours_per_Service">
 				<units>Dmnl</units>
 				<doc>The ratio of hours used for any one service compared to the total team hours.</doc>
-					<eqn>ZIDZ(EBPsych_Official_Hours_Available_for_Service,"Total_Appt._Supply")					</eqn>
+					<eqn>ZIDZ(EBPsy_Official_Hours_Available_for_Service,"Total_Appt._Supply")					</eqn>
 			</aux>
-			<aux name="EBPsych_Actual_Engagement_Time">
+			<aux name="EBPsy_Actual_Engagement_Time">
 				<units>wk</units>
 				<doc>The actual time patients spend in a service depends on both the median time estimated from the team's visit data and the effect of provider fatigue on patient engagement.</doc>
-					<eqn>EBPsych_Engagement_Duration*Effect_of_Fatigue_on_Patient's_Engagement_Time					</eqn>
+					<eqn>EBPsy_Engagement_Duration*Effect_of_Fatigue_on_Patient's_Engagement_Time					</eqn>
 			</aux>
-			<aux name="EBPsych_Actual_Hours_Available_for_Service">
+			<aux name="EBPsy_Actual_Hours_Available_for_Service">
 				<units>hrs/wk</units>
 				<doc>The number of hours the team has allocated to providing patient-facing care in each service, including both bookable appointments on the calendar and unofficial overbooking/overtime hours. (hrs/wk)</doc>
-					<eqn>EBPsych_Official_Hours_Available_for_Service*EBPsych_Effect_of_Work_Pressure_on_Overtime					</eqn>
+					<eqn>EBPsy_Official_Hours_Available_for_Service*EBPsy_Effect_of_Work_Pressure_on_Overtime					</eqn>
 			</aux>
-			<aux name="EBPsych_Actual_Return_Visit_Interval">
+			<aux name="EBPsy_Actual_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The actual average return-to-clinic visit interval that patients experience. This is either the same as the RVI used when appointments are scheduled, or potentially longer, if the team reacts to work pressure by extending existing patients' RVI. Longer than desired RVIs do not cause patients or providers to cancel appointments. In theory, the actual RVI could be pushed to more than one year, but we've capped it at 52 weeks.  (wks)</doc>
-					<eqn>MIN(IF_THEN_ELSE(EBPsych_Appointments<0.05,0.01,XIDZ(EBPsych_Appointments,EBPsych_Completing_Rate, 52)),52)					</eqn>
+					<eqn>MIN(IF_THEN_ELSE(EBPsy_Appointments<0.05,0.01,XIDZ(EBPsy_Appointments,EBPsy_Completing_Rate, 52)),52)					</eqn>
 			</aux>
-			<aux name="EBPsych_Actual_Service_Capacity">
+			<aux name="EBPsy_Actual_Service_Capacity">
 				<units>hrs/wk</units>
 				<doc>The effective total hours of clinical time available, based on the percentage of the total team hours allocated to each service, and the missed appointment percentage for each service.  This assumes that all missed appointments are eventually rescheduled.</doc>
-					<eqn>EBPsych_Actual_Hours_Available_for_Service*(1-"EBPsych_Actual_True_Missed_Appointment_")					</eqn>
+					<eqn>EBPsy_Actual_Hours_Available_for_Service*(1-"EBPsy_Actual_True_Missed_Appointment_")					</eqn>
 			</aux>
-			<aux name="EBPsych_Actual_True_Missed_Appointment_">
+			<aux name="EBPsy_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_EBPsych_True_Missed_Appointment_", IF_THEN_ELSE("User_EBPsych_True_Missed_Appointment_"<0, "Data_EBPsych_True_Missed_Appointment_"
-	, "User_EBPsych_True_Missed_Appointment_"))
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_EBPsy", IF_THEN_ELSE("User_EBPsy_True_Missed_Appointment_"<0, "Data_True_Missed_Appointment__->_EBPsy"
+	, "User_EBPsy_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
 			</aux>
-			<aux name="EBPsych_Appointment_Rate_for_Service_Capacity">
+			<aux name="EBPsy_Appointment_Rate_for_Service_Capacity">
 				<units>appt/wk</units>
 				<doc>The appointment completion rate is the rate at which appointments would be completed in each service by the current team at the standard allocation of hours and hours lost to appointment re-scheduling for each service. Used to initialize the model, so the referral, start, and end rates for patients in each service is in equilibrium.</doc>
-					<eqn>ZIDZ(EBPsych_Actual_Service_Capacity , EBPsych_Time_per_Appointment)					</eqn>
+					<eqn>ZIDZ(EBPsy_Actual_Service_Capacity , EBPsy_Time_per_Appointment)					</eqn>
 			</aux>
-			<aux name="EBPsych_Booking_Rate">
+			<aux name="EBPsy_Booking_Rate">
 				<units>appt/wk</units>
 				<doc>The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)</doc>
-					<eqn>"EBPsych_Current_Pt_Appts_/_week"					</eqn>
+					<eqn>"EBPsy_Current_Pt_Appts_/_week"					</eqn>
 			</aux>
-			<aux name="EBPsych_Completing_Rate">
+			<aux name="EBPsy_Completing_Rate">
 				<units>appt/wk</units>
 				<doc>Appointment completions in each service are based on the team either satisfing all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or using all the supply allocated to that service (based on the Appointment Supply).  If there is more demand than supply, then not all scheduled appointments will be seen in a timely manner, and Actual RVI will increase.  This is different from a completed visit, as the appointment is still complete even if the patient no-shows.   (appt/wk)</doc>
-					<eqn>QUANTUM(MIN(EBPsych_Maximum_Completion_Rate, MIN(EBPsych_Desired_Completion_Rate,EBPsych_Potential_Completion_Rate)),0.001)					</eqn>
+					<eqn>QUANTUM(MIN(EBPsy_Maximum_Completion_Rate, MIN(EBPsy_Desired_Completion_Rate,EBPsy_Potential_Completion_Rate)),0.001)					</eqn>
 			</aux>
-			<aux name="EBPsych_Current_Pt_Appts_/_week">
+			<aux name="EBPsy_Current_Pt_Appts_/_week">
 				<units>appt/wk</units>
 				<doc>The total number of existing patient appointments per week, determined by the total number of patients in each service, the number of patients per appointent, and that service's return visit interval.</doc>
-					<eqn>((ZIDZ(EBPsych_Patients_in_Service,EBPsych_Scheduled_Return_Visit_Interval)) / EBPsych_Patients_per_Appointment)					</eqn>
+					<eqn>((ZIDZ(EBPsy_Patients_in_Service,EBPsy_Scheduled_Return_Visit_Interval)) / EBPsy_Patients_per_Appointment)					</eqn>
 			</aux>
-			<aux name="EBPsych_Delay_to_Starting_Service">
+			<aux name="EBPsy_Delay_to_Starting_Service">
 				<units>wk</units>
 				<doc>The average delay time for the team's patients to start in a service after either an intake appointment or review.  It is calculated from the number of patients delayed and the rate at which they start each service.   Delay time is capped at 52 weeks (wks)</doc>
-					<eqn>MIN(IF_THEN_ELSE(EBPsych_Patients_Waiting_to_Start_a_Service<0.05, 0.01, XIDZ(EBPsych_Patients_Waiting_to_Start_a_Service, EBPsych_Starting_a_Service_Rate, 52)),52)					</eqn>
+					<eqn>MIN(IF_THEN_ELSE(EBPsy_Patients_Waiting_to_Start_a_Service<0.05, 0.01, XIDZ(EBPsy_Patients_Waiting_to_Start_a_Service, EBPsy_Starting_a_Service_Rate, 52)),52)					</eqn>
 			</aux>
-			<aux name="EBPsych_Demand_per_Patient_per_Week">
+			<aux name="EBPsy_Demand_per_Patient_per_Week">
 				<units>appt/(pts*wk)</units>
 				<doc>Baseline number of appointments generated per patient per week for a service.</doc>
-					<eqn>ZIDZ(ZIDZ(1 , EBPsych_Patients_per_Appointment) , EBPsych_RVI)					</eqn>
+					<eqn>ZIDZ(ZIDZ(1 , EBPsy_Patients_per_Appointment) , EBPsy_RVI)					</eqn>
 			</aux>
-			<aux name="EBPsych_Desired_Clinical_Hours">
+			<aux name="EBPsy_Desired_Clinical_Hours">
 				<units>hrs/wk</units>
 				<doc>This is the desired service capacity based on the desired appoinutment completion rate and the standard time per appointment.</doc>
-					<eqn>EBPsych_Desired_Completion_Rate*EBPsych_Time_per_Appointment					</eqn>
+					<eqn>EBPsy_Desired_Completion_Rate*EBPsy_Time_per_Appointment					</eqn>
 			</aux>
-			<aux name="EBPsych_Desired_Completion_Rate">
+			<aux name="EBPsy_Desired_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>To complete recurring appointments in the target return interval, the completion rate must be equal to the appointment backlog divided by the target return time interval.</doc>
-					<eqn>ZIDZ(EBPsych_Appointments , EBPsych_RVI_used_when_Completing)					</eqn>
+					<eqn>ZIDZ(EBPsy_Appointments , EBPsy_RVI_used_when_Completing)					</eqn>
 			</aux>
-			<aux name="EBPsych_Difference_between_Actual_and_Acceptable_Start_Delays">
+			<aux name="EBPsy_Difference_between_Actual_and_Acceptable_Start_Delays">
 				<units>Dmnl</units>
 				<doc>Ratio of services' acutal start delay to the team's standard for acceptable start delay.</doc>
-					<eqn>EBPsych_Delay_to_Starting_Service/Acceptable_Delay_to_Starting_Service					</eqn>
+					<eqn>EBPsy_Delay_to_Starting_Service/Acceptable_Delay_to_Starting_Service					</eqn>
 			</aux>
-			<aux name="EBPsych_Difference_between_Actual_and_Standard_RVI">
+			<aux name="EBPsy_Difference_between_Actual_and_Standard_RVI">
 				<units>Dmnl</units>
 				<doc>Ratio of services' acutal RVI to the team's desired RVI.</doc>
-					<eqn>XIDZ(EBPsych_Actual_Return_Visit_Interval,EBPsych_RVI,1)					</eqn>
+					<eqn>XIDZ(EBPsy_Actual_Return_Visit_Interval,EBPsy_RVI,1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Effect_of_Care_Delays_on_Treatment_Decisions">
+			<aux name="EBPsy_Effect_of_Care_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>EBPsych_Effect_of_RVI_Delays_on_Treatment_Decisions*EBPsych_Effect_of_Start_Delays_on_Treatment_Decisions					</eqn>
+					<eqn>EBPsy_Effect_of_RVI_Delays_on_Treatment_Decisions*EBPsy_Effect_of_Start_Delays_on_Treatment_Decisions					</eqn>
 			</aux>
-			<aux name="EBPsych_Effect_of_RVI_Delays_on_Treatment_Decisions">
+			<aux name="EBPsy_Effect_of_RVI_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc>When care delays increase (as measured by the return to clinic visit intervals (RVI) for a service increasing above the scheduled RVI), the team will be less likely to decide that patient should start that service.  This effect only applies to actual RVIs rising above scheduled RVIs:  lower than scheduled RVIs do not increase provider decisions to start patients.  (pct)</doc>
-					<eqn>MIN(SMOOTHI(EBPsych_Difference_between_Actual_and_Standard_RVI^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
+					<eqn>MIN(SMOOTHI(EBPsy_Difference_between_Actual_and_Standard_RVI^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Effect_of_Start_Delays_on_Treatment_Decisions">
+			<aux name="EBPsy_Effect_of_Start_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc>When the wait time to start a service increases above the target wait time, the team will be less likely to decide that patient should start that service.  This effect only applies to above-target wait times:  lower than expected wait times do not increase provider decisions to start patients.  (pct)</doc>
-					<eqn>MIN(SMOOTHI(EBPsych_Difference_between_Actual_and_Acceptable_Start_Delays^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
+					<eqn>MIN(SMOOTHI(EBPsy_Difference_between_Actual_and_Acceptable_Start_Delays^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Effect_of_Work_Pressure_on_Overtime">
+			<aux name="EBPsy_Effect_of_Work_Pressure_on_Overtime">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure."  One response to increasing work pressure is for the team to work overtime.  The more work pressure a team experiences for a specific service, the greater this effect, and the more the overtime the team will work in that specific service.  This effect only applies to increasing work pressure: having fewer appointments on the calendar that the team can see in a timely way does not influence providers to work fewer hours. (pct)</doc>
-					<eqn>MAX(SMOOTHI((EBPsych_Work_Pressure^Sensitivity_of_Overtime_to_Work_Pressure),Time_to_Change_Staff_Hours,1),1)					</eqn>
+					<eqn>MAX(SMOOTHI((EBPsy_Work_Pressure^Sensitivity_of_Overtime_to_Work_Pressure),Time_to_Change_Staff_Hours,1),1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval">
+			<aux name="EBPsy_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure."  One response to increasing work pressure is for the team to see their patients less often.  The more work pressure a team experiences for a specific service, the greater this effect, and the longer the scheduled return to clinic interval (RVI) for that specific service.  This effect only applies to increasing work pressure: having fewer appointments on the calendar that the team can see in a timely way does not influence providers to see patients more often. (pct)</doc>
-					<eqn>MAX(SMOOTHI((EBPsych_Work_Pressure^Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure),Time_to_Change_Scheduled_RVI
+					<eqn>MAX(SMOOTHI((EBPsy_Work_Pressure^Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure),Time_to_Change_Scheduled_RVI
 ,1),1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Ending_Service_Rate">
+			<aux name="EBPsy_Ending_Service_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients finishing a service is a function the number of patients in treatment and their median time engaged in treatment. (pts/wk)</doc>
-					<eqn>ZIDZ(EBPsych_Patients_in_Service , EBPsych_Actual_Engagement_Time)					</eqn>
+					<eqn>ZIDZ(EBPsy_Patients_in_Service , EBPsy_Actual_Engagement_Time)					</eqn>
 			</aux>
-			<aux name="EBPsych_Engagement_Duration">
+			<aux name="EBPsy_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_EBPsych_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_EBPsych_Engagement_Duration<=0,"Data_EBPsych_Engagement_Duration_(median)",User_EBPsych_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)_->_EBPsy_",
+	IF_THEN_ELSE(User_EBPsy_Engagement_Duration<=0,"Data_Engagement_Duration_(median)_->_EBPsy_",User_EBPsy_Engagement_Duration))					</eqn>
 			</aux>
-			<aux name="EBPsych_Hours_for_Calculating_Total_Official_Team_Hours">
+			<aux name="EBPsy_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_EBPsych_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_EBPsy_",
 	
-	IF_THEN_ELSE(User_EBPsych_Appointment_Supply<0, "Data_EBPsych_Appointment_Supply_(median)",User_EBPsych_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_EBPsy_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_EBPsy_",User_EBPsy_Appointment_Supply ))					</eqn>
 			</aux>
-			<aux name="EBPsych_Maximum_Completion_Rate">
+			<aux name="EBPsy_Maximum_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>The maximum completion rate is determined by the appointment backlog and minimum time between patient appointments.</doc>
-					<eqn>EBPsych_Appointments/Minimum_RVI					</eqn>
+					<eqn>EBPsy_Appointments/Minimum_RVI					</eqn>
 			</aux>
-			<aux name="EBPsych_Maximum_Start_Rate_Service">
+			<aux name="EBPsy_Maximum_Start_Rate_Service">
 				<units>pts/wk</units>
 				<doc>The maximum new patient start rate is determined by the new patient waiting list and minimum time to schedule patient appointments.</doc>
-					<eqn>EBPsych_Patients_Waiting_to_Start_a_Service/Minimum_Time_to_Schedule					</eqn>
+					<eqn>EBPsy_Patients_Waiting_to_Start_a_Service/Minimum_Time_to_Schedule					</eqn>
 			</aux>
-			<aux name="EBPsych_Official_Hours_Available_for_Service">
+			<aux name="EBPsy_Official_Hours_Available_for_Service">
 				<units>hrs/wk</units>
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_EBPsych_Appointment_Supply_(median)", IF_THEN_ELSE(User_EBPsych_Appointment_Supply<0,"Data_EBPsych_Appointment_Supply_(median)", User_EBPsych_Appointment_Supply
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_EBPsy_", IF_THEN_ELSE(User_EBPsy_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_EBPsy_", User_EBPsy_Appointment_Supply
 	))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
 	
 	,0)					</eqn>
 			</aux>
-			<aux name="EBPsych_Patient_Start_Rate">
+			<aux name="EBPsy_Patient_Start_Rate">
 				<units>pts/wk</units>
 				<doc>Defined to maintain equilibrium in the base case (i.e., if no switches are active).  The team can only start as many patients as they have the service capacity to see.</doc>
-					<eqn>ZIDZ((ZIDZ(EBPsych_Appointment_Rate_for_Service_Capacity , EBPsych_Demand_per_Patient_per_Week)) , EBPsych_Engagement_Duration)					</eqn>
+					<eqn>ZIDZ((ZIDZ(EBPsy_Appointment_Rate_for_Service_Capacity , EBPsy_Demand_per_Patient_per_Week)) , EBPsy_Engagement_Duration)					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_w_AUD">
+			<aux name="EBPsy_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>EBPsych_Patients_in_Service*"Data_EBPsych__w_AUD"					</eqn>
+					<eqn>EBPsy_Patients_in_Service*"Data_AUD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_w_DEP">
+			<aux name="EBPsy_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>EBPsych_Patients_in_Service*"Data_EBPsych__w_DEP"					</eqn>
+					<eqn>EBPsy_Patients_in_Service*"Data_DEP_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_w_Other_Needs">
+			<aux name="EBPsy_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a primary diagnosis.</doc>
-					<eqn>EBPsych_Patients_in_Service*"Data_EBPsych__w_Other_Needs"					</eqn>
+					<eqn>EBPsy_Patients_in_Service*"Data_Other_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_w_OUD">
+			<aux name="EBPsy_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
-					<eqn>EBPsych_Patients_in_Service
-	*"Data_EBPsych__w_OUD"					</eqn>
+					<eqn>EBPsy_Patients_in_Service
+	*"Data_OUD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_w_PTSD">
+			<aux name="EBPsy_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
-					<eqn>EBPsych_Patients_in_Service
-	*"Data_EBPsych__w_PTSD"					</eqn>
+					<eqn>EBPsy_Patients_in_Service
+	*"Data_PTSD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Potential_Completion_Rate">
+			<aux name="EBPsy_Potential_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>The potential completion rate depends on the net available clinical hours and the time per apppointment.</doc>
-					<eqn>(EBPsych_Actual_Hours_Available_for_Service/EBPsych_Time_per_Appointment)					</eqn>
+					<eqn>(EBPsy_Actual_Hours_Available_for_Service/EBPsy_Time_per_Appointment)					</eqn>
 			</aux>
-			<aux name="EBPsych_Rescheduling_Rate">
+			<aux name="EBPsy_Rescheduling_Rate">
 				<units>appt/wk</units>
 				<doc>The rescheduling rate for each service depends on the total number of appointments to reschedule and the average time it takes to reschedule them. (appts/wk)</doc>
-					<eqn>QUANTUM(EBPsych_Appointments_to_Reschedule/Time_to_Reschedule,0.001)					</eqn>
+					<eqn>QUANTUM(EBPsy_Appointments_to_Reschedule/Time_to_Reschedule,0.001)					</eqn>
 			</aux>
-			<aux name="EBPsych_RVI">
+			<aux name="EBPsy_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_EBPsych_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_EBPsych_Return_Visit_Interval<1, "Data_EBPsych_Return_Visit_Interval_(median)", User_EBPsych_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_EBPsy",IF_THEN_ELSE(User_EBPsy_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_EBPsy", User_EBPsy_Return_Visit_Interval))					</eqn>
 			</aux>
-			<aux name="EBPsych_Scheduled_Return_Visit_Interval">
+			<aux name="EBPsy_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The return-to-clinic visit interval (RVI) used when scheduling appointmnents for existing patients in each service. It is either the same as the RVI from the team's data, or longer, depending on how the team chooses to react to increasing work pressure. (wks)</doc>
-					<eqn>EBPsych_RVI*EBPsych_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval					</eqn>
+					<eqn>EBPsy_RVI*EBPsy_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval					</eqn>
 			</aux>
-			<aux name="EBPsych_Service_Proportions">
+			<aux name="EBPsy_Service_Proportions">
 				<units>Dmnl</units>
 				<doc>The service percentage used by the team.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,EBPsych_Service_Proportions_Balanced_Across_Team_Variables, 
+					<eqn>IF_THEN_ELSE(Time<0,EBPsy_Service_Proportions_Balanced_Across_Team_Variables, 
 	
-	IF_THEN_ELSE(User_Balanced_Mode=0, EBPsych_Service_Proportions_Balanced_Across_Team_Variables,
+	IF_THEN_ELSE(User_Balanced_Mode=0, EBPsy_Service_Proportions_Balanced_Across_Team_Variables,
 	
-	IF_THEN_ELSE(User_EBPsych_Service_Proportions_from_Team_Data<0,Data_EBPsych_Service_Proportions_from_Team_Data,User_EBPsych_Service_Proportions_from_Team_Data
+	IF_THEN_ELSE(User_EBPsy_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_EBPsy",User_EBPsy_Service_Proportions_from_Team_Data
 	))
 	
 	)					</eqn>
 			</aux>
-			<aux name="EBPsych_Service_Proportions_Balanced_Across_Team_Variables">
+			<aux name="EBPsy_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(EBPsych_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(EBPsy_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_Rate">
+			<aux name="EBPsy_Starting_a_Service_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients who start each service each week. It is based on the number of appointments remaining each week, after all exisiting patients are seen in a timely manner. The team either satisfies all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or uses all the supply (based on the Appointment Supply), leaving no appointments available for new patients. (pts/wk)</doc>
-					<eqn>MIN(EBPsych_Maximum_Start_Rate_Service,EBPsych_Patient_Start_Rate)					</eqn>
+					<eqn>MIN(EBPsy_Maximum_Start_Rate_Service,EBPsy_Patient_Start_Rate)					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_w_AUD">
+			<aux name="EBPsy_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>EBPsych_Starting_a_Service_Rate*"Data_EBPsych__w_AUD"					</eqn>
+					<eqn>EBPsy_Starting_a_Service_Rate*"Data_AUD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_w_DEP">
+			<aux name="EBPsy_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>EBPsych_Starting_a_Service_Rate*"Data_EBPsych__w_DEP"					</eqn>
+					<eqn>EBPsy_Starting_a_Service_Rate*"Data_DEP_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_w_Other_Needs">
+			<aux name="EBPsy_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>EBPsych_Starting_a_Service_Rate*"Data_EBPsych__w_Other_Needs"					</eqn>
+					<eqn>EBPsy_Starting_a_Service_Rate*"Data_Other_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_w_OUD">
+			<aux name="EBPsy_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting OUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>EBPsych_Starting_a_Service_Rate
+					<eqn>EBPsy_Starting_a_Service_Rate
 	
-	*"Data_EBPsych__w_OUD"					</eqn>
+	*"Data_OUD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Starting_a_Service_w_PTSD">
+			<aux name="EBPsy_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>EBPsych_Starting_a_Service_Rate
+					<eqn>EBPsy_Starting_a_Service_Rate
 	
-	*"Data_EBPsych__w_PTSD"					</eqn>
+	*"Data_PTSD_->_EBPsy"					</eqn>
 			</aux>
-			<aux name="EBPsych_Treatment_Decision_Rate">
+			<aux name="EBPsy_Treatment_Decision_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
 	(Intake_Intake_Completion_Rate+Review_Rate)
-	*EBPsych_Service_Proportions
-	*EBPsych_Effect_of_Care_Delays_on_Treatment_Decisions
+	*EBPsy_Service_Proportions
+	*EBPsy_Effect_of_Care_Delays_on_Treatment_Decisions
 	
 	,0)					</eqn>
 			</aux>
-			<aux name="EBPsych_True_Missed_Appointment_Rate">
+			<aux name="EBPsy_True_Missed_Appointment_Rate">
 				<units>appt/wk</units>
 				<doc>The number of appointments that must be re-scheduled, as either the clinician or the patient missed the appointment, calculated from the team's data. (appts/wk)</doc>
 					<eqn>QUANTUM(MAX(
 	
-	EBPsych_Completing_Rate*"EBPsych_Actual_True_Missed_Appointment_"
+	EBPsy_Completing_Rate*"EBPsy_Actual_True_Missed_Appointment_"
 	
 	,0),0.001)					</eqn>
 			</aux>
-			<aux name="EBPsych_Work_Pressure">
+			<aux name="EBPsy_Work_Pressure">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure." It is measured by the ratio of the hours needed for each service (based on the appointments on the calendar and the return to clinic interval) against the actual hours available for each service. When the team works the same hours as their patients need (so each patient can be seen at the appropriate return to clinic interval), then the ratio is 1. If a team has more appointments than they can see given the RVI, then work pressure will rise above 1. (pct)</doc>
-					<eqn>ZIDZ(EBPsych_Desired_Clinical_Hours, EBPsych_Actual_Hours_Available_for_Service)					</eqn>
+					<eqn>ZIDZ(EBPsy_Desired_Clinical_Hours, EBPsy_Actual_Hours_Available_for_Service)					</eqn>
 			</aux>
 			<aux name="Effect_of_Fatigue_on_Patient's_Engagement_Time">
 				<units>Dmnl</units>
@@ -1332,7 +1332,7 @@
 			<aux name="Group_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Group_True_Missed_Appointment_", IF_THEN_ELSE("User_Group_True_Missed_Appointment_"<0, "Data_Group_True_Missed_Appointment_"
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_Group", IF_THEN_ELSE("User_Group_True_Missed_Appointment_"<0, "Data_True_Missed_Appointment__->_Group"
 	, "User_Group_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
@@ -1421,15 +1421,15 @@
 			<aux name="Group_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Group_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_Group_Engagement_Duration<=0,"Data_Group_Engagement_Duration_(median)",User_Group_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)_->_Group",
+	IF_THEN_ELSE(User_Group_Engagement_Duration<=0,"Data_Engagement_Duration_(median)_->_Group",User_Group_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="Group_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Group_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_Group",
 	
-	IF_THEN_ELSE(User_Group_Appointment_Supply<0, "Data_Group_Appointment_Supply_(median)",User_Group_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_Group_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_Group",User_Group_Appointment_Supply ))					</eqn>
 			</aux>
 			<aux name="Group_Maximum_Completion_Rate">
 				<units>appt/wk</units>
@@ -1446,7 +1446,7 @@
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_Group_Appointment_Supply_(median)", IF_THEN_ELSE(User_Group_Appointment_Supply<0,"Data_Group_Appointment_Supply_(median)", User_Group_Appointment_Supply
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_Group", IF_THEN_ELSE(User_Group_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_Group", User_Group_Appointment_Supply
 	))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
@@ -1461,29 +1461,29 @@
 			<aux name="Group_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>Group_Patients_in_Service*"Data_Group__w_AUD"					</eqn>
+					<eqn>Group_Patients_in_Service*"Data_AUD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>Group_Patients_in_Service*"Data_Group__w_DEP"					</eqn>
+					<eqn>Group_Patients_in_Service*"Data_DEP_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a primary diagnosis.</doc>
-					<eqn>Group_Patients_in_Service*"Data_Group__w_Other_Needs"					</eqn>
+					<eqn>Group_Patients_in_Service*"Data_Other_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
 					<eqn>Group_Patients_in_Service
-	*"Data_Group__w_OUD"					</eqn>
+	*"Data_OUD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
 					<eqn>Group_Patients_in_Service
-	*"Data_Group__w_PTSD"					</eqn>
+	*"Data_PTSD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Potential_Completion_Rate">
 				<units>appt/wk</units>
@@ -1498,7 +1498,7 @@
 			<aux name="Group_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Group_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_Group_Return_Visit_Interval<1, "Data_Group_Return_Visit_Interval_(median)", User_Group_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_Group",IF_THEN_ELSE(User_Group_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_Group", User_Group_Return_Visit_Interval))					</eqn>
 			</aux>
 			<aux name="Group_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
@@ -1512,7 +1512,7 @@
 	
 	IF_THEN_ELSE(User_Balanced_Mode=0, Group_Service_Proportions_Balanced_Across_Team_Variables,
 	
-	IF_THEN_ELSE(User_Group_Service_Proportions_from_Team_Data<0,Data_Group_Service_Proportions_from_Team_Data,User_Group_Service_Proportions_from_Team_Data
+	IF_THEN_ELSE(User_Group_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_Group",User_Group_Service_Proportions_from_Team_Data
 	))
 	
 	)					</eqn>
@@ -1530,30 +1530,30 @@
 			<aux name="Group_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Group_Starting_a_Service_Rate*"Data_Group__w_AUD"					</eqn>
+					<eqn>Group_Starting_a_Service_Rate*"Data_AUD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Group_Starting_a_Service_Rate*"Data_Group__w_DEP"					</eqn>
+					<eqn>Group_Starting_a_Service_Rate*"Data_DEP_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Group_Starting_a_Service_Rate*"Data_Group__w_Other_Needs"					</eqn>
+					<eqn>Group_Starting_a_Service_Rate*"Data_Other_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting OUD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>Group_Starting_a_Service_Rate
 	
-	*"Data_Group__w_OUD"					</eqn>
+	*"Data_OUD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>Group_Starting_a_Service_Rate
-	*"Data_Group__w_PTSD"					</eqn>
+	*"Data_PTSD_->_Group"					</eqn>
 			</aux>
 			<aux name="Group_Treatment_Decision_Rate">
 				<units>pts/wk</units>
@@ -1597,8 +1597,8 @@
 			<aux name="Intake_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Intake_True_Missed_Appointment_", IF_THEN_ELSE("User_Intake_True_Missed_Appointment_"<0
-	, "Data_Intake_True_Missed_Appointment_", "User_Intake_True_Missed_Appointment_"))
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_Intake", IF_THEN_ELSE("User_Intake_True_Missed_Appointment_"<0
+	, "Data_True_Missed_Appointment__->_Intake", "User_Intake_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
 			</aux>
@@ -1621,7 +1621,7 @@
 			<aux name="Intake_Demand_per_Patient_per_Week">
 				<units>appt/(pts*wk)</units>
 				<doc>Baseline number of appointments generated per patient per week for a service.</doc>
-					<eqn>ZIDZ(ZIDZ(1 , Intake_Patients_per_Appointment) , "Data_Intake_Return_Visit_Interval_(median)")					</eqn>
+					<eqn>ZIDZ(ZIDZ(1 , Intake_Patients_per_Appointment) , "Data_Return_Visit_Interval_(median)_->_Intake")					</eqn>
 			</aux>
 			<aux name="Intake_Desired_Clinical_Hours">
 				<units>hrs/wk</units>
@@ -1631,7 +1631,7 @@
 			<aux name="Intake_Desired_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>To complete recurring appointments in the target return interval, the completion rate must be equal to the appointment backlog divided by the target return time interval.</doc>
-					<eqn>ZIDZ(Intake_Appointments , "Data_Intake_Return_Visit_Interval_(median)")					</eqn>
+					<eqn>ZIDZ(Intake_Appointments , "Data_Return_Visit_Interval_(median)_->_Intake")					</eqn>
 			</aux>
 			<aux name="Intake_Difference_between_Intake_Eval_Wait_Times">
 				<units>Dmnl</units>
@@ -1661,9 +1661,9 @@
 			<aux name="Intake_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Intake_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_Intake",
 	
-	IF_THEN_ELSE(User_Intake_Appointment_Supply<0, "Data_Intake_Appointment_Supply_(median)",User_Intake_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_Intake_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_Intake",User_Intake_Appointment_Supply ))					</eqn>
 			</aux>
 			<aux name="Intake_Intake_Completion_Rate">
 				<units>pts/wk</units>
@@ -1695,7 +1695,7 @@
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_Intake_Appointment_Supply_(median)", IF_THEN_ELSE(User_Intake_Appointment_Supply<0,"Data_Intake_Appointment_Supply_(median)"
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_Intake", IF_THEN_ELSE(User_Intake_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_Intake"
 	, User_Intake_Appointment_Supply))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
@@ -1705,7 +1705,7 @@
 			<aux name="Intake_Patient_Start_Rate">
 				<units>pts/wk</units>
 				<doc>Defined to maintain equilibrium in the base case (i.e., if no switches are active).  The team can only start as many patients as they have the service capacity to see.</doc>
-					<eqn>(Intake_Appointment_Rate_for_Service_Capacity / Intake_Demand_per_Patient_per_Week) / Data_Intake_Engagement_Duration					</eqn>
+					<eqn>(Intake_Appointment_Rate_for_Service_Capacity / Intake_Demand_per_Patient_per_Week) / "Data_Engagement_Duration_(median)_->_Intake"					</eqn>
 			</aux>
 			<aux name="Intake_Potential_Completion_Rate">
 				<units>appt/wk</units>
@@ -1719,7 +1719,7 @@
 			</aux>
 			<aux name="Intake_Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 7117642060260f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 3523205377671f its original value).</doc>
+				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 71261460260f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 350f its original value).</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -1770,7 +1770,7 @@
 			<aux name="MM_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_MM_True_Missed_Appointment_", IF_THEN_ELSE("User_MM_True_Missed_Appointment_"<0, "Data_MM_True_Missed_Appointment_"
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_MM", IF_THEN_ELSE("User_MM_True_Missed_Appointment_"<0, "Data_True_Missed_Appointment__->_MM"
 	, "User_MM_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
@@ -1859,15 +1859,15 @@
 			<aux name="MM_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_MM_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_MM_Engagement_Duration<=0,"Data_MM_Engagement_Duration_(median)",User_MM_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)_->_MM",
+	IF_THEN_ELSE(User_MM_Engagement_Duration<=0,"Data_Engagement_Duration_(median)_->_MM",User_MM_Engagement_Duration))					</eqn>
 			</aux>
 			<aux name="MM_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_MM_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_MM",
 	
-	IF_THEN_ELSE(User_MM_Appointment_Supply<0, "Data_MM_Appointment_Supply_(median)",User_MM_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_MM_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_MM",User_MM_Appointment_Supply ))					</eqn>
 			</aux>
 			<aux name="MM_Maximum_Completion_Rate">
 				<units>appt/wk</units>
@@ -1884,7 +1884,7 @@
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_MM_Appointment_Supply_(median)", IF_THEN_ELSE(User_MM_Appointment_Supply<0,"Data_MM_Appointment_Supply_(median)", User_MM_Appointment_Supply
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_MM", IF_THEN_ELSE(User_MM_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_MM", User_MM_Appointment_Supply
 	))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
@@ -1899,30 +1899,30 @@
 			<aux name="MM_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>MM_Patients_in_Service*"Data_MM__w_AUD"					</eqn>
+					<eqn>MM_Patients_in_Service*"Data_AUD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>MM_Patients_in_Service*"Data_MM__w_DEP"					</eqn>
+					<eqn>MM_Patients_in_Service*"Data_DEP_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a Dev Testing primary diagnosis.</doc>
-					<eqn>MM_Patients_in_Service*"Data_MM__w_Other_Needs"					</eqn>
+					<eqn>MM_Patients_in_Service*"Data_Other_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
 					<eqn>MM_Patients_in_Service
-	*"Data_MM__w_OUD"					</eqn>
+	*"Data_OUD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
 					<eqn>MM_Patients_in_Service
 	
-	*"Data_MM__w_PTSD"					</eqn>
+	*"Data_PTSD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Potential_Completion_Rate">
 				<units>appt/wk</units>
@@ -1937,7 +1937,7 @@
 			<aux name="MM_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_MM_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_MM_Return_Visit_Interval<1, "Data_MM_Return_Visit_Interval_(median)", User_MM_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_MM",IF_THEN_ELSE(User_MM_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_MM", User_MM_Return_Visit_Interval))					</eqn>
 			</aux>
 			<aux name="MM_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
@@ -1951,7 +1951,7 @@
 	
 	IF_THEN_ELSE(User_Balanced_Mode=0, MM_Service_Proportions_Balanced_Across_Team_Variables,
 	
-	IF_THEN_ELSE(User_MM_Service_Proportions_from_Team_Data<0,Data_MM_Service_Proportions_from_Team_Data,User_MM_Service_Proportions_from_Team_Data
+	IF_THEN_ELSE(User_MM_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_MM",User_MM_Service_Proportions_from_Team_Data
 	))
 	
 	)					</eqn>
@@ -1969,17 +1969,17 @@
 			<aux name="MM_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>MM_Starting_a_Service_Rate*"Data_MM__w_AUD"					</eqn>
+					<eqn>MM_Starting_a_Service_Rate*"Data_AUD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>MM_Starting_a_Service_Rate*"Data_MM__w_DEP"					</eqn>
+					<eqn>MM_Starting_a_Service_Rate*"Data_DEP_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>MM_Starting_a_Service_Rate*"Data_MM__w_Other_Needs"					</eqn>
+					<eqn>MM_Starting_a_Service_Rate*"Data_Other_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
@@ -1987,13 +1987,13 @@
 					<eqn>MM_Starting_a_Service_Rate
 	
 	
-	*"Data_MM__w_OUD"					</eqn>
+	*"Data_OUD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
 					<eqn>MM_Starting_a_Service_Rate
-	*"Data_MM__w_PTSD"					</eqn>
+	*"Data_PTSD_->_MM"					</eqn>
 			</aux>
 			<aux name="MM_Treatment_Decision_Rate">
 				<units>pts/wk</units>
@@ -2019,280 +2019,280 @@
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure." It is measured by the ratio of the hours needed for each service (based on the appointments on the calendar and the return to clinic interval) against the actual hours available for each service. When the team works the same hours as their patients need (so each patient can be seen at the appropriate return to clinic interval), then the ratio is 1. If a team has more appointments than they can see given the RVI, then work pressure will rise above 1. (pct)</doc>
 					<eqn>ZIDZ(MM_Desired_Clinical_Hours, MM_Actual_Hours_Available_for_Service)					</eqn>
 			</aux>
-			<aux name="Psych__of_Hours_per_Service">
+			<aux name="PSY__of_Hours_per_Service">
 				<units>Dmnl</units>
 				<doc>The ratio of hours used for any one service compared to the total team hours.</doc>
-					<eqn>ZIDZ(Psych_Official_Hours_Available_for_Service,"Total_Appt._Supply")					</eqn>
+					<eqn>ZIDZ(PSY_Official_Hours_Available_for_Service,"Total_Appt._Supply")					</eqn>
 			</aux>
-			<aux name="Psych_Actual_Engagement_Time">
+			<aux name="PSY_Actual_Engagement_Time">
 				<units>wk</units>
 				<doc>The actual time patients spend in a service depends on both the median time estimated from the team's visit data and the effect of provider fatigue on patient engagement.</doc>
-					<eqn>Psych_Engagement_Duration*Effect_of_Fatigue_on_Patient's_Engagement_Time					</eqn>
+					<eqn>PSY_Engagement_Duration*Effect_of_Fatigue_on_Patient's_Engagement_Time					</eqn>
 			</aux>
-			<aux name="Psych_Actual_Hours_Available_for_Service">
+			<aux name="PSY_Actual_Hours_Available_for_Service">
 				<units>hrs/wk</units>
 				<doc>The number of hours the team has allocated to providing patient-facing care in each service, including both bookable appointments on the calendar and unofficial overbooking/overtime hours. (hrs/wk)</doc>
-					<eqn>Psych_Official_Hours_Available_for_Service*Psych_Effect_of_Work_Pressure_on_Overtime					</eqn>
+					<eqn>PSY_Official_Hours_Available_for_Service*PSY_Effect_of_Work_Pressure_on_Overtime					</eqn>
 			</aux>
-			<aux name="Psych_Actual_Return_Visit_Interval">
+			<aux name="PSY_Actual_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The actual average return-to-clinic visit interval that patients experience. This is either the same as the RVI used when appointments are scheduled, or potentially longer, if the team reacts to work pressure by extending existing patients' RVI. Longer than desired RVIs do not cause patients or providers to cancel appointments. In theory, the actual RVI could be pushed to more than one year, but we've capped it at 52 weeks.  (wks)</doc>
-					<eqn>MIN(IF_THEN_ELSE(Psych_Appointments<0.05,0.01,XIDZ(Psych_Appointments,Psych_Completing_Rate, 52)),52)					</eqn>
+					<eqn>MIN(IF_THEN_ELSE(PSY_Appointments<0.05,0.01,XIDZ(PSY_Appointments,PSY_Completing_Rate, 52)),52)					</eqn>
 			</aux>
-			<aux name="Psych_Actual_Service_Capacity">
+			<aux name="PSY_Actual_Service_Capacity">
 				<units>hrs/wk</units>
 				<doc>The effective total hours of clinical time available, based on the percentage of the total team hours allocated to each service, and the missed appointment percentage for each service.  This assumes that all missed appointments are eventually rescheduled.</doc>
-					<eqn>Psych_Actual_Hours_Available_for_Service*(1-"Psych_Actual_True_Missed_Appointment_")					</eqn>
+					<eqn>PSY_Actual_Hours_Available_for_Service*(1-"PSY_Actual_True_Missed_Appointment_")					</eqn>
 			</aux>
-			<aux name="Psych_Actual_True_Missed_Appointment_">
+			<aux name="PSY_Actual_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments missed and rescheduled is affected by both the baseline rate and the effect of fatigue due to accumulated long hours.  It is constrained from going below zero.  The baseline rate can be replaced by a user-generated value between zero and 100</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Psych_True_Missed_Appointment_", IF_THEN_ELSE("User_Psych_True_Missed_Appointment_"<0, 
-	"Data_Psych_True_Missed_Appointment_", "User_Psych_True_Missed_Appointment_"))
+					<eqn>IF_THEN_ELSE(Time<0, "Data_True_Missed_Appointment__->_PSY", IF_THEN_ELSE("User_PSY_True_Missed_Appointment_"<0, 
+	"Data_True_Missed_Appointment__->_PSY", "User_PSY_True_Missed_Appointment_"))
 	
 	*"Effect_of_Short-Term_Overtime_on_Missed_Appointments"					</eqn>
 			</aux>
-			<aux name="Psych_Appointment_Rate_for_Service_Capacity">
+			<aux name="PSY_Appointment_Rate_for_Service_Capacity">
 				<units>appt/wk</units>
 				<doc>The appointment completion rate is the rate at which appointments would be completed in each service by the current team at the standard allocation of hours and hours lost to appointment re-scheduling for each service. Used to initialize the model, so the referral, start, and end rates for patients in each service is in equilibrium.</doc>
-					<eqn>ZIDZ(Psych_Actual_Service_Capacity , Psych_Time_per_Appointment)					</eqn>
+					<eqn>ZIDZ(PSY_Actual_Service_Capacity , PSY_Time_per_Appointment)					</eqn>
 			</aux>
-			<aux name="Psych_Booking_Rate">
+			<aux name="PSY_Booking_Rate">
 				<units>appt/wk</units>
 				<doc>The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)</doc>
-					<eqn>"Psych_Current_Pt_Appts_/_week"					</eqn>
+					<eqn>"PSY_Current_Pt_Appts_/_week"					</eqn>
 			</aux>
-			<aux name="Psych_Completing_Rate">
+			<aux name="PSY_Completing_Rate">
 				<units>appt/wk</units>
 				<doc>Appointment completions in each service are based on the team either satisfing all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or using all the supply allocated to that service (based on the Appointment Supply).  If there is more demand than supply, then not all scheduled appointments will be seen in a timely manner, and Actual RVI will increase.  This is different from a completed visit, as the appointment is still complete even if the patient no-shows.   (appt/wk)</doc>
-					<eqn>MIN(Psych_Maximum_Completion_Rate, MIN(Psych_Desired_Completion_Rate,Psych_Potential_Completion_Rate))					</eqn>
+					<eqn>MIN(PSY_Maximum_Completion_Rate, MIN(PSY_Desired_Completion_Rate,PSY_Potential_Completion_Rate))					</eqn>
 			</aux>
-			<aux name="Psych_Current_Pt_Appts_/_week">
+			<aux name="PSY_Current_Pt_Appts_/_week">
 				<units>appt/wk</units>
 				<doc>The total number of existing patient appointments per week, determined by the total number of patients in each service, the number of patients per appointent, and that service's return visit interval.</doc>
-					<eqn>((ZIDZ(Psych_Patients_in_Service,Psych_Scheduled_Return_Visit_Interval)) / Psych_Patients_per_Appointment)					</eqn>
+					<eqn>((ZIDZ(PSY_Patients_in_Service,PSY_Scheduled_Return_Visit_Interval)) / PSY_Patients_per_Appointment)					</eqn>
 			</aux>
-			<aux name="Psych_Delay_to_Starting_Service">
+			<aux name="PSY_Delay_to_Starting_Service">
 				<units>wk</units>
 				<doc>The average delay time for the team's patients to start in a service after either an intake appointment or review.  It is calculated from the number of patients delayed and the rate at which they start each service.   Delay time is capped at 52 weeks (wks)</doc>
-					<eqn>MIN(IF_THEN_ELSE(Psych_Patients_Waiting_to_Start_a_Service<0.05, 0.01, XIDZ(Psych_Patients_Waiting_to_Start_a_Service, Psych_Starting_a_Service_Rate, 52)),52)					</eqn>
+					<eqn>MIN(IF_THEN_ELSE(PSY_Patients_Waiting_to_Start_a_Service<0.05, 0.01, XIDZ(PSY_Patients_Waiting_to_Start_a_Service, PSY_Starting_a_Service_Rate, 52)),52)					</eqn>
 			</aux>
-			<aux name="Psych_Demand_per_Patient_per_Week">
+			<aux name="PSY_Demand_per_Patient_per_Week">
 				<units>appt/(pts*wk)</units>
 				<doc>Baseline number of appointments generated per patient per week for a service.</doc>
-					<eqn>ZIDZ(ZIDZ(1 , Psych_Patients_per_Appointment) , Psych_RVI)					</eqn>
+					<eqn>ZIDZ(ZIDZ(1 , PSY_Patients_per_Appointment) , PSY_RVI)					</eqn>
 			</aux>
-			<aux name="Psych_Desired_Clinical_Hours">
+			<aux name="PSY_Desired_Clinical_Hours">
 				<units>hrs/wk</units>
 				<doc>This is the desired service capacity based on the desired appoinutment completion rate and the standard time per appointment.</doc>
-					<eqn>Psych_Desired_Completion_Rate*Psych_Time_per_Appointment					</eqn>
+					<eqn>PSY_Desired_Completion_Rate*PSY_Time_per_Appointment					</eqn>
 			</aux>
-			<aux name="Psych_Desired_Completion_Rate">
+			<aux name="PSY_Desired_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>To complete recurring appointments in the target return interval, the completion rate must be equal to the appointment backlog divided by the target return time interval.</doc>
-					<eqn>ZIDZ(Psych_Appointments , Psych_RVI_used_when_Completing)					</eqn>
+					<eqn>ZIDZ(PSY_Appointments , PSY_RVI_used_when_Completing)					</eqn>
 			</aux>
-			<aux name="Psych_Difference_between_Actual_and_Acceptable_Start_Delays">
+			<aux name="PSY_Difference_between_Actual_and_Acceptable_Start_Delays">
 				<units>Dmnl</units>
 				<doc>Ratio of services' acutal start delay to the team's standard for acceptable start delay.</doc>
-					<eqn>Psych_Delay_to_Starting_Service/Acceptable_Delay_to_Starting_Service					</eqn>
+					<eqn>PSY_Delay_to_Starting_Service/Acceptable_Delay_to_Starting_Service					</eqn>
 			</aux>
-			<aux name="Psych_Difference_between_Actual_and_Standard_RVI">
+			<aux name="PSY_Difference_between_Actual_and_Standard_RVI">
 				<units>Dmnl</units>
 				<doc>Ratio of services' acutal RVI to the team's desired RVI.</doc>
-					<eqn>XIDZ(Psych_Actual_Return_Visit_Interval,Psych_RVI,1)					</eqn>
+					<eqn>XIDZ(PSY_Actual_Return_Visit_Interval,PSY_RVI,1)					</eqn>
 			</aux>
-			<aux name="Psych_Effect_of_Care_Delays_on_Treatment_Decisions">
+			<aux name="PSY_Effect_of_Care_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>Psych_Effect_of_RVI_Delays_on_Treatment_Decisions*Psych_Effect_of_Start_Delays_on_Treatment_Decisions					</eqn>
+					<eqn>PSY_Effect_of_RVI_Delays_on_Treatment_Decisions*PSY_Effect_of_Start_Delays_on_Treatment_Decisions					</eqn>
 			</aux>
-			<aux name="Psych_Effect_of_RVI_Delays_on_Treatment_Decisions">
+			<aux name="PSY_Effect_of_RVI_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc>When care delays increase (as measured by the return to clinic visit intervals (RVI) for a service increasing above the scheduled RVI), the team will be less likely to decide that patient should start that service.  This effect only applies to actual RVIs rising above scheduled RVIs:  lower than scheduled RVIs do not increase provider decisions to start patients.  (pct)</doc>
-					<eqn>MIN(SMOOTHI(Psych_Difference_between_Actual_and_Standard_RVI^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays
+					<eqn>MIN(SMOOTHI(PSY_Difference_between_Actual_and_Standard_RVI^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays
 	,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
 			</aux>
-			<aux name="Psych_Effect_of_Start_Delays_on_Treatment_Decisions">
+			<aux name="PSY_Effect_of_Start_Delays_on_Treatment_Decisions">
 				<units>Dmnl</units>
 				<doc>When the wait time to start a service increases above the target wait time, the team will be less likely to decide that patient should start that service.  This effect only applies to above-target wait times:  lower than expected wait times do not increase provider decisions to start patients.  (pct)</doc>
-					<eqn>MIN(SMOOTHI(Psych_Difference_between_Actual_and_Acceptable_Start_Delays^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays
+					<eqn>MIN(SMOOTHI(PSY_Difference_between_Actual_and_Acceptable_Start_Delays^-Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays
 	,Time_to_Perceive_Internal_Delays,1),1)					</eqn>
 			</aux>
-			<aux name="Psych_Effect_of_Work_Pressure_on_Overtime">
+			<aux name="PSY_Effect_of_Work_Pressure_on_Overtime">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure."  One response to increasing work pressure is for the team to work overtime.  The more work pressure a team experiences for a specific service, the greater this effect, and the more the overtime the team will work in that specific service.  This effect only applies to increasing work pressure: having fewer appointments on the calendar that the team can see in a timely way does not influence providers to work fewer hours. (pct)</doc>
-					<eqn>MAX(SMOOTHI((Psych_Work_Pressure^Sensitivity_of_Overtime_to_Work_Pressure),Time_to_Change_Staff_Hours,1),1)					</eqn>
+					<eqn>MAX(SMOOTHI((PSY_Work_Pressure^Sensitivity_of_Overtime_to_Work_Pressure),Time_to_Change_Staff_Hours,1),1)					</eqn>
 			</aux>
-			<aux name="Psych_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval">
+			<aux name="PSY_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure."  One response to increasing work pressure is for the team to see their patients less often.  The more work pressure a team experiences for a specific service, the greater this effect, and the longer the scheduled return to clinic interval (RVI) for that specific service.  This effect only applies to increasing work pressure: having fewer appointments on the calendar that the team can see in a timely way does not influence providers to see patients more often. (pct)</doc>
-					<eqn>MAX(SMOOTHI((Psych_Work_Pressure^Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure),Time_to_Change_Scheduled_RVI
+					<eqn>MAX(SMOOTHI((PSY_Work_Pressure^Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure),Time_to_Change_Scheduled_RVI
 	,1),1)					</eqn>
 			</aux>
-			<aux name="Psych_Ending_Service_Rate">
+			<aux name="PSY_Ending_Service_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients finishing a service is a function the number of patients in treatment and their median time engaged in treatment. (pts/wk)</doc>
-					<eqn>ZIDZ(Psych_Patients_in_Service , Psych_Actual_Engagement_Time)					</eqn>
+					<eqn>ZIDZ(PSY_Patients_in_Service , PSY_Actual_Engagement_Time)					</eqn>
 			</aux>
-			<aux name="Psych_Engagement_Duration">
+			<aux name="PSY_Engagement_Duration">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Psych_Engagement_Duration_(median)",
-	IF_THEN_ELSE(User_Psych_Engagement_Duration<=0,"Data_Psych_Engagement_Duration_(median)",User_Psych_Engagement_Duration))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Engagement_Duration_(median)_->_PSY",
+	IF_THEN_ELSE(User_PSY_Engagement_Duration<=0,"Data_Engagement_Duration_(median)_->_PSY",User_PSY_Engagement_Duration))					</eqn>
 			</aux>
-			<aux name="Psych_Hours_for_Calculating_Total_Official_Team_Hours">
+			<aux name="PSY_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
 				<doc>Use the Baseline hours available for appointments for calculating the Total Official Team Clinical Hours, unless the users has set a new value for a service.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,"Data_Psych_Appointment_Supply_(median)",
+					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_PSY",
 	
-	IF_THEN_ELSE(User_Psych_Appointment_Supply<0, "Data_Psych_Appointment_Supply_(median)",User_Psych_Appointment_Supply ))					</eqn>
+	IF_THEN_ELSE(User_PSY_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_PSY",User_PSY_Appointment_Supply ))					</eqn>
 			</aux>
-			<aux name="Psych_Maximum_Completion_Rate">
+			<aux name="PSY_Maximum_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>The maximum completion rate is determined by the appointment backlog and minimum time between patient appointments.</doc>
-					<eqn>Psych_Appointments/Minimum_RVI					</eqn>
+					<eqn>PSY_Appointments/Minimum_RVI					</eqn>
 			</aux>
-			<aux name="Psych_Maximum_Start_Rate_Service">
+			<aux name="PSY_Maximum_Start_Rate_Service">
 				<units>pts/wk</units>
 				<doc>The maximum new patient start rate is determined by the new patient waiting list and minimum time to schedule patient appointments.</doc>
-					<eqn>Psych_Patients_Waiting_to_Start_a_Service/Minimum_Time_to_Schedule					</eqn>
+					<eqn>PSY_Patients_Waiting_to_Start_a_Service/Minimum_Time_to_Schedule					</eqn>
 			</aux>
-			<aux name="Psych_Official_Hours_Available_for_Service">
+			<aux name="PSY_Official_Hours_Available_for_Service">
 				<units>hrs/wk</units>
 				<doc>The hours available for patient appointments in each service depends on the baseline hours offered and the effect of burnout on those hours.  Official hours are prevented from going below zero.</doc>
 					<eqn>MAX(
 	
-	IF_THEN_ELSE(Time<0, "Data_Psych_Appointment_Supply_(median)", IF_THEN_ELSE(User_Psych_Appointment_Supply<0,"Data_Psych_Appointment_Supply_(median)"
-	, User_Psych_Appointment_Supply))
+	IF_THEN_ELSE(Time<0, "Data_Appointment_Supply_(median)_->_PSY", IF_THEN_ELSE(User_PSY_Appointment_Supply<0,"Data_Appointment_Supply_(median)_->_PSY"
+	, User_PSY_Appointment_Supply))
 	
 	*"Effect_of_Long-Term_Overtime_on_Burnout"
 	
 	,0)					</eqn>
 			</aux>
-			<aux name="Psych_Patient_Start_Rate">
+			<aux name="PSY_Patient_Start_Rate">
 				<units>pts/wk</units>
 				<doc>Defined to maintain equilibrium in the base case (i.e., if no switches are active).  The team can only start as many patients as they have the service capacity to see.</doc>
-					<eqn>ZIDZ((ZIDZ(Psych_Appointment_Rate_for_Service_Capacity , Psych_Demand_per_Patient_per_Week)) , Psych_Engagement_Duration)					</eqn>
+					<eqn>ZIDZ((ZIDZ(PSY_Appointment_Rate_for_Service_Capacity , PSY_Demand_per_Patient_per_Week)) , PSY_Engagement_Duration)					</eqn>
 			</aux>
-			<aux name="Psych_Patients_w_AUD">
+			<aux name="PSY_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have AUD as a primary diagnosis.</doc>
-					<eqn>Psych_Patients_in_Service*"Data_Psych__w_AUD"					</eqn>
+					<eqn>PSY_Patients_in_Service*"Data_AUD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Patients_w_DEP">
+			<aux name="PSY_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Depression as a primary diagnosis.</doc>
-					<eqn>Psych_Patients_in_Service*"Data_Psych__w_DEP"					</eqn>
+					<eqn>PSY_Patients_in_Service*"Data_DEP_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Patients_w_Other_Needs">
+			<aux name="PSY_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have Other Needs as a primary diagnosis.</doc>
-					<eqn>Psych_Patients_in_Service*"Data_Psych__w_Other_Needs"					</eqn>
+					<eqn>PSY_Patients_in_Service*"Data_Other_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Patients_w_OUD">
+			<aux name="PSY_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have OUD as a primary diagnosis.</doc>
-					<eqn>Psych_Patients_in_Service
-	*"Data_Psych__w_OUD"					</eqn>
+					<eqn>PSY_Patients_in_Service
+	*"Data_OUD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Patients_w_PTSD">
+			<aux name="PSY_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The numbers of patients in each service who have PTSD as a primary diagnosis.</doc>
-					<eqn>Psych_Patients_in_Service
-	*"Data_Psych__w_PTSD"					</eqn>
+					<eqn>PSY_Patients_in_Service
+	*"Data_PTSD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Potential_Completion_Rate">
+			<aux name="PSY_Potential_Completion_Rate">
 				<units>appt/wk</units>
 				<doc>The potential completion rate depends on the net available clinical hours and the time per apppointment.</doc>
-					<eqn>(Psych_Actual_Hours_Available_for_Service/Psych_Time_per_Appointment)					</eqn>
+					<eqn>(PSY_Actual_Hours_Available_for_Service/PSY_Time_per_Appointment)					</eqn>
 			</aux>
-			<aux name="Psych_Rescheduling_Rate">
+			<aux name="PSY_Rescheduling_Rate">
 				<units>appt/wk</units>
 				<doc>The rescheduling rate for each service depends on the total number of appointments to reschedule and the average time it takes to reschedule them. (appts/wk)</doc>
-					<eqn>Psych_Appointments_to_Reschedule/Time_to_Reschedule					</eqn>
+					<eqn>PSY_Appointments_to_Reschedule/Time_to_Reschedule					</eqn>
 			</aux>
-			<aux name="Psych_RVI">
+			<aux name="PSY_RVI">
 				<units>wk</units>
 				<doc>The team's goal to see each patient in each service once in every x week (default RVIs are based on the team's data).  The default RVI can be replaced by a user-generated value between 1 and 16 weeks.  The "RVI" for Intake is always 1 week, which ensures that patients only have one intake appointment before completing Intake.</doc>
-					<eqn>IF_THEN_ELSE(Time<0, "Data_Psych_Return_Visit_Interval_(median)",IF_THEN_ELSE(User_Psych_Return_Visit_Interval<1, "Data_Psych_Return_Visit_Interval_(median)", User_Psych_Return_Visit_Interval))					</eqn>
+					<eqn>IF_THEN_ELSE(Time<0, "Data_Return_Visit_Interval_(median)_->_PSY",IF_THEN_ELSE(User_PSY_Return_Visit_Interval<1, "Data_Return_Visit_Interval_(median)_->_PSY", User_PSY_Return_Visit_Interval))					</eqn>
 			</aux>
-			<aux name="Psych_Scheduled_Return_Visit_Interval">
+			<aux name="PSY_Scheduled_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The return-to-clinic visit interval (RVI) used when scheduling appointmnents for existing patients in each service. It is either the same as the RVI from the team's data, or longer, depending on how the team chooses to react to increasing work pressure. (wks)</doc>
-					<eqn>Psych_RVI*Psych_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval					</eqn>
+					<eqn>PSY_RVI*PSY_Effect_of_Work_Pressure_on_Scheduled_Return_Visit_Interval					</eqn>
 			</aux>
-			<aux name="Psych_Service_Proportions">
+			<aux name="PSY_Service_Proportions">
 				<units>Dmnl</units>
 				<doc>The service percentage used by the team.</doc>
-					<eqn>IF_THEN_ELSE(Time<0,Psych_Service_Proportions_Balanced_Across_Team_Variables, 
+					<eqn>IF_THEN_ELSE(Time<0,PSY_Service_Proportions_Balanced_Across_Team_Variables, 
 	
-	IF_THEN_ELSE(User_Balanced_Mode=0, Psych_Service_Proportions_Balanced_Across_Team_Variables,
+	IF_THEN_ELSE(User_Balanced_Mode=0, PSY_Service_Proportions_Balanced_Across_Team_Variables,
 	
-	IF_THEN_ELSE(User_Psych_Service_Proportions_from_Team_Data<0,Data_Psych_Service_Proportions_from_Team_Data,User_Psych_Service_Proportions_from_Team_Data))
+	IF_THEN_ELSE(User_PSY_Service_Proportions_from_Team_Data<0,"Data_Service_Proportions_from_Team_Data_->_PSY",User_PSY_Service_Proportions_from_Team_Data))
 	
 	)					</eqn>
 			</aux>
-			<aux name="Psych_Service_Proportions_Balanced_Across_Team_Variables">
+			<aux name="PSY_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(Psych_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)), 1)					</eqn>
+					<eqn>MIN(ZIDZ(PSY_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)), 1)					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_Rate">
+			<aux name="PSY_Starting_a_Service_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients who start each service each week. It is based on the number of appointments remaining each week, after all exisiting patients are seen in a timely manner. The team either satisfies all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or uses all the supply (based on the Appointment Supply), leaving no appointments available for new patients. (pts/wk)</doc>
-					<eqn>MIN(Psych_Maximum_Start_Rate_Service,Psych_Patient_Start_Rate)					</eqn>
+					<eqn>MIN(PSY_Maximum_Start_Rate_Service,PSY_Patient_Start_Rate)					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_w_AUD">
+			<aux name="PSY_Starting_a_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting AUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Psych_Starting_a_Service_Rate*"Data_Psych__w_AUD"					</eqn>
+					<eqn>PSY_Starting_a_Service_Rate*"Data_AUD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_w_DEP">
+			<aux name="PSY_Starting_a_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Depression treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Psych_Starting_a_Service_Rate*"Data_Psych__w_DEP"					</eqn>
+					<eqn>PSY_Starting_a_Service_Rate*"Data_DEP_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_w_Other_Needs">
+			<aux name="PSY_Starting_a_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting Other Needs treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Psych_Starting_a_Service_Rate*"Data_Psych__w_Other_Needs"					</eqn>
+					<eqn>PSY_Starting_a_Service_Rate*"Data_Other_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_w_OUD">
+			<aux name="PSY_Starting_a_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting OUD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Psych_Starting_a_Service_Rate
-	*"Data_Psych__w_OUD"					</eqn>
+					<eqn>PSY_Starting_a_Service_Rate
+	*"Data_OUD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Starting_a_Service_w_PTSD">
+			<aux name="PSY_Starting_a_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The number of patients per week starting PTSD treatment after developing an individual treatment plan in an intake appointment.</doc>
-					<eqn>Psych_Starting_a_Service_Rate
-	*"Data_Psych__w_PTSD"					</eqn>
+					<eqn>PSY_Starting_a_Service_Rate
+	*"Data_PTSD_->_PSY"					</eqn>
 			</aux>
-			<aux name="Psych_Treatment_Decision_Rate">
+			<aux name="PSY_Treatment_Decision_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
 	(Intake_Intake_Completion_Rate+Review_Rate)
-	*Psych_Service_Proportions
-	*Psych_Effect_of_Care_Delays_on_Treatment_Decisions
+	*PSY_Service_Proportions
+	*PSY_Effect_of_Care_Delays_on_Treatment_Decisions
 	
 	,0)					</eqn>
 			</aux>
-			<aux name="Psych_True_Missed_Appointment_Rate">
+			<aux name="PSY_True_Missed_Appointment_Rate">
 				<units>appt/wk</units>
 				<doc>The number of appointments that must be re-scheduled, as either the clinician or the patient missed the appointment, calculated from the team's data. (appts/wk)</doc>
 					<eqn>MAX(
 	
-	Psych_Completing_Rate*"Psych_Actual_True_Missed_Appointment_"
+	PSY_Completing_Rate*"PSY_Actual_True_Missed_Appointment_"
 	
 	,0)					</eqn>
 			</aux>
-			<aux name="Psych_Work_Pressure">
+			<aux name="PSY_Work_Pressure">
 				<units>Dmnl</units>
 				<doc>When the team has more appointments than they can see in a timely way, they feel "work pressure." It is measured by the ratio of the hours needed for each service (based on the appointments on the calendar and the return to clinic interval) against the actual hours available for each service. When the team works the same hours as their patients need (so each patient can be seen at the appropriate return to clinic interval), then the ratio is 1. If a team has more appointments than they can see given the RVI, then work pressure will rise above 1. (pct)</doc>
-					<eqn>ZIDZ(Psych_Desired_Clinical_Hours, Psych_Actual_Hours_Available_for_Service)					</eqn>
+					<eqn>ZIDZ(PSY_Desired_Clinical_Hours, PSY_Actual_Hours_Available_for_Service)					</eqn>
 			</aux>
 			<aux name="Review_Rate">
 				<units>pts/wk</units>
@@ -2302,37 +2302,37 @@
 			</aux>
 			<aux name="Sensitivity_of_Overtime_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 4117642060260ver the original value, and a value of 1.5 would increase the hours worked to 18223205377671ver the original value.</doc>
+				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 41261460260ver the original value, and a value of 1.5 would increase the hours worked to 1820ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Patient's_Engagement_Time_to_Provider_Fatigue">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 7117642060260f the original time in service, and a value of 1.5 would reduce the duration to only 3523205377671f the original duration.</doc>
+				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 71261460260f the original time in service, and a value of 1.5 would reduce the duration to only 350f the original duration.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 4117642060260ver its original value, and a value of 1.5 would increase the RVI by 18223205377671ver the original value.</doc>
+				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 41261460260ver its original value, and a value of 1.5 would increase the RVI by 1820ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Burnout_Due_to_Long-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 7117642060260f its original value, and a value of 1.5 would reduce the official hours to 3523205377671f the original.</doc>
+				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 71261460260f its original value, and a value of 1.5 would reduce the official hours to 350f the original.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Missed_Appointments_Due_to_Short-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20-1709834311ncrease in hours worked to have less of an effect (causing only a 9.5-1874427848ncrease in the missed appointment percentage). A value of "2" would cause that same 20 179938412ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
+				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20 0ncrease in hours worked to have less of an effect (causing only a 9.5-824257128ncrease in the missed appointment percentage). A value of "2" would cause that same 20 291826906ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 7117642060260f the original rate, and a value of "1.5" would reduce the decisions to start to only 3523205377671f the original rate.</doc>
+				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 71261460260f the original rate, and a value of "1.5" would reduce the decisions to start to only 350f the original rate.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -2343,75 +2343,75 @@
 			</aux>
 			<aux name="Total_Actual_Hours_Available_for_Service">
 				<units>hrs/wk</units>
-				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff77e8860b0p-1022llocated to a service.</doc>
-					<eqn>Intake_Actual_Hours_Available_for_Service+Psych_Actual_Hours_Available_for_Service+EBPsych_Actual_Hours_Available_for_Service
+				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff602c660b0p-1022llocated to a service.</doc>
+					<eqn>Intake_Actual_Hours_Available_for_Service+PSY_Actual_Hours_Available_for_Service+EBPsy_Actual_Hours_Available_for_Service
 	+CC_Actual_Hours_Available_for_Service+MM_Actual_Hours_Available_for_Service+Adjunctive_Actual_Hours_Available_for_Service+Group_Actual_Hours_Available_for_Service					</eqn>
 			</aux>
 			<aux name="Total_Appt._Supply">
 				<units>hrs/wk</units>
 				<doc>The sum of all clinical hours allocated to patient appointments. It must be less than 40 hrs/week/clinician, due to administrative duties, sick leave, annual leave, training, etc.</doc>
-					<eqn>Intake_Hours_for_Calculating_Total_Official_Team_Hours+Psych_Hours_for_Calculating_Total_Official_Team_Hours+EBPsych_Hours_for_Calculating_Total_Official_Team_Hours
+					<eqn>Intake_Hours_for_Calculating_Total_Official_Team_Hours+PSY_Hours_for_Calculating_Total_Official_Team_Hours+EBPsy_Hours_for_Calculating_Total_Official_Team_Hours
 	+CC_Hours_for_Calculating_Total_Official_Team_Hours+MM_Hours_for_Calculating_Total_Official_Team_Hours+Adjunctive_Hours_for_Calculating_Total_Official_Team_Hours+Group_Hours_for_Calculating_Total_Official_Team_Hours					</eqn>
 			</aux>
 			<aux name="Total_Patients_in_all_Services">
 				<units>pts</units>
 				<doc></doc>
-					<eqn>Adjunctive_Patients_in_Service+CC_Patients_in_Service+EBPsych_Patients_in_Service+Group_Patients_in_Service+MM_Patients_in_Service+Psych_Patients_in_Service					</eqn>
+					<eqn>Adjunctive_Patients_in_Service+CC_Patients_in_Service+EBPsy_Patients_in_Service+Group_Patients_in_Service+MM_Patients_in_Service+PSY_Patients_in_Service					</eqn>
 			</aux>
 			<aux name="Total_Patients_w_AUD">
 				<units>pts</units>
 				<doc>The total number of patients across all services who have AUD as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_w_AUD+CC_Patients_w_AUD+EBPsych_Patients_w_AUD+Group_Patients_w_AUD+MM_Patients_w_AUD+Psych_Patients_w_AUD					</eqn>
+					<eqn>Adjunctive_Patients_w_AUD+CC_Patients_w_AUD+EBPsy_Patients_w_AUD+Group_Patients_w_AUD+MM_Patients_w_AUD+PSY_Patients_w_AUD					</eqn>
 			</aux>
 			<aux name="Total_Patients_w_DEP">
 				<units>pts</units>
 				<doc>The total number of patients across all services who have Depression as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_w_DEP+CC_Patients_w_DEP+EBPsych_Patients_w_DEP+Group_Patients_w_DEP+MM_Patients_w_DEP+Psych_Patients_w_DEP					</eqn>
+					<eqn>Adjunctive_Patients_w_DEP+CC_Patients_w_DEP+EBPsy_Patients_w_DEP+Group_Patients_w_DEP+MM_Patients_w_DEP+PSY_Patients_w_DEP					</eqn>
 			</aux>
 			<aux name="Total_Patients_w_Other_Needs">
 				<units>pts</units>
 				<doc>The total number of patients across all services who have Other Needs as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_w_Other_Needs+CC_Patients_w_Other_Needs+EBPsych_Patients_w_Other_Needs+Group_Patients_w_Other_Needs+MM_Patients_w_Other_Needs+Psych_Patients_w_Other_Needs					</eqn>
+					<eqn>Adjunctive_Patients_w_Other_Needs+CC_Patients_w_Other_Needs+EBPsy_Patients_w_Other_Needs+Group_Patients_w_Other_Needs+MM_Patients_w_Other_Needs+PSY_Patients_w_Other_Needs					</eqn>
 			</aux>
 			<aux name="Total_Patients_w_OUD">
 				<units>pts</units>
 				<doc>The total number of patients across all services who have OUD as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Patients_w_OUD+CC_Patients_w_OUD+EBPsych_Patients_w_OUD+Group_Patients_w_OUD+MM_Patients_w_OUD+Psych_Patients_w_OUD					</eqn>
+					<eqn>Adjunctive_Patients_w_OUD+CC_Patients_w_OUD+EBPsy_Patients_w_OUD+Group_Patients_w_OUD+MM_Patients_w_OUD+PSY_Patients_w_OUD					</eqn>
 			</aux>
 			<aux name="Total_Patients_w_PTSD">
 				<units>pts</units>
 				<doc>The total number of patients across all services who have PTSD as a primary diagnosis.</doc>
-					<eqn>Adjuctive_Patients_w_PTSD+CC_Patients_w_PTSD+EBPsych_Patients_w_PTSD+Group_Patients_w_PTSD+MM_Patients_w_PTSD+Psych_Patients_w_PTSD					</eqn>
+					<eqn>Adjuctive_Patients_w_PTSD+CC_Patients_w_PTSD+EBPsy_Patients_w_PTSD+Group_Patients_w_PTSD+MM_Patients_w_PTSD+PSY_Patients_w_PTSD					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service">
 				<units>pts/wk</units>
 				<doc></doc>
-					<eqn>Adjunctive_Starting_a_Service_Rate+CC_Starting_a_Service_Rate+EBPsych_Starting_a_Service_Rate+Group_Starting_a_Service_Rate+MM_Starting_a_Service_Rate+Psych_Starting_a_Service_Rate					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_Rate+CC_Starting_a_Service_Rate+EBPsy_Starting_a_Service_Rate+Group_Starting_a_Service_Rate+MM_Starting_a_Service_Rate+PSY_Starting_a_Service_Rate					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service_w_AUD">
 				<units>pts/wk</units>
 				<doc>The total number of patients starting across all services who have AUD as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Starting_a_Service_w_AUD+CC_Starting_a_Service_w_AUD+EBPsych_Starting_a_Service_w_AUD+Group_Starting_a_Service_w_AUD+MM_Starting_a_Service_w_AUD+Psych_Starting_a_Service_w_AUD					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_w_AUD+CC_Starting_a_Service_w_AUD+EBPsy_Starting_a_Service_w_AUD+Group_Starting_a_Service_w_AUD+MM_Starting_a_Service_w_AUD+PSY_Starting_a_Service_w_AUD					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service_w_DEP">
 				<units>pts/wk</units>
 				<doc>The total number of patients starting across all services who have Depression as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Starting_a_Service_w_DEP+CC_Starting_a_Service_w_DEP+EBPsych_Starting_a_Service_w_DEP+Group_Starting_a_Service_w_DEP+MM_Starting_a_Service_w_DEP+Psych_Starting_a_Service_w_DEP					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_w_DEP+CC_Starting_a_Service_w_DEP+EBPsy_Starting_a_Service_w_DEP+Group_Starting_a_Service_w_DEP+MM_Starting_a_Service_w_DEP+PSY_Starting_a_Service_w_DEP					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service_w_Other_Needs">
 				<units>pts/wk</units>
 				<doc>The total number of patients starting across all services who have Other Needs as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Starting_a_Service_w_Other_Needs+CC_Starting_a_Service_w_Other_Needs+EBPsych_Starting_a_Service_w_Other_Needs+Group_Starting_a_Service_w_Other_Needs+MM_Starting_a_Service_w_Other_Needs+Psych_Starting_a_Service_w_Other_Needs					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_w_Other_Needs+CC_Starting_a_Service_w_Other_Needs+EBPsy_Starting_a_Service_w_Other_Needs+Group_Starting_a_Service_w_Other_Needs+MM_Starting_a_Service_w_Other_Needs+PSY_Starting_a_Service_w_Other_Needs					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service_w_OUD">
 				<units>pts/wk</units>
 				<doc>The total number of patients starting across all services who have OUD as a primary diagnosis.</doc>
-					<eqn>Adjunctive_Starting_a_Service_w_OUD+CC_Starting_a_Service_w_OUD+EBPsych_Starting_a_Service_w_OUD+Group_Starting_a_Service_w_OUD+MM_Starting_a_Service_w_OUD+Psych_Starting_a_Service_w_OUD					</eqn>
+					<eqn>Adjunctive_Starting_a_Service_w_OUD+CC_Starting_a_Service_w_OUD+EBPsy_Starting_a_Service_w_OUD+Group_Starting_a_Service_w_OUD+MM_Starting_a_Service_w_OUD+PSY_Starting_a_Service_w_OUD					</eqn>
 			</aux>
 			<aux name="Total_Starting_any_Service_w_PTSD">
 				<units>pts/wk</units>
 				<doc>The total number of patients starting across all services who have PTSD as a primary diagnosis.</doc>
-					<eqn>Adjuctive_Starting_a_Service_w_PTSD+CC_Starting_a_Service_w_PTSD+EBPsych_Starting_a_Service_w_PTSD+Group_Starting_a_Service_w_PTSD+MM_Starting_a_Service_w_PTSD+Psych_Starting_a_Service_w_PTSD					</eqn>
+					<eqn>Adjuctive_Starting_a_Service_w_PTSD+CC_Starting_a_Service_w_PTSD+EBPsy_Starting_a_Service_w_PTSD+Group_Starting_a_Service_w_PTSD+MM_Starting_a_Service_w_PTSD+PSY_Starting_a_Service_w_PTSD					</eqn>
 			</aux>
 			<aux name="User_Adjunctive_Appointment_Supply">
 				<units>hrs/wk</units>
@@ -2479,31 +2479,31 @@
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
-			<aux name="User_EBPsych_Appointment_Supply">
+			<aux name="User_EBPsy_Appointment_Supply">
 				<units>hrs/wk</units>
 				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
-			<aux name="User_EBPsych_Engagement_Duration">
+			<aux name="User_EBPsy_Engagement_Duration">
 				<units>wk</units>
 				<doc>The percentage of patients who are recommended to start each service after completing either an intake evaluation or review. These replace the base case values, which are estimated from team data on the appointment supply, Return-to-clinic Visit Interval (RVI), missed appointment percentage, and median engagement (i.e., the available capacity to treat patients in a timely manner) in each service. These percentages can sum to >1, as providers can decide to start a patient in multiple services. (pct)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_EBPsych_Return_Visit_Interval">
+			<aux name="User_EBPsy_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The scheduled average return to clinic visit interval for each service, regardless of whether or not the team has enough supply for the patient demand or the effect on new patient starts. This value replaces the base case value, which is estimated from the team's data. (wks)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_EBPsych_Service_Proportions_from_Team_Data">
+			<aux name="User_EBPsy_Service_Proportions_from_Team_Data">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who are recommended to start each service after completing either an intake evaluation or review. These replace the base case values, which are estimated directly from team data on new service start rates for each service in the team (i.e., haven't had this service in the team in the last six months). These percentages can sum to >1, as providers can decided to start a patient in multiple services. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
-			<aux name="User_EBPsych_True_Missed_Appointment_">
+			<aux name="User_EBPsy_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments that must be re-scheduled, as either the clinician or the patient missed the appointment.  This replaces the base case value, which is estimated from team data. (appts/wk)</doc>
 					<eqn>GAME (
@@ -2587,31 +2587,31 @@
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
-			<aux name="User_Psych_Appointment_Supply">
+			<aux name="User_PSY_Appointment_Supply">
 				<units>hrs/wk</units>
 				<doc>The number of official appointments offered each week. This value replaces the default value estimated from the team's data, with the assumption that any increase in supply comes from reducing appointments offered in other services. (hrs/wk)</doc>
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
-			<aux name="User_Psych_Engagement_Duration">
+			<aux name="User_PSY_Engagement_Duration">
 				<units>wk</units>
 				<doc>The percentage of patients who are recommended to start each service after completing either an intake evaluation or review. These replace the base case values, which are estimated from team data on the appointment supply, Return-to-clinic Visit Interval (RVI), missed appointment percentage, and median engagement (i.e., the available capacity to treat patients in a timely manner) in each service. These percentages can sum to >1, as providers can decide to start a patient in multiple services. (pct)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_Psych_Return_Visit_Interval">
+			<aux name="User_PSY_Return_Visit_Interval">
 				<units>wk</units>
 				<doc>The scheduled average return to clinic visit interval for each service, regardless of whether or not the team has enough supply for the patient demand or the effect on new patient starts. This value replaces the base case value, which is estimated from the team's data. (wks)</doc>
 					<eqn>GAME (
 	0)					</eqn>
 			</aux>
-			<aux name="User_Psych_Service_Proportions_from_Team_Data">
+			<aux name="User_PSY_Service_Proportions_from_Team_Data">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who are recommended to start each service after completing either an intake evaluation or review. These replace the base case values, which are estimated directly from team data on new service start rates for each service in the team (i.e., haven't had this service in the team in the last six months). These percentages can sum to >1, as providers can decided to start a patient in multiple services. (pct)</doc>
 					<eqn>GAME (
 	-0.01)					</eqn>
 			</aux>
-			<aux name="User_Psych_True_Missed_Appointment_">
+			<aux name="User_PSY_True_Missed_Appointment_">
 				<units>Dmnl</units>
 				<doc>The percent of appointments that must be re-scheduled, as either the clinician or the patient missed the appointment.  This replaces the base case value, which is estimated from team data. (appts/wk)</doc>
 					<eqn>GAME (
@@ -2653,342 +2653,342 @@
 				<doc>The appointment length for a service;aka, the productivity.</doc>
 					<eqn>0.5					</eqn>
 			</aux>
-			<aux name="Data_Adjuctive__w_PTSD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G10')					</eqn>
-			</aux>
-			<aux name="Data_Adjunctive__w_AUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G7')					</eqn>
-			</aux>
-			<aux name="Data_Adjunctive__w_DEP">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G8')					</eqn>
-			</aux>
-			<aux name="Data_Adjunctive__w_Other_Needs">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G11')					</eqn>
-			</aux>
-			<aux name="Data_Adjunctive__w_OUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G9')					</eqn>
-			</aux>
-			<aux name="Data_Adjunctive_Appointment_Supply_(median)">
+			<aux name="Data_Appointment_Supply_(median)_->_Adjunct">
 				<units>hrs/wk</units>
 				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DO2')					</eqn>
 			</aux>
-			<aux name="Data_Adjunctive_Engagement_Duration_(median)">
-				<units>wk</units>
-				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G3')					</eqn>
+			<aux name="Data_Appointment_Supply_(median)_->_CC">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CU2')					</eqn>
 			</aux>
-			<aux name="Data_Adjunctive_Return_Visit_Interval_(median)">
-				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G5')					</eqn>
+			<aux name="Data_Appointment_Supply_(median)_->_EBPsy_">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CK2')					</eqn>
 			</aux>
-			<aux name="Data_Adjunctive_Service_Proportions_from_Team_Data">
-				<units>Dmnl</units>
-				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G4')					</eqn>
+			<aux name="Data_Appointment_Supply_(median)_->_Group">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DY2')					</eqn>
 			</aux>
-			<aux name="Data_Adjunctive_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','G1')					</eqn>
+			<aux name="Data_Appointment_Supply_(median)_->_Intake">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BW2')					</eqn>
+			</aux>
+			<aux name="Data_Appointment_Supply_(median)_->_MM">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DE2')					</eqn>
+			</aux>
+			<aux name="Data_Appointment_Supply_(median)_->_PSY">
+				<units>hrs/wk</units>
+				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CA2')					</eqn>
 			</aux>
 			<aux name="Data_Appointment_Supply_(Total)">
 				<units></units>
 				<doc>The sum of all clinical hours allocated to patient appointments. It must be less than 40 hrs/week/clinician, due to administrative duties, sick leave, annual leave, training, etc. (hrs/wk)</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Data_CC__w_AUD">
+			<aux name="Data_AUD_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E7')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DS2')					</eqn>
 			</aux>
-			<aux name="Data_CC__w_DEP">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E8')					</eqn>
-			</aux>
-			<aux name="Data_CC__w_Other_Needs">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E11')					</eqn>
-			</aux>
-			<aux name="Data_CC__w_OUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E9')					</eqn>
-			</aux>
-			<aux name="Data_CC__w_PTSD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E10')					</eqn>
-			</aux>
-			<aux name="Data_CC_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E2')					</eqn>
-			</aux>
-			<aux name="Data_CC_Engagement_Duration_(median)">
-				<units>wk</units>
-				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E3')					</eqn>
-			</aux>
-			<aux name="Data_CC_Return_Visit_Interval_(median)">
-				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E5')					</eqn>
-			</aux>
-			<aux name="Data_CC_Service_Proportions_from_Team_Data">
-				<units>Dmnl</units>
-				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E4')					</eqn>
-			</aux>
-			<aux name="Data_CC_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','E1')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych__w_AUD">
+			<aux name="Data_AUD_->_CC">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D7')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CY2')					</eqn>
 			</aux>
-			<aux name="Data_EBPsych__w_DEP">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D8')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych__w_Other_Needs">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D11')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych__w_OUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D9')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych__w_PTSD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D10')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D2')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych_Engagement_Duration_(median)">
-				<units>wk</units>
-				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D3')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych_Return_Visit_Interval_(median)">
-				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D5')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych_Service_Proportions_from_Team_Data">
-				<units>Dmnl</units>
-				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D4')					</eqn>
-			</aux>
-			<aux name="Data_EBPsych_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','D1')					</eqn>
-			</aux>
-			<aux name="Data_Group__w_AUD">
+			<aux name="Data_AUD_->_EBPsy">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H7')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CO2')					</eqn>
 			</aux>
-			<aux name="Data_Group__w_DEP">
+			<aux name="Data_AUD_->_Group">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EC2')					</eqn>
+			</aux>
+			<aux name="Data_AUD_->_MM">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DI2')					</eqn>
+			</aux>
+			<aux name="Data_AUD_->_PSY">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CE2')					</eqn>
+			</aux>
+			<aux name="Data_DEP_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H8')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DT2')					</eqn>
 			</aux>
-			<aux name="Data_Group__w_Other_Needs">
+			<aux name="Data_DEP_->_CC">
 				<units>Dmnl</units>
-				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H11')					</eqn>
+				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CZ2')					</eqn>
 			</aux>
-			<aux name="Data_Group__w_OUD">
+			<aux name="Data_DEP_->_EBPsy">
 				<units>Dmnl</units>
-				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H9')					</eqn>
+				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CP2')					</eqn>
 			</aux>
-			<aux name="Data_Group__w_PTSD">
+			<aux name="Data_DEP_->_Group">
 				<units>Dmnl</units>
-				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H10')					</eqn>
+				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','ED2')					</eqn>
 			</aux>
-			<aux name="Data_Group_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H2')					</eqn>
+			<aux name="Data_DEP_->_MM">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DJ2')					</eqn>
 			</aux>
-			<aux name="Data_Group_Engagement_Duration_(median)">
+			<aux name="Data_DEP_->_PSY">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CF2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Duration_(median)_->_Adjunct">
 				<units>wk</units>
 				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H3')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DP2')					</eqn>
 			</aux>
-			<aux name="Data_Group_Return_Visit_Interval_(median)">
+			<aux name="Data_Engagement_Duration_(median)_->_EBPsy_">
 				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H5')					</eqn>
+				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CL2')					</eqn>
 			</aux>
-			<aux name="Data_Group_Service_Proportions_from_Team_Data">
-				<units>Dmnl</units>
-				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H4')					</eqn>
+			<aux name="Data_Engagement_Duration_(median)_->_Group">
+				<units>wk</units>
+				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DZ2')					</eqn>
 			</aux>
-			<aux name="Data_Group_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','H1')					</eqn>
-			</aux>
-			<aux name="Data_Intake_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B2')					</eqn>
-			</aux>
-			<aux name="Data_Intake_Engagement_Duration">
+			<aux name="Data_Engagement_Duration_(median)_->_Intake">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B3')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BX2')					</eqn>
 			</aux>
-			<aux name="Data_Intake_Return_Visit_Interval_(median)">
-				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B5')					</eqn>
-			</aux>
-			<aux name="Data_Intake_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B1')					</eqn>
-			</aux>
-			<aux name="Data_MM__w_AUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F7')					</eqn>
-			</aux>
-			<aux name="Data_MM__w_DEP">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F8')					</eqn>
-			</aux>
-			<aux name="Data_MM__w_Other_Needs">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F11')					</eqn>
-			</aux>
-			<aux name="Data_MM__w_OUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F9')					</eqn>
-			</aux>
-			<aux name="Data_MM__w_PTSD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F10')					</eqn>
-			</aux>
-			<aux name="Data_MM_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F2')					</eqn>
-			</aux>
-			<aux name="Data_MM_Engagement_Duration_(median)">
+			<aux name="Data_Engagement_Duration_(median)_->_MM">
 				<units>wk</units>
 				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F3')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DF2')					</eqn>
 			</aux>
-			<aux name="Data_MM_Return_Visit_Interval_(median)">
+			<aux name="Data_Engagement_Duration_(median)_->_PSY">
 				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F5')					</eqn>
+				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CB2')					</eqn>
 			</aux>
-			<aux name="Data_MM_Service_Proportions_from_Team_Data">
-				<units>Dmnl</units>
-				<doc>The percent of patients who have appointments in each service, based on the team's data.  Specifically, based on a count of all unique patients in the cohort with >1 visit (thus, excluding"1-n-done" patients) in a service (as identified by CPT code set) over the total patient cohort.  These percentages will sum to >100, as many patients use multiple services concurrently.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F4')					</eqn>
-			</aux>
-			<aux name="Data_MM_True_Missed_Appointment_">
-				<units>Dmnl</units>
-				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','F1')					</eqn>
+			<aux name="Data_Engagement_Duration_(median)->_CC">
+				<units>wk</units>
+				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CV2')					</eqn>
 			</aux>
 			<aux name="Data_New_Patient_Start_Rate_(mean)">
 				<units>pts/wk</units>
 				<doc>The average number of patients starting a new service with the team per week, calculated from a cohort of patients seen over one year in this team who have never had an visit in that service with this team before. (pts/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','B6')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BU2')					</eqn>
 			</aux>
-			<aux name="Data_Psych__w_AUD">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have AUD as a primary diagnosis in each service. These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C7')					</eqn>
-			</aux>
-			<aux name="Data_Psych__w_DEP">
-				<units>Dmnl</units>
-				<doc>The fraction of patients who have Depression as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C8')					</eqn>
-			</aux>
-			<aux name="Data_Psych__w_Other_Needs">
+			<aux name="Data_Other_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C11')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DW2')					</eqn>
 			</aux>
-			<aux name="Data_Psych__w_OUD">
+			<aux name="Data_Other_->_CC">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DC2')					</eqn>
+			</aux>
+			<aux name="Data_Other_->_EBPsy">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CS2')					</eqn>
+			</aux>
+			<aux name="Data_Other_->_Group">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EG2')					</eqn>
+			</aux>
+			<aux name="Data_Other_->_MM">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DM2')					</eqn>
+			</aux>
+			<aux name="Data_Other_->_PSY">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have Other Needs as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CI2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C9')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DU2')					</eqn>
 			</aux>
-			<aux name="Data_Psych__w_PTSD">
+			<aux name="Data_OUD_->_CC">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DA2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_->_EBPsy">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CQ2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_->_Group">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EE2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_->_MM">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export', 'DK2')					</eqn>
+			</aux>
+			<aux name="Data_OUD_->_PSY">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have OUD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CG2')					</eqn>
+			</aux>
+			<aux name="Data_PTSD_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C10')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DV2')					</eqn>
 			</aux>
-			<aux name="Data_Psych_Appointment_Supply_(median)">
-				<units>hrs/wk</units>
-				<doc>The number of appointments available with this team for each service each week. The estimate is calculated using the volume of visits completed each week with the team in each service over one year. (hrs/wk)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C2')					</eqn>
+			<aux name="Data_PTSD_->_CC">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DB2')					</eqn>
 			</aux>
-			<aux name="Data_Psych_Engagement_Duration_(median)">
-				<units>wk</units>
-				<doc>These estimated service durations do not include patients who only come for one visit ("one-n-dones" are a significant portion of all patient visits).</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C3')					</eqn>
+			<aux name="Data_PTSD_->_EBPsy">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CR2')					</eqn>
 			</aux>
-			<aux name="Data_Psych_Return_Visit_Interval_(median)">
+			<aux name="Data_PTSD_->_Group">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EF2')					</eqn>
+			</aux>
+			<aux name="Data_PTSD_->_MM">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DL2')					</eqn>
+			</aux>
+			<aux name="Data_PTSD_->_PSY">
+				<units>Dmnl</units>
+				<doc>The fraction of patients who have PTSD as a primary diagnosis in each service.  These fractions are likely to sum to >100, as they are not mutually exclusive (i.e., a patient can have a primary diagnosis of OUD in one visit, and then DEP in a subsequent visit, which would count them in both cohorts).  Also, some patients engage in multiple services simultaneously, and thus count in multiple service cohorts.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CH2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Adjunct">
 				<units>wk</units>
 				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C5')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DR2')					</eqn>
 			</aux>
-			<aux name="Data_Psych_Service_Proportions_from_Team_Data">
+			<aux name="Data_Return_Visit_Interval_(median)_->_CC">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CX2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_EBPsy">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CN2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Intake">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BY2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Group">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EB2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_MM">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DH2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_PSY">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CD2')					</eqn>
+			</aux>
+			<aux name="Data_Service_Proportions_from_Team_Data_->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C4')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DQ2')					</eqn>
 			</aux>
-			<aux name="Data_Psych_True_Missed_Appointment_">
+			<aux name="Data_Service_Proportions_from_Team_Data_->_CC">
+				<units>Dmnl</units>
+				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CW2')					</eqn>
+			</aux>
+			<aux name="Data_Service_Proportions_from_Team_Data_->_EBPsy">
+				<units>Dmnl</units>
+				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CM2')					</eqn>
+			</aux>
+			<aux name="Data_Service_Proportions_from_Team_Data_->_Group">
+				<units>Dmnl</units>
+				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EA2')					</eqn>
+			</aux>
+			<aux name="Data_Service_Proportions_from_Team_Data_->_MM">
+				<units>Dmnl</units>
+				<doc>The percent of patients who have appointments in each service, based on the team's data.  Specifically, based on a count of all unique patients in the cohort with >1 visit (thus, excluding"1-n-done" patients) in a service (as identified by CPT code set) over the total patient cohort.  These percentages will sum to >100, as many patients use multiple services concurrently.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DG2')					</eqn>
+			</aux>
+			<aux name="Data_Service_Proportions_from_Team_Data_->_PSY">
+				<units>Dmnl</units>
+				<doc>The proportion of patients who start in each service with this team. The percentages sum to more than one, because patients may engage in multiple services concurrently. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CC2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_Adjunct">
 				<units>Dmnl</units>
 				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','AGGParams','C1')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DN2')					</eqn>
 			</aux>
-			<aux name="EBPsych_Patients_per_Appointment">
+			<aux name="Data_True_Missed_Appointment__->_CC">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CT2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_EBPsy">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CJ2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_Group">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DX2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_Intake">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BV2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_MM">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','DD2')					</eqn>
+			</aux>
+			<aux name="Data_True_Missed_Appointment__->_PSY">
+				<units>Dmnl</units>
+				<doc>The proportion of appointments for each service with this team that no-showed or were cancelled after the appointment was supposed to have happened. (pct)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BZ2')					</eqn>
+			</aux>
+			<aux name="EBPsy_Patients_per_Appointment">
 				<units>pts/appt</units>
 				<doc>Usually 1 patient per appointment, except for group clinics, where the ideal number is 8 patients per appointment, but is often as low as 4.</doc>
 					<eqn>1					</eqn>
 			</aux>
-			<aux name="EBPsych_Time_per_Appointment">
+			<aux name="EBPsy_Time_per_Appointment">
 				<units>hrs/appt</units>
 				<doc>The appointment length for a service;aka, the productivity.</doc>
 					<eqn>1					</eqn>
@@ -3053,12 +3053,12 @@
 				<doc>The appointment length for a service;aka, the productivity.</doc>
 					<eqn>0.5					</eqn>
 			</aux>
-			<aux name="Psych_Patients_per_Appointment">
+			<aux name="PSY_Patients_per_Appointment">
 				<units>pts/appt</units>
 				<doc>Usually 1 patient per appointment, except for group clinics, where the ideal number is 8 patients per appointment, but is often as low as 4.</doc>
 					<eqn>1					</eqn>
 			</aux>
-			<aux name="Psych_Time_per_Appointment">
+			<aux name="PSY_Time_per_Appointment">
 				<units>hrs/appt</units>
 				<doc>The appointment length for a service;aka, the productivity.</doc>
 					<eqn>1					</eqn>
