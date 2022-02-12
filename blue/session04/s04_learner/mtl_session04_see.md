@@ -64,7 +64,7 @@ output:
 - Medication Management (MM)
 - Psychotherapy (PSY)
 - Team (AGG) Care
-- Measurement-based stepped care and suicide prevention (SP)
+- Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 

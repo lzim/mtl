@@ -67,7 +67,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
   + Medication Management (MM)  
   + Psychotherapy (PSY)  
   + Team (AGG) Care 
-  + Measurement-based stepped care and suicide prevention (SP)  
+  + Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention  
   
   ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:50-01:00 – Done/Do**  
