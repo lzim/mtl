@@ -51,8 +51,8 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v2
       with:
 
-          find: "suicide prevention (SP)"
-          replace: "Team (SP) Flow"
+          find: "Measurement-based stepped care and suicide prevention (SP)"
+          replace: "Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention"
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 
