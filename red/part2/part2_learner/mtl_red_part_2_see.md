@@ -47,7 +47,7 @@ output:
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
-  - Measurement-based stepped care and suicide prevention (SP)
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
  
 - On the Data UI Landing page, Click on "Data UI (Team Data)." 
 - Click on the  **ClinicSelection tab**. 

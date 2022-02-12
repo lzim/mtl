@@ -65,7 +65,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
-  - Measurement-based stepped care and suicide prevention (SP)
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 - These **Team Data** we are viewing today are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data.
 
 - The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
@@ -90,7 +90,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - *Medication Management (MM)*: Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and slots allocation percent for providers with and without an X waiver.
 - *Psychotherapy (PSY)*: Key variables that can be explored in PSY include median engagement duration and engagement after the patient's first 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
 - *Team (AGG) Care*: Key variables in Team Care include median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
-- *Coming Soon!* *Measurement-based stepped care and suicide prevention (SP)*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
+- *Coming Soon!* *Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
 
 Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.
 

@@ -86,7 +86,7 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 - Medication Management (MM)
 - Psychotherapy (PSY)
 - Team (AGG) Care
-- Measurement-based stepped care and suicide prevention (SP)
+- Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 
 **What the models do:**
 
@@ -94,7 +94,7 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 - _Medication Management (MM)_ enables you to experiment with how team decisions about referrals, time allocation, and visit frequency impact the quality of medication management for patients. Your team can explore scenarios to balance these tradeoffs and better meet the specific needs of patients with depression, alcohol use disorder and opioid use disorder. Insights you gain can help you increase local reach of evidence-based pharmacotherapies.
 - _ Psychotherapy (PSY)_ shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.
 - _Team (AGG) Care_ shows how a variety of team decisions interact to affect your overall mix of services. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking, and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care. You can compare the effects of different decisions on outcomes in one service, or you can compare the effects of one decision on different services.
-- _Measurement-based stepped care and suicide prevention (SP)_ shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
+- _Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention_ shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)
 
