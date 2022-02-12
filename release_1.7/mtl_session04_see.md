@@ -56,7 +56,7 @@ These are the *MTL* available modules
 - Medication Management (MM)
 - Psychotherapy (PSY)
 - Aggregrate team services (AGG)
-- Measurement-based stepped care for Team (SP) Flow
+- Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#.)
 
