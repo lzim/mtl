@@ -45,7 +45,7 @@ output:
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Aggregate team services (AGG)
-  - Measurement-based stepped care for Team (SP) Flow
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 
 ### 1. Select a module for review
 - Find a variable that is important to your team. How is it estimated in this table? What are its units?
