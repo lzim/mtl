@@ -26,7 +26,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We logged in to mtl.how/data_test to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will confirm the clinics that make up our team for the Team Data UI. We will confirm and review Data for _MTL_ relevant to our Team Vision. |  
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision of ___________; selected our Team Lead __________; and set a standing team meeting time at __________. We confirmed our clinic selections and logged in to mtl.how/data_test to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will finalize the clinics that make up our team for the Team Data UI. We will confirm and review Data for _MTL_ relevant to our Team Vision. |  
 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -65,16 +65,16 @@ output:
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- [ ] Select the "Data UI" and then "Clinic Selections" tab.
+- [ ] Select the appropriate consortium and VISN tabs. Select the 'Clinic Selections' tab.
 
-## To make selections & view data for your Team, go through Steps #2-4. We will show you the steps but your Team's Clinics have been bookmarked for today's session.
+## To make selections & view data for your Team, go through Steps #2-4.
 
 ### 2. Selecting and Viewing Your Team Data 
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
 
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**  
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**  
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
