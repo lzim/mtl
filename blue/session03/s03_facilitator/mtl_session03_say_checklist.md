@@ -58,7 +58,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
    + Medication Management (MM) - tab title *Medication Management (MM)*
    + Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
-   + *Coming Soon!* Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *SPParams*
+   + Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow*
 
 - The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
 - In the event they do not, to make clinic selections yourself:
