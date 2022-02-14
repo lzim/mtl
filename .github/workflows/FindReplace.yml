@@ -51,7 +51,7 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v2
       with:
 
-          find: "suicide prevention (SP)"
+          find: " SP "
           replace: "Team (SP) Flow"
           regex: false
           exclude: "**/*.yml"
