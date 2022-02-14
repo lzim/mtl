@@ -161,10 +161,12 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 2. We will email the Team Lead to set up a one-time hour prep before our next meeting. 
 
-3. Before our next meeting, check to see if you can see your team folder at mtl.how/data_test. 
-   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN and then your facility. 
-      - This is where you can access your local team data files on a secure VA site. 
-   - See if you can click into your team's folder.
+3. We will share a list of Clinic Selections with you on the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
+
+3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
+   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
+      - This is where you can make clinic selections and access your local team data on a secure VA site. 
+   - See if you can click and view your team data.
 
 **Until next time, thank you for _Modeling to Learn_!**  
 
