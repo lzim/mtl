@@ -160,7 +160,7 @@ This graphic illustrates how **_Modeling to Learn_** can help us to get more of 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test)We confirmed the clinics that make up our team for the Team Data UI. We confirmed and reviewed data for _MTL_ relevant to our Team Vision. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test)We finalized the clinics that make up our team for the Team Data UI. We confirmed and reviewed data for _MTL_ relevant to our Team Vision. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data.|
 
 ## DO demo
 
