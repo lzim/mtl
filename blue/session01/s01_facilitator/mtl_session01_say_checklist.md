@@ -94,5 +94,5 @@ Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
 
 After the Session:
 - [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
-- [ ] Export Clinic Selections from Power BI 
+- [ ] Export Clinic Selections from Power BI (See Session 1 Say Guide for Instructions)
 - [ ] Post Export file in the shared MS Teams Channel for the team to review and confirm selections 
