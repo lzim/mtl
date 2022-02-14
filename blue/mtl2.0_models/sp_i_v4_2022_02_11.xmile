@@ -947,11 +947,21 @@
 					"SMH to PC/PCMHI Accumulating Error"
 					</inflow>
 			</stock>
+			<aux name="Data_PC/PCMHI_Start_Rate_-_filtered">
+				<units>pts/wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)"*"Flag_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC"					</eqn>
+			</aux>
+			<aux name="Data_SMH_Start_Rate_(mean)_-_filtered">
+				<units>pts/wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_New_Episode_of_Care_Start_Rate_SMH_(mean)"*Flag_SMH_New_Episode_of_Care_Start_Rate_EpC					</eqn>
+			</aux>
 			<aux name="Adjusted_Data_GMH_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Data_GMH_Start_Rate_(mean)_-_filtered"=0,0, 
-	IF_THEN_ELSE ("Data_GMH_New_Patient_Wait_Time_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_GMH_New_Patient_Wait_Time_(median)"
+	IF_THEN_ELSE ("Data_New_Episode_of_Care_Wait_Time_GMH_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_New_Episode_of_Care_Wait_Time_GMH_(median)"
 	)
 	)					</eqn>
 			</aux>
@@ -959,30 +969,51 @@
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Adjusted_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"=0,0,
-	IF_THEN_ELSE ("Data_GMH_to_PC/PCMHI_Wait_Time_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_GMH_to_PC/PCMHI_Wait_Time_(median)")
+	IF_THEN_ELSE ("Data_Wait_Time_GMH_to_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_Wait_Time_GMH_to_PC/PCMHI_(median)")
+	)					</eqn>
+			</aux>
+			<aux name="Adjusted_Data_GMH_to_SMH_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
+	IF_THEN_ELSE ("Data_Wait_Time_GMH_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_GMH_to_SMH_(median)")
 	)					</eqn>
 			</aux>
 			<aux name="Adjusted_Data_PC/PCMHI_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Data_PC/PCMHI_Start_Rate_-_filtered"=0,0,
-	IF_THEN_ELSE ("Data_PC/PCMHI_New_Patient_Wait_Time_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI"
-	,"Data_PC/PCMHI_New_Patient_Wait_Time_(median)")
+	IF_THEN_ELSE ("Data_New_Episode_of_Care_Wait_Time_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI"
+	,"Data_New_Episode_of_Care_Wait_Time_PC/PCMHI_(median)")
 	)					</eqn>
 			</aux>
 			<aux name="Adjusted_Data_PC/PCMHI_to_GMH_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Adjusted_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)"=0,0,
-	IF_THEN_ELSE ("Data_PC/PCMHI_to_GMH_Wait_Time_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_PC/PCMHI_to_GMH_Wait_Time_(median)")
+	IF_THEN_ELSE ("Data_Wait_Time_PC/PCMHI_to_GMH_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_Wait_Time_PC/PCMHI_to_GMH_(median)")
+	)					</eqn>
+			</aux>
+			<aux name="Adjusted_Data_PC/PCMHI_to_SMH_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
+	IF_THEN_ELSE ("Data_Wait_Time_PC/PCMHI_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_PC/PCMHI_to_SMH_(median)")
 	)					</eqn>
 			</aux>
 			<aux name="Adjusted_Data_SMH_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Data_SMH_Start_Rate_(mean)_-_filtered"=0,0,
-	IF_THEN_ELSE ("Data_SMH_New_Patient_Wait_Time_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_SMH_New_Patient_Wait_Time_(median)"
+	IF_THEN_ELSE ("Data_New_Episode_of_Care_Wait_Time_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_New_Episode_of_Care_Wait_Time_SMH_(median)"
 	)
+	)					</eqn>
+			</aux>
+			<aux name="Adjusted_Data_SMH_to_GMH_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)"=0,0,
+	IF_THEN_ELSE ("Data_Wait_Time_SMH_to_GMH_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_Wait_Time_SMH_to_GMH_(median)")
 	)					</eqn>
 			</aux>
 			<aux name="Adjusted_Data_SMH_to_PC/PCMHI_Wait_Time_(median)">
@@ -990,43 +1021,7 @@
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"=0,0,
 	
-	IF_THEN_ELSE ("Data_SMH_to_PC/PCMHI_Wait_Time_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_SMH_to_PC/PCMHI_Wait_Time_(median)"))					</eqn>
-			</aux>
-			<aux name="Adjusted_User_PC/PCMHI_Step_down_from_Inpatient_Rate">
-				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>"User_PC/PCMHI_Step_down_from_Inpatient_Rate"/2					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Start_Rate_-_filtered">
-				<units>pts/wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_Start_Rate_(mean)"*"Flag_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC"					</eqn>
-			</aux>
-			<aux name="Data_SMH_Start_Rate_(mean)_-_filtered">
-				<units>pts/wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_Start_Rate_(mean)"*Flag_SMH_New_Episode_of_Care_Start_Rate_EpC					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_GMH_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
-	IF_THEN_ELSE ("Data_GMH_to_SMH_Wait_Time_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_GMH_to_SMH_Wait_Time_(median)")
-	)					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_PC/PCMHI_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
-	IF_THEN_ELSE ("Data_PC/PCMHI_to_SMH_Wait_Time_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_PC/PCMHI_to_SMH_Wait_Time_(median)")
-	)					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_SMH_to_GMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)"=0,0,
-	IF_THEN_ELSE ("Data_SMH_to_GMH_Wait_Time_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_SMH_to_GMH_Wait_Time_(median)")
-	)					</eqn>
+	IF_THEN_ELSE ("Data_Wait_Time_SMH_to_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_Wait_Time_SMH_to_PC/PCMHI_(median)"))					</eqn>
 			</aux>
 			<aux name="Adjusted_GMH_Engagement_Time_Before_Ending_(median)">
 				<units>wk</units>
@@ -1072,27 +1067,10 @@
 					<eqn>IF_THEN_ELSE ("Data_SMH_Engagement_Time_Before_Ending_-_filtered"=0,0, MAX("Data_SMH_Engagement_Time_Before_Ending_-_filtered"
 	-Initial_SMH_Time_to_Detect,24))					</eqn>
 			</aux>
-			<aux name="Adjusted_User_GMH_Step_down_from_Inpatient_Rate">
-				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>User_GMH_Step_down_from_Inpatient_Rate/2					</eqn>
-			</aux>
 			<aux name="Adjusted_User_SMH_Step_down_from_Inpatient_Rate">
 				<units>Dmnl</units>
 				<doc></doc>
 					<eqn>User_SMH_Step_down_from_Inpatient_Rate/2					</eqn>
-			</aux>
-			<aux name="Change_in_Pink_Noise">
-				<units>1/wk</units>
-				<doc>Change in the pink noise value; Pink noise is a first order exponential smoothing delay of the white
-         noise input.</doc>
-					<eqn>(White_Noise - Pink_Noise)/"Noise_Correlation_Time_=_jaggedness"					</eqn>
-			</aux>
-			<aux name="Data_GMH_Desired_Wait_Time">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>("Adjusted_Data_GMH_New_Patient_Wait_Time_(median)"+"Adjusted_Data_PC/PCMHI_to_GMH_Wait_Time_(median)"+"Adjusted_Data_SMH_to_GMH_Wait_Time_(median)"
-	)/3					</eqn>
 			</aux>
 			<aux name="EQ_Total_Inflow_PC">
 				<units>pts/wk</units>
@@ -1112,7 +1090,7 @@
 			<aux name="Flag_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Adjusted_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)">
 				<units>wk</units>
@@ -1137,20 +1115,42 @@
 					<eqn>IF_THEN_ELSE ("Data_SMH_to_Residential_Engagement_Time_before_Step_up_-_filtered"=0,0,MAX("Data_SMH_to_Residential_Engagement_Time_before_Step_up_-_filtered"
 	-Initial_SMH_Time_to_Detect,24))					</eqn>
 			</aux>
+			<aux name="Adjusted_User_GMH_Step_down_from_Inpatient_Rate">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>User_GMH_Step_down_from_Inpatient_Rate/2					</eqn>
+			</aux>
+			<aux name="Adjusted_User_PC/PCMHI_Step_down_from_Inpatient_Rate">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>"User_PC/PCMHI_Step_down_from_Inpatient_Rate"/2					</eqn>
+			</aux>
+			<aux name="Change_in_Pink_Noise">
+				<units>1/wk</units>
+				<doc>Change in the pink noise value; Pink noise is a first order exponential smoothing delay of the white
+         noise input.</doc>
+					<eqn>(White_Noise - Pink_Noise)/"Noise_Correlation_Time_=_jaggedness"					</eqn>
+			</aux>
+			<aux name="Data_GMH_Desired_Wait_Time">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>("Adjusted_Data_GMH_New_Patient_Wait_Time_(median)"+"Adjusted_Data_PC/PCMHI_to_GMH_Wait_Time_(median)"+"Adjusted_Data_SMH_to_GMH_Wait_Time_(median)"
+	)/3					</eqn>
+			</aux>
 			<aux name="Data_GMH_Engagement_Time_Before_Ending_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_Engagement_Time_Before_Ending_(median)"*Flag_GMH_Engagement_Time_before_Ending_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Ending_GMH_(median)"*Flag_GMH_Engagement_Time_before_Ending_EpC					</eqn>
 			</aux>
 			<aux name="Data_GMH_Start_Rate_(mean)_-_filtered">
 				<units>pts/wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_Start_Rate_(mean)"*Flag_GMH_New_Episode_of_Care_Start_Rate_EpC					</eqn>
+					<eqn>"Data_New_Episode_of_Care_Start_Rate_GMH_(mean)"*Flag_GMH_New_Episode_of_Care_Start_Rate_EpC					</eqn>
 			</aux>
 			<aux name="Data_GMH_Time_to_UnFlag_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_Time_to_UnFlag_(median)"*Flag_GMH_Time_to_Unflag_High_Risk_Patients_EpC					</eqn>
+					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)"*Flag_GMH_Time_to_Unflag_High_Risk_Patients_EpC					</eqn>
 			</aux>
 			<aux name="Data_GMH_to_PC/PCMHI_Desired_Wait_Time_to_Step_down">
 				<units>wk</units>
@@ -1160,17 +1160,17 @@
 			<aux name="Data_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_-_filtered">
 				<units>Weeks</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"*"Flag_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)"*"Flag_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC"					</eqn>
 			</aux>
 			<aux name="Data_GMH_to_Residential_Engagement_Time_before_Step_up_-_filtered">
 				<units>Weeks</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_to_Residential_Engagement_Time_before_Step_up_(median)"*Flag_GMH_to_Residential_Engagment_Time_before_Step_up_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)"*Flag_GMH_to_Residential_Engagment_Time_before_Step_up_EpC					</eqn>
 			</aux>
 			<aux name="Data_GMH_to_Residential_Time_From_Flag_to_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_to_Residential_Time_From_Flag_to_Step_up_(median)"*"Flag_GMH_to_ResTime_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)"*"Flag_GMH_to_ResTime_from_Flag_to_Step_up/down_Epc"					</eqn>
 			</aux>
 			<aux name="Data_GMH_to_SMH_Desired_Wait_Time_to_Step_up">
 				<units>wk</units>
@@ -1180,12 +1180,12 @@
 			<aux name="Data_GMH_to_SMH_Engagement_Time_Before_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)"*Flag_GMH_to_SMH_Engagement_Time_before_Step_up_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)"*Flag_GMH_to_SMH_Engagement_Time_before_Step_up_EpC					</eqn>
 			</aux>
 			<aux name="Data_High_Risk_Flag_Rate_in_GMH_-_filtered">
 				<units>pts/wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_High_Risk_Flag_Rate_in_GMH_(mean)"*Flag_GMH_High_Risk_Flag_Rate_EpC					</eqn>
+					<eqn>"Data_High_Risk_Flag_Rate_GMH_(mean)"*Flag_GMH_High_Risk_Flag_Rate_EpC					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_Desired_Wait_Time">
 				<units>wk</units>
@@ -1196,17 +1196,17 @@
 			<aux name="Data_PC/PCMHI_Engagement_Time_Before_Ending_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_Engagement_Time_Before_Ending_(median)"*"Flag_PC/PCMHI_Engagement_Time_before_Ending_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Ending_PC/PCMHI_(median)"*"Flag_PC/PCMHI_Engagement_Time_before_Ending_EpC"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_High_Risk_Flag_Rate_-_filtered">
 				<units>pts/wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_High_Risk_Flag_Rate_(mean)"*"Flag_PC/PCMHI_High_Risk_Flag_Rate_Epc"					</eqn>
+					<eqn>"Data_High_Risk_Flag_Rate_PC/PCMHI_(mean)"*"Flag_PC/PCMHI_High_Risk_Flag_Rate_Epc"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_Time_to_UnFlag_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_Time_to_UnFlag_(median)"*"Flag_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC"					</eqn>
+					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)"*"Flag_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_GMH_Desired_Wait_Time_to_Step_up">
 				<units>wk</units>
@@ -1216,22 +1216,22 @@
 			<aux name="Data_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)"*"Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(median)"*"Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up_(median)"*"Flag_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(median)"*"Flag_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_(median)"*"Flag_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)"*"Flag_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_Residential_Time_From_Flag_to_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_to_Residential_Time_From_Flag_to_Step_up_(median)"*"Flag_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(median)"*"Flag_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_SMH_Desired_Wait_Time_to_Step_up">
 				<units>wk</units>
@@ -1241,7 +1241,7 @@
 			<aux name="Data_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)"*"Flag_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)"*"Flag_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"					</eqn>
 			</aux>
 			<aux name="Data_SMH_Desired_Wait_Time">
 				<units>wk</units>
@@ -1252,17 +1252,17 @@
 			<aux name="Data_SMH_Engagement_Time_Before_Ending_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_Engagement_Time_Before_Ending_(median)"*Flag_SMH_Engagement_Time_before_Ending_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Ending_SMH_(median)"*Flag_SMH_Engagement_Time_before_Ending_EpC					</eqn>
 			</aux>
 			<aux name="Data_SMH_High_Risk_Flag_Rate_-_filtered">
 				<units>pts/wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_High_Risk_Flag_Rate_(mean)"*Flag_SMH_High_Risk_Flag_Rate_EpC					</eqn>
+					<eqn>"Data_High_Risk_Flag_Rate_SMH_(mean)"*Flag_SMH_High_Risk_Flag_Rate_EpC					</eqn>
 			</aux>
 			<aux name="Data_SMH_Time_to_UnFlag_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_Time_to_UnFlag_(median)"*Flag_SMH_Time_to_Unflag_High_Risk_Patients_EpC					</eqn>
+					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_SMH_(median)"*Flag_SMH_Time_to_Unflag_High_Risk_Patients_EpC					</eqn>
 			</aux>
 			<aux name="Data_SMH_to_GMH_Desired_Wait_Time_to_Step_down">
 				<units>wk</units>
@@ -1272,27 +1272,32 @@
 			<aux name="Data_SMH_to_GMH_Engagement_Time_Before_Step_down_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)"*Flag_SMH_to_GMH_Engagement_Time_before_Step_down_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)"*Flag_SMH_to_GMH_Engagement_Time_before_Step_down_EpC					</eqn>
 			</aux>
 			<aux name="Data_SMH_to_GMH_Time_from_Flag_to_Step_down_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_to_GMH_Time_from_Flag_to_Step_down_(median)"*"Flag_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(median)"*"Flag_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
+			</aux>
+			<aux name="Data_SMH_to_PC/PCMHI_Desired_Wait_Time_to_Step_down">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>(("Adjusted_Data_PC/PCMHI_New_Patient_Wait_Time_(median)"+"Adjusted_Data_SMH_to_PC/PCMHI_Wait_Time_(median)")/2)					</eqn>
 			</aux>
 			<aux name="Data_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"*"Flag_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC"					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)"*"Flag_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC"					</eqn>
 			</aux>
 			<aux name="Data_SMH_to_Residential_Engagement_Time_before_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_to_Residential_Engagement_Time_before_Step_up_(median)"*Flag_SMH_to_Residential_Engagement_Time_before_Step_up_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)"*Flag_SMH_to_Residential_Engagement_Time_before_Step_up_EpC					</eqn>
 			</aux>
 			<aux name="Data_SMH_to_Residential_Time_From_Flag_to_Step_up_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_SMH_to_Residential_Time_From_Flag_to_Step_up_(median)"*"Flag_SMH_to_ResTime_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)"*"Flag_SMH_to_ResTime_from_Flag_to_Step_up/down_Epc"					</eqn>
 			</aux>
 			<aux name="Effect_of_Implementing_Stepped_Care_between_GMH_and_SMH_in_Week_Zero">
 				<units>Dmnl</units>
@@ -1323,11 +1328,6 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>(ZIDZ(EQ_SMH_Early_in_Care_Patients , Initial_SMH_Time_to_Detect))*(1-"Initial_Low_Symptom__in_SMH")					</eqn>
-			</aux>
-			<aux name="EQ_Detect_Low_Sympt_Pt_in_GMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>(ZIDZ(EQ_GMH_Early_in_Care_Patients,Initial_GMH_Time_to_Detect))*"Initial_Low_Symptom__in_GMH"					</eqn>
 			</aux>
 			<aux name="EQ_Detect_Low_Sympt_Pt_in_PCMHI_Rate">
 				<units>pts/wk</units>
@@ -1364,10 +1364,10 @@
 				<doc>The rate percent that patients have a high risk flag added, based on the team's data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>ZIDZ("Data_High_Risk_Flag_Rate_in_GMH_-_filtered" , EQ_GMH_High_Symptom_Patients)					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_PC/PCMHI_Desired_Wait_Time_to_Step_down">
-				<units>wk</units>
+			<aux name="EQ_Detect_Low_Sympt_Pt_in_GMH_Rate">
+				<units>pts/wk</units>
 				<doc></doc>
-					<eqn>(("Adjusted_Data_PC/PCMHI_New_Patient_Wait_Time_(median)"+"Adjusted_Data_SMH_to_PC/PCMHI_Wait_Time_(median)")/2)					</eqn>
+					<eqn>(ZIDZ(EQ_GMH_Early_in_Care_Patients,Initial_GMH_Time_to_Detect))*"Initial_Low_Symptom__in_GMH"					</eqn>
 			</aux>
 			<aux name="EQ_GMH_Pts_to_Res_Rate">
 				<units>pts/wk</units>
@@ -1614,157 +1614,157 @@
 			<aux name="Flag_GMH_Engagement_Time_before_Ending_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_Engagement_Time_before_Ending_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_High_Risk_Flag_Rate_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_High_Risk_Flag_Rate_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_High_Risk_Flag_Rate_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_New_Episode_of_Care_Start_Rate_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_New_Episode_of_Care_Start_Rate_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_Time_to_Improve">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_Time_to_Improve < GMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_GMH < GMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_Time_to_Unflag_High_Risk_Patients_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_to_Residential_Engagment_Time_before_Step_up_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_to_Residential_Engagment_Time_before_Step_up_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_to_ResTime_from_Flag_to_Step_up/down_Epc">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_GMH_to_Res_Time_from_Flag_to_Step_up/down_Epc"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
 	 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_GMH_to_SMH_Engagement_Time_before_Step_up_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_GMH_to_SMH_Engagement_Time_before_Step_up_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_Engagement_Time_before_Ending_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_Engagement_Time_before_Ending_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
 	 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_High_Risk_Flag_Rate_Epc">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_High_Risk_Flag_Rate_Epc"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_High_Risk_Flag_Rate_PC/PCMHI_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_Time_to_Improve">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_Time_to_Improve" < "PC/PCMHI_Time_to_Improve_Floor", 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Time_To_Improve_PC/PCMHI" < "PC/PCMHI_Time_to_Improve_Floor", 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion
+					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC">
 				<units>Dimensionless</units>
 				<doc></doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc"/Sum_EpC_w_High_Risk_Flag< Threshold_for_Inclusion
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag< Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC"/Sum_EpC_no_HRF
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)"/Sum_EpC_no_HRF
 	< Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_Engagement_Time_before_Ending_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_Engagement_Time_before_Ending_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_High_Risk_Flag_Rate_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_High_Risk_Flag_Rate_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_High_Risk_Flag_Rate_SMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_New_Episode_of_Care_Start_Rate_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_New_Episode_of_Care_Start_Rate_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_Time_to_Improve">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_Time_to_Improve < SMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
+					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_SMH < SMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_Time_to_Unflag_High_Risk_Patients_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_Time_to_Unflag_High_Risk_Patients_EpC/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
 	1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_GMH_Engagement_Time_before_Step_down_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_to_GMH_Engagement_Time_before_Step_down_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
 	 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
 	 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC"/Sum_EpC_no_HRF < Threshold_for_Inclusion
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_Residential_Engagement_Time_before_Step_up_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE(Data_SMH_to_Residential_Engagement_Time_before_Step_up_EpC/Sum_EpC_no_HRF < Threshold_for_Inclusion,
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion,
 	 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_SMH_to_ResTime_from_Flag_to_Step_up/down_Epc">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_SMH_to_Res_Time_from_Flag_to_Step_up/down_Epc"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
 	 0 , 1 )					</eqn>
 			</aux>
 			<aux name="G_SMH_to_PC/PCMHI_Trend_in_Error_Correction">
@@ -2266,7 +2266,7 @@
 			<aux name="Initial_GMH_High_Symptom_Patient_">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>"Data_Final_GMH_High_Symptom_"					</eqn>
+					<eqn>"Data_Symptom_Proportion_GMH_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_GMH_High_Symptom_Patients">
 				<units>pts</units>
@@ -2281,17 +2281,17 @@
 			<aux name="Initial_GMH_Time_to_Improve_w_Floor">
 				<units>wks</units>
 				<doc>The Time to Improve parameter used in the model must be greater than 12 weeks. Any shorter is not believable and could be caused by inconsistencies in the data.</doc>
-					<eqn>MAX(Data_GMH_Time_to_Improve,GMH_Time_to_Improve_Floor)					</eqn>
+					<eqn>MAX(Data_Time_To_Improve_GMH,GMH_Time_to_Improve_Floor)					</eqn>
 			</aux>
 			<aux name="Initial_Low_Symptom__in_GMH">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>1-"Data_Final_GMH_High_Symptom_"					</eqn>
+					<eqn>1-"Data_Symptom_Proportion_GMH_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_Low_Symptom__in_SMH">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>1-"Data_Final_SMH_High_Symptom_"					</eqn>
+					<eqn>1-"Data_Symptom_Proportion_SMH_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_Patients_Waiting_for_GMH">
 				<units>pts</units>
@@ -2346,7 +2346,7 @@
 			<aux name="Initial_PC/PCMHI_High_Symptom_Patient_">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>"Data_Final_PC/PCMHI_High_Symptom_"					</eqn>
+					<eqn>"Data_Symptom_Proportion_PC/PCMHI_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_PC/PCMHI_High_Symptom_Patients">
 				<units>pts</units>
@@ -2356,7 +2356,7 @@
 			<aux name="Initial_PC/PCMHI_Low_Symptom_">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>1-"Data_Final_PC/PCMHI_High_Symptom_"					</eqn>
+					<eqn>1-"Data_Symptom_Proportion_PC/PCMHI_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_PC/PCMHI_Low_Symptom_Patients">
 				<units>pts</units>
@@ -2366,7 +2366,7 @@
 			<aux name="Initial_PC/PCMHI_Time_to_Improve_w_Floor">
 				<units>wks</units>
 				<doc>The Time to Improve parameter used in the model must be greater than 12 weeks. Any shorter is not believable and could be caused by inconsistencies in the data.</doc>
-					<eqn>MAX("Data_PC/PCMHI_Time_to_Improve","PC/PCMHI_Time_to_Improve_Floor")					</eqn>
+					<eqn>MAX("Data_Time_To_Improve_PC/PCMHI","PC/PCMHI_Time_to_Improve_Floor")					</eqn>
 			</aux>
 			<aux name="Initial_SMH_Early_in_Care_Patients">
 				<units>pts</units>
@@ -2381,7 +2381,7 @@
 			<aux name="Initial_SMH_High_Symptom_Patient_">
 				<units>Dmnl</units>
 				<doc></doc>
-					<eqn>"Data_Final_SMH_High_Symptom_"					</eqn>
+					<eqn>"Data_Symptom_Proportion_SMH_High_Symptom_"					</eqn>
 			</aux>
 			<aux name="Initial_SMH_High_Symptom_Patients">
 				<units>pts</units>
@@ -2396,7 +2396,7 @@
 			<aux name="Initial_SMH_Time_to_Improve_w_Floor">
 				<units>wks</units>
 				<doc>The Time to Improve parameter used in the model must be greater than 12 weeks. Any shorter is not believable and could be caused by inconsistencies in the data.</doc>
-					<eqn>MAX(Data_SMH_Time_to_Improve,SMH_Time_to_Improve_Floor)					</eqn>
+					<eqn>MAX(Data_Time_To_Improve_SMH,SMH_Time_to_Improve_Floor)					</eqn>
 			</aux>
 			<aux name="Max_Transfers_to_GMH">
 				<units>pts/wk</units>
@@ -3484,12 +3484,12 @@
 			<aux name="Sum_EpC_no_HRF">
 				<units>Episode</units>
 				<doc>The sum of all episode counts related to flows of patients without a High Risk Flag; used as the denominator in the decision for whether any model parameter related to the flow of patient without a HRF should be "trusted" and thus included in the simulation.</doc>
-					<eqn>Data_GMH_Engagement_Time_before_Ending_EpC+Data_GMH_New_Episode_of_Care_Start_Rate_EpC+"Data_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC"+Data_GMH_to_Residential_Engagment_Time_before_Step_up_EpC+Data_GMH_to_SMH_Engagement_Time_before_Step_up_EpC+"Data_PC/PCMHI_Engagement_Time_before_Ending_EpC"+"Data_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC"+"Data_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"+"Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC"+"Data_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC"+Data_SMH_Engagement_Time_before_Ending_EpC+Data_SMH_New_Episode_of_Care_Start_Rate_EpC+Data_SMH_to_GMH_Engagement_Time_before_Step_down_EpC+"Data_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC"+Data_SMH_to_Residential_Engagement_Time_before_Step_up_EpC					</eqn>
+					<eqn>"Data_Engagement_Time_Before_Ending_GMH_(Episode_Count)"+"Data_New_Episode_of_Care_Start_Rate_GMH_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(Episode_Count)"+"Data_Engagement_Time_Before_Ending_PC/PCMHI_(Episode_Count)"+"Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(Episode_Count)"+"Data_Engagement_Time_Before_Ending_SMH_(Episode_Count)"+"Data_New_Episode_of_Care_Start_Rate_SMH_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(Episode_Count)"+"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(Episode_Count)"					</eqn>
 			</aux>
 			<aux name="Sum_EpC_w_High_Risk_Flag">
 				<units>Episode</units>
 				<doc>The sum of all episode counts related to flows of patients with a High Risk Flag; used as the denominator in the decision for whether any model parameter related to the flow of patient with a HRF should be "trusted" and thus included in the simulation.</doc>
-					<eqn>Data_GMH_High_Risk_Flag_Rate_EpC+Data_GMH_Time_to_Unflag_High_Risk_Patients_EpC+"Data_GMH_to_Res_Time_from_Flag_to_Step_up/down_Epc"+"Data_PC/PCMHI_High_Risk_Flag_Rate_Epc"+"Data_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC"+"Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc"+"Data_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc"+Data_SMH_High_Risk_Flag_Rate_EpC+Data_SMH_Time_to_Unflag_High_Risk_Patients_EpC+"Data_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc"+"Data_SMH_to_Res_Time_from_Flag_to_Step_up/down_Epc"					</eqn>
+					<eqn>"Data_High_Risk_Flag_Rate_GMH_(Episode_Count)"+"Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)"+"Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(Episode_Count)"+"Data_High_Risk_Flag_Rate_PC/PCMHI_(Episode_Count)"+"Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(Episode_Count)"+"Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"+"Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)"+"Data_High_Risk_Flag_Rate_SMH_(Episode_Count)"+"Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)"+"Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(Episode_Count)"+"Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(Episode_Count)"					</eqn>
 			</aux>
 			<aux name="Time_from_Flag_PCMHI_to_GMH">
 				<units>wk</units>
@@ -4129,365 +4129,365 @@
 				<doc></doc>
 					<eqn>EQ_Total_Inflow_SMH-EQ_Total_Outflow_SMH					</eqn>
 			</aux>
-			<aux name="Community_Care_Patients_Reduce_Effort">
-				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>0.2					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Time_to_Improve">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GT2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_Start_Rate_(mean)">
+			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(mean)">
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EL2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Start_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EJ2')					</eqn>
 			</aux>
 			<aux name="D_Wt">
 				<units>Dimensionless</units>
 				<doc>Weight given to derivative control.</doc>
 					<eqn>1					</eqn>
 			</aux>
-			<aux name="Data_Final_GMH_High_Symptom_">
-				<units>Dmnl</units>
-				<doc>GET DIRECT CONSTANTS('ModelParameters.xlsx','SPParams','C30') = 0.38 in synthetic dataset</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GO2')					</eqn>
-			</aux>
-			<aux name="Data_Final_PC/PCMHI_High_Symptom_">
-				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GN2')					</eqn>
-			</aux>
-			<aux name="Data_Final_SMH_High_Symptom_">
-				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GP2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Engagement_Time_before_Ending_EpC">
+			<aux name="Data_Engagement_Time_Before_Ending_GMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','GE2')					</eqn>
 			</aux>
-			<aux name="Data_GMH_High_Risk_Flag_Rate_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EO2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_New_Episode_of_Care_Start_Rate_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EI2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Time_to_Unflag_High_Risk_Patients_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EU2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_Time_to_Improve">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GV2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Engagement_Time_Before_Ending_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GD2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GQ2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Start_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EH2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Time_to_Improve">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GU2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_Time_to_UnFlag_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','ET2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)">
-				<units>Weeks</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FJ2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_PC/PCMHI_Engagement_Time_before_Step_down_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FK2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_PC/PCMHI_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GH2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_Res_Time_from_Flag_to_Step_up/down_Epc">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FG2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_Residential_Engagement_Time_before_Step_up_(median)">
-				<units>Weeks</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FX2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_Residential_Engagment_Time_before_Step_up_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FY2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_Residential_Time_From_Flag_to_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FF2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FL2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_SMH_Engagement_Time_before_Step_up_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FM2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GI2')					</eqn>
-			</aux>
-			<aux name="Data_GMH_User_Supplied_Threshold">
-				<units>wk</units>
-				<doc>Just a pass-through for the Sim UI</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GX2')					</eqn>
-			</aux>
-			<aux name="Data_High_Risk_Flag_Rate_in_GMH_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EN2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Engagement_Time_Before_Ending_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GB2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Engagement_Time_before_Ending_EpC">
+			<aux name="Data_Engagement_Time_Before_Ending_PC/PCMHI_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','GC2')					</eqn>
 			</aux>
-			<aux name="Data_PC/PCMHI_High_Risk_Flag_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EP2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_High_Risk_Flag_Rate_Epc">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EQ2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_New_Episode_of_Care_Start_Rate_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EK2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_New_Patient_Wait_Time_(median)">
+			<aux name="Data_Engagement_Time_Before_Ending_PC/PCMHI_(median)">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GR2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GB2')					</eqn>
 			</aux>
-			<aux name="Data_PC/PCMHI_Time_to_Unflag_High_Risk_Patients_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EW2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FN2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FO2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EZ2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Time_from_Flag_to_Step_up/down_Epc">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FA2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GJ2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_Res_Time_from_Flag_to_Step_up/down_Epc">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FE2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FV2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_Residential_Time_From_Flag_to_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FD2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FP2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_SMH_Engagement_Time_to_Step_up_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FQ2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GK2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_User_Supplied_Threshold">
-				<units>wks</units>
-				<doc>Just a pass-through for the Sim UI</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GW2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_Engagement_Time_Before_Ending_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GF2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_Engagement_Time_before_Ending_EpC">
+			<aux name="Data_Engagement_Time_Before_Ending_SMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','GG2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_High_Risk_Flag_Rate_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','ER2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_High_Risk_Flag_Rate_EpC">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','ES2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FO2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_New_Episode_of_Care_Start_Rate_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EM2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_New_Patient_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GS2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_Time_to_UnFlag_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EX2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FR2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_GMH_Time_from_Flag_to_Step_down_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FH2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_GMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GM2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)">
 				<units>wk</units>
 				<doc></doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FT2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_PC/PCMHI_Wait_Time_(median)">
+			<aux name="Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EJ2')					</eqn>
+			</aux>
+			<aux name="Data_Time_To_Improve_PC/PCMHI">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GL2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GT2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_Res_Time_from_Flag_to_Step_up/down_Epc">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FC2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FK2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_Residential_Engagement_Time_before_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FZ2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_Residential_Engagement_Time_before_Step_up_EpC">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'GA2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_to_Residential_Time_From_Flag_to_Step_up_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FB2')					</eqn>
-			</aux>
-			<aux name="Data_SMH_User_Supplied_Threshold">
-				<units>wks</units>
-				<doc>Just a pass-through for the Sim UI</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export' , 'GY2' )					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_Time_to_UnFlag_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EV2')					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_EpC">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FW2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_Time_to_Unflag_High_Risk_Patients_EpC">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EY2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FQ2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_GMH_Engagement_Time_before_Step_down_EpC">
+			<aux name="Data_Time_To_Improve_SMH">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GV2')					</eqn>
+			</aux>
+			<aux name="Community_Care_Patients_Reduce_Effort">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>0.2					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Ending_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GD2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Ending_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GF2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)">
+				<units>Weeks</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FJ2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FY2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)">
+				<units>Weeks</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FX2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FM2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FL2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FN2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FV2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FP2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FS2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_GMH_Time_from_Flag_to_Step_up/down_Epc">
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FR2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FU2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'GA2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FZ2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_GMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EO2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_PC/PCMHI_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EQ2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_SMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','ES2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_SMH_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','ER2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_GMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EI2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_GMH_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EH2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EK2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EM2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Wait_Time_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GQ2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Wait_Time_PC/PCMHI_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GR2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Wait_Time_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GS2')					</eqn>
+			</aux>
+			<aux name="Data_Symptom_Proportion_GMH_High_Symptom_">
+				<units>Dmnl</units>
+				<doc>GET DIRECT CONSTANTS('ModelParameters.xlsx','SPParams','C30') = 0.38 in synthetic dataset</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GO2')					</eqn>
+			</aux>
+			<aux name="Data_Symptom_Proportion_PC/PCMHI_High_Symptom_">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GN2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FG2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FF2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FA2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EZ2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FE2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FD2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FI2')					</eqn>
 			</aux>
-			<aux name="Data_SMH_to_PC/PCMHI_Engagement_Time_before_Step_Down_EpC">
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FH2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FB2')					</eqn>
+			</aux>
+			<aux name="Data_Symptom_Proportion_SMH_High_Symptom_">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GP2')					</eqn>
+			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FU2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FC2')					</eqn>
+			</aux>
+			<aux name="Data_Time_To_Improve_GMH">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GU2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EU2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','ET2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EW2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EX2')					</eqn>
+			</aux>
+			<aux name="Data_User-Supplied_Gap_Threshold_GMH">
+				<units>wk</units>
+				<doc>Just a pass-through for the Sim UI</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GX2')					</eqn>
+			</aux>
+			<aux name="Data_User-Supplied_Gap_Threshold_PC/PCMHI">
+				<units>wks</units>
+				<doc>Just a pass-through for the Sim UI</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GW2')					</eqn>
+			</aux>
+			<aux name="Data_User-Supplied_Gap_Threshold_SMH">
+				<units>wks</units>
+				<doc>Just a pass-through for the Sim UI</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export' , 'GY2' )					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_GMH_to_PC/PCMHI_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GH2')					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_GMH_to_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GI2')					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_PC/PCMHI_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GJ2')					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_SMH_to_PC/PCMHI_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GL2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_GMH_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EN2')					</eqn>
+			</aux>
+			<aux name="Data_High_Risk_Flag_Rate_PC/PCMHI_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EP2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EV2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EY2')					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_PC/PCMHI_to_SMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GK2')					</eqn>
+			</aux>
+			<aux name="Data_Wait_Time_SMH_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GM2')					</eqn>
 			</aux>
 			<aux name="Error_Correction_Time">
 				<units>Week</units>
