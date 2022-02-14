@@ -159,9 +159,9 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 1. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
-2. We will email the Team Lead to set up a one-time hour prep before our next meeting. 
+2. We will email the Team Lead to set up a one-time hour prep before our next meeting and work with them to identify your Team's Clinics. 
 
-3. We will share a list of Clinic Selections with you on the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
+3. We will share this list of Clinic Selections with you on our shared the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
 
 3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
    - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
@@ -169,4 +169,5 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
    - See if you can click and view your team data.
 
 **Until next time, thank you for _Modeling to Learn_!**  
+
 
