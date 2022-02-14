@@ -51,7 +51,7 @@ output:
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
-  - *Coming Soon!* Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
  
 - These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
 
