@@ -44,8 +44,8 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data_test. 
-- Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+### 1. Open an internet browser window. Go to mtl.how/data_test.  
+- In the left-hand navigation pane, select your consortium and VISN tabs. Select the 'Clinic Selections' tab.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
