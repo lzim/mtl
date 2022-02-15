@@ -60,7 +60,7 @@ output:
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- On the landing page, you will select the select the appropriate consortium and VISN tabs. Select the 'Clinic Selections' tab.
+- In the left-hand navigation pane, select your consortium and VISN tabs. Select the 'Clinic Selections' tab.
 
 ### 2. Selecting and Viewing Your Team Data 
 
