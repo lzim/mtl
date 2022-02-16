@@ -40,22 +40,24 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we **zoom out** to see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
+## We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we **zoom out** to see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
 ## *MTL* Data UI
 
 ### 1. Open an internet browser window. Go to mtl.how/data_test.  
-- In the left-hand navigation pane, select your consortium and VISN tabs. Select the 'Clinic Selections' tab.
+- In the left-hand navigation pane, select your consortium and VISN.
+- Click on the 'Clinic Selections' tab.
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-### 2. Selecting & Viewing your Team Data
- 
-- Use the columns, including the "Select Clinics to Generate Report Data" column,  to select the clinics that make up your team.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic column.
-- Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
+### 2. Select & View your Team Data
 
-  - Note: Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix); check "No" and click "Apply" if you only wish to pull data from active clinics. 
+-  Use the left and middle columns to filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" for clinics that make up your team.
+- Note: Select "Yes" in the "Is An Active Clinic?" column to pull de-activated clinics denoted by "ZZ".
+- Click the yellow "Apply" button for each column. 
+- Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
+- Click the yellow "Apply" button to pull Patient Level Data from all clinics selected, in the last two years.
+
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
@@ -112,13 +114,10 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
  - In the data tabs, provderis can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
  - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
 
-
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** option would you use to see what the most common service encounters or visits are?
 - Are there services that have been increasing over time? 
 - Are there services that have been decreasing over time?
-
-
 
 **Tips & Tricks**
  - If you do not see something that you would expect or previously saw, check to see if a filter is applied by clicking on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
