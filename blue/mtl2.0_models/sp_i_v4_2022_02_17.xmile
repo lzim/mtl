@@ -19,6 +19,28 @@
 	</sim_specs>
 	<model>
 		<variables>
+			<stock name="EQ_GMH_Early_in_Care_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>
+					Initial_GMH_Early_in_Care_Patients
+					</eqn>
+					<inflow>
+					EQ Transfer into GMH from PC Rate
+					</inflow>
+					<inflow>
+					EQ Transfer into GMH from SMH Rate
+					</inflow>
+					<inflow>
+					EQ Transfer to GMH Rate
+					</inflow>
+					<outflow>
+					EQ Detect High Sympt Pts in GMH Rate
+					</outflow>
+					<outflow>
+					EQ Detect Low Sympt Pt in GMH Rate
+					</outflow>
+			</stock>
 			<stock name="EQ_GMH_High_Risk_Flag_Patients">
 				<units>pts</units>
 				<doc></doc>
@@ -85,64 +107,26 @@
 					EQ Refer to PCMHI from GMH Rate
 					</outflow>
 			</stock>
-			<stock name="EQ_PC/PCMHI_Low_Symptom_Patients">
+			<stock name="EQ_PC/PCMHI_Early_in_Care_Patients">
 				<units>pts</units>
 				<doc></doc>
 					<eqn>
-					"Initial_PC/PCMHI_Low_Symptom_Patients"
+					"Initial_PC/PCMHI_Early_in_Care_Patients"
 					</eqn>
 					<inflow>
+					EQ Refer to PCMHI from GMH Rate
+					</inflow>
+					<inflow>
+					EQ Transfer into PCMHI from SMH Rate
+					</inflow>
+					<inflow>
+					EQ Transfer into PCMHI Rate
+					</inflow>
+					<outflow>
+					EQ Detect High Sympt Pts in PCMHI Rate
+					</outflow>
+					<outflow>
 					EQ Detect Low Sympt Pt in PCMHI Rate
-					</inflow>
-					<inflow>
-					EQ Improvement in PCMHI Rate
-					</inflow>
-					<outflow>
-					EQ Leave PCMHI Rate
-					</outflow>
-			</stock>
-			<stock name="EQ_SMH_Low_Symptom_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>
-					Initial_SMH_Low_Symptom_Patients
-					</eqn>
-					<inflow>
-					EQ Detect Low Sympt Pt in SMH Rate
-					</inflow>
-					<inflow>
-					EQ Improvement in SMH Rate
-					</inflow>
-					<outflow>
-					EQ Leave SMH Rate
-					</outflow>
-					<outflow>
-					EQ Refer to GMH from SMH Rate
-					</outflow>
-					<outflow>
-					EQ Refer to PCMHI from SMH Rate
-					</outflow>
-			</stock>
-			<stock name="EQ_GMH_Early_in_Care_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>
-					Initial_GMH_Early_in_Care_Patients
-					</eqn>
-					<inflow>
-					EQ Transfer into GMH from PC Rate
-					</inflow>
-					<inflow>
-					EQ Transfer into GMH from SMH Rate
-					</inflow>
-					<inflow>
-					EQ Transfer to GMH Rate
-					</inflow>
-					<outflow>
-					EQ Detect High Sympt Pts in GMH Rate
-					</outflow>
-					<outflow>
-					EQ Detect Low Sympt Pt in GMH Rate
 					</outflow>
 			</stock>
 			<stock name="EQ_PC/PCMHI_High_Risk_Flag_Patients">
@@ -192,6 +176,44 @@
 					EQ Refer to SMH from PCMHI Rate
 					</outflow>
 			</stock>
+			<stock name="EQ_PC/PCMHI_Low_Symptom_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>
+					"Initial_PC/PCMHI_Low_Symptom_Patients"
+					</eqn>
+					<inflow>
+					EQ Detect Low Sympt Pt in PCMHI Rate
+					</inflow>
+					<inflow>
+					EQ Improvement in PCMHI Rate
+					</inflow>
+					<outflow>
+					EQ Leave PCMHI Rate
+					</outflow>
+			</stock>
+			<stock name="EQ_SMH_Early_in_Care_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>
+					Initial_SMH_Early_in_Care_Patients
+					</eqn>
+					<inflow>
+					EQ Refer to SMH from GMH Rate
+					</inflow>
+					<inflow>
+					EQ Transfer into SMH from PCMHI Rate
+					</inflow>
+					<inflow>
+					EQ Transfer into SMH Rate
+					</inflow>
+					<outflow>
+					EQ Detect High Sympt Pts in SMH Rate
+					</outflow>
+					<outflow>
+					EQ Detect Low Sympt Pt in SMH Rate
+					</outflow>
+			</stock>
 			<stock name="EQ_SMH_High_Risk_Flag_Patients">
 				<units>pts</units>
 				<doc></doc>
@@ -233,48 +255,26 @@
 					EQ SMH Pts to Res Rate
 					</outflow>
 			</stock>
-			<stock name="EQ_PC/PCMHI_Early_in_Care_Patients">
+			<stock name="EQ_SMH_Low_Symptom_Patients">
 				<units>pts</units>
 				<doc></doc>
 					<eqn>
-					"Initial_PC/PCMHI_Early_in_Care_Patients"
+					Initial_SMH_Low_Symptom_Patients
 					</eqn>
 					<inflow>
-					EQ Refer to PCMHI from GMH Rate
-					</inflow>
-					<inflow>
-					EQ Transfer into PCMHI from SMH Rate
-					</inflow>
-					<inflow>
-					EQ Transfer into PCMHI Rate
-					</inflow>
-					<outflow>
-					EQ Detect High Sympt Pts in PCMHI Rate
-					</outflow>
-					<outflow>
-					EQ Detect Low Sympt Pt in PCMHI Rate
-					</outflow>
-			</stock>
-			<stock name="EQ_SMH_Early_in_Care_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>
-					Initial_SMH_Early_in_Care_Patients
-					</eqn>
-					<inflow>
-					EQ Refer to SMH from GMH Rate
-					</inflow>
-					<inflow>
-					EQ Transfer into SMH from PCMHI Rate
-					</inflow>
-					<inflow>
-					EQ Transfer into SMH Rate
-					</inflow>
-					<outflow>
-					EQ Detect High Sympt Pts in SMH Rate
-					</outflow>
-					<outflow>
 					EQ Detect Low Sympt Pt in SMH Rate
+					</inflow>
+					<inflow>
+					EQ Improvement in SMH Rate
+					</inflow>
+					<outflow>
+					EQ Leave SMH Rate
+					</outflow>
+					<outflow>
+					EQ Refer to GMH from SMH Rate
+					</outflow>
+					<outflow>
+					EQ Refer to PCMHI from SMH Rate
 					</outflow>
 			</stock>
 			<stock name="GMH_Delayed_User_High_Comm_Rate">
@@ -962,6 +962,13 @@
 	IF_THEN_ELSE ("Data_Wait_Time_GMH_to_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_Wait_Time_GMH_to_PC/PCMHI_(median)")
 	)					</eqn>
 			</aux>
+			<aux name="Adjusted_Data_GMH_to_SMH_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
+	IF_THEN_ELSE ("Data_Wait_Time_GMH_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_GMH_to_SMH_(median)")
+	)					</eqn>
+			</aux>
 			<aux name="Adjusted_Data_PC/PCMHI_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
@@ -977,48 +984,19 @@
 	IF_THEN_ELSE ("Data_Wait_Time_PC/PCMHI_to_GMH_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_Wait_Time_PC/PCMHI_to_GMH_(median)")
 	)					</eqn>
 			</aux>
+			<aux name="Adjusted_Data_PC/PCMHI_to_SMH_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
+	IF_THEN_ELSE ("Data_Wait_Time_PC/PCMHI_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_PC/PCMHI_to_SMH_(median)")
+	)					</eqn>
+			</aux>
 			<aux name="Adjusted_Data_SMH_New_Patient_Wait_Time_(median)">
 				<units>wk</units>
 				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant start rate is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
 					<eqn>IF_THEN_ELSE ("Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_-_filtered"=0,0,
 	IF_THEN_ELSE ("Data_New_Episode_of_Care_Wait_Time_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_New_Episode_of_Care_Wait_Time_SMH_(median)"
 	)
-	)					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_SMH_to_PC/PCMHI_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"=0,0,
-	
-	IF_THEN_ELSE ("Data_Wait_Time_SMH_to_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_Wait_Time_SMH_to_PC/PCMHI_(median)"))					</eqn>
-			</aux>
-			<aux name="Adjusted_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)">
-				<units>wk</units>
-				<doc>The time before step down is the full engagement duration, minus the time to detect, with a floor of 24 weeks.</doc>
-					<eqn>IF_THEN_ELSE ("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_-_filtered"=0,0,MAX("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_-_filtered"-Initial_GMH_Time_to_Detect,24))					</eqn>
-			</aux>
-			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_-_filtered">
-				<units>pts/wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_New_Episode_of_Care_Start_Rate_SMH_(mean)"*"Flag_Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_EpC"					</eqn>
-			</aux>
-			<aux name="Flag_Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_EpC">
-				<units>Dmnl</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_GMH_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
-	IF_THEN_ELSE ("Data_Wait_Time_GMH_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_GMH_to_SMH_(median)")
-	)					</eqn>
-			</aux>
-			<aux name="Adjusted_Data_PC/PCMHI_to_SMH_Wait_Time_(median)">
-				<units>wk</units>
-				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
-					<eqn>IF_THEN_ELSE ("Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)"=0,0,
-	IF_THEN_ELSE ("Data_Wait_Time_PC/PCMHI_to_SMH_(median)"<Min_Transfer_Time_to_SMH,Min_Transfer_Time_to_SMH,"Data_Wait_Time_PC/PCMHI_to_SMH_(median)")
 	)					</eqn>
 			</aux>
 			<aux name="Adjusted_Data_SMH_to_GMH_Wait_Time_(median)">
@@ -1028,11 +1006,23 @@
 	IF_THEN_ELSE ("Data_Wait_Time_SMH_to_GMH_(median)"<Min_Transfer_Time_to_GMH,Min_Transfer_Time_to_GMH,"Data_Wait_Time_SMH_to_GMH_(median)")
 	)					</eqn>
 			</aux>
+			<aux name="Adjusted_Data_SMH_to_PC/PCMHI_Wait_Time_(median)">
+				<units>wk</units>
+				<doc>It is possible for the estimate for the median wait time to be zero, if the team sees many walk-in patients. However the model needs the wait time to represent the average, thus a value of zero is not feasible. In these rare cases, we prevent the model from using a zero average wait time, instead using the Minimum Transfer Time. If the relevant engagement duration is zero (indicating no patients follow this pathway), then the wait time is also set to zero.</doc>
+					<eqn>IF_THEN_ELSE ("Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)"=0,0,
+	
+	IF_THEN_ELSE ("Data_Wait_Time_SMH_to_PC/PCMHI_(median)"<"Min_Transfer_Time_to_PC/PCMHI","Min_Transfer_Time_to_PC/PCMHI","Data_Wait_Time_SMH_to_PC/PCMHI_(median)"))					</eqn>
+			</aux>
 			<aux name="Adjusted_GMH_Engagement_Time_Before_Ending_(median)">
 				<units>wk</units>
 				<doc>The time before ending is the full engagement duration, minus the time to detect, with a floor of 24 weeks.</doc>
 					<eqn>IF_THEN_ELSE ("Data_Engagement_Time_Before_Ending_GMH_(median)_-_filtered"=0,0,MAX("Data_Engagement_Time_Before_Ending_GMH_(median)_-_filtered"
 	-Initial_GMH_Time_to_Detect,24-8))					</eqn>
+			</aux>
+			<aux name="Adjusted_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)">
+				<units>wk</units>
+				<doc>The time before step down is the full engagement duration, minus the time to detect, with a floor of 24 weeks.</doc>
+					<eqn>IF_THEN_ELSE ("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_-_filtered"=0,0,MAX("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_-_filtered"-Initial_GMH_Time_to_Detect,24))					</eqn>
 			</aux>
 			<aux name="Adjusted_GMH_to_Residential_Engagement_Time_before_Step_up_(median)">
 				<units>wk</units>
@@ -1131,6 +1121,41 @@
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
 					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_EpC"					</eqn>
 			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)_-_filtered">
+				<units>Weeks</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_EpC"					</eqn>
+			</aux>
 			<aux name="Data_GMH_Desired_Wait_Time">
 				<units>wk</units>
 				<doc></doc>
@@ -1172,6 +1197,11 @@
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
 					<eqn>"Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)"*"Flag_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)_EpC"					</eqn>
 			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_-_filtered">
+				<units>pts/wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_New_Episode_of_Care_Start_Rate_SMH_(mean)"*"Flag_Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_EpC"					</eqn>
+			</aux>
 			<aux name="Data_PC/PCMHI_Desired_Wait_Time">
 				<units>wk</units>
 				<doc></doc>
@@ -1182,6 +1212,11 @@
 				<units>wk</units>
 				<doc></doc>
 					<eqn>("Adjusted_Data_GMH_New_Patient_Wait_Time_(median)"+"Adjusted_Data_PC/PCMHI_to_GMH_Wait_Time_(median)")/2					</eqn>
+			</aux>
+			<aux name="Data_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(median)"*"Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"					</eqn>
 			</aux>
 			<aux name="Data_PC/PCMHI_to_SMH_Desired_Wait_Time_to_Step_up">
 				<units>wk</units>
@@ -1224,203 +1259,6 @@
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
 					<eqn>"Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(median)"*"Flag_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(median)_Epc"					</eqn>
 			</aux>
-			<aux name="EQ_GMH_Pts_to_Res_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_GMH_High_Symptom_Patients , "Adjusted_GMH_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_HR_Flag_Rate_in_SMH">
-				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>EQ_SMH_High_Symptpm_Patients*"EQ_Initial_SMH_High_Risk_Patient_Flag_Rate_"					</eqn>
-			</aux>
-			<aux name="EQ_Initial_GMH_High_Risk_Patient_Flag_Rate_">
-				<units>1/wk</units>
-				<doc>The rate percent that patients have a high risk flag added, based on the team's data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ("Data_High_Risk_Flag_Rate_GMH_(mean)_-_filtered" , EQ_GMH_High_Symptom_Patients)					</eqn>
-			</aux>
-			<aux name="EQ_Initial_GMH_Manageable_Total_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>EQ_GMH_Early_in_Care_Patients+EQ_GMH_Low_Symptom_Patients+EQ_GMH_High_Symptom_Patients+(EQ_GMH_High_Risk_Flag_Patients*High_Risk_Flag_Patients_Extra_Effort)					</eqn>
-			</aux>
-			<aux name="EQ_Initial_SMH_Manageable_Total_Patients">
-				<units>pts</units>
-				<doc></doc>
-					<eqn>EQ_SMH_Early_in_Care_Patients+EQ_SMH_Low_Symptom_Patients+EQ_SMH_High_Symptpm_Patients+(EQ_SMH_High_Risk_Flag_Patients*High_Risk_Flag_Patients_Extra_Effort)					</eqn>
-			</aux>
-			<aux name="EQ_Leave_GMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_GMH_Low_Symptom_Patients , "Adjusted_GMH_Engagement_Time_Before_Ending_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Leave_PCMHI_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_Low_Symptom_Patients" , "Adjusted_PC/PCMHI_Engagement_Time_Before_Ending_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Leave_SMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_Engagement_Time_Before_Ending_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_PCMHI_Pts_to_Res_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_GMH_from_PCMHI_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_GMH_from_SMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_PCMHI_from_GMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_GMH_Low_Symptom_Patients , "Adjusted_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_PCMHI_from_SMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_SMH_from_GMH_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_GMH_High_Symptom_Patients , "Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Refer_to_SMH_from_PCMHI_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_SMH_Pts_to_Res_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(EQ_SMH_High_Symptpm_Patients , "Adjusted_SMH_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
-			</aux>
-			<aux name="EQ_Total_Inflow_GMH">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Refer_to_GMH_from_PCMHI_Rate+EQ_Refer_to_GMH_from_SMH_Rate+EQ_Transfer_to_GMH_Rate+EQ_HR_Flag_Transfer_from_PCMHI_to_GMH+EQ_HR_Flag_Transfer_from_SMH_to_GMH					</eqn>
-			</aux>
-			<aux name="EQ_Total_Inflow_PC">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Refer_to_PCMHI_from_GMH_Rate+EQ_Transfer_into_PCMHI_Rate+EQ_Transfer_into_PCMHI_from_SMH_Rate					</eqn>
-			</aux>
-			<aux name="EQ_Total_Inflow_SMH">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Refer_to_SMH_from_GMH_Rate+EQ_Transfer_into_SMH_Rate+EQ_Transfer_into_SMH_from_PCMHI_Rate					</eqn>
-			</aux>
-			<aux name="EQ_Total_Outflow_GMH">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Leave_GMH_Rate+EQ_Refer_to_PCMHI_from_GMH_Rate+EQ_Refer_to_SMH_from_GMH_Rate+EQ_GMH_HRF_Pts_to_Res_Rate
-	+EQ_GMH_Pts_to_Res_Rate					</eqn>
-			</aux>
-			<aux name="EQ_Total_Outflow_PC">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Leave_PCMHI_Rate+EQ_Refer_to_GMH_from_PCMHI_Rate+EQ_HR_Flag_Transfer_from_PCMHI_to_GMH+EQ_PCMHI_Pts_to_Res_Rate+
-	EQ_Refer_to_SMH_from_PCMHI_Rate+EQ_PCMHI_HRF_Pts_to_Res_Rate					</eqn>
-			</aux>
-			<aux name="EQ_Total_Outflow_SMH">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>EQ_Leave_SMH_Rate+EQ_Refer_to_GMH_from_SMH_Rate+EQ_Refer_to_PCMHI_from_SMH_Rate+EQ_HR_Flag_Transfer_from_SMH_to_GMH+EQ_SMH_HFR_Pts_to_Res_Rate+EQ_SMH_Pts_to_Res_Rate					</eqn>
-			</aux>
-			<aux name="Flag_Data_Engagement_Time_Before_Ending_SMH_(median)_EpC">
-				<units>Dmnl</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_GMH_Time_to_Improve">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_GMH < GMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)_EpC">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_PC/PCMHI_Time_to_Improve">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE("Data_Time_To_Improve_PC/PCMHI" < "PC/PCMHI_Time_to_Improve_Floor", 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_SMH_Time_to_Improve">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
-					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_SMH < SMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
-			</aux>
-			<aux name="GMH_High_Risk_Flag_Patient_to_Residential_Rate">
-				<units>pts/wk</units>
-				<doc>The number of patients in General mental healthcare with a high-risk flag who step up to Residential treatment each week. (pts/wk)</doc>
-					<eqn>ZIDZ(GMH_High_Risk_Flag_Patients , GMH_High_Risk_Flag_Patient_Time_to_Residential)					</eqn>
-			</aux>
-			<aux name="GMH_High_Symptom_to_Residential_Rate">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>ZIDZ(GMH_High_Symptom_Patients , GMH_Time_to_Residential)					</eqn>
-			</aux>
-			<aux name="GMH_New_Episode_of_Care_Start_Rate">
-				<units>pts/wk</units>
-				<doc>This is the number of patients starting a new episode of care within GMH, and not coming from SMH or PC/PCMHI. (pts/wk)</doc>
-					<eqn>MIN(IF_THEN_ELSE(Time<0,GMH_New_Patient_Recommend_Rate,Total_Openings_in_GMH*"GMH_Openings_for_New_Patients_"),Max_Transfers_to_GMH)					</eqn>
-			</aux>
-			<aux name="Initial_PC/PCMHI_Time_to_Improve_w_Floor">
-				<units>wks</units>
-				<doc>The Time to Improve parameter used in the model must be greater than 12 weeks. Any shorter is not believable and could be caused by inconsistencies in the data.</doc>
-					<eqn>MAX("Data_Time_To_Improve_PC/PCMHI","PC/PCMHI_Time_to_Improve_Floor")					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)_-_filtered">
-				<units>Weeks</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)"*"Flag_Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)"*"Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="Data_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(median)"*"Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC"					</eqn>
-			</aux>
 			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
@@ -1431,10 +1269,20 @@
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
 					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)"*"Flag_Time_to_Unflag_High_Risk_Patients_GMH_(mean)_EpC"					</eqn>
 			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_-_filtered">
+				<units>wk</units>
+				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
+					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)"*"Flag_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_EpC"					</eqn>
+			</aux>
 			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(median)_-_filtered">
 				<units>wk</units>
 				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
 					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_SMH_(median)"*"Flag_Time_to_Unflag_High_Risk_Patients_SMH_(median)_EpC"					</eqn>
+			</aux>
+			<aux name="Effect_of_Implementing_Stepped_Care_between_GMH_and_SMH_in_Week_Zero">
+				<units>Dmnl</units>
+				<doc></doc>
+					<eqn>IF_THEN_ELSE (Time >0,1-(User_GMH_and_SMH_Implement_Stepped_Care*Max_Reduction_in_Time_to_Refer_due_to_Stepped_Care),1)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implementing_Stepped_Care_between_PCMHI_and_GMH_in_Week_Zero">
 				<units>Dmnl</units>
@@ -1476,10 +1324,50 @@
 				<doc></doc>
 					<eqn>(ZIDZ(EQ_SMH_Early_in_Care_Patients , Initial_SMH_Time_to_Detect))*"Initial_Low_Symptom__in_SMH"					</eqn>
 			</aux>
+			<aux name="EQ_GMH_HRF_Pts_to_Res_Rate">
+				<units>pts/wk</units>
+				<doc>Patients at high risk for suicide are moved from GMH to residential treatment.  This is determined by the number of patients in GMH with a high risk flag and median amount of time these patients remain in GMH before transfer to residential treatment. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ(EQ_GMH_High_Risk_Flag_Patients , "Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)_-_filtered")					</eqn>
+			</aux>
+			<aux name="EQ_GMH_Pts_to_Res_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_GMH_High_Symptom_Patients , "Adjusted_GMH_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_HR_Flag_Rate_in_GMH">
+				<units>pts/wk</units>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>EQ_GMH_High_Symptom_Patients*"EQ_Initial_GMH_High_Risk_Patient_Flag_Rate_"					</eqn>
+			</aux>
+			<aux name="EQ_HR_Flag_Rate_in_PCMHI">
+				<units>pts/wk</units>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>"EQ_PC/PCMHI_High_Symptom_Patients"*"EQ_Initial_PC/PCMHI_High_Risk_Patient_Flag_Rate_"					</eqn>
+			</aux>
+			<aux name="EQ_HR_Flag_Rate_in_SMH">
+				<units>pts/wk</units>
+				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>EQ_SMH_High_Symptpm_Patients*"EQ_Initial_SMH_High_Risk_Patient_Flag_Rate_"					</eqn>
+			</aux>
+			<aux name="EQ_HR_Flag_Transfer_from_PCMHI_to_GMH">
+				<units>pts/wk</units>
+				<doc>Patients at high risk for suicide are moved from PC/PCMHI to GMH.  This is determined by the number of patients in PC/PCMHI with a high risk flag and median amount of time these patients remain in PC/PCMHI before transfer to GMH. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_High_Risk_Flag_Patients" , "Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(median)_-_filtered")					</eqn>
+			</aux>
 			<aux name="EQ_HR_Flag_Transfer_from_SMH_to_GMH">
 				<units>pts/wk</units>
 				<doc>Patients at high risk for suicide are moved from SMH to GMH.  This is determined by the number of patients in SMH with a high risk flag and median amount of time these patients remain in SMH before transfer to GMH. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>ZIDZ(EQ_SMH_High_Risk_Flag_Patients , "Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(median)_-_filtered")					</eqn>
+			</aux>
+			<aux name="EQ_HR_Unflag_Rate_in_GMH">
+				<units>pts/wk</units>
+				<doc>Patients with high symptoms deemed no longer at high risk for suicide.  This is determined by the number of patients at high risk and median amount of time these patients retain a high risk flag. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ(EQ_GMH_High_Risk_Flag_Patients , "Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)_-_filtered")					</eqn>
+			</aux>
+			<aux name="EQ_HR_Unflag_Rate_in_PCMHI">
+				<units>pts/wk</units>
+				<doc>Patients with high symptoms deemed no longer at high risk for suicide.  This is determined by the number of patients at high risk and median amount of time these patients retain a high risk flag. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_High_Risk_Flag_Patients" , "Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_-_filtered")					</eqn>
 			</aux>
 			<aux name="EQ_HR_Unflag_Rate_in_SMH">
 				<units>pts/wk</units>
@@ -1500,6 +1388,16 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>ZIDZ(EQ_SMH_High_Symptpm_Patients , Initial_SMH_Time_to_Improve_w_Floor)					</eqn>
+			</aux>
+			<aux name="EQ_Initial_GMH_High_Risk_Patient_Flag_Rate_">
+				<units>1/wk</units>
+				<doc>The rate percent that patients have a high risk flag added, based on the team's data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ("Data_High_Risk_Flag_Rate_GMH_(mean)_-_filtered" , EQ_GMH_High_Symptom_Patients)					</eqn>
+			</aux>
+			<aux name="EQ_Initial_GMH_Manageable_Total_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>EQ_GMH_Early_in_Care_Patients+EQ_GMH_Low_Symptom_Patients+EQ_GMH_High_Symptom_Patients+(EQ_GMH_High_Risk_Flag_Patients*High_Risk_Flag_Patients_Extra_Effort)					</eqn>
 			</aux>
 			<aux name="EQ_Initial_GMH_Openings_for_New_Patients_">
 				<units>Dmnl</units>
@@ -1541,6 +1439,16 @@
 				<doc></doc>
 					<eqn>ZIDZ (EQ_Transfer_into_PCMHI_from_SMH_Rate , EQ_Total_Delayable_Inflow_PC)					</eqn>
 			</aux>
+			<aux name="EQ_Initial_SMH_High_Risk_Patient_Flag_Rate_">
+				<units>1/wk</units>
+				<doc>The rate percent that patients have a high risk flag added, based on the team's data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ("Data_High_Risk_Flag_Rate_SMH_(mean)_-_filtered", EQ_SMH_High_Symptpm_Patients)					</eqn>
+			</aux>
+			<aux name="EQ_Initial_SMH_Manageable_Total_Patients">
+				<units>pts</units>
+				<doc></doc>
+					<eqn>EQ_SMH_Early_in_Care_Patients+EQ_SMH_Low_Symptom_Patients+EQ_SMH_High_Symptpm_Patients+(EQ_SMH_High_Risk_Flag_Patients*High_Risk_Flag_Patients_Extra_Effort)					</eqn>
+			</aux>
 			<aux name="EQ_Initial_SMH_Openings_for_GMH_">
 				<units>Dmnl</units>
 				<doc></doc>
@@ -1556,10 +1464,70 @@
 				<doc></doc>
 					<eqn>ZIDZ (EQ_Refer_to_SMH_from_PCMHI_Rate , EQ_Total_Delayable_Inflow_SMH)					</eqn>
 			</aux>
+			<aux name="EQ_Leave_GMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_GMH_Low_Symptom_Patients , "Adjusted_GMH_Engagement_Time_Before_Ending_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Leave_PCMHI_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_Low_Symptom_Patients" , "Adjusted_PC/PCMHI_Engagement_Time_Before_Ending_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Leave_SMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_Engagement_Time_Before_Ending_(median)")					</eqn>
+			</aux>
 			<aux name="EQ_PCMHI_HRF_Pts_to_Res_Rate">
 				<units>pts/wk</units>
 				<doc>Patients at high risk for suicide are moved from PC/PCMHI to residential treatment.  This is determined by the number of patients in PC/PCMHI with a high risk flag and median amount of time these patients remain in PC/PCMHI before transfer to residential treatment. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
 					<eqn>ZIDZ("EQ_PC/PCMHI_High_Risk_Flag_Patients","Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_Res_(median)_-_filtered")					</eqn>
+			</aux>
+			<aux name="EQ_PCMHI_Pts_to_Res_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_GMH_from_PCMHI_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_GMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_GMH_from_SMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_to_GMH_Engagement_Time_Before_Step_down_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_PCMHI_from_GMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_GMH_Low_Symptom_Patients , "Adjusted_GMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_PCMHI_from_SMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_SMH_Low_Symptom_Patients , "Adjusted_SMH_to_PC/PCMHI_Engagement_Time_Before_Step_down_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_SMH_from_GMH_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_GMH_High_Symptom_Patients , "Adjusted_GMH_to_SMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_Refer_to_SMH_from_PCMHI_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ("EQ_PC/PCMHI_High_Symptom_Patients" , "Adjusted_PC/PCMHI_to_SMH_Engagement_Time_Before_Step_up_(median)")					</eqn>
+			</aux>
+			<aux name="EQ_SMH_HFR_Pts_to_Res_Rate">
+				<units>pts/wk</units>
+				<doc>Patients at high risk for suicide are moved from SMH to residential treatment.  This is determined by the number of patients in SMH with a high risk flag and median amount of time these patients remain in SMH before transfer to residential treatment. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
+					<eqn>ZIDZ(EQ_SMH_High_Risk_Flag_Patients , "Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)_-_filtered")					</eqn>
+			</aux>
+			<aux name="EQ_SMH_Pts_to_Res_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(EQ_SMH_High_Symptpm_Patients , "Adjusted_SMH_to_Residential_Engagement_Time_before_Step_up_(median)")					</eqn>
 			</aux>
 			<aux name="EQ_Total_Delayable_Inflow_PC">
 				<units>pts/wk</units>
@@ -1570,6 +1538,38 @@
 				<units>pts/wk</units>
 				<doc></doc>
 					<eqn>EQ_Refer_to_SMH_from_GMH_Rate+EQ_Transfer_into_SMH_Rate+EQ_Refer_to_SMH_from_PCMHI_Rate					</eqn>
+			</aux>
+			<aux name="EQ_Total_Inflow_GMH">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Refer_to_GMH_from_PCMHI_Rate+EQ_Refer_to_GMH_from_SMH_Rate+EQ_Transfer_to_GMH_Rate+EQ_HR_Flag_Transfer_from_PCMHI_to_GMH+EQ_HR_Flag_Transfer_from_SMH_to_GMH					</eqn>
+			</aux>
+			<aux name="EQ_Total_Inflow_PC">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Refer_to_PCMHI_from_GMH_Rate+EQ_Transfer_into_PCMHI_Rate+EQ_Transfer_into_PCMHI_from_SMH_Rate					</eqn>
+			</aux>
+			<aux name="EQ_Total_Inflow_SMH">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Refer_to_SMH_from_GMH_Rate+EQ_Transfer_into_SMH_Rate+EQ_Transfer_into_SMH_from_PCMHI_Rate					</eqn>
+			</aux>
+			<aux name="EQ_Total_Outflow_GMH">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Leave_GMH_Rate+EQ_Refer_to_PCMHI_from_GMH_Rate+EQ_Refer_to_SMH_from_GMH_Rate+EQ_GMH_HRF_Pts_to_Res_Rate
+	+EQ_GMH_Pts_to_Res_Rate					</eqn>
+			</aux>
+			<aux name="EQ_Total_Outflow_PC">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Leave_PCMHI_Rate+EQ_Refer_to_GMH_from_PCMHI_Rate+EQ_HR_Flag_Transfer_from_PCMHI_to_GMH+EQ_PCMHI_Pts_to_Res_Rate+
+	EQ_Refer_to_SMH_from_PCMHI_Rate+EQ_PCMHI_HRF_Pts_to_Res_Rate					</eqn>
+			</aux>
+			<aux name="EQ_Total_Outflow_SMH">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>EQ_Leave_SMH_Rate+EQ_Refer_to_GMH_from_SMH_Rate+EQ_Refer_to_PCMHI_from_SMH_Rate+EQ_HR_Flag_Transfer_from_SMH_to_GMH+EQ_SMH_HFR_Pts_to_Res_Rate+EQ_SMH_Pts_to_Res_Rate					</eqn>
 			</aux>
 			<aux name="EQ_Transfer_into_GMH_from_PC_Rate">
 				<units>pts/wk</units>
@@ -1606,21 +1606,31 @@
 				<doc>How many new patients per week start in GMH, who are not transfers from PC/PCMHI or SMH, based on the team data.</doc>
 					<eqn>"Data_New_Episode_of_Care_Start_Rate_GMH_(mean)_-_filtered"					</eqn>
 			</aux>
-			<aux name="Flag_Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_EpC">
+			<aux name="Flag_Data_Engagement_Time_Before_Ending_SMH_(median)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
-	 )					</eqn>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_Data_New_Episode_of_Care_Start_Rate_GMH_(mean)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
 					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
+			<aux name="Flag_Data_New_Episode_of_Care_Start_Rate_SMH_(mean)_EpC">
+				<units>Dmnl</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
+					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+			</aux>
 			<aux name="Flag_Engagement_Time_Before_Ending_GMH_(median)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
 					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_Engagement_Time_Before_Ending_PC/PCMHI_(median)_EpC">
+				<units>Dmnl</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
+	 )					</eqn>
 			</aux>
 			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_PC/PCMHI_(median)_EpC">
 				<units>Dmnl</units>
@@ -1633,6 +1643,11 @@
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
 					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_Res_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
+			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_EpC">
+				<units>Dmnl</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+			</aux>
 			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_Res_(median)_EpC">
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
@@ -1644,92 +1659,28 @@
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
 					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
-			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_EpC">
+			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion,
-	 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC">
-				<units>Dimensionless</units>
-				<doc></doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
-	1 )					</eqn>
-			</aux>
-			<aux name="Flag_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)_Epc">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
-	 0 , 1 )					</eqn>
-			</aux>
-			<aux name="Flag_Time_to_Unflag_High_Risk_Patients_GMH_(mean)_EpC">
-				<units>Dimensionless</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
-	1 )					</eqn>
-			</aux>
-			<aux name="Flag_Time_to_Unflag_High_Risk_Patients_SMH_(median)_EpC">
-				<units>Dmnl</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
-					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
-	1 )					</eqn>
-			</aux>
-			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_-_filtered">
-				<units>wk</units>
-				<doc>Filtering to prevent a parameter estimate based on too few care episodes from being used in the simulation.</doc>
-					<eqn>"Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)"*"Flag_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_EpC"					</eqn>
-			</aux>
-			<aux name="EQ_GMH_HRF_Pts_to_Res_Rate">
-				<units>pts/wk</units>
-				<doc>Patients at high risk for suicide are moved from GMH to residential treatment.  This is determined by the number of patients in GMH with a high risk flag and median amount of time these patients remain in GMH before transfer to residential treatment. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ(EQ_GMH_High_Risk_Flag_Patients , "Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)_-_filtered")					</eqn>
-			</aux>
-			<aux name="EQ_HR_Flag_Rate_in_PCMHI">
-				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>"EQ_PC/PCMHI_High_Symptom_Patients"*"EQ_Initial_PC/PCMHI_High_Risk_Patient_Flag_Rate_"					</eqn>
-			</aux>
-			<aux name="EQ_HR_Flag_Transfer_from_PCMHI_to_GMH">
-				<units>pts/wk</units>
-				<doc>Patients at high risk for suicide are moved from PC/PCMHI to GMH.  This is determined by the number of patients in PC/PCMHI with a high risk flag and median amount of time these patients remain in PC/PCMHI before transfer to GMH. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_High_Risk_Flag_Patients" , "Data_Time_from_Flag_to_Step_Up/Down_PC/PCMHI_to_GMH_(median)_-_filtered")					</eqn>
-			</aux>
-			<aux name="EQ_HR_Unflag_Rate_in_GMH">
-				<units>pts/wk</units>
-				<doc>Patients with high symptoms deemed no longer at high risk for suicide.  This is determined by the number of patients at high risk and median amount of time these patients retain a high risk flag. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ(EQ_GMH_High_Risk_Flag_Patients , "Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)_-_filtered")					</eqn>
-			</aux>
-			<aux name="EQ_HR_Unflag_Rate_in_PCMHI">
-				<units>pts/wk</units>
-				<doc>Patients with high symptoms deemed no longer at high risk for suicide.  This is determined by the number of patients at high risk and median amount of time these patients retain a high risk flag. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ("EQ_PC/PCMHI_High_Risk_Flag_Patients" , "Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_-_filtered")					</eqn>
-			</aux>
-			<aux name="EQ_Initial_SMH_High_Risk_Patient_Flag_Rate_">
-				<units>1/wk</units>
-				<doc>The rate percent that patients have a high risk flag added, based on the team's data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ("Data_High_Risk_Flag_Rate_SMH_(mean)_-_filtered", EQ_SMH_High_Symptpm_Patients)					</eqn>
-			</aux>
-			<aux name="EQ_SMH_HFR_Pts_to_Res_Rate">
-				<units>pts/wk</units>
-				<doc>Patients at high risk for suicide are moved from SMH to residential treatment.  This is determined by the number of patients in SMH with a high risk flag and median amount of time these patients remain in SMH before transfer to residential treatment. This time parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>ZIDZ(EQ_SMH_High_Risk_Flag_Patients , "Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)_-_filtered")					</eqn>
-			</aux>
-			<aux name="Flag_Engagement_Time_Before_Ending_PC/PCMHI_(median)_EpC">
-				<units>Dmnl</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Ending_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1
 	 )					</eqn>
-			</aux>
-			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(median)_EpC">
-				<units>Dmnl</units>
-				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
-					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_GMH_to_SMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(median)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
 					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)_EpC">
+				<units>Dmnl</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion,
+	 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_GMH_Time_to_Improve">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
+					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_GMH < GMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_High_Risk_Flag_Rate_GMH_(mean)_EpC">
 				<units>Dimensionless</units>
@@ -1745,6 +1696,27 @@
 				<units>Dimensionless</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
 					<eqn>IF_THEN_ELSE("Data_High_Risk_Flag_Rate_SMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_New_Episode_of_Care_Start_Rate_PC/PCMHI_(mean)_EpC">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).</doc>
+					<eqn>IF_THEN_ELSE("Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_PC/PCMHI_Time_to_Improve">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
+					<eqn>IF_THEN_ELSE("Data_Time_To_Improve_PC/PCMHI" < "PC/PCMHI_Time_to_Improve_Floor", 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_PC/PCMHI_to_GMH_Engagement_Time_to_Step_up_EpC">
+				<units>Dimensionless</units>
+				<doc></doc>
+					<eqn>IF_THEN_ELSE("Data_Engagement_Time_Before_Step_Up/Down_PC/PCMHI_to_GMH_(Episode_Count)"/Sum_EpC_no_HRF < Threshold_for_Inclusion, 0 , 
+	1 )					</eqn>
+			</aux>
+			<aux name="Flag_SMH_Time_to_Improve">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when the Time to Improve model parameter is too small to be trusted, i.e., the team's data suggest that the average "high symptom" patient stabilizes as a "low symptom" patient sooner than after 12 weeks of treatment.</doc>
+					<eqn>IF_THEN_ELSE(Data_Time_To_Improve_SMH < SMH_Time_to_Improve_Floor, 0 , 1 )					</eqn>
 			</aux>
 			<aux name="Flag_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)_Epc">
 				<units>Dmnl</units>
@@ -1769,21 +1741,29 @@
 					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_SMH_to_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
 	 0 , 1 )					</eqn>
 			</aux>
+			<aux name="Flag_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)_Epc">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
+					<eqn>IF_THEN_ELSE("Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion,
+	 0 , 1 )					</eqn>
+			</aux>
+			<aux name="Flag_Time_to_Unflag_High_Risk_Patients_GMH_(mean)_EpC">
+				<units>Dimensionless</units>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
+					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+	1 )					</eqn>
+			</aux>
 			<aux name="Flag_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)_EpC">
 				<units>Dmnl</units>
 				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
 					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion
 	, 0 , 1 )					</eqn>
 			</aux>
-			<aux name="Effect_of_Implementing_Stepped_Care_between_GMH_and_SMH_in_Week_Zero">
+			<aux name="Flag_Time_to_Unflag_High_Risk_Patients_SMH_(median)_EpC">
 				<units>Dmnl</units>
-				<doc></doc>
-					<eqn>IF_THEN_ELSE (Time >0,1-(User_GMH_and_SMH_Implement_Stepped_Care*Max_Reduction_in_Time_to_Refer_due_to_Stepped_Care),1)					</eqn>
-			</aux>
-			<aux name="EQ_HR_Flag_Rate_in_GMH">
-				<units>pts/wk</units>
-				<doc>Patients with high symptoms being flagged as high risk for suicide.  This is determined by the number of patients with high symptoms and the 261460260f patients per week who are given a flag. This parameter is estimated from team data, if the team deems the cohort size large enough to be trustworthy, otherwise zero.</doc>
-					<eqn>EQ_GMH_High_Symptom_Patients*"EQ_Initial_GMH_High_Risk_Patient_Flag_Rate_"					</eqn>
+				<doc>The flag is "on" (shows a zero) when a model parameter is estimated from too small a number of care episodes to be trusted (based on the team's Threshold for Inclusion).  Evaluating model parameters relating to HRFs is based only on the sum of episodes for parameters relating to HRFs, not all episodes in the team's patient cohort.</doc>
+					<eqn>IF_THEN_ELSE("Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)"/Sum_EpC_w_High_Risk_Flag < Threshold_for_Inclusion, 0 , 
+	1 )					</eqn>
 			</aux>
 			<aux name="G_SMH_to_PC/PCMHI_Trend_in_Error_Correction">
 				<units>Weeks</units>
@@ -1907,6 +1887,11 @@
 					<eqn>IF_THEN_ELSE(User_GMH_High_Risk_Flag_Patient_Time_to_Residential>0:AND:Time>0,User_GMH_High_Risk_Flag_Patient_Time_to_Residential
 	,"Data_Time_from_Flag_to_Step_Up/Down_GMH_to_Res_(median)_-_filtered")					</eqn>
 			</aux>
+			<aux name="GMH_High_Risk_Flag_Patient_to_Residential_Rate">
+				<units>pts/wk</units>
+				<doc>The number of patients in General mental healthcare with a high-risk flag who step up to Residential treatment each week. (pts/wk)</doc>
+					<eqn>ZIDZ(GMH_High_Risk_Flag_Patients , GMH_High_Risk_Flag_Patient_Time_to_Residential)					</eqn>
+			</aux>
 			<aux name="GMH_High_Risk_Flag_Patients_Extra_Effort">
 				<units>Dmnl</units>
 				<doc>Patients with a High Risk Flag take extra effort (both in terms of time and complexity) than the average patient.  We estimate that seeing  one patient with a High Risk Flag takes the same effort as providing care for two average patients. (pct)</doc>
@@ -1948,6 +1933,11 @@
 				<doc>The number of high symptom patients who start care in the community each week.</doc>
 					<eqn>MAX(MIN(IF_THEN_ELSE (Time<0,0,GMH_Delayed_User_High_Comm_Rate),GMH_High_Symptom_Max_Transfers_to_Community),0)					</eqn>
 			</aux>
+			<aux name="GMH_High_Symptom_to_Residential_Rate">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>ZIDZ(GMH_High_Symptom_Patients , GMH_Time_to_Residential)					</eqn>
+			</aux>
 			<aux name="GMH_HRF_Inflow_Check">
 				<units>Dimensionless</units>
 				<doc></doc>
@@ -1982,6 +1972,11 @@
 				<units>pts</units>
 				<doc></doc>
 					<eqn>(IF_THEN_ELSE(Time>0,User_GMH_Manageable_Total_Patients,0)+EQ_Initial_GMH_Manageable_Total_Patients)*GMH_Effect_of_Patient_Load_on_Manageable_Total_Patients_0					</eqn>
+			</aux>
+			<aux name="GMH_New_Episode_of_Care_Start_Rate">
+				<units>pts/wk</units>
+				<doc>This is the number of patients starting a new episode of care within GMH, and not coming from SMH or PC/PCMHI. (pts/wk)</doc>
+					<eqn>MIN(IF_THEN_ELSE(Time<0,GMH_New_Patient_Recommend_Rate,Total_Openings_in_GMH*"GMH_Openings_for_New_Patients_"),Max_Transfers_to_GMH)					</eqn>
 			</aux>
 			<aux name="GMH_New_Patient_Recommend_Rate">
 				<units>pts/wk</units>
@@ -2365,6 +2360,11 @@
 				<units>pts</units>
 				<doc></doc>
 					<eqn>"Initial_PC/PCMHI_Early_in_Care_Patients"					</eqn>
+			</aux>
+			<aux name="Initial_PC/PCMHI_Time_to_Improve_w_Floor">
+				<units>wks</units>
+				<doc>The Time to Improve parameter used in the model must be greater than 12 weeks. Any shorter is not believable and could be caused by inconsistencies in the data.</doc>
+					<eqn>MAX("Data_Time_To_Improve_PC/PCMHI","PC/PCMHI_Time_to_Improve_Floor")					</eqn>
 			</aux>
 			<aux name="Initial_SMH_Early_in_Care_Patients">
 				<units>pts</units>
@@ -4127,16 +4127,6 @@
 				<doc></doc>
 					<eqn>EQ_Total_Inflow_SMH-EQ_Total_Outflow_SMH					</eqn>
 			</aux>
-			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EL2')					</eqn>
-			</aux>
-			<aux name="Data_Time_To_Improve_SMH">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GV2')					</eqn>
-			</aux>
 			<aux name="Community_Care_Patients_Reduce_Effort">
 				<units>Dmnl</units>
 				<doc></doc>
@@ -4242,6 +4232,11 @@
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'FS2')					</eqn>
 			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FR2')					</eqn>
+			</aux>
 			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_PC/PCMHI_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
@@ -4256,6 +4251,11 @@
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export' , 'GA2')					</eqn>
+			</aux>
+			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FZ2')					</eqn>
 			</aux>
 			<aux name="Data_High_Risk_Flag_Rate_GMH_(Episode_Count)">
 				<units>Episode</units>
@@ -4292,6 +4292,11 @@
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EI2')					</eqn>
 			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_GMH_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EH2')					</eqn>
+			</aux>
 			<aux name="Data_New_Episode_of_Care_Start_Rate_PC/PCMHI_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
@@ -4306,6 +4311,11 @@
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EM2')					</eqn>
+			</aux>
+			<aux name="Data_New_Episode_of_Care_Start_Rate_SMH_(mean)">
+				<units>pts/wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EL2')					</eqn>
 			</aux>
 			<aux name="Data_New_Episode_of_Care_Wait_Time_GMH_(median)">
 				<units>wk</units>
@@ -4382,6 +4392,11 @@
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','FC2')					</eqn>
 			</aux>
+			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FB2')					</eqn>
+			</aux>
 			<aux name="Data_Time_To_Improve_GMH">
 				<units>wk</units>
 				<doc></doc>
@@ -4392,40 +4407,15 @@
 				<doc></doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GT2')					</eqn>
 			</aux>
+			<aux name="Data_Time_To_Improve_SMH">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GV2')					</eqn>
+			</aux>
 			<aux name="Data_Time_to_Unflag_High_Risk_Patients_GMH_(Episode_Count)">
 				<units>Episode</units>
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EU2')					</eqn>
-			</aux>
-			<aux name="Data_Wait_Time_PC/PCMHI_to_GMH_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GJ2')					</eqn>
-			</aux>
-			<aux name="Data_Wait_Time_SMH_to_PC/PCMHI_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GL2')					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_GMH_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FR2')					</eqn>
-			</aux>
-			<aux name="Data_Engagement_Time_Before_Step_Up/Down_SMH_to_Res_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FZ2')					</eqn>
-			</aux>
-			<aux name="Data_New_Episode_of_Care_Start_Rate_GMH_(mean)">
-				<units>pts/wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EH2')					</eqn>
-			</aux>
-			<aux name="Data_Time_from_Flag_to_Step_Up/Down_SMH_to_Res_(median)">
-				<units>wk</units>
-				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','FB2')					</eqn>
 			</aux>
 			<aux name="Data_Time_to_Unflag_High_Risk_Patients_GMH_(mean)">
 				<units>wk</units>
@@ -4437,6 +4427,16 @@
 				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EW2')					</eqn>
 			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EV2')					</eqn>
+			</aux>
+			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)">
+				<units>Episode</units>
+				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EY2')					</eqn>
+			</aux>
 			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(median)">
 				<units>wk</units>
 				<doc></doc>
@@ -4446,6 +4446,16 @@
 				<units>wk</units>
 				<doc>Just a pass-through for the Sim UI</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GX2')					</eqn>
+			</aux>
+			<aux name="Data_User-Supplied_Gap_Threshold_PC/PCMHI">
+				<units>wks</units>
+				<doc>Just a pass-through for the Sim UI</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GW2')					</eqn>
+			</aux>
+			<aux name="Data_User-Supplied_Gap_Threshold_SMH">
+				<units>wks</units>
+				<doc>Just a pass-through for the Sim UI</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export' , 'GY2' )					</eqn>
 			</aux>
 			<aux name="Data_Wait_Time_GMH_to_PC/PCMHI_(median)">
 				<units>wk</units>
@@ -4457,6 +4467,11 @@
 				<doc></doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GI2')					</eqn>
 			</aux>
+			<aux name="Data_Wait_Time_PC/PCMHI_to_GMH_(median)">
+				<units>wk</units>
+				<doc></doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GJ2')					</eqn>
+			</aux>
 			<aux name="Data_Wait_Time_PC/PCMHI_to_SMH_(median)">
 				<units>wk</units>
 				<doc></doc>
@@ -4467,30 +4482,15 @@
 				<doc></doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GM2')					</eqn>
 			</aux>
-			<aux name="Data_Time_to_Unflag_High_Risk_Patients_PC/PCMHI_(median)">
+			<aux name="Data_Wait_Time_SMH_to_PC/PCMHI_(median)">
 				<units>wk</units>
 				<doc></doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EV2')					</eqn>
-			</aux>
-			<aux name="Data_Time_to_Unflag_High_Risk_Patients_SMH_(Episode_Count)">
-				<units>Episode</units>
-				<doc>The number of care episodes used to calculate the related rate-governing parameter.</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx', 'Export','EY2')					</eqn>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GL2')					</eqn>
 			</aux>
 			<aux name="Error_Correction_Time">
 				<units>Week</units>
 				<doc>Time to correct error between desired and actual completion rates.</doc>
 					<eqn>8					</eqn>
-			</aux>
-			<aux name="Data_User-Supplied_Gap_Threshold_PC/PCMHI">
-				<units>wks</units>
-				<doc>Just a pass-through for the Sim UI</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','GW2')					</eqn>
-			</aux>
-			<aux name="Data_User-Supplied_Gap_Threshold_SMH">
-				<units>wks</units>
-				<doc>Just a pass-through for the Sim UI</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export' , 'GY2' )					</eqn>
 			</aux>
 			<aux name="GMH_Care_Quality">
 				<units>Dmnl</units>
