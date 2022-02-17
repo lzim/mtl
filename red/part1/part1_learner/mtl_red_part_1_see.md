@@ -75,7 +75,7 @@ output:
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
 **New in _MTL_ 2.5**
-<br> **For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).** </br>
+<br> **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).** </br>
 
 - We are now able to support **Clinical Resource Hub** providers in the Data UI to create a more accurate and localized set of clinics. 
 -  The data UI has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
@@ -93,11 +93,11 @@ output:
 - Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 - Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
-      - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
+   - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
-- What stands out to you?
-- What is most important to you to check out first?
-- What is most surprising?  
+- What **stands out** to you?
+- What is most **important** to you to check out first?
+- What is most **surprising**?  
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
@@ -119,8 +119,8 @@ output:
    
 - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
 - What **viz** option would you use to see what the most common service encounters or visits are?
-- Are there services that have been increasing over time? 
-- Are there services that have been decreasing over time?
+- Are there services that have been **increasing over time**? 
+- Are there services that have been **decreasing over time**?
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
