@@ -52,12 +52,9 @@ output:
 
 ### 2. Select & View your Team Data
 
--  Use the left and middle columns to filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" for clinics that make up your team.
-- Note: Select "Yes" in the "Is An Active Clinic?" column to pull de-activated clinics denoted by "ZZ".
-- Click the yellow "Apply" button for each column. 
+-  Filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" in the left and middle columns.
 - Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected, in the last two years.
-
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
@@ -65,6 +62,7 @@ output:
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
+- To pull Active clinics only, select 'Yes' in "Is An Active Clinic?" column (de-activated clinics are denoted by "ZZZ").
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
