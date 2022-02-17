@@ -66,25 +66,17 @@ output:
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. 
    - Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
+- Add **Clinical Resource Hub** providers in the ClinicSelection tab to create a more accurate and localized set of clinics.
 **JENN _ SUGGESTION - TAKE OUT THIS GIF** 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
 **New in _MTL_ 2.5**
 <br> **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).** </br>
 
-- We are now able to support **Clinical Resource Hub** providers in the Data UI to create a more accurate and localized set of clinics. 
--  The data UI has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
-   - **Health Factors** (HF)
-   - **Diagnoses** (Diag)
-   - **Encounters** (Enc),
-   - **Measurement Based Stepped Care and Suicide Prevention** \(Meas\) and
-   - (New!) **Suicide and Behavior Risk Flags** (Flag) - We've added this so staff can pay close attention to behavioral and suicide risk.
-**JENN _ SUGGESTION - TAKE OUT THIS GIF** 
-[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
 
 ### 3. Click to view the "viz" tab, which show team trends.
 
--  _Zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+-  _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
 
 #### What **stands out** to you?
 #### What is most **important** to you to check out first?
@@ -102,7 +94,7 @@ output:
 
 ### 4. Click to view the "data" tab, which show your team's individual patient information.
 
- - In the data tabs, provderis can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
+ - In the data tabs, providers can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends:  diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
  - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
 - Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
       - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
