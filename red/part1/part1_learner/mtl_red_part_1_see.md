@@ -117,7 +117,7 @@ _**Tips & Tricks**_
 | --- | --- |
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
 
-## Request and verify Local Server View permissions:
+### Request and verify Local Server View permissions:
 - **To pull patient and clinic level data, you need LSV permissions.** Check which facilities you have LSV access for [here](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) through VA intranet.
    - Clinical Resource Hub Providers are granted to multiple local server access.
 - **If you don't have access to facilities that you believe you should, please verify:**
