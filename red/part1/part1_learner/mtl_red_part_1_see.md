@@ -59,7 +59,7 @@ output:
 - Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
 - **Think through your Clinic Selection criteria carefully (Which column is most helpful? Should you include trainees? De-activated Clinics? Providers from over 2 years ago?).**
-- Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/edit/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
+- Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/blob/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
