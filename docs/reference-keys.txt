@@ -98,14 +98,16 @@ facilitator-one-pager-mtl.howdata
 sim-ui-facilitator-dashboard
 orientation-to-the-dashboard
 set-up-a-team
+review-tt-menu-results
 set-up-a-facilitator-individual-team-_ind
 manage-team-data
 produce-team_time-report
 set-up-a-blue-tt-report
 set-up-a-red-tt-report
-team
+manage-discussions-in-team
 set-up-a-private-conversation
 set-up-an-open-team-discussion
+resize-a-window-for-side-by-side-viewing
 admin-technical-manual
 simulation-user-interface-sim-ui-administration
 modeling-to-learn-administrative-dashboard
