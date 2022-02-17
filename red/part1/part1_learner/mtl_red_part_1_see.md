@@ -65,7 +65,7 @@ output:
    - Clinical Resource Hub Providers are granted to multiple local server access.
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined [here](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow instructions [here](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
 - To pull Active clinics only, select 'Yes' in "Is An Active Clinic?" column (de-activated clinics are denoted by "ZZZ").
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
