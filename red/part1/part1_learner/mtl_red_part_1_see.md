@@ -54,7 +54,7 @@ output:
 
 ### 2. Select & View your Local Team Data
 
--  Filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" in the left and middle columns.
+-  Filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
 - Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected, in the last two years.
 
@@ -66,7 +66,6 @@ output:
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow instructions [here](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
-- To pull Active clinics only, select 'Yes' in "Is An Active Clinic?" column (de-activated clinics are denoted by "ZZZ").
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. 
