@@ -159,12 +159,31 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 1. All team members will receive a post-session email the week after each session from the *Modeling to Learn* staff, with Done and Do reminders and links to the necessary resources; and another pre-session email the week of the upcoming session.  
 
-2. We will email the Team Lead to set up a one-time hour prep before our next meeting. 
+2. We will email the Team Lead to set up a one-time hour prep before our next meeting and work with them to identify your Team's Clinics. 
 
-3. Before our next meeting, check to see if you can see your team folder at mtl.how/data_test. 
-   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN and then your facility. 
-      - This is where you can access your local team data files on a secure VA site. 
-   - See if you can click into your team's folder.
+3. We will share this list of Clinic Selections with you on our shared the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
+
+3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
+   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
+      - This is where you can make clinic selections and access your local team data on a secure VA site. 
+   - See if you can click and view your team data.
 
 **Until next time, thank you for _Modeling to Learn_!**  
+
+## Confirming Team Clinic Selections 
+
+_After identifying the list of Clinics with the Team Lead, to make the Clinics Selections process transparent and accesible to all Team members, we will be posting them in the shared Microsoft Teams channel for confirmation._
+
+In order to make, view, and export Team Clinic Selections, 
+
+1. Go to mtl.how/data_test 
+2. In the left hand bar, click on the appropriate Consortium and then, VISN.
+3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
+4. Click 'Apply.
+5.  _*Note: If you wish to have quick access to these Clinic Selections in the future, you can make a personal bookmark to return to it. See the Facilitator One-Pager for instructions on how to make a personal bookmark._
+6. Scroll down to the bottom, until you see the **View Clinic Selections** tab in the left hand side
+7. Hover over the "Clinic Selections" heading and click on the three dots that appear. 
+8. Click "Export Data" > "Data with Current Layout" > Export 
+9. Save using our Team naming convention, and post the file on the shared Team channel for Team members to view and confirm Clinic Selections
+
 

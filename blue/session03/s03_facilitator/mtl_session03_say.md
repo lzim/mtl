@@ -53,8 +53,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 ### Navigate to the data UI at mtl.how/data_test.
 
 - You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
-- On the Data UI Landing page, click on "Data UI (Team Data)." 
-- You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on **"Data UI (Team Data)."**
+- Click on your Consortium and VISN.
 - Click on the  **ClinicSelection tab**. 
 
 ###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
@@ -76,9 +75,10 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - In the event they do not, to make clinic selections yourself:
   - Select a set of clinics in the **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
   
-  - Additionally, if you want to produce team data for the **Team (SP) Flow module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
-  - Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
-  - If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
+- Additionally, if you want to produce team data for the **Team (SP) Flow module**, click on the **Team Flow Selection tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. 
+  - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
+  -  Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the  **Team Flow Selection tab**.
+  -  Once you have selected referral clinics in the **Team Flow Selection tab**, click Apply. 
 
 
 ### 1. Select a module for review

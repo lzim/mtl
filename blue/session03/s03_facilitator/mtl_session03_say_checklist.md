@@ -44,7 +44,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
 
-### 1. Navigate to the data UI at mtl.how/data_test. Click on "Data UI (Team Data)."
+### 1. Navigate to the data UI at mtl.how/data_test. Click on your Consortium and VISN.
 - [ ] Data UI on VA's secure Power BI site; works on any browser.
 - [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
 
@@ -65,7 +65,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
   - Select the **same** set of clinics in the **ClinicSelection tab** 
   - Click "Apply."
     
-### *Coming Soon* See SAY guide for narration details on generating file for SP module  
+### See SAY guide for narration details on generating file for Team (SP) Flow module  
  
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:35 – Select and review a *MTL* Module**
 

@@ -67,7 +67,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
    - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
 - We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
 - We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
-- On the landing page, you will select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
+- In the left-hand navigation pane, select the appropriate consortium and VISN tabs. Then, select the 'Clinic Selections' tab.
 
 ### 2. Selecting & Viewing your Team Data. 
 
@@ -79,7 +79,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
    - *Note:* Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
    - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
    
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
