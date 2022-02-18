@@ -53,12 +53,12 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-### 2. Select & View your Local Team Data
+### 2. Select and view your local team data.
 
+#### Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).
 -  Filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
 - Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
-- **Think through your Clinic Selection criteria carefully (Which column is most helpful? Should you include trainees? De-activated Clinics? Providers from over 2 years ago?).**
 - Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/blob/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
@@ -68,20 +68,22 @@ _**Tips & Tricks**_
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. 
    - Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
-- Add **Clinical Resource Hub** providers in the ClinicSelection tab to create a more accurate and localized set of clinics.
 
 **New in _MTL_ 2.5**
 <br> **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).** </br>
 
 ### 3. Click to view the "viz" tab, which show team trends.
 
--  _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
+#### _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
 
 - **What stands out to you?**
 - **What is most important to you to check out first?**
 - **What is most surprising?**
+- **What viz option would you use to see what the most common service encounters or visits are?**
+- **Are there services that have been increasing over time?**
+- **Are there services that have been decreasing over time?**
 
-_**Tips and Tricks**_
+_**Tips & Tricks**_
 - Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 - Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
@@ -91,23 +93,21 @@ _**Tips and Tricks**_
 
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).**
 
-### 4. Click to view the "data" tab, which show your team's individual patient information.
+### 4. Click to view the "data" tabs, which show your team's individual patient information.
 
-- In the data tabs, providers can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends:  diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
- - Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
-- Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
-   - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
-   
-- **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?**
-- **What viz option would you use to see what the most common service encounters or visits are?**
-- **Are there services that have been increasing over time?**
-- **Are there services that have been decreasing over time?**
+#### In the data tabs, providers can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends:  diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
+#### Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
+
+- **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
+-  **What column shows you the session number (EBP template) that the patient is on?**
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
 _**Tips & Tricks**_
  - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
+ - If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
+   - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
