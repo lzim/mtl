@@ -53,7 +53,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
  
-## In-Session Exercise
+## _MTL_ Data UI
 
 ## Let's get started!
 
@@ -63,21 +63,18 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 1. Open an internet browser window. Go to mtl.how/data_test 
 
-- This will take you to the MTL data user interface Power BI site. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
-   - **Note:** If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
-- We'll be opening the _Modeling to Learn_ data user interface (UI) in Power BI here today.
-- We'll show you how data you pull from here will be saved back to this secure site, so that you can protect patient PHI just as you do in all your work. 
+- We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI here today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
+   - Getting a red row-level security (RLS) error? Please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
+  
 - In the left-hand navigation pane, select the appropriate consortium and VISN tabs. Then, select the 'Clinic Selections' tab.
 
-### 2. Selecting & Viewing your Team Data. 
+### 2. Select and view your local team data.
 
-- Select your clinics using the columns to make up your localized team-level data.
-- You can search and filter for Clinics by Provider after making selections in Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and/or Is an Active Clinic columns.
-- Click the yellow "Apply" button. 
-- Clicking "Apply" in the "Select Clinics to Generate Report Data" column pulls Patient Level Data from all clinics selected, in the last two years.
-
-   - *Note:* Leaving the "Is an Active Clinic" column blank will pull all de-activated clinics used in the last two years (denoted by a "ZZ" prefix). If you do not want inactive clinics to be pulled, under the "Is an Active Clinic" column, check "No" and click the yellow "Apply" button.
-   - *Note*: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs is to show all the data for all sta3ns and clinics.)
+#### Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).
+- You can filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
+- You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
+- Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
+- Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/blob/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
    
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
@@ -87,30 +84,23 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
-
-**New in _MTL_ 2.5** 
-- We are now able to support Clinical Resource Hub providers in the Data UI to create a more accurate and localized set of clinics. 
--  _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
-   - Health Factors \(HF\)
-   - Diagnoses \(Diag\)
-   - Encounters \(Enc\),
-   - Measurement Based Stepped Care and Suicide Prevention \(Meas\) and
-   - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
-
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) to access the document through VA intranet.
-   - Clinical Resource Hub Providers are granted to multiple local server access.
-
-- **If you don't have access to facilities that you believe you should, please verify:**
-   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
        
 ### 3. **Click to view the "viz" tabs, which show team trends.**
-- The Viz tab helps us _zoom out_ and see team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.  
+
+#### _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
+
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
 - Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
+    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
+
+_**Tips & Tricks**_
+- Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
+- Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+- Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
+- Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
+
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
@@ -173,3 +163,12 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
    - Suicide and Behavior Risk Flags \(Flag\)
 
 **Until next time, thank you for *Modeling to Learn*!**
+
+## Request and verify Local Server View permissions:
+
+- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) to access the document through VA intranet.
+   - Clinical Resource Hub Providers are granted to multiple local server access.
+
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
