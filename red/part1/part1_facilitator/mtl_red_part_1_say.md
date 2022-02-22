@@ -77,11 +77,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
 - Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/blob/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
    
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
-**Tips & Tricks**
+_**Tips & Tricks**_
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
@@ -96,31 +96,29 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
     - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
 
+
+   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
+
+- **What stands out to you about \________________________________**\(fill-in team vision\)? - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)? \(Prepare in advance, but ask this as an open-ended question\)?  
+- **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+- **What viz option would you use to see what the most common service encounters or visits are?**
+- **Are there services that have been increasing over time?**
+-  **Are there services that have been decreasing over time?** 
+
 _**Tips & Tricks**_
 - Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 - Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
 - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
-
-   [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
-
-   - **What stands out to you about \________________________________**\(fill-in team vision\)?
-   - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
-    \(Prepare in advance, but ask this as an open-ended question\)?  
-   - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
-   - What viz option would you use to see what the most common service encounters or visits are?
-   - **Are there services that have been increasing over time?**
-   - **Are there services that have been decreasing over time?** 
-
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
    
 
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
 
-**In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
+**In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.**
 
- **We can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
+We can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
   - **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
   - **What column shows you the session number (EBP template) that the patient is on?**
 
