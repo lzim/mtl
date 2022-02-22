@@ -96,7 +96,8 @@ _**Tips & Tricks**_
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.
 
 #### In the data tabs, providers can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends:  diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
-#### Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
+
+Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
 
 - **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
 -  **What column shows you the session number (EBP template) that the patient is on?**
