@@ -60,9 +60,13 @@ output:
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
-- In the left-hand navigation pane, select your consortium and VISN tabs. Select the 'Clinic Selections' tab.
+
+- In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
+- Click on the 'Clinic Selections' tab.
 
 ### 2. Selecting and Viewing Your Team Data 
+
+- [ ] **Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).**
 
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
@@ -74,7 +78,8 @@ output:
 
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
-- [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
+- [ ] **The Viz tab helps us zoom out and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends.**
+
 -  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
@@ -82,16 +87,22 @@ output:
   
 -  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
     [Prepare in advance, but ask this as an open-ended question.]
--  [ ] **What is most surprising?**  
-    [Prepare in advance, but ask this as an open-ended question.] 
+  
+  -  [ ] **What is most surprising?**  [Prepare in advance, but ask this as an open-ended question.] 
+-  [ ] What viz option would you use to see what the most common service encounters or visits are?
+-  [ ] Are there services that have been increasing over time?
+-  [ ] Are there services that have been decreasing over time?
+
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
+-  [ ] In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
 
--  [ ] In the data tabs, you can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures from mental health assistant, and suicide and behavior risk flags.
 -  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
--  [ ] Patients with restricted access to their information have asterisks (****)
+-  [  ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
+-  [  ] What column shows you the session number (EBP template) that the patient is on?
+
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
