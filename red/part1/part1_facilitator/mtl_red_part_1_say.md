@@ -50,7 +50,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
 - It is also really demotivating to see trends we don't like, and not know what is causing the problem.
 - What we're doing today is *looking back* using the data UI.
-- We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
+### We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs. ###
 
  
 ## _MTL_ Data UI
@@ -63,10 +63,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 1. Open an internet browser window. Go to mtl.how/data_test 
 
-- We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI here today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
+- We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
    - Getting a red row-level security (RLS) error? Please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
   
-- In the left-hand navigation pane, select the appropriate consortium and VISN tabs. Then, select the 'Clinic Selections' tab.
+- In the left-hand navigation pane, select the appropriate consortium and VISN tabs. 
+- Click on the 'Clinic Selections' tab.
 
 ### 2. Select and view your local team data.
 
@@ -108,23 +109,27 @@ _**Tips & Tricks**_
    - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)?
     \(Prepare in advance, but ask this as an open-ended question\)?  
    - **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+   - What viz option would you use to see what the most common service encounters or visits are?
+   - **Are there services that have been increasing over time?**
+   - **Are there services that have been decreasing over time?** 
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:35-00:40***
-
-**Tips & Tricks**
-- To enter "Drill Up" view, right click a trend line and click "Drill Up." The "Drill Up" View shows a zoomed-out view of your team trends.
-- However, please note that the shoulders in monthly and yearly views are not meaningful since we do not have all days of observation in a month, or 12 months of   observation in each year, respectively for all of the months and years. 
-- To return to previous view, click on the forked downward arrow icon: 
-        ![image](https://user-images.githubusercontent.com/89947989/144062424-23b12423-8b8d-4972-82b0-3d5ebcbcb014.png)
+   
 
 ### 4. **Click to view the "data" tabs, which show your team's individual patient information.**
-- In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-- We can filter to find specific patients or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide the filter panel.
+
+**In the data tabs, we can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
+
+ **We can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
+  - **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
+  - **What column shows you the session number (EBP template) that the patient is on?**
+
 
 **Tips & Tricks**
- - If you do not see something that you would expect or previously saw, check to see if a filter is applied by clicking on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
-   - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses". "Diagnoses of Interest" retains all the current unordered diagnoses combinations, while "Primary Diagnoses" indicates what is the primary diagnosis. This means that if there is only one diagnosis in the "Diagnoses of Interest" column, it will still repeat what that diagnosis is in the "Primary Diagnoses" column.
- - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
+  - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
+  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
+  - If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+      - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
