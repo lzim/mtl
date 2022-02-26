@@ -175,3 +175,19 @@ We can filter to find specific patients, or produce reports by navigating to the
 - **If you don't have access to facilities that you believe you should, please verify:**
    1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
    2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined in the [linked document](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
+   
+   ## Confirming Team Clinic Selections 
+
+_After identifying the list of Clinics with the Team Lead, to make the Clinics Selections process transparent and accesible to all Team members, we will be posting them in the shared Microsoft Teams channel for confirmation._
+
+In order to make, view, and export Team Clinic Selections, 
+
+1. Go to mtl.how/data_test 
+2. In the left hand bar, click on the appropriate Consortium and then, VISN.
+3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
+4. Click 'Apply.
+5.  _*Note: If you wish to have quick access to these Clinic Selections in the future, you can make a personal bookmark to return to it. See the Facilitator One-Pager for instructions on how to make a personal bookmark._
+6. Scroll down to the bottom, until you see the **View Clinic Selections** tab in the left hand side
+7. Hover over the "Clinic Selections" heading and click on the three dots that appear. 
+8. Click "Export Data" > "Data with Current Layout" > Export 
+9. Save using our Team naming convention, and post the file on the shared Team channel for Team members to view and confirm Clinic Selections
