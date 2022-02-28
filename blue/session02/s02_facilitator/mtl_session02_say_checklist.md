@@ -78,6 +78,8 @@ output:
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
+### See SAY guide for narration details on generating file for Team (SP) Flow module 
+
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
 - [ ] The Viz tab helps us _zoom out_ and shows team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), measures, and flags from mental health assistant.
