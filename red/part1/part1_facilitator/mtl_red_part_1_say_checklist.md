@@ -64,7 +64,7 @@ output:
 - In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
 - Click on the 'Clinic Selections' tab.
 
-### See SAY guide for narration details on generating file for Team (SP) Flow module 
+### See SAY guide for narration details on making Clinic Selections for Team (SP) Flow module 
 
 ### 2. Select and View Your Local Team Data 
 
