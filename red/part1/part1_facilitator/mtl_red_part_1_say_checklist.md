@@ -100,8 +100,8 @@ output:
 -  [ ] In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
 
 -  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
--  [  ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
--  [  ] What column shows you the session number (EBP template) that the patient is on?
+-  [ ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
+-  [ ] What column shows you the session number (EBP template) that the patient is on?
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
