@@ -64,7 +64,9 @@ output:
 - In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
 - Click on the 'Clinic Selections' tab.
 
-### 2. Selecting and Viewing Your Team Data 
+### See SAY guide for narration details on generating file for Team (SP) Flow module 
+
+### 2. Select and View Your Local Team Data 
 
 - [ ] **Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).**
 
