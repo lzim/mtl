@@ -63,8 +63,11 @@ output:
 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
-- If you want to produce data for the **Team (SP) Flow module**, click on the **Team Flow Selection tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Measurement Based Stepped Care and Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **Team Flow Selection tab**, return to the "ClinicSelection" tab.
-  - If you include SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 9 months (39 weeks).*
+- Select Clinics in the **Team Flow Selection tab** to produce data tracking patients stepped up/down between your team and the one(s) you selectfor the **Team (SP) Flow module** 
+- For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in the Green column, second row.
+  - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
+  -  Click Apply. 
+
 
 _**Tips & Tricks**_
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
