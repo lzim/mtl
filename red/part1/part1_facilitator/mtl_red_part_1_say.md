@@ -76,6 +76,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
 - Clinics and data not populating? Request and verify your local server views [here](https://github.com/mnallajerla/mtl_test/blob/feature-SP_documentation_update/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
+
+- You can select Clinics in the **Team Flow Selection tab** to produce data tracking patients stepped up/down between your team and the one(s) you selectfor the **Team (SP) Flow module** 
+  - For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in the Green column, second row.
+  - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
+  -  Click Apply. 
    
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  

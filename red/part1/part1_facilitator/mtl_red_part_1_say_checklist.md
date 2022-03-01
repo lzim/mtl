@@ -64,7 +64,9 @@ output:
 - In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
 - Click on the 'Clinic Selections' tab.
 
-### 2. Selecting and Viewing Your Team Data 
+### See SAY guide for narration details on making Clinic Selections for Team (SP) Flow module 
+
+### 2. Select and View Your Local Team Data 
 
 - [ ] **Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).**
 
@@ -100,8 +102,8 @@ output:
 -  [ ] In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
 
 -  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
--  [  ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
--  [  ] What column shows you the session number (EBP template) that the patient is on?
+-  [ ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
+-  [ ] What column shows you the session number (EBP template) that the patient is on?
 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
@@ -124,3 +126,9 @@ Time Stamp | Team Learning Priorities | Script
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data. |
+
+After the Session:
+- [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
+- [ ] Export Clinic Selections from Power BI (See Red Part I Say Guide for Instructions)
+- [ ] Post Export file in the shared MS Teams Channel for the team to review and confirm selections 
+

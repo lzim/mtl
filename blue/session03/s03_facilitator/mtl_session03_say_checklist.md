@@ -65,7 +65,6 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
   - Select the **same** set of clinics in the **ClinicSelection tab** 
   - Click "Apply."
     
-### See SAY guide for narration details on generating file for Team (SP) Flow module  
  
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:35 – Select and review a *MTL* Module**
 

@@ -69,7 +69,7 @@ output:
 
 ## To make selections & view data for your Team, go through Steps #2-4.
 
-### 2. Selecting and Viewing Your Team Data 
+### 2. Select and View Your Local Team Data 
 - [ ] In the "Clinic Selections" tab, select the Division **______________**
 - [ ] Select the Clinics **_________________**  
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
@@ -77,6 +77,8 @@ output:
 - **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**  
 -  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
+
+### See SAY guide for narration details on making Clinic Selections for Team (SP) Flow module 
 
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
