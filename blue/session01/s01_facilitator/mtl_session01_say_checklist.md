@@ -27,7 +27,7 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| We joined the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision for _MTL_.| 
+| We joined the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision and Team Lead for _MTL_.| 
 ## Emphasize importance of creating a shared team vision while reviewing the learning objectives on the screen 
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
@@ -66,7 +66,22 @@ output:
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-- [ ] Select the Team Vision
+- [ ] Select the Team Vision and a Team Lead
+
+  a. You can further word-smith the Team Vision after the session if you want.
+  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
+  
+Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
+  1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data_test (the data user interface), mtl.how/sim_test (the simulation user interface); and
+  3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+ 
+ - Ideal characteristics of the Team Lead include:
+    - Having strong relationships with fellow team members;
+    - Being organized;
+    - Having basic computer knowledge (some Excel experience is good);
+    - Attention to detail; and
+    - Commitment to process improvement and the use of data to improve care.
 
 ### That's it for *Modeling to Learn* how to align our team vision! Next is our Done/Do review.  
 
@@ -75,4 +90,9 @@ output:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_live_sm.png" height = "75" width = "110">](http://mtl.how/live) We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Select a team lead and email us at mtl.help@va.gov. Log into mtl.how/data to look at the facility file. | 
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) 1. We will reach out to schedule and prep the list of Clinic Selections for Session 2 with the Team Lead, and post them for you to see on our shared MS Teams channel.  <br> 2. Confirm your Team Clinic Selections on MS Teams and go to mtl.how/data_test to see your team's data. | 
+
+After the Session:
+- [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
+- [ ] Export Clinic Selections from Power BI (See Session 1 Say Guide for Instructions)
+- [ ] Post Export file in the shared MS Teams Channel for the team to review and confirm selections 

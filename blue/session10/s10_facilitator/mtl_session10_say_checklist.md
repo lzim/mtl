@@ -52,7 +52,7 @@ Feedback | **Loop not line.** Not simple cause and effect. The end of   the stor
 System Behavior | **Movie not snapshot.** Trends over time. Systems _cause_ their own behavior through feedback.
 Time | **Short and long term.** Better understanding of change over time (e.g., worse before better, better before worse, better before a lot better, worse before a lot worse).
 
-**Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim****
+**Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim_test****
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:10-00:15 - Team's Session 06 Question** __________________
 
 - [ ] Join current session to pick up where the team left off in Session 09.
@@ -62,7 +62,7 @@ Time | **Short and long term.** Better understanding of change over time (e.g., 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20** - Team-specific **causal system story for findings** __________________
 _If you did not reset the Team World at the end of Session 9:_
 
-- [ ] Log in to mtl.how/sim and join the current session, which should be at the end of the **Experiment 2.** 
+- [ ] Log in to mtl.how/sim_test and join the current session, which should be at the end of the **Experiment 2.** 
 
 _The advantage of starting **session 10** at the end of the Experiment 2 run in the Team World, is that you can compare the **system behaviors** of Experiment 2 (the current run) against both the Base Case (alternative 1) and Experiment 1 (alternative 2)._ 
 

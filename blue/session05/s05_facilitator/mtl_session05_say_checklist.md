@@ -23,7 +23,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 – Done/Do and Learning Objectives**  
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We checked to make sure we could log in to the sim UI at mtl.how/sim.    
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We checked to make sure we could log in to the sim UI at mtl.how/sim_test.    
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: We will upload our team data to the sim UI and review our data in the Experiments section.  
 
 <!-- Learning Objectives Icon --> 
@@ -52,14 +52,14 @@ output:
 ### 1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation.  
 - [ ] Identify team lead  
 
-### 2. Let's now go back to mtl.how/data in your browser window to check the name of our team_data_table file  
-- [ ] Guide team lead to mtl.how/data and then to the team_data_table file  
+### 2. Let's now go back to mtl.how/data_test in your browser window to check the name of our team_data_table file  
+- [ ] Guide team lead to mtl.how/data_test and then to the team_data_table file  
 
 ### 3. The team data file for simulation is in our team folder, in the team_data_table folder.  
 - [ ] Navigate to the team_data_table folder and click the "dot-dot-dot" so you can copy the filename of your team_data_table  
 
 ### 4. Guide team lead to log in to the sim UI. 
-- [ ] Open a new browser window in Chrome or Edge and go to mtl.how/sim  
+- [ ] Open a new browser window in Chrome or Edge and go to mtl.how/sim_test  
 - [ ] Enter log in credentials: user name is VA email and password was provided to the team in the email sent last week.
 - [ ] Click the down-arrow in the *Please select a World* pop-up. Two options:"team" and "ind" for "individual". Since we're working together now as a team, choose the team world. If you are exploring the sim UI on your own, it's best to select your individual world.   
 - [ ] Note the SIM UI application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions  
@@ -86,7 +86,7 @@ output:
 - [ ] Select the team data you just uploaded.  
 
 - [ ] Click Play. (For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.)
-Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
+Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data_test, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
 - [ ] Note: Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the Modeling to Learn program.
 
 - [ ] Existing Patient Return-to-Clinic Visit Interval: Choose this learning mode to prioritize the Existing Patients Return-to-Clinic Visit Interval (RVI) estimated from team data, and only start new patients in remaining open slots after the existing patient RVI, appointment supply, and missed appointments are all taken into account.
@@ -135,7 +135,7 @@ Upon clicking icons like "Play," "Run," or "Reset,' a quick tip will appear on t
 
 **DO demo**
 
-- [ ] For next time, if you can, log in to to the sim UI at mtl.how/sim.
+- [ ] For next time, if you can, log in to to the sim UI at mtl.how/sim_test.
 - [ ] Remember that when you first enter your log-in credentials, you'll be able to choose between your Team world and your Individual world. If you choose your Team world, it will already have a "session" started - because we did that today when we chose the module and selected the team data file that we had added. So you will choose Join Current Session and click Play.
 - [ ] If you're ambitious to dig in and "play" in the sim, you can choose your Individual world and add the team data to the team data menu the same way we did just now. Then you can choose the module, select the data, and click Play. You can explore to your heart's content in your Individual world without worrying that you'll "break" anything or change anything for the rest of your team.
 - [ ] Whichever way you get to hitting Play from the Sim UI landing page, it will take you to the main page for the module. We encourage you to explore the interface more.
