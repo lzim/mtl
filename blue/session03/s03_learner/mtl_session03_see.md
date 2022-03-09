@@ -55,7 +55,8 @@ output:
  
 - These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn.*
 
-- At[mtl.how/data_test](https://mtl.how/data_test), click on **"Data UI (Team Data)"**. In the Dropdown menu that appears, click on the  **ClinicSelection tab**. 
+- At[mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
+- Click on the  **ClinicSelection tab**. 
 - Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. 
 - In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_ to review team data estimates to the related common care problems mentioned above. 
 - Then, click "Apply". 
