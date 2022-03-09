@@ -57,9 +57,9 @@ output:
 ### Produce tabs of descriptive team data:
 - At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
 - Click on the  **ClinicSelection tab**.
-- Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. 
-- In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_.
-- Then, click "Apply".  
+     - Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. 
+     - In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_.
+- Click "Apply".  
 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_team_data_landing_page.gif?raw=true)](#DontLink)
