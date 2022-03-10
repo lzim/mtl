@@ -81,7 +81,7 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 
 **New in _MTL_ 2.5** 
 - We are now able to support Clinical Resource Hub providers in the Data UI to create a more accurate and localized set of clinics. 
--  _MTL_ 2.5 now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
+-  _MTL_3.0now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
