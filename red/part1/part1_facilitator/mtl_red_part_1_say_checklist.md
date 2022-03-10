@@ -125,7 +125,7 @@ Time Stamp | Team Learning Priorities | Script
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc and SP tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc andTeam (SP) Flowtabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data. |
 
 After the Session:
 - [ ] Schedule Meeting with Team Lead & Make Clinic Selections 

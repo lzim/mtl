@@ -27,4 +27,4 @@ This module shows the interactions between all services offered by your team. It
 
 - **Measurement-based Stepped Care for Suicide Prevention (SP)**
 This module shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
-  - [*MTL 2.0* release of the SP Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
+  - [*MTL 2.0* release of theTeam (SP) FlowVensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
