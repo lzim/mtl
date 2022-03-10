@@ -27,7 +27,7 @@ output:
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data_test to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data_test) We will confirm the clinics that make up our team for the Team Data UI. We will confirm and review Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data_test to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data_test) We will confirm the clinics that make up our team for the Team Data UI. We will confirm and review Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -50,7 +50,7 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 ### 1. Open an internet browser window. Go to mtl.how/data_test. 
 - Select the "Data UI (Viz)" Panel and then the "Clinic Selections" panel. 
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
 ## To make selections & view data for your Team, go through Steps #2-4. 
 
@@ -65,7 +65,7 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
   - Note: The filters in the light blue and dark blue columns *only* apply to the green Clinics column. You MUST make selections and click "Apply" in the "Select Clinics to Generate Report Data" column to generate your data. (By default, the data and viz tabs are set to show all data for all sta3ns and clinics.)
 
  
-[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
+[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink)
 
 **_MTL_ 2.5.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
@@ -79,16 +79,16 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
 - To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
 [![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_focus_mode_data_tabs.gif?raw=true)](#DontLink)
 
-**New in _MTL_ 2.5** 
+**New in _MTL_ 3.0** 
 - We are now able to support Clinical Resource Hub providers in the Data UI to create a more accurate and localized set of clinics. 
--  _MTL_3.0now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
+-  _MTL_3.0 now has 5 Data Tabs and 5 Viz Tabs to help zoom in or zoom out of a patient or team trend:
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
    - Encounters \(Enc\),
    - Measurement Based Stepped Care and Suicide Prevention\(SP\) and
    - (New!) Suicide and Behavior Risk Flags \(Flag\) - We've added this so staff can pay close attention to behavioral and suicide risk.
 
-[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
+[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink)
 
 - **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click the [link](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) to access the document through VA intranet.
    - Clinical Resource Hub Providers are granted to multiple local server access.
@@ -106,7 +106,7 @@ We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we 
      - Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual".
 
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_viz_tabs.gif?raw=true)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
 For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)
 
@@ -130,7 +130,7 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
  - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
 
 
@@ -141,11 +141,11 @@ For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/sessi
 
 **With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.**
 
-**MTL 2.5**
+**MTL 3.0**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We confirmed the clinics that make up our team for the Team Data UI. We confirmed and reviewed data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc,Team (SP) Flowand Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We confirmed the clinics that make up our team for the Team Data UI. We confirmed and reviewed data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_eraser_reset.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Review the HF, Diag, Enc,Team (SP) Flowand Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
