@@ -51,8 +51,8 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v2
       with:
 
-          find: " 2.0 "
-          replace: " 3.0 "
+          find: " 2.5 "
+          replace: "3.0"
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 
