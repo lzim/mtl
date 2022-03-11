@@ -12,7 +12,7 @@ output:
   slidy_presentation: default
   powerpoint_presentation: default
 ---
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s05_teamworld_title.png"
+[<img src = "https://github.com/lzim/teampsd/master/resources/title_slides/mtl_s05_teamworld_title.png"
      height = "175" width = "420">](#DontLink)  
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
@@ -22,7 +22,7 @@ output:
 
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
+| [<img src = "https://github.com/lzim/teampsd/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
 | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data table to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| 
 
@@ -153,7 +153,7 @@ output:
    
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_learning_mode.gif)](#DontLink)
 
-   - Upon clicking icons like "Play," "Run," or "Reset,' a quick tip will appear on the loading screen on different functions in the sim UI.
+   - Upon clicking icons like "Play," "Run," or "Reset,' a **Quick Tip** will appear on the loading screen on different functions in the sim UI.
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_quick_tips.gif)](#DontLink) 
 
@@ -170,11 +170,11 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
     - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
     - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
     
-[![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_sp_i_information.gif)](#DontLink) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_sp_i_information.gif)](#DontLink) 
 
 **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
 
-[![](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) 
 
 **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
 
@@ -200,4 +200,4 @@ For *MTL* 1.7 click [here](https://github.com/lzim/mtl/blob/master/release_1.7/m
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_test.png" height = "75" width = "110">](http://mtl.how/data_test) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim_test.png" height = "75" width = "110">](http://mtl.how/sim_test) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/master/resources/gifs/mtl_3.0/session2_data_ui_2.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/master/release_2.0/mtl_session05_see.md)**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/master/release_2.0/mtl_session05_see.md)**| 
