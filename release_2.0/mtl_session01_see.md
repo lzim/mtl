@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1 - Learner See"
 author: "Team PSD"
-date: "January 2022"
+date: "March 2020"
 release: "MTL 2.0"
 output: 
   github_document: default
@@ -87,7 +87,7 @@ d. Can we address them all (bearing in mind our resources and time)?
 
 e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (5 minutes)
+### 5. Putting it Together (10 minutes)
 
 Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
@@ -101,37 +101,10 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision and a Team Lead (5 minutes)
-
-- To wrap up, let's home in on our Team Vision
-
-  a. You can further word-smith the Team Vision after the session if you want.
-  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
-  
-- Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
-
-  1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-
-  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
-
-  3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
-
-    - Ideal characteristics of the Team Lead include:
-
-       - Having strong relationships with fellow team members;
-
-       - Being organized;
-
-       - Having basic computer knowledge (some Excel experience is good);
-
-       - Attention to detail; and
-
-       - Commitment to process improvement and the use of data to improve care.
+### 6. Select the Team Vision and a Team Lead
 
 ## Done and Do (15 minutes)
-
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-|--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lijenn/mtl/blob/master/release_1.7/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will confirm and review Team Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif?raw=true)](#DontLink)**_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lijenn/mtl/blob/master/release_1.7/s02_learner/mtl_session02_see.md)**|
+| --- | --- |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout _MTL_. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Go to mtl.how/data to look at the facility file. [![data ui login screencast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink) **_MTL_ 2.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session01_see.md)**|
