@@ -27,7 +27,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in to our individual world at mtl.how/sim_test and refined the question and hypothesis we entered during the session about the Base Case (bc) run in the Text section. [![sim ui text fields screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_text_fields.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We will review the _MTL_ sim UI Outputs and Text section and run a bc simulation. [![sim ui output text section screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_outputs_text_section.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in to our individual world at mtl.how/sim_test and refined the question and hypothesis we entered during the session about the Base Case (bc) run in the Text section. [![sim ui text fields screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_text_fields.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We will review the _MTL_ sim UI Outputs and Text section and run a bc simulation. [![sim ui output text section screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_outputs_text_section.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)** |
 
 **After this session you’ll be able to:**
 
@@ -48,7 +48,7 @@ output:
 
 1. Log in to your team world at mtl.how/sim_test.  
 
-    [![sim ui 1 screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_1.gif)](#.)
+    [![sim ui 1 screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#.)
   **_MTL_ 3.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  
 
 2. *Join Current Session* to pick up where the team left off.  
@@ -63,7 +63,7 @@ output:
 
 4. Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new changes are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.  
 
-    [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_bc_qh.gif)](#.)  
+    [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_bc_qh.gif)](#.)  
   **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  
   
 5. Run; then Save (without resetting) the run with the name Base Case.  
@@ -89,4 +89,4 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We entered our Question, Hypothesis, Findings and Decisions for our base case (bc) run in the Q/H/F/D boxes of the Outputs and Text section. [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_bc_qh.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Log in to mtl.how/sim_test and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. [![sim ui outputs section screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_outputs_text_section.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We entered our Question, Hypothesis, Findings and Decisions for our base case (bc) run in the Q/H/F/D boxes of the Outputs and Text section. [![sim ui base case screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_bc_qh.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Log in to mtl.how/sim_test and explore the results of the bc run in the Results Dashboard of the Outputs and Text section to prepare for experiment 1. [![sim ui outputs section screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_outputs_text_section.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session07_see.md)**  |
