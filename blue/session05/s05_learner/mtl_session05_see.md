@@ -44,12 +44,12 @@ output:
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
 ## Check the name of your team data file.
-1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
-2. Let's now go back to mtl.how/data_test in any browser window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
-  - Copy the name of the team data file.
 
-[![screencast](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
+1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
+2. Let's now go back to [mtl.how/data](mtl.how/data) in any browser window to check the name of our team data file.
+3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
+
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/data_ui_login.gif)](#DontLink)
 
 **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
 
@@ -62,7 +62,7 @@ output:
     - A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
     - Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
 
-[![screencast](https://raw.githubusercontent.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) 
+[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) 
 
 **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
 
