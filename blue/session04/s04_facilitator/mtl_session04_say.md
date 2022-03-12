@@ -110,7 +110,7 @@ There are currently 5 _MTL_ modules available for teams to focus on in sessions 
 ## DO demo
 
 1. For the next 5 sessions, we will use the _Modeling to Learn_ Simulation User Interface, or sim UI.
-2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
+2. Remember, all the _MTL_ resources can be accessed from your home base at mtl.how/test if you forget a specific link. But to go directly to the log-in page for the sim UI, just type mtl.how/sim into your browser.
 3. The sim UI does not work on the Internet Explorer, please use any of the other available browsers such as Edge, Chrome, FireFox, or Safari via desktop or mobile.
 4. The sim UI is designed for use with a variety of devices, from large-monitor desktops to tablets and smartphones. The view adjusts for different sizes and aspect ratios so you may notice some slight variations in how it looks, but the basic functionality is the same on all of them.
 5. To log in to the sim UI, you will need your username and password. Once you enter your credentials, you'll be asked to select a World, and you'll see 2 options in the drop-down menu: a team world and an individual world. We'll describe these more next time. For now you should choose the one that ends with "ind" for individual. Click Log In, and check out the *MTL* sim UI landing page.
