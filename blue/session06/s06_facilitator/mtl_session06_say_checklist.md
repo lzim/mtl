@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "Edited August 27, 2019 byTeam (SP) Flow& JF | RH Jan 24 2020 | Edited by Anthony 5 February 2020 | RH Feb 18 2020 | RH March 2 2020"
+date: "RH March 2 2020"
 release: "MTL 1.8"
 output: 
   github_document: default
