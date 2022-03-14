@@ -1,6 +1,6 @@
-# mtl 2.0
+# mtl 3.0
 
-## Modeling to Learn by Team PSD - Release 2.0
+## Modeling to Learn by Team PSD - Release 3.0
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png"
      height = "175" width = "650">
@@ -11,7 +11,7 @@
   - (part 1): Session 10 fidelity checklist components:
   - (part 2): List of links for *MTL* resources use in session 10
     - mtl.how/live
-    - mtl.how/sim_test
+    - mtl.how/sim
   - (part 3): .bibtex file for references; link to public Zotero library for *MTL*
 2. **s10_learner:**
    - Learner SEE Guide - Learning objectives and exercises for session 10
