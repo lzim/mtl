@@ -23,7 +23,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc andTeam (SP) Flowtabs in your team data to find a patient and a team trend. We opened mtl.how/data_test in a browser and looked at the two team folders: data UI and team data table.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc and Team (SP) Flow tabs in your team data to find a patient and a team trend. We opened mtl.how/data_test in a browser and looked at the two team folders: data UI and team data table.  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
 Do: We will produce a team data table for the _MTL_ simulation user-interface (sim UI).
 
@@ -64,7 +64,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
     -- [ ] Select a set of clinics in **ClinicSelection tab**.  
     -- [ ] Click "Apply."
     
-### *Coming Soon* See SAY guide for narration details on generating file forTeam (SP) Flowmodule  
+### *Coming Soon* See SAY guide for narration details on generating file for Team (SP) Flow module  
  
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:35 – Select and review a *MTL* Module**
 
