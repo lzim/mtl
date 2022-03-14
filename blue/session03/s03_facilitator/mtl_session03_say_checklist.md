@@ -23,7 +23,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: Reviewed the HF, Diag, Enc,Team (SP) Flowand Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out). 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: Reviewed the HF, Diag, Enc, Team (SP) Flow and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out). 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
 Do: We will examine team data and produce team data for the _MTL_ simulation user-interface (sim UI).  
 
