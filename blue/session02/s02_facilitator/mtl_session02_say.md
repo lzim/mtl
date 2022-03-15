@@ -60,7 +60,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ## Let's get started!
 
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:20___
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ___00:15-00:25___
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
