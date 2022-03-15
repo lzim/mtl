@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 02 - Facilitator Say"
 author: "Team PSD"
-date: "January 2022"
-release: "MTL 2.5"
+date: "March 17 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -17,7 +17,7 @@ output:
 
 # MTL Live Session 02
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Session 2 at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
+Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Navigating to the Learner See Guide for Part I at mtl.how, we see that today we're modeling to learn how to check our patient data and team trends.
 
 ## Done and Do
 
@@ -55,7 +55,6 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ## We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs. ##
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
-
  
 ## _MTL_ Data UI
 
@@ -86,14 +85,15 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
   - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
   -  Click Apply. 
    
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
 _**Tips & Tricks**_
 - To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
 - To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
-- To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
+- To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. 
+   - Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
        
 ### 3. **Click to view the "viz" tabs, which show team trends.**
 
@@ -102,17 +102,16 @@ _**Tips & Tricks**_
 - Your team's vision was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
 - Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
-    - **Tip:** If you do not see something that you would expect or previously saw, check to see if a filter is applied. Click on the **funnel icon** in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
-
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
-- **What stands out to you about \________________________________**\(fill-in team vision\)? - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)? \(Prepare in advance, but ask this as an open-ended question\)?  
-- **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+- **What stands out to you about \________________________________**\(fill-in team vision\)?
+- **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)? \(Prepare in advance, but ask this as an open-ended question\)?  
+- **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)
 - **What viz option would you use to see what the most common service encounters or visits are?**
 - **Are there services that have been increasing over time?**
--  **Are there services that have been decreasing over time?** 
+- **Are there services that have been decreasing over time?** 
 
 _**Tips & Tricks**_
 - Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
@@ -131,13 +130,6 @@ We can filter to find specific patients, or produce reports by navigating to the
   - **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
   - **What column shows you the session number (EBP template) that the patient is on?**
 
-
-**Tips & Tricks**
-  - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
-  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
-  - If you do not see something that you would expect or previously saw, check to see if a filter is applied.
-      - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
-
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:40-00:50***
 
    \(During intersession prep, facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.\)
@@ -148,11 +140,13 @@ We can filter to find specific patients, or produce reports by navigating to the
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) Keep an eye on    time | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
    |  |  |
 
-   - What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the (EBP Template) session number that the patient is on.
-   - What **viz** tab would you use to see what the most common service encounters or visits are?
-   - Are there services that have been **increasing over time?**
-   - Are there services that have been **decreasing over time?**
-   - With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
+_**Tips & Tricks**_
+  - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
+  - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
+  - If you do not see something that you would expect or previously saw, check to see if a filter is applied.
+      - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
+
+## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 **That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review.**
 
