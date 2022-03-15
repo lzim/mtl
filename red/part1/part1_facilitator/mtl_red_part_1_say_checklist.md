@@ -40,7 +40,7 @@ output:
 
 ## Start in-session exercise.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 ## Participatory Learning from Data
 - [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
 - [ ] We use the data user interface (UI) to:
@@ -50,7 +50,7 @@ output:
 ## We zoom in on a particular Veteran's care in the data tabs, then we can zoom out see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:25___
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
@@ -84,7 +84,7 @@ output:
 
 -  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:15-00:20***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
 -  [ ] **What stands out to you about _____________________________ [fill-in team vision]?**  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
@@ -95,7 +95,7 @@ output:
 -  [ ] **Are there services that have been increasing over time?**
 -  [ ] **Are there services that have been decreasing over time?**
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:40***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
 -  [ ] **In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.**
@@ -104,7 +104,7 @@ output:
 -  [ ] **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
 -  [ ]**What column shows you the session number (EBP template) that the patient is on?**
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
 
 (During intersession prep, facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.)
 Time Stamp | Team Learning Priorities | Script 
@@ -116,7 +116,7 @@ Time Stamp | Team Learning Priorities | Script
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
-## Done and Do (15 minutes)
+## Done and Do (10 minutes)
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
