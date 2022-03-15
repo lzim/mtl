@@ -50,7 +50,7 @@ output:
 
 ## *MTL* Data UI
 
-### 1. Open an internet browser window. Go to mtl.how/data_test.  
+### 1. Open an internet browser window. Go to mtl.how/data.  
 - In the left-hand navigation pane, select your consortium and VISN.
 - Click on the 'Clinic Selections' tab.
 - Row-level security error? Please email your facilitator at MTL.Help@va.gov. 
