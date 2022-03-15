@@ -31,14 +31,14 @@ output:
 <!-- Learning Objectives Icon --> 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-## Learning Objectives for Part I
+## Learning Objectives
 1. Describe the decisions your team made in producing your team data.
 2. Test whether team historical trends shown in the "viz" tabs reflect your expectations.
 3. Apply your clinical expertise to identify new information about a team patient in the "data" tabs.
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:15___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___Done by 00:10___
 
-## Start in-session exercise. Note the goal is to become familiar with *MTL* data user interface (data UI) that looks back over 2 years of team data.
+## Start in-session exercise.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:20___
 ## Participatory Learning from Data
@@ -47,10 +47,10 @@ output:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
 * Reviewing trends: may like or not like the trends; may not know what is causing those trends; may be afraid that the next change we might make will undo it. 
-
+## We zoom in on a particular Veteran's care in the data tabs, then we can zoom out see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:20-00:25___
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
@@ -84,27 +84,25 @@ output:
 
 -  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:30***
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:15-00:20***
 -  [ ] **What stands out to you about _____________________________ [fill-in team vision]?**  
   
 -  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
     [Prepare in advance, but ask this as an open-ended question.]
   
   -  [ ] **What is most surprising?**  [Prepare in advance, but ask this as an open-ended question.] 
--  [ ] What viz option would you use to see what the most common service encounters or visits are?
--  [ ] Are there services that have been increasing over time?
--  [ ] Are there services that have been decreasing over time?
-
+-  [ ] **What viz option would you use to see what the most common service encounters or visits are?**
+-  [ ] **Are there services that have been increasing over time?**
+-  [ ] **Are there services that have been decreasing over time?**
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:30-00:35***
 
 ### 4. Click to view the "data" tabs, which show your team's individual patient information.  
--  [ ] In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
+-  [ ] **In the data tabs, we can zoom in on specific veterans. Patient information corresponds to the same categories as the team trends: diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.**
 
 -  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
--  [ ] What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?
--  [ ] What column shows you the session number (EBP template) that the patient is on?
-
+-  [ ] **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
+-  [ ]**What column shows you the session number (EBP template) that the patient is on?**
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:35-00:45***  
 
@@ -114,10 +112,7 @@ Time Stamp | Team Learning Priorities | Script
 **Prioritize which questions you will use given this team's guiding vision.** |  |  |   
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Keep an eye on time  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 
--  [ ] What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on.  
--  [ ] What **viz** tab would you use to see what the most common service encounters or visits are?  
--  [ ] Are there services that have been **increasing over time?** 
--  [ ] Are there services that have been **decreasing over time?**  
+## With the team trends (viz) and team patient (data) information in your data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
@@ -131,4 +126,3 @@ After the Session:
 - [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
 - [ ] Export Clinic Selections from Power BI (See Red Part I Say Guide for Instructions)
 - [ ] Post Export file in the shared MS Teams Channel for the team to review and confirm selections 
-
