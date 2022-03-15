@@ -45,10 +45,10 @@ output:
 
 **_Modeling to Learn_** can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
 
-- We use the data user interface (UI) to look back at team trends over the past two years to see *what is* in our team now.
-- Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
-- It is also really demotivating to see trends we don't like, and not know what is causing the problem.
-- What we're doing today is *looking back* using the data UI.
+- [ ] We use the data user interface (UI) to look back at team trends over the past two years to see *what is* in our team now.
+- [ ] Even when we see trends that we like, we may not know what is causing those trends. And, we may be afraid that the next change we might make will undo it.
+- [ ] It is also really demotivating to see trends we don't like, and not know what is causing the problem.
+- [ ] What we're doing today is *looking back* using the data UI.
 
 ## We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we can **zoom out** see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs. ##
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
