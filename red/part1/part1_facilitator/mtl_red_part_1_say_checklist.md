@@ -1,8 +1,8 @@
 ---
 title: "MTL Red Part 1 - Facilitator Say"
 author: "Team PSD"
-date: "January 2022"
-release: "MTL 2.5"
+date: "March 17 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -20,7 +20,7 @@ output:
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 
-- [ ] Navigate to the Learner See Guide for Part I to show Done and Do
+- [ ] Navigate to the Learner See Guide for Session 2 to show Done and Do
 
 ## Done and Do
 <!-- Do/Done Tables -->
@@ -41,13 +41,15 @@ output:
 ## Start in-session exercise.
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:10-00:15___
-## Participatory Learning from Data
-- [ ] How *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from data.
+## Participatory Learning from Simulation
+- [ ] Graphic: how *MTL* can help us to get more of our Veterans to the right care in the right time to meet their needs using participatory learning from simulation.
 - [ ] We use the data user interface (UI) to:
 	- look back at team trends over the past two years.
 	- review the last two years of data to see *what is* in our team now.
+		* Backward looking data review is limited for guiding effective change.
 * Reviewing trends: may like or not like the trends; may not know what is causing those trends; may be afraid that the next change we might make will undo it. 
-## We zoom in on a particular Veteran's care in the data tabs, then we can zoom out see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
+- [ ] Review use of sim UI – to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make. 
+<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90" style ="display: inline-block"/> 
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ___00:15-00:25___
