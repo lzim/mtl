@@ -82,7 +82,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
   - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
   -  Click Apply. 
    
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics. We shared these with you on our shared Teams Channel**
+- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial list of Clinics.**
 - **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
 - **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?** 
 
@@ -103,9 +103,9 @@ _**Tips & Tricks**_
 
    [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontLink) ***00:25-00:35***
 
-- **What stands out to you about \________________________________**\(fill-in team vision\)? 
+- **What stands out to you about \________________________________**\(fill-in team vision\)?
 - **What is most important to you to check out first related to \________________________________**\(fill-in team vision\)? \(Prepare in advance, but ask this as an open-ended question\)?  
-- **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)?
+- **What is most surprising?** \(Prepare in advance, but ask this as an open-ended question\)
 - **What viz option would you use to see what the most common service encounters or visits are?**
 - **Are there services that have been increasing over time?**
 - **Are there services that have been decreasing over time?** 
