@@ -2,7 +2,7 @@
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
 date: "February 2021"
-release: "MTL 2.0"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -27,7 +27,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will examine team data and produce team data for the MTL simulation user-interface (sim UI).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We reviewed the HF, Diag, Enc, Team (SP) Flow and Flag tabs in Team Data UI to find a patient (zoom in) and found a team trend (zoom out).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will examine team data and produce team data for the MTL simulation user-interface (sim UI).   **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
 
 **After this session you will be able to:**
 
@@ -53,8 +53,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 ### Navigate to the data UI at mtl.how/data.
 
 - You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
-- On the Data UI Landing page, click on "Data UI (Team Data)." 
-- You should see two tabs with dropdown menus: "Data UI (Data & Viz)" and "Data UI (Team Data)."  Click on **"Data UI (Team Data)."**
+- Click on your Consortium and VISN.
 - Click on the  **ClinicSelection tab**. 
 
 ###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
@@ -65,7 +64,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
-  - Measurement-based stepped care and suicide prevention (SP)
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 - These **Team Data** we are viewing today are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data.
 
 - The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
@@ -75,11 +74,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
 - In the event they do not, to make clinic selections yourself:
   - Select a set of clinics in the **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
-  
-  *Coming Soon!* 
-  - Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
-  - Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
-  - If you included SP in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
+
 
 
 ### 1. Select a module for review
@@ -90,7 +85,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - *Medication Management (MM)*: Key variables of interest in MM may include median engagement in weeks, appointment supply in appointments per week, return visit interval in weeks, starting rate in patients per week, and slots allocation percent for providers with and without an X waiver.
 - *Psychotherapy (PSY)*: Key variables that can be explored in PSY include median engagement duration and engagement after the patient's first 3 months measured in weeks, appointment supply by service type (AUD, DEP, OUD, PTSD) within 3 months, and return visit interval after 3 months in weeks.
 - *Team (AGG) Care*: Key variables in Team Care include median engagement in weeks, appointment supply by service type, return visit interval in weeks, new patient start rate (mean), and service proportions from team data.
-- *Coming Soon!* *Measurement-based stepped care and suicide prevention (SP)*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
+- *Coming Soon!* *Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention*: In SP, key variables of interest may include high risk flag rates, engagement times before ending treatment in a specific setting, engagement time before stepping down or up between care settings, wait times, and the ratio of high to low symptom patients in each setting.
 
 Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.
 
