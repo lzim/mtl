@@ -42,51 +42,40 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data table to identify team priorities for learning.
 
-## In-session Exercise (30 minutes)
-
 ## Let's get started!
+
+As the graphic illustrates, we use the data UI to look back at team trends over the past two years - *what is*
 
 **Who would like to "drive" today?** \[Recommend the Team Lead\]
 
-### Navigate to the data UI at mtl.how/data
+## In-session Exercise (30 minutes): Team data table 
 
-- You'll log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
-- Scroll down to your team folder. You should have two folders: data_ui and team_data_table. Click on the "data_ui" folder and open the Excel file.
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### Clicking the "Create Team Data Table" button produces a table of descriptive team data.
+### Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs. 
 
-### You already have a fresh Team Data Table file to work with in the team_data_table folder.
+### In today's session, we will make ClinicSelections to review team data estimates related to common care problems
 
-- It takes some time to generate a team data table for all modules using your team's data.  
+- These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn,* each stored in their own _Modeling to Learn_ tabs:
+  - Care Coordination (CC)
+  - Medication Management (MM)
+  - Psychotherapy (PSY)
+  - Team (AGG) Care
+  - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
 
-- On average (depending on the size of your team) it may take 15 minutes or so to generate a team data table. And, Microsoft Excel will be unresponsive until it is finished.  
+### To produce tabs of descriptive team data:
+- At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
+- Click on the  **ClinicSelection tab**.
+     - Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. 
+     - In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_.
+- Click "Apply".  
 
-- This is a different table from the one you generated last time by selecting the clinics that make up your team and then clicking "Get *Patient Level* Data."  
+###  Once we make Clinic Selections & click the "Apply" button, we produce tabs of descriptive team data.
 
-- Data in this file are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*.  
+- The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
+  - In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
+  - For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
-- There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
-  - Care Coordination (CC) - tab title *CCParams*
-  - Medication Management (MM) - tab title *MMParams*
-  - Psychotherapy (PSY) - tab title *PSYParams*
-  - Aggregate mix of services (AGG) - tab title *AggParams*
-  - Measurement Based Stepped Care and Suicide Prevention (SP) - tab title *SPParams*  
-
-- The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.  
-
-  - In order to capture parameters that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).  
-  
-  - For parameters that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.  
-
-- We have already produced a team data table for you, but to do it yourself:
-  - Select a set of clinics in **ClinicSelection tab** similar to what you did last session. In the future, you can pull up the same clinics used last time for creating the team data table by clicking on the gray "Get previous clinic list from Create Team Data Table file" button (Cell B4) to add them column A.
-  - Additionally, if you want to produce team data for the **SP module**, click on the **SPReferrals tab**. Use this tab to select clinics that your team refers to/receives referrals from for the Suicide Prevention module. The data pull will track patients stepped up/down between your team and the one(s) you select. For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in Column A. Once you have selected referral clinics in the **SPReferrals tab**, return to the "ClinicSelection" tab.
-  - Click on the module drop-down. You can choose any module individually (CC, MM, PSY, AGG, SP), all modules without SP, or all modules including SP. If you are choosing "SP" or "all with SP", make sure to do the previous steps using the **SPReferrals tab**.
-  - Click on "Create Team Data Table".
-  - If you included Team (SP) Flow in the module selection, three pop-ups will appear for the three possible care settings (GMH, SMH, PC/PCMHI) to indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in weeks. The default threshold is 39 weeks (9 months).*
-  - The team_data_table file you generate will automatically be saved into the team_data_table folder. Regardless of the module selection you make, the team_data_table file will include all five module tabs and labels, but will populate zeroes ("0") for all parameters of  modules that were **not** selected.  
-
-- Navigate back to your team folder at mtl.how/data. Click on the "team_data_table" folder and open the Excel file to find the team data table already produced for you.
 
 ### 1. Select a module for review
 
