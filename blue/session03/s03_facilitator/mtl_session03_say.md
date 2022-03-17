@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 3 - Facilitator Say"
 author: "Team PSD"
-date: "February 2021"
+date: "March 2022"
 release: "MTL 3.0"
 output: 
   github_document: default
@@ -50,31 +50,30 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### Navigate to the data UI at mtl.how/data.
+### Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs. 
 
-- You may need to log in with your VA credentials and you should have all the same permissions here as you do in general for your role in the VA.
-- Click on your Consortium and VISN.
-- Click on the  **ClinicSelection tab**. 
+### In today's session, we will make ClinicSelections to review team data estimates related to common care problems
 
-###  When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
-
-- Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs.
-- In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
+- These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn,* each stored in their own _Modeling to Learn_ tabs:
   - Care Coordination (CC)
   - Medication Management (MM)
   - Psychotherapy (PSY)
   - Team (AGG) Care
   - Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
-- These **Team Data** we are viewing today are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. Later on, we will upload this file to the sim UI so that it can *read in* these data.
+- Later on, we will upload this file to the sim UI so that it can *read in* these data.
+
+### Produce tabs of descriptive team data:
+- At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
+- Click on the  **ClinicSelection tab**.
+     - Your Team's Clinic Selections from the previous session should auto-populate in the **ClinicSelection** tab. 
+     - In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Session 2 of _Modeling to Learn_.
+- Click "Apply".  
+
+###  Once you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
 
 - The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
   - In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
   - For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
-
-- The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
-- In the event they do not, to make clinic selections yourself:
-  - Select a set of clinics in the **ClinicSelection tab** similar to what you did last session. These selections **must be the same** as last time, so we know that we are zooming in and out on the **same** set of data. 
-
 
 
 ### 1. Select a module for review
