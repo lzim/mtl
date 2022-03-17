@@ -1,8 +1,8 @@
 ---
-title: "MTL Red Part 1 - Facilitator Say Checklist"
+title: "MTL Red Part 2 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "January 2022"
-release: "MTL 2.5"
+date: "March 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -31,6 +31,7 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
 ## Learning Objectives for Part II
+
 1. Describe your team trends over the last two years based on the estimates in the team data.
 2. Test out your understanding of how the team data is estimated through review of the descriptions and definitions. 
 3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
@@ -39,31 +40,29 @@ Do: We will produce a team data table for the _MTL_ simulation user-interface (s
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
 - [ ] We will use the data UI to look back at team trends over the past two years - *what is* 
 
-
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
+### Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs. 
 
-### 1. Navigate to the data UI at mtl.how/data_test. Click on your Consortium and VISN.
-- [ ] Data UI on VA's secure Power BI site; works on any browser.
-- [ ] You must have your PIV card engaged and you should have all the same permissions to access the site. 
-
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
-
-### 2. When you make Clinic Selections & click the "Apply" button, it produces tabs of descriptive team data.
-
+### 1. In today's session, we will make ClinicSelections to review team data estimates related to common care problems
 - [ ] Data in the "Team Data" tab are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
-- [ ] There are team data produced for each module of *Modeling to Learn*, each stored in its own tab:
+- [ ] In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
    + Care Coordination (CC) - tab title *Care Coordination (CC)*
    + Medication Management (MM) - tab title *Medication Management (MM)*
    + Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
    + Team (Aggregate) Care - tab title * Team (AGG) Care*
-   + *Coming Soon!* Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *SPParams*
+   + Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow*
 
-- The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
-- In the event they do not, to make clinic selections yourself:
-  - Select the **same** set of clinics in the **ClinicSelection tab** 
-  - Click "Apply."
-  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
+
+### 2. To produce tabs of descriptive team data:
+
+- [ ] At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
+- [ ] Click on the  **ClinicSelection tab**.
+     - The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
+     - In the event they do not, select the **same** set of clinics from the previous session
+ - [ ] Click "Apply."
+    
  
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:35 – Select and review a *MTL* Module**
 
