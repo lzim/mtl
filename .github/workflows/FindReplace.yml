@@ -51,8 +51,8 @@ jobs:
       uses: jacobtomlinson/gha-find-replace@v2
       with:
 
-          find: "Go to mtl.how/data_test."
-          replace: "Go to mtl.how/data."
+          find: " 2.5 "
+          replace: "3.0"
           regex: false
           exclude: "**/*.yml"
           # search returns only committed file by user 

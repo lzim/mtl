@@ -7,7 +7,7 @@
 
 ### In this folder are the five simulation modules of *Modeling to Learn.*
 
-The version 2.0 release encompasses changes explicitly requested by users (i.e., adding experiments, like the ability to implement an Intensive Outpatient Program in psychotherapy) and updates necessary to improve the user interface (under the hood changes to enable new features, like experimenting quarter by quarter). While these changes improve the usability of the models through Forio, some of them make the models harder to understand in Vensim (removing all subscripts to accommodate Gaming variables). If you want to delve into the models in Vensim, then we suggest first exploring v1.7 before opening the most recent version.
+The version 3.0 release encompasses changes explicitly requested by users (i.e., adding experiments, like the ability to implement an Intensive Outpatient Program in psychotherapy) and updates necessary to improve the user interface (under the hood changes to enable new features, like experimenting quarter by quarter). While these changes improve the usability of the models through Forio, some of them make the models harder to understand in Vensim (removing all subscripts to accommodate Gaming variables). If you want to delve into the models in Vensim, then we suggest first exploring v1.7 before opening the most recent version.
 
 - **Care Coordination (CC)**
 This module shows how a variety of team decisions interact to impact multiple outcomes at the same time. You can explore trade-offs between decisions such as desired new patient wait times, current patient return visit intervals, and overbooking and how they affect team outcomes like total missed appointments, number of patients in care, and number of patients completing care.
@@ -27,4 +27,4 @@ This module shows the interactions between all services offered by your team. It
 
 - **Measurement-based Stepped Care for Suicide Prevention (SP)**
 This module shows the effects of measurement based stepped care on patients' symptoms and risk. It allows you to explore the impacts of implementing measurement based care to reduce delays in detecting patients at high risk for suicide, and to improve the quality of care by making better team decisions about when to step patients up to a higher level of care, or step them down to a lower level of care. It is also possible to experiment with team decisions related to new patient wait-times and access, the use of community care, and the impacts of provider overwork and burnout on the quality of care.
-  - [*MTL 2.0* release of the SP Vensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)
+  - [*MTL 2.0* release of theTeam (SP) FlowVensim DSS model (.mdl)](https://github.com/lzim/mtl/tree/master/blue/mtl2.0_models)

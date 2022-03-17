@@ -2,7 +2,7 @@
 title: "MTL Session 04 - Facilitator Checklist"
 author: "Team PSD"
 date: "January 2022"
-release: "MTL 2.5"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -67,15 +67,15 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
   + Medication Management (MM)  
   + Psychotherapy (PSY)  
   + Team (AGG) Care 
-  + Measurement-based stepped care and suicide prevention (SP)  
+  + Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention  
   
   ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:50-01:00 – Done/Do**  
 
 ### That's it for _Modeling to learn_ how to prioritize team needs.  Let's review the Done/Do.
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), suicide prevention (SP) or aggregate (AGG).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), Team (SP) Flow or aggregate (AGG).  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim_test.  
 
 ### DO demo
 - [ ] Note use of the _Modeling to Learn_ Simulation User Interface, or sim UI, for sessions 5 to 10.
