@@ -61,7 +61,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. Open an internet browser window. Go to mtl.how/data_test 
+### 1. Open an internet browser window. Go to mtl.how/data
 
 - We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
    - Getting a red row-level security (RLS) error? Please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
@@ -157,7 +157,7 @@ _**Tips & Tricks**_
 ## DO demo
 
 1. **We encourage you to look around in your team data before next time.**
-2. **Go to mtl.how/data_test and open the team data in Power BI.**
+2. **Go to mtl.how/data and open the team data in Power BI.**
 3. **Review your individual patient data and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
@@ -182,7 +182,7 @@ _After identifying the list of Clinics with the Team Lead, to make the Clinics S
 
 In order to make, view, and export Team Clinic Selections, 
 
-1. Go to mtl.how/data_test 
+1. Go to mtl.how/data
 2. In the left hand bar, click on the appropriate Consortium and then, VISN.
 3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
 4. Click 'Apply.
