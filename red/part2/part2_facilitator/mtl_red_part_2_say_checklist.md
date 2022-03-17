@@ -98,8 +98,8 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:50-01:00 – Done / Do Review**  
 
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data table. Complete the mtl.how/menu to prioritize your needs. Responses are confidential.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done:We examined team data for CC, MM, PSY, AGG, and SP.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data and consider its implications for team decisions.
 ### DO demo
 -	Encourage team members to look around in the team data table before next time. 
 -	Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
