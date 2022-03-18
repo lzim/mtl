@@ -25,7 +25,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at \_______________ . We logged in to mtl.how/data_test to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for MTL relevant to our Team Vision. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for MTL relevant to our Team Vision. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -61,7 +61,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. Open an internet browser window. Go to mtl.how/data_test 
+### 1. Open an internet browser window. Go to mtl.how/data 
 
 - We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
    - Getting a red row-level security (RLS) error? Please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
@@ -152,12 +152,12 @@ _**Tips & Tricks**_
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, Meas, and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.|
 
 ## DO demo
 
 1. **We encourage you to look around in your team data before next time.**
-2. **Go to mtl.how/data_test and open the team data in Power BI.**
+2. **Go to mtl.how/data and open the team data in Power BI.**
 3. **Review your individual patient data and identify team trends.**
    - Health Factors \(HF\)
    - Diagnoses \(Diag\)
@@ -182,7 +182,7 @@ _After identifying the list of Clinics with the Team Lead, to make the Clinics S
 
 In order to make, view, and export Team Clinic Selections, 
 
-1. Go to mtl.how/data_test 
+1. Go to mtl.how/data 
 2. In the left hand bar, click on the appropriate Consortium and then, VISN.
 3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
 4. Click 'Apply.
