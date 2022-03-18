@@ -57,7 +57,8 @@ output:
      - In the event they do not, to make clinic selections yourself, you can select the same set of clinics you chose in Part 1 of _Modeling to Learn_.
 - Click "Apply".  
 
-[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_team_data_landing_page.gif?raw=true)](#DontLink)
+
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_clinic_selection.gif?raw=true)](#DontLink)
 
 **_MTL_ 3.0.**
 **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**
