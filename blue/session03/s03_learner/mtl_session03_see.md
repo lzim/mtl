@@ -48,10 +48,10 @@ output:
 ### In today's session, we use Clinic Selections to review team data estimates related to common care problems.
 
 - These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn,* each stored in their own _Modeling to Learn_ tabs:
-  - **Care Coordination (CC)
-  - **Medication Management (MM)
-  - **Psychotherapy (PSY)
-  - **Team (AGG) Care
+  - **Care Coordination (CC)**
+  - **Medication Management (MM)**
+  - **Psychotherapy (PSY)**
+  - **Team (AGG) Care**
   - **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention**
 
 ### Produce tabs of descriptive team data:
