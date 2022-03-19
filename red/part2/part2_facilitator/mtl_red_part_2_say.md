@@ -57,11 +57,11 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 ### In today's session, we use Clinic Selections to review team data estimates related to common care problems.
 
 - These **Team Data** are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn,* each stored in their own _Modeling to Learn_ tabs:
-  - **Care Coordination (CC)
-  - **Medication Management (MM)
-  - **Psychotherapy (PSY)
-  - **Team (AGG) Care
-  - **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention**
+   - **Care Coordination (CC) - tab title *Care Coordination (CC)***
+   - **Medication Management (MM) - tab title *Medication Management (MM)***
+   - **Psychotherapy (PSY) - tab title *Psychotherapy (PSY)***
+   - **Team (Aggregate) Care - tab title *Team (AGG) Care***
+   - **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow***
 
 ### To produce tabs of descriptive team data:
 - At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
