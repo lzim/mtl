@@ -38,7 +38,7 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
 3. Apply your clinical expertise to consider the team trends in the data UI and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to [mtl.how/data](https://mtl.how/data) **
 - [ ] We will use the data UI to look back at team trends over the past two years - *what is* 
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
