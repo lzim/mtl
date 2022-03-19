@@ -51,7 +51,7 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
    + **Care Coordination (CC) - tab title *Care Coordination (CC)***
    + **Medication Management (MM) - tab title *Medication Management (MM)***
    + **Psychotherapy (PSY) - tab title *Psychotherapy (PSY)***
-   + **Team (Aggregate) Care - tab title * Team (AGG) Care***
+   + **Team (Aggregate) Care - tab title *Team (AGG) Care***
    + **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow***
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
