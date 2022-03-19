@@ -30,6 +30,7 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "45" width = "45">](DontClick)  
+
 ## Learning Objectives for Part II
 
 1. Describe your team trends over the last two years based on the estimates in the team data.
@@ -42,22 +43,22 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
 
 <img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">
 
-### Last session, we made ClinicSelections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs. 
+### Last session, we made Clinic Selections to _zoom in_ on a particular Veteran's care in the data tabs and to _zoom out_ and see what our care decisions are adding up to over time by reviewing team trends over the last two years in the viz tabs. 
 
-### 1. In today's session, we will make ClinicSelections to review team data estimates related to common care problems
+### In today's session, we use Clinic Selections to review team data estimates related to common care problems.
 - [ ] Data in the "Team Data" tab are means, medians and percentages of key variables likely to influence the team's priorities for learning from *Modeling to Learn*. 
 - [ ] In today's session, we will make ClinicSelections to review Team Data estimates related to common care problems, each stored in their own  _Modeling to Learn_ tabs:
-   + Care Coordination (CC) - tab title *Care Coordination (CC)*
-   + Medication Management (MM) - tab title *Medication Management (MM)*
-   + Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
-   + Team (Aggregate) Care - tab title * Team (AGG) Care*
-   + Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow*
+   + **Care Coordination (CC) - tab title *Care Coordination (CC)*
+   + **Medication Management (MM) - tab title *Medication Management (MM)*
+   + **Psychotherapy (PSY) - tab title *Psychotherapy (PSY)*
+   + **Team (Aggregate) Care - tab title * Team (AGG) Care*
+   + **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention - tab title *Team (SP) Flow***
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Review how to “Get Team Data Table"**
 
-### 2. To produce tabs of descriptive team data:
+### To produce tabs of descriptive team data:
 
-- [ ] At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
+- [ ] At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
 - [ ] Click on the  **ClinicSelection tab**.
      - The Clinic Selections you made last time should auto-populate in the **ClinicSelection** tab. 
      - In the event they do not, select the **same** set of clinics from the previous session
@@ -66,9 +67,9 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
  
  [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:25-00:35 – Select and review a *MTL* Module**
 
-### 3. Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.  
+### Let's select a module for review - to show what data are used to tailor each *MTL* module to your team.  
 
-#### [Choose a module] – *See SAY guide for descriptions of each module*  
+#### 1. [Choose a module] – *See SAY guide for descriptions of each module*  
 
 - [ ] Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.  
 - [ ] Find a variable important to your team. Look at how it is estimated in the tab and notice the units.  
@@ -79,16 +80,16 @@ Do: We will examine Team Data for CC, MM, PSY, AGG, and SP.
 	
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:35-00:45 – Select and review a second *MTL* Module**  
 
-### 4. Let’s select a second module for review.  
+### 2. Let’s select a second module for review.  
 - [ ] Again, check out the"Descriptions" and "Details" tabs below the tab with the numerical data. 
 - [ ] Find a variable important to the team. How is it estimated in this tab? What are its units?   
 - [ ] Where can you find even more detailed information about your team data? Click on the “DataNotes” tab for a breakdown of how the patient cohort is defined, CPT codes used, and patient engagement patterns (Psychotherapy module).  
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:45-00:50 – Explore team data table values of interest to the team**  
 
-### 5. Are there any team data values you would like to explore in the team data UI?  
-### 6. Do you see any team data values that differ a lot from what you would expect?  
-### 7. Do you see any team data values that confirm your thoughts about high priority team needs?  
+### 3. Are there any team data values you would like to explore in the team data UI?  
+### 4. Do you see any team data values that differ a lot from what you would expect?  
+### 5. Do you see any team data values that confirm your thoughts about high priority team needs?  
 - [ ] What are you noticing? What is surprising?
 - [ ] In what ways does the team data fit with your day-to-day experience?  
 
