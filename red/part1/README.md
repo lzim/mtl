@@ -16,4 +16,4 @@
     - Learner cheatsheets for mtl.how/data (with screenshots) (.pdf)
 3.  **part1_resources:**
     - Learner cheatsheets for mtl.how/data (with screenshots) (.pdf)
-    - CPT Code cheatsheet for mtl.how/data
+    - CPT Code cheatsheet for mtl.how/data (.pdf)
