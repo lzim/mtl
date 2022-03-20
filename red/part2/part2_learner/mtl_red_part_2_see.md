@@ -37,7 +37,7 @@ output:
 
 2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3. Apply your clinical expertise to consider the team trends in the Viz and Data tabs and team data to identify team priorities for learning.
+3. Apply your clinical expertise to consider the team trends in the viz and data tabs and team data to identify team priorities for learning.
 
 ## In-session Exercise (40 minutes)
 
@@ -76,9 +76,9 @@ output:
 - **Find a variable that is important to your team. How is it estimated in this module? What are its units?**
 - **Where can you find even more detailed information about your team data?**
 
-### 3. Are there any team data values you would like to explore in the Viz and Data tabs?
+### 3. Are there any team data values you would like to explore in the viz and data tabs?
 
-- **If so, which ones? Navigate to the Viz and Data tabs to examine your question.**
+- **If so, which ones? Navigate to the viz and data tabs to examine your question.**
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
