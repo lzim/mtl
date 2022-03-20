@@ -5,10 +5,11 @@
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png"
      height = "175" width = "650">
 
-### session 02. *Modeling to Learn* how to check our patient data and team trends
+### Session 02. *Modeling to Learn* from our **patient data** and **team trends.**
 
-#### s02_facilitator
+**s02_facilitator:**
 
-- Facilitator SAY Guide - Learning objectives and exercises for session 02
-- Facilitator pre/post checklist for session 02
-- Pre/post emails for session 02 (.html and .md)
+- Facilitator SAY Guide - Learning objectives and exercises for Session 02
+- Facilitate SAY Guide Checklist - Learning objectives and exercises for Session 02 in a checklist
+- Facilitator mtl.how/data - One-pager on mtl.how/data
+- Learner Cheatsheet - One-pager on mtl.how/data for Learners
