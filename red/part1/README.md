@@ -5,7 +5,7 @@
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_testdontguess_sm.png"
      height = "175" width = "650">
 
-### part 1. *Modeling to Learn* how to check our **patient data** and **team trends.**
+### part 1. *Modeling to Learn* from our **patient data** and **team trends.**
 
 1. **part1_facilitator:**
     - Facilitator SAY Guide - Learning objectives and exercises for part 1
