@@ -178,16 +178,16 @@ _**Tips & Tricks**_
    
    ## Confirming Team Clinic Selections 
 
-_After identifying the list of Clinics with the Team Lead, to make the Clinics Selections process transparent and accesible to all Team members, we will be posting them in the shared Microsoft Teams channel for confirmation._
+_After identifying the list of Clinics with the Team Lead, to make the Clinics Selections process transparent and accesible to all Team members, we will post them in the shared Microsoft Teams channel for confirmation._
 
 In order to make, view, and export Team Clinic Selections, 
 
-1. Go to mtl.how/data 
+1. Go to mtl.how/data.
 2. In the left hand bar, click on the appropriate Consortium and then, VISN.
 3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
-4. Click 'Apply.
-5.  _*Note: If you wish to have quick access to these Clinic Selections in the future, you can make a personal bookmark to return to it. See the Facilitator One-Pager for instructions on how to make a personal bookmark._
-6. Scroll down to the bottom, until you see the **View Clinic Selections** tab in the left hand side
+4. Click "Apply".
+5.  _Note: If you wish to have quick access to these Clinic Selections in the future, you can make a personal bookmark to return to it. See the Facilitator One-Pager for instructions on how to make a personal bookmark._
+6. Scroll down to the bottom, until you see the **View Clinic Selections** tab in the left hand side.
 7. Hover over the "Clinic Selections" heading and click on the three dots that appear. 
-8. Click "Export Data" > "Data with Current Layout" > Export 
-9. Save using our Team naming convention, and post the file on the shared Team channel for Team members to view and confirm Clinic Selections
+8. Click "Export Data" > "Data with Current Layout" > Export.
+9. Save using our Team naming convention and post the file on the shared Team channel for Team members to view and confirm Clinic Selections.
