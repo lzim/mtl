@@ -11,4 +11,4 @@
 
 - Learner SEE Guide - Learning objectives and exercises for part 1
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-- Learner cheatsheet mtl.how/data (.pdf)
+- Learner cheatsheet for mtl.how/data (with screenshots) (.pdf)
