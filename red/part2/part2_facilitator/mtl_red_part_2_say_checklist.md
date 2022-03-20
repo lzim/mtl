@@ -35,7 +35,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 
 1. Describe your team trends over the last two years based on the estimates in the team data.
 2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
-3. Apply your clinical expertise to consider the team trends in the Viz and Data tabs and team data to identify team priorities for learning.
+3. Apply your clinical expertise to consider the team trends in the viz and data tabs and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Navigate to [mtl.how/data](https://mtl.how/data)**
@@ -69,7 +69,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 
 #### 1. [Choose a module] – *See SAY guide for descriptions of each module*  
 
-- [ ] Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.  
+- [ ] **Check out the different modules that are highlighted in the team data on the screen. As we review, we will use the mouse to highlight key team data variables.**  
 - [ ] **Find a variable important to your team. Look at how it is estimated in the tab and notice the units.**
 - [ ] **The "Descriptions" and "Details" tabs have more detailed information about team data.** 
 - [ ] **Review  the "Descriptions" and "Details" tabs with the numerical data [show with mouse]:**
@@ -86,7 +86,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:40-00:50 – Explore team data table values of interest to the team**  
 
-### 3. Are there any team data values you would like to explore in the Viz & Data tabs?  
+### 3. Are there any team data values you would like to explore in the viz & data tabs?  
 ### 4. Do you see any team data values that differ a lot from what you would expect?  
 ### 5. Do you see any team data values that confirm your thoughts about high priority team needs?  
 - [ ] **What are you noticing? What is surprising?**
