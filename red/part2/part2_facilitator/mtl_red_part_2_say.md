@@ -39,7 +39,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 2. Test your understanding of how the team data are estimated by reviewing descriptions and definitions.
 
-3. Apply your clinical expertise to consider the team trends in the Viz and Data tabs and team data to identify team priorities for learning.
+3. Apply your clinical expertise to consider the team trends in the viz and data tabs and team data to identify team priorities for learning.
 
 ## Let's get started!
 
@@ -66,9 +66,9 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
      - If not, you can select the same set of clinics you chose in Part 1 of _Modeling to Learn_ Red.
      - Click "Apply". 
 
-- **The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.**
-  - **In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).**
-  - **For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.**
+- The patient cohort for each module is built by capturing all the unique patients who had a visit with the given team (from the user-supplied list of clinics/grids) within the correct encounter bin between 18 and 6 months ago.  From that set of clinics, patients, and CPT codes, the data query then fetches all visits, no matter how long ago or how recent.
+  - In order to capture Team Data that should be time-bound, such as new patients per week, the query can use that single year (e.g. from the patient cohort, how many were new to the team in the year that was used to build the cohort? Because that patient count captures all new patients over the year, we can just divide by 52 to get an average new patients per week).
+  - For Team Data that should not be time-bound, all the visits can be considered, so that some patients will correctly be fed into the model with many visits over years of engagement.
 
 ### 1. Select a module for review - to show what data are used to tailor each *MTL* module to your team.
 
@@ -106,9 +106,9 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 - **You can click on the “Data Notes 1” and "Data Notes 2" tab for a breakdown of how the patient cohort is defined, which CPT codes are used to define each service, and the patient engagement patterns (for the Psychotherapy module).**
 
-### 3. Are there any team data values you would like to explore in the Viz and Data tabs?
+### 3. Are there any team data values you would like to explore in the viz and data tabs?
 
-- **If so, which ones? Navigate to the Viz and Data tabs to examine your question.**
+- **If so, which ones? Navigate to the viz and data tabs to examine your question.**
 
 ### 4. Does the team see any values in the team data that seem to vary significantly from expectations?
 
@@ -122,7 +122,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 - **In what ways does the team data fit with your day-to-day clinical practice in your team?**
 
-### That's it for _Modeling to learn_ how to produce team data. Next is our Done/Do review.
+### That's it for _Modeling to Learn_ how to produce team data. Next is our Done/Do review.
 
 ## Done and Do (10 minutes)
 
