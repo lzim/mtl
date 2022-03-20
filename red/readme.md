@@ -11,4 +11,4 @@
 4. [mtl.how/tms](https://www.mtl.how/tms) - VA TMS 3.0 Learning System for Accreditation
 5. [mtl.how/refs](https://www.mtl.how/refs) - _MTL_ References 
 
-## _Modeling to Learn_ Red - Release 2.0
+## _Modeling to Learn_ Red - Release 3.0

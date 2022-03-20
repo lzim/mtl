@@ -16,20 +16,18 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s02_data_ui_title.png"
      height = "175" width = "420">](#DontLink)  
 
-# MTL Live Session 02 Facilitator Checklist
+# _MTL_ Live Session 02 Facilitator Checklist
 
-- [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
+- [ ] Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
+- [ ] Navigate to the Learner See Guide for Session 2 to show Done and Do.
 
-- [ ] Navigate to the Learner See Guide for Session 2 to show Done and Do
-
-## Done and Do
-<!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_test.png" height = "75" width = "130">](http://mtl.how/data_test) We set a standing team meeting time at __________. We logged in to mtl.how/data_test to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_test.png" height = "75" width = "130">](http://mtl.how/data_test) We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team Vision. |  
+### Navigate to the SEE guide to show Done/Do table  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We set a standing team meeting time at __________. We logged in to mtl.how/data to look at the data UI.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
+ We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team Vision.
 
 <!-- Learning Objectives Icon --> 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/> 
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "40" width = "40" style ="display: inline-block"/> 
 
 ## Learning Objectives
 1. Describe the decisions your team made in producing your team data.
@@ -56,29 +54,27 @@ output:
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
-### 1. On any browser, navigate to mtl.how/data_test.
-- [ ] Explain the MTL data user interface Power BI site:
+### 1. On any browser, navigate to mtl.how/data.
+- [ ] Explain the _MTL_ data user interface Power BI site:
 	- You must have your PIV engaged to access the site.
 	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
 - In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
-- Click on the 'Clinic Selections' tab.
-
-### See SAY guide for narration details on making Clinic Selections for Team (SP) Flow module 
+- Click on the "Clinic Selections" tab.
 
 ### 2. Select and View Your Local Team Data 
 
 - [ ] **Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).**
 
-- [ ] In the "Clinic Selections" tab, select the Division **______________**
-- [ ] Select the Clinics **_________________**  
-- [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs.
-
-- **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**  
--  **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
-- **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
+- [ ] You can filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
+- [ ] You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
+- [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs. 
+- [ ] Select clinics that your team refers to in the **"Team Flow Selection"** tab to produce data tracking patients stepped up/down for the **Team (SP) Flow module.**
+- [ ] **Prior to today's session, __________________ \[Team Lead's name\] worked with us to build an initial team dataset.**  
+- [ ] **__________________ [Team Lead's name], which column did we find most helpful for creating this team's dataset?**  
+- [ ] **Are there any adjustments that the team would make to the clinic selection criteria? For example, should we include trainees? Other considerations that seem important?**
 
 ### 3. Click to view the "viz" tabs, which show team trends.  
 
@@ -104,7 +100,7 @@ output:
 
 -  [ ] Providers can filter to find specific patients, or produce reports using the filter panel.
 -  [ ] **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
--  [ ]**What column shows you the session number (EBP template) that the patient is on?**
+-  [ ] **What column shows you the session number (EBP template) that the patient is on?**
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:40-00:50***  
 
@@ -118,13 +114,14 @@ Time Stamp | Team Learning Priorities | Script
 
 ### That's it for *Modeling to Learn* how to check our patient data and team trends. Next is our Done/Do review. 
 
-## Done and Do (10 minutes)
-<!-- Do/Done Tables -->
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
-| --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_test.png" height = "75" width = "130">](http://mtl.how/data_test) We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_test.png" height = "75" width = "130">](http://mtl.how/data_test) Review the HF, Diag, Enc and Team (SP) Flow tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data. |
+### Navigate to the SEE guide to show Done/Do table  
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:50-00:60 - Done/Do**
+ 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
+ Review the HF, Diag, Enc and Flag tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.
 
-After the Session:
-- [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
-- [ ] Export Clinic Selections from Power BI (See Red Part I Say Guide for Instructions)
-- [ ] Post Export file in the shared MS Teams Channel for the team to review and confirm selections 
+**Confirm Team Clinic Selections:**
+- [ ] Schedule meeting with Team Lead & make Clinic Selections and Team Flow Selections. 
+- [ ] Export Clinic Selections and Team Flow Selections from Power BI.
+- [ ] Post export file in the shared MS Teams Channel for the team to review and confirm selections.
