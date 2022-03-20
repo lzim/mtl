@@ -15,6 +15,8 @@ output:
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png" height = "175" width = "290">](#.)
 
+**Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
+
 # _MTL_ Red Part 2
 
 ## Today we're _modeling to learn_ how to produce team data.
