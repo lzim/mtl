@@ -41,9 +41,9 @@ output:
 
 ## In-session Exercise 
 
-### 1. Think of a good learning experience in your team -- a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.
+### 1. Think of a good learning experience in your team. 
 
-a. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic   procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. 
+a. **A time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.** It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic   procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. 
 
 b. **What were the characteristics of the experience?** 
 
