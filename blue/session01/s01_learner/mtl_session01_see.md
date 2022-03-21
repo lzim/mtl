@@ -20,13 +20,13 @@ output:
 
 # MTL Live Session 01
 
-## Today we're modeling to learn how to align our team vision.
+## Today, we're modeling to learn how to align our team vision.
 
 ## Done and Do (15 minutes)
 <!-- Done and Do Table -->
 |[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" alt = "Done" height = "80" width = "80">](#Done-and-Do) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" alt = "Do" height = "90" width = "90">](#Done-and-Do) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We join the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision and Team Lead for _MTL_. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/ms_teams_logo.png?raw=true" height = "65" width = "70">](#DontLink) We joined the Microsoft Teams meeting invitation from Outlook and called in, if needed.| We will begin _Modeling to Learn_ and select a Team Vision and Team Lead for _MTL_. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "Learning Objectives" height = "90" width = "90" style ="display: inline-block">](#DontLink)
@@ -39,9 +39,9 @@ output:
 
 3. Identify a shared team vision for learning from *Modeling to Learn*.
 
-## In-session Exercise (30 minutes)
+## In-session Exercise 
 
-### 1. Prior Team Learning Prompt (5 minutes)
+### 1. Prior Team Learning Prompt 
 
 a. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.
 
@@ -59,13 +59,13 @@ b. Jot down on scratch paper what it was that made it a good learning experience
   - The experience helped the learner understand him- or herself.
   - The learner experienced success and accomplishment with challenging work.
 
-### 2. Best Case Scenario (5 minutes)
+### 2. Best Case Scenario 
 
 a. Create team language for learning, aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
 
 b. Now picture the team learning over the next 6 months in a ‘best-case’ scenario, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.
 
-### 3. Personal Vision (5 minutes)
+### 3. Personal Vision 
 
 a. What is team communication like?
 
@@ -75,7 +75,7 @@ c. How is VA data used?
 
 d. How are decisions, plans and changes made?
 
-### 4. Review in Team (5 minutes)
+### 4. Review in Team 
 
 a. What stands out to you?
 
@@ -87,7 +87,7 @@ d. Can we address them all (bearing in mind our resources and time)?
 
 e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (5 minutes)
+### 5. Putting it Together 
 
 Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
@@ -101,7 +101,7 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision and a Team Lead (5 minutes)
+### 6. Select the Team Vision and a Team Lead
 
 - To wrap up, let's home in on our Team Vision
 
@@ -120,13 +120,9 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
     - Ideal characteristics of the Team Lead include:
 
        - Having strong relationships with fellow team members;
-
        - Being organized;
-
        - Having basic computer knowledge (some Excel experience is good);
-
        - Attention to detail; and
-
        - Commitment to process improvement and the use of data to improve care.
 
 ## Done and Do (15 minutes)
@@ -134,4 +130,4 @@ d. Empower you to realize ongoing improvements in team quality of care and team 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data_test to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data_test) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 2.5. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to mtl.how/data_test to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data_test) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**|
