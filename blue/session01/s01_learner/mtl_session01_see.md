@@ -43,9 +43,9 @@ output:
 
 ### 1. Prior Team Learning Prompt 
 
-a. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.
+a. **Think of a good learning experience in your team.** It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic   procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.
 
-b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list:
+b. **What were the characteristics of the experience?** Jot down on scratch paper what it was that made it a good learning experience. Compile a team list:
 
 - *Most likely the following are true:*
   - The learning was hands-on and experiential.
