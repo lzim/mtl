@@ -43,13 +43,15 @@ output:
 
 ### 1. Think of a good learning experience in your team. 
 
-a. **A time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.** It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic   procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. 
+a. **A time when you had an ‘aha!’ or something finally made sense, or you could finally do something you couldn’t before.** It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. 
 
 b. **What were the characteristics of the experience?** 
 
-c. Jot down on scratch paper what it was that made it a good learning experience. Compile a team list:
+c. **Jot down on scratch paper** what it was that made it a good learning experience. 
 
-- *Most likely the following are true:*
+d. **Compile a team list.**
+
+*Most likely the following are true:*
   - The learning was hands-on and experiential.
   - The learning connected to the real world.
   - The learning experience was personally relevant, interesting, useful, or meaningful to the learner.
@@ -61,13 +63,13 @@ c. Jot down on scratch paper what it was that made it a good learning experience
   - The experience helped the learner understand him- or herself.
   - The learner experienced success and accomplishment with challenging work.
 
-### 2. Best Case Scenario 
+### 2. Create team language for learning, aligning team decisions when there are roadblocks to consensus. 
 
-a. Create team language for learning, aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
+a. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
 
-b. Now picture the team learning over the next 6 months in a ‘best-case’ scenario, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.
+b. Now picture the team learning over the next 6 months in a **‘best-case’ scenario**, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.
 
-### 3. Personal Vision 
+### 3. Create a Personal Vision for this 'best-case' scenario.
 
 a. What is team communication like?
 
@@ -77,7 +79,7 @@ c. How is VA data used?
 
 d. How are decisions, plans and changes made?
 
-### 4. Review in Team 
+### 4. Review together with the Team.
 
 a. What stands out to you?
 
@@ -89,37 +91,32 @@ d. Can we address them all (bearing in mind our resources and time)?
 
 e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together 
-
-Overall "_Modeling to Learn_" objectives include activities and competencies that:
-
-a. Are meaningful for you and align your learning goals with your team's.
-
-b. Develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
-
-c. Make VA data, initiatives and standards transparent to you.
-
-d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.
-
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
-
-### 6. Select the Team Vision and a Team Lead
-
-- To wrap up, let's home in on our Team Vision
+### 5. Put it together and hone in on your Team Vision.
 
   a. You can further word-smith the Team Vision after the session if you want.
   
   b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
   
-- Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
+Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
-  1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+- Are meaningful for you and align your learning goals with your team's.
+- Develop systems thinking skills - help you see how several things fit together and understand causes that are hard to see without data and modeling resources.
+- Make VA data, initiatives and standards transparent to you.
+- Empower you to realize ongoing improvements in team quality of care and team quality of work life.
 
-  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-  3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
+### 6. Select a Team Lead
+ 
+-  The role of the Team Lead is to:
 
-    - Ideal characteristics of the Team Lead include:
+     - be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+     - become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the 
+         data user interface), mtl.how/sim (the simulation user interface); and
+     - provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' 
+          guidance.  
+
+  - Ideal characteristics of the Team Lead include:
 
        - Having strong relationships with fellow team members;
        - Being organized;
