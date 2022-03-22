@@ -63,9 +63,9 @@ d. **Compile a team list.**
   - The experience helped the learner understand him- or herself.
   - The learner experienced success and accomplishment with challenging work.
 
-### 2. Create team language for learning, aligning team decisions when there are roadblocks to consensus. 
+### 2. Envision a Best Case Scenario. 
 
-a. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
+a. It is important to create team language for learning, aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
 
 b. Now picture the team learning over the next 6 months in a **‘best-case’ scenario**, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.
 
@@ -93,9 +93,9 @@ e. If not, which would we most like to address (align around), and why?
 
 ### 5. Put it together and hone in on your Team Vision.
 
-  a. You can further word-smith the Team Vision after the session if you want.
+  a. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program. 
   
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
+  b. You can further word-smith the Team Vision after the session if you want.
   
 Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
@@ -106,7 +106,7 @@ Overall "_Modeling to Learn_" objectives include activities and competencies tha
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select a Team Lead
+### 6. Select a Team Lead.
  
 -  The role of the Team Lead is to:
 
