@@ -47,18 +47,22 @@ Our DO for this session is to Launch _Modeling to Learn_ and select a Team Visio
 
 **Let's get started!**
 
-## In-session Exercise (30 minutes): Team vision
+## In-session Exercise (30 minutes): Team Vision
 
 - We learn best when we seek to accomplish things that matter to us. Today we will clarify what we are trying to accomplish together with _Modeling to Learn_. This learning process will be something you commit to because it reflects a key part your own vision for care in this team.
 - Identifying a shared purpose can be deeply motivating. We want to identify a shared purpose about what we are trying to achieve as a team participating in _Modeling to Learn_. The team learning goal provides the focus and energy for committing to learning together over the coming weeks. We have limited time, so we want to identify what is most central to team learning goals and connect this to daily team care delivery.
 - Team learning is all about ‘alignment’ and getting people working in sync with one another to meet the needs of our Veteran patients. We will explore “what is” (retrospective data) and vision forward to “what we would like it to be” (future-oriented).
 - The goal is to move from “my vision” to “our vision” and to shift the paradigm towards how things could be done with shared decision-making. Together, the clinic team lead and facilitation team will explore “What can be done better?” in a way that reflects common team aspirations.
 
-### 1. Prior Team Learning Prompt (5 minutes)
+### 1. Think of a good learning experience in your team. (5 Minutes)
 
-a. First, we want to set ground rules for our learning sessions. Think of a good learning experience in your team. It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.
+a. **Try to think of a time when you had an “aha!” Something finally made sense, or you could finally do something you couldn’t before.** It can be in a meeting or an informal exchange with a colleague. It can be when you learned a clinic procedure, an idea for treatment with a difficult patient, or when a team member unlocked a mystery of CPRS for you. 
 
-b. Jot down on scratch paper what it was that made it a good learning experience. What were the characteristics of the experience? Compile a team list.
+b. **What were the characteristics of the experience?** 
+
+c. **Jot down on scratch paper** what it was that made it a good learning experience. 
+
+d. **Compile a team list.**
 
 - *Most likely the following are true:*  
   - The learning was hands-on and experiential.
@@ -72,15 +76,13 @@ b. Jot down on scratch paper what it was that made it a good learning experience
   - The experience helped the learner understand him- or herself.
   - The learner experienced success and accomplishment with challenging work.  
 
-### 2. Best Case Scenario (5 minutes)
+### 2. Now let's envision our *Best Case Scenario* (5 minutes)
 
-a. Now let's envision our *Best Case Scenario*. It is important to create a team language for learning; for aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now. The interactions and communications within the team, in and out of team meetings. The key people you rely on outside the team. The information and data you use to coordinate care plans, and the feelings you associate with it.
+a.  It is important to create a team language for learning; for aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now. The interactions and communications within the team, in and out of team meetings. The key people you rely on outside the team. The information and data you use to coordinate care plans, and the feelings you associate with it.
 
 b. Now picture the team learning over the next 6 months in a *best case* scenario, where things are happening in the team the way that you would ideally like them to. This is your *dream team* situation.
 
-### 3. Personal Vision (5 minutes)
-
-- Think about your Personal Vision for your team:
+### 3. Create a Personal Vision for this 'best-case' scenario. (5 minutes)
 
   a. What is team communication like?
   
@@ -90,7 +92,7 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
   
   d. How are decisions, plans and changes made?
   
-### 4. Review in Team (5 minutes)  
+### 4. Review together with the Team. (5 minutes)  
 
 - Reflecting as a team on those individual visions:
 
@@ -104,29 +106,27 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
   e. If not, which would we most like to address (align around), and why?
 
-### 5. Putting it Together (5 minutes)  
+### 5. Put it together and hone in on your Team Vision.(5 minutes)  
 
-- Putting it all together, overall *Modeling to Learn* objectives include activities and competencies that:
+ a. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program. 
+  
+  b. You can further word-smith the Team Vision after the session if you want.
 
-  a. Are meaningful for you and align your learning goals with your team.
+Overall *Modeling to Learn* objectives include activities and competencies that:
+
+  - Are meaningful for you and align your learning goals with your team.
   
-  b. Develop systems thinking skills that help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
+  - Develop systems thinking skills that help you to see how several things fit together and understand causes that are hard to see without data and modeling resources.
   
-  c. Make VA data, initiatives and standards transparent to you.
+  - Make VA data, initiatives and standards transparent to you.
   
-  d. Empower you to realize ongoing improvements in team quality of care and team quality of work life.
+  - Empower you to realize ongoing improvements in team quality of care and team quality of work life.
   
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 6. Select the Team Vision and a Team Lead (5 minutes)
+### 6. Select a Team Lead (5 minutes)
 
-- To wrap up, let's home in on our Team Vision
-
-  a. You can further word-smith the Team Vision after the session if you want.
-  
-  b. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.
-  
-- Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
+ - To wrap up, let's decide on a Team Lead. The role of the Team Lead is to:
 
   1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
 
@@ -137,13 +137,9 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
     - Ideal characteristics of the Team Lead include:
 
        - Having strong relationships with fellow team members;
-
        - Being organized;
-
        - Having basic computer knowledge (some Excel experience is good);
-
        - Attention to detail; and
-
        - Commitment to process improvement and the use of data to improve care.
 
 **That's it for _Modeling to Learn_ how to align our team vision! Next is our Done/Do review**
