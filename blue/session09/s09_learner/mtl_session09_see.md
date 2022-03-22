@@ -25,7 +25,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_text_fields.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session09_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives. 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We explored the Base Case (bc) and experiment 1 and drafted a dynamic hypothesis to prepare for experiment 2. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_text_fields.gif)](#.) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session09_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will run experiment 2 to compare alternatives. 
 
 
 <!-- Learning Objectives Icon --> 
