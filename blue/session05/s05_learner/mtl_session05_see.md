@@ -54,13 +54,13 @@ output:
 ### Orient yourself to the landing page 
 - Look at: Team name, navigation icons, player name, welcome text, sections with blue headers.
 
-**Tips & Tricks**
+**Tips & Tricks** [JENN - PLEASE REMOVE WHAT SEEMS EXESSIVE]
 - Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. 
 - Click on the "Team" icon to chat with your team or facilitator.
 - Click on the "More Info" icon for more information on the sim UI.
 - Click on the "News" icon for news flashes on discussion items. 
 - Click on the "Report Bug" Icon in the top nav bar to report issues (scroll to the bottom of the page for instructions on reporting a bug).
-- - Click on the "Community" button on the bottom right if you have an idea, you like something or if you have a question
+- Click on the "Community" button on the bottom right if you have an idea, you like something or if you have a question
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_home.gif)](#DontLink)
 
@@ -118,11 +118,11 @@ output:
 
 ### Find the Team Data Table variables in the system diagram at the left.
 
-    - True Missed Appointments %
-    - Appointment Supply
-    - Return Visit Interval
-    - Engagement Duration	
-    - New Patient Start Rate (AGG)
+   - True Missed Appointments %
+   - Appointment Supply
+   - Return Visit Interval
+   - Engagement Duration	
+   - New Patient Start Rate (AGG)
 
 
 ## Done and Do (15 minutes)
