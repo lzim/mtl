@@ -58,17 +58,16 @@ output:
 ### 1. On any browser, navigate to mtl.how/data.
 - [ ] Explain the _MTL_ data user interface Power BI site:
 	- You must have your PIV engaged to access the site.
-	- Note: If you are getting a red row-level security (RLS) error on the homepage, please let us know and we can grant you access.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
-- In the left-hand navigation pane, select the appropriate consortium and VISN tabs.
+- In the left-hand navigation, select the appropriate consortium and VISN tab.
 - Click on the "Clinic Selections" tab.
 
 ### 2. Select and View Your Local Team Data 
 
 - [ ] **Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).**
-
+- Clinics and data not populating? Request and verify your local server views [described at the bottom of the See guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 - [ ] You can filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
 - [ ] You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - [ ] Ensure you select the clinic selections that make up your team and click "Apply" to generate patient-level data in the Viz and Data tabs. 
