@@ -51,7 +51,6 @@ output:
 ### 1. Open an internet browser window. Go to mtl.how/data.  
 - In the left-hand navigation pane, select your consortium and VISN.
 - Click on the "Clinic Selections" tab.
-- Row-level security error? Please email your facilitator at MTL.Help@va.gov. 
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_landing_page.gif?raw=true)](#DontLink)
 
