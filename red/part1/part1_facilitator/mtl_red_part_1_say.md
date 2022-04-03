@@ -61,10 +61,10 @@ Navigating to the Learner See Guide for Part I at mtl.how, we see that today we'
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. Open an internet browser window. Go to mtl.how/data 
+### 1. Open an internet browser window. Go to mtl.how/data.
 
 - We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
-- In the left-hand navigation, select the appropriate consortium and VISN tab. 
+- In the left-hand navigation, click one of the four consortia tabs to locate your VISN.
 - Click on the "Clinic Selections" tab.
 
 ### 2. Select and view your local team data.
