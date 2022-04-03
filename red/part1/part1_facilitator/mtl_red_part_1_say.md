@@ -61,12 +61,10 @@ Navigating to the Learner See Guide for Part I at mtl.how, we see that today we'
 
 **Who would like to "drive" today?** \(Recommend the Team Lead\)
 
-### 1. Open an internet browser window. Go to mtl.how/data 
+### 1. Open an internet browser window. Go to mtl.how/data.
 
 - We'll be opening the _Modeling to Learn_ data user interface (data UI) in Power BI today. This site contains Protected Health Information (PHI), so ensure you have your PIV card to access the intranet site. As a provider you will be granted access according to the permissions that are set up on your PIV.
-   - Getting a red row-level security (RLS) error? Please let us know and we can grant you access. (_For instructions on how to grant users access, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session02/s02_facilitator/mtl_how_data_2.5_facilitator_one_pager.pdf)_).
-  
-- In the left-hand navigation pane, select the appropriate consortium and VISN tabs. 
+- In the left-hand navigation, click one of the four consortia tabs to locate your VISN.
 - Click on the "Clinic Selections" tab.
 
 ### 2. Select and view your local team data.
@@ -75,7 +73,7 @@ Navigating to the Learner See Guide for Part I at mtl.how, we see that today we'
 - You can filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
 - You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
-- Clinics and data not populating? Request and verify your local server views [here](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
+- Clinics and data not populating? Request and verify your local server views [described at the bottom of the See guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 
 - Select clinics that your team refers to in the **"Team Flow Selection"** tab to produce data tracking patients stepped up/down for the **Team (SP) Flow module.**
   - For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in the Green column, second row.
