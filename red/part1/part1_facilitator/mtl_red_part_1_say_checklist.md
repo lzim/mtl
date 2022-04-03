@@ -61,8 +61,8 @@ output:
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
 - We'll show you how to pull and view data here. It will be stored and saved back to the secure site, so that you can protect patient PHI just as you do in all your work.
 
-- In the left-hand navigation, select the appropriate consortium and VISN tab.
-- Click on the "Clinic Selections" tab.
+- [ ] In the left-hand navigation, click one of the four consortia tabs to locate your VISN.
+- [ ] Click on the "Clinic Selections" tab.
 
 ### 2. Select and View Your Local Team Data 
 
