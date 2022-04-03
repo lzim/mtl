@@ -73,7 +73,7 @@ Navigating to the Learner See Guide for Part I at mtl.how, we see that today we'
 - You can filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
 - You can search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
 - Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
-- Clinics and data not populating? Request and verify your local server views [here](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
+- Clinics and data not populating? Request and verify your local server views [described at the bottom of the See guide](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 
 - Select clinics that your team refers to in the **"Team Flow Selection"** tab to produce data tracking patients stepped up/down for the **Team (SP) Flow module.**
   - For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in the Green column, second row.
