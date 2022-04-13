@@ -100,13 +100,20 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 ## Manage Team Data
 
-<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/manage_team_data.png?raw=true">
+1. In the Facilitator Dashboard, click on Team Setup in the middle right-hand side of the dashboard.
 
-1. Click the "Add" button to add a new team data file. The File Manager popup will appear.
+![](https://user-images.githubusercontent.com/7454688/163246702-1232fb14-94ea-4333-9036-0449b1ce08a8.png)
+
+2. Click the "Add" button to add a new team data file and select the Individual (Ind), Team, and Shared worlds that the file needs to be uploaded to.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/manage_team_data.png?raw=true">
+ 
+![](https://user-images.githubusercontent.com/7454688/163246804-f49dfbab-719e-4e38-946c-b56513d1e762.png)
+
+3. The File Manager will appear, go to the desired file location and click on the file.
 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_file_popup.png?raw=true">
- 
-2. Go to the desired file location and click on the file.
+
 3. Click "Open" to upload the file.
 
 **Please Note.**
