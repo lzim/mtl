@@ -27,7 +27,7 @@ Navigating to the Learner See Guide for Part I at mtl.how, we see that today we'
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our team. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov)[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at \_______________ . We logged in to mtl.how/data to look at the data UI.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team. |
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -94,7 +94,7 @@ _**Tips & Tricks**_
 
 #### _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
 
-- Your team needs are about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
+- Your team's needs was about _____________. Let's go to the _____________ viz tab to see data relevant to that issue.
 - Another way to see encounters or services decreasing or increasing is by viewing the number of visits by right clicking on any trend line and click "Show As Table".
 - Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
 - vizDiag in the data UI shows a trendlines by diagnoses or combination of diagnoses. For example, the "PTSD" line is for patients with only PTSD. The "PTSD & AUD" line is for patients with both these diagnoses but does not discriminate between which is the primary, secondary, etc. diagnoses.
