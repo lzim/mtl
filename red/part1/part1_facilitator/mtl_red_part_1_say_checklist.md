@@ -23,8 +23,7 @@ output:
 
 ### Navigate to the SEE guide to show Done/Do table  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We set a standing team meeting time at __________. We logged in to mtl.how/data to look at the data UI.
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
- We will identify a Team Vision; We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team Vision.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team.
 
 <!-- Learning Objectives Icon --> 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "40" width = "40" style ="display: inline-block"/> 
@@ -80,12 +79,12 @@ output:
 
 - [ ] **The Viz tab helps us zoom out and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends.**
 
--  [ ] Your team's vision was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
+-  [ ] Your team's needs was about ____________. Let's go to the ________ **[fill out tab]** viz tab to see data relevant to that issue.  
 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> ***00:25-00:35***
--  [ ] **What stands out to you about _____________________________ [fill-in team vision]?**  
+-  [ ] **What stands out to you about _____________________________ [fill-in team needs]?**  
   
--  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team vision]?**
+-  [ ] **What is most important to you to check out first related to  ________________________________ [fill-in team needs]?**
     [Prepare in advance, but ask this as an open-ended question.]
   
   -  [ ] **What is most surprising?**  [Prepare in advance, but ask this as an open-ended question.] 
@@ -107,8 +106,8 @@ output:
 (During intersession prep, facilitator should fill-in the rankings of the highest priority viz that should be emphasized during the team meeting. Follow the team's lead "live" during the meeting, but be prepared.)
 Time Stamp | Team Learning Priorities | Script 
 -- | -- | --
-**Prioritize which questions you will use given this team's guiding vision.** |  |  |   
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Keep an eye on time  | **Themes from the team vision to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
+**Prioritize which questions you will use given this team's guiding needs.** |  |  |   
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> Keep an eye on time  | **Themes from the team needs to be highlighted.** | **Team Data related questions to Prioritize with the Team.**
 
 ## With the team trends (viz) and team patient (data) information in your data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
@@ -117,7 +116,7 @@ That's it for *Modeling to Learn* how to check our patient data and team trends.
 ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:50-00:60 - Done/Do**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We identified our Team Vision. We selected a Team Lead. We selected the clinics that make up our team for the Team Data. 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We selected a Team Lead. We selected the clinics that make up our team for the Team Data. 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
  Review the HF, Diag, Enc and Flag tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.
 
