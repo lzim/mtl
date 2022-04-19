@@ -142,3 +142,11 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 3. We will aggregate the responses and consider them together in the next session to help the team choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
 
 **Until next time, thank you for *Modeling to Learn*!**
+
+## Upload Team Data to Sim UI 
+
+After confirming and reviewing the team data with the team, Facilitators can upload the Team Data Export for Sim UI into the Sim UI in the Facilitator Dashboard in prep of S05.
+
+1. Generate and save the Team Data Export for Sim UI file from the Data UI in the Team PSD Shared Folder > Clinics > in your Team folder.
+   - If you do not have a folder with your Team's name, create one by following our standard naming convention, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session03/s03_facilitator/mtl_how_3.0_data_facilitator_one_pager.pdf). 
+2. Follow the instructions to "Manage Team Data" in the [_MTL_ Manual](https://lzim.github.io/mtl/8-sim-ui-facilitator-dashboard.html#manage-team-data).
