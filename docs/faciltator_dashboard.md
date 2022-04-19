@@ -100,13 +100,20 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 ## Manage Team Data
 
-<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/manage_team_data.png?raw=true">
+1. In the Facilitator Dashboard, click on Team Setup in the middle right-hand side of the dashboard.
 
-1. Click the "Add" button to add a new team data file. The File Manager popup will appear.
+![](https://user-images.githubusercontent.com/7454688/163246702-1232fb14-94ea-4333-9036-0449b1ce08a8.png)
+
+2. Click the "Add" button to add a new team data file and select the Individual (Ind), Team, and Shared worlds that the file needs to be uploaded to.
+
+<img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/manage_team_data.png?raw=true">
+ 
+![](https://user-images.githubusercontent.com/7454688/163246804-f49dfbab-719e-4e38-946c-b56513d1e762.png)
+
+3. The File Manager will appear, go to the desired file location and click on the file.
 
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select_file_popup.png?raw=true">
- 
-2. Go to the desired file location and click on the file.
+
 3. Click "Open" to upload the file.
 
 **Please Note.**
@@ -128,38 +135,38 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
 1. Select tt Admin from the Facilitator Dashboard. The tt Reports popup will appear.
     
-    - tt 1 Report: If you are producing the 1st tt report, skip to step 5 by signing into [mtl.how/menu](https://mtl.how/menu). See **Managing tt Menu Results** section above for more information.
+- tt 1 Report: If you are producing the 1st tt report, skip to step 5 by signing into [mtl.how/menu](https://mtl.how/menu). See **Managing tt Menu Results** section above for more information.
     
 <img src = "https://github.com/lzim/mtl/blob/feature-gh-pages_facilitator_dashboard/images/select%20tt%20admin.png?raw=true">
 
 2. Select your team and the module they are using from the dropdowns.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_tm_mod.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/tt_select_tm_mod.png?raw=true">
 
-    - tt 3 Report: If you are producing the last tt report, check the tt3 box.
+- tt 3 Report: If you are producing the last tt report, check the tt3 box.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_tt3.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/tt_select_tt3.png?raw=true">
   
 3. Experiments should populate under the Select Experiments section with the teams' saved experiments. Select your desired experiments. Checked experiments will appear in the Display list. If you are changing experiments only, be sure to scroll down and click and click the Save button.
 
-    - **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.**
-    - You can select up to 10 experiments for comparison.
+- **Regardless of the list order, experiments will be displayed oldest to newest in the tt report.**
+- You can select up to 10 experiments for comparison.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_add_experiments.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/tt_add_experiments.png?raw=true">
 
 4. Under Select Reports, check the boxes of charts you want to display. Selected charts will appear on the Display list to the right. Click Save when done.
     
-    - **The charts will display in order of appearance on the list in the tt report.**
+- **The charts will display in order of appearance on the list in the tt report.**
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/tt_select_reports.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/tt_select_reports.png?raw=true">
 
 5. Sign into [mtl.how/menu](https://mtl.how/menu) and select your team. Click on the PDF icon on the upper right hand side of the page to download an export of your tt report.
     
-    - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
+- The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/menu_PDF.png?raw=true">
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/menu_download.png?raw=true">
 
 ### Set up a Red TT Report
 
@@ -200,9 +207,9 @@ This section explains how to use the Facilitator Dashboard to set up and manage 
 
     - The page will load for a few seconds before giving you an option to download your report by clicking Save As.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_PDF.png?raw=true">
+ <image src = "https://github.com/lzim/mtl/blob/gh-pages/images/menu_PDF.png?raw=true">
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_download.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/menu_download.png?raw=true">
 
 ## Manage Discussions in Team
 
