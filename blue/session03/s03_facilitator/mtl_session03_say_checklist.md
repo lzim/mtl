@@ -104,9 +104,17 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data. Complete the mtl.how/menu to prioritize your needs. Responses are confidential. 
  
 ### DO demo
-- Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
-- Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
-- The username is your VA email. It will take about 5 minutes. 
-- Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
+- [ ] Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
+- [ ] Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
+- [ ] The username is your VA email. It will take about 5 minutes. 
+- [ ] Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
 
 ## Until next time, thank you for *Modeling to Learn*!
+
+## Upload Team Data to Sim UI 
+
+After confirming and reviewing the team data with the team, Facilitators can upload the Team Data Export for Sim UI into the Sim UI in the Facilitator Dashboard in prep of S05.
+
+- [ ] 1. Generate and save the Team Data Export for Sim UI file from the Data UI in the Team PSD Shared Folder > Clinics > in your Team folder.
+   - If you do not have a folder with your Team's name, create one by following our standard naming convention, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session03/s03_facilitator/mtl_how_3.0_data_facilitator_one_pager.pdf). 
+- [ ] 2. Follow the instructions to "Manage Team Data" in the [_MTL_ Manual](https://lzim.github.io/mtl/8-sim-ui-facilitator-dashboard.html#manage-team-data).
