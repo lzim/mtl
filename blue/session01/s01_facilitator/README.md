@@ -7,8 +7,7 @@
 
 ### session 01. *Modeling to Learn* how to align our team vision
 
-### s01_facilitator
+#### s01_facilitator
 
 - Facilitator SAY Guide - Learning objectives and exercises for session 01
-- Facilitator pre/post checklist for session 01
-- Pre/post emails for session 01 (.html and .md)
+- Facilitator SAY Checklist - SAY Guide shortform for fidelity
