@@ -18,7 +18,7 @@ output:
 
 # _MTL_ Red Part 1
 
-## Today we're modeling to learn from patient data and team trends.
+## Today we're _modeling to learn_ from patient data and team trends.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). 
 
