@@ -11,4 +11,3 @@ height = "175" width = "650">](https://github.com/lzim/mtl/tree/master/blue/sess
 
 - Learner SEE Guide - Learning objectives and exercises for session 01
   - .gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-- Learner cheatsheets for mtl.how/live (Adobe Connect) (with Gifs) (.html)
