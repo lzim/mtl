@@ -18,7 +18,7 @@ output:
 
 # MTL Red Part I Facilitator Checklist
 
-## Today we're modeling to learn from patient data and team trends.
+## Today we're _modeling to learn_ from patient data and team trends.
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 - [ ] Navigate to the Learner See Guide for Part I to show Done and Do.
