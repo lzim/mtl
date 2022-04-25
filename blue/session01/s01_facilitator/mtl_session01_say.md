@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 1"
 author: "Team PSD"
-date: "March 2020"
-release: "MTL 2.0"
+date: "March 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -163,8 +163,8 @@ b. Now picture the team learning over the next 6 months in a *best case* scenari
 
 3. We will share this list of Clinic Selections with you on our shared the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
 
-3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
-   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
+3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data. 
+   - First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN. 
       - This is where you can make clinic selections and access your local team data on a secure VA site. 
    - See if you can click and view your team data.
 
@@ -176,7 +176,7 @@ _After identifying the list of Clinics with the Team Lead, to make the Clinics S
 
 In order to make, view, and export Team Clinic Selections, 
 
-1. Go to mtl.how/data_test 
+1. Go to mtl.how/data 
 2. In the left hand bar, click on the appropriate Consortium and then, VISN.
 3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
 4. Click 'Apply.
