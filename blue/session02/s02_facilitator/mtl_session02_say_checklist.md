@@ -18,6 +18,8 @@ output:
 
 # _MTL_ Live Session 02 Facilitator Checklist
 
+## Today we're modeling to learn from patient data and team trends.
+
 - [ ] Hello! I'm __________ and I'm __________. Today we're modeling to learn how to check our patient data and team trends.
 - [ ] Navigate to the Learner See Guide for Session 2 to show Done and Do.
 
