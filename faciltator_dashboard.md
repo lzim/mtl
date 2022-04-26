@@ -50,7 +50,7 @@ If you are a Facilitator, use your login to access the facilitator tools to acce
 
 1. Navigate to mtl.how/menu.
 
-<image src = "https://github.com/lzim/mtl/blob/feature-gh-pages_section_9_mtl_menu_update/images/menu_url.png?raw=true">
+<image src = "https://github.com/lzim/mtl/blob/gh-pages/images/menu_url.png?raw=true">
 
 2. Enter login information and click "Start Survey."
 
