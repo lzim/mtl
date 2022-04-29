@@ -20,7 +20,7 @@ output:
 
 **Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
-## Today we're _modeling to learn_ from patient data and team trends.
+## Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 

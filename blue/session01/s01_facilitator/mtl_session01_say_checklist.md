@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 1 - Facilitator Say Checklist"
 author: "Team PSD"
-date: "Created February 7, 2020 DK \ RH March 2 2020 \ JB March 11 2020"
-release: "MTL 1.8"
+date: "April 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -90,7 +90,7 @@ Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) 1. We will reach out to schedule and prep the list of Clinic Selections for Session 2 with the Team Lead, and post them for you to see on our shared MS Teams channel.  <br> 2. Confirm your Team Clinic Selections on MS Teams and go to mtl.how/data_test to see your team's data. | 
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) 1. We will reach out to schedule and prep the list of Clinic Selections for Session 2 with the Team Lead, and post them for you to see on our shared MS Teams channel.  <br> 2. Confirm your Team Clinic Selections on MS Teams and go to mtl.how/data to see your team's data. | 
 
 After the Session:
 - [ ] Schedule Meeting with Team Lead & Make Clinic Selections 
