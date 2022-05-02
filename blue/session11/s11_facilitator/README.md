@@ -8,5 +8,4 @@
 **s11_facilitator:**
 
 - Facilitator SAY Guide - Learning objectives and exercises for session 11
-- Re/post emails for session 11 (.html and .md)
-- Facilitator pre/post checklist for session 11
+- Facilitator SAY Guide checklist for session 11
