@@ -42,21 +42,21 @@ output:
 
 ### Connect learning and decisions from experiments to original team vision, question, and need.
 
-1. What shared vision did the team decide on in session 1?  
+1. **What shared vision did the team decide on in session 1?**  
 
-2. What team need and questions did we identify?  
+2. **What team need and questions did we identify?**  
 
-3. What hypotheses did we test?  
+3. **What hypotheses did we test?**  
 
-4. What insights will we keep in mind as we make clinic decisions?  
+4. **What insights will we keep in mind as we make clinic decisions?**  
 
-5. What new approaches or targets do we want to focus on?  
+5. **What new approaches or targets do we want to focus on?**  
 
-6. What concrete actions can the team take in the real world?  
+6. **What concrete actions can the team take in the real world?**  
 
-7. How do these decisions align with the team's shared vision, question and needs?  
+7. **How do these decisions align with the team's shared vision, question and needs?**  
 
-8. What data will we watch to see how we're doing?  
+8. **What data will we watch to see how we're doing?**
 
 ## Done and Do (15 minutes)
 
