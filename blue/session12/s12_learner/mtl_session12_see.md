@@ -47,7 +47,7 @@ height = "175" width = "420">](#DontLink)
 3. **How will we coordinate our efforts going forward based on our learning?**
 
 4. **What *MTL* resources will the team use or revisit in the future?**
-    - ***MTL* data UI**
+    - ***MTL* data UI** (**What data will be most helpful to check back in on?**)
     - ***MTL* sim UI** (**Which module would be most appropriate to our future need and questions?**)
 
 5. **Lead person(s) and time frame for the above actions?**
