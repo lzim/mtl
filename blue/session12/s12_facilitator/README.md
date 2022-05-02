@@ -6,7 +6,5 @@
      height = "175" width = "650">
 
 **s12_facilitator:**
-
-- Facilitator SAY Guide - Learning objectives and exercises for session 12
-- Pre/post emails for session 12 (.html and .md)
-- Facilitator pre/post checklist for session 12
+    - Facilitator SAY Guide - Learning objectives and exercises for session 12
+    - Facilitator SAY Guide Checklist for session 12
