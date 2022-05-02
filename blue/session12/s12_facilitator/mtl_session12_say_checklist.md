@@ -52,7 +52,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 4. **What *MTL* resources will the team use or revisit in the future?**
 
-    - [ ] ***MTL* data UI** ___________________
+    - [ ] ***MTL* data UI** (**What data will be most helpful to check back in on?**) ___________________
     
     - [ ] ***MTL* sim UI** (**Which module would be most appropriate to our further need and questions?**) ___________________
 
