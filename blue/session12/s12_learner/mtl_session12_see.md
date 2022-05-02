@@ -40,22 +40,19 @@ height = "175" width = "420">](#DontLink)
 
 # In-session Exercise: *MTL* graduation and post-*MTL* plan (30 minutes)
 
-1. We completed _Modeling to Learn_! Let's review and plan!
+1. **We completed _Modeling to Learn_! Let's review and plan!**
 
-2.  What has the team learned throughout the *Modeling to Learn* 12-session program?
+2. **What has the team learned throughout the *Modeling to Learn* 12-session program?**
 
-3. How will we coordinate our efforts going forward based on our learning?
+3. **How will we coordinate our efforts going forward based on our learning?**
 
-4. What *MTL* resources will the team use or revisit in the future?
+4. **What *MTL* resources will the team use or revisit in the future?**
+    - ***MTL* data UI** (**What data will be most helpful to check back in on?**)
+    - ***MTL* sim UI** (**Which module would be most appropriate to our future need and questions?**)
 
-    - *MTL* data UI 
-    
-    - *MTL* sim UI (Which module would be most appropriate to our future need and questions)
+5. **Lead person(s) and time frame for the above actions?**
 
-5. Lead person(s) and time frame for the above actions 
-
-6. Celebrate completion of *Modeling to Learn*!
-
+6. **Celebrate completion of *Modeling to Learn*!**
 
 
 ## Done and Do (15 minutes)

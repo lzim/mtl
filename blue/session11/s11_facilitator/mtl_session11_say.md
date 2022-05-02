@@ -18,7 +18,7 @@ output:
 
 # MTL Live Session 11
 
-## Today we're modeling to learn how to make _future_ team decisions.
+## Today we're modeling to learn how to make future team decisions.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to make future team decisions.
 
