@@ -15,9 +15,9 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s11_team_decisions_title.png"
      height = "175" width = "420">](#DontLlink)  
 
-### Session 11 Say Checklist
+## Session 11 Say Checklist
 
-**Today we're modeling to learn how to make _future_ team decisions.**
+## Today we're modeling to learn how to make future team decisions.
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to make future team decisions.
 
@@ -26,7 +26,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "45" width = "45"> **Done** We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim.
 
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do** We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care.| 
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do** We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care.
 
 **Emphasize team priority with the learning objectives on the screen**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:05-00:10** 
@@ -68,20 +68,20 @@ Systems Thinking | Definition
 
 - ___________________ [exp 3]
    
-**Discuss new individual and team practice decisions** using C.F.B.T. systems thinking rationale for why a practice decision would lead to desired outcomes over time.**
+**Discuss new individual and team practice decisions** using C.F.B.T. systems thinking rationale for why a practice decision would lead to desired outcomes over time.
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:20-00:50**  
 
-1. What shared vision did the team decide on in session 1?
-2. What team need and questions did we identify?
-3. What hypotheses did we test?
-4. What insights will we keep in mind as we make clinic decisions?
-5. What new approaches or targets do we want to focus on?
-6. What concrete actions can the team take in the real world?
-7. How do these decisions align with the team's shared vision, question and needs?
-8. What data will we watch to see how we're doing?
+1. **What shared vision did the team decide on in session 1?**
+2. **What team need and questions did we identify?**
+3. **What hypotheses did we test?**
+4. **What insights will we keep in mind as we make clinic decisions?**
+5. **What new approaches or targets do we want to focus on?**
+6. **What concrete actions can the team take in the real world?**
+7. **How do these decisions align with the team's shared vision, question and needs?**
+8. **What data will we watch to see how we're doing?**
 
 **Have Team Lead pull up the session 11 SEE guide Done/Do review.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:55**  
 
 - [ ] Done: We discussed the team's learning and new individual and team practice decisions that apply C.F.B.T. systems thinking skills in prioritized ways to implement it in our clinical care.
-- [ ] Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps.
+- [ ] Do: Reflect on our team's vision for _MTL_ and our _MTL_ experience to prepare for planning next steps.
