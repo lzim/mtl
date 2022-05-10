@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 1 - Learner See"
 author: "Team PSD"
-date: "March 17, 2022"
+date: "April 2022"
 release: "MTL 3.0"
 output: 
   github_document: default
@@ -65,37 +65,37 @@ d. **Compile a team list.**
 
 ### 2. Envision a Best Case Scenario. 
 
-a. It is important to create team language for learning, aligning team decisions when there are roadblocks to consensus. Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
+a. **It is important to create team language for learning, aligning team decisions when there are roadblocks to consensus.** Start by picturing Veteran mental health care in this team as you experience it now – the interactions/communications within the team in and out of team meetings; the key people you rely on outside the team; the information and data you use to coordinate care plans, and the feelings you associate with it.
 
 b. Now picture the team learning over the next 6 months in a **‘best-case’ scenario**, where things are happening in the team the way that you would ideally like them to. This is your “dream team” situation.
 
 ### 3. Create a Personal Vision for this 'best-case' scenario.
 
-a. What is team communication like?
+**a. What is team communication like?**
 
-b. How do team members relate to one another?
+**b. How do team members relate to one another?**
 
-c. How is VA data used?
+**c. How is VA data used?**
 
-d. How are decisions, plans and changes made?
+**d. How are decisions, plans and changes made?**
 
 ### 4. Review together with the Team.
 
-a. What stands out to you?
+**a. What stands out to you?**
 
-b. Why did we choose these?
+**b. Why did we choose these?**
 
-c. What makes them so relevant or important to us?
+**c. What makes them so relevant or important to us?**
 
-d. Can we address them all (bearing in mind our resources and time)?
+**d. Can we address them all (bearing in mind our resources and time)?**
 
-e. If not, which would we most like to address (align around), and why?
+**e. If not, which would we most like to address (align around), and why?**
 
 ### 5. Put it together and hone in on your Team Vision.
 
-  a. We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program. 
+a. **We'll hold this vision up as a reminder of our shared goals to orient our learning throughout the *MTL* program.**
   
-  b. You can further word-smith the Team Vision after the session if you want.
+b. You can further word-smith the Team Vision after the session if you want.
   
 Overall "_Modeling to Learn_" objectives include activities and competencies that:
 
@@ -109,24 +109,20 @@ Overall "_Modeling to Learn_" objectives include activities and competencies tha
 ### 6. Select a Team Lead.
  
 -  The role of the Team Lead is to:
+1. Be the main point of contact between the team and *Modeling to Learn* co-facilitators;
+2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+3. Provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
-     - be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-     - become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the 
-         data user interface), mtl.how/sim (the simulation user interface); and
-     - provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' 
-          guidance.  
-
-  - Ideal characteristics of the Team Lead include:
-
-       - Having strong relationships with fellow team members;
-       - Being organized;
-       - Having basic computer knowledge (some Excel experience is good);
-       - Attention to detail; and
-       - Commitment to process improvement and the use of data to improve care.
+- Ideal characteristics of the Team Lead include:
+   - Having strong relationships with fellow team members;
+   - Being organized;
+   - Having basic computer knowledge (some Excel experience is good);
+   - Attention to detail; and
+   - Commitment to process improvement and the use of data to improve care.
 
 ## Done and Do (15 minutes)
 
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. We logged in to [mtl.how/data](https://mtl.how/data) to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_home_page_clinic_selection.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.5/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**|
