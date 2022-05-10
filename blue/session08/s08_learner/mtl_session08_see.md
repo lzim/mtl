@@ -41,66 +41,62 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-### Running an Experiment
+### Log in to your individual or team world at mtl.how/sim.  
 
-1. Log in to your individual or team world at mtl.how/sim.  
+[A LOT OF THIS INFO MAY BE EXCESSIVE AND COULD BE REMOVED] 
+  - If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.  
+  - If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.  
+- You can *Join Current Session* or *Start a New Session* in any module. If you *Start a New Session* select the team data file you’d like to use.  
+- Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.  
 
-    [![sim ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#.)  
 
-    **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
-
-2. If you logged into your *individual world*, review your saved runs in the Experiment Maintenance section. Rename your saved runs if you feel you need to.  
-
-3. If you logged into your *individual world*, review the data files you have uploaded in the Team Data Menu Maintenance section and make sure you have the data file you want.  
-
-4. You can *Join Current Session* or *Start a New Session* in any module. If you *Start a New Session* select the team data file you’d like to use.  
-
-    - Once you have logged in to the model, the Text box will appear on the right. You can move, "x out" of or expand the Text box at any time.  
-
-5. To refresh your memory and pick up where you left off last time, select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. Review those text fields.  
+## Review the Base Case Scenario 
+ - Select the experiment from the last session and check the box to include text from this session in Expanded Outputs text fields. 
+ - Review those text fields to refresh your memory.
+ - Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result. 
 
     [![sim ui previous experiment screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_previous_exp.gif)](#.)  
 
     **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_1.7/mtl_session08_see.md)**  
 
-6. Study the system diagram and team data, and decide together what change you want to experiment with, that might give the team the desired result.  
+### Set Up a New Experiment
+    - To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:  
 
-7. To create a new run building off of the previous one, revise the text in all the text boxes to reflect the experiment you want to do now:  
+   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.*  
 
-    [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_question.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Question.** *Briefly describe what your team wants to learn from this experiment.*  
+   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
 
-    [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_hypothesis.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Hypothesis.** *Outline the systems story your team believes will cause the outcomes your team expects to observe.*  
+- Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).  
 
-8. Adjust experiment sliders for the new experiment, keeping in mind that the previous run’s settings are in effect (for this session that just means the base case or default values).  
-
-    [![sim ui adjust sliders screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_adjust_sliders.gif)](#.)  
-
+   [![sim ui adjust sliders screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_adjust_sliders.gif)](#.)  
     **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
 
-9. Run and then Save (without resetting). The Sim UI will automatically name your experiment based on your experiment settings. 
+### Run the Experiment 
+   - Run and then Save (without resetting). The Sim UI will automatically name your experiment based on your experiment settings. 
    - If you did not adjust experiment settings, the SIM UI will name your experiment "bc" for base case. 
    - Review the name and Save. 
-      - If you have a question about the abbreviations, click the "i" information next to the name for more information.  
+   - If you have a question about the abbreviations, click the "i" information next to the name for more information.  
 
-    [![sim ui save experiments screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_save_exp.gif)](#.)  
+   [![sim ui save experiments screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_save_exp.gif)](#.)  
 
-    **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
+   **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
 
-10. Compare Experiments to see the difference the between base case and the current experimental run.  
+### Compare Experiments to see the difference the between base case and the current experimental run.  
+   - What do you notice?
+   - Record what you learned in "Our Findings  
 
-    [![sim ui results dashboard screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_results_dash.gif)](#.)  
+   [![sim ui results dashboard screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_results_dash.gif)](#.)  
 
-    **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
-
-    Record what you learned:  
+   **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session08_see.md)**  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_findings.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Findings.** *Describe your team's findings, insights and conclusions from this experiment.*  
 
-11. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.  
+### Discuss and record Decisions.
+   - What changes would you want to make in the clinic? 
+   - What further experiments do you want to run?  
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
 
-12. Save and Reset when ready.
 
 ## Done and Do (15 minutes)
 

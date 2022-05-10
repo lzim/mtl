@@ -75,7 +75,7 @@ Hello! I'm __________ and I'm __________ , and today we're modeling to learn how
 ### That's it for _Modeling to learn_ how to prioritize team needs.  Let's review the Done/Do.
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), Team (SP) Flow or aggregate (AGG).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim_test.  
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Log in to the _MTL_ simulation user interface (sim UI) at mtl.how/sim.  
 
 ### DO demo
 - [ ] Note use of the _Modeling to Learn_ Simulation User Interface, or sim UI, for sessions 5 to 10.
