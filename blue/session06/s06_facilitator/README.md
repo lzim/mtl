@@ -7,8 +7,6 @@
 
 ### session 06. *Modeling to Learn* how to tell a **systems story**
 
-**s06_facilitator:**
-
-- Facilitator SAY Guide - Learning objectives and exercises for session 06
-- Facilitator pre/post checklist for session 06
-- Pre/post emails for session 06 (.html and .md)
+1. **s06_facilitator:**
+    - Facilitator SAY Guide - Learning objectives and exercises for session 06
+    - Facilitator SAY Guide Checklist - Learning objectives and exercises for session 06 in a checklist
