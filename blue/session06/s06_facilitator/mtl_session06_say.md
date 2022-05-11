@@ -56,13 +56,15 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:10-00:15 - Team-specific rationale** \__________________
 
-**The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.  This exercise has two parts, the first to practice navigating to your Team simulation world, and the second to use the diagram  to help you tell your Systems Story.  A Systems Story is a description of the causal connections that create the problem your team prioritized, \_________________.**
+### **The purpose for this activity is to familiarize you with the model diagram and how causal diagrams can be useful to understanding why problems arise and persist. By the end, you should be able to easily navigate it and find detailed information about each variable.**
 
-### Team lead shares Chrome and logs in to the Team world at **mtl.how/sim.**
+### **This exercise has two parts, the first to practice navigating to your Team simulation world, and the second to use the diagram to help you tell your Systems Story. A Systems Story is a description of the causal connections that create the problem your team prioritized \_________________.**
+
+### Have the Team lead shares Chrome and logs in to the Team world at **mtl.how/sim.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:15-00:20 - Team's Session 05 Question** \__________________
 
-### Let's explore the MTL Home Page.
+### Let's explore the _MTL_ Home Page.
 
 - To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that ends with **"team" from the drop-down menu**.
 - Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.
@@ -87,19 +89,27 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 1. Over what time frame does an experiment run?
 
-See the box titled Experiment Timeline in the top corner of the diagram section. This shows the time frame over which an experiment will run. What is the maximum time into the future you can simulate? Two years from today.
+- **See the box titled Experiment Timeline in the top corner of the diagram section.**
+- **This shows the time frame over which an experiment will run.** 
+- **What is the maximum time into the future you can simulate? Two years from today.**
 
 ### 2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the Rates into the chat box.
 
-Notice the blue circle "i" in the diagram. These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data. The small circles with i inside throughout the sim UI provide additional information when you click on them. Red circle "i" in the team data table provides information for the red variables that are read in from team data. Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.
+- **Notice the blue circle "i" in the diagram. **
+- **These provide information on how model variables are calculated by the sim UI from the red variables that are read in from team data.** 
+- **The small circles with i inside throughout the sim UI provide additional information when you click on them.** 
+- **Red circle "i" in the team data table provides information for the red variables that are read in from team data.** 
+- **Circle "i" in the Experiments section provides information on what you're changing when you adjust a variable to run an experiment.**
 
-### 3. Describe in one sentence what happens in the model diagram as you "Reveal Complexity?"
+### 3. Describe in one sentence what happens in the model diagram as you "Reveal Dynamics Over Time"?
 
-Inside the Experiment Timeline box you also see a set of options to Reveal Complexity. You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually complex. The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the complexity regardless of how much is being viewed at the time.
+- **Inside the Experiment Timeline box you also see a set of options to Reveal Dynamics Over Time.** 
+- **You can select check-boxes to bring more of the model diagram into view, or uncheck the boxes to make it less visually dynamic.** 
+- **The amount of detail showing in the model diagram does NOT affect your experiments; the model always accounts for all the dynamics regardless of how much is being viewed at the time.**
 
 ### 4. What is the significance of the variables in the "red boxes"?
 
-In our convention, Red means read in from team data.
+- **In our convention, Red means read in from team data.**
 
 ## In-Session Exercise - Part 2
 
@@ -107,23 +117,24 @@ In our convention, Red means read in from team data.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:30-00:40  - Team Priority**\__________________
 
-- **Starting Point: Main model section with no additional complexities revealed.**
+- **Starting Point: Main model section with no additional dynamics revealed.**
 
 ***Tip:* If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.**  
 
-- **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.  Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
-  - What are the main units _Modeling to Learn_?
+- **Imagine a veteran in care. Tell the systems story told by the diagram in real-life terms.**
+- **Make notes where you have questions or are unsure about the relationships depicted. Describe the connection between the model diagram and the team data table. How are they linked?**
+  - **What are the main units _Modeling to Learn_?**
     - Appointments/week
     - Patients/week
     - Episodes of Care (SP): Episodes of Care appears on the model diagram for Measurement Based Stepped Care and Suicide Prevention and in the Team Data Table. However, all of the Output charts are still in the units of appointments, appointments/week, patients, or patients/week.
-- Let's do a quick orientation to the model diagram.
-  - The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments.
-  - In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback loop and fully understand why behaviors happen in our clinics.
+- **Let's do a quick orientation to the model diagram.**
+  - **The navy blue circles or gauges are always a rate. The navy blue rectangles are patients or appointments.**
+  - **In telling a systems story, we want to trace the loop all the way around until we are back where we started - so that we close the feedback loop and fully understand why behaviors happen in our clinics.**
   - On the model diagram, you see plus and minus signs next to the blue lines. **Use Thumbs to demonstrate +/- concept:**
-  - If there is a plus sign between two variables, this means they move in the same direction (thumbs both up for increasing or both down for decreasing).
+  - **If there is a plus sign between two variables, this means they move in the same direction (thumbs both up for increasing or both down for decreasing).**
     - If there is a minus sign, the two variables move in opposite directions (1 thumb up, 1 thumb down; and reverse).
 
-## Cover complexity reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority.
+## Cover dynamics reveal (causal loop) and base case question and dynamic hypothesis related to the team's priority.
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)  \_____________ **Time 00:40-00:50 - Team Priority**\__________________
 
@@ -131,16 +142,16 @@ In our convention, Red means read in from team data.
 
 ### Enter a base case question and hypothesis in the Text section.
 
-- In the Question box, add a base case question about no new decisions in addition to the team need question that the team wrote last session.
-- In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.
-- Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.
-- The last thing to do is log out of the SIM UI!
+- **In the Question box, add a base case question about no new decisions in addition to the team need question that the team wrote last session.**
+- **In the Hypothesis box, briefly describe what you expect to happen over the next two years if the team continues with business as usual.**
+- **Click on the Save (not Save & Reset) button in the upper right corner of the Text section. This will allow us to quickly pull it up at the next session.**
+- **The last thing to do is log out of the SIM UI!**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) ***00:50-00:55***
 
 ### That’s it for _Modeling to Learn_ how to tell a systems story. Next is our Done/Do review.
 
-Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.
+**Today we told a systems story about our team's top priority and entered a Question and Hypothesis in the Text section. Before next time, please log into your individual world and refine your Question and Hypothesis about the base case experimental run in the Text section.**
 
 ## Done and Do (15 minutes)
 
@@ -155,10 +166,10 @@ Today we told a systems story about our team's top priority and entered a Questi
 
 ## DO demo
 
-1. Log back into the SIM UI.
-2. Write your QUESTION about the base case (of no new decisions) in the QUESTION box.
-3. Write your HYPOTHESIS about the base case (of no new decisions) in the HYPOTHESIS box.
-4. Name your bc run. Use the drop down file naming field boxes to select 'bc'. Click on Save (but not Save and Reset).
+1. **Log back into the SIM UI.**
+2. **Write your QUESTION about the base case (of no new decisions) in the QUESTION box.**
+3. **Write your HYPOTHESIS about the base case (of no new decisions) in the HYPOTHESIS box.**
+4. **Name your bc run. Use the drop down file naming field boxes to select 'bc'. Click on Save (but not Save and Reset).**
 
 **Until next time, thanks for *Modeling to Learn*!**
 
@@ -175,10 +186,9 @@ Today we told a systems story about our team's top priority and entered a Questi
 || Let's continue with the assumption that *New Patient Wait Time* is increasing. As this wait time increases, it increases the *Effect of Wait Time on Referrals*. The *Effect of Wait Time on Referrals* is the difference between the *New Patient **Actual** Wait Time* and the team's desired or *Target Wait Time*.  In the Med Management module, we can adjust target wait times for different diagnostic patients. The "stacked" red boxes labeled *Target Wait Time* indicates you can change the target wait time by adjusting the red sliders read in from your team data for patients with Alcohol Use Disorder, Opioid Use Disorder, Depression and Other conditions.  The effect of an increasing wait time on referrals, which has a negative sign, means a decrease to the *Referral Rate* so referrals to MM begin to slow down.  Patients may be kept in or referred to other services so that they don't have to wait longer than the desired or target wait time for their first MM appointment.   |
 |  **PSYCHOTHERAPY** | **-- Balancing Existing and New Patients; Engagement After 3 Months --** |
 ||The Psychotherapy or PSY module shows how team psychotherapy decisions interact, and depicts patterns of psychotherapy engagement in your team. You can explore solutions to the challenges of getting patients to complete a full course of therapy, while also achieving goals to start enough new patients in psychotherapy. Insights about these dynamics can be used to increase the local reach of evidence-based psychotherapies.  We'll reveal the "Balancing Patients" detail in the PSY model diagram.  Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  For this activity of telling a systems story, we want patients to complete a full course of PSY without decreasing the new patients that can start psychotherapy. So, if you as a clinician are totally full in your PSY slots, the only way you can start new patients is if patients quit or patients complete. Let's scroll down the model diagram to see what has been revealed in the blue shaded box titled *Patients in Their First 3 Months of Psychotherapy*.
-|| The *Reveal Complexity* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously our team wants patients to complete a full course of PSY without decreasing the new patients that can start.
+|| The *Reveal Dynamics Over Time* detail for Balancing Patients shows the flow of patients and appointments in the PSY model. We see patients start psychotherapy and a certain number of patients get their first visit of PSY and end there; you can see this in the model here [use mouse to show "Patients in First Visit"]. We know that other patients will go on for additional visits. In the model diagram, we can explore data for patients who attend 2 to 7 visits [use mouse to show "Patients in Visit 2 to 7"] but they haven't yet completed a full course of PSY. Next, there is a subset of patients will go on to achieve 7 or more visits in their own first 3 months. Some will graduate and some will continue treatment after 3 months. Obviously our team wants patients to complete a full course of PSY without decreasing the new patients that can start.
 || So, starting on the left side of the screen in the blue box. We can see that as the *Starting Rate* for PSY increases, it increases the Booking Rate. Remember, we follow the blue line upward to *Booking Rate* and there is a plus *+* sign which means the Starting Rate and Booking Rate move in the same direction. As the *Booking Rate* increases, this increases the appointments on the books for PSY [use mouse to show booking rate to appointments in PSY].  As the overall appointment supply goes up it can increase the overall appointments for new patients or existing patients. So, as the *Appointments in Psychotherapy* increases, we follow the light blue arrow to *Appointments for Existing Patients* and see that plus *+* sign indicating an increase in appointments on the books for existing patients.  As the appointments for existing patients goes up, it decreases the appointments for new patients, as this goes down it decreases the *Starting rate* as shown with the long blue arrow down the left side of the screen that connects *Additional Appointments Available to New Patients* to *Starting Rate* with a plus *+* sign.
 |**AGGREGATE** |**-- Appointment Backlog Extends Return Visit Interval (under RVI and Wait Times) --**|
-||Because the Aggregate or AGG model includes a mix of services, the *Experiment Timeline* box has two options: *Reveal Complexity* and *Display Patient Services*. If you click through the services listed under *Display Patient Services* you will see the numbers change in the dark blue circles and rectangles in the model diagram. This represents the our team's appointments and patients data for each service. Remember, if you're not sure how a variable is defined, check the *i* descriptions on the model diagram or in the *Experiments* section.  Let's show the "RVI and Wait Times" under *Reveal Complexity* in the AGG model.  Our team is going to be losing two staff members in the near future. Since the aggregate module shows the interactions between all services offered by our team, we want to use this module to explore how we can best allocate appointments across services with reduced staffing levels. We also want to know what will happen to patient wait times if we change patient return-to-clinic visit intervals (RVI) and/or if the remaining staff members decide to work overtime or not.
 || Let's walk through a systems story focused on the balancing loop titled "Appointment Backlog Extends Return Visit Interval right here on the model diagram [mouse over balancing loop on screen].  Let's start In the Appointments section of the diagram with the *Booking Rate*. As the *Booking Rate* goes up, the *Appointments* increase. If there are more patients who need an appointment then there are appointments or clinical hours available, clinicians may feel work pressure. This is the light blue arrow with the plus *+* sign leading from *Appointments* to *Work Pressure*.
  ||When a clinic team experiences increasing *Work Pressure* then there is an *Effect of Work Pressure on Scheduled Return Visit INterval* such that as work pressure increases, there is an increases the time between appointments or the *Return to Clinic Visit Interval*.  As the *Return to Visit Interval* increases the *Booking Rate* decreases, you can tell this by the negative sign at the end of the light blue arrow leading from RVI to Booking Rate. Thus, the balancing loop is *Appointment Backlog Extends Return Visit Interval* is complete.
 |**MEASUREMENT-BASED STEPPED CARE AND SUICIDE PREVENTION**| **-- Higher Care Quality Improves Recovery --**|
