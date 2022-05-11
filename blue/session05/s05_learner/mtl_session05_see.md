@@ -41,7 +41,7 @@ output:
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-### 1. Log into the sim UI
+### 1. Log into the sim UI.
 
 - Go to mtl.how/sim
 - Enter your login credentials and click the "Login" button.
