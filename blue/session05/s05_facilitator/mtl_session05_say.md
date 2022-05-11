@@ -122,12 +122,12 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - **You see the same information and buttons across the top as the Home page.**
 - **There's a new set of sections with blue headers below that. Let's click inside the large blue header on the left to minimize that section, because we aren't going to need it today. But notice inside that bar it tells you which module and team data file we selected.**
 - **To the right of the main section are 3 blue bars labeled Outputs and Text, Experiments, and Text. You can drag the Text section around by the blue bar. You can also expand, minimize, or close it with the icons on the top right side of the blue bar. Expand it to open up the Outputs section, including the Text boxes. Reduce it back to Text-only the same way you expanded it. If you close it with the X, you can get it back by going to the Outputs and Text section and selecting Expand.  **
-- You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.  
+- **You can use the app's responsive design feature to enlarge the view. Use the magnifier (+/-) or the shortcut Control/Shift/+ (or minus) to make things bigger or smaller. At some point, the design layout changes to stacked sections instead of having them side by side. This is the way it will look on a smartphone screen, or sometimes with other types of monitors.**  
 - **Record the team's high-level learning Question.**  
 - **Open and expand the Outputs and Text section if you need to.**  
 - **Type your question about \_________________________________ into the Question box.**  
 - **Click Save. We will discuss naming more next time. For now, just click the down arrow at the first prompt and choose "bc" (stands for base case), and Add, then click the Save button at the top. (We do not want to "save and reset".) Click Yes at the prompt.**  
-- **Check out the Team Data Table.**  
+- **Check out the Team Data.**  
 - **"Exclamation points" in the Team Data Table for Measurement Based Stepped Care & Suicide Prevention (SP): Sometimes we may have estimates derived from very few observations. We decided to set infrequently observed values to zero to avoid inflation of rarer episodes of care. Poor inferences are possible using estimates when the count is low and the duration is low. If the values are <1% of the total counts of episodes of care in the team, and they are retained in the model, it will inflate rare episodes.**
   - Exclamation points in the Team Data Table will indicate when a parameter is too low to be validly used.
   - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
@@ -163,7 +163,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 ### 8. Log out of the Sim UI.
 
 - **Click on the "Logoff" icon in the top navigation bar every time you're done in the sim UI.**
-- The sim UI will automatically ask "Would you like to save your current session?" to remind you to save your session experiment if you forget.
+- **The sim UI will automatically ask "Would you like to save your current session?" to remind you to save your session experiment if you forget.**
 
 **That's it for _Modeling to Learn_ how to log in to our team world!**
 
