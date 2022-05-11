@@ -84,6 +84,8 @@ output:
   
   [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/icons/mtl_decisions.png" height = "50" width = "50" style = "display: inline-block"/>](#.) **Our Decisions.** *Based on what you learned in this experiment, what changes are you ready to make in your practice?*  
   
+[![sim ui results dashboard screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_results_dash.gif)](#.)  
+
 ### 5. Make and record your Team Decisions.
   - **What do these findings suggest doing differently in your team?**
   - **What did the team decide to investigate next?** 
