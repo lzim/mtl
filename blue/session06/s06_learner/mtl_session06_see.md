@@ -56,8 +56,6 @@ output:
 
 [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/sim_ui_reveals.gif)](#DontLink)  
 
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session06_see.md).**
-
 **1. Over what timeframe does an experiment run?**
 
 **2. Where do you find the descriptions for each variable in the module? Paste a portion of a description from one of the *Rates* into the chat box.**  
@@ -68,6 +66,8 @@ output:
 
 _**Tips & Tricks**_
 - If you are not able to see the whole model diagram at once, try altering the size of the window using the browser's expand/reduce button and dragging the frame. The display will adjust to a stacked format that will get more of the diagram into one view.  
+
+**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session06_see.md).**
 
 # **In-session Exercise – Part 2: Telling a Systems Story**  
 
