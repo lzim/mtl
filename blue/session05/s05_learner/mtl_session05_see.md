@@ -67,6 +67,7 @@ _**Tips & Tricks**_
    - **Never include any PII/PHI in your bug description and screenshot.**
 - For an "over the shoulder" orientation to the different icons, blue headers, and functions of each page, click on the "Tutor" icons.
 - If you have an idea, something you like, or if you have a question, click on the "Community" icon in the bottom right.
+   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**  
 
 **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
 
