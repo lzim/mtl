@@ -53,7 +53,7 @@ output:
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) 
 **_MTL_ 3.0. For *MTL* 2.0 click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
 
-### 2. Orient yourself to the landing page 
+### 2. Orient yourself to the landing page.
 - **Look at: Team name, navigation icons, player name, welcome text, sections with blue headers.**
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_home.gif)](#DontLink)
