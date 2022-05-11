@@ -44,11 +44,11 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontClick)  
 
-- In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that \___________________  
-- Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.  
-- Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make.  
-- With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.  
-- Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.  
+- **In Sessions 2 and 3 we used the data UI to look back at team trends over the past two years. That gave us a sense of *what IS* in our team now. For example, we saw that \___________________.** 
+- **Backward looking data review is limited for guiding effective change. Even when we see a trend we like, we may not know what is causing it, and we may worry that the next change we make will undo it. It can also be demotivating to see trends we don't like and not know what's causing the problem.**  
+- **Today we're at a turning point where we will begin to use the simulation UI to anticipate future trends. We'll start asking *what if* questions about different decisions the team could make.**  
+- **With the sim UI we have a way to test our hypotheses about those questions that lets us learn "as quick as we learn not to touch a hot stove". And even more importantly, this virtual world lets us test our "what if" questions without any risk to the well-being of veterans.**  
+- **Simulation helps us to place a better initial bet about what is likely to pay off for our local Veteran community in terms of getting patients timely access to our highest quality care.**  
 
 ## In-session Exercise \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
@@ -59,9 +59,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - Open a new browser window in Google Chrome and go to mtl.how/sim. **The *Modeling to Learn* simulation user interface does not work on Explorer. Please use Edge, Firefox, Chrome or Safari via desktop or mobile.**  
 - Enter your login credentials - username is your VA email address and password should have been provided to your team in the Session 5 Pre email. Use all lowercase. If you forget your password, click on the red "Reset Password" at the bottom of the login section. An email will be sent to you to create a new password.  
 - Click the down-arrow in the *Please select a World* pop-up. 
-- You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!  
-- An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.  
-- If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.  
+- **You see two options - one has "team" in it and the other has "ind" for "individual" in it. Since we're working together now as a team, choose the team world. Any time the team is collaborating together at the same time, this is the world to choose. If you are exploring the sim UI on your own, it's best to select your individual world so you don't inadvertently change anything in the team's world. You are welcome to log in to your individual world any time and play around. There is nothing you can break there!**  
+- **An important thing to note is that this application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will stack these sections vertically instead of showing them side by side. It will probably look like that if you are logged in on a smartphone. So just keep in mind that the sim UI may look different on different devices, but all the same functionality is still there.**  
+- **If there is a critical issue that everyone needs to be alerted to, there will be a red "Alert" pop-up upon login, alerting everyone to the issue. These issues are our top priority to resolve due to their level of criticality. Once you dismiss this alert once, it will not reappear. Note, this alert will appear in both your team and individual worlds, so you will need to dismiss it twice.**  
 - Upon clicking buttons like the "Play" or "Run" icon, a quick tip will appear on the loading screen on different functions in the sim UI.
 
 ### 2. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers).  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
@@ -106,9 +106,9 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 4. Start a New Session.  \[ [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "15" width = "15">](#DontClick) \]
 
-- **Start a New Session and review the sim UI Main Page. ** 
-- **Select the module your team decided to use.  **
-- **Select the team data you just uploaded.  **
+- **Start a New Session and review the sim UI Main Page.** 
+- **Select the module your team decided to use.**
+- **Select the team data you just uploaded.**
 - **Click on the red Play button under the "Session" blue header.** 
 - For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.) 
     - If you are using a Learning Mode, refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.  
