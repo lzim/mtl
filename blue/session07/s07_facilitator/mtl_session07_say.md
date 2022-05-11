@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Team PSD"
-date: "February 2021"
+date: "May 2022"
 release: "MTL 3.0"
 output: 
   github_document: default
@@ -50,7 +50,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 Time Stamp | Prioritize tailored team learning | Script
 -- | -- | --
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's question and the systems story that supports the team's hypothesis. | **Practice highlighting specific values from the Team Data table and variables from the complexity reveal (causal loop) that are guiding the in-session work to address the team's highest priority need.**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "30" width = "30" style ="display: inline-block"/>](#.) 00:10-00:20 | **Cue** up the team's question from Session 5 and hypothesis from Session 6 **Review** the team data that supports the team's question and the systems story that supports the team's hypothesis. | **Practice highlighting specific values from the Team Data table and variables from the Reveal Dynamics Over Time (causal loop) that are guiding the in-session work to address the team's highest priority need.**
 
 ## In-session Exercise (30 minutes)
 
@@ -76,7 +76,7 @@ Time Stamp | Prioritize tailored team learning | Script
 
 - There is important research showing that is not likely to improve learning to click around and run experiments without stating what you *expect* will happen over the next two years before you run the simulation.
 
-- In order to benefit from experiential simulation learning, you need to create a hypothesis -- an if/then statement about what you believe will happen over the next two years as a consequence of your change. Through this process you can be surprised, have some things confirmed, but perhaps also find that when more variables and complexity are accounted for, there may be counter-intuitive findings too.
+- In order to benefit from experiential simulation learning, you need to create a hypothesis -- an if/then statement about what you believe will happen over the next two years as a consequence of your change. Through this process you can be surprised, have some things confirmed, but perhaps also find that when more variables and dynamics are accounted for, there may be counter-intuitive findings too.
 
 - **Expand the Outputs and Text section and enter text in the boxes to reflect your question and hypothesis about a base case run – one where no new decisions are made in your team, and run the simulation out to its 2-year end just using data pulled in from your team data file.**
    - **Add** your hypothesis about the base case run results in the *Our Hypothesis* text box. Reference team data value relevant to the team's question. We want to be as specific as possible, and we have the question, hypothesis, findings and decisions boxes here, which the teams can use as a lab notebook to track their thinking. They can then save their work, so that they can efficiently pick up where they left off, which is critical when time for team huddles in the clinic is very tight.
