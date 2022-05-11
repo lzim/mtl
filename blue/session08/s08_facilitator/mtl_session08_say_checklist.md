@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 8 - Facilitator Say"
 author: "Team PSD"
-date: "Edited by RH Jan 24 2020 | Edited by DK 14 February 2020 | RH Feb 18 2020 | RH March 2 2020"
-release: "MTL 1.8"
+date: "May 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-### Session 08 Say Checklist
+# MTL Live Session 08 - Facilitator Say Checklist
 
-**Today we're _modeling to learn_ how to test a dynamic hypothesis.**
+## Today we're modeling to learn how to test a dynamic hypothesis.
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're _modeling to learn_ how to test a dynamic hypothesis.
 
@@ -41,7 +41,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 
 3. Apply systems thinking to describe your team's findings, insights, and conclusions from your experiment.
 
-**Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim****
+### 1. **Team lead navigates using Chrome to log in to the Team world at **mtl.how/sim****
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:10-00:15 - Team's Session 06 Question** __________________
 
 - [ ] Join current session to pick up where the team left off in Session 07.
@@ -54,31 +54,34 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#.) Provide rationale for **always comparing simulation experiments against the Base Case** of no new decisions.
 - [ ] Review the **"d" decisions text** regarding the **team consensus** about **specific values** _______________ the team would like to experiment with today.    
 
-**Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal complexity reveal (feedback loop)_ to revise _base case_ hypothesis for experiment 1.**
+### 2. **Bring session 07 "d" _decision_ text to be the _question_ text for experiment 1. Collapse and move Text to right, to use session 07 _causal Reveal Dynamics Over Time (feedback loop)_ to revise _base case_ hypothesis for experiment 1.**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:20-00:25 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 
-- [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
+- [ ] Use the **causal system story** in the **model diagram Reveal Dynamics Over Time for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the **team's decisions reflect experiment 1** 
 - [ ] Example question: "What happens to ____________ [**key output value from the team's priority**], over the next two years if our team **practice decisions follow __________________[experiment 1]**?"
 
-**Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders**
+### **Move Text to left and refine/enter _specific values_ for experiment 1 in *hypothesis text* as you adjust sliders**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:25-00:35  - Team Priority**__________________
 
 - [ ] Example **experiment 1 hypothesis,** using specific **variables** and **values**: "If we **reduce the engagement duration** to 12 or 14 weeks in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will ___________." 
 
 - [ ] Set all other **red** and **green** **experiment sliders** to **"bc" or "zero"** except **purple sensitivity sliders**, which start with a default middle value of **"1"**.
 
-**Run experiment 1**
+### 3. **Run experiment 1**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:35-00:40  - Team Priority**__________________
 
 - [ ] Hit the **Green Run Button**!
 - [ ] Go to the **Expanded Outputs** section and **Save** (without resetting) our run. 
 
-**Compare base case and experiment 1 output charts of the _specific variables_ and _values_ related to the team's highest priority need** ________________[output variable]
+### 4. **Compare base case and experiment 1 output charts of the _specific variables_ and _values_ related to the team's highest priority need** ________________[output variable]
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:40-00:50 - Team Priority**__________________
 
 - [ ] Enter team **findings text** about the results for **variables related to their highest priority need**? 
-- [ ] Describe how **Difference between base case and Experiment System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority in the *Our Findings* textbox
+- [ ] Describe how **Difference between base case and Experiment System Behavior** findings are explained by **Causal Loop Reveal Dynamics Over Time** for team's priority in the *Our Findings* textbox
+
+### 5. Discuss and record what changes you may want to make in the clinic and what further experiments you want to run.
+
 - [ ] **Decisions:** Based on what the team learned, what will the team **decide to do in clinical practice** (if anything) and/or:
 - [ ] **Decisions:** What **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
