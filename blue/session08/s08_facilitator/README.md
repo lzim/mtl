@@ -6,9 +6,8 @@
      height = "175" width = "650">
 
 ### session 08. *Modeling to Learn* how to test a **dynamic hypothesis**
+    
+1. **s08_facilitator:**
+    - Facilitator SAY Guide - Learning objectives and exercises for session 08
+    - Facilitator SAY Guide Checklist - Learning objectives and exercises for session 08 in a checklist
 
-**s08_facilitator:**
-
-- Facilitator SAY Guide - Learning objectives and exercises for session 08
-- Facilitator pre/post checklist for session 08
-- Pre/post emails for session 08 (.html and .md)
