@@ -9,5 +9,6 @@
 
 #### s01_facilitator
 
-- Facilitator SAY Guide - Learning objectives and exercises for session 01
-- Facilitator SAY Checklist - SAY Guide shortform for fidelity
+- Facilitator SAY Guide - Learning objectives and exercises for session 01.
+- Detailed checklist for session 01.
+- Partner phase facilitator fidelity to prepare for sessions 01-04.
