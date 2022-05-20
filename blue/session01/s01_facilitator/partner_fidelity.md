@@ -1,5 +1,5 @@
 
-## **1. Partner Sessions 1-4 Mini Checklists**
+## **1. Partner Phase Mini Checklists**
 
 ### Session 1
 - [ ] Teams best case scenario ___
@@ -7,32 +7,32 @@
 - [ ] Selected team vision ___
 - [ ] Team lead ___
 - [ ] Logged in to mtl.how/data to look at the facility data
+- [ ] Work with team to make initial Team Clinic Selections between session 1 and 2
 
 ### Session 2 
-- [ ] Splashpage information explored relevant to team vision: 
-- [ ] Rankings of the highest priority data categories for team: 
-- [ ] Team data prioritized relevant to team need: 
-- [ ] Column most helpful for creating this team's dataset: 
-- [ ] What stands out to the team:
-- [ ] Most surprising piece of data for team: 
-- [ ] Services changing over time: 
+- [ ] Splashpage information explored relevant to team vision ___ 
+- [ ] Rankings of the highest priority data categories for team ___  
+- [ ] Team data prioritized relevant to team need ___  
+- [ ] Rule in/out questions for the team based on working conceptualization ___  
+- [ ] What stands out to the team ___ 
+- [ ] Most surprising piece of data for team ___ 
+- [ ] Services changing over time ___ 
 
 ### Session 3 
 - [ ] 1st team data tab chosen for overview___
-- [ ] Variable chosen as important within 1st module__
+- [ ] Variable chosen as important within team data ___
 - [ ] 2nd team data tab chosen for overview ___
-- [ ] Variable chosen as important within 2nd module__
-- [ ] Team data table values to explore ___
-- [ ] Surprising data values to team ___
+- [ ] Variable chosen as important within team data ___
+- [ ] Rule in/out questions for the team based on working conceptualization ___  
 - [ ] Data values that confirm team need ___
 - [ ] Team fills out mtl.how/menu
 
 ### Session 4 
-- [ ] Mtl.how/menu results___
+- [ ] mtl.how/menu results ___
 - [ ] Team consensus ___ 
-- [ ] Items with variance ___ 
-- [ ] Module selected ___  
+- [ ] Items with greatest divergence ___ 
 - [ ] Team need further prioritized ___
+- [ ] Module selected ___  
 
 ## 2. Sessions 1-4 - Partner to identify the team's highest priority learning need now. 
 
@@ -46,8 +46,8 @@ s4 | Team Need | The team engages in a dialogue about the highest priority team 
 ## 3. Sessions 1-4 - How to prioritize and practice during co-facilitator prep:
 
 1. **Document in the teams co-facilitator prep channel the themes and differential questions related to the teams need.**
-- **NEED:** **Current working conceptualization of this team's need?**
-- **DIFFERENTIATE:** **I need to rule in (      ) or rule out (      ) during next session.**
+   - **NEED:** **Current working conceptualization of this team's need?**
+   - **DIFFERENTIATE:** **I need to rule in (      ) or rule out (      ) during next session.**
 
 2. Specific **themes** (qualitative) the team brought up when visioning during session 1. ___
 3. Specific **values** (quantitative) in the team data table (sessions 2 and 3) that reveal the team's highest priority need: ___
@@ -55,7 +55,7 @@ s4 | Team Need | The team engages in a dialogue about the highest priority team 
 5. **Synthesize**
 - [ ] multiple team member's **points of view** ___ 
 - [ ] multiple **variables** that are related to one another (e.g., RVI and engagement duration) ___
-- [ ] problems related in their **dynamics (time)** ___
+- [ ] problems related in their **dynamics (over time)** ___
 - [ ] **throughline** across learning sessions. ___
 
 Time Stamp | Prioritize  | Practice
