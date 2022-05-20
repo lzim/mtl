@@ -9,6 +9,6 @@
 
 **s04_facilitator:**
 
-- Facilitator SAY Guide - Learning objectives and exercises for session 04
-- Facilitator pre/post checklist for session 04
-- Pre/post emails for session 04 (.html and .md)
+- Facilitator SAY Guide - Learning objectives and exercises for session 04.
+- Detailed checklist for session 04.
+- Partner phase facilitator fidelity to prepare for sessions 01-04.
