@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 7 - Facilitator Say"
 author: "Team PSD"
-date: "RH March 2 2020"
+date: "May 2022"
 release: "MTL 3.0"
 output: 
   github_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-### Session 07 Say Checklist
+# MTL Live Session 07
 
-**Today we're modeling to learn how to evaluate our Base Case of no new decisions.**
+## Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to evaluate our Base Case of no new decisions.
 
@@ -50,11 +50,11 @@ output:
 - [ ] Orient to main page: Team name, module, and selected data file.
 - [ ] Pull up the team's **Session 06 question and dynamic hypothesis** about the basecase.
 
-**Use session 6 complexity reveal (feedback loop) to explain the likely**
+**Use session 6 Reveal Dynamics Over Time (feedback loop) to explain the likely**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#.) _____________ **Time 00:20-00:30 - Team Priority Causal Loop**__________________   
 **Specific Variables and Values from Priority Causal Loop**_______________
 
-- [ ] Use the **causal system story** in the **model diagram complexity reveal for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the team makes no new decisions. 
+- [ ] Use the **causal system story** in the **model diagram Reveal Dynamics over Time for the team's priority** to "stake a claim" about what will happen over the next two years in the team if the team makes no new decisions. 
 - [ ] Example question: "What happens to ____________ (from the team's priority), over the next two years if we make no new decisions?"
 - [ ] Example hypothesis, using specific **variables** and **values**: "If we make no decisions in our team, then due to the **Feedback Loop: Balancing New and Existing Patients,** over the next two years, we will continue to see approximately 90 patients each week who have been engaged in care for longer than their first three months, and 25 patients each week who are in their own first 12 weeks of psychotherapy." 
 
@@ -71,7 +71,7 @@ output:
 - [ ] Look at the results with the **team specific to the team's question and hypothesis** for the bc run.
 - [ ] What does the team notice about the results for **variables related to their highest priority need**? 
 - [ ] Describe team **System Behavior** findings in the *Our Findings* textbox 
-- [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Complexity Reveal** for team's priority:
+- [ ] How **Basecase System Behavior** findings are explained by **Causal Loop Reveal** for team's priority:
 - [ ] **Decisions:** Based on what the team learned in this base case experiment, what **specific variables** at **what specific experiment values**  will the team use _Modeling to Learn_ to learn next?
 
 **Have Team Lead pull up the session 06 SEE guide Done/Do review.**
@@ -81,3 +81,5 @@ output:
 - [ ] Do: Log into mtl.how/sim and explore the results of the bc run in the Results Dashboard of the Expanded Outputs section to prepare for experiment 1. 
 - [ ] Demo for team how to reload team's prior Question, Hypothesis, Findings and Decision. 
 - [ ] Reminder to click "Save" and log out. 
+
+Click here to view examples of [Base Case Dynamics for each module in the Facilitator Say Guide](https://github.com/lzim/mtl/blob/master/blue/session07/s07_facilitator/mtl_session07_say.md#base-case-dynamics-for-each-module).

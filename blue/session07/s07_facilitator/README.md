@@ -6,9 +6,7 @@
      height = "175" width = "650">
 
 ### session 07. *Modeling to Learn* how to evaluate our **base case** of no new decisions
-
-**s07_facilitator:**
-
-- Facilitator SAY Guide - Learning objectives and exercises for session 07
-- Facilitator pre/post checklist for session 07
-- Pre/post emails for session 07 (.html and .md)
+  
+1. **s07_facilitator:**
+    - Facilitator SAY Guide - Learning objectives and exercises for session 07
+    - Facilitator SAY Guide Checkist - Learning objectives and exercises for session 07 in a checklist

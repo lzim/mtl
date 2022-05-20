@@ -6,9 +6,9 @@
      height = "175" width = "650">
 
 ### session 05. *Modeling to Learn* how to log-in to our **team world**
+    
+1. **s05_facilitator:**
+    - Facilitator SAY Guide - Learning objectives and exercises for session 05
+    - Facilitator SAY Guide Checklist - Learning objectives and exercises for session 05 in a checklist
 
-**s05_facilitator:**
 
-- Facilitator SAY Guide - Learning objectives and exercises for session 05
-- Facilitator pre/post checklist for session 05
-- Pre/post emails for session 05 (.html and .md)

@@ -1,8 +1,8 @@
 ---
 title: "MTL Session 6 - Facilitator Say"
 author: "Team PSD"
-date: "RH March 2 2020"
-release: "MTL 1.8"
+date: "May 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -13,9 +13,9 @@ output:
   powerpoint_presentation: default
 ---
 
-### Session 06 Say Checklist
+# MTL Live Session 06 - Facilitator Say Checklist
 
-**Today we're modeling to learn how to tell a systems story.**
+## Today we're modeling to learn how to tell a systems story.
 
 - [ ]  Hello! I'm __________ and I'm __________. Today we're modeling to learn how to tell a systems story.
 
@@ -78,4 +78,7 @@ output:
 
 - [ ] Log into your individual world at mtl.how/sim and refine the Question and Hypothesis about the base case experimental run in the Text section.
 - [ ] Log out of the SIM UI! 
-- [ ] Team post session 06 email will be sent.
+
+**Until next time, thanks for *Modeling to Learn*!**
+
+Click here to view the [Table of System Stories in the Facilitator Say Guide](https://github.com/lzim/mtl/blob/master/blue/session06/s06_facilitator/mtl_session06_say.md#table-of-system-stories).
