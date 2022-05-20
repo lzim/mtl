@@ -43,7 +43,7 @@ s2 | Team Data Trends | The team learns to evaluate their own team data trends a
 s3 | Team Data for Simulation | The team selects the data that makes sense for their own context and shared vision, and builds the set of parameters they will use for "what if" simulation learning.
 s4 | Team Need | The team engages in a dialogue about the highest priority team need now, so that there is consensus around the _MTL_ Learning Module selected for sessions 5-10.
 
-## 3. Sessions 1-4 - How to prioritize and practice during co-Facilitator prep:
+## 3. Sessions 1-4 - How to prioritize and practice during co-facilitator prep:
 
 1. **Document in the teams co-facilitator prep channel the themes and differential questions related to the teams need.**
 - **NEED:** **Current working conceptualization of this team's need?**
