@@ -1,5 +1,4 @@
 
-
 ## **1. Partner Sessions 1-4 Mini Checklists**
 
 ### Session 1
@@ -35,7 +34,6 @@
 - [ ] Module selected ___  
 - [ ] Team need further prioritized ___
 
-
 ## 2. Sessions 1-4 - Partner to identify the team's highest priority learning need now. 
 
 Session | Priority| Participatory Learning 
@@ -69,7 +67,6 @@ Time Stamp | Prioritize  | Practice
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:35-00:40  | **Explain** the participatory rationale for why teams' can "drive" themselves and can access additional information or request updates related to the data. | **3b. Practice explaining the reasons to empower the team with local transparent data resources.**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:40-00:50 | **Reflect** with your co-facilitator double-check your thinking about the team's relative consensus about their priorities _before_ going to the MTL menu in session 4. | **4. Prepare and practice reflections that synthesize a) multiple team member's points of view, b) multiple variables that are related to one another (e.g., RVI and engagement duration), c) multiple problems that are likely related, and c) the "throughline" across learning sessions.** 
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> 00:50-00:60 | **Success** - A successful Done/Do Review is short, specific, simple and shown.
-
 
 ## 4. There are 3 primary facilitation goals and emphases across the 12-Session plan.
 
