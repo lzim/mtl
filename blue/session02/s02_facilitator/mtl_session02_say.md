@@ -18,7 +18,7 @@ output:
 
 # _MTL_ Live Session 02 
 
-## Today we're modeling to learn from patient data and team trends.
+## Today we're *modeling to learn* from patient data and team trends.
 
 Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). 
 Navigating to the Learner See Guide for Part I at mtl.how, we see that today we're _modeling to learn_ how to check our patient data and team trends.
