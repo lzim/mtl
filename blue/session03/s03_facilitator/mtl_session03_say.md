@@ -133,7 +133,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We examined team data and produced team data for the _MTL_ simulation user-interface (sim UI).| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data and complete the mtl.how/menu to prioritize your needs. Responses are confidential.|
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We examined team data and produced team data for the _MTL_ simulation user-interface (sim UI).| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Find something in the team data and complete the mtl.how/menu to prioritize your needs. Responses are confidential.|
 
 ## DO demo
 

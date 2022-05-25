@@ -22,7 +22,7 @@ output:
 **Navigate to the SEE guide to show Done and Do**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:00-00:10** 
 
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick)    Done: We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick)    Done: We logged in to mtl.how/sim_test and reviewed the "i" information in the Model Diagram and Experiments section.
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45">](#DontClick)   Do: We will tell a systems story about the team's top priority of _______________________________ using the Model Diagram in the sim UI.
 
 **Emphasize team priority with the learning objectives on the screen** 
@@ -42,7 +42,7 @@ output:
 - [ ] [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png" height = "50" width = "150">](#DontClick) Provide rationale for building capacity for participatory learning from simulation.
 - [ ] A Systems Story is a description of the causal connections that create the problem your team is prioritizing _________________.  
 
-**Team lead shares Chrome and logs in to the Team world at **mtl.how/sim****
+**Team lead shares Chrome and logs in to the Team world at **mtl.how/sim_test****
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:15-00:20 - Team's Session 05 Question** __________________
 
 - [ ] **Re-size** your screen to get more or less of the diagram
@@ -76,7 +76,7 @@ output:
 **Have Team Lead pull up the session 06 SEE guide Done/Do review.**
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick) _____________ **Time 00:50-00:55**  
 
-- [ ] Log into your individual world at mtl.how/sim and refine the Question and Hypothesis about the base case experimental run in the Text section.
+- [ ] Log into your individual world at mtl.how/sim_test and refine the Question and Hypothesis about the base case experimental run in the Text section.
 - [ ] Log out of the SIM UI! 
 
 **Until next time, thanks for *Modeling to Learn*!**

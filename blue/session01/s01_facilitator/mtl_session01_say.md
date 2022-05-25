@@ -129,7 +129,7 @@ a. **We'll hold this vision up as a reminder of our shared goals to orient our l
 - To wrap up, let's decide on a Team Lead. The role of the Team Lead is to:
 
 1. Be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim (the simulation user interface); and
+2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim_test (the simulation user interface); and
 3. Provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
 - Ideal characteristics of the Team Lead include:

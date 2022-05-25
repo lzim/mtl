@@ -23,7 +23,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table  
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 – Done/Do and Learning Objectives**  
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We checked to make sure we could log in to the sim UI at mtl.how/sim.    
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We checked to make sure we could log in to the sim UI at mtl.how/sim_test.    
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: We will upload our team data to the sim UI and review our data in the Experiments section.  
 
 <!-- Learning Objectives Icon --> 
@@ -50,7 +50,7 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:15-00:25 – Confirm team lead for the day and upload data file to SIM UI**  
 
 ### 1. Guide team lead to log in to the sim UI. 
-- [ ] Open a new browser window in Chrome or Edge and go to mtl.how/sim  
+- [ ] Open a new browser window in Chrome or Edge and go to mtl.how/sim_test  
 - [ ] Enter log in credentials: user name is VA email and password was provided to the team in the email sent last week.
 - [ ] **Click the down-arrow in the *Please select a World* pop-up. Two options:"team" and "ind" for "individual". Since we're working together now as a team, choose the team world. If you are exploring the sim UI on your own, it's best to select your individual world.**   
 - [ ] **Note the SIM UI application has a responsive web design, so it adjusts the page layout to optimize to your screen's dimensions.** 
@@ -136,7 +136,7 @@ ____________ **Time 00:00-00:10 – Done/Do and Learning Objectives**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) **DO demo**
 
-- [ ] **For next time, if you can, log in to to the sim UI at mtl.how/sim.**
+- [ ] **For next time, if you can, log in to to the sim UI at mtl.how/sim_test.**
 - [ ] **Remember that when you first enter your log-in credentials, you'll be able to choose between your Team world and your Individual world. If you choose your Team world, it will already have a "session" started - because we did that today when we chose the module and selected the team data file that we had added. So you will choose Join Current Session and click Play.**
 - [ ] **If you're ambitious to dig in and "play" in the sim, you can choose your Individual world and add the team data to the team data menu the same way we did just now. Then you can choose the module, select the data, and click Play. You can explore to your heart's content in your Individual world without worrying that you'll "break" anything or change anything for the rest of your team.**
 - [ ] **Whichever way you get to hitting Play from the Sim UI landing page, it will take you to the main page for the module. We encourage you to explore the interface more.**

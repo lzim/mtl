@@ -24,7 +24,7 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 **Navigate to the SEE guide to show Done and Do**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:00-00:05** 
 
-- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "45" width = "45"> **Done** We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim.
+- [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "45" width = "45"> **Done** We thought about possible decisions or changes the team could make in clinical care based on our comparison of the bc, exp 1, exp 2 and exp 3 in mtl.how/sim_test.
 
 - [ ] <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "45" width = "45"> **Do** We will discuss the team's learning using C.F.B.T. systems thinking skills and prioritize ways to implement new practice decisions in our clinical care.
 

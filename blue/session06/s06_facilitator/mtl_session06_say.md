@@ -33,7 +33,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick) **Do** |
 | --- | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We logged in to mtl.how/sim and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)  We will tell a systems story about the team's top priority of \__________ using the Model Diagram in the sim UI. |
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)  We logged in to mtl.how/sim_test and reviewed the "i" information in the Model Diagram and Experiments section.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)  We will tell a systems story about the team's top priority of \__________ using the Model Diagram in the sim UI. |
 
 ## Emphasize team priority with the learning objectives on the screen.
 
@@ -60,13 +60,13 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### **This exercise has two parts, the first to practice navigating to your Team simulation world, and the second to use the diagram to help you tell your Systems Story. A Systems Story is a description of the causal connections that create the problem your team prioritized \_________________.**
 
-### Have the Team lead shares Chrome and logs in to the Team world at **mtl.how/sim.**
+### Have the Team lead shares Chrome and logs in to the Team world at **mtl.how/sim_test.**
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/>](#DontClick)   \_____________ **Time 00:15-00:20 - Team's Session 05 Question** \__________________
 
 ### Let's explore the _MTL_ Home Page.
 
-- To start this session, you should log in to your team world at **mtl.how/sim**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that ends with **"team" from the drop-down menu**.
+- To start this session, you should log in to your team world at **mtl.how/sim_test**, where you enter your username (email address) and password. After you click **LOGIN**, a pop-up box will appear with the text "Please select a World" on the blue bar. Select the world that ends with **"team" from the drop-down menu**.
 - Once you're on the _MTL_ Home Page, look over on the **left section with Session in the blue heading bar**.
 
 - Since we logged in to the Team World last time, you'll see the **name of the module and the dataset we chose under the first option**, Join Current Session. Select that and hit Play.
@@ -162,7 +162,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to our individual world at mtl.how/sim. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We told a systems story about our team's top priority and entered a question and hypothesis in the Text section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Log in to our individual world at mtl.how/sim_test. and refine the question and hypothesis we entered during the session about the Base Case run in the Text section.  |
 
 ## DO demo
 

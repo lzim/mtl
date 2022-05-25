@@ -9,4 +9,4 @@
 
 - Learner SEE Guide - Learning objectives and exercises for session 11
   - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-- Learner cheatsheets for mtl.how/sim (pdf)
+- Learner cheatsheets for mtl.how/sim_test (pdf)

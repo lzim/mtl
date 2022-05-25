@@ -10,7 +10,7 @@
 1. **s07_learner:**
     - Learner SEE Guide - Learning objectives and exercises for session 07
     - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.html)
-    - Learner cheatsheets for mtl.how/sim (with Gifs) (.html)
+    - Learner cheatsheets for mtl.how/sim_test (with Gifs) (.html)
     
 2. **s07_facilitator:**
     - Facilitator SAY Guide - Learning objectives and exercises for session 07
