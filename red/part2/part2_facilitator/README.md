@@ -11,5 +11,5 @@
 
 - Facilitator SAY Guide - Learning objectives and exercises for part 2
 - Facilitate SAY Guide Checklist - Learning objectives and exercises for part 2 in a checklist
-- Facilitator mtl.how/data - One-pager on mtl.how/data
-- Learner Cheatsheet - One-pager on mtl.how/data for Learners
+- Facilitator mtl.how/data_test - One-pager on mtl.how/data_test
+- Learner Cheatsheet - One-pager on mtl.how/data_test for Learners

@@ -6,7 +6,7 @@
 - [ ] Themes within personal visions ___
 - [ ] Selected team vision ___
 - [ ] Team lead ___
-- [ ] Logged in to mtl.how/data to look at the facility data
+- [ ] Logged in to mtl.how/data_test to look at the facility data
 - [ ] Work with team to make initial Team Clinic Selections between session 1 and 2
 
 ### Session 2 

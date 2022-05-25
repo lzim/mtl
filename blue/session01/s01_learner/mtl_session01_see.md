@@ -110,7 +110,7 @@ Overall "_Modeling to Learn_" objectives include activities and competencies tha
  
 -  The role of the Team Lead is to:
 1. Be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim_test (the simulation user interface); and
+2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data_test (the data user interface), mtl.how/sim_test (the simulation user interface); and
 3. Provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
 - Ideal characteristics of the Team Lead include:
@@ -125,4 +125,4 @@ Overall "_Modeling to Learn_" objectives include activities and competencies tha
 <!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 |--- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) We identified our Team Vision, selected our Team Lead and set a standing team meeting time. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height= "75" width= "110"/>](http://mtl.how/data_test) We will post your Clinic Selections on our shared Teams channel. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session01_see.md).**|

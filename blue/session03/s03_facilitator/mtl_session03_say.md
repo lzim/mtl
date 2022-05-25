@@ -27,7 +27,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc, Flag tabs in the Viz and Data tabs to find a patient (zoom in) and found a team trend (zoom out). **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will examine team data and produce team data for the _MTL_ simulation user-interface (sim UI). **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We reviewed the HF, Diag, Enc, Flag tabs in the Viz and Data tabs to find a patient (zoom in) and found a team trend (zoom out). **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will examine team data and produce team data for the _MTL_ simulation user-interface (sim UI). **_MTL_ 2.5. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
 
 **After this session you will be able to:**
 
@@ -65,7 +65,7 @@ As the graphic illustrates, we use the data UI to look back at team trends over 
 - Later on, we will upload this file to the sim UI so that it can *read in* these data.
 
 ###  Once we make Clinic Selections & click the "Apply" button, we produce tabs of descriptive team data.
-- At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
+- At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
 - Click on the "Clinic Selection" and "Team Flow Selection" tab.
 - Your Team's Clinic Selections and Team Flow Selections from the previous session should auto-populate in these tabs.
      - If not, you can select the same set of clinics you chose in Session 02 of _Modeling to Learn_ Blue.

@@ -38,7 +38,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 3. Apply your clinical expertise to consider the team trends in the viz and data tabs and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Review Graphic & Navigate to mtl.how/data_test**
 - [ ] We will use the data UI to look back at team trends over the past two years - *what is*;  
 - [ ] We will use the sim UI to look at team trends 2 years into the future to answer *what if* questions about different decisions the team could make.  
 
@@ -61,7 +61,7 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 
 ## Once we make Clinic Selections and Team Flow Selection and click the "Apply" button, we produce tabs of descriptive team data.
 
-- [ ] At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
+- [ ] At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
 - [ ] Click on the "Clinic Selection" and "Team Flow Selection" tab.
 - [ ] Your Team's Clinic Selections and Team Flow Selections from the previous session should auto-populate in these tabs.
      - If not, you can select the same set of clinics you chose in Session 02 of _Modeling to Learn_ Blue.

@@ -73,7 +73,7 @@ output:
   
 Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
   1. be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim_test (the simulation user interface); and
+  2. become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data_test (the data user interface), mtl.how/sim_test (the simulation user interface); and
   3. provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
  
  - Ideal characteristics of the Team Lead include:
@@ -90,7 +90,7 @@ Furthermore, let's decide on a Team Lead. The role of the Team Lead is to:
 <!-- Do/Done Tables -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- | 
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) 1. We will reach out to schedule and prep the list of Clinic Selections for Session 2 with the Team Lead, and post them for you to see on our shared MS Teams channel.  <br> 2. Confirm your Team Clinic Selections on MS Teams and go to mtl.how/data to see your team's data. | 
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the MTL program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout MTL. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) 1. We will reach out to schedule and prep the list of Clinic Selections for Session 2 with the Team Lead, and post them for you to see on our shared MS Teams channel.  <br> 2. Confirm your Team Clinic Selections on MS Teams and go to mtl.how/data_test to see your team's data. | 
 
 After the Session:
 - [ ] Schedule Meeting with Team Lead & Make Clinic Selections 

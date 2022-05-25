@@ -9,11 +9,11 @@
 
 1. **part1_facilitator:**
     - Facilitator SAY Guide - Learning objectives and exercises for part 1
-    - Facilitator mtl.how/data - One-pager for mtl.how/data
+    - Facilitator mtl.how/data_test - One-pager for mtl.how/data_test
 2. **part1_learner:**
     - Learner SEE Guide - Learning objectives and exercises for part 1
       - gifs demonstrating major *how to* actions of in session exercises and between session exercises (.md)
-    - Learner cheatsheets for mtl.how/data (with screenshots) (.pdf)
+    - Learner cheatsheets for mtl.how/data_test (with screenshots) (.pdf)
 3.  **part1_resources:**
-    - Learner cheatsheets for mtl.how/data (with screenshots) (.pdf)
-    - CPT Code cheatsheet for mtl.how/data (.pdf)
+    - Learner cheatsheets for mtl.how/data_test (with screenshots) (.pdf)
+    - CPT Code cheatsheet for mtl.how/data_test (.pdf)

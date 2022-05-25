@@ -24,7 +24,7 @@ output:
 - [ ] Navigate to the Learner See Guide for Part I to show Done and Do.
 
 ### Navigate to the SEE guide to show Done/Do table  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We set a standing team meeting time at __________. We logged in to mtl.how/data to look at the data UI.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We set a standing team meeting time at __________. We logged in to mtl.how/data_test to look at the data UI.
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team.
 
 <!-- Learning Objectives Icon --> 
@@ -56,7 +56,7 @@ output:
 
 - [ ] Confirm who will "drive" today [Recommend the Team Lead]
 
-### 1. On any browser, navigate to mtl.how/data.
+### 1. On any browser, navigate to mtl.how/data_test.
 - [ ] Explain the _MTL_ data user interface Power BI site:
 	- You must have your PIV engaged to access the site.
 - *Reminder:* Power BI site contains Protected Health Information (PHI) - access is according to the permissions that are set up on your PIV.  
@@ -120,7 +120,7 @@ That's it for *Modeling to Learn* how to check our patient data and team trends.
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We selected a Team Lead. We selected the clinics that make up our team for the Team Data. 
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
- Review the HF, Diag, Enc and Flag tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the team data.
+ Review the HF, Diag, Enc and Flag tabs in Team Data to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data_test and look at the team data.
 
 **Confirm Team Clinic Selections:**
 - [ ] Schedule meeting with Team Lead & make Clinic Selections and Team Flow Selections.

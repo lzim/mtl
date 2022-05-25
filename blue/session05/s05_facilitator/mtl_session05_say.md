@@ -111,7 +111,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 - **Select the team data you just uploaded.**
 - **Click on the red Play button under the "Session" blue header.** 
 - For the Care Coordination and Medication Management (CC & MM) modules, after you click Play, you need to select your Learning Mode.) 
-    - If you are using a Learning Mode, refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the data UI at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.  
+    - If you are using a Learning Mode, refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the data UI at mtl.how/data_test, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.  
     - *Note: Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the _Modeling to Learn_ program.*
     - **Existing Patient Return-to-Clinic Visit Interval:** Choose this learning mode to prioritize the Existing Patients Return-to-Clinic Visit Interval (RVI) estimated from team data, and only start new patients in remaining open slots after the existing patient RVI, appointment supply, and missed appointments are all taken into account.  
     - **New Patient Start Rate:** Choose this learning mode to prioritize the New Patient Start Rate estimated from team data, and only see existing patients in remaining open slots after the new patient start rate, appointment supply, and missed appointments are all taken into account.  
@@ -172,7 +172,7 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontClick) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontClick)   **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Check the "i" information available in the sim UI Model Diagram and Experiments section. |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test) Check the "i" information available in the sim UI Model Diagram and Experiments section. |
 
 ## DO demo
 

@@ -24,7 +24,7 @@ output:
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc, Meas, and Flag tabs in Viz and Data tabs to find a patient (zoom in) and find a team trend (zoom out). We logged in to mtl.how/data and looked at the team data.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We reviewed the HF, Diag, Enc, Meas, and Flag tabs in Viz and Data tabs to find a patient (zoom in) and find a team trend (zoom out). We logged in to mtl.how/data_test and looked at the team data.
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) 
 Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow.
 
@@ -38,7 +38,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 3. Apply your clinical expertise to consider the team trends in the viz and data tabs and team data to identify team priorities for learning.
 
 ## Start In-session Exercise
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Navigate to [mtl.how/data](https://mtl.how/data)**
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:10-00:15 – Navigate to [mtl.how/data_test](https://mtl.how/data_test)**
 
 - [ ] Who would like to "drive" today? [Recommend the Team Lead]
 
@@ -57,7 +57,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 
 ## Once we make Clinic Selections and Team Flow Selection and click the "Apply" button, we produce tabs of descriptive team data.
 
-- [ ] At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
+- [ ] At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
 - [ ] Click on the "Clinic Selection" and "Team Flow Selection" tab.
 - [ ] Your Team's Clinic Selections and Team Flow Selections from the previous session should auto-populate in these tabs.
      - If not, you can select the same set of clinics you chose in Part 1 of _Modeling to Learn_ Red.

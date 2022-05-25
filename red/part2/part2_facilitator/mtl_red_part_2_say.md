@@ -27,7 +27,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 <!-- Done and Do Table -->
 | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We reviewed the HF, Diag, Enc, Meas, and Flag tabs in Viz and Data tabs to find a patient (zoom in) and find a team trend (zoom out). We logged in to mtl.how/data and looked at the team data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We reviewed the HF, Diag, Enc, Meas, and Flag tabs in Viz and Data tabs to find a patient (zoom in) and find a team trend (zoom out). We logged in to mtl.how/data_test and looked at the team data.| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow.|
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#.)
 
@@ -60,7 +60,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 
 ###  Once we make Clinic Selections and Team Flow Selection and click the "Apply" button, we produce tabs of descriptive team data.
 
-- At [mtl.how/data](https://mtl.how/data), select your consortium and VISN on the Data UI Landing page. 
+- At [mtl.how/data_test](https://mtl.how/data_test), select your consortium and VISN on the Data UI Landing page. 
 - Click on the "Clinic Selection" and "Team Flow Selection" tab.
 - Your Team's Clinic Selections and Team Flow Selections from the previous session should auto-populate in these tabs.
      - If not, you can select the same set of clinics you chose in Part 1 of _Modeling to Learn_ Red.
@@ -129,7 +129,7 @@ Hello! I'm \_\_\_\_\_\_\_\_\_\_ and I'm \_\_\_\_\_\_\_\_\_\_.
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data)  We examined team data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow. |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Find something in the team data and consider its implications for team decisions.|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test)  We examined team data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow. |  [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) Find something in the team data and consider its implications for team decisions.|
 
 ## DO demo
 

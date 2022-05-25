@@ -129,7 +129,7 @@ a. **We'll hold this vision up as a reminder of our shared goals to orient our l
 - To wrap up, let's decide on a Team Lead. The role of the Team Lead is to:
 
 1. Be the main point of contact between the team and *Modeling to Learn* co-facilitators;
-2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data (the data user interface), mtl.how/sim_test (the simulation user interface); and
+2. Become familiar with *MTL* resources and help team members trouble-shoot - mainly Microsoft Teams (used for screen-sharing during meetings), mtl.how/data_test (the data user interface), mtl.how/sim_test (the simulation user interface); and
 3. Provide leadership during *MTL* sessions, encouraging team participation in discussions and serving as computer simulation lead under co-facilitators' guidance.  
 
 - Ideal characteristics of the Team Lead include:
@@ -146,7 +146,7 @@ a. **We'll hold this vision up as a reminder of our shared goals to orient our l
 <!-- Done and Do Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) 1. We will reach out to schedule and prep the data file for Session 2 with the Team Lead. <br> 2. We will post your Clinic Selections on our shared Teams channel. 3. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. |
+|[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/va_team_psd_logo_sq_sm.png?raw=true" height = "75" width = "100">](mailto:mtl.help@va.gov) 1. We selected a Team Vision to orient our learning throughout the *MTL* program. We will hold this vision up as a reminder of our shared goals to orient our learning throughout *MTL*. <br> 2. We decided on a Team Lead! Email us at mtl.help@va.gov for any questions from the team. | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data_test) 1. We will reach out to schedule and prep the data file for Session 2 with the Team Lead. <br> 2. We will post your Clinic Selections on our shared Teams channel. 3. Confirm your Teams' Clinic Selections, and review Team Data for _MTL_ relevant to our Team Vision. |
 
 ## DO Demo
 
@@ -156,8 +156,8 @@ a. **We'll hold this vision up as a reminder of our shared goals to orient our l
 
 3. We will share this list of Clinic Selections with you on our shared the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
 
-3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
-   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
+3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test_test. 
+   - First, go to any browser and type in mtl.how/data_test_test in the top search bar. Then, select your VISN. 
       - This is where you can make clinic selections and access your local team data on a secure VA site. 
    - See if you can click and view your team data.
 
@@ -169,7 +169,7 @@ _After identifying the list of Clinics with the Team Lead, to make the Clinics S
 
 In order to make, view, and export Team Clinic Selections:
 
-1. Go to mtl.how/data.
+1. Go to mtl.how/data_test.
 2. In the left hand bar, click on the appropriate Consortium and then, VISN.
 3. Enter in the Clinic Selections for the Team, based on the discussion with the Team Lead. 
 4. Click "Apply".

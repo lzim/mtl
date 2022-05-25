@@ -12,5 +12,5 @@
 - Facilitator SAY Guide - Learning objectives and exercises for session 02.
 - Detailed checklist for session 02.
 - Partner phase facilitator fidelity to prepare for sessions 01-04.
-- Facilitator mtl.how/data - One-pager on mtl.how/data
-- Learner Cheatsheet - One-pager on mtl.how/data for Learners
+- Facilitator mtl.how/data_test - One-pager on mtl.how/data_test
+- Learner Cheatsheet - One-pager on mtl.how/data_test for Learners

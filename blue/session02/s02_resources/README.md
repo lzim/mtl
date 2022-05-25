@@ -8,5 +8,5 @@
 ### Session 02. *Modeling to Learn* how to check our **patient data** and **team trends**
 
 **s02_resources:** 
-- Learner cheatsheet for mtl.how/data (with screenshots) (.pdf)
-- CPT Code cheatsheet for mtl.how/data (.pdf)
+- Learner cheatsheet for mtl.how/data_test (with screenshots) (.pdf)
+- CPT Code cheatsheet for mtl.how/data_test (.pdf)
