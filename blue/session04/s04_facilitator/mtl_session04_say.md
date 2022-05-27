@@ -20,7 +20,7 @@ output:
 
 ## Today we're _modeling to learn_ how to prioritize team needs.
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to prioritize team needs.
+Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're _modeling to learn_ how to prioritize team needs.
 
 **As we see in the Done/Do table of the Learner See Guide:**
 
