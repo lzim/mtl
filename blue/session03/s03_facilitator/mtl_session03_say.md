@@ -19,7 +19,7 @@ output:
 
 ## Today we're _modeling to learn_ how to produce team data for simulation.
 
-Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're modeling to learn how to produce team data for simulation.
+Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-facilitator's name). Today we're _modeling to learn_ how to produce team data for simulation.
 
 **As you see in the Done and Do table of the Learner See Guide at mtl.how:**
 
