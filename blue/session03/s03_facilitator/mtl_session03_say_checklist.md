@@ -19,7 +19,7 @@ output:
 
 # Today we're _modeling to learn_ how to produce team data for simulation.  
 
-- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
+- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're _modeling to learn_ how to produce team data for simulation.
 
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
