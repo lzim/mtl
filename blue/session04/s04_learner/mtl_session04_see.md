@@ -20,14 +20,14 @@ output:
 
 # MTL Live Session 04
 
-## Today we're modeling to learn how to prioritize team needs.
+## Today we're _modeling to learn_ how to prioritize team needs.
 
 ## Done and Do (15 minutes)
 
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We found something in the team data and completed the [mtl.how/menu](https://mtl.how/menu) to prioritize our needs. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)|
+|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) Complete the [mtl.how/menu](https://mtl.how/menu) to prioritize your needs. Responses are confidential. Find a patient (zoom in) and find a team trend (zoom out) in the team data. Consider its implications for team decisions. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We will review the _MTL_ Menu results to prioritize our team needs and select an _MTL_ module. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)|
 
 <!-- Learning Objectives Icon -->
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -44,27 +44,27 @@ output:
 
 ### 2. Review the team's results in your team.
 
-- What stands out to you?
+- **What stands out to you?**
 
 ### 3. Look for areas of consensus among the team.
 
-- What does the team agree about?
+- **What does the team agree about?**
 
 ### 4. Discuss items in which team members varied a lot in their rankings.
 
-- Where does the team have more variable perspectives?
+- **Where does the team have more variable perspectives?**
 
 ### 5. Focus on the high priority needs to select a module for sessions 5-10 of *Modeling to Learn*.
 
-- What is the highest priority need for your team now?
+- **What is the highest priority need for your team now?**
 
 **These are the *MTL* available modules.**
 
-- Care Coordination (CC)
-- Medication Management (MM)
-- Psychotherapy (PSY)
-- Team (AGG) Care
-- Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention
+- **Care Coordination (CC)**
+- **Medication Management (MM)**
+- **Psychotherapy (PSY)**
+- **Team (AGG) Care**
+- **Team (SP) Flow: Measurement Based Stepped Care and Suicide Prevention**
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
@@ -73,4 +73,4 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), Team (SP) Flow or team (AGG) care. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to the _MTL_ simulation user interface (sim UI) at [mtl.how/sim](https://mtl.how/sim) . [![sim ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink)**_MTL_ 3.0.** **For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session04_see.md)**|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_menu.png" height = "75" width = "110">](http://mtl.how/menu) We prioritized team needs and selected an _MTL_ Module: care coordination (CC), medication management (MM), psychotherapy (PSY), Team (SP) Flow or team (AGG) care. [![mtl menu screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/mtl_menu.gif)](#DontLink)| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Log in to the _MTL_ simulation user interface (sim UI) at [mtl.how/sim](https://mtl.how/sim) . [![sim ui screen cast](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink)**_MTL_ 3.0.** **For _MTL_ 2.0, click [here.](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session04_see.md)**|
