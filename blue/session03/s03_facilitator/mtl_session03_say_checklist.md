@@ -101,13 +101,14 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data. Complete the mtl.how/menu to prioritize your needs. Responses are confidential. 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Complete the [mtl.how/menu](https://mtl.how/menu) to prioritize your needs. Responses are confidential. Find a patient (zoom in) and find a team trend (zoom out) in the team data. Consider its implications for team decisions.
  
 ### DO demo
-- [ ] Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
 - [ ] Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
 - [ ] The username is your VA email. It will take about 5 minutes. 
 - [ ] Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
+- [ ] Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
+
 
 ## Until next time, thank you for *Modeling to Learn*!
 
