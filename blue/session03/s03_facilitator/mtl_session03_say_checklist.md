@@ -19,7 +19,7 @@ output:
 
 # Today we're _modeling to learn_ how to produce team data for simulation.  
 
-- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to produce team data for simulation.
+- [ ] Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're _modeling to learn_ how to produce team data for simulation.
 
 ### Navigate to the SEE guide to show Done/Do table
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style = “display:inline-block”/>](#DontClick) ____________ **Time 00:00-00:10 - Done/Do and Learning Objectives**
@@ -101,19 +101,20 @@ Do: We will examine team data and produce team data for the _MTL_ simulation use
 
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We produced team data for the _MTL_ simulation user-interface (sim UI).  
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data. Complete the mtl.how/menu to prioritize your needs. Responses are confidential. 
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Complete the [mtl.how/menu](https://mtl.how/menu) to prioritize your needs. Responses are confidential. Find a patient (zoom in) and find a team trend (zoom out) in the team data. Consider its implications for team decisions.
  
 ### DO demo
-- [ ] Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
 - [ ] Ask team members to fill out form at mtl.how/menu (open on Chrome or Edge for the best experience).
 - [ ] The username is your VA email. It will take about 5 minutes. 
 - [ ] Responses will be aggregated and discussed in Session 4 to help choose which *MTL* module we'll use for the next several sessions of *Modeling to Learn*.
+- [ ] Encourage team members to look around in the team data and "Descriptions" and "Details" before next time. 
+
 
 ## Until next time, thank you for *Modeling to Learn*!
 
 ## Upload Team Data to Sim UI 
 
-After confirming and reviewing the team data with the team, Facilitators can upload the Team Data Export for Sim UI into the Sim UI in the Facilitator Dashboard in prep of S05.
+After confirming and reviewing the team data with the team, upload the Team Data Export for Sim UI into the Sim UI in the Facilitator Dashboard in prep of S05.
 
 - [ ] 1. Generate and save the Team Data Export for Sim UI file from the Data UI in the Team PSD Shared Folder > Clinics > in your Team folder.
    - If you do not have a folder with your Team's name, create one by following our standard naming convention, see [Facilitator One-Pager](https://github.com/lzim/mtl/blob/master/blue/session03/s03_facilitator/mtl_how_3.0_data_facilitator_one_pager.pdf). 
