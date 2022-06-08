@@ -156,8 +156,8 @@ a. **We'll hold this vision up as a reminder of our shared goals to orient our l
 
 3. We will share this list of Clinic Selections with you on our shared the Team channel on Microsoft Teams. Before our next meeting, confirm if these Clinics are the ones that make up your team.
 
-3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data_test. 
-   - First, go to any browser and type in mtl.how/data_test in the top search bar. Then, select your VISN. 
+3. Before our next meeting, check to see if you can see your team fdata at mtl.how/data. 
+   - First, go to any browser and type in mtl.how/data in the top search bar. Then, select your VISN. 
       - This is where you can make clinic selections and access your local team data on a secure VA site. 
    - See if you can click and view your team data.
 
