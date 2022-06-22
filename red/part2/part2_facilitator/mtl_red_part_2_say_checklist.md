@@ -99,7 +99,7 @@ Do: We will examine Team Data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Fl
 
  
 - [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "40" width = "40">](#DontClick) Done: We examined team data for CC, MM, PSY, Team (AGG) Care, and Team (SP) Flow.
-- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find something in the team data and consider its implications for team decisions.
+- [ ] [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "40" width = "40">](#DontClick) Do: Find a patient (zoom in) and find a team trend (zoom out) in the team data. Consider its implications for team decisions.
 
 ### DO demo
 - [ ] Encourage team members to look around in the team data and test whether you can find a piece of data you decide to look for.
