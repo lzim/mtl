@@ -3,6 +3,9 @@ introduction---modeling-to-learn-manual
 mtl-blue-vs.-red-map
 mtl-is-a-partnership.
 report-an-issue-or-bug-to-team-psd
+improve-the-modeling-to-learn-repo-via-a-pull-request-and-quality-assurance
+summary
+improve-mtl.how-including-quality-assurance-qa
 facilitator-fidelity
 facilitator-fidelity-via-intersession-prep
 fidelity-assessment
@@ -32,8 +35,10 @@ facilitator-maps
 cpt-code-cheatsheet
 mtl-3.0-data-cheatsheet
 sim-ui-cheatsheet
+facilitator-self-registration
 sim-ui-facilitator-dashboard
 set-up-a-team
+manual-setup
 review-tt-menu-results
 set-up-a-facilitator-individual-team-_ind
 manage-team-data
