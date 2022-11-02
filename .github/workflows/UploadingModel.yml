@@ -67,7 +67,7 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingModelUtility.sh > .github/workflows/UploadingModelUtility2.sh
           mv .github/workflows/UploadingModelUtility2.sh .github/workflows/UploadingModelUtility.sh
           chmod +x .github/workflows/UploadingModelUtility.sh
-          .github/workflows/UploadingModelUtility.sh "blue/mtl2.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}" 
+          .github/workflows/UploadingModelUtility.sh "blue/mtl3.0_models/*.vmfx" 'jamesmrollins/sim_ui' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'model' 'hirenp@waferwire.com' 'hirenp-waferwire' "Model file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}" 
         
       - name: File Name List
         run: |
@@ -141,5 +141,5 @@ jobs:
           awk '{ sub("\r$", ""); print }' .github/workflows/UploadingDemoSDDOCUtility.sh > .github/workflows/UploadingDemoSDDOCUtility2.sh
           mv .github/workflows/UploadingDemoSDDOCUtility2.sh .github/workflows/UploadingDemoSDDOCUtility.sh
           chmod +x .github/workflows/UploadingDemoSDDOCUtility.sh 
-          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl2.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
+          .github/workflows/UploadingDemoSDDOCUtility.sh "blue/mtl3.0_models/*-A.html" 'jamesmrollins/MTL-DEMO' "${{ steps.setSimUIBranchName.outputs.BranchName }}" 'static' 'hirenp@waferwire.com' 'hirenp-waferwire' "SDM DOC file is Uploaded by ${{ github.event.repository.name }}" "${{ secrets.API_TOKEN_GITHUB }}"
       shell: bash   

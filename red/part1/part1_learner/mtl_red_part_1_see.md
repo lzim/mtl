@@ -1,8 +1,8 @@
 ---
 title: "MTL Session Red, Part 1 - Learner See"
 author: "Team PSD"
-date: "Feburary 2021"
-release: "MTL 2.0"
+date: "March 17 2022"
+release: "MTL 3.0"
 output: 
   github_document: default
   html_document: default
@@ -16,19 +16,21 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_how_red.png"
      height = "175" width = "290">](#DontLink)
 
-# MTL Red Part 1
+# _MTL_ Red Part 1
+
+**Note**: If you are a self-directed learner, then some of the details in the guides may not apply to you. These guides were developed for facilitated *Modeling to Learn* Live team meetings.
 
 ## Today we're modeling to learn from patient data and team trends.
 
 ## Done and Do (15 minutes)
 
-<!-- Do/Done Tables -->
+<!-- Done and Do Table -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
-| --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We logged in to mtl.how/data to look at the facility data.  [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/data_ui_login.gif" height="200px" width="350px" />](#DontLink)  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will build our team in the *MTL* Data User Interface and review our team data. [<img src="https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif" height="200px" width='400px'/>](#DontLink)|
+|--- | --- |
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/va_team_psd_logo_sq_sm.png" height = "75" width = "100">](mailto:mtl.help@va.gov) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We set a standing team meeting time at _______________ . We logged in to mtl.how/data to look at the data UI. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_landing_page.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**| [<img src= "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We will select a Team Lead; We will select and review Team Data for _MTL_ relevant to our Team. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_eraser_reset.gif?raw=true)](#DontLink)**_MTL_ 3.0. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**|
 
 <!-- Learning Objectives Icon -->
-[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" alt = "learning objectives" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
 
 ## Learning Objectives
 
@@ -40,115 +42,92 @@ output:
 
 ## In-session Exercise (30 minutes)
 
-## *MTL* on BISL
+[//]: # (Tags: #TOC, #zoomin) 
+[_metadata_:tags]:- "TOC"
+## We **zoom in** on a particular **Veteran's care** in the **data** tabs, then we **zoom out** to see what our care decisions are adding up to over time by reviewing **team trends** over the last two years in the **viz** tabs.
 
-### 1. Open an internet browser window. Go to mtl.how/data. First select your VISN and then select your facility.
+## *MTL* Data UI
 
-[![data ui login screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_login.gif)](#DontLink)
+### 1. Open an internet browser window. Go to mtl.how/data.  
+- In the left-hand navigation, click one of the four consortia tabs to locate your VISN.
+- Click on the "Clinic Selections" tab.
 
-### 2. Explore the facility data.
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_landing_page.gif?raw=true)](#DontLink)
 
-- To **view facility data** click on the [...] next to the file **"facility.xlsb"** and click **"Edit"** to open in Excel.
-- **Team files are in team folders.** If you do not see a team folder, click on **"Request New Team Folder"** in the horizontal header next the BISL logo.
+### 2. Select and view your local team data.
 
-[![data ui splash page screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/data_ui_splashpage.gif)](#DontLink)
+#### Think through your Clinic Selection criteria carefully (e.g. Should you include trainees? De-activated clinics? Clinical Resource Hub providers?).
+-  Filter by "Division Name", "Physical Location", "Primary Stopcode", "Secondary Stopcode", and/or "Is an Active Clinic?" (de-activated clinics denoted by "ZZ") in the left and middle columns.
+- Search and filter for your team's clinics by clinic name or by provider in the "Select Clinics to Generate Report Data" column after making selections in the left and middle columns.
+- Click the yellow "Apply" button to pull Patient Level Data from all clinics selected in the last two years.
+- Clinics and data not populating? Request and verify your local server views [here](https://github.com/lzim/mtl/blob/master/red/part1/part1_learner/mtl_red_part_1_see.md#request-and-verify-local-server-view-permissions).
 
-- Click through the tabs on the bottom of the Excel spreadsheet. What options are there and what do they mean? Hints:
-  - Data: Sortable report of data
-  - Diag: Diagnostic data
-  - Enc: Encounter types of visits
-  - HF: Health Factors data related to visits
-  - Meas: Measures or flag names
-  - Viz: Visualization of trends  
+[![image](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_clinic_selection.gif?raw=true)](#DontLink)
 
-- What filtering options are available?
-  - Filter to your clinic or division to see trends for the last two years.  
+- Select Clinics in the **"Team Flow Selection"** tab to produce data tracking patients stepped up/down between your team and the one(s) you select for the **Team (SP) Flow module**.
+   - For example, if you are a GMH team, you would select "SMH" in the dropdown for "The clinics selected below that my team refers to are" and add the SMH clinics your team refers to in the Green column, second row.
+  - In the bottom, right hand columns for the three possible care settings (GMH, SMH, PC/PCMHI) indicate the threshold for minimum gap in patient care required for subsequent visit to be considered a new care episode. *In general for the (GMH or SMH or PC/PCMHI) setting, how long of a gap in patient care is required for the subsequent visit to be considered a new care episode? Set the threshold below in months. The default threshold is 9 months (39 weeks).*
+  -  Click Apply. 
 
-- vizDiag shows unique visits by primary diagnosis on the visit of PTSD, Dep, OUD, or AUD.
+_**Tips & Tricks**_
+- To clear filters/columns, click on the "Eraser" icon in the upper right of the filter/column.
+- To reset ALL selections across ALL tabs, click the "Reset" button in the upper right hand of the bar.
+- To zoom into the screen, hover in the upper right hand corner of the screen until a set of icons appear. 
+   - Click on the square "Focus Mode" icon. Click "Back to Report" to return to the previous view. 
 
-### NOTE: Refresh your data if you are experiencing issues or discrepancies within the data and filtering facilities/clinics.
+**New in _MTL_ 3.0**
+<br> **For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).** </br>
 
--	To **refresh your facility file’s data**, right click on any tab at the bottom of the Excel spreadsheet and select **“Unhide…”**.
--	In the **“Unhide sheet:”** dropdown, select **“Control”** and click **“OK”**.
--	In the **“Control”** tab, select your VA facility’s station number in the **“Station:”** dropdown and click **“Refresh”**.
-    - Do not worry if you see your **Excel worksheet become unresponsive as the data is refreshing and will take about 1-2 minutes to complete**. 
--	**Warning: Do NOT click “Propagate”** as this is used by our data team to update facility data across the nation.
+### 3. Click to view the "viz" tab, which show team trends.
 
-[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/facility_file_refresh.gif)](#DontLink)
+#### _Zoom out_ and see team trends for diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant. Click on the respective tabs (Diag, Enc, etc) to view these trends. 
 
-## Your Team Data Folder
+- **What stands out to you?**
+- **What is most important to you to check out first?**
+- **What is most surprising?**
+- **What viz option would you use to see what the most common service encounters or visits are?**
+- **Are there services that have been increasing over time?**
+- **Are there services that have been decreasing over time?**
 
-### 3. Scroll to your team folder at the bottom of the page. Open the data_ui folder and open your data_ui file in Excel.
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_viz_tabs.gif?raw=true)](#DontLink)
 
-- Click on the 3 dots \[...\] next to the data_ui file.
-- Click on "Edit" to open in Excel, then click "Edit Workbook" at the top of the sheet.
+_**Tips & Tricks**_
+- Right click on any trend line and click "Show As Table" to see encounters or services decrease or increase by viewing the number of visits.
+- Filter trends to zoom into a specific team trend by navigating to the right side of the screen and click on the "Funnel" icon to unhide filter panel.
+- Note: If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
+   - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
-[![edit excel screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/edit_in_excel.gif)](#DontLink)
+**For _MTL_ 2.0, click [here](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md).**
 
-### 4. Go to the ClinicSelection tab. Use columns C-H to select the clinics that make up your team.
+### 4. Click to view the "data" tabs, which show your team's individual patient information.
 
-- You can sort and filter by Clinic Name, Division Name, Physical Location, Primary Stopcode, Secondary Stopcode, and Default Provider.
-- Note: This will pull all clinics used in the last two years, including de-activated clinics (denoted by a "ZZ" prefix). You can also see the de-activated clinic's inactivation date in column I.
-- Follow the instructions in **Box A2.**
-- After filtering, click the "Add All" arrow in column B (Cell B6). Fine-tune your selections by double-clicking on the clinic name in column A (to remove) or column C (to add).
-- In the future, if you want to quickly get the same list of clinics again, you can select the grey "Get previous clinic list from last click of Get Patient-level Data" arrow in Column B (Cell B3).
+#### In the data tabs, providers can _zoom in_ on specific veterans. Patient information corresponds to the same categories as the team trends:  diagnoses (Diag), encounters (Enc), health factor data (HF; e.g., suicide plans, evidence-based practice templates), measures (Meas), and behavioral and suicide risks (Flag) from Mental Health Assistant.
 
-### 5. To view your team patient data and your team trends click "Get Patient-level Data." We will not do this in-session today.
+Providers can filter to find specific patients, or produce reports by navigating to the right side of the screen and clicking on the "Funnel" icon to unhide filter panel.
 
-- **You already have a fresh data UI file to work with in your team data_ui folder.**
-- We will learn about the "Create Team Data Table" button in our next team meeting.
-- **To query patient and clinic level data using the data_ui, you will need LSV permissions.** To check which facilities you have LSV access for, click [here](https://spsites.cdw.va.gov/sites/PBM_AD/_layouts/15/ReportServer/RSViewerPage.aspx?rv%3aRelativeReportUrl=/sites/PBM_AD/AnalyticsReports/LSVAccessVerification.rdl) (VA intranet only).
-- **If you don't have access to facilities that you believe you should, please verify:**
-  1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
-  2. Your network username recorded in VistA. To have your network username recording in VistA, please follow the instructions outlined [here](https://vaww.dev.fre.cdw.va.gov/sites/D05_VISN21/DashboardDevelopment/Updating%20Network%20UserName%20in%20VistA.aspx) (VA intranet only).
+- **What data tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy?**
+-  **What column shows you the session number (EBP template) that the patient is on?**
 
-### NOTE: It takes some time to run a query from your team data UI to the VA Corporate Data Warehouse.
+[![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_filters_unhide_panel.gif?raw=true)](#DontLink)
 
-- On average (depending on the size of your team) it may take 15 minutes or so for your team data UI to pull in fresh data, and Microsoft Excel will be unresponsive until the data UI has finished pulling in your data.
-
-[![session 2 data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)
-
-### 6. Click to view the "viz" tab, which show team trends.
-
-- There are team trends for diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-  - What stands out to you?
-  - What is most important to you to check out first?
-  - What is most surprising?
-
-[![data ui 4 screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)
-
-- Click on any trend line and then "Quick Explore" (look for the magnifying glass). In the "Explore" box, pick the item you want to explore and click "Drill To." Keep using the Quick Explore to drill until you reach the data you want.
-  - To return to the original settings, click on the gray "Reset Pivot Chart."
-  - The viz tabs will also return to default selections, when you click "Get Patient-level Data" for new data pulls.
-
-- Right click on a trend line and filter to hide a selected item or only keep the selected item.
-
-- vizDiag in the data UI shows a drill down by diagnoses or combination of diagnoses.
-
-[![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag_mtl_2.0.gif)](#DontLink)
-
-- For Veterans Video Connect (VVC), use the VVC filter in the vizEnc tab.
-
-[![vvc_filter](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/vvc_filter.gif)](#DontLink)
-
-### 7. Click to view the "data" tab, which show your team's individual patient information.
-
-- Patients who have requested restricted access to their information have asterisks (****) in Column F (dataDiag, dataHF) or Column E (dataMeas). If you are a VA provider, you can still identify patients from Column G (dataDiag, dataHF) or Column F (dataMeas).
-- Patient information corresponds to the same categories as the team trends: diagnoses, encounters, health factor data (e.g., suicide plans, evidence-based practice templates), and measures from Mental Health Assistant.
-- Providers can filter to find specific patients, or produce reports.
-- dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary.
-
-[![primary diagnosis screencast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/primary_diagnoses.png)](#DontLink)
-
-- What **data** tab would you use to find out how many current patients on the team are engaged in a specific evidence-based psychotherapy? What column shows you the session number (EBP template) that the patient is on?
-- What **viz** option would you use to see what the most common service encounters or visits are?
-- Are there services that have been increasing over time? Are there services that have been decreasing over time?
+_**Tips & Tricks**_
+ - dataDiag in the data UI has an additional column after "Diagnoses of Interest," called "Primary Diagnoses", specifying which diagnosis is primary to help providers better understand the characteristics of the patient population.
+ - Patients who have requested restricted access to their information have asterisks (******) in the "Patient Name" column. If you are a VA provider, you can still identify patients from the "Patient SSN" Column, or "Patient Name" Column.
+ - If you do not see something that you would expect or previously saw, check to see if a filter is applied. 
+   - Click on the funnel icon in the top upper right. Filters are active if it says "Filters and slicers affecting this visual."
 
 ## With the team trends (viz) and team patient (data) information in the data UI, your team can efficiently use team meetings to focus on the interrelated issues of care coordination and team quality improvement.
 
 ## Done and Do (15 minutes)
-
-<!-- Do/Done Tables -->
-| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
+<!-- Done and Do Table -->
+| <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80"> **Done** | <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90"> **Do** |
 | --- | --- |
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected the clinics that make up our team for the Team Data UI. [![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_2.gif)](#DontLink)| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc and SP tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). Log in to mtl.how/data and look at the two team folders: data_ui and team_data_table. [![data ui screen cast](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_2.0/session2_data_ui_4_viz_diag.gif)](#DontLink)|
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) We selected a Team Lead. We selected the clinics that make up our team for the Team Data. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_eraser_reset.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)** | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) Review the HF, Diag, Enc, SP and Flag tabs in Team Data UI to find a patient (zoom in) and find a team trend (zoom out). [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_5_data_5_viz_tabs.gif?raw=true)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here.](https://github.com/lijenn/mtl/blob/master/blue/session02/s02_learner/mtl_session02_see.md)**  |
+
+### **Request and verify Local Server View permissions:**
+- **To pull patient and clinic level data, you need LSV permissions.** Check which facilities you have LSV access for [here](https://vaww.pbi.cdw.va.gov/PBIRS/Pages/ReportViewer.aspx?/GPE/PBM_AD/SSRS/LSVAccessVerification) through VA intranet.
+   - Clinical Resource Hub Providers are granted to multiple local server access.
+- **If you don't have access to facilities that you believe you should, please verify:**
+   1. CPRS access/permissions at your station (i.e COR tab access for CPRS).
+   2. Your network username recorded in VistA. To have your network username recording in VistA, please follow instructions [here](https://dvagov.sharepoint.com/sites/oitbislstaff/FieldOpsAndDataServices/fr/SitePages/CPRS_NetworkUserName.aspx) through VA intranet.
+- If you are still unable to pull data or access the data UI, please email us at MTL.Help@va.gov
