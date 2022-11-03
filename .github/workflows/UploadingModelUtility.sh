@@ -49,6 +49,8 @@ mv TempModel/agg_*.vmfx $INPUT_DESTINATION_FOLDER/Agg_PROD.vmfx
 mv TempModel/sp_*.vmfx $INPUT_DESTINATION_FOLDER/SuicidePrevention_PROD.vmfx
 #End Rename file for forio model
 
+# "remove directory"
+rm -r TempModel
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
 then

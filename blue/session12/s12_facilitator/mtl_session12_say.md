@@ -56,43 +56,43 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 
 ### 4. What *MTL* resources will the team use or revisit in the future?
 
-- *MTL* data UI? (What data will be most helpful to check back in on?)  
+- ***MTL* data UI?** (**What data will be most helpful to check back in on?**)  
 
-- *MTL* sim UI? (Which module would be most appropriate to your further need and questions?)  
+- ***MTL* sim UI?** (**Which module would be most appropriate to your further need and questions?**)  
 
 ### 5. Lead person(s) and time frame for the above actions: _______________
 
 ### 6. Celebrate completion of *Modeling to Learn*!
 
-## MTL RESOURCES
+## _MTL_ RESOURCES
 
-[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim_test)
+[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim)
 
-- You will continue to have access to the sim UI at mtl.how/sim_test. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.
+- You will continue to have access to the sim UI at mtl.how/sim. Remember that you can use the sim UI in two ways. You can log in to your individual world and play on your own, or the team can explore together in the team world. Let's review the special features of each of the 5 modules and what kinds of needs they can help you think through.
 
-- In Care Coordination (CC), you can compare multiple experiments and look at things like how Overwork Affects No-Shows and how you Balance New and Existing Patients.  
+- **In Care Coordination (CC), you can compare multiple experiments and look at things like how Overwork Affects No-Shows and how you Balance New and Existing Patients.**  
 
-- In Medication Management (MM) you can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for your providers with and without x-waivers.  
+- **In Medication Management (MM) you can experiment with team decisions across different diagnostic cohorts and how best to allocate appointments for your providers with and without x-waivers.**
 
-- In Psychotherapy (PSY), you can look at different patterns of engagement that patients may follow. In the team data table for PSY, you can pull up charts to see a profile of the team's historical patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.  
+- **In Psychotherapy (PSY), you can look at different patterns of engagement that patients may follow. In the team data table for PSY, you can pull up charts to see a profile of the team's historical patient engagement pattern; and in the Outputs section you can look at the Sankey diagram to compare patient engagement patterns and the associated appointment usage for different experiments.**
 
-- In the Aggregate (AGG) module, you can test hypotheses about your overall mix of services. The unique feature here is that in Outputs, you can choose to compare either different experiments (as you can in all the modules), or you can compare the effects of a given experiment across the different services.  
+- **In the Team Aggregate Care (AGG) module, you can test hypotheses about your overall mix of services. The unique feature here is that in Outputs, you can choose to compare either different experiments (as you can in all the modules), or you can compare the effects of a given experiment across the different services.** 
 
-- The Measurement Based Stepped Care and Suicide Prevention(SP) module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.  
+- **The Team Measurement Based Stepped Care and Suicide Prevention Flow (SP) module allows you to run experiments involving multiple mental health care settings, to see how decisions made in one setting impact patient care and wait times across the continuum of care.**  
 
-- Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, MTL Videos are accredited through TMS for continuing education credits.  
+- Another resource is the library of *MTL* videos, available at mtl.how/video. For sessions 5 through 10 which involve simulation, there are recordings not just for the module your team decided to use, but for all 5. Like *Modeling to Learn* Live, _MTL_ Videos are accredited through TMS for continuing education credits.  
 
 - Finally, you can join the *Modeling to Learn* Listserv at mtl.how@va.gov; and you can always email questions for *MTL* staff to mtl.help@va.gov.
 
 ### Now let's make a plan for how the team will keep modeling to learn going forward.
 
-- How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?
-- Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?
-- Could it be helpful to refer back the model diagram as a reminder of the systems stories it tells about decisions you make as a team?
-- Do you want to set aside some specific times - a portion of a meeting every week, or month, or quarter, say, to further explore your data and test your hypotheses?
-- How might you share these resources with new team members, and give them a dose of systems thinking?
-- Is there anyone who'd like to keep up their *MTL* skills and be a local *MTL* champion or coach, to remind the team of MTL when a new challenge appears on the horizon?
-- Some teams ask for a "booster" session after a few months. We're happy to facilitate that as well.
+- **How could you, as a clinician, or the team as a whole, see using these resources to continue quality improvement through team decision-making?**
+- **Is there another big question you'd like to explore through simulated experiments - either in the same module or a different one?**
+- **Could it be helpful to refer back the model diagram as a reminder of the systems stories it tells about decisions you make as a team?**
+- **Do you want to set aside some specific times - a portion of a meeting every week, or month, or quarter, say, to further explore your data and test your hypotheses?**
+- **How might you share these resources with new team members, and give them a dose of systems thinking?**
+- **Is there anyone who'd like to keep up their *MTL* skills and be a local *MTL* champion or coach, to remind the team of MTL when a new challenge appears on the horizon?**
+- **Some teams ask for a "booster" session after a few months. We're happy to facilitate that as well.**
 
 **It's great if you make a concrete action plan, identify a point person, and call on us as needed.**
 
@@ -103,4 +103,4 @@ Hello! I'm \________________ (facilitator's name) and I'm \_______________ (co-f
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#.) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#.) **Do**|
 | --- | --- |
-| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how/test for ongoing release updates and assistance using _MTL_ resources. |
+| We completed _Modeling to Learn_!|[<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sm.png" height = "75" width = "110">](http://mtl.how) Follow team plan for next steps. Visit mtl.how for ongoing release updates and assistance using _MTL_ resources. |

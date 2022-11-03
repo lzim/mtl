@@ -14,9 +14,9 @@ output:
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/title_slides/mtl_s12_team_plan_title.png"
 height = "175" width = "420">](#DontLink)   
 
-### Session 12 Say Checklist
+## Session 12 Say Checklist
 
-**Today we're modeling to learn how to turn team learning into a team plan.**
+## **Today we're modeling to learn how to turn team learning into a team plan.**
 
 Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves]. Today we're modeling to learn how to turn team learning into a team plan.
 
@@ -42,21 +42,21 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 **1. We completed _Modeling to Learn_!**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:10-00:30** 
 
-- [ ] 2. Brief summary of themes to highlight with the team ____________________
+- [ ] 2. **Brief summary of themes to highlight with the team** ____________________
 
-3. How will we coordinate our efforts going forward based on our learning?
+3. **How will we coordinate our efforts going forward based on our learning?**
 
 - [ ] Concise review of **causal system story of team problem** ____________________
 
 - [ ] Concise review of **feasible practice decisions to prioritize** ____________________
 
-4. What *MTL* resources will the team use or revisit in the future?
+4. **What *MTL* resources will the team use or revisit in the future?**
 
-    - [ ] *MTL* data UI ___________________
+    - [ ] ***MTL* data UI** (**What data will be most helpful to check back in on?**) ___________________
     
-    - [ ] *MTL* sim UI (Which module would be most appropriate to our further need and questions?) ___________________
+    - [ ] ***MTL* sim UI** (**Which module would be most appropriate to our further need and questions?**) ___________________
 
-5. Lead person(s) and time frame for the above actions: _______________ 
+- [ ] 5. **Lead person(s) and time frame for the above actions:** _______________ 
 
 **6. Celebrate completion of *Modeling to Learn*!**
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:30-00:50** 
@@ -65,4 +65,4 @@ Hello! I'm __________ and I'm __________ [Co-facilitators introduce themselves].
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png" height = "40" width = "40" style ="display: inline-block"/> _____________ **Time 00:50-00:60**  
 
 - [ ] Done: We completed _Modeling to Learn_!
-- [ ] Follow team plan for next steps. Visit mtl.how/test for ongoing release updates and assistance using _MTL_ resources.
+- [ ] Follow team plan for next steps. Visit mtl.how for ongoing release updates and assistance using _MTL_ resources.

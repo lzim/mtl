@@ -1,7 +1,7 @@
 ---
 title: "MTL Session 5 - Learner See"
 author: "Team PSD"
-date: "March 17, 2022"
+date: "May 2022"
 release: "MTL 3.0"
 output: 
   github_document: default
@@ -24,7 +24,7 @@ output:
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink)   **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink)   **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data table to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We checked to make sure we could log in to the simulation user interface (sim UI) at mtl.how/sim. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**  | [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We will upload our team data table to the sim UI and review our data in the Experiments section. [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 1.7, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**| 
 
 <!-- Learning Objectives Icon --> 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/learning_objectives.png" height = "90" width = "90" style ="display: inline-block"/>](#DontLink)
@@ -37,167 +37,95 @@ output:
 
 3. Apply clinical expertise to consider the decisions the team makes that affect these variables.
 
-# In-session Exercise (30 minutes)
-
 # Session 5 In-Session Exercise
 
 [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/illustrations/data_ui_sim_ui.png">](#DontLink)
 
-## Check the name of your team data file.
+### 1. Log into the sim UI.
 
-1. In session 3, we used our team data UI and clicked "Create Team Data Table" to produce our team data for simulation. 
-2. Let's now go back to [mtl.how/data](mtl.how/data) in any browser window to check the name of our team data file.
-3. The team data file for simulation is in our team folder, in the team_data_sim folder. 
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/data_ui_login.gif)](#DontLink)
-
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
-
-## Log in to the sim UI in Chrome.
-
-4. Log in to the sim UI.
-
-    - Open a new browser window in Google Chrome and go to mtl.how/sim_test.
-    - Enter your login credentials and click the "Login" button.
-    - A box instructing you to *Please select a World* will appear. If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world. If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world. Click "Select World."
-    - Note: Be aware that this is a responsive web design, meaning that it adjusts the page layout to optimize to your screen's dimensions. For example, if you use your browser control to reduce the window size, the sim UI will adjust to stack these sections vertically instead of showing them side by side. Similarly, if you are logged in on a smartphone or other device, it might look different to you.
+- Go to mtl.how/sim
+- Enter your login credentials and click the "Login" button.
+- A box instructing you to *Please select a World* will appear. 
+   - **If you are working collaboratively with your team in *MTL* please select your team world denoted by "team" in the title of the world.** 
+   - **If you are exploring the Sim UI on your own, please select your individual world denoted by "ind" in the title of the world.** 
+- Click "Select World."
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_1.gif)](#DontLink) 
+**_MTL_ 3.0. For *MTL* 2.0 click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
 
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
-
-#### New for _MTL_ 3.0
-
-- You can upload a Team Data file from the Home page.
-- The Aggregate Module has been renamed Team (AGG) Care to emphasize team-based care.
-- The Suicide Prevention Module has been renamed Team (SP) Flow to emphasize the flow of patients through levels of care.
-
-**_MTL_ 3.0. For *MTL* 2.0 click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
-
-5. Orient yourself to the landing page (Team name, navigation icons, player name, welcome text, sections with blue headers).
+### 2. Orient yourself to the landing page.
+- **Look at: Team name, navigation icons, player name, welcome text, sections with blue headers.**
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_home.gif)](#DontLink)
 
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
+_**Tips & Tricks**_
+- Chat with your team or facilitator using the "Team" icon.
+- For more information on the sim UI, click on the "More Info" icon.
+- For news flashes on discussion items, click "News" icon.
+- If a serious issue appears in the sim UI, a red pop-up alert will appear once you log in and alert you of the problem and when it will be fixed.
+- Report issues in the sim UI using the " Report Bug" icon in the top nav bar to report issues.
+   - **Never include any PII/PHI in your bug description and screenshot.**
+- For an "over the shoulder" orientation to the different icons, blue headers, and functions of each page, click on the "Tutor" icons.
+- If you have an idea, something you like, or if you have a question, click on the "Community" icon in the bottom right.
+   - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email. The Community of Practice is a public platform. Follow established VA guidance on posting information to the public.**  
 
-- Open the Team Data Maintenance section and click Add. 
-- Find your Team Data file and add it to the collection. 
+**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
+
+### 3. Upload your Team Data file to the Sim UI.
+- **Open the Team Data Maintenance section and click Add.** 
+- **Find your Team Data file from your Microsoft Team's channel and upload it to the sim UI.**
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_team_data_menu_maint.gif)](#DontLink) 
 
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
+**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
    
-#### New for _MTL_ 3.0
+### 4. Start a New Session.
 
-- The "Chat" icon is now called "Team." Click here to chat with your team or facilitator.
-- The "Help" icon is now called "More Info." Click here for more info on the sim UI.
-- Click on the "News" icon for news flashes on discussion items. Your input on discussion items in the Community of Practice is appreciated. A red pop-up with a number will appear next to this icon (similar to how text messages work on your phone) to alert you to the number of un-read news flashes. Once you read the news flashes, the red pop-up will disappear, but you can always click on "News" to review the current news flashes.
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_news_notification.gif)](#DontLink)
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_andon_alert.png)](#DontLink) 
-
-- Click on the "Report Bug" Icon in the top nav bar to report issues.
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_report_bug.gif)](#DontLink) 
-
-- **Never include any PII/PHI in your description and screenshot.**
-- To include screenshots, you can:
-    - Upload your screenshot file
-    - Drag & drop a screenshot file
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_drag_drop_bug.gif)](#DontLink) 
-
-  - Copy & paste from Snipping Tool
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/snip_tool_bug.gif)](#DontLink) 
-
-- Click on the "Tutor" icons for an "over the shoulder" orientation to the different icons, blue headers, and functions of each page. Each red tutor pop-up includes icons for:
-  - Video: Links to the relevant TMS video for this section.
-  - Guide: Links to the relevant session guide for this section.
-  - Back/Next: Move back or next in the tutor instructions for this section.
-  - Close: Close the tutor pop-up. Click on any tutor icon at any time, to get "over the shoulder" instructions for this section. 
-  
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/tutor.gif)](#DontLink) 
-
-- Click on the "Community" button on the bottom right if:
-  - You have an idea
-  - You like something
-  - You have a question:
-    - See if someone already answered your question online in the Community of Practice.
-    - Set up a GitHub account to ask your question directly in the Community of Practice.
-    - Email your question to mtl.help@va.gov
-    
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/community_button.gif)](#DontLink) 
-
-  - **Never include any PII/PHI in your description and screenshot unless you are emailing mtl.help@va.gov from your VA email.**
-  - To include screenshots in the "Community" button, you can:
-    - Upload your screenshot file
-    - Drag & drop a screenshot file
-    - Copy & paste from Snipping Tool
-    - **Same screenshot functions as the Report Bug Icon above
-
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
-
-6. Start a New Session.
-
-   - Select the module your team decided to use. 
-   - Select the team data you want to use.
-   - Click Play.
-
-#### New for _MTL_ 3.0
-
-   - For CC & MM, you need to select your Learning Mode before hitting Play.  
-       - Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data_test, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.
-       - **Note:** Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.
+- **Select the module your team decided to use.** 
+- **Select the team data you want to use.**
+- **Click on the red Play button under the "Session" blue header.**
+   - *For CC & MM, you need to select your Learning Mode before hitting Play.*
+       - *Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team's New Patient Start Rates and Return-to-Clinic Intervals.*
+       - *Once you pick a Learning Mode to prioritize the New Patient Start Rate or the Existing Patients Return-to-Clinic Visit Interval, this will be the setting your team will experiment with through Session 12 for the rest of the *Modeling to Learn* program.*
    
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_learning_mode.gif)](#DontLink)
 
-   - Upon clicking icons like "Play," "Run," or "Reset,' a **Quick Tip** will appear on the loading screen on different functions in the sim UI.
-
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_quick_tips.gif)](#DontLink) 
-
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
-
-7. Orient yourself to the Main Page of the sim UI (same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).
-
-#### New for _MTL_ 3.0
-- The "Outputs" section is now called "Outputs and Text."
-- To get the "Text" pop-up from the "Outputs and Text" section, click on the "T" icon with the arrow. Click once more on the "Expand" icon in the top right of the "Text" pop-up to get to the expanded view of the "Outputs and Text" section that show the Q/H/F/D text and 6 Output charts in one view.
-    - Click on the "Minimize" icon in the top right of the expanded "Outputs and Text" view to return to the "Text" pop-up.
-- "Exclamation points" in the Team Data Table for Measurement Based Stepped Care & Suicide Prevention (SP): Sometimes we may have estimates derived from very few observations. We decided to set infrequently observed values to zero to avoid inflation of rarer episodes of care. Poor inferences are possible using estimates when the count is low and the duration is low. If the values are <1% of the total counts of episodes of care in the team, and they are retained in the model, it will inflate rare episodes.
-    - Exclamation points in the Team Data Table will indicate when a parameter is too low to be validly used.
-    - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
-    - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
-    
-[![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_2.0/sim_ui_sp_i_information.gif)](#DontLink) 
-
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
+### 5. Orient yourself to the Main Page of the sim UI.
+- **Look at: Team name, navigation icons, player name, welcome text, 4 sections with blue headers - one showing the module and Team Data selected in its header; the others headed Outputs and Text, Experiments, and Text.**
 
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_sections.gif)](#DontLink) 
 
-**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**
+_**Tips & Tricks**_
+- To get the "Text" pop-up from the "Outputs and Text" section, click on the "T" icon with the arrow. Click once more on the "Expand" icon in the top right of the "Text" pop-up to get to the expanded view of the "Outputs and Text" section that show the Q/H/F/D text and 6 Output charts in one view.
+    - Click on the "Minimize" icon in the top right of the expanded "Outputs and Text" view to return to the "Text" pop-up.
+- **"Exclamation points" in the Team Data Table for Measurement Based Stepped Care & Suicide Prevention (SP): Sometimes we may have estimates derived from very few observations. We decided to set infrequently observed values to zero to avoid inflation of rarer episodes of care. Poor inferences are possible using estimates when the count is low and the duration is low. If the values are <1% of the total counts of episodes of care in the team, and they are retained in the model, it will inflate rare episodes.**
+    - Exclamation points in the Team Data Table will indicate when a parameter is too low to be validly used.
+    - The relevant red parameter values in the model diagram will have a corresponding exclamation point.
+    - You will get a pop-up message from clicking on the exclamation point in either the Team Data Table or the Model Diagram to explain what is happening.
 
-8. Expand the Experiments section and read the "i" information for the Team Data Table.
-   - Open the section by clicking on the white down arrow in the right corner of the blue bar. 
-   - Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.
-   - What types of decisions does the team make that affect these variables?
-   - How do the values in this table strike you? Do they line up with how you think things really are?
+**_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**
+
+### 6. Expand the Experiments section and read the "i" information for the Team Data Table.
+- **Open the section by clicking on the white down arrow in the right corner of the blue bar.** 
+- **Click on the "i" in the red circle next to Team Data and read the “i” information for the Team Data table.**
+- **What types of decisions does the team make that affect these variables?**
+- **How do the values in this table strike you? Do they line up with how you think things really are?**
    
 [![](https://raw.githubusercontent.com/lzim/teampsd/master/resources/gifs/mtl_3.0/sim_ui_i_information.gif)](#DontLink) 
 
-9. Find the Team Data Table variables in the system diagram at the left.
+### 7. Find the Team Data Table variables in the system diagram at the left.
+- **True Missed Appointments %**
+- **Appointment Supply**
+- **Return Visit Interval**
+- **Engagement Duration**
+- **New Patient Start Rate (AGG)**
 
-    - True Missed Appointments %
-    - Appointment Supply
-    - Return Visit Interval
-    - Engagement Duration	
-    - New Patient Start Rate (AGG)
-
-10. Log out of the Sim UI.
-
+### 8. Log out of the sim UI.
+- **Click on the "Logoff" icon in the top navigation bar every time you're done in the sim UI.**
+  - The sim UI will automatically ask "Would you like to save your current session?" to remind you to save your session experiment if you forget.
+  
 ## Done and Do (15 minutes)
 <!-- Do/Done Tables -->
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/done.png" height = "80" width = "80">](#DontLink) **Done** | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/icons/do.png" height = "90" width = "90">](#DontLink) **Do** |
 | --- | --- | 
-| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_clinic_selection.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md)**| 
+| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_data_sm.png" height = "75" width = "110">](http://mtl.how/data) [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) We logged in and uploaded our team data table to the sim UI, and reviewed our team data in the Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/data_ui_clinic_selection.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**| [<img src = "https://raw.githubusercontent.com/lzim/teampsd/master/resources/logos/mtl_how_sim.png" height = "75" width = "110">](http://mtl.how/sim) Check the "i" information available in the sim UI Model Diagram and Experiments section. [![](https://github.com/lzim/teampsd/blob/master/resources/gifs/mtl_3.0/sim_ui_pop_ups.gif)](#DontLink) **_MTL_ 3.0. For _MTL_ 2.0, click [here](https://github.com/lzim/mtl/blob/master/release_2.0/mtl_session05_see.md).**| 
