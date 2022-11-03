@@ -33,18 +33,24 @@ then
 fi
 
 echo "Copying contents to git repo"
-mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
-cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
+mkdir -p "$CLONE_DIR/TempSDMDOC"
+cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/TempSDMDOC"
 cd "$CLONE_DIR"
+#mkdir -p $CLONE_DIR/INPUT_DESTINATION_FOLDER
+#cp -R $INPUT_SOURCE_FILE "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
+#cd "$CLONE_DIR"
 
 # "Start Rename file for forio model"
 #cd "$CLONE_DIR/$INPUT_DESTINATION_FOLDER"
-mv $INPUT_DESTINATION_FOLDER/cc_*.html $INPUT_DESTINATION_FOLDER/ccsdmdoc.html
-mv $INPUT_DESTINATION_FOLDER/mm_*.html $INPUT_DESTINATION_FOLDER/mmsdmdoc.html
-mv $INPUT_DESTINATION_FOLDER/psy_*.html $INPUT_DESTINATION_FOLDER/psysdmdoc.html
-mv $INPUT_DESTINATION_FOLDER/agg_*.html $INPUT_DESTINATION_FOLDER/aggsdmdoc.html
-mv $INPUT_DESTINATION_FOLDER/sp_*.html $INPUT_DESTINATION_FOLDER/spsdmdoc.html
+mv TempSDMDOC/cc_*.html $INPUT_DESTINATION_FOLDER/ccsdmdoc.html
+mv TempSDMDOC/mm_*.html $INPUT_DESTINATION_FOLDER/mmsdmdoc.html
+mv TempSDMDOC/psy_*.html $INPUT_DESTINATION_FOLDER/psysdmdoc.html
+mv TempSDMDOC/agg_*.html $INPUT_DESTINATION_FOLDER/aggsdmdoc.html
+mv TempSDMDOC/sp_*.html $INPUT_DESTINATION_FOLDER/spsdmdoc.html
 #End Rename file for forio model
+
+# "remove directory"
+rm -r TempSDMDOC
 
 
 if [ -z "$INPUT_COMMIT_MESSAGE" ]
