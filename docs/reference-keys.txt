@@ -49,6 +49,9 @@ manage-discussions-in-team
 set-up-a-private-conversation
 set-up-an-open-team-discussion
 resize-a-window-for-side-by-side-viewing
+report-a-bug
+report-a-bug-through-the-sim-ui
+report-a-bug-directly-in-github
 admin-technical-manual
 modeling-to-learn-administrative-dashboard
 login-to-administrative-dashboards
