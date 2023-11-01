@@ -34,10 +34,14 @@ I want to learn how to high five. To do that, I need to read [this article](http
 **Punctuation and spaces matter.**
 
 The syntax to use: 
-> [text you want to link](URL of linked content)
+```[text you want to link](URL of linked content)```
 
 ## Add an Image: 
-Inserting images is easy, and it's helpful to have the code. Remember, **punctuation and spaces matter!** Images must be .png files. To view the syntax to use, look at this .md file in Edit mode.
+Inserting images is easy, and it's helpful to have the code handy. Remember, **punctuation and spaces matter**  and images must be .png files. 
+
+The syntax for inserting images is: ```<img src = "(full URL to image ending in .png)?raw=true">```
+
+The code used for the image below is: ```<img src = "https://github.com/lzim/mtl/blob/gh-pages/images/mtl_data_nav.png?raw=true">``` and displays this:
 
 <img src = "https://github.com/lzim/mtl/blob/gh-pages/images/mtl_data_nav.png?raw=true">
 
