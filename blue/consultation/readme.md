@@ -1,3 +1,3 @@
 # Consultation Folder
 
-This folder contains procedurse for the consultation workflow.
+This folder contains procedure for the consultation workflow.
