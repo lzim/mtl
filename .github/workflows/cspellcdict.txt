@@ -1714,6 +1714,8 @@ medical
 medication
 medicine
 medium
+meds
+Meds
 meet
 meeting
 member
