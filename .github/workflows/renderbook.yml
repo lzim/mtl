@@ -6,7 +6,7 @@ on:
 name: renderbook
 
 env:
-  ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
 
 jobs:
   bookdown:
