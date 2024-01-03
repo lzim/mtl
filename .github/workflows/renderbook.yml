@@ -1,6 +1,6 @@
 on:
   pull_request:
-    branches: [ gh-pages ]
+    branches: [ cicd-issue-gh-pages_2.4 ]
     types: [ closed ]
     
 name: renderbook
@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: gh-pages
+          ref: cicd-issue-gh-pages_2.4
       - uses: r-lib/actions/setup-r@v1
       - uses: r-lib/actions/setup-pandoc@v1
       - name: Install rmarkdown
@@ -52,7 +52,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
+          BRANCH: cicd-issue-gh-pages_2.4 # The branch the action should deploy to.
           FOLDER: docs
           TARGET_FOLDER: docs # The folder the action should deploy.
           CLEAN: true
