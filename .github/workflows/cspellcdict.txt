@@ -443,6 +443,7 @@ CAG
 cake
 calculate
 call
+callout
 camera
 camp
 campaign
@@ -889,6 +890,7 @@ DNA
 do
 doctor
 document
+docx
 dog
 domestic
 dominant
@@ -914,6 +916,7 @@ driver
 drop
 drug
 dry
+Ds
 DSS
 due
 during
@@ -1701,6 +1704,7 @@ lovely
 lover
 low
 lower
+LSV
 luck
 lucky
 lunch
@@ -1753,6 +1757,7 @@ matter
 may
 maybe
 mayor
+MCA
 mdl
 me
 meal
@@ -1877,6 +1882,7 @@ nature
 NAVREF
 NBCC
 NCPTSD
+NDS
 near
 nearby
 nearly
