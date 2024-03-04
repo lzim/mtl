@@ -391,6 +391,7 @@ cake
 calculate
 call
 callout
+callouts
 camera
 camp
 campaign
@@ -2131,6 +2132,7 @@ power
 powerful
 powerpoint
 PowerPoint
+PPT
 practical
 practice
 pray
