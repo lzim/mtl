@@ -1489,6 +1489,7 @@ infant
 infection
 inflation
 influence
+infographic
 inform
 information
 ingredient
