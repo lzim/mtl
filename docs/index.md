@@ -1,7 +1,7 @@
 ---
 title: "Modeling to Learn Manual"
 author: "Team PSD"
-date: "2024-01-12"
+date: "2024-03-11"
 link-citations: yes
 preview: yes
 site: bookdown::bookdown_site

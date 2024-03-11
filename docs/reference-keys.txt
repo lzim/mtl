@@ -56,6 +56,7 @@ report-a-bug
 report-a-bug-through-the-sim-ui
 report-a-bug-directly-in-github
 admin-technical-manual
+to-be-or-not-to-be---that-is-the-question
 modeling-to-learn-administrative-dashboard
 login-to-administrative-dashboards
 orient-to-the-dashboard
