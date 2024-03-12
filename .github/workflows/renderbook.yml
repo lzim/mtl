@@ -1,7 +1,7 @@
 on:
   pull_request:
-    branches: 
-    types: 
+    branches: [ gh-pages ]
+    types: [ closed ]
     
 name: renderbook
 
