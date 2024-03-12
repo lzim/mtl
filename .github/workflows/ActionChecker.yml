@@ -31,29 +31,29 @@ jobs:
     - name: '' #get changed files
       id: getfileCount
       run: |
-        echo "::set-output name=filesCount::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md'| wc -l)"
+        echo "name=filesCount::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md'| wc -l)" >>GITHUB_STATE
     
     - name: '' #get changed files
       id: getfile
       run: |
-        echo "::set-output name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md' | xargs)"
+        echo "name=files::$(git diff-tree --no-commit-id --name-only -r ${{ github.sha }} -- '*.md' | xargs)" >>GITHUB_STATE
         
     - name: '' #get changed fileName
       if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
       id: getfileName
       run: |
-        echo "::set-output name=fileName::$(basename -a ${{ steps.getfile.outputs.files }})"
+        echo "name=fileName::$(basename -a ${{ steps.getfile.outputs.files }})" >>GITHUB_STATE
     
     - name: '' #get changed fileName Only
       if: ${{ steps.getfileCount.outputs.filesCount  == 1}}
       id: getfileNameOnly
       run: |
-        echo "::set-output name=fileNameOnly::$(echo ${{ steps.getfileName.outputs.fileName }} | cut -f 1 -d '.')"
+        echo "name=fileNameOnly::$(echo ${{ steps.getfileName.outputs.fileName }} | cut -f 1 -d '.')" >>GITHUB_STATE
     
     - name: '' #get changed files
       id: getDirName
       run: |
-        echo "::set-output name=dirs::$(dirname ${{ steps.getfile.outputs.files }})"
+        echo "name=dirs::$(dirname ${{ steps.getfile.outputs.files }})" >>GITHUB_STATE
     
     #- name: echo output
       #run: |
