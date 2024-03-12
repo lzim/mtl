@@ -65,7 +65,7 @@ jobs:
    
     - name: Spell Checker
       if: always()  
-      uses: zwaldowski/cspell-action@6.0.0
+      uses: zwaldowski/cspell-action@v1
       with:
         # Glob pattern of files to check
         paths: ${{ steps.getfile.outputs.files }}
