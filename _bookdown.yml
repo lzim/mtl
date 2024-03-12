@@ -1,0 +1,13 @@
+book_filename: "MTL_Bookdown"
+language:
+  ui:
+    chapter_name: "Chapter "
+new_session: yes
+rmd_files: ["index.Rmd", 
+"2.0_introduction.md", 
+"3.0_facilitator_fidelity.md",
+"4.0_red_blue_learning_maps.md",
+"5.0_mtl_red.md",
+"6.0_mtl_blue.md",
+"7.0_mtl_technical_manual_facilitator.md",
+"8.0_mtl_technical_manual_admin.md"]
