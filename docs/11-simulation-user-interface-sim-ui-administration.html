@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 11 Simulation User Interface (Sim UI) Administration | Modeling to Learn Manual</title>
+  <meta name="description" content="This is the MTL one stop shop." />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 11 Simulation User Interface (Sim UI) Administration | Modeling to Learn Manual" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="This is the MTL one stop shop." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 11 Simulation User Interface (Sim UI) Administration | Modeling to Learn Manual" />
+  
+  <meta name="twitter:description" content="This is the MTL one stop shop." />
+  
+
+<meta name="author" content="Team PSD" />
+
+
+<meta name="date" content="2021-10-26" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="10-admin-technical-manual.html"/>
+
+<script src="assets/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="assets/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="assets/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="assets/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="assets/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="assets/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> (<em>Modeling to Learn</em>)[<span>https://mtl.how</span>] Manual</a></li>
+<li class="chapter" data-level="2" data-path="2-introduction---modeling-to-learn-manual.html"><a href="2-introduction---modeling-to-learn-manual.html"><i class="fa fa-check"></i><b>2</b> Introduction - <em>Modeling to Learn</em> Manual</a><ul>
+<li class="chapter" data-level="2.1" data-path="2-introduction---modeling-to-learn-manual.html"><a href="2-introduction---modeling-to-learn-manual.html#mtl-blue-vs.-red-map"><i class="fa fa-check"></i><b>2.1</b> <em>MTL Blue vs. Red</em> Map</a></li>
+<li class="chapter" data-level="2.2" data-path="2-introduction---modeling-to-learn-manual.html"><a href="2-introduction---modeling-to-learn-manual.html#mtl-is-a-partnership."><i class="fa fa-check"></i><b>2.2</b> <em>MTL</em> is a partnership.</a></li>
+<li class="chapter" data-level="2.3" data-path="2-introduction---modeling-to-learn-manual.html"><a href="2-introduction---modeling-to-learn-manual.html#report-an-issue-or-bug-to-team-psd"><i class="fa fa-check"></i><b>2.3</b> Report an issue or bug to Team PSD</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html"><i class="fa fa-check"></i><b>3</b> Facilitator Checklists</a><ul>
+<li class="chapter" data-level="3.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#intersession-checklist"><i class="fa fa-check"></i><b>3.1</b> Intersession Checklist</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#a.-there-are-3-primary-facilitation-goals-and-emphases-across-the-12-session-plan."><i class="fa fa-check"></i><b>3.1.1</b> A. There are 3 primary facilitation goals and emphases across the 12-Session plan.</a></li>
+<li class="chapter" data-level="3.1.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#b.-there-are-3-intersession-timestamp-checklists-used-across-the-12-session-plan."><i class="fa fa-check"></i><b>3.1.2</b> B. There are 3 intersession timestamp checklists used across the 12-session plan.</a></li>
+<li class="chapter" data-level="3.1.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#c.-how-to-prioritize-and-practice-during-the-intersession"><i class="fa fa-check"></i><b>3.1.3</b> C. How to “Prioritize” and “Practice” during the intersession:</a></li>
+<li class="chapter" data-level="3.1.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#intersession-overview"><i class="fa fa-check"></i><b>3.1.4</b> Intersession Overview</a></li>
+<li class="chapter" data-level="3.1.5" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#intersession-purpose"><i class="fa fa-check"></i><b>3.1.5</b> Intersession Purpose</a></li>
+<li class="chapter" data-level="3.1.6" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#what-you-need"><i class="fa fa-check"></i><b>3.1.6</b> 1. What you need</a></li>
+<li class="chapter" data-level="3.1.7" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-1-4-goals-and-emphases---partner-to-identify-the-teams-highest-priority-learning-need-now.-participatory-learning"><i class="fa fa-check"></i><b>3.1.7</b> 2. Sessions 1-4 Goals and Emphases - Partner to identify the team’s highest priority learning need now. [participatory learning]</a></li>
+<li class="chapter" data-level="3.1.8" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-1-4---participatory-learning-timestamp-script"><i class="fa fa-check"></i><b>3.1.8</b> 3. Sessions 1-4 - Participatory Learning Timestamp Script</a></li>
+<li class="chapter" data-level="3.1.9" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-5-8-goals-and-emphases---build-capacity-for-participatory-learning-from-simulation-using-team-questionhypothesisfindingsdecisions.-participatory-learning-systems-thinking"><i class="fa fa-check"></i><b>3.1.9</b> 4. Sessions 5-8 Goals and Emphases - Build capacity for participatory learning from simulation using team question/hypothesis/findings/decisions. [participatory learning + systems thinking]</a></li>
+<li class="chapter" data-level="3.1.10" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-5-8---participatory-simulation-learning-timestamp-script"><i class="fa fa-check"></i><b>3.1.10</b> 5. Sessions 5-8 - Participatory Simulation Learning Timestamp Script</a></li>
+<li class="chapter" data-level="3.1.11" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-9-12-goals-and-emphases---use-c.f.b.t.-systems-thinking-and-plan-for-future-team-learning-needs-and-ready-team-to-implement-a-tested-change-in-the-real-world.-systems-thinking"><i class="fa fa-check"></i><b>3.1.11</b> 6. Sessions 9-12 Goals and Emphases - Use C.F.B.T. Systems Thinking and plan for future team learning needs and ready team to implement a tested change in the real world. [systems thinking]</a></li>
+<li class="chapter" data-level="3.1.12" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#sessions-9-12---wrap-up-and-future-learning-timestamp-script"><i class="fa fa-check"></i><b>3.1.12</b> 7. Sessions 9-12 - Wrap-up and Future Learning Timestamp Script</a></li>
+<li class="chapter" data-level="3.1.13" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#summary-of-principles-for-team-tailoring-say-guides-in-ways-consistent-with-the-mtl-theory-of-change-during-the-intersession."><i class="fa fa-check"></i><b>3.1.13</b> 8. Summary of principles for team tailoring SAY guides in ways consistent with the <em>MTL</em> theory of change during the intersession.</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#mtl-partner-fidelity-checklist-sessions-1-4-short-form"><i class="fa fa-check"></i><b>3.2</b> <em>MTL</em> Partner Fidelity Checklist Sessions 1-4 (short-form)</a><ul>
+<li class="chapter" data-level="3.2.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#track-the-below-session-details-and-section-a-at-mtl.howfidelity"><i class="fa fa-check"></i><b>3.2.1</b> Track the below session details and Section A at mtl.how/fidelity</a></li>
+<li class="chapter" data-level="3.2.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#a.-post-session-debriefing-checklist-items-1-3"><i class="fa fa-check"></i><b>3.2.2</b> A. Post-Session Debriefing checklist items 1 &amp; 3:</a></li>
+<li class="chapter" data-level="3.2.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#b.-intersession-checklist-prioritizing-post-session-checklist-items-6-7-9-short-form"><i class="fa fa-check"></i><b>3.2.3</b> B. Intersession checklist prioritizing Post-session Checklist items 6, 7 &amp; 9 (short-form)</a></li>
+<li class="chapter" data-level="3.2.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#c.-post-session-debriefing-checklist-item-8---track-issues"><i class="fa fa-check"></i><b>3.2.4</b> C. Post-Session Debriefing checklist item 8 - Track Issues</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#mtl-build-fidelity-checklist-sessions-5-8-short-form"><i class="fa fa-check"></i><b>3.3</b> <em>MTL</em> Build Fidelity Checklist Sessions 5-8 (short-form)</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#track-the-below-session-details-and-section-a-at-mtl.howfidelity-1"><i class="fa fa-check"></i><b>3.3.1</b> Track the below session details and Section A at mtl.how/fidelity</a></li>
+<li class="chapter" data-level="3.3.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#a.-post-session-debriefing-checklist-items-1-3-1"><i class="fa fa-check"></i><b>3.3.2</b> A. Post-Session Debriefing checklist items 1 &amp; 3:</a></li>
+<li class="chapter" data-level="3.3.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#b.-intersession-checklist-prioritizing-post-session-checklist-items-6-7-9-short-form-1"><i class="fa fa-check"></i><b>3.3.3</b> B. Intersession checklist prioritizing Post-session Checklist items 6, 7 &amp; 9 (short-form)</a></li>
+<li class="chapter" data-level="3.3.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#c.-post-session-debriefing-checklist-item-8---track-issues-1"><i class="fa fa-check"></i><b>3.3.4</b> C. Post-Session Debriefing checklist item 8 - Track Issues</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#mtl-apply-fidelity-checklist-sessions-9-12-short-form"><i class="fa fa-check"></i><b>3.4</b> <em>MTL</em> Apply Fidelity Checklist Sessions 9-12 (short-form)</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#track-the-below-session-details-and-section-a-at-mtl.howfidelity-2"><i class="fa fa-check"></i><b>3.4.1</b> Track the below session details and Section A at mtl.how/fidelity</a></li>
+<li class="chapter" data-level="3.4.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#a.-post-session-debriefing-checklist-items-1-3-2"><i class="fa fa-check"></i><b>3.4.2</b> A. Post-Session Debriefing checklist items 1 &amp; 3:</a></li>
+<li class="chapter" data-level="3.4.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#b.-intersession-checklist-prioritizing-post-session-checklist-items-6-7-9-short-form-2"><i class="fa fa-check"></i><b>3.4.3</b> B. Intersession checklist prioritizing Post-session Checklist items 6, 7 &amp; 9 (short-form)</a></li>
+<li class="chapter" data-level="3.4.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#c.-post-session-debriefing-checklist-item-8---track-issues-2"><i class="fa fa-check"></i><b>3.4.4</b> C. Post-Session Debriefing checklist item 8 - Track Issues</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#mtl-facilitate-pre-session-checklist"><i class="fa fa-check"></i><b>3.5</b> MTL Facilitate Pre-Session Checklist</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#the-week-before-of-the-meeting"><i class="fa fa-check"></i><b>3.5.1</b> The week before of the meeting</a></li>
+<li class="chapter" data-level="3.5.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#day-of-session-prep-checklist-30-minutes"><i class="fa fa-check"></i><b>3.5.2</b> Day of session Prep Checklist (30 minutes)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.6" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#mtl-facilitate-post-session-checklist"><i class="fa fa-check"></i><b>3.6</b> <em>MTL</em> Facilitate Post-Session Checklist</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#fidelity-ratings"><i class="fa fa-check"></i><b>3.6.1</b> Fidelity Ratings</a></li>
+</ul></li>
+<li class="chapter" data-level="3.7" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#facilitator-debriefing-checklist"><i class="fa fa-check"></i><b>3.7</b> Facilitator Debriefing Checklist</a></li>
+<li class="chapter" data-level="3.8" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#debrief-examples"><i class="fa fa-check"></i><b>3.8</b> Debrief Examples</a><ul>
+<li class="chapter" data-level="3.8.1" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#team-1"><i class="fa fa-check"></i><b>3.8.1</b> Team 1</a></li>
+<li class="chapter" data-level="3.8.2" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#team-2"><i class="fa fa-check"></i><b>3.8.2</b> Team 2</a></li>
+<li class="chapter" data-level="3.8.3" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#team-3"><i class="fa fa-check"></i><b>3.8.3</b> Team 3</a></li>
+<li class="chapter" data-level="3.8.4" data-path="3-facilitator-checklists.html"><a href="3-facilitator-checklists.html#team-4"><i class="fa fa-check"></i><b>3.8.4</b> Team 4</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="4-mtl-red.html"><a href="4-mtl-red.html"><i class="fa fa-check"></i><b>4</b> <em>MTL</em> Red</a><ul>
+<li class="chapter" data-level="4.1" data-path="4-mtl-red.html"><a href="4-mtl-red.html#learner"><i class="fa fa-check"></i><b>4.1</b> Learner</a><ul>
+<li class="chapter" data-level="4.1.1" data-path="4-mtl-red.html"><a href="4-mtl-red.html#part-01-see-guide"><i class="fa fa-check"></i><b>4.1.1</b> Part 01 See Guide</a></li>
+<li class="chapter" data-level="4.1.2" data-path="4-mtl-red.html"><a href="4-mtl-red.html#part-02-see-guide"><i class="fa fa-check"></i><b>4.1.2</b> Part 02 See Guide</a></li>
+</ul></li>
+<li class="chapter" data-level="4.2" data-path="4-mtl-red.html"><a href="4-mtl-red.html#facilitator"><i class="fa fa-check"></i><b>4.2</b> Facilitator</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="4-mtl-red.html"><a href="4-mtl-red.html#part-01-say-guide"><i class="fa fa-check"></i><b>4.2.1</b> Part 01 Say Guide</a></li>
+<li class="chapter" data-level="4.2.2" data-path="4-mtl-red.html"><a href="4-mtl-red.html#part-02-say-guide"><i class="fa fa-check"></i><b>4.2.2</b> Part 02 Say Guide</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html"><i class="fa fa-check"></i><b>5</b> MTL Blue</a><ul>
+<li class="chapter" data-level="5.1" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#learner-1"><i class="fa fa-check"></i><b>5.1</b> Learner</a><ul>
+<li class="chapter" data-level="5.1.1" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-01-see-guide"><i class="fa fa-check"></i><b>5.1.1</b> Session 01 See Guide</a></li>
+<li class="chapter" data-level="5.1.2" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-02-see-guide"><i class="fa fa-check"></i><b>5.1.2</b> Session 02 See Guide</a></li>
+<li class="chapter" data-level="5.1.3" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-03-say-guide"><i class="fa fa-check"></i><b>5.1.3</b> Session 03 Say Guide</a></li>
+</ul></li>
+<li class="chapter" data-level="5.2" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#facilitator-1"><i class="fa fa-check"></i><b>5.2</b> Facilitator</a><ul>
+<li class="chapter" data-level="5.2.1" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-01-say-guide"><i class="fa fa-check"></i><b>5.2.1</b> Session 01 Say Guide</a></li>
+<li class="chapter" data-level="5.2.2" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-01-say-checklist"><i class="fa fa-check"></i><b>5.2.2</b> Session 01 Say Checklist</a></li>
+<li class="chapter" data-level="5.2.3" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-02-say-guide"><i class="fa fa-check"></i><b>5.2.3</b> Session 02 Say Guide</a></li>
+<li class="chapter" data-level="5.2.4" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-02-say-checklist"><i class="fa fa-check"></i><b>5.2.4</b> Session 02 Say Checklist</a></li>
+<li class="chapter" data-level="5.2.5" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-03-say-guide-1"><i class="fa fa-check"></i><b>5.2.5</b> Session 03 Say Guide</a></li>
+<li class="chapter" data-level="5.2.6" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-03-say-checklist"><i class="fa fa-check"></i><b>5.2.6</b> <span>Session 03 Say Checklist</span></a></li>
+<li class="chapter" data-level="5.2.7" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-04-say-guide"><i class="fa fa-check"></i><b>5.2.7</b> Session 04 Say Guide</a></li>
+<li class="chapter" data-level="5.2.8" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-04-say-checklist"><i class="fa fa-check"></i><b>5.2.8</b> Session 04 Say Checklist</a></li>
+<li class="chapter" data-level="5.2.9" data-path="5-mtl-blue.html"><a href="5-mtl-blue.html#session-05-say-guide"><i class="fa fa-check"></i><b>5.2.9</b> Session 05 Say Guide</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html"><i class="fa fa-check"></i><b>6</b> MTL Live Session 05</a><ul>
+<li class="chapter" data-level="6.1" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#today-were-modeling-to-learn-how-to-log-in-to-our-team-world."><i class="fa fa-check"></i><b>6.1</b> Today we’re modeling to learn how to log in to our team world.</a></li>
+<li class="chapter" data-level="6.2" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#done-and-do"><i class="fa fa-check"></i><b>6.2</b> Done and Do</a></li>
+<li class="chapter" data-level="6.3" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#learning-objectives"><i class="fa fa-check"></i><b>6.3</b> Learning Objectives</a></li>
+<li class="chapter" data-level="6.4" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#participatory-learning-from-simulation-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.4</b> Participatory Learning from Simulation <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#in-session-exercise-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5</b> In-session Exercise <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a><ul>
+<li class="chapter" data-level="6.5.1" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#in-session-3-we-used-our-team-data-ui-and-clicked-create-team-data-table-to-produce-our-team-data-for-simulation.-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5.1</b> 1. In session 3, we used our team data UI and clicked “Create Team Data Table” to produce our team data for simulation. <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5.2" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#lets-now-go-back-to-mtl.howdata-in-the-browser-window-to-check-the-name-of-our-team_data_table-file."><i class="fa fa-check"></i><b>6.5.2</b> 2. Let’s now go back to mtl.how/data in the browser window to check the name of our team_data_table file.</a></li>
+<li class="chapter" data-level="6.5.3" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#the-team-data-file-for-simulation-is-in-our-team-folder-in-the-team_data_table-folder.-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5.3</b> 3. The team data file for simulation is in our team folder, in the team_data_table folder. <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5.4" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#log-in-to-the-sim-ui.-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5.4</b> 4. Log in to the sim UI. <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5.5" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#orient-yourself-to-the-home-page-team-name-navigation-icons-player-name-welcome-text-sections-with-blue-headers.-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5.5</b> 5. Orient yourself to the home page (Team name, navigation icons, player name, welcome text, sections with blue headers). <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5.6" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#start-a-new-session.-img-src-httpsgithub.comlzimteampsdblobmasterresourcesiconstimestamp.png-height-15-width-15dontclick"><i class="fa fa-check"></i><b>6.5.6</b> 6. Start a New Session. <span class="math display">\[ [&lt;img src = &quot;https://github.com/lzim/teampsd/blob/master/resources/icons/timestamp.png&quot; height = &quot;15&quot; width = &quot;15&quot;&gt;](#DontClick) \]</span></a></li>
+<li class="chapter" data-level="6.5.7" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#orient-yourself-to-the-main-page-of-the-sim-ui-notice-the-same-information-and-buttons-at-top-4-sections-with-blue-header---one-showing-the-module-and-team-data-selected-in-its-header-the-others-headed-outputs-and-text-experiments-and-text."><i class="fa fa-check"></i><b>6.5.7</b> 7. Orient yourself to the Main Page of the Sim UI (Notice the same information and buttons at top; 4 sections with blue header - one showing the module and team data selected in its header; the others headed Outputs and Text, Experiments, and Text).</a></li>
+<li class="chapter" data-level="6.5.8" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#expand-the-experiments-section-and-read-the-i-information-for-the-team-data-table."><i class="fa fa-check"></i><b>6.5.8</b> 8. Expand the Experiments section and read the “i” information for the Team Data Table.</a></li>
+<li class="chapter" data-level="6.5.9" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#find-the-team-data-table-variables-in-the-system-diagram-at-the-left."><i class="fa fa-check"></i><b>6.5.9</b> 9. Find the Team Data Table variables in the system diagram at the left.</a></li>
+<li class="chapter" data-level="6.5.10" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#log-out-of-the-sim-ui."><i class="fa fa-check"></i><b>6.5.10</b> 10. Log out of the Sim UI.</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#done-and-do-15-minutes"><i class="fa fa-check"></i><b>6.6</b> Done and Do (15 minutes)</a></li>
+<li class="chapter" data-level="6.7" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#do-demo"><i class="fa fa-check"></i><b>6.7</b> DO demo</a><ul>
+<li class="chapter" data-level="6.7.1" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-05-say-checklist"><i class="fa fa-check"></i><b>6.7.1</b> Session 05 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.2" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-06-say-guide"><i class="fa fa-check"></i><b>6.7.2</b> Session 06 Say Guide</a></li>
+<li class="chapter" data-level="6.7.3" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-06-say-checklist"><i class="fa fa-check"></i><b>6.7.3</b> Session 06 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.4" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-07-say-guide"><i class="fa fa-check"></i><b>6.7.4</b> Session 07 Say Guide</a></li>
+<li class="chapter" data-level="6.7.5" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-07-say-checklist"><i class="fa fa-check"></i><b>6.7.5</b> Session 07 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.6" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-08-say-guide"><i class="fa fa-check"></i><b>6.7.6</b> Session 08 Say Guide</a></li>
+<li class="chapter" data-level="6.7.7" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-08-say-checklist"><i class="fa fa-check"></i><b>6.7.7</b> Session 08 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.8" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-09-say-guide"><i class="fa fa-check"></i><b>6.7.8</b> Session 09 Say Guide</a></li>
+<li class="chapter" data-level="6.7.9" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-09-say-checklist"><i class="fa fa-check"></i><b>6.7.9</b> Session 09 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.10" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-10-say-guide"><i class="fa fa-check"></i><b>6.7.10</b> Session 10 Say Guide</a></li>
+<li class="chapter" data-level="6.7.11" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-10-say-checklist"><i class="fa fa-check"></i><b>6.7.11</b> Session 10 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.12" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-11-say-guide"><i class="fa fa-check"></i><b>6.7.12</b> Session 11 Say Guide</a></li>
+<li class="chapter" data-level="6.7.13" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-11-say-checklist"><i class="fa fa-check"></i><b>6.7.13</b> Session 11 Say Checklist</a></li>
+<li class="chapter" data-level="6.7.14" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-12-say-guide"><i class="fa fa-check"></i><b>6.7.14</b> Session 12 Say Guide</a></li>
+<li class="chapter" data-level="6.7.15" data-path="6-mtl-live-session-05.html"><a href="6-mtl-live-session-05.html#session-12-say-checklist"><i class="fa fa-check"></i><b>6.7.15</b> Session 12 Say Checklist</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="7-modeling-to-learn---technical-manual.html"><a href="7-modeling-to-learn---technical-manual.html"><i class="fa fa-check"></i><b>7</b> <em>Modeling to Learn</em> - Technical Manual</a></li>
+<li class="chapter" data-level="8" data-path="8-facilitator-technical-manual.html"><a href="8-facilitator-technical-manual.html"><i class="fa fa-check"></i><b>8</b> Facilitator Technical Manual</a><ul>
+<li class="chapter" data-level="8.1" data-path="8-facilitator-technical-manual.html"><a href="8-facilitator-technical-manual.html#facilitator-cheatsheet"><i class="fa fa-check"></i><b>8.1</b> Facilitator Cheatsheet</a></li>
+<li class="chapter" data-level="8.2" data-path="8-facilitator-technical-manual.html"><a href="8-facilitator-technical-manual.html#facilitator-one-pager-mtl.howdata"><i class="fa fa-check"></i><b>8.2</b> Facilitator One Pager MTL.how/data</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html"><i class="fa fa-check"></i><b>9</b> Sim UI Facilitator Dashboard</a><ul>
+<li class="chapter" data-level="9.1" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#orientation-to-the-dashboard"><i class="fa fa-check"></i><b>9.1</b> Orientation to the Dashboard</a></li>
+<li class="chapter" data-level="9.2" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-a-team"><i class="fa fa-check"></i><b>9.2</b> Set Up a Team</a></li>
+<li class="chapter" data-level="9.3" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-a-facilitator-individual-team-_ind"><i class="fa fa-check"></i><b>9.3</b> Set up a Facilitator Individual Team (_ind)</a></li>
+<li class="chapter" data-level="9.4" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#manage-team-data"><i class="fa fa-check"></i><b>9.4</b> Manage Team Data</a></li>
+<li class="chapter" data-level="9.5" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#produce-team_time-report"><i class="fa fa-check"></i><b>9.5</b> Produce team_time report</a><ul>
+<li class="chapter" data-level="9.5.1" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-a-blue-tt-report"><i class="fa fa-check"></i><b>9.5.1</b> Set up a Blue TT Report</a></li>
+<li class="chapter" data-level="9.5.2" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-a-red-tt-report"><i class="fa fa-check"></i><b>9.5.2</b> Set up a Red TT Report</a></li>
+</ul></li>
+<li class="chapter" data-level="9.6" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#team"><i class="fa fa-check"></i><b>9.6</b> Team</a><ul>
+<li class="chapter" data-level="9.6.1" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-a-private-conversation"><i class="fa fa-check"></i><b>9.6.1</b> Set up a Private Conversation</a></li>
+<li class="chapter" data-level="9.6.2" data-path="9-sim-ui-facilitator-dashboard.html"><a href="9-sim-ui-facilitator-dashboard.html#set-up-an-open-team-discussion"><i class="fa fa-check"></i><b>9.6.2</b> Set up an Open Team Discussion</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="10-admin-technical-manual.html"><a href="10-admin-technical-manual.html"><i class="fa fa-check"></i><b>10</b> Admin Technical Manual</a></li>
+<li class="chapter" data-level="11" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html"><i class="fa fa-check"></i><b>11</b> Simulation User Interface (Sim UI) Administration</a><ul>
+<li class="chapter" data-level="11.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#modeling-to-learn-administrative-dashboard"><i class="fa fa-check"></i><b>11.1</b> Modeling To Learn Administrative Dashboard</a><ul>
+<li class="chapter" data-level="11.1.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#login-to-administrative-dashboards"><i class="fa fa-check"></i><b>11.1.1</b> Login to Administrative Dashboards</a></li>
+<li class="chapter" data-level="11.1.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#orient-to-the-dashboard"><i class="fa fa-check"></i><b>11.1.2</b> Orient to the Dashboard</a></li>
+</ul></li>
+<li class="chapter" data-level="11.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#community-function-administration---user-issue-list-management"><i class="fa fa-check"></i><b>11.2</b> Community Function Administration - User Issue List Management</a><ul>
+<li class="chapter" data-level="11.2.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#review-issue-information"><i class="fa fa-check"></i><b>11.2.1</b> Review Issue Information</a></li>
+<li class="chapter" data-level="11.2.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#manage-outgoing-messages"><i class="fa fa-check"></i><b>11.2.2</b> Manage Outgoing Messages</a></li>
+</ul></li>
+<li class="chapter" data-level="11.3" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#manage-mtl-demo-website"><i class="fa fa-check"></i><b>11.3</b> Manage <em>MTL</em> Demo Website</a><ul>
+<li class="chapter" data-level="11.3.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#mtl-demo-website"><i class="fa fa-check"></i><b>11.3.1</b> <em>MTL</em> Demo Website</a></li>
+<li class="chapter" data-level="11.3.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#orient-to-the-mtl-demo-admin-webpage"><i class="fa fa-check"></i><b>11.3.2</b> Orient to the <em>MTL</em> Demo Admin Webpage</a></li>
+<li class="chapter" data-level="11.3.3" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#update-course-code"><i class="fa fa-check"></i><b>11.3.3</b> Update Course Code</a></li>
+</ul></li>
+<li class="chapter" data-level="11.4" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#quick-tips"><i class="fa fa-check"></i><b>11.4</b> Quick Tips</a><ul>
+<li class="chapter" data-level="11.4.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#update-a-quick-tip"><i class="fa fa-check"></i><b>11.4.1</b> Update a Quick Tip</a></li>
+</ul></li>
+<li class="chapter" data-level="11.5" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#tutor-function"><i class="fa fa-check"></i><b>11.5</b> Tutor Function</a><ul>
+<li class="chapter" data-level="11.5.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#tutor-administrative-dashboard"><i class="fa fa-check"></i><b>11.5.1</b> Tutor Administrative Dashboard</a></li>
+</ul></li>
+<li class="chapter" data-level="11.6" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#more-information-page-administration"><i class="fa fa-check"></i><b>11.6</b> More Information Page Administration</a><ul>
+<li class="chapter" data-level="11.6.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#you-cannot-change-the-mtl-guides-or-navigation-page."><i class="fa fa-check"></i><b>11.6.1</b> You Cannot Change the <em>MTL</em> Guides or Navigation Page.</a></li>
+<li class="chapter" data-level="11.6.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#mtl-links-page"><i class="fa fa-check"></i><b>11.6.2</b> <em>MTL</em> Links Page</a></li>
+<li class="chapter" data-level="11.6.3" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#mtl-modules-page"><i class="fa fa-check"></i><b>11.6.3</b> <em>MTL</em> Modules Page</a></li>
+</ul></li>
+<li class="chapter" data-level="11.7" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#forio-epicenter"><i class="fa fa-check"></i><b>11.7</b> Forio Epicenter</a><ul>
+<li class="chapter" data-level="11.7.1" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#send-password-reset-to-end-user"><i class="fa fa-check"></i><b>11.7.1</b> Send Password Reset to End User</a></li>
+<li class="chapter" data-level="11.7.2" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#set-up-a-new-epicenter-end-user"><i class="fa fa-check"></i><b>11.7.2</b> Set up A New Epicenter End User</a></li>
+<li class="chapter" data-level="11.7.3" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#set-up-a-team-1"><i class="fa fa-check"></i><b>11.7.3</b> Set up a team</a></li>
+<li class="chapter" data-level="11.7.4" data-path="11-simulation-user-interface-sim-ui-administration.html"><a href="11-simulation-user-interface-sim-ui-administration.html#set-up-an-admin"><i class="fa fa-check"></i><b>11.7.4</b> Set up an Admin</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Modeling to Learn Manual</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="simulation-user-interface-sim-ui-administration" class="section level1">
+<h1><span class="header-section-number">Chapter 11</span> Simulation User Interface (Sim UI) Administration</h1>
+<div id="modeling-to-learn-administrative-dashboard" class="section level2">
+<h2><span class="header-section-number">11.1</span> Modeling To Learn Administrative Dashboard</h2>
+<p>The <em>MTL</em> Administrative Dashboard provides customizable information and messaging capabilities for webpages in the Sim UI.</p>
+<div id="login-to-administrative-dashboards" class="section level3">
+<h3><span class="header-section-number">11.1.1</span> Login to Administrative Dashboards</h3>
+<p>Select the administrator login world.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/admin_login.png" alt="" />
+<p class="caption">administrator login graphic</p>
+</div>
+</div>
+<div id="orient-to-the-dashboard" class="section level3">
+<h3><span class="header-section-number">11.1.2</span> Orient to the Dashboard</h3>
+<ol style="list-style-type: decimal">
+<li><p><strong>Community Function Administration:</strong> View lists of issues reported by users from the Report Bug and Community Button, and issue outgoing email messages and targeted ANDON Alerts.</p></li>
+<li><p><strong>More Information Page Adminstration:</strong> Manage images and reference links in the Information Page. Add and edit Module Section information.</p></li>
+<li><p><strong>Tutor Administrative Dashboard:</strong> Manage text descriptions, video and web links for tutor prompts for each module.</p></li>
+<li><p><strong><em>MTL</em> Quick Tip Loading Screen Administration:</strong> Add icons and descriptive text for tips that appear when <em>MTL</em> screen are loading.</p></li>
+<li><p><strong><em>MTL</em> Demo Webpage Administration:</strong> Manage the <em>MTL</em> Demo website, such as adding course codes, managing Demo user lists, and managing page content such video and reference links, text descriptions and others.</p></li>
+<li><p><strong>TeamPSD Webpage Administration:</strong> Manage the TeamPSD website, like adding a new team member, or changing page content.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/orient_admin_dash.png" alt="" />
+<p class="caption">orient to the dashboard graphic</p>
+</div></li>
+</ol>
+</div>
+</div>
+<div id="community-function-administration---user-issue-list-management" class="section level2">
+<h2><span class="header-section-number">11.2</span> Community Function Administration - User Issue List Management</h2>
+<ol style="list-style-type: decimal">
+<li><p>Name of user submitting the issue.</p></li>
+<li><p>Email of user submitting the issue.</p></li>
+<li><p>GitHub issue number assigned by GitHub API.</p></li>
+<li><p>Description of the issue.</p></li>
+<li><p>Click the “Export” button to download an spreadsheet file of the list.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/issue_list_management.png" alt="" />
+<p class="caption">community function administration - user issue list management graphic</p>
+</div></li>
+</ol>
+<div id="review-issue-information" class="section level3">
+<h3><span class="header-section-number">11.2.1</span> Review Issue Information</h3>
+<p>The listing only contains a text description of the issue. Sometimes users submit files or screenshots. To view these details:</p>
+<ol style="list-style-type: decimal">
+<li><p>Click the checkbox next to the issue.</p></li>
+<li><p>Click “See Issue” button.</p></li>
+<li><p>Review information in the pop up.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/review_issue.png" alt="" />
+<p class="caption">review issue information graphic</p>
+</div></li>
+</ol>
+</div>
+<div id="manage-outgoing-messages" class="section level3">
+<h3><span class="header-section-number">11.2.2</span> Manage Outgoing Messages</h3>
+<p>The Sim UI sends out email and other messages to mass-communicate important information. There are 5 types of messages.</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>I have an idea:</strong> This is an outgoing email that informs the user that we have received their idea.</p></li>
+<li><p><strong>I like something:</strong> This is an outgoing email that informs the user that we have received and appreciate their message.</p></li>
+<li><p><strong>Report Bug:</strong> This is an outgoing email that informs the user that we have received their bug report and will act on it. It also returns an issue number for their reference.</p></li>
+<li><p><strong>News:</strong> Every user has a News button on their Home webpage. When clicked, it will display news items on their webpage that were set up with this function.</p></li>
+<li><p><strong>Alert:</strong> Also known as an ANDON alert, this is an outgoing message that displays on the Home webpage when the user logs in. It can target facilitators only, users only or both. ANDONS are normally reserved for problems where the user should stop using the Sim UI until the issue is resolved.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/manage_out_msg.png" alt="" />
+<p class="caption">manage outgoing messages</p>
+</div></li>
+</ol>
+<div id="target-andon-alert-users" class="section level4">
+<h4><span class="header-section-number">11.2.2.1</span> Target ANDON Alert Users</h4>
+<p>As explained in 5. above, you can target specific users with an ANDON Alert. When “Alert” is selected from the Message dropdown, an additional “Show Message to Whom” will appear. Select the target audience and click “Add Message.”</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/andon_alert.png" alt="" />
+<p class="caption">target andon alert users graphic</p>
+</div>
+</div>
+</div>
+</div>
+<div id="manage-mtl-demo-website" class="section level2">
+<h2><span class="header-section-number">11.3</span> Manage <em>MTL</em> Demo Website</h2>
+<p>The <em>MTL</em> Demo website provides interested users access to a demonstration simulation. The webpage also offers information about the research project, associated training and video materials and highlights partners that had a hand in its development. The admin website enables the admin to adjust webpage content and demo users.</p>
+<div id="mtl-demo-website" class="section level3">
+<h3><span class="header-section-number">11.3.1</span> <em>MTL</em> Demo Website</h3>
+<p>Navigate to <a href="https://forio.com/app/va/va-psd-demo/mtl_demo.html"><em>MTL</em> Demo</a> to view example below. To modify this webpage, click on the <em>MTL</em> Demo icon in your Facilitator Dashboard.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_demo_website.png" alt="" />
+<p class="caption">mtl demo website graphic</p>
+</div>
+</div>
+<div id="orient-to-the-mtl-demo-admin-webpage" class="section level3">
+<h3><span class="header-section-number">11.3.2</span> Orient to the <em>MTL</em> Demo Admin Webpage</h3>
+<ol style="list-style-type: decimal">
+<li><p>Export User Data section lists users that have registered for access to the <em>MTL</em> Demo simulation. It lists their names and contact information. The typical registration is for 14 days. However, with a Course Code, the length of the registration can be longer. A user’s access time can be improved, but <strong>it must be done before the original date expires.</strong></p></li>
+<li><p>Resource Management section manages the information contained on the <em>MTL</em> website. The sections supported are Run, Videos, Slides, Papers and Funding.</p></li>
+<li><p>MTL Demo - Slider section is where the GIF slider files are uploaded.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_demo_orient.png" alt="" />
+<p class="caption">orient to mtl demo admin webpage graphic</p>
+</div></li>
+</ol>
+</div>
+<div id="update-course-code" class="section level3">
+<h3><span class="header-section-number">11.3.3</span> Update Course Code</h3>
+<p>Sometimes we present <em>Modeling to Learn</em> in seminars and other academic gatherings. To enable participants to experience <em>MTL</em>, we provide a course code that enables users to access the platform longer than the standard 14 days.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code1.png" alt="" />
+<p class="caption">update course code graphic overview graphic</p>
+</div>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_demo_course_code2.png" alt="" />
+<p class="caption">update course code detail graphic</p>
+</div>
+</div>
+</div>
+<div id="quick-tips" class="section level2">
+<h2><span class="header-section-number">11.4</span> Quick Tips</h2>
+<p>When a screen loads in the Sim UI, a blank gray screen in presented. We use this opportunity to offer suggestions or “Tips” to explain functions in the Sim UI. We have an admin webpage to create new Tips. Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen (see example below). A repository of quick tips graphics is available in <a href="https://raw.githubusercontent.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files">GitHub lzim/mtl</a>.</p>
+<p><strong>Please note that <em>MTL</em> Demo has its own tips management admin page.</strong>
+<strong>To access, you must first navigate to the <em>MTL</em> Demo admin page, THEN click the “Tips” icon. You can verify you are on the right page, because the URL will say “va-psd-sim/qtipadmin.html” if you are in PROD Tips and “va-psd-demo/qtipadmin.html” if you are in the DEMO Tips.</strong></p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_screen.png" alt="" />
+<p class="caption">quick tip screen example graphic</p>
+</div>
+<div id="update-a-quick-tip" class="section level3">
+<h3><span class="header-section-number">11.4.1</span> Update a Quick Tip</h3>
+<ol style="list-style-type: decimal">
+<li><p>From the Administrator Dashboard, click on the “Tips” icon. The <em>MTL</em> Quick Tip Loading Screen Administration page will open.</p></li>
+<li><p>Click the “Add Tip” button. The page will scroll to the bottom of the list and present a new row to input information.</p></li>
+<li><p>Click on the “upload” icon. An upload file pop up will appear. Navigate to your file and click “Save.” The filename should appear immediately to the left of the upload icon and a thumbnail should appear to the right.</p></li>
+<li><p>Click on the “Empty” icon. A text field will present. Type in the description and click save. You are finished!</p></li>
+<li><p>Be sure to upload the .svg graphic you used to the <a href="https://github.com/lzim/mtl/tree/feature-gh-pages_sim_ui_admin/images/quick_tips_files">GitHub repository</a>.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_tips_quick_tip_update.png" alt="" />
+<p class="caption">quick tip update graphic</p>
+</div></li>
+</ol>
+</div>
+</div>
+<div id="tutor-function" class="section level2">
+<h2><span class="header-section-number">11.5</span> Tutor Function</h2>
+<p>The Tutor is a function in the Sim UI that explains functions on the webpage to the user. Each section on the Home, CC, MM, PSY, AGG, and SP pages have a Tutor icon.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_tutor_desc.png" alt="" />
+<p class="caption">tutor function graphic</p>
+</div>
+<div id="tutor-administrative-dashboard" class="section level3">
+<h3><span class="header-section-number">11.5.1</span> Tutor Administrative Dashboard</h3>
+<p>The Admin Dashboard enables you to adjust descriptive text and links associated with each Tutor call out box. <strong>However, the user cannot add or remove Tutor call outs.</strong> These have to be put in using computer code. See below for a description of these features.</p>
+<ol style="list-style-type: decimal">
+<li><p>Each page in the Sim UI has Tutor call outs. This points to the call outs on the Home Page. Below are Tutor call out listings for CC, MM, PSY, AGG and SP modules.</p></li>
+<li><p>This is a unique row that enables you to adjust the description below Tutor Administrative Dashboard title. Otherwise, it is the description of the Tutor call out.</p></li>
+<li><p>This is the section on the webpage where the Tutor call outs apply.</p></li>
+<li><p>This is the function the Tutor is describing.</p></li>
+<li><p>This text will show up in the Tutor call out box. To edit, simply click on the text. Don’t forget to save your changes!</p></li>
+<li><p>When the user clicks the video button on this Tutor call out box, the computer will navigate the user to this video. To edit, simply click on the link. Don’t forget to save your changes!</p></li>
+<li><p>When the user clicks the link button on this Tutor call out box, the computer will navigate the user to this url. To edit, simply click on the link. Don’t forget to save your changes!</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_tutor_admin_page.png" alt="" />
+<p class="caption">tutor administrative dashboard graphic</p>
+</div></li>
+</ol>
+</div>
+</div>
+<div id="more-information-page-administration" class="section level2">
+<h2><span class="header-section-number">11.6</span> More Information Page Administration</h2>
+<p>When the user clicks the More Info icon in the their header bar, they navigate to a page that contains information about the Sim UI. There are multiple sections, <em>MTL</em> Guides, <em>MTL</em> Links, <em>MTL</em> Navigation, <em>MTL</em> Modules, <em>MTL</em> Sections and <em>MTL</em> References. While the sections are permanent, you can change elements inside the sections using the Administration page.</p>
+<div id="you-cannot-change-the-mtl-guides-or-navigation-page." class="section level3">
+<h3><span class="header-section-number">11.6.1</span> You Cannot Change the <em>MTL</em> Guides or Navigation Page.</h3>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfor_guides.png" alt="" />
+<p class="caption">you cannot change mtl guides or navigation page graphic</p>
+</div>
+</div>
+<div id="mtl-links-page" class="section level3">
+<h3><span class="header-section-number">11.6.2</span> <em>MTL</em> Links Page</h3>
+<p>Below is the <em>MTL</em> Links page.</p>
+<ol style="list-style-type: decimal">
+<li><p>When the user clicks on this graphic, they navigate to the mtl.how website.</p></li>
+<li><p>This is the text instruction.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links1.png" alt="" />
+<p class="caption">mtl links page graphic</p>
+</div></li>
+</ol>
+<div id="update-links" class="section level4">
+<h4><span class="header-section-number">11.6.2.1</span> Update Links</h4>
+<p>Below is the links and references section maintenance section of the page. You can add sections to the the Links page or References page.</p>
+<ol style="list-style-type: decimal">
+<li><p>This is the title bar.</p></li>
+<li><p>This is the sequence that the link will appear on the page. These can be modified by changing the number. <strong>Note: All numbers will need to be updated to reflect the new sequence.</strong></p></li>
+<li><p>This is the filename of the graphic file.</p></li>
+<li><p>Upload the graphic file here. Please use a .png format graphic. A thumbnail will show when it is uploaded.</p></li>
+<li><p>The explanatory text for the graphic is shown here.</p></li>
+<li><p>Slightly offscreen is where the url for the graphic goes.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links2.png" alt="" />
+<p class="caption">update links graphic</p>
+</div></li>
+</ol>
+</div>
+<div id="update-references" class="section level4">
+<h4><span class="header-section-number">11.6.2.2</span> Update References</h4>
+<p>The References section contains a bibliography that supports the research being conducted by <em>MTL</em>. Below is a description.</p>
+<ol style="list-style-type: decimal">
+<li><p>This is the explanatory text for the bibliography entry. Note that it has several characteristics. You can boldface or italicize using markdown language.</p></li>
+<li><p>The text can have hyperlinks embedded using the ##Link1## code. The number immediately after “Link” indicates the position of the title of the hyperlink from the list.</p></li>
+<li><p>The hyperlink title then calls the url listed in order in this column slightly offscreen.</p></li>
+<li><p>Each entry can have up to 6 hyperlinks. To add a hyperlink, click on the “Empty” and a dialogue box will appear. Don’t forget to save!</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links4.png" alt="" />
+<p class="caption">update references graphic</p>
+</div></li>
+</ol>
+</div>
+<div id="add-a-references-or-links-row" class="section level4">
+<h4><span class="header-section-number">11.6.2.3</span> Add a References or Links Row</h4>
+<p>To add a row to the Links section, click the dropdown and select “Links.”</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_links3.png" alt="" />
+<p class="caption">add a references or links row graphic</p>
+</div>
+</div>
+</div>
+<div id="mtl-modules-page" class="section level3">
+<h3><span class="header-section-number">11.6.3</span> <em>MTL</em> Modules Page</h3>
+<p>The illustration below shows a table with a listing of the modules offered in <em>MTL</em>. In case we add more modules, it is possible to expand this list.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_modules.png" alt="" />
+<p class="caption">mtl modules page graphic</p>
+</div>
+<div id="update-or-add-module-information" class="section level4">
+<h4><span class="header-section-number">11.6.3.1</span> Update or Add Module Information</h4>
+<ol style="list-style-type: decimal">
+<li><p>Click this button to add a section. It will appear as the last row on the list.</p></li>
+<li><p>This is the sequence that the link will appear on the page. These can be modified by changing the number. <strong>Note: All numbers will need to be updated to reflect the new sequence.</strong></p></li>
+<li><p>This is the name of the Module which appears as a title over the descriptive text in the next column.</p></li>
+<li><p>This is descriptive text. Click to modify. Use markdown to emphasize boldface, italics and add bullets.</p></li>
+<li><p>These describe the layers or complexity reveals in the module. Click to modify. Use markdown to emphasize boldface, italics and add bullets.</p></li>
+<li><p>These are the experimental controls available in the module. Click to modify. Use markdown to emphasize boldface, italics and add bullets.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/mtl_moreinfo_module1.png" alt="" />
+<p class="caption">update or add module information graphic</p>
+</div></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="forio-epicenter" class="section level2">
+<h2><span class="header-section-number">11.7</span> Forio Epicenter</h2>
+<p>Forio Epicenter is an enterprise platform that hosts our Sim UI and runs the simulations for end-users. While the Sim UI can manage most administrator-user needs within the web interface, sometimes it is necessary to go directly into Epicenter to, for example, set up a new end-user in Epicenter. Click <a href="https://forio.com/epicenter/sign-in">Epicenter</a> to go to the login.</p>
+<div id="send-password-reset-to-end-user" class="section level3">
+<h3><span class="header-section-number">11.7.1</span> Send Password Reset to End User</h3>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/navigate_to_vet_affairs_project.png" alt="" />
+<p class="caption">navigate to veterans affairs project graphic</p>
+</div>
+<div id="select-end-user-from-menu" class="section level4">
+<h4><span class="header-section-number">11.7.1.1</span> Select End User from Menu</h4>
+<p>You can search for the user by using the search bar.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/select_end_user.png" alt="" />
+<p class="caption">select end user graphic</p>
+</div>
+</div>
+<div id="click-on-the-password-reset" class="section level4">
+<h4><span class="header-section-number">11.7.1.2</span> Click on the Password Reset</h4>
+<p>You can also change the password directly for the user by selecting the “Change Password” from the dropdown.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/click_password_link.png" alt="" />
+<p class="caption">click send password reset graphic</p>
+</div>
+</div>
+</div>
+<div id="set-up-a-new-epicenter-end-user" class="section level3">
+<h3><span class="header-section-number">11.7.2</span> Set up A New Epicenter End User</h3>
+<div id="navigate-to-a-project" class="section level4">
+<h4><span class="header-section-number">11.7.2.1</span> Navigate to A Project</h4>
+<p>Note that you would navigate to various projects to set up end users in different instances of the Sim UI. For example, you would navigate to VA Sim UI-TEST-Slow to set an end-user up in the TEST environment.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/select_prod_project.png" alt="" />
+<p class="caption">navigate to veteran affairs project graphic</p>
+</div>
+</div>
+<div id="navigate-to-group-page" class="section level4">
+<h4><span class="header-section-number">11.7.2.2</span> Navigate to Group Page</h4>
+<p>In the Epicenter hierarchy, “groups” are the highest entity. Underneath groups are worlds. In TeamPSD, we refer to groups as “teams.” Typically, we auto-setup a _team group and a _ind group to manage team assignments and individual worlds.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/click_groups.png" alt="" />
+<p class="caption">navigate to group page graphic</p>
+</div>
+</div>
+<div id="select-desired-group" class="section level4">
+<h4><span class="header-section-number">11.7.2.3</span> Select Desired Group</h4>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/select_desired_group.png" alt="" />
+<p class="caption">select your desired group graphic</p>
+</div>
+</div>
+<div id="click-add-end-user-button" class="section level4">
+<h4><span class="header-section-number">11.7.2.4</span> Click Add End User Button</h4>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/add_end_users.png" alt="" />
+<p class="caption">click add end user button graphic</p>
+</div>
+</div>
+<div id="add-user-email-to-field-and-click-addinvite-user-button" class="section level4">
+<h4><span class="header-section-number">11.7.2.5</span> Add User Email to Field and Click “Add/invite User” Button</h4>
+<p>We usually put the user’s VA email address in this field. However, it does not have to be an email unless you are sending a notice via email to the user. Sometimes users just need an alias besides their email address.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/add_invite_user.png" alt="" />
+<p class="caption">navigate to veteran affairs project graphic</p>
+</div>
+</div>
+</div>
+<div id="set-up-a-team-1" class="section level3">
+<h3><span class="header-section-number">11.7.3</span> Set up a team</h3>
+<p>We don’t set up teams directly in Epicenter anymore, because there are multiple dependencies in the Sim UI that would be bypassed. See chapter on <a href="https://raw.githubusercontent.com/lzim/mtl/edit/feature-gh-pages_sim_ui_admin/faciltator_dashboard.md">Facilitator Dashboard</a>.</p>
+</div>
+<div id="set-up-an-admin" class="section level3">
+<h3><span class="header-section-number">11.7.4</span> Set up an Admin</h3>
+<p>To set up an Admin, the end-user id must be assigned to the administrator_login group on the groups page.</p>
+<div class="figure">
+<img src="https://raw.githubusercontent.com/lzim/mtl/feature-gh-pages_sim_ui_admin/images/admin_end_user.png" alt="" />
+<p class="caption">administrator login group graphic</p>
+</div>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="10-admin-technical-manual.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="assets/gitbook-2.6.7/js/app.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="assets/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="assets/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": true,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/lzim/mtl/edit/gh-pages/sim_ui_admin.md",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["MTL_Bookdown.epub", "MTL_Bookdown.docx"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+},
+"toolbar": {
+"position": "static"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
