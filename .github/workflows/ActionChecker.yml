@@ -5,13 +5,13 @@ name: ActionChecker
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: #[ master ]
+ # push:
+  #  branches: #[ master ]
       - "[Ff]eature-*" 
-    paths:
+   # paths:
     - '**.md'
-  pull_request:
-    branches: [ QA ]
+  #pull_request:
+   # branches: [ QA ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
