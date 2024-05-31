@@ -8,8 +8,44 @@ site: bookdown::bookdown_site
 description: This is the MTL one stop shop.
 ---
 
-# [*Modeling to Learn*](https://mtl.how/manual) Manual
+# _Why_ use _Modeling to Learn_
 
-Welcome to the *Modeling to Learn* manual for learners, facilitators, and administrators.
+## How might Modeling to Learn help?
 
-This manual includes links to all guides, cheatsheets, and resources, needed to walk through *Modeling to Learn Blue* and *Red*.
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_01_how_might_mtl_help.png" width="350">
+
+## How can a Modeling to Learn consult help?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_04_how_can_a_mtl_consult_help.png" width="350">
+
+## What gets in the way of meeting patients' needs?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_02_what_gets_in_the_way.png" width="350">
+
+## If we keep making the same care decisions, will things get better or worse?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_21_if_we_keep_making_the_same_care.png" width="350">
+
+## Why is Modeling to Learn useful when we have critical staffing and hiring needs?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_05_why_is_mtl_useful.png" width="350">
+
+## Why is the MTL Red Data User Interface useful?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_13_why_is_the_mtl_red_data_ui_useful.png" width="350">
+
+## Why is the MTL Blue Simulation User Interface useful?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_15_why_is_mtl_blue_simulation_ui_useful.png" width="350">
+
+## Why is applied systems thinking more likely to help us avoid costly mistakes?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_16_why_is_applied_systems_thinking_more.png" width="350">
+
+## Why is Modeling to Learn able to provide new insights?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_17_why_is_mtl_able_to_provide_new_insights.png" width="350">
+
+## Why does Modeling to Learn emphasize flows through care over time?
+
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_18_why_does_mtl_emphasize_flows_through_care.png" width="350">
