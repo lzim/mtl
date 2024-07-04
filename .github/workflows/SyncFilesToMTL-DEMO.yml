@@ -10,7 +10,7 @@ env:
   user_name: 'tejaspesquare'
   user_email: 'tejas.p@esquare-software.com'
   commit_message: 'Updated from jamesmrollins/MTL-DEMO'
-  API_TOKEN_GITHUB: ''
+  API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
   
 jobs:
   check_and_move:
