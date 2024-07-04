@@ -24,7 +24,9 @@ jobs:
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       
     - name: Branch name         
-      run: echo "${{steps.extract_branch.outputs.branch}}"
+      run: 
+        echo "${{steps.extract_branch.outputs.branch}}"
+        echo "${{env.user_name}}"
 
     - name: Push file 1
       uses: dmnemec/copy_file_to_another_repo_action@main
