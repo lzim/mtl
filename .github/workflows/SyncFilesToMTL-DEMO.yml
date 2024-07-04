@@ -7,8 +7,8 @@ on:
 env:
   destination_repo: 'jamesmrollins/MTL-DEMO'
   destination_folder: 'static'
-  user_name: 'hirenp-waferwire'
-  user_email: 'hirenp@waferwire.com'  
+  user_name: 'tejaspesquare'
+  user_email: 'tejas.p@esquare-software.com'  
   API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
   
 jobs:
@@ -24,10 +24,8 @@ jobs:
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       
     - name: Branch name         
-      run: 
-        echo "${{steps.extract_branch.outputs.branch}}"
-        echo "${{env.user_name}}"
-
+      run: echo "${{ secrets.API_TOKEN_GITHUB }}"
+        
     - name: Push file 1
       uses: dmnemec/copy_file_to_another_repo_action@main
       env:
