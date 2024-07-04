@@ -7,9 +7,8 @@ on:
 env:
   destination_repo: 'jamesmrollins/MTL-DEMO'
   destination_folder: 'static'
-  user_name: 'tejaspesquare'
-  user_email: 'tejas.p@esquare-software.com'
-  commit_message: 'Updated from jamesmrollins/MTL-DEMO'
+  user_name: 'hirenp-waferwire'
+  user_email: 'hirenp@waferwire.com'  
   API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
   
 jobs:
@@ -38,4 +37,4 @@ jobs:
         destination_folder: ${{env.destination_folder}}
         user_name: ${{env.user_name}}
         user_email: ${{env.user_email}}
-        commit_message: ${{env.commit_message}}    
+        commit_message: 'agg_i_v15_2022_11_01-A file is Uploaded by ${{ github.event.repository.name }}'  
