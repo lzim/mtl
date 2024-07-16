@@ -10,7 +10,7 @@ env:
   user_name: 'jamesmrollins'
   user_email: 'jrollins@praxisanalytix.com'
   commit_message: 'Updated from jamesmrollins/MTL-DEMO'
-  API_TOKEN_GITHUB: ''
+  API_TOKEN_GITHUB: ' '
   
 jobs:
   check_and_move:
