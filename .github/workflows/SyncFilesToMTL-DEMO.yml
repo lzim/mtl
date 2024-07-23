@@ -1,0 +1,41 @@
+name: Files move to MTL-DEMO
+
+on: 
+  push:
+    branches: [Dev, Test, Main]
+
+env:
+  destination_repo: 'jamesmrollins/MTL-DEMO'
+  destination_folder: 'static'
+  user_name: 'jamesmrollins'
+  user_email: 'jrollins@praxisanalytix.com'
+  commit_message: 'Updated from jamesmrollins/MTL-DEMO'
+  API_TOKEN_GITHUB: ' '
+  
+jobs:
+  check_and_move:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    
+    - name: Extract branch name              
+      id: extract_branch
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      
+    - name: Branch name         
+      run: echo "${{steps.extract_branch.outputs.branch}}"
+
+    - name: Push file 1
+      uses: dmnemec/copy_file_to_another_repo_action@main
+      env:
+        API_TOKEN_GITHUB: ${{secrets.API_TOKEN_GITHUB}}
+      with:
+        source_file: '/blue/mtl3.0_models/agg_i_v15_2022_11_01-A.html'
+        destination_repo: ${{env.destination_repo}}
+        destination_branch: ${{steps.extract_branch.outputs.branch}}
+        destination_folder: ${{env.destination_folder}}
+        user_name: ${{env.user_name}}
+        user_email: ${{env.user_email}}
+        commit_message: ${{env.commit_message}}
