@@ -32,7 +32,7 @@ jobs:
       env:
         API_TOKEN_GITHUB: ${{secrets.API_TOKEN_GITHUB}}
       with:
-        source_file: '/blue/mtl3.0_models/agg_i_v15_2022_11_01-A.html'
+        source_file: '/blue/mtl3.0_models/agg_i_v15_2024_7_23-A.html'
         destination_repo: ${{env.destination_repo}}
         destination_branch: ${{steps.extract_branch.outputs.branch}}
         destination_folder: ${{env.destination_folder}}
