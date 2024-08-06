@@ -302,14 +302,6 @@
 	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Starters_Who_Return_Low_RVI, 1)
 					</eqn>
 			</stock>
-			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-MidD">
-				<units>Dmnl</units>
-				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
-					<eqn>
-					"RVI_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
-	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_Medium_RVI, 1)
-					</eqn>
-			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_1-MidD">
 				<units>Dmnl</units>
 				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
@@ -332,6 +324,14 @@
 					<eqn>
 					"RVI_Change_Delayed_by_RVI_-_2-7-LowD"= DELAY_FIXED (
 	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_Low_RVI, 1)
+					</eqn>
+			</stock>
+			<stock name="RVI_Change_Delayed_by_RVI_-_2-7-MidD">
+				<units>Dmnl</units>
+				<doc>Relative change in the median RVI of all patients still in care after their first 3 months delayed by the RVI, as appointments are completed based on the RVI in use at the time they were booked.  Any change in the RVI does not affect appointments already booked, only appointments being booked (i.e., appointments are not cancelled and rescheduled when RVI changes).</doc>
+					<eqn>
+					"RVI_Change_Delayed_by_RVI_-_2-7-MidD"= DELAY_FIXED (
+	(1+STEP(User_Change_in_RVI_after_3_Months,Experiment_wk)) , Data_Initiators_Who_Return_Medium_RVI, 1)
 					</eqn>
 			</stock>
 			<stock name="RVI_Change_Delayed_by_RVI_-_8-12-HighD">
@@ -365,7 +365,7 @@
 					0
 					</eqn>
 					<inflow>
-					Starting Rate
+					Start Rate
 					</inflow>
 					<outflow>
 					Ending First Visit
@@ -434,7 +434,7 @@
 			<aux name="Actual_Initiators_who_Complete__including_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_pϒͷ")					</eqn>
+					<eqn>"Actual_Initiators_Who_Complete_"+((1-"Actual_Initiators_Who_Complete_")*"Effect_of_Implement_IOP_on_Initiator_п#")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Complete_">
 				<units>Dmnl</units>
@@ -448,7 +448,7 @@
 			<aux name="Actual_Initiators_Who_Quit_Early__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_pϒͷ")					</eqn>
+					<eqn>"Actual_Initiators_Who_Quit_Early_"+((0-"Actual_Initiators_Who_Quit_Early_")*"Effect_of_Implement_IOP_on_Initiator_п#")					</eqn>
 			</aux>
 			<aux name="Actual_Initiators_Who_Quit_Early_">
 				<units>Dmnl</units>
@@ -462,7 +462,7 @@
 			<aux name="Actual_Starters_who_Initiate__including_any_IOP_Effect">
 				<units>Dmnl</units>
 				<doc>Implementing an IOP impacts the size of the gap between the desired and the actual </doc>
-					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_pϒͷ")					</eqn>
+					<eqn>"Actual_Starters_Who_Initiate_"+((1-"Actual_Starters_Who_Initiate_")*"Effect_of_Implement_IOP_on_Initiator_п#")					</eqn>
 			</aux>
 			<aux name="Actual_Starters_Who_Initiate_">
 				<units>Dmnl</units>
@@ -656,6 +656,16 @@
 				<doc>The booking rate combines demand from both existing patients (based on appointments on the calendar and the scheduled RVI) and new patients' first appointments. (appt/wk)</doc>
 					<eqn>Appointments_Available_for_New_Patients+Appointments_for_Existing_Patients					</eqn>
 			</aux>
+			<aux name="C">
+				<units>pts</units>
+				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>("Data_Starters_Who_Return_Later_")* Data_Sankey_Scalar					</eqn>
+			</aux>
+			<aux name="C-Bars">
+				<units>appt/pts</units>
+				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>"Bars_E4-Initial"+Bars_E3					</eqn>
+			</aux>
 			<aux name="Completers_Continuing_Treatment_Rate_after_3_Months">
 				<units>pts/wk</units>
 				<doc>The number of patients who continue treatment after completing eight or more psythotherapy visit within their first three months.  (pts/wk)</doc>
@@ -768,7 +778,7 @@
 			<aux name="Effect_of_Implement_IOP_on_Completer_">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero, delayed by the average time it takes to get to completion (now, with IOP is 6 weeks, instead of the usual 12 weeks).</doc>
-					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_pϒͷ"),0),Time_for_IOP_to_affect_Duration)					</eqn>
+					<eqn>SMOOTH3(IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_п#"),0),Time_for_IOP_to_affect_Duration)					</eqn>
 			</aux>
 			<aux name="Effect_of_Implement_IOP_on_Durations">
 				<units>Dmnl</units>
@@ -784,10 +794,10 @@
 	SMOOTH3(IF_THEN_ELSE (Time>0:AND:User_Implement_Intensive_Outpatient_Program>0,User_Implement_Intensive_Outpatient_Program*Max_Effect_of_IOP_on_Frequency,0),Time_for_IOP_to_affect_Frequency)
 	)					</eqn>
 			</aux>
-			<aux name="Effect_of_Implement_IOP_on_Initiator_�oͷ">
+			<aux name="Effect_of_Implement_IOP_on_Initiator_��"">
 				<units>Dmnl</units>
 				<doc>The relative change for new patients following care pathways after initiating an Intensive Outpatient Program, starting in Week zero.</doc>
-					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_pϒͷ"),0)					</eqn>
+					<eqn>IF_THEN_ELSE (Time > 0,(User_Implement_Intensive_Outpatient_Program*"Max_Effect_of_IOP_on_п#"),0)					</eqn>
 			</aux>
 			<aux name="EightPlusAfter">
 				<units>pts</units>
@@ -886,16 +896,6 @@
 				<doc>Engagement time for patients who complete 8 or more visits in their first three months, based on the median time it takes these patients to complete their first 7 visits. Constrained from going below 1 wk.</doc>
 					<eqn>MAX(12-Median_Time_in_Visit_1-Data_Initiators_Who_Graduate_Duration,1)					</eqn>
 			</aux>
-			<aux name="C">
-				<units>pts</units>
-				<doc>For the Sankey - reporting out the base case value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>("Data_Starters_Who_Return_Later_")* Data_Sankey_Scalar					</eqn>
-			</aux>
-			<aux name="C-Bars">
-				<units>appt/pts</units>
-				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>"Bars_E4-Initial"+Bars_E3					</eqn>
-			</aux>
 			<aux name="Exp-A">
 				<units>pts</units>
 				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
@@ -938,6 +938,11 @@
 				<doc>For calculating "Sankey bar heights" - The total number of visits for the average time in treatment for patients in the cohort who meet the criteria defining this state.</doc>
 					<eqn>SAMPLE IF TRUE(
 	Time=FINAL_TIME, Bars_E3+Bars_E6+"Bars_E6_>3mo-Final", :NA:)					</eqn>
+			</aux>
+			<aux name="Exp-F">
+				<units>pts</units>
+				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Sankey_E7 * "Exp-SankeyScalar" * Sankey_E2,:NA:)					</eqn>
 			</aux>
 			<aux name="Exp-G">
 				<units>pts</units>
@@ -998,6 +1003,21 @@
 	
 	,0)					</eqn>
 			</aux>
+			<aux name="From_Completers_into_High_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_HighD_"					</eqn>
+			</aux>
+			<aux name="From_Completers_into_Low_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_LowD_"					</eqn>
+			</aux>
+			<aux name="From_Completers_into_Mid_D">
+				<units>pts/wk</units>
+				<doc>The starting rate of two quarters of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
+					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
+			</aux>
 			<aux name="From_Initiators_Ending_High_D">
 				<units>pts/wk</units>
 				<doc>The ending rate of one quarter of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months, based on the number of patient in treatment and the median engagement time specific to this quartile.  It is prevented from going below zero.</doc>
@@ -1039,26 +1059,6 @@
 				<units>pts/wk</units>
 				<doc>The starting rate of two quarters of patients who (after completing 2-7 visits in their first 3 months) complete more visits in the subsequent months.</doc>
 					<eqn>Initiators_Continue_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
-			</aux>
-			<aux name="Exp-F">
-				<units>pts</units>
-				<doc>For the Sankey - reporting out the experiment value for the total number of patients in the cohort who meet the criteria defining this state.</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Sankey_E7 * "Exp-SankeyScalar" * Sankey_E2,:NA:)					</eqn>
-			</aux>
-			<aux name="From_Completers_into_High_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_HighD_"					</eqn>
-			</aux>
-			<aux name="From_Completers_into_Low_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of one quarter of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_LowD_"					</eqn>
-			</aux>
-			<aux name="From_Completers_into_Mid_D">
-				<units>pts/wk</units>
-				<doc>The starting rate of two quarters of patients who (after completing 8 or more visits in their first 3 months) complete more visits in the subsequent months.</doc>
-					<eqn>Completers_Continuing_Treatment_Rate_after_3_Months*"Starting_MidD_"					</eqn>
 			</aux>
 			<aux name="From_Starters_Ending_High_D">
 				<units>pts/wk</units>
@@ -1276,6 +1276,11 @@
 				<doc>The total number of patients in care after their initial three months. (pts)</doc>
 					<eqn>OneAfter+TwoSevenAfter+EightPlusAfter					</eqn>
 			</aux>
+			<aux name="Percent_Change_in_Patient_Starts">
+				<units>Dmnl</units>
+				<doc>The relative change in total patients in care, 2 years after starting any experiments.</doc>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME,ZIDZ((Patient_Starts_at_Final_Time-Patient_Starts_at_Initial_Time) , Patient_Starts_at_Initial_Time),:NA:)					</eqn>
+			</aux>
 			<aux name="Percieved_New_pts_appt_Supply">
 				<units>appt/wk</units>
 				<doc>Schedulers' perceptsion of the appointment supply available for new patients, regardless of the capacity for them to continue care.</doc>
@@ -1316,6 +1321,11 @@
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
 					<eqn>Data_Initiators_Who_Return_High_RVI					</eqn>
 			</aux>
+			<aux name="RVI_-_From_2_to_7_Visits_(Mean)">
+				<units>wk</units>
+				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
+					<eqn>Data_Initiators_Who_Return_Medium_RVI					</eqn>
+			</aux>
 			<aux name="RVI_-_From_8_or_More_Visits_(1st_Quartile)">
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
@@ -1325,21 +1335,6 @@
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
 					<eqn>Data_Completers_Who_Return_High_RVI					</eqn>
-			</aux>
-			<aux name="RVI_<3mo_-_8-12_Visits">
-				<units>wk</units>
-				<doc>The average number of appointments per patient per wk, which is nearly identical to the frequency of patients who complete 2-7 visits and then go on to more visits in their first three months engaged in care.</doc>
-					<eqn>Data_Initiators_Who_Complete_RVI					</eqn>
-			</aux>
-			<aux name="Percent_Change_in_Patient_Starts">
-				<units>Dmnl</units>
-				<doc>The relative change in total patients in care, 2 years after starting any experiments.</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME,ZIDZ((Patient_Starts_at_Final_Time-Patient_Starts_at_Initial_Time) , Patient_Starts_at_Initial_Time),:NA:)					</eqn>
-			</aux>
-			<aux name="RVI_-_From_2_to_7_Visits_(Mean)">
-				<units>wk</units>
-				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
-					<eqn>Data_Initiators_Who_Return_Medium_RVI					</eqn>
 			</aux>
 			<aux name="RVI_-_From_8_or_More_Visits_(Mean)">
 				<units>wk</units>
@@ -1355,6 +1350,11 @@
 				<units>wk</units>
 				<doc>For UI output - The average return visit interval (in wks), estimated from the mean of all individual patients' counts of completed appointments that meet the time criteria defining this stock and their time to complete that subset of their appointments (i.e., the date difference between their last completed appointment and their first).</doc>
 					<eqn>Data_Initiators_Who_Quit_Early_RVI					</eqn>
+			</aux>
+			<aux name="RVI_<3mo_-_8-12_Visits">
+				<units>wk</units>
+				<doc>The average number of appointments per patient per wk, which is nearly identical to the frequency of patients who complete 2-7 visits and then go on to more visits in their first three months engaged in care.</doc>
+					<eqn>Data_Initiators_Who_Complete_RVI					</eqn>
 			</aux>
 			<aux name="Sankey_Completers">
 				<units>pts/wk</units>
@@ -1429,7 +1429,7 @@
 			<aux name="Sankey_One_and_Dones">
 				<units>pts/wk</units>
 				<doc>For the Sankey - reporting out the inflow of "One-n-Dones" (i.e, patient starts who only complete one visit ever) in wk 104, thus after any experiments have altered the behavior of the system. The percent of "One-n-Dones" is constrained between 0 and 100, even if user input accidentally creates a negative ).</doc>
-					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Starting_Rate*MAX(MIN((1-"Actual_Starters_Who_Return_Later_"-"Actual_Starters_Who_Initiate_"),1),0),:NA:)					</eqn>
+					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Start_Rate*MAX(MIN((1-"Actual_Starters_Who_Return_Later_"-"Actual_Starters_Who_Initiate_"),1),0),:NA:)					</eqn>
 			</aux>
 			<aux name="Sankey_One_and_More_Laters">
 				<units>pts/wk</units>
@@ -1440,6 +1440,11 @@
 				<units>pts/wk</units>
 				<doc>For the Sankey - reporting out the total inflow to all possible states after a first visit (i.e, a patient can quit, complete more visits in their first 3 months, or complete more visits after 3 months) in wk 104, thus after any experiments have altered the behavior of the system.</doc>
 					<eqn>IF_THEN_ELSE(Time=FINAL_TIME, Sankey_One_and_Dones+Sankey_Initaitors+Sankey_One_and_More_Laters, :NA:)					</eqn>
+			</aux>
+			<aux name="Start_Rate">
+				<units>pts/wk</units>
+				<doc>The number of patients starting their first visit each week, regardless of whether or not there is capacity for them to continue care. (pts/wk)</doc>
+					<eqn>Starting_Psychotherapy					</eqn>
 			</aux>
 			<aux name="Start_Rate_Relative_to_Data">
 				<units>Dmnl</units>
@@ -1465,11 +1470,6 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who start Psychotherapy each wk, if there is capacity for them to continue care......The number of patients who start Psychotherapy each wk, based on the actual appointment supply available to new patients (including any user adjustments to both "Appointment Supply" and "Additional Supply for New Patients).</doc>
 					<eqn>Supply_Available_for_New_Pts_who_can_start_2nd_visit*Pts_per_appt*New_Patient_Scheduling_Efficiency					</eqn>
-			</aux>
-			<aux name="Starting_Rate">
-				<units>pts/wk</units>
-				<doc>The number of patients starting their first visit each week, regardless of whether or not there is capacity for them to continue care. (pts/wk)</doc>
-					<eqn>Starting_Psychotherapy					</eqn>
 			</aux>
 			<aux name="Starting_Rate_who_can_Initiate">
 				<units>pts/wk</units>
@@ -1827,7 +1827,7 @@
 				<doc>The time when user changes to experiment parameters take effect.</doc>
 					<eqn>0					</eqn>
 			</aux>
-			<aux name="Max_Effect_of_IOP_on_�oͷ">
+			<aux name="Max_Effect_of_IOP_on_��"">
 				<units>Dmnl</units>
 				<doc>The relative change in the size of the gap between the current state and the desired state for the percentages governing the number of patients following care pathways after they initiate care caused by implementing an Intensive Outpatient Program.</doc>
 					<eqn>0.3					</eqn>
@@ -1839,7 +1839,7 @@
 			</aux>
 			<aux name="Max_Effect_of_IOP_on_Frequency">
 				<units>Dmnl</units>
-				<doc>Where 1 is a 100 46555312ncrease in the frequency (i.e., patients come twice as often as before).</doc>
+				<doc>Where 1 is a 100-199597904ncrease in the frequency (i.e., patients come twice as often as before).</doc>
 					<eqn>1					</eqn>
 			</aux>
 			<aux name="Median_Time_in_Visit_1">
