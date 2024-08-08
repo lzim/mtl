@@ -10,7 +10,7 @@
   
 ## _Modeling to Learn_ Videos
 
-**COMING SOON:** Click on the video thumbnails below to access _MTL_ use case videos that explain the whys and hows of _Modeling to Learn_. 
+Click on the video thumbnails below to access _MTL_ use case videos that explain the whys and hows of _Modeling to Learn_. 
 
 ### Why place a _Modeling to Learn 3.7_ consult?
 
