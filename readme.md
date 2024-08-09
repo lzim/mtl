@@ -2,7 +2,7 @@
   
 ## Exciting new release from Team PSD: _Modeling to Learn 3.7 Consults_  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_consult.png?raw=true" width="290" align="center">
+<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_consult.png?raw=true" width="290" align="center">(#DontLink)
 
 **_Modeling to Learn_ (_MTL_) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _MTL_ provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
