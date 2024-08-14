@@ -10,9 +10,11 @@ description: This is the MTL one-stop shop.
 
 # _Why_ use _Modeling to Learn_
 
-Click on the thumbnails below to watch the videos. Transcripts of the videos are also provided. 
+Click on the hyperlinks or video thumbnails to watch the videos. Transcripts of the videos are also provided. 
 
 ## How might _Modeling to Learn_ help?
+
+[Watch the video here.](https://bcove.video/465KOIt)
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_01_how_might_mtl_help.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/465KOIt)
 
@@ -20,11 +22,15 @@ Hi, I'm Lindsey and this is Debbie. You might wonder _What is _Modeling to Learn
 
 ## How can a _Modeling to Learn_ consult help?
 
+[Watch the video here.](https://bcove.video/3WuJ7kI)
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_04_how_can_a_mtl_consult_help.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/3WuJ7kI)
 
 Hi, I'm Lindsey and this is David. _Modeling to Learn_ improves visibility and provides new insights into how common care problems persist over time. How? _Modeling to Learn_ is based on over 60 years of scholarship known as participatory system dynamics. For this reason, we call ourselves Team PSD for Team Participatory System Dynamics. The Data User Interface and Simulation User Interface comprise two versions of _Modeling to Learn_. The data-only version is known as _Modeling to Learn_ Red; _Modeling to Learn_ Blue ads participatory learning from simulation. Team PSD supports _MTL_ Red and _MTL_ Blue and is carefully evaluating how each works to support VA in meeting Veterans needs. Learning from simulation can help us to place a better initial bet on what is likely to work locally by evaluating alternative decisions via simulation before we implement them in the real world. _MTL_ Red tells us where we've been over the last two years based on the clinic selections made to produce the patient data reports and team trends or visualizations. Many staff report that viewing the Data UI real-time patient data tabs or the team trends is efficient and encouraging. The data tabs help with clinical decision making. The visualizations of team trends provide leading indicators that improvement efforts are paying off, which can be validating. Why is _Modeling to Learn_ useful when we have critical staffing and hiring needs? Watch that video to find out.
 
 ## What gets in the way of meeting patients' needs?
+
+[Watch the video here.](https://bcove.video/4d4TmRZ)
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_02_what_gets_in_the_way.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/4d4TmRZ)
 
@@ -32,7 +38,7 @@ Hi, I'm Lindsey and this is David. We all want to meet Veterans’ needs for tim
 
 ## If we keep making the same care decisions, will things get better or worse?
 
-> Link to video coming soon. 
+> A link to _this_ video is coming soon. 
 
 <!-- video 21 -->
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_21_if_we_keep_making_the_same_care.png?raw=true" width="350" style="float: left; margin: 10px">
@@ -41,11 +47,15 @@ Hi, I'm Lindsey and this is Debbie. What if we keep making the same care decisio
 
 ## Why is _Modeling to Learn_ useful when we have critical staffing and hiring needs?
 
+[Watch the video here.](https://bcove.video/4f7OfSL)
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_05_why_is_mtl_useful.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/4f7OfSL)
 
 Hi, I'm Lindsey and this is Debbie. Leaders and clinicians often ask how can _Modeling to Learn_ be useful when facing critical staffing and hiring needs? With limited staff coverage, the need to hire is priority number one, but even then there isn't a magic wand that produces staff where they may not exist today. What could help now? From the beginning, _Modeling to Learn_ prioritized evidence-based episodes of care within existing staff time. When modeling to learn launched nationally in the VA in March of 2020, it was to empower staff to find the highest yield local improvements without asking staff to do more with less. As a result, when staff coverage may not change quickly, _Modeling to Learn_ will find options for improving quality of care for Veterans and quality of work life for providers. How? What does Debbie mean by high yield local improvements? Because evidence-based behavioral healthcare is delivered over time, there are many possibilities. Small decisions made all day, every day by the clinicians, when compounded over time, can be surprisingly powerful. Think of your savings account or your waistline. In _Modeling to Learn_, we look for the lightest clinical lift teams and VAs can make that have the biggest payoff for Veterans in terms of timely, high-quality care. We work hard to avoid big difficult changes with limited benefit. When working with the _Modeling to Learn_-read data user interface, clinical teams are often motivated when they see trends that reflect hard-won efforts to implement high quality episodes of care which may not show up in other data systems for some time. The _Modeling to Learn_ Blue simulation user interface saves staff time because alternatives can quickly be assessed during a modeling consultation. Change is hard, but we no longer have to learn by trial and error, wearing out already burdened staff. Does that sound too good to be true? If so, you may be wondering about examples of _Modeling to Learn_ use cases for the pain points you face in your specific team or program. As an example, how does _Modeling to Learn_ benefit substance use disorder, or SUD programs? Watch that video to find out.
 
 ## Why is the _MTL_ Red Data User Interface useful?
+
+[Watch the video here.](https://bcove.video/3A6i7Py)
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_13_why_is_the_mtl_red_data_ui_useful.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/3A6i7Py)
 
@@ -53,11 +63,15 @@ Hi, I'm Lindsey and this is Debbie. Why is _Modeling to Learn_ Red useful and ho
 
 ## Why is the _MTL_ Blue Simulation User Interface useful?
 
+[Watch the video here.](https://bcove.video/4fnG5Gb)
+
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_15_why_is_mtl_blue_simulation_ui_useful.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/4fnG5Gb)
 
 Hi, I'm Lindsey and this is Debbie. Why is _Modeling to Learn_ Blue useful? Well, why is it wisest to focus on the dynamics of care over time? The short answer is that clinical and improvement teams cannot adjust one part of the care equation without everything else changing. In _Modeling to Learn_ Blue, we zoom out to see how care variables are locked in relationship with one another over time. The key variables that define either a poor quality or high quality episode of care must be understood together. Building from _MTL_ Red, you can export your local data set created in the _Modeling to Learn_ Data User Interface at [mtl.how/data](https://app.powerbigov.us/groups/me/apps/b9686a29-6857-46c9-bdf9-043ca2b29138?ctid=e95f1b23-abaf-45ee-821d-b7ab251ab3bf). Then, if you navigate to [mtl.how/sim](https://forio.com/app/va/va-psd-sim/login.html), you can find the _Modeling to Learn_ Blue Simulation User Interface, which is a dynamic and interactive way to understand why problems with care coordination, medication management, psychotherapy, team care, and team flow persist over time. The Simulation User Interface is a way to see how adjustments in one part of an episode of care explain subsequent impacts in the care system. For any of the common care problems, the simulation saves you time and energy by accounting for the local new patient start rate in patients per week and the local appointment supply and appointments per week. The simulation also keeps track of the local new patient wait time in weeks, time between visits and weeks, and the engagement duration over time, again in weeks. All are calculated for you automatically in the Data User Interface, but their interdependence is accounted for in the Simulation User Interface. The _Modeling to Learn_ Blue Simulation User Interface empowers teams to avoid ineffective strategies because you very quickly learn to develop new insights that would be inefficient, if not impossible, to figure out in your head or by hand. Learning from simulation is designed to help upgrade local decision-making. Teams develop new rules of thumb and insights in which the dependent dynamics among these variables that define care are all taken into account. With a _Modeling to Learn_ consult, we come alongside with partners mid stride in their daily clinical activities who may have limited insight into what is likely to happen over the near future if they keep making the same decisions every day. With _Modeling to Learn_ Blue simulation learning, sites and teams can safely see the impact of new decisions while building new capacities for systems thinking. Why is applied systems thinking more likely to help us avoid costly mistakes? Watch that video to find out.
 
 ## Why is applied systems thinking more likely to help us avoid costly mistakes?
+
+[Watch the video here.](https://bcove.video/3AelyUg)
 
 [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_16_why_is_applied_systems_thinking_more.png?raw=true" width="350" style="float: left; margin: 10px">](https://bcove.video/3AelyUg)
 
@@ -65,7 +79,7 @@ Hi, I'm Lindsey and this is David. Why is applied systems thinking more likely t
 
 ## Why is _Modeling to Learn_ able to provide new insights?
 
-> Link to video coming soon. 
+> A link to _this_ video is coming soon. 
 
 <!-- video 17 -->
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_17_why_is_mtl_able_to_provide_new_insights.png?raw=true" width="350" style="float: left; margin: 10px">
@@ -74,7 +88,7 @@ Hi, I'm Lindsey and this is Debbie. Why is _Modeling to Learn_ able to provide n
 
 ## Why does _Modeling to Learn_ emphasize flows through care over time?
 
-> Link to video coming soon. 
+> A link to _this_ video is coming soon. 
 
 <!-- video 18 -->
 <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_18_why_does_mtl_emphasize_flows_through_care.png?raw=true" width="350" style="float: left; margin: 10px">
