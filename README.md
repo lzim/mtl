@@ -1,4 +1,4 @@
-This branch contains documents and resources for the MTL Manual.
+This branch contains documents and resources for the _MTL_ Manual.
 
 The rendered output is [here](https://mtl.how/manual) or here https://mtl.how/manual
 
