@@ -21,13 +21,13 @@ To read transcripts of the why videos, refer to Chapter 1 of the [_MTL 3.7_ Cons
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_01_how_might_mtl_help.png?raw=true" width="400">](https://bcove.video/465KOIt) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_04_how_can_a_mtl_consult_help.png?raw=true" width="400">](https://bcove.video/3WuJ7kI) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_02_what_gets_in_the_way.png?raw=true" width="400">](https://bcove.video/4d4TmRZ) |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_21_if_we_keep_making_the_same_care.png?raw=true" width="400"> Link to _this_ video is coming soon. |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_21_if_we_keep_making_the_same_care.png?raw=true" width="400">](https://bcove.video/4cZpLJk) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_05_why_is_mtl_useful.png?raw=true" width="400">](https://bcove.video/4f7OfSL) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_13_why_is_the_mtl_red_data_ui_useful.png?raw=true" width="400">](https://bcove.video/3A6i7Py) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_15_why_is_mtl_blue_simulation_ui_useful.png?raw=true" width="400">](https://bcove.video/4fnG5Gb) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_16_why_is_applied_systems_thinking_more.png?raw=true" width="400">](https://bcove.video/3AelyUg) |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_17_why_is_mtl_able_to_provide_new_insights.png?raw=true" width="400"> Link to _this_ video is coming soon. |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_18_why_does_mtl_emphasize_flows_through_care.png?raw=true" width="400"> Link to _this_ video is coming soon. |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_17_why_is_mtl_able_to_provide_new_insights.png?raw=true" width="400">](https://bcove.video/3XEKDAY) |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_18_why_does_mtl_emphasize_flows_through_care.png?raw=true" width="400">](https://bcove.video/3ME6cvm) |
 
 ### How can _Modeling to Learn_ help?
 
@@ -43,9 +43,9 @@ To read transcripts of the how videos, refer to Chapter 2 of the [_MTL 3.7_ Cons
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_10_how_does_measurement_based_care_detect.png" width="400">](https://bcove.video/3yl8FqY) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_12_how_can_we_improve_sail_with_mtl.png" width="400">](https://bcove.video/4dmPVX5) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_14_how_do_five_key_variables_drive.png" width="400">](https://bcove.video/3A3sBiG) |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_19_how_does_mtl_improve_med_management.png" width="400"> Link to _this_ video is coming soon. |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_20_how_does_mtl_help_improve_psychotherapy.png" width="400"> Link to _this_ video is coming soon. |
-| <img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_22_how_does_our_appointment_backlog_extend.png?raw=true" width="400"> Link to _this_ video is coming soon. |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_19_how_does_mtl_improve_med_management.png" width="400">](https://bcove.video/3To3mP4) |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_20_how_does_mtl_help_improve_psychotherapy.png" width="400">](https://bcove.video/4gjSdbG) |
+| [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_22_how_does_our_appointment_backlog_extend.png?raw=true" width="400">](https://bcove.video/4d3jVGG) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_23_how_can_we_better_balance_needs.png" width="400">](https://bcove.video/3yaXy41) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_24_how_can_we_leverage_the%20feedback_rates_volume.png?raw=true" width="400">](https://bcove.video/4fonk5v) |
 | [<img src = "https://github.com/lzim/teampsd/blob/master/resources/mtl_consult_thumbnails/script_11_what_key_drivers_prevent_suicide.png" width="400">](https://bcove.video/4c1YgOQ) |
