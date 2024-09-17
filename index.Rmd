@@ -8,7 +8,6 @@ site: bookdown::bookdown_site
 description: This is the MTL one-stop shop.
 ---
 # _Why_ use _Modeling to Learn_
-TEST
 
 Click on the hyperlinks or video thumbnails to watch the videos. Transcripts of the videos are also provided. 
 
