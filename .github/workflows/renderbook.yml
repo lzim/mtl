@@ -45,10 +45,6 @@ jobs:
         with:
           name: renderbook_output
           path: renderbook_output
-      
-      - name: What's here?
-        run: |
-          tree
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.1
