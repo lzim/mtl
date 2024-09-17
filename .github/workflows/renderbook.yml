@@ -27,7 +27,7 @@ jobs:
              Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook", output_dir="docs")'
       - uses: actions/upload-artifact@v4
         with:
-          name: docs/renderbook_output
+          name: renderbook_output
           path: docs/
           
 # deploy to gh pages yml
@@ -43,13 +43,13 @@ jobs:
       - name: Download Artifacts 🔻 # The built project is downloaded into the 'site' folder.
         uses: actions/download-artifact@v4
         with:
-          name: docs/renderbook_output
+          name: renderbook_output
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
-          folder: docs/renderbook_output
+          folder: renderbook_output
           target-folder: docs/renderbook_output # The folder the action should deploy.
           clean: true
