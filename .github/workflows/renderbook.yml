@@ -56,5 +56,5 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages # The branch the action should deploy to.
           folder: renderbook_output
-          target-folder: docs/renderbook_output # The folder the action should deploy.
+          target-folder: docs # The folder the action should deploy.
           clean: true
