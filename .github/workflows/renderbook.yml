@@ -44,11 +44,11 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: renderbook_output
-          path: renderbook_output/
+          path: renderbook_output
       
       - name: What's here?
         run: |
-          ls
+          tree
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.6.1
