@@ -14,7 +14,7 @@ Click on the video thumbnails below to access _MTL_ use case videos that explain
 
 ### Why place a _Modeling to Learn 3.7_ consult?
 
-To read transcripts of the why videos, refer to Chapter 1 of the [_MTL 3.7_ Consult Manual](https://mtl.how/manual).
+To read transcripts of the why videos, refer to Chapter 1 of the [_MTL 3.7 Consult Manual_](https://mtl.how/manual).
 
 |     |
 | --- |
