@@ -2,11 +2,14 @@
   
 ## Exciting new release from Team PSD: _Modeling to Learn 3.7 Consults_  
 
-<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_consult.png?raw=true" width="290" align="center">
+**Click the logo below to access the _Modeling to Learn 3.7 Consult Manual_:**
+
+[<img src = "https://github.com/lzim/teampsd/blob/master/resources/logos/mtl_consult.png?raw=true" width="290">](https://lzim.github.io/mtl/)
 
 **_Modeling to Learn_ (_MTL_) is a national quality improvement initiative in the Veterans Health Administration (VA).** 
 - _MTL_ provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
 - Just curious about _Modeling to Learn_? Check out [mtl.how/demo](https://mtl.how/demo).
+- The _MTL 3.7 Consult Manual_ is available at [mtl.how/manual](https://lzim.github.io/mtl/)
   
 ## _Modeling to Learn_ Videos
 
