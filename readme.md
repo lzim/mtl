@@ -10,6 +10,8 @@
 - _MTL_ provides resources for frontline healthcare teams to improve local care quality to better serve their community. 
 - Just curious about _Modeling to Learn_? Check out [mtl.how/demo](https://mtl.how/demo).
 - The _MTL 3.7 Consult Manual_ is available at [mtl.how/manual](https://lzim.github.io/mtl/)
+- [Click here](https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_how_3.7_data_cheatsheet.png) to access the Data User Interface (UI) Cheatsheet.
+- [Click here](https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_how_3.7_sim_ui_cheatsheet.png) to access the Sim UI Cheatsheet.
   
 ## _Modeling to Learn_ Videos
 
