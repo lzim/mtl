@@ -48,9 +48,6 @@ episodes-of-care
 enter-and-save-an-experiment
 start-a-play-session-in-the-sim-ui
 orient-to-the-sim-ui
-manage-discussions-in-team
-set-up-a-private-conversation
-set-up-an-open-team-discussion
 resize-a-window-for-side-by-side-viewing
 report-a-bug
 report-a-bug-through-the-sim-ui
