@@ -77,7 +77,9 @@ update-or-add-module-information
 tutor-function
 tutor-administrative-dashboard
 mtl-quick-tip-loading-screen-administration
+add-a-quick-tip
 update-a-quick-tip
+delete-a-quick-tip
 manage-mtl-demo-webpage
 mtl-demo-webpage
 orient-to-the-mtl-demo-admin-webpage
