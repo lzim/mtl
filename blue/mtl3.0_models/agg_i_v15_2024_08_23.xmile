@@ -312,19 +312,6 @@
 					Intake Rescheduling Rate
 					</outflow>
 			</stock>
-			<stock name="Intake_Patients_Waiting_for_Intake_Evaluation">
-				<units>pts</units>
-				<doc>The total number of patients waiting for their intake evaluation appointment.  (pts)</doc>
-					<eqn>
-					Intake_Evaluation_Rate*Acceptable_Delay_to_Starting_Service
-					</eqn>
-					<inflow>
-					Intake Evaluation Rate
-					</inflow>
-					<outflow>
-					Intake Intake Completion Rate
-					</outflow>
-			</stock>
 			<stock name="MM_Appointments">
 				<units>appt</units>
 				<doc>The total number of appointments for each service on the calendar.  (appts)</doc>
@@ -390,6 +377,19 @@
 					MM_RVI_used_when_Completing= DELAY_FIXED (
 	MM_RVI, MM_RVI , MM_RVI)
 					</eqn>
+			</stock>
+			<stock name="Patients_Waiting_for_Intake_Evaluation">
+				<units>pts</units>
+				<doc>The total number of patients waiting for their intake evaluation appointment.  (pts)</doc>
+					<eqn>
+					Intake_Evaluation_Rate*Acceptable_Delay_to_Starting_Service
+					</eqn>
+					<inflow>
+					Intake Evaluation Rate
+					</inflow>
+					<outflow>
+					Intake Completion Rate
+					</outflow>
 			</stock>
 			<stock name="PSY_Appointments">
 				<units>appt</units>
@@ -680,7 +680,7 @@
 			<aux name="Adjunctive_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(Adjunctive_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(Adjunctive_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
 			<aux name="Adjunctive_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -712,7 +712,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*Adjunctive_Service_Proportions
 	*Adjunctive_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -948,7 +948,7 @@
 			<aux name="CC_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(CC_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(CC_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
 			<aux name="CC_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -986,7 +986,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*CC_Service_Proportions
 	*CC_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -1228,7 +1228,7 @@
 			<aux name="EBPsy_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(EBPsy_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(EBPsy_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
 			<aux name="EBPsy_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -1268,7 +1268,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*EBPsy_Service_Proportions
 	*EBPsy_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -1520,7 +1520,7 @@
 			<aux name="Group_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(Group_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(Group_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
 			<aux name="Group_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -1559,7 +1559,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*Group_Service_Proportions
 	*Group_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -1618,6 +1618,11 @@
 				<doc>Appointment completions in each service are based on the team either satisfing all the demand from existing patients (based on appointments on the calendar and the scheduled RVI) or using all the supply allocated to that service (based on the Appointment Supply).  If there is more demand than supply, then not all scheduled appointments will be seen in a timely manner, and Actual RVI will increase.  This is different from a completed visit, as the appointment is still complete even if the patient no-shows.   (appt/wk)</doc>
 					<eqn>QUANTUM(MIN(Intake_Maximum_Completion_Rate, MIN(Intake_Desired_Completion_Rate,Intake_Potential_Completion_Rate)),0.001)					</eqn>
 			</aux>
+			<aux name="Intake_Completion_Rate">
+				<units>pts/wk</units>
+				<doc>The number of patients who complete an intake evaluation with the team per week, based on the supply allocated to conducting intake evaluations. (pts/wk)</doc>
+					<eqn>MIN(Intake_Maximum_Start_Rate_Intake,Intake_Patient_Start_Rate)					</eqn>
+			</aux>
 			<aux name="Intake_Demand_per_Patient_per_Week">
 				<units>appt/(pts*wk)</units>
 				<doc>Baseline number of appointments generated per patient per week for a service.</doc>
@@ -1636,12 +1641,12 @@
 			<aux name="Intake_Difference_between_Intake_Eval_Wait_Times">
 				<units>Dmnl</units>
 				<doc>Ratio of team's acutal new patient start delay to the team's standard for acceptable start delay.</doc>
-					<eqn>Intake_Intake_Evaluation_Wait_Time/Intake_Acceptable_Intake_Eval_Wait_Time					</eqn>
+					<eqn>Intake_Evaluation_Wait_Time/Intake_Acceptable_Intake_Eval_Wait_Time					</eqn>
 			</aux>
 			<aux name="Intake_Effect_of_Wait_Times_on_Intake_Evaluation_Rate">
 				<units>Dmnl</units>
 				<doc>When the wait time to start a service increases above the target wait time, referring providers will be less likely to refer a new patient to that service.  This effect only applies to above-target wait times:  lower than expected new patient wait times do not increase referrals above the norm.  (pct)</doc>
-					<eqn>MIN(SMOOTHI(Intake_Difference_between_Intake_Eval_Wait_Times^-Intake_Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times,Intake_Time_to_Perceive_Intake_Evaluation_Wait_Times,1),1)					</eqn>
+					<eqn>MIN(SMOOTHI(Intake_Difference_between_Intake_Eval_Wait_Times^-Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times,Intake_Time_to_Perceive_Intake_Evaluation_Wait_Times,1),1)					</eqn>
 			</aux>
 			<aux name="Intake_Effect_of_Work_Pressure_on_Overtime">
 				<units>Dmnl</units>
@@ -1652,11 +1657,16 @@
 				<units>pts/wk</units>
 				<doc>All patients start services with the team by developing an individual treatment plan during an intake appointment.  This new patient referral rate is determined by the baseline service capacity, average time in service, and the demand per patient per week.  It can also be set by the user (with "User-defined Referrals to Team) or by the team's own data on new patient starts.  These referrals can also be affected by perceptions of new patient wait times.  New patient referrals are constrained from going below zero.</doc>
 					<eqn>MAX(IF_THEN_ELSE(Time<0,Intake_Appropriate_Intake_Evaluations_for_Supply,
-	IF_THEN_ELSE(User_Intake_Intake_Evaluation_Rate<0,Intake_Appropriate_Intake_Evaluations_for_Supply,User_Intake_Intake_Evaluation_Rate))
+	IF_THEN_ELSE(User_Intake_Evaluation_Rate<0,Intake_Appropriate_Intake_Evaluations_for_Supply,User_Intake_Evaluation_Rate))
 	
 	*Intake_Effect_of_Wait_Times_on_Intake_Evaluation_Rate
 	
 	,0)					</eqn>
+			</aux>
+			<aux name="Intake_Evaluation_Wait_Time">
+				<units>wk</units>
+				<doc>The wait time for intake evaluations with this team.  (wks)</doc>
+					<eqn>MIN(IF_THEN_ELSE(Patients_Waiting_for_Intake_Evaluation<0.05, 0.01, XIDZ(Patients_Waiting_for_Intake_Evaluation, Intake_Completion_Rate, 52)),52)					</eqn>
 			</aux>
 			<aux name="Intake_Hours_for_Calculating_Total_Official_Team_Hours">
 				<units>hrs/wk</units>
@@ -1664,16 +1674,6 @@
 					<eqn>IF_THEN_ELSE(Time<0,"Data_Appointment_Supply_(median)_->_Intake",
 	
 	IF_THEN_ELSE(User_Intake_Appointment_Supply<0, "Data_Appointment_Supply_(median)_->_Intake",User_Intake_Appointment_Supply ))					</eqn>
-			</aux>
-			<aux name="Intake_Intake_Completion_Rate">
-				<units>pts/wk</units>
-				<doc>The number of patients who complete an intake evaluation with the team per week, based on the supply allocated to conducting intake evaluations. (pts/wk)</doc>
-					<eqn>MIN(Intake_Maximum_Start_Rate_Intake,Intake_Patient_Start_Rate)					</eqn>
-			</aux>
-			<aux name="Intake_Intake_Evaluation_Wait_Time">
-				<units>wk</units>
-				<doc>The wait time for intake evaluations with this team.  (wks)</doc>
-					<eqn>MIN(IF_THEN_ELSE(Intake_Patients_Waiting_for_Intake_Evaluation<0.05, 0.01, XIDZ(Intake_Patients_Waiting_for_Intake_Evaluation, Intake_Intake_Completion_Rate, 52)),52)					</eqn>
 			</aux>
 			<aux name="Intake_Maximum_Completion_Rate">
 				<units>appt/wk</units>
@@ -1683,12 +1683,12 @@
 			<aux name="Intake_Maximum_Start_Rate_Intake">
 				<units>pts/wk</units>
 				<doc>The maximum new patient start rate is determined by the new patient waiting list and minimum time to schedule patient appointments.</doc>
-					<eqn>Intake_Patients_Waiting_for_Intake_Evaluation/Intake_Minimum_Time_to_Schedule					</eqn>
+					<eqn>Patients_Waiting_for_Intake_Evaluation/Intake_Minimum_Time_to_Schedule					</eqn>
 			</aux>
 			<aux name="Intake_New_Pt_Appts_/_week">
 				<units>appt/wk</units>
 				<doc>Total number of new patient appointments per week.</doc>
-					<eqn>Intake_Intake_Completion_Rate/Intake_Patients_per_Appointment					</eqn>
+					<eqn>Intake_Completion_Rate/Intake_Patients_per_Appointment					</eqn>
 			</aux>
 			<aux name="Intake_Official_Hours_Available_for_Service">
 				<units>hrs/wk</units>
@@ -1716,12 +1716,6 @@
 				<units>appt/wk</units>
 				<doc>The rescheduling rate for each service depends on the total number of appointments to reschedule and the average time it takes to reschedule them. (appts/wk)</doc>
 					<eqn>Intake_Appointments_to_Reschedule/Time_to_Reschedule					</eqn>
-			</aux>
-			<aux name="Intake_Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times">
-				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 7127637460260f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 350f its original value).</doc>
-					<eqn>GAME (
-	1)					</eqn>
 			</aux>
 			<aux name="Intake_True_Missed_Appointment_Rate">
 				<units>appt/wk</units>
@@ -1959,7 +1953,7 @@
 			<aux name="MM_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(MM_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)),1)					</eqn>
+					<eqn>MIN(ZIDZ(MM_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)),1)					</eqn>
 			</aux>
 			<aux name="MM_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -1999,7 +1993,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*MM_Service_Proportions
 	*MM_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -2236,7 +2230,7 @@
 			<aux name="PSY_Service_Proportions_Balanced_Across_Team_Variables">
 				<units>Dmnl</units>
 				<doc>The percentage of patients who complete an intake who start another service, determined by the available capacity to treat those patients.  If any of these percentages is >1, then there is enough supply for patients to enroll in a service multiple times simultaneously.</doc>
-					<eqn>MIN(ZIDZ(PSY_Patient_Start_Rate , (Intake_Intake_Completion_Rate+Review_Rate)), 1)					</eqn>
+					<eqn>MIN(ZIDZ(PSY_Patient_Start_Rate , (Intake_Completion_Rate+Review_Rate)), 1)					</eqn>
 			</aux>
 			<aux name="PSY_Starting_a_Service_Rate">
 				<units>pts/wk</units>
@@ -2274,7 +2268,7 @@
 				<units>pts/wk</units>
 				<doc>The number of patients who are recommended to start in each service each week, after either completing an intake evaluation appointment or a review. Providers can decide to start patients on multiple services simultaneously. (pts/wk)</doc>
 					<eqn>MAX(
-	(Intake_Intake_Completion_Rate+Review_Rate)
+	(Intake_Completion_Rate+Review_Rate)
 	*PSY_Service_Proportions
 	*PSY_Effect_of_Care_Delays_on_Treatment_Decisions
 	
@@ -2300,39 +2294,45 @@
 					<eqn>IF_THEN_ELSE(Time<0,Data_on_Review_Rate,
 	IF_THEN_ELSE(User_Review_Rate<0,Data_on_Review_Rate,User_Review_Rate))					</eqn>
 			</aux>
+			<aux name="Sensitivity_of_Intake_Evaluation_Rate_to_Wait_Times">
+				<units>Dmnl</units>
+				<doc>This controls the magnitude of the effect increases in wait time have on the inflow of patients for intake evaluations, where these drop as wait time increases. A value of "zero" implies that there is no relationship between wait time and the demand for intake evaluations. A value of "1" indicates that if the wait time doubles, then the demand for intake evaulations will be cut in half. For the same situation, a value of "0.5" would result in less of an effect (reducing the demand for intake evaluations to 7122614460260f its original value), and a value of "1.5" would result in a greater effect (reducing the demand for intake evaluations to less than 350f its original value).</doc>
+					<eqn>GAME (
+	1)					</eqn>
+			</aux>
 			<aux name="Sensitivity_of_Overtime_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 4127637460260ver the original value, and a value of 1.5 would increase the hours worked to 1820ver the original value.</doc>
+				<doc>This controls the magnitude of the effect work pressure has on overtime, where an increase in appointment backlog causes the team to work more "unofficial" hours to increase the completion rate to mitigate that increase. A value of "zero" implies that the team will not use overtime or overbook appointments for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and the amount of overtime used (e.g., doubling the work pressure will also double the hours worked per week). For the same situation, a value of "0.5" would only increase the hours worked to 4122614460260ver the original value, and a value of 1.5 would increase the hours worked to 1820ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Patient's_Engagement_Time_to_Provider_Fatigue">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 7127637460260f the original time in service, and a value of 1.5 would reduce the duration to only 350f the original duration.</doc>
+				<doc>This controls the magnitude of the effect provider fatigue has on patients' duration in each service, where the total time in a service drops as fatigue increases. A value of "zero" implies that provider fatigue will have no effect on patient satisfaction. A value of "1" implies the assumption that doubling provider fatigue (e.g., short-term increases in work hours) will reduce the patients percieved quality of service, and thus patients' willingness to remain in that service by half. For the same situation, a value of "0.5" would reduce the average duration in that service to 7122614460260f the original time in service, and a value of 1.5 would reduce the duration to only 350f the original duration.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Scheduled_Return_Visit_Interval_to_Work_Pressure">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 4127637460260ver its original value, and a value of 1.5 would increase the RVI by 1820ver the original value.</doc>
+				<doc>This controls the magnitude of the effect of work pressure has on the return to clinic interval (RVI), where an increase in appointment backlog causes the team to extend the scheduled RVI for current patients. A value of "zero" implies that the team will not delay existing patients' care (i.e., extend patients' RVI) for any amount of work pressure. A value of "1" implies that there is a direct relationship between work pressure and RVI (e.g., doubling the work pressure will also double the RVI). For the same situation, a value of "0.5" would only increase the RVI by 4122614460260ver its original value, and a value of 1.5 would increase the RVI by 1820ver the original value.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Burnout_Due_to_Long-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 7127637460260f its original value, and a value of 1.5 would reduce the official hours to 350f the original.</doc>
+				<doc>This controls the magnitude of the effect changes in overtime has on team burnout and quits. A value of "zero" implies that there is no relationship between overtime and burnout and quits. A value of "1" implies the assumption that doubling the hours worked over the official hours will eventually cause enough quits to cut the official hours offered in half. For the same situation, a value of "0.5" would eventually reduce the official team hours to 7122614460260f its original value, and a value of 1.5 would reduce the official hours to 350f the original.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Staff_Missed_Appointments_Due_to_Short-Term_Overtime">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20 0ncrease in hours worked to have less of an effect (causing only a 9.5-104331928ncrease in the missed appointment percentage). A value of "2" would cause that same 20-1409618374ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
+				<doc>This controls the magnitude of the effect changes in overtime have on time for non-patient-facing care tasks and missed appointments. A value of "zero" implies that there is no relationship between overtime and missed appointments. A value below 1 indicates that providers are not sensitive to small changes in overtime and non-patient-facing task time; a value greater than 1 indicates that providers are very sensitive to small changes. Example: if a team is putting in 20more hours per week than their official supply, then an value of "1" would indicate that the ratio of missed appointments to all appointments would also be 20 24752gher than before. A value of "0.5" would cause that same 20 0ncrease in hours worked to have less of an effect (causing only a 9.5 618663768ncrease in the missed appointment percentage). A value of "2" would cause that same 20 1821062654ncrease to have a greater effect ( raising the missed appointment percentage by 44).</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
 			<aux name="Sensitivity_of_Treatment_Decisions_to_Existing_Patient_Care_Delays">
 				<units>Dmnl</units>
-				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 7127637460260f the original rate, and a value of "1.5" would reduce the decisions to start to only 350f the original rate.</doc>
+				<doc>This controls the magnitude of the effect existing patient care delays have on the team's treatment decisions, where decisions to start patients in a service drop as actual return to clinic visit interval increases (relative to target RVI). A value of "zero" implies that that no amount of care delay will influence the team's treatment decisions. A value of "1" implies that doubling the time between appointments for existing patients (e.g., delaying their care) will reduce the decisions to start in that service by half. For the same situation, a value of "0.5" would reduce the decisions to start in that service to 7122614460260f the original rate, and a value of "1.5" would reduce the decisions to start to only 350f the original rate.</doc>
 					<eqn>GAME (
 	1)					</eqn>
 			</aux>
@@ -2343,7 +2343,7 @@
 			</aux>
 			<aux name="Total_Actual_Hours_Available_for_Service">
 				<units>hrs/wk</units>
-				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff6be7e60b0p-1022llocated to a service.</doc>
+				<doc>The clinician time available for a service depends on the total clinical hours available, the relative increase in hours due to overtime, and the  0x0.07ff7963260b0p-1022llocated to a service.</doc>
 					<eqn>Intake_Actual_Hours_Available_for_Service+PSY_Actual_Hours_Available_for_Service+EBPsy_Actual_Hours_Available_for_Service
 	+CC_Actual_Hours_Available_for_Service+MM_Actual_Hours_Available_for_Service+Adjunctive_Actual_Hours_Available_for_Service+Group_Actual_Hours_Available_for_Service					</eqn>
 			</aux>
@@ -2545,7 +2545,7 @@
 					<eqn>GAME (
 	-1)					</eqn>
 			</aux>
-			<aux name="User_Intake_Intake_Evaluation_Rate">
+			<aux name="User_Intake_Evaluation_Rate">
 				<units>pts/wk</units>
 				<doc>The number of patients referred to intake evaluations with the team each week. This replaces the base case value, which is estimated from team data on supply allocated to conducting intake evaluations. (pts/wk)</doc>
 					<eqn>GAME (
@@ -2898,15 +2898,15 @@
 				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','CN2')					</eqn>
 			</aux>
-			<aux name="Data_Return_Visit_Interval_(median)_->_Group">
-				<units>wk</units>
-				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
-					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EB2')					</eqn>
-			</aux>
 			<aux name="Data_Return_Visit_Interval_(median)_->_Intake">
 				<units>wk</units>
 				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
 					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','BY2')					</eqn>
+			</aux>
+			<aux name="Data_Return_Visit_Interval_(median)_->_Group">
+				<units>wk</units>
+				<doc>The median return-to-clinic visit interval for visits in each service with this team, calculated from the number of visits per patient over their entire engagement time. (wks)</doc>
+					<eqn>GET_DIRECT_CONSTANTS('ModelParameters.xlsx','Export','EB2')					</eqn>
 			</aux>
 			<aux name="Data_Return_Visit_Interval_(median)_->_MM">
 				<units>wk</units>
