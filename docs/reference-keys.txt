@@ -36,9 +36,15 @@ make-view-and-export-team-clinic-selections-for-import-to-sim-ui
 request-and-verify-local-server-view-permissions
 request-access-to-data-tools
 navigate-to-the-home-page-of-any-team
-orient-to-a-teams-home-page
+orient-to-the-home-page
 begin-a-session-in-the-dynamic-decision-dashboard
-upload-team-data-files-from-the-home-page
+maintain-experiments
+delete-experiments
+rename-an-experiment
+export-experiments
+maintain-team-data
+delete-team-data
+upload-team-data
 dynamic-decision-dashboard
 understand-the-five-modules
 orient-to-the-dynamic-decision-dashboard
@@ -62,6 +68,7 @@ delete-a-team
 manage-team-data
 upload-a-new-team-data-file-to-a-team
 delete-a-team-data-file
+manage-experiments
 modeling-to-learn-maintenance-dashboards
 orient-to-the-maintenance-dashboards
 community-function-administration

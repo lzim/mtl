@@ -23,7 +23,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2024-11-07" />
+<meta name="date" content="2024-12-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -130,8 +130,9 @@
 <li class="chapter" data-level="3.3.2" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#sim-ui-administrator-dashboard"><i class="fa fa-check"></i><b>3.3.2</b> Sim UI Administrator Dashboard</a></li>
 <li class="chapter" data-level="3.3.3" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#manage-teams"><i class="fa fa-check"></i><b>3.3.3</b> Manage Teams</a></li>
 <li class="chapter" data-level="3.3.4" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#manage-team-data"><i class="fa fa-check"></i><b>3.3.4</b> Manage Team Data</a></li>
-<li class="chapter" data-level="3.3.5" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#modeling-to-learn-maintenance-dashboards"><i class="fa fa-check"></i><b>3.3.5</b> <em>Modeling to Learn</em> Maintenance Dashboards</a></li>
-<li class="chapter" data-level="3.3.6" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#forio-epicenter"><i class="fa fa-check"></i><b>3.3.6</b> Forio Epicenter</a></li>
+<li class="chapter" data-level="3.3.5" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#manage-experiments"><i class="fa fa-check"></i><b>3.3.5</b> Manage Experiments</a></li>
+<li class="chapter" data-level="3.3.6" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#modeling-to-learn-maintenance-dashboards"><i class="fa fa-check"></i><b>3.3.6</b> <em>Modeling to Learn</em> Maintenance Dashboards</a></li>
+<li class="chapter" data-level="3.3.7" data-path="3-technical-documentation.html"><a href="3-technical-documentation.html#forio-epicenter"><i class="fa fa-check"></i><b>3.3.7</b> Forio Epicenter</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -254,7 +255,7 @@
 <ol start="3" style="list-style-type: decimal">
 <li>The screenshots below display what you will see upon logging in, depending on your role.</li>
 </ol>
-<p><strong>Note:</strong> To familiarize yourself with a team’s Home page, refer to <a href="3-technical-documentation.html#orient-to-a-teams-home-page">Orient to a Team’s Home Page</a></p>
+<p><strong>Note:</strong> To familiarize yourself with a team’s Home page, refer to <a href="3-technical-documentation.html#orient-to-the-home-page">Orient to the Home Page</a></p>
 <table>
 <colgroup>
 <col width="50%" />
@@ -467,8 +468,8 @@
 </ul>
 <p><strong>Administrators</strong> can access a team’s Home page via the Administrator Dashboard. Select a team from the Select Team dropdown, then click Home (see screenshot below). The Home page of the selected team will appear.</p>
 <p><img alt="Image of Administrator Dashboard with arrows showing how to navigate to a team's Home page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_team_home_page.png"></p>
-<div id="orient-to-a-teams-home-page" class="section level4 hasAnchor" number="3.2.6.1">
-<h4><span class="header-section-number">3.2.6.1</span> Orient to a Team’s Home Page<a href="3-technical-documentation.html#orient-to-a-teams-home-page" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="orient-to-the-home-page" class="section level4 hasAnchor" number="3.2.6.1">
+<h4><span class="header-section-number">3.2.6.1</span> Orient to the Home Page<a href="3-technical-documentation.html#orient-to-the-home-page" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Below is a basic orientation to the Home page of any team:</p>
 <p><img alt="Image of a team's Home page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page.png"></p>
 <ol style="list-style-type: decimal">
@@ -511,7 +512,7 @@
 <li><p>Learners can see the same accumulations and learn where to prioritize based on the location of the greatest accumuation to leverage for change.</p></li>
 <li><p>Although learners see the same information, it is still your own unique session (behind the scenes).</p></li>
 <li><p>There are ways to play in the same world and learn together within each module: Care Coordination, Team Care, Medication Management, Psychotherapy, and Team Flow.</p></li>
-<li><p>If there is not a team data file in the dropdown, follow <a href="3-technical-documentation.html#upload-team-data-files-from-the-home-page">these steps</a>.</p></li>
+<li><p>If there is not a team data file in the dropdown, follow <a href="3-technical-documentation.html#upload-team-data">these steps</a>.</p></li>
 </ul>
 <p><img alt="Image of team Home page with arrows showing how to begin a session." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page_select_data.png"></p>
 <ol start="3" style="list-style-type: decimal">
@@ -524,30 +525,102 @@
 <li>New Patient Start Rate (NPSR) = learning mode “1”.</li>
 <li>Refer to the Care Coordination (CCParams) or Medication Management (MMParams) tab of the Team Data Table at mtl.how/data, for data regarding the team’s New Patient Start Rates and Return-to-Clinic Visit Intervals.</li>
 </ul>
-<div id="upload-team-data-files-from-the-home-page" class="section level4 hasAnchor" number="3.2.7.1">
-<h4><span class="header-section-number">3.2.7.1</span> Upload Team Data Files from the Home Page<a href="3-technical-documentation.html#upload-team-data-files-from-the-home-page" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="maintain-experiments" class="section level4 hasAnchor" number="3.2.7.1">
+<h4><span class="header-section-number">3.2.7.1</span> Maintain Experiments<a href="3-technical-documentation.html#maintain-experiments" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Expand the Experiment blue bar on your team’s Home page to reveal the Experiment maintenance window and its options: delete, rename, and export.</p>
+<p><img alt="Image of the expanded Experiment maintenance blue bar dropdown." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_experiment_window.png"></p>
+<div id="delete-experiments" class="section level5 hasAnchor" number="3.2.7.1.1">
+<h5><span class="header-section-number">3.2.7.1.1</span> Delete Experiment(s)<a href="3-technical-documentation.html#delete-experiments" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <ol style="list-style-type: decimal">
-<li>Expand the Team Data blue bar and select Upload:</li>
+<li>Select at least one experiment to delete.</li>
+<li>Click the Delete icon.</li>
 </ol>
-<p><img alt="Image of expanded Team Data blue bar." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page_data_upload.png"></p>
+<p><img alt="Image of the Experiment window with numbered pins showing steps 1 and 2 for deleting an experiment." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_delete_experiment.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm you want to delete selected experiment(s) from the list.</li>
+</ol>
+<p><img alt="Image of the delete experiment confirmation message." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_delete_experiment_confirm.png"></p>
+</div>
+<div id="rename-an-experiment" class="section level5 hasAnchor" number="3.2.7.1.2">
+<h5><span class="header-section-number">3.2.7.1.2</span> Rename an Experiment<a href="3-technical-documentation.html#rename-an-experiment" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<ol style="list-style-type: decimal">
+<li>Scoll to and select an experiment to rename. Only one may be chosen at a time to rename.</li>
+<li>Click the Rename icon.</li>
+</ol>
+<p><img alt="Image of the Experiment window with numbered pins showing steps 1 and 2 for renaming an experiment." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_rename_experiment.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Click within the name field and rename the experiment.</li>
+</ol>
+<ul>
+<li><strong>Note:</strong> There are specific parameters to renaming an experiment. Accepted filenames must only contain:
+<ul>
+<li>Uppercase &amp; lowercase letters</li>
+<li>Digits</li>
+<li>Hyphens</li>
+<li>Underscores</li>
+<li>Periods - While periods are accepted (because the Sim names files using them), it is <strong>currently not supported to rename a file and keep the periods in the filename.</strong> If you want to change the filename, all periods will have to be removed and/or replaced with a hyphen or underscore.</li>
+</ul></li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Click Save.</li>
+</ol>
+<p><img alt="Image of the Experiment Rename pop-up showing clicks 3 and 4 to rename an experiment." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_rename_experiment_popup.png"></p>
+</div>
+<div id="export-experiments" class="section level5 hasAnchor" number="3.2.7.1.3">
+<h5><span class="header-section-number">3.2.7.1.3</span> Export Experiment(s)<a href="3-technical-documentation.html#export-experiments" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<ol style="list-style-type: decimal">
+<li>Select at least one experiment to export.</li>
+<li>Click the Export icon. A What do you want to name your output file? pop-up will appear.</li>
+</ol>
+<p><img alt="Image of Experiment window with numbered pins showing steps 1 and 2." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_export_experiment.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Type the desired file name, then click OK.</li>
+<li>Select the destination location for the file and click Save.</li>
+</ol>
+<p><img alt="Image of rename experiment file pop-up." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_export_experiment_filename.png"></p>
+</div>
+</div>
+<div id="maintain-team-data" class="section level4 hasAnchor" number="3.2.7.2">
+<h4><span class="header-section-number">3.2.7.2</span> Maintain Team Data<a href="3-technical-documentation.html#maintain-team-data" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Expand the Team Data blue bar on your team’s Home page to reveal the Team Data maintenance window and its options: delete and upload.</p>
+<p><img alt="Image of the expanded Team Data maintenance blue bar dropdown." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_team_data_window.png"></p>
+<div id="delete-team-data" class="section level5 hasAnchor" number="3.2.7.2.1">
+<h5><span class="header-section-number">3.2.7.2.1</span> Delete Team Data<a href="3-technical-documentation.html#delete-team-data" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<ol style="list-style-type: decimal">
+<li>Select at least one Team Data file to delete.</li>
+<li>Click the delete icon.</li>
+</ol>
+<p><img alt="Image of the Team Data window with numbered pins showing steps 1 and 2 for deleting a or multiple team data files." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_delete_team_data.png"></p>
+<ol start="3" style="list-style-type: decimal">
+<li>Confirm you want to delete selected Team Data file(s) from the list.</li>
+</ol>
+<p><img alt="Image of the delete experiment confirmation message." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_delete_team_data_confirm.png"></p>
+</div>
+<div id="upload-team-data" class="section level5 hasAnchor" number="3.2.7.2.2">
+<h5><span class="header-section-number">3.2.7.2.2</span> Upload Team Data<a href="3-technical-documentation.html#upload-team-data" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<ol style="list-style-type: decimal">
+<li>Select Upload:</li>
+</ol>
+<p><img alt="Image of expanded Team Data blue bar." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_data_upload.png"></p>
 <ol start="2" style="list-style-type: decimal">
 <li><p>A pop-up window will appear asking if the data file is in Power BI format. Ensure it is and click Yes to proceed. The File Manager will appear.</p></li>
 <li><p>Navigate to the location of the downloaded team data file and click on the file name. Click Open to upload the file. Be patient; it may take a while for the file to upload.</p></li>
 </ol>
-<p><img alt="Image of File Manager team data selection window." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page_data_select.png"></p>
+<p><img alt="Image of File Manager team data selection window." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_data_select.png"></p>
 <p><strong>Notes:</strong></p>
 <ul>
 <li>Be patient; it may take a while for the file to upload.</li>
 <li>As the data file is uploaded, you will see “Data is uploading…” and three flashing loading bars in the Session Start and Team Data sections. These messages clear once the file is loaded into the Sim.</li>
 </ul>
-<p><img alt="Image of Home page with Data is uploading... messages highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page_data_is_uploading.png"></p>
+<p><img alt="Image of Home page with Data is uploading... messages highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_data_is_uploading.png"></p>
 <ol start="4" style="list-style-type: decimal">
 <li>The team data file name should now appear in the Team Data list <em>and</em> in the Please Select Team Data dropdown.</li>
 </ol>
-<p><img alt="Image of team data file showing in both Team Data and Session Start blue bars." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/home_page_data_file.png"></p>
+<p><img alt="Image of team data file showing in both Team Data and Session Start blue bars." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/field_user_data_file_uploaded.png"></p>
 <ol start="5" style="list-style-type: decimal">
 <li>Return to <a href="3-technical-documentation.html#begin-a-session-in-the-dynamic-decision-dashboard">Begin a Session in the Dynamic Decision Dashboard, Step 2</a>.</li>
 </ol>
+</div>
 </div>
 </div>
 <div id="dynamic-decision-dashboard" class="section level3 hasAnchor" number="3.2.8">
@@ -804,7 +877,7 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li><p><strong>Team Roster</strong> - Lists team members, their clinical role, and team role.</p></li>
 <li><p><strong><em>MTL</em> Manual</strong> - Click to open a comprehensive program and technical guide about <em>Modeling to Learn</em>.</p></li>
 <li><p><strong>Home</strong> - Click to go to the selected team’s Home page, which also contains the Dynamic Decision Dashboard.</p></li>
-<li><p><strong>Select Team</strong> - Use this dropdown to select your desired team. It enables you to monitor their experiments and navigate to the team’s Home page. <strong>Note:</strong> This dropdown only shows groups to which you belong (not ones in which you have the Administrator role).</p></li>
+<li><p><strong>Select Team</strong> - Use this dropdown to select your desired team. It enables you to monitor their experiments and navigate to the team’s Home page. <strong>FYI:</strong> This dropdown only shows groups to which you belong (not ones in which you have the Administrator role).</p></li>
 <li><p><strong>Gauges</strong> - This indicates the team’s progress with a selected experiment. Teams receive 20% completion for a minimum 50 characters input for each of the Question, Hypothesis, Findings, Decisions fields and another 20% for running the experiment.</p></li>
 <li><p><strong>Select Experiment</strong> - Use this dropdown to select the desired experiment to monitor. An experiment will not show in this dropdown until it has been named and saved.</p></li>
 <li><p><strong>Expand / Collapse Dropdown Triangle</strong> - Manage and monitor multiple teams by selecting this dropdown.</p></li>
@@ -917,7 +990,9 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </div>
 <div id="manage-team-data" class="section level3 hasAnchor" number="3.3.4">
 <h3><span class="header-section-number">3.3.4</span> Manage Team Data<a href="3-technical-documentation.html#manage-team-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
-<p><strong>Note: Only administrators and the internal team have access to these functions.</strong> Field users can upload their data file(s) from their team’s Home page (as well as administrators and the internal team). Field users should refer to the <a href="3-technical-documentation.html#dynamic-decision-dashboard">Dynamic Decision Dashboard section</a>.</p>
+<p>Field users maintain data file(s) from their team’s Home page and should refer to the <a href="3-technical-documentation.html#dynamic-decision-dashboard">Dynamic Decision Dashboard section</a> to do so. Administrators and the internal team can manage data file(s) from a team’s Home page, too, but will have a slightly different user experience, as shown in this screenshot:</p>
+<p><img alt="Image of Team Data window contents as seen by an Administrator." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_team_data_window_scroll.png"></p>
+<p><strong>Note: Only Administrators and the internal team have access to the following functions.</strong></p>
 <ul>
 <li>Administrators can upload team data files and assign that file(s) to team(s) of their choice.</li>
 </ul>
@@ -968,7 +1043,7 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ol>
 <p><strong>Notes:</strong> As a reminder,</p>
 <ul>
-<li>When a team data file is deleted in a _shared or _team world, they are deleting it from _shared and _team worlds for all users of those worlds. This will <em>not</em> impact _ind worlds.</li>
+<li>When a team data file is deleted in a _shared or _team world, it is deleted from _shared and _team worlds for all users of those worlds. This will <em>not</em> impact _ind worlds.</li>
 <li>When a team data file is deleted in an _ind world, it will be removed from the _ind world exclusively.</li>
 </ul>
 <p><img alt="Image of Settings - Data window with possible data file selections highlighted and an arrowpointing to the Delete button." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/delete_team_data.png"></p>
@@ -979,11 +1054,33 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <p><img alt="Image of deleted Team Data file confirmation message." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/team_data_deleted.png"></p>
 </div>
 </div>
-<div id="modeling-to-learn-maintenance-dashboards" class="section level3 hasAnchor" number="3.3.5">
-<h3><span class="header-section-number">3.3.5</span> <em>Modeling to Learn</em> Maintenance Dashboards<a href="3-technical-documentation.html#modeling-to-learn-maintenance-dashboards" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="manage-experiments" class="section level3 hasAnchor" number="3.3.5">
+<h3><span class="header-section-number">3.3.5</span> Manage Experiments<a href="3-technical-documentation.html#manage-experiments" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Administrators are able to manage experiments by navigating to a team’s Home page and expanding (see red arrow) the Experiment blue bar. The Sim displays the team name and Administrator when logged in as an Admin. Note that the current team (team loaded in on the Home page) shows up first on the Experiments list (see highlighting):</p>
+<p><img alt="Image of expanded Experiment window when logged in as an Administrator." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_experiment_window.png" width="300" ></p>
+<p><br>
+<br></p>
+<p><img alt="Image of a scrolling screen capture of the entire Experiment window." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_experiment_window_scroll.png" width="400" style="float: right; margin: 25px"></p>
+<p>Administrators have a different user experience when viewing Experiments on a team’s Home page:
+- Admins are able to see <strong>ALL</strong> experiment data across all worlds.
+- Experiments are organized by their associated groups in the Experiments window so Administrators are able to associate experiments with their respective groups.
+- The current team (team loaded in on the Home page) shows up first on the list.
+- Gray bars denote team names &amp; worlds.
+- Checkbox selections under each are experiments associated with the team.
+- <strong>FYI:</strong> The Experiments window shows experiments for all groups, but the Select Team dropdown on the Admin Dashboard only shows groups to which you belong.</p>
+<p>Administrators manage experiments using the same functions as field users. Refer to the following sections within the field user section of this manual to learn how to manage Experiments in the Sim:</p>
+<ul>
+<li><a href="#delete-experiment(s)">Delete Experiment(s)</a></li>
+<li><a href="3-technical-documentation.html#rename-an-experiment">Rename an Experiment</a></li>
+<li><a href="#export-experiment(s)">Export Experiment(s)</a></li>
+</ul>
+<p><br><br><br><br><br><br><br><br><br><br><br><br></p>
+</div>
+<div id="modeling-to-learn-maintenance-dashboards" class="section level3 hasAnchor" number="3.3.6">
+<h3><span class="header-section-number">3.3.6</span> <em>Modeling to Learn</em> Maintenance Dashboards<a href="3-technical-documentation.html#modeling-to-learn-maintenance-dashboards" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>The <em>MTL</em> Maintenance Dashboards provide customizable information and messaging capabilities for webpages in the Sim UI. Upon logging into the Sim UI as an Administrator, the <em>MTL</em> Maintenance Dashboards icons are viewable along the header bar of the Sim UI.</p>
-<div id="orient-to-the-maintenance-dashboards" class="section level4 hasAnchor" number="3.3.5.1">
-<h4><span class="header-section-number">3.3.5.1</span> Orient to the Maintenance Dashboards<a href="3-technical-documentation.html#orient-to-the-maintenance-dashboards" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="orient-to-the-maintenance-dashboards" class="section level4 hasAnchor" number="3.3.6.1">
+<h4><span class="header-section-number">3.3.6.1</span> Orient to the Maintenance Dashboards<a href="3-technical-documentation.html#orient-to-the-maintenance-dashboards" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The following screenshot will orient you to general features of the Maintenance Dashboards, located in the top navigation bar of the Administrator Dashboard.</p>
 <p><img alt="Image identifying the Maintenance Dashboards." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/orient_maintenance_dash.png"></p>
 <ol style="list-style-type: decimal">
@@ -995,8 +1092,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li><strong>Team PSD Webpage:</strong> Manage the Team PSD website, like adding award winners, adding new team member biographies and photos, or changing page content.</li>
 </ol>
 </div>
-<div id="community-function-administration" class="section level4 hasAnchor" number="3.3.5.2">
-<h4><span class="header-section-number">3.3.5.2</span> Community Function Administration<a href="3-technical-documentation.html#community-function-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="community-function-administration" class="section level4 hasAnchor" number="3.3.6.2">
+<h4><span class="header-section-number">3.3.6.2</span> Community Function Administration<a href="3-technical-documentation.html#community-function-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><img alt="Image of Community Function Aministration page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/issue_list_management.png"></p>
 <ol style="list-style-type: decimal">
 <li>Name of user submitting the issue.</li>
@@ -1005,8 +1102,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li>Description of the issue.</li>
 <li>Click the “Export” button to download an spreadsheet file of the list.</li>
 </ol>
-<div id="user-issue-list-management" class="section level5 hasAnchor" number="3.3.5.2.1">
-<h5><span class="header-section-number">3.3.5.2.1</span> User Issue List Management<a href="3-technical-documentation.html#user-issue-list-management" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="user-issue-list-management" class="section level5 hasAnchor" number="3.3.6.2.1">
+<h5><span class="header-section-number">3.3.6.2.1</span> User Issue List Management<a href="3-technical-documentation.html#user-issue-list-management" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Use this section to review issue information. The listing only contains a text description of the issue. Sometimes users submit files or screenshots. To view these details:</p>
 <p><img alt="Image of the Issue Summary pop-up." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/review_issue.png"></p>
 <ol style="list-style-type: decimal">
@@ -1015,8 +1112,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li>Review information in the pop-up.</li>
 </ol>
 </div>
-<div id="outgoing-message-management" class="section level5 hasAnchor" number="3.3.5.2.2">
-<h5><span class="header-section-number">3.3.5.2.2</span> Outgoing Message Management<a href="3-technical-documentation.html#outgoing-message-management" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="outgoing-message-management" class="section level5 hasAnchor" number="3.3.6.2.2">
+<h5><span class="header-section-number">3.3.6.2.2</span> Outgoing Message Management<a href="3-technical-documentation.html#outgoing-message-management" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>The Sim UI sends out email and other messages to mass communicate important information. There are 5 types of messages.</p>
 <p><img alt="Image of the Outgoing Message Management blue bar for general orientation." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/manage_out_msg.png"></p>
 <ol style="list-style-type: decimal">
@@ -1026,23 +1123,23 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li><strong>News:</strong> Every user has a News button on their Home webpage. When clicked, it will display news items on their webpage that were set up with this function.</li>
 <li><strong>Alert:</strong> Also known as an ANDON alert, this is an outgoing message that displays on the Home webpage when the user logs in. It can target administrators only, users only, or both. ANDONS are normally reserved for problems where the user should stop using the Sim UI until the issue is resolved.</li>
 </ol>
-<div id="target-andon-alert-users" class="section level6 hasAnchor" number="3.3.5.2.2.1">
-<h6><span class="header-section-number">3.3.5.2.2.1</span> Target ANDON Alert Users<a href="3-technical-documentation.html#target-andon-alert-users" class="anchor-section" aria-label="Anchor link to header"></a></h6>
+<div id="target-andon-alert-users" class="section level6 hasAnchor" number="3.3.6.2.2.1">
+<h6><span class="header-section-number">3.3.6.2.2.1</span> Target ANDON Alert Users<a href="3-technical-documentation.html#target-andon-alert-users" class="anchor-section" aria-label="Anchor link to header"></a></h6>
 <p>As explained in 5. above, you can target specific users with an ANDON Alert. When Alert is selected from the Message dropdown, an additional Show Message to Whom will appear. Select the target audience and click Add Message.</p>
 <p><img alt="Image of Outgoing Message Management - Alert options." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/andon_alert.png"></p>
 </div>
 </div>
 </div>
-<div id="more-information-page-administration" class="section level4 hasAnchor" number="3.3.5.3">
-<h4><span class="header-section-number">3.3.5.3</span> More Information Page Administration<a href="3-technical-documentation.html#more-information-page-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="more-information-page-administration" class="section level4 hasAnchor" number="3.3.6.3">
+<h4><span class="header-section-number">3.3.6.3</span> More Information Page Administration<a href="3-technical-documentation.html#more-information-page-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>When a user clicks the More Info icon in the their header bar within the Sim UI, they navigate to a page that contains information about the Sim UI. There are multiple sections: <em>MTL</em> Guides, <em>MTL</em> Links, <em>MTL</em> Navigation, <em>MTL</em> Modules, <em>MTL</em> Sections, and <em>MTL</em> References. While the sections of this page are permanent, you can change elements inside the sections using the Administration page, accessed by clicking More Info from the Administrator Dashboard.</p>
-<div id="mtl-guides-and-navigation-pages" class="section level5 hasAnchor" number="3.3.5.3.1">
-<h5><span class="header-section-number">3.3.5.3.1</span> <em>MTL</em> Guides and Navigation Pages<a href="3-technical-documentation.html#mtl-guides-and-navigation-pages" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="mtl-guides-and-navigation-pages" class="section level5 hasAnchor" number="3.3.6.3.1">
+<h5><span class="header-section-number">3.3.6.3.1</span> <em>MTL</em> Guides and Navigation Pages<a href="3-technical-documentation.html#mtl-guides-and-navigation-pages" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><strong>You cannot change the <em>MTL</em> Guides or Navigation pages.</strong></p>
 <p><img alt="Image of highlighted MTL Guides and MTL Navigation blue bars within the More Info Admin Page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/moreinfo_guides_navigation.png"></p>
 </div>
-<div id="mtl-links-and-references-pages" class="section level5 hasAnchor" number="3.3.5.3.2">
-<h5><span class="header-section-number">3.3.5.3.2</span> <em>MTL</em> Links and References Pages<a href="3-technical-documentation.html#mtl-links-and-references-pages" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="mtl-links-and-references-pages" class="section level5 hasAnchor" number="3.3.6.3.2">
+<h5><span class="header-section-number">3.3.6.3.2</span> <em>MTL</em> Links and References Pages<a href="3-technical-documentation.html#mtl-links-and-references-pages" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Below is the <em>MTL</em> Links page.</p>
 <p><img alt="Image of the MTL Links page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/moreinfo_links.png"></p>
 <ol style="list-style-type: decimal">
@@ -1051,8 +1148,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ol>
 <p>Below is the <em>MTL</em> References page, a bibliography that supports the research being conducted by <em>MTL</em>.</p>
 <p><img alt="Image of the MTL References page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/moreinfo_references.png"></p>
-<div id="update-links-and-references" class="section level6 hasAnchor" number="3.3.5.3.2.1">
-<h6><span class="header-section-number">3.3.5.3.2.1</span> Update Links and References<a href="3-technical-documentation.html#update-links-and-references" class="anchor-section" aria-label="Anchor link to header"></a></h6>
+<div id="update-links-and-references" class="section level6 hasAnchor" number="3.3.6.3.2.1">
+<h6><span class="header-section-number">3.3.6.3.2.1</span> Update Links and References<a href="3-technical-documentation.html#update-links-and-references" class="anchor-section" aria-label="Anchor link to header"></a></h6>
 <p>Below is the Links and References maintenance saection of the More Info Admin page.</p>
 <p><img alt="Image of the MTL More Information Links and References Section Maintenance blue bar." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/moreinfoadmin_links_references.png"></p>
 <ol style="list-style-type: decimal">
@@ -1073,12 +1170,12 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ol>
 </div>
 </div>
-<div id="mtl-modules-page" class="section level5 hasAnchor" number="3.3.5.3.3">
-<h5><span class="header-section-number">3.3.5.3.3</span> <em>MTL</em> Modules Page<a href="3-technical-documentation.html#mtl-modules-page" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="mtl-modules-page" class="section level5 hasAnchor" number="3.3.6.3.3">
+<h5><span class="header-section-number">3.3.6.3.3</span> <em>MTL</em> Modules Page<a href="3-technical-documentation.html#mtl-modules-page" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>The screenshot below shows a table with a listing of the modules offered in <em>MTL</em>. In case more modules are addedt, it is possible to expand this list.</p>
 <p><img alt="Image of the MTL Modules blue bar." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_moreinfo_modules.png"></p>
-<div id="update-or-add-module-information" class="section level6 hasAnchor" number="3.3.5.3.3.1">
-<h6><span class="header-section-number">3.3.5.3.3.1</span> Update or Add Module Information<a href="3-technical-documentation.html#update-or-add-module-information" class="anchor-section" aria-label="Anchor link to header"></a></h6>
+<div id="update-or-add-module-information" class="section level6 hasAnchor" number="3.3.6.3.3.1">
+<h6><span class="header-section-number">3.3.6.3.3.1</span> Update or Add Module Information<a href="3-technical-documentation.html#update-or-add-module-information" class="anchor-section" aria-label="Anchor link to header"></a></h6>
 <ol style="list-style-type: decimal">
 <li>Click this button to add a section. It will appear as the last row on the list.</li>
 <li>This is the sequence that the link will appear on the page. These can be modified by changing the number. <strong>Note: All numbers will need to be updated to reflect the new sequence.</strong></li>
@@ -1091,12 +1188,12 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </div>
 </div>
 </div>
-<div id="tutor-function" class="section level4 hasAnchor" number="3.3.5.4">
-<h4><span class="header-section-number">3.3.5.4</span> Tutor Function<a href="3-technical-documentation.html#tutor-function" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="tutor-function" class="section level4 hasAnchor" number="3.3.6.4">
+<h4><span class="header-section-number">3.3.6.4</span> Tutor Function<a href="3-technical-documentation.html#tutor-function" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The Tutor is a function in the Sim UI that explains functions on the webpage to the user. Each section on the Home, Care Coordination, Medication Management, Psychotherapy, Team Care, and Team Flow pages have a Tutor icon.</p>
 <p><img alt="Image of Tutor prompt with explanatory callouts." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tutor_desc.png"></p>
-<div id="tutor-administrative-dashboard" class="section level5 hasAnchor" number="3.3.5.4.1">
-<h5><span class="header-section-number">3.3.5.4.1</span> Tutor Administrative Dashboard<a href="3-technical-documentation.html#tutor-administrative-dashboard" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="tutor-administrative-dashboard" class="section level5 hasAnchor" number="3.3.6.4.1">
+<h5><span class="header-section-number">3.3.6.4.1</span> Tutor Administrative Dashboard<a href="3-technical-documentation.html#tutor-administrative-dashboard" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>The Tutor Administrative Dashboard enables you to adjust descriptive text and links associated with each Tutor callout box. <strong>However, the user cannot add or remove Tutor callouts.</strong> These have to be added using computer code. See below for a description of these features.</p>
 <p><img alt="Image of tutor functionality within the Sim UI." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tutor_admin_page.png"></p>
 <ol style="list-style-type: decimal">
@@ -1109,8 +1206,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ol>
 </div>
 </div>
-<div id="mtl-quick-tip-loading-screen-administration" class="section level4 hasAnchor" number="3.3.5.5">
-<h4><span class="header-section-number">3.3.5.5</span> <em>MTL</em> Quick Tip Loading Screen Administration<a href="3-technical-documentation.html#mtl-quick-tip-loading-screen-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="mtl-quick-tip-loading-screen-administration" class="section level4 hasAnchor" number="3.3.6.5">
+<h4><span class="header-section-number">3.3.6.5</span> <em>MTL</em> Quick Tip Loading Screen Administration<a href="3-technical-documentation.html#mtl-quick-tip-loading-screen-administration" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>When a screen loads in the Sim UI, a blank gray screen is presented. We use this opportunity to offer suggestions or “Tips” to explain functions in the Sim UI. We have an admin webpage to create new Tips, accessible by logging in as an Administrator, then selecting Tips on the Administrator Dashboard top navigation bar:</p>
 <p><img alt="Image of Administrator Dashboard with the Tips icon highlighted in the top navigation bar." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tips_admin_dashboard.png"></p>
 <p>Tips usually have graphics, which are white line drawings on transparent background saved in the .svg format. When paired with text, these present on the loading screen (see example below). A repository of quick tips icons are available in <a href="https://github.com/lzim/mtl/tree/gh-pages/images/quick_tips_files">lzim/mtl/images/quick_tips_files</a>.</p>
@@ -1142,8 +1239,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </tr>
 </tbody>
 </table>
-<div id="add-a-quick-tip" class="section level5 hasAnchor" number="3.3.5.5.1">
-<h5><span class="header-section-number">3.3.5.5.1</span> Add a Quick Tip<a href="3-technical-documentation.html#add-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="add-a-quick-tip" class="section level5 hasAnchor" number="3.3.6.5.1">
+<h5><span class="header-section-number">3.3.6.5.1</span> Add a Quick Tip<a href="3-technical-documentation.html#add-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <ol style="list-style-type: decimal">
 <li>From the Administrator Dashboard, click on the “Tips” icon. The <em>MTL</em> Quick Tip Loading Screen Administration page will open.</li>
 <li>Click the “Add Tip” button. The page will scroll to the bottom of the list and present a new row to input information.</li>
@@ -1153,29 +1250,29 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ol>
 <p><img alt="Image of navigation steps to update Quick Tips." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tips_quick_tip_update.png"></p>
 </div>
-<div id="update-a-quick-tip" class="section level5 hasAnchor" number="3.3.5.5.2">
-<h5><span class="header-section-number">3.3.5.5.2</span> Update a Quick Tip<a href="3-technical-documentation.html#update-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="update-a-quick-tip" class="section level5 hasAnchor" number="3.3.6.5.2">
+<h5><span class="header-section-number">3.3.6.5.2</span> Update a Quick Tip<a href="3-technical-documentation.html#update-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Updating a Quick Tip is similar to adding one. See the screenshot below for more information. <strong>Remember to click the blue checkmark button (save) when finished!</strong></p>
 <p><img alt="Image of steps to update a Quick Tip." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tips_update.png"></p>
 </div>
-<div id="delete-a-quick-tip" class="section level5 hasAnchor" number="3.3.5.5.3">
-<h5><span class="header-section-number">3.3.5.5.3</span> Delete a Quick Tip<a href="3-technical-documentation.html#delete-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="delete-a-quick-tip" class="section level5 hasAnchor" number="3.3.6.5.3">
+<h5><span class="header-section-number">3.3.6.5.3</span> Delete a Quick Tip<a href="3-technical-documentation.html#delete-a-quick-tip" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>To delete a quick tip, select the tip(s) to delete, then click the delete button.</p>
 <p><img alt="Image of steps to update a Quick Tip." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_tips_delete.png"></p>
 </div>
 </div>
-<div id="manage-mtl-demo-webpage" class="section level4 hasAnchor" number="3.3.5.6">
-<h4><span class="header-section-number">3.3.5.6</span> Manage <em>MTL</em> Demo Webpage<a href="3-technical-documentation.html#manage-mtl-demo-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="manage-mtl-demo-webpage" class="section level4 hasAnchor" number="3.3.6.6">
+<h4><span class="header-section-number">3.3.6.6</span> Manage <em>MTL</em> Demo Webpage<a href="3-technical-documentation.html#manage-mtl-demo-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>The <em>MTL</em> Demo webpage provides interested users access to a demonstration simulation. The webpage also offers information about the research project, associated training and video materials, and highlights partners that had a hand in its development. The admin website enables the admin to adjust webpage content and demo users.</p>
-<div id="mtl-demo-webpage" class="section level5 hasAnchor" number="3.3.5.6.1">
-<h5><span class="header-section-number">3.3.5.6.1</span> <em>MTL</em> Demo Webpage<a href="3-technical-documentation.html#mtl-demo-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="mtl-demo-webpage" class="section level5 hasAnchor" number="3.3.6.6.1">
+<h5><span class="header-section-number">3.3.6.6.1</span> <em>MTL</em> Demo Webpage<a href="3-technical-documentation.html#mtl-demo-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Navigate to <a href="https://forio.com/app/va/va-psd-demo/mtl_demo.html"><em>MTL</em> Demo</a> to view example below.</p>
 <p><img alt="Image of the MTL Demo page." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_demo_website.png"></p>
 <p>To modify this webpage, click on the <em>MTL</em> Demo icon from the Administrator Dashboard.</p>
 <p><img alt="Image showing Administrator Dashboard with _MTL_ Demo icon highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_dash_mtl_demo.png"></p>
 </div>
-<div id="orient-to-the-mtl-demo-admin-webpage" class="section level5 hasAnchor" number="3.3.5.6.2">
-<h5><span class="header-section-number">3.3.5.6.2</span> Orient to the <em>MTL</em> Demo Admin Webpage<a href="3-technical-documentation.html#orient-to-the-mtl-demo-admin-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="orient-to-the-mtl-demo-admin-webpage" class="section level5 hasAnchor" number="3.3.6.6.2">
+<h5><span class="header-section-number">3.3.6.6.2</span> Orient to the <em>MTL</em> Demo Admin Webpage<a href="3-technical-documentation.html#orient-to-the-mtl-demo-admin-webpage" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p><img alt="Image of the MTL Demo Admin webpage." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/mtl_demo_orient.png"></p>
 <ol style="list-style-type: decimal">
 <li><strong>Export User Data</strong> section lists users that have registered for access to the <em>MTL</em> Demo simulation. It lists their names and contact information. The typical registration is for 14 days. However, with a Course Code, the length of the registration can be longer. A user’s access time can be improved, but <strong>it must be done before the original date expires.</strong></li>
@@ -1183,8 +1280,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <li><strong><em>MTL</em> Demo - Slider</strong> section is where the GIF slider files are uploaded.</li>
 </ol>
 </div>
-<div id="add-course-code" class="section level5 hasAnchor" number="3.3.5.6.3">
-<h5><span class="header-section-number">3.3.5.6.3</span> Add Course Code<a href="3-technical-documentation.html#add-course-code" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="add-course-code" class="section level5 hasAnchor" number="3.3.6.6.3">
+<h5><span class="header-section-number">3.3.6.6.3</span> Add Course Code<a href="3-technical-documentation.html#add-course-code" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Sometimes we present <em>Modeling to Learn</em> in seminars and other academic gatherings. To enable participants to experience <em>MTL</em>, we provide a course code that enables users to access the platform longer than the standard 14 days.</p>
 <ol style="list-style-type: decimal">
 <li>From the <em>MTL</em> Demo Admin Webpage, click Add Course Code. An Add Course Code pop-up will appear.</li>
@@ -1197,11 +1294,11 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </div>
 </div>
 </div>
-<div id="forio-epicenter" class="section level3 hasAnchor" number="3.3.6">
-<h3><span class="header-section-number">3.3.6</span> Forio Epicenter<a href="3-technical-documentation.html#forio-epicenter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="forio-epicenter" class="section level3 hasAnchor" number="3.3.7">
+<h3><span class="header-section-number">3.3.7</span> Forio Epicenter<a href="3-technical-documentation.html#forio-epicenter" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Forio Epicenter is an enterprise platform that hosts our Sim UI and runs the simulations for end users. While the Sim UI can manage most administrator-user needs within the web interface, sometimes it is necessary to go directly into Epicenter to, for example, set up a new end user in Epicenter. Click <a href="https://forio.com/epicenter/sign-in">Epicenter</a> to go to the login.</p>
-<div id="send-password-reset-to-end-user-or-change-password" class="section level4 hasAnchor" number="3.3.6.1">
-<h4><span class="header-section-number">3.3.6.1</span> Send Password Reset to End User or Change Password<a href="3-technical-documentation.html#send-password-reset-to-end-user-or-change-password" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="send-password-reset-to-end-user-or-change-password" class="section level4 hasAnchor" number="3.3.7.1">
+<h4><span class="header-section-number">3.3.7.1</span> Send Password Reset to End User or Change Password<a href="3-technical-documentation.html#send-password-reset-to-end-user-or-change-password" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Log into <a href="https://forio.com/epicenter/sign-in">Epicenter</a>.</li>
 <li>Click on Veterans Affairs.</li>
@@ -1224,8 +1321,8 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 </ul>
 <p><img alt="Image of end user edit dropdown, with password reset options highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/forio_enduser_password.png"></p>
 </div>
-<div id="setup-a-new-epicenter-end-user" class="section level4 hasAnchor" number="3.3.6.2">
-<h4><span class="header-section-number">3.3.6.2</span> Setup a New Epicenter End User<a href="3-technical-documentation.html#setup-a-new-epicenter-end-user" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="setup-a-new-epicenter-end-user" class="section level4 hasAnchor" number="3.3.7.2">
+<h4><span class="header-section-number">3.3.7.2</span> Setup a New Epicenter End User<a href="3-technical-documentation.html#setup-a-new-epicenter-end-user" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ol style="list-style-type: decimal">
 <li>Navigate to a project.</li>
 </ol>
@@ -1250,12 +1347,12 @@ For Administrators, the login dropdown only shows worlds in which you’re a Tea
 <p>We usually put the user’s VA email address in this field. However, it does not have to be an email unless you are sending a notice via email to the user. Sometimes users just need an alias besides their email address.</p>
 <p><img alt="Image of the Add End Users page with fields to complete highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/add_invite_user.png"></p>
 </div>
-<div id="setup-a-team" class="section level4 hasAnchor" number="3.3.6.3">
-<h4><span class="header-section-number">3.3.6.3</span> Setup a Team<a href="3-technical-documentation.html#setup-a-team" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="setup-a-team" class="section level4 hasAnchor" number="3.3.7.3">
+<h4><span class="header-section-number">3.3.7.3</span> Setup a Team<a href="3-technical-documentation.html#setup-a-team" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p><strong>We don’t set up teams directly in Epicenter anymore,</strong> because there are multiple dependencies in the Sim UI that would be bypassed. See <a href="3-technical-documentation.html#manage-teams">Manage Teams</a> for more information about setting up a team from the Administrator Dashboard.</p>
 </div>
-<div id="setup-an-admin" class="section level4 hasAnchor" number="3.3.6.4">
-<h4><span class="header-section-number">3.3.6.4</span> Setup an Admin<a href="3-technical-documentation.html#setup-an-admin" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div id="setup-an-admin" class="section level4 hasAnchor" number="3.3.7.4">
+<h4><span class="header-section-number">3.3.7.4</span> Setup an Admin<a href="3-technical-documentation.html#setup-an-admin" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>To set up an Admin, the end-user id must be assigned to the administrator_login group on the group’s page.</p>
 <p><img alt="Image of the administrator_login group highlighted." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/admin_end_user.png"></p>
 
