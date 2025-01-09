@@ -49,6 +49,7 @@ dynamic-decision-dashboard
 understand-the-five-modules
 orient-to-the-dynamic-decision-dashboard
 feedback-loops
+flows
 decision-meters
 episodes-of-care
 enter-and-save-an-experiment

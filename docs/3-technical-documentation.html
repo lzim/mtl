@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 Technical Documentation | Modeling to Learn 3.7 Consult Manual</title>
   <meta name="description" content="This is the MTL one-stop shop." />
-  <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 Technical Documentation | Modeling to Learn 3.7 Consult Manual" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="Team PSD" />
 
 
-<meta name="date" content="2024-12-13" />
+<meta name="date" content="2025-01-09" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -686,8 +686,27 @@
 <li><p><strong>Exit:</strong> Click to close this window.</p></li>
 </ol>
 </div>
-<div id="decision-meters" class="section level5 hasAnchor" number="3.2.8.2.2">
-<h5><span class="header-section-number">3.2.8.2.2</span> Decision Meters<a href="3-technical-documentation.html#decision-meters" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="flows" class="section level5 hasAnchor" number="3.2.8.2.2">
+<h5><span class="header-section-number">3.2.8.2.2</span> Flows<a href="3-technical-documentation.html#flows" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<p>Flow meters are visualized in Sankey form. Sankey is a data visualization technique that uses a flow diagram to depict the movement of a quantity (Veterans) through stocks (a state of care) over time. The width of the arrows is proportioinal to the flow quantity, which allows viewers to easily identify the largest flows within a system.</p>
+<p><img alt="Image of stock or state indicator key." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/stock_state_indicator_key.png" style="float: right; margin: 25px"></p>
+<p>The stock or state indicator key is located at the top right of each flow diagram pop-up for quick reference. A stock is a state of care in which patients can accumulate over time. In the Sim UI, stocks change coor based on their state. When the invlow exceeds the outflow, patients accumulate and the stock is red. When the inflow is equal to, or less than the outflow, patients flow and the stock is blue. This allows viewers to easily identify bottlenecks within a system.</p>
+<p>Each module has its own unique flow dynamics. For illustrative purposes, the Psychotherapy Flow Diagram is used as an example below to orient you to general flow diagram features.</p>
+<p><img alt="Image of psychotherapy flow diagram." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/psy_flow_diagram.png"></p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Tutor:</strong> The Tutor button will introduce you to the features of this page.</p></li>
+<li><p><strong>Appointments:</strong> The top part of the diagram depicts the flow of appointments within PSY.</p></li>
+<li><p><strong>Key:</strong> Refer to this key to understand color coding of the stock or state indicator.</p></li>
+<li><p><strong>Patients:</strong> The bottom part of the diagram depicts the flow of patients within PSY.</p></li>
+<li><p><strong>Dial:</strong> A dial indicates rate of flow into the stock at the point of the arrow—here, the dial indicates the number of patients per week starting their first visit.</p></li>
+<li><p><strong>Proportional Flow Lines:</strong> The width of the flow lines under this pin are proportional to the flow quantity. To aid in comparing inflows and outflows, they appear in the same fixed order.</p></li>
+<li><p><strong>Stock Rectangle:</strong> This stock indicates the total number of patients scheduled for their first visit. The level of a stock is determined by the rates of flow into and out of it.</p></li>
+<li><p><strong>”i” icons:</strong> Click any “i” icon in the Sim UI for a pop-up with more information about the labeled feature.</p></li>
+<li><p><strong>Exit:</strong> Click to close this window.</p></li>
+</ol>
+</div>
+<div id="decision-meters" class="section level5 hasAnchor" number="3.2.8.2.3">
+<h5><span class="header-section-number">3.2.8.2.3</span> Decision Meters<a href="3-technical-documentation.html#decision-meters" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Decision Meters are a quick infographic-based way to identify the highest leverage points and are highly supportive of clinical decision-making; they are for “decider” users who need systems thinking insights. The meters provide a visual interface that provides real-time feedback on ranges in our primary <em>MTL</em> units of patients/week and appointments/week. The traffic light reflects the current state results and <em>recommendation</em> of future state results. Through dialogue with decision-makers, consultants and field users manually input values into this graphic generator so the decision meters reflect the recommendations based on the alternative scenarios/experiments run by the learner. Decision meter numbers should be reflected in the “D” box of the Q/H/F/D outputs text field within the Sim UI, usually as ranges of numbers.</p>
 <ul>
 <li>Care Decision Meters are for <em>MTL Blue</em> teams only.</li>
@@ -707,8 +726,8 @@
 <li><p><strong>Exit:</strong> Click to close the pop-up window.</p></li>
 </ol>
 </div>
-<div id="episodes-of-care" class="section level5 hasAnchor" number="3.2.8.2.3">
-<h5><span class="header-section-number">3.2.8.2.3</span> Episodes of Care<a href="3-technical-documentation.html#episodes-of-care" class="anchor-section" aria-label="Anchor link to header"></a></h5>
+<div id="episodes-of-care" class="section level5 hasAnchor" number="3.2.8.2.4">
+<h5><span class="header-section-number">3.2.8.2.4</span> Episodes of Care<a href="3-technical-documentation.html#episodes-of-care" class="anchor-section" aria-label="Anchor link to header"></a></h5>
 <p>Timely access to high-quality care includes improved understanding of dynamic tradeoffs in the Return-to-Clinic Visit Interval (RVI) and engagement durations. The Episodes of Care pop-up is used to graphically show evidence-based episode of care intervals to get a bird’s eye view of how long the length of engagement will be. Available within the Medication Management, Psychotherapy, and Team Care modules, this pop-up integrates engagement duration and RVI for both Medication Management and Psychotherapy.</p>
 <p>The following screenshot will orient you to general features of this pop-up.</p>
 <p><img alt="Image of the Episodes of Care pop-up." src="https://raw.githubusercontent.com/lzim/mtl/gh-pages/images/episode_of_care_popup.png"></p>
