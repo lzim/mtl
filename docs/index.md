@@ -1,7 +1,7 @@
 ---
 title: "_Modeling to Learn 3.7 Consult Manual_"
 author: "Team PSD"
-date: "2025-01-09"
+date: "2025-03-27"
 link-citations: yes
 preview: yes
 site: bookdown::bookdown_site
